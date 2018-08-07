@@ -1,4 +1,4 @@
-Route116: @ 848281C
+Route116::
 	.4byte Route116_Layout
 	.4byte Route116_MapEvents
 	.4byte Route116_MapScripts
@@ -12,4 +12,3 @@ Route116: @ 848281C
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

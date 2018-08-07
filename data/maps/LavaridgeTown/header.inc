@@ -1,4 +1,4 @@
-LavaridgeTown: @ 8482608
+LavaridgeTown::
 	.4byte LavaridgeTown_Layout
 	.4byte LavaridgeTown_MapEvents
 	.4byte LavaridgeTown_MapScripts
@@ -12,4 +12,3 @@ LavaridgeTown: @ 8482608
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

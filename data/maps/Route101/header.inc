@@ -1,4 +1,4 @@
-Route101: @ 8482678
+Route101::
 	.4byte Route101_Layout
 	.4byte Route101_MapEvents
 	.4byte Route101_MapScripts
@@ -12,4 +12,3 @@ Route101: @ 8482678
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

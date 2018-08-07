@@ -10,6 +10,6 @@ OldaleTown_Layout::
 	.4byte 0x14
 	.4byte OldaleTown_MapBorder
 	.4byte OldaleTown_MapBlockdata
-	.4byte gTileset_General
+	.4byte gTileset_Building
 	.4byte gTileset_Petalburg
 

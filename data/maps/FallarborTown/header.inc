@@ -1,4 +1,4 @@
-FallarborTown: @ 8482624
+FallarborTown::
 	.4byte FallarborTown_Layout
 	.4byte FallarborTown_MapEvents
 	.4byte FallarborTown_MapScripts
@@ -12,4 +12,3 @@ FallarborTown: @ 8482624
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

@@ -1,4 +1,4 @@
-Route109: @ 8482758
+Route109::
 	.4byte Route109_Layout
 	.4byte Route109_MapEvents
 	.4byte Route109_MapScripts
@@ -12,4 +12,3 @@ Route109: @ 8482758
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

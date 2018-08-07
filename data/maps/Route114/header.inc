@@ -1,4 +1,4 @@
-Route114: @ 84827E4
+Route114::
 	.4byte Route114_Layout
 	.4byte Route114_MapEvents
 	.4byte Route114_MapScripts
@@ -12,4 +12,3 @@ Route114: @ 84827E4
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

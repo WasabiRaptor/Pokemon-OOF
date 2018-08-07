@@ -1,4 +1,4 @@
-MauvilleCity: @ 84824F0
+MauvilleCity::
 	.4byte MauvilleCity_Layout
 	.4byte MauvilleCity_MapEvents
 	.4byte MauvilleCity_MapScripts
@@ -12,4 +12,3 @@ MauvilleCity: @ 84824F0
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

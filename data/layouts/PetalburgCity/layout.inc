@@ -11,5 +11,5 @@ PetalburgCity_Layout::
 	.4byte PetalburgCity_MapBorder
 	.4byte PetalburgCity_MapBlockdata
 	.4byte gTileset_General
-	.4byte gTileset_Petalburg
+	.4byte gTileset_Rustboro
 

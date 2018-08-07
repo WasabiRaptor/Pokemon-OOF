@@ -1,4 +1,4 @@
-FortreeCity: @ 8482528
+FortreeCity::
 	.4byte FortreeCity_Layout
 	.4byte FortreeCity_MapEvents
 	.4byte FortreeCity_MapScripts
@@ -12,4 +12,3 @@ FortreeCity: @ 8482528
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

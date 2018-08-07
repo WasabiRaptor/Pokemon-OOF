@@ -1,4 +1,4 @@
-Route112: @ 84827AC
+Route112::
 	.4byte Route112_Layout
 	.4byte Route112_MapEvents
 	.4byte Route112_MapScripts
@@ -12,4 +12,3 @@ Route112: @ 84827AC
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

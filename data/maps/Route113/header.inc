@@ -1,4 +1,4 @@
-Route113: @ 84827C8
+Route113::
 	.4byte Route113_Layout
 	.4byte Route113_MapEvents
 	.4byte Route113_MapScripts
@@ -12,4 +12,3 @@ Route113: @ 84827C8
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

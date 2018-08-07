@@ -1,4 +1,4 @@
-VerdanturfTown: @ 8482640
+VerdanturfTown::
 	.4byte VerdanturfTown_Layout
 	.4byte VerdanturfTown_MapEvents
 	.4byte VerdanturfTown_MapScripts
@@ -12,4 +12,3 @@ VerdanturfTown: @ 8482640
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

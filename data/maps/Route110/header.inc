@@ -1,4 +1,4 @@
-Route110: @ 8482774
+Route110::
 	.4byte Route110_Layout
 	.4byte Route110_MapEvents
 	.4byte Route110_MapScripts
@@ -12,4 +12,3 @@ Route110: @ 8482774
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

@@ -1,4 +1,4 @@
-OldaleTown: @ 84825D0
+OldaleTown::
 	.4byte OldaleTown_Layout
 	.4byte OldaleTown_MapEvents
 	.4byte OldaleTown_MapScripts
@@ -12,4 +12,3 @@ OldaleTown: @ 84825D0
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

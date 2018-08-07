@@ -1,4 +1,4 @@
-Route117: @ 8482838
+Route117::
 	.4byte Route117_Layout
 	.4byte Route117_MapEvents
 	.4byte Route117_MapScripts
@@ -12,4 +12,3 @@ Route117: @ 8482838
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
-

@@ -1,8 +1,7 @@
-Route120_MapConnectionsList: @ 8486AC0
-	connection left, 0, MAP_FORTREE_CITY
+Route120_MapConnectionsList::
 	connection right, 80, MAP_ROUTE121
+	connection left, -15, MAP_PACIFIDLOG_TOWN
 
-Route120_MapConnections: @ 8486AD8
-	.4byte 0x2
+Route120_MapConnections::
+	.4byte 2
 	.4byte Route120_MapConnectionsList
-
