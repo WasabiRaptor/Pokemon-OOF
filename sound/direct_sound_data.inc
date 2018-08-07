@@ -928,7 +928,7 @@ Cry_Jolteon:: @ 87D8730
 
 	.align 2
 Cry_Glazeon:: @ 87D9704
-	.incbin "sound/direct_sound_samples/cry_flareon.bin"
+	.incbin "sound/direct_sound_samples/cry_glazeon.bin"
 
 	.align 2
 Cry_Porygon:: @ 87DA688

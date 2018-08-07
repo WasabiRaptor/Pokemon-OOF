@@ -64,7 +64,7 @@ BattleAIScript_82DBF92: @ 82DBF92
 
 CheckIfVoltAbsorbCancelsElectric: @ 82DBFBD
 	get_curr_move_type
-	if_equal_ TYPE_ELECTRIC, Score_Minus12
+	if_equal_ TYPE_ACDC, Score_Minus12
 	goto BattleAIScript_82DBFF7
 
 CheckIfWaterAbsorbCancelsWater: @ 82DBFCA
@@ -74,7 +74,7 @@ CheckIfWaterAbsorbCancelsWater: @ 82DBFCA
 
 CheckIfFlashFireCancelsFire: @ 82DBFD7
 	get_curr_move_type
-	if_equal_ TYPE_FIRE, Score_Minus12
+	if_equal_ TYPE_LIT, Score_Minus12
 	goto BattleAIScript_82DBFF7
 
 CheckIfWonderGuardCancelsMove: @ 82DBFE4
@@ -343,10 +343,10 @@ AI_CBM_Roar: @ 82DC47B
 
 AI_CBM_Toxic: @ 82DC48C
 	get_target_type1
-	if_equal TYPE_STEEL, Score_Minus10
+	if_equal TYPE_METAL, Score_Minus10
 	if_equal TYPE_POISON, Score_Minus10
 	get_target_type2
-	if_equal TYPE_STEEL, Score_Minus10
+	if_equal TYPE_METAL, Score_Minus10
 	if_equal TYPE_POISON, Score_Minus10
 	get_ability AI_TARGET
 	if_equal ABILITY_IMMUNITY, Score_Minus10
@@ -414,9 +414,9 @@ AI_CBM_Substitute: @ 82DC568
 AI_CBM_LeechSeed: @ 82DC57A
 	if_status3 AI_TARGET, STATUS3_LEECHSEED, Score_Minus10
 	get_target_type1
-	if_equal TYPE_GRASS, Score_Minus10
+	if_equal TYPE_WEED, Score_Minus10
 	get_target_type2
-	if_equal TYPE_GRASS, Score_Minus10
+	if_equal TYPE_WEED, Score_Minus10
 	end
 
 AI_CBM_Disable: @ 82DC595
@@ -966,11 +966,11 @@ AI_CV_DefenseUp_PhysicalTypes: @ 82DCC53
     .byte TYPE_FIGHTING
     .byte TYPE_POISON
     .byte TYPE_GROUND
-    .byte TYPE_FLYING
+    .byte TYPE_BIRD
     .byte TYPE_ROCK
     .byte TYPE_BUG
     .byte TYPE_GHOST
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_SpeedUp: @ 82DCC5D
@@ -1046,11 +1046,11 @@ AI_CV_SpDefUp_PhysicalTypes: @ 82DCD0A
     .byte TYPE_FIGHTING
     .byte TYPE_POISON
     .byte TYPE_GROUND
-    .byte TYPE_FLYING
+    .byte TYPE_BIRD
     .byte TYPE_ROCK
     .byte TYPE_BUG
     .byte TYPE_GHOST
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_AccuracyUp:
@@ -1161,7 +1161,7 @@ AI_CV_AttackDown_UnknownTypeList:
     .byte TYPE_GROUND
     .byte TYPE_ROCK
     .byte TYPE_BUG
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_DefenseDown:
@@ -1224,14 +1224,14 @@ AI_CV_SpAtkDown_End: @ 82DCEE1
 	end
 
 AI_CV_SpAtkDown_SpecialTypeList: @ 82DCEE2
-    .byte TYPE_FIRE
+    .byte TYPE_LIT
     .byte TYPE_WATER
-    .byte TYPE_GRASS
-    .byte TYPE_ELECTRIC
+    .byte TYPE_WEED
+    .byte TYPE_ACDC
     .byte TYPE_PSYCHIC
-    .byte TYPE_ICE
+    .byte TYPE_FRIDGE
     .byte TYPE_DRAGON
-    .byte TYPE_DARK
+    .byte TYPE_EVIL
     .byte -1
 
 AI_CV_SpDefDown: @ 82DCEEB
@@ -1464,14 +1464,14 @@ AI_CV_LightScreen_End:
 	end
 
 AI_CV_LightScreen_SpecialTypeList:
-    .byte TYPE_FIRE
+    .byte TYPE_LIT
     .byte TYPE_WATER
-    .byte TYPE_GRASS
-    .byte TYPE_ELECTRIC
+    .byte TYPE_WEED
+    .byte TYPE_ACDC
     .byte TYPE_PSYCHIC
-    .byte TYPE_ICE
+    .byte TYPE_FRIDGE
     .byte TYPE_DRAGON
-    .byte TYPE_DARK
+    .byte TYPE_EVIL
     .byte -1
 
 AI_CV_Rest:
@@ -1599,13 +1599,13 @@ AI_CV_Reflect_End:
 AI_CV_Reflect_PhysicalTypeList:
     .byte TYPE_NORMAL
     .byte TYPE_FIGHTING
-    .byte TYPE_FLYING
+    .byte TYPE_BIRD
     .byte TYPE_POISON
     .byte TYPE_GROUND
     .byte TYPE_ROCK
     .byte TYPE_BUG
     .byte TYPE_GHOST
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_Poison:
@@ -1779,13 +1779,13 @@ AI_CV_Counter_End:
 AI_CV_Counter_PhysicalTypeList:
     .byte TYPE_NORMAL
     .byte TYPE_FIGHTING
-    .byte TYPE_FLYING
+    .byte TYPE_BIRD
     .byte TYPE_POISON
     .byte TYPE_GROUND
     .byte TYPE_ROCK
     .byte TYPE_BUG
     .byte TYPE_GHOST
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_Encore:
@@ -2293,14 +2293,14 @@ AI_CV_MirrorCoat_End:
 	end
 
 AI_CV_MirrorCoat_SpecialTypeList:
-    .byte TYPE_FIRE
+    .byte TYPE_LIT
     .byte TYPE_WATER
-    .byte TYPE_GRASS
-    .byte TYPE_ELECTRIC
+    .byte TYPE_WEED
+    .byte TYPE_ACDC
     .byte TYPE_PSYCHIC
-    .byte TYPE_ICE
+    .byte TYPE_FRIDGE
     .byte TYPE_DRAGON
-    .byte TYPE_DARK
+    .byte TYPE_EVIL
     .byte -1
 
 AI_CV_ChargeUpMove:
@@ -2340,9 +2340,9 @@ AI_CV_Fly3:
 
 AI_CV_Fly4:
 	get_user_type1
-	if_equal TYPE_ICE, AI_CV_Fly6
+	if_equal TYPE_FRIDGE, AI_CV_Fly6
 	get_user_type2
-	if_equal TYPE_ICE, AI_CV_Fly6
+	if_equal TYPE_FRIDGE, AI_CV_Fly6
 
 AI_CV_Fly5:
 	if_target_faster AI_CV_Fly_End
@@ -2361,7 +2361,7 @@ AI_CV_Fly_End:
 AI_CV_Fly_TypesToEncourage:
     .byte TYPE_GROUND
     .byte TYPE_ROCK
-    .byte TYPE_STEEL
+    .byte TYPE_METAL
     .byte -1
 
 AI_CV_FakeOut:
@@ -2693,9 +2693,9 @@ AI_CV_Snatch_End:
 AI_CV_MudSport:
 	if_hp_less_than AI_USER, 50, AI_CV_MudSport_ScoreDown1
 	get_target_type1
-	if_equal TYPE_ELECTRIC, AI_CV_MudSport2
+	if_equal TYPE_ACDC, AI_CV_MudSport2
 	get_target_type2
-	if_equal TYPE_ELECTRIC, AI_CV_MudSport2
+	if_equal TYPE_ACDC, AI_CV_MudSport2
 	goto AI_CV_MudSport_ScoreDown1
 
 AI_CV_MudSport2:
@@ -2727,9 +2727,9 @@ AI_CV_Overheat_End:
 AI_CV_WaterSport:
 	if_hp_less_than AI_USER, 50, AI_CV_WaterSport_ScoreDown1
 	get_target_type1
-	if_equal TYPE_FIRE, AI_CV_WaterSport2
+	if_equal TYPE_LIT, AI_CV_WaterSport2
 	get_target_type2
-	if_equal TYPE_FIRE, AI_CV_WaterSport2
+	if_equal TYPE_LIT, AI_CV_WaterSport2
 	goto AI_CV_WaterSport_ScoreDown1
 
 AI_CV_WaterSport2:
@@ -2972,9 +2972,9 @@ BattleAIScript_82DE000:
 
 BattleAIScript_82DE010:
 	if_ability AI_USER_PARTNER, ABILITY_LEVITATE, Score_Plus2
-	if_type AI_USER_PARTNER, TYPE_FLYING, Score_Plus2
-	if_type AI_USER_PARTNER, TYPE_FIRE, Score_Minus10
-	if_type AI_USER_PARTNER, TYPE_ELECTRIC, Score_Minus10
+	if_type AI_USER_PARTNER, TYPE_BIRD, Score_Plus2
+	if_type AI_USER_PARTNER, TYPE_LIT, Score_Minus10
+	if_type AI_USER_PARTNER, TYPE_ACDC, Score_Minus10
 	if_type AI_USER_PARTNER, TYPE_POISON, Score_Minus10
 	if_type AI_USER_PARTNER, TYPE_ROCK, Score_Minus10
 	goto Score_Minus3
@@ -3007,7 +3007,7 @@ AI_TryOnAlly:
 	get_how_powerful_move_is
 	if_equal 0, BattleAIScript_82DE0B2
 	get_curr_move_type
-	if_equal TYPE_FIRE, BattleAIScript_82DE099
+	if_equal TYPE_LIT, BattleAIScript_82DE099
 
 AI_DiscourageOnAlly:
 	goto Score_Minus30
@@ -3036,10 +3036,10 @@ BattleAIScript_82DE0DA:
 	get_ability AI_TARGET
 	if_equal ABILITY_LEVITATE, Score_Minus30_
 	get_target_type1
-	if_not_equal TYPE_ELECTRIC, BattleAIScript_82DE107
+	if_not_equal TYPE_ACDC, BattleAIScript_82DE107
 	score +1
 	get_target_type2
-	if_not_equal TYPE_ELECTRIC, BattleAIScript_82DE107
+	if_not_equal TYPE_ACDC, BattleAIScript_82DE107
 	score +1
 	end
 

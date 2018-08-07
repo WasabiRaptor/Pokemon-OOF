@@ -273,7 +273,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "LIGHTNING$", 12
 	pokedex_entry   8,  245,	gJolteonPokedexText, 283,   8,  256,  0
 	.string "FLAME$", 12
-	pokedex_entry   9,  250,	gFlareonPokedexText, 306,  12,  256,  0
+	pokedex_entry   9,  250,	gGlazeonPokedexText, 306,  12,  256,  0
 	.string "VIRTUAL$", 12
 	pokedex_entry   8,  365,	gPorygonPokedexText, 328,  15,  256,  0
 	.string "SPIRAL$", 12
@@ -367,7 +367,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "FLOWER$", 12
 	pokedex_entry   4,   58,  gBellossomPokedexText, 472,  21,  256,  0
 	.string "AQUA MOUSE$", 12
-	pokedex_entry   4,   85,	 gMarillPokedexText, 476,  20,  256,  0
+	pokedex_entry   4,   85,	 gPikabluPokedexText, 476,  20,  256,  0
 	.string "AQUA RABBIT$", 12
 	pokedex_entry   8,  285,  gAzumarillPokedexText, 448,  16,  256,  0
 	.string "IMITATION$", 12

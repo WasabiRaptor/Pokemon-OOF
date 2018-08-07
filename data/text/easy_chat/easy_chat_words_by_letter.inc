@@ -517,7 +517,7 @@ gEasyChatWordsByLetter_F:: @ 859D468
 	.2byte EC_WORD_FLAME_BODY
 	.2byte EC_MOVE(FLAME_WHEEL)
 	.2byte EC_MOVE(FLAMETHROWER)
-	.2byte EC_POKEMON2(FLAREON)
+	.2byte EC_POKEMON2(GLAZEON)
 	.2byte EC_MOVE2(FLASH)
 	.2byte EC_WORD_FLASH_FIRE
 	.2byte EC_WORD_FLATTEN
@@ -568,7 +568,7 @@ gEasyChatWordsByLetter_G:: @ 859D508
 	.2byte EC_WORD_GETS
 	.2byte EC_WORD_GHOST
 	.2byte EC_WORD_GIDDY
-	.2byte EC_MOVE(GIGA_DRAIN)
+	.2byte EC_MOVE(GIGA_SUCC)
 	.2byte EC_WORD_GIGGLE
 	.2byte EC_WORD_GIMME
 	.2byte -1, 2 @ doubled Pokémon species names
@@ -966,8 +966,8 @@ gEasyChatWordsByLetter_M:: @ 859D7F6
 	.2byte EC_POKEMON2(MANTINE)
 	.2byte EC_POKEMON2(MAREEP)
 	.2byte -1, 2 @ doubled Pokémon species names
-	.2byte EC_POKEMON(MARILL)
-	.2byte EC_POKEMON2(MARILL)
+	.2byte EC_POKEMON(PIKABLU)
+	.2byte EC_POKEMON2(PIKABLU)
 	.2byte EC_POKEMON2(MAROWAK)
 	.2byte EC_POKEMON(MARSHTOMP)
 	.2byte EC_WORD_MARVEL_SCALE
@@ -988,7 +988,7 @@ gEasyChatWordsByLetter_M:: @ 859D7F6
 	.2byte EC_WORD_MEET_YOU
 	.2byte EC_WORD_MEETS
 	.2byte EC_WORD_MEGA
-	.2byte EC_MOVE2(MEGA_DRAIN)
+	.2byte EC_MOVE2(MEGA_SUCC)
 	.2byte EC_MOVE2(MEGA_KICK)
 	.2byte EC_MOVE2(MEGA_PUNCH)
 	.2byte EC_MOVE2(MEGAHORN)
@@ -1995,7 +1995,7 @@ gEasyChatWordsByLetter_UnusedJapaneseFu:: @ 859E060
 	.2byte EC_WORD_FEAR
 	.2byte EC_WORD_FEVER
 	.2byte EC_MOVE2(IMPRISON)
-	.2byte EC_POKEMON2(FLAREON)
+	.2byte EC_POKEMON2(GLAZEON)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON2(ALAKAZAM)
 	.2byte EC_POKEMON(ALAKAZAM)
@@ -2198,8 +2198,8 @@ gEasyChatWordsByLetter_UnusedJapaneseMa:: @ 859E19C
 	.2byte EC_MOVE2(PROTECT)
 	.2byte EC_POKEMON(CASCOON)
 	.2byte -1, 2 @ doubled Pokémon species names
-	.2byte EC_POKEMON2(MARILL)
-	.2byte EC_POKEMON(MARILL)
+	.2byte EC_POKEMON2(PIKABLU)
+	.2byte EC_POKEMON(PIKABLU)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON2(AZUMARILL)
 	.2byte EC_POKEMON(AZUMARILL)
@@ -2271,7 +2271,7 @@ gEasyChatWordsByLetter_UnusedJapaneseMu:: @ 859E27A
 gEasyChatWordsByLetter_UnusedJapaneseMe:: @ 859E292
 	.2byte EC_MOVE2(CALM_MIND)
 	.2byte EC_WORD_MAIL
-	.2byte EC_MOVE2(MEGA_DRAIN)
+	.2byte EC_MOVE2(MEGA_SUCC)
 	.2byte EC_MOVE2(MEGA_KICK)
 	.2byte EC_MOVE2(MEGA_PUNCH)
 	.2byte EC_POKEMON2(MEGANIUM)

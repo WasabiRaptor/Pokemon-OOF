@@ -125,7 +125,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     349,  // Feebas
     160,  // Feraligatr
     180,  // Flaaffy
-    136,  // Flareon
+    136,  // Glazeon
     330,  // Flygon
     205,  // Forretress
     162,  // Furret
@@ -217,7 +217,7 @@ const u16 gPokedexOrder_Alphabetical[] =
      56,  // Mankey
     226,  // Mantine
     179,  // Mareep
-    183,  // Marill
+    183,  // Pikablu
     105,  // Marowak
     259,  // Marshtomp
     284,  // Masquerain
@@ -502,7 +502,7 @@ const u16 gPokedexOrder_Weight[] =
     116,  // Horsea
       4,  // Charmander
     192,  // Sunflora
-    183,  // Marill
+    183,  // Pikablu
     194,  // Wooper
     167,  // Spinarak
      44,  // Gloom
@@ -596,7 +596,7 @@ const u16 gPokedexOrder_Weight[] =
     287,  // Slakoth
     135,  // Jolteon
     159,  // Croconaw
-    136,  // Flareon
+    136,  // Glazeon
     117,  // Seadra
     196,  // Espeon
     367,  // Huntail
@@ -857,7 +857,7 @@ const u16 gPokedexOrder_Height[] =
     255,  // Torchic
     366,  // Clamperl
      74,  // Geodude
-    183,  // Marill
+    183,  // Pikablu
     339,  // Barboach
     238,  // Smoochum
     100,  // Voltorb
@@ -974,7 +974,7 @@ const u16 gPokedexOrder_Height[] =
     256,  // Combusken
     224,  // Octillery
      33,  // Nidorino
-    136,  // Flareon
+    136,  // Glazeon
     225,  // Delibird
      72,  // Tentacool
      63,  // Abra

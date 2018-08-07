@@ -72,7 +72,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  1 @ Seismic Toss
 	.byte  1 @ Strength
 	.byte  1 @ Absorb
-	.byte  1 @ Mega Drain
+	.byte  1 @ Mega Succ
 	.byte  0 @ Leech Seed
 	.byte  0 @ Growth
 	.byte  1 @ Razor Leaf
@@ -202,7 +202,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  0 @ Lock-On
 	.byte  1 @ Outrage
 	.byte  0 @ Sandstorm
-	.byte  1 @ Giga Drain
+	.byte  1 @ Giga Succ
 	.byte -1 @ Endure
 	.byte  0 @ Charm
 	.byte  1 @ Rollout

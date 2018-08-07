@@ -137,7 +137,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_EEVEE
 	.byte  0 @ SPECIES_VAPOREON
 	.byte  0 @ SPECIES_JOLTEON
-	.byte  0 @ SPECIES_FLAREON
+	.byte  0 @ SPECIES_GLAZEON
 	.byte  0 @ SPECIES_PORYGON
 	.byte  0 @ SPECIES_OMANYTE
 	.byte  0 @ SPECIES_OMASTAR
@@ -184,7 +184,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_FLAAFFY
 	.byte  0 @ SPECIES_AMPHAROS
 	.byte  0 @ SPECIES_BELLOSSOM
-	.byte  0 @ SPECIES_MARILL
+	.byte  0 @ SPECIES_PIKABLU
 	.byte  0 @ SPECIES_AZUMARILL
 	.byte  0 @ SPECIES_SUDOWOODO
 	.byte  0 @ SPECIES_POLITOED

@@ -138,7 +138,7 @@ const u16 gEggMoves[] = {
     egg_moves(VENONAT,
               MOVE_BATON_PASS,
               MOVE_SCREECH,
-              MOVE_GIGA_DRAIN,
+              MOVE_GIGA_SUCC,
               MOVE_SIGNAL_BEAM),
 
     egg_moves(DIGLETT,
@@ -385,7 +385,7 @@ const u16 gEggMoves[] = {
     egg_moves(TANGELA,
               MOVE_FLAIL,
               MOVE_CONFUSION,
-              MOVE_MEGA_DRAIN,
+              MOVE_MEGA_SUCC,
               MOVE_REFLECT,
               MOVE_AMNESIA,
               MOVE_LEECH_SEED,
@@ -622,7 +622,7 @@ const u16 gEggMoves[] = {
               MOVE_ODOR_SLEUTH,
               MOVE_CHARGE),
 
-    egg_moves(MARILL,
+    egg_moves(PIKABLU,
               MOVE_LIGHT_SCREEN,
               MOVE_PRESENT,
               MOVE_AMNESIA,

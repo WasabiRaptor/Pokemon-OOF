@@ -841,7 +841,7 @@ u8 DoBattlerEndTurnEffects(void)
                         gBattleMoveDamage = 1;
                     gBattleScripting.animArg1 = gBattlerTarget;
                     gBattleScripting.animArg2 = gBattlerAttacker;
-                    BattleScriptExecute(BattleScript_LeechSeedTurnDrain);
+                    BattleScriptExecute(BattleScript_LeechSeedTurnSucc);
                     effect++;
                 }
                 gBattleStruct->turnEffectsTracker++;
@@ -1746,9 +1746,9 @@ u8 CastformDataTypeChange(u8 battler)
         SET_BATTLER_TYPE(battler, TYPE_NORMAL);
         formChange = CASTFORM_TO_NORMAL;
     }
-    if (gBattleWeather & WEATHER_SUN_ANY && !IS_BATTLER_OF_TYPE(battler, TYPE_FIRE))
+    if (gBattleWeather & WEATHER_SUN_ANY && !IS_BATTLER_OF_TYPE(battler, TYPE_LIT))
     {
-        SET_BATTLER_TYPE(battler, TYPE_FIRE);
+        SET_BATTLER_TYPE(battler, TYPE_LIT);
         formChange = CASTFORM_TO_FIRE;
     }
     if (gBattleWeather & WEATHER_RAIN_ANY && !IS_BATTLER_OF_TYPE(battler, TYPE_WATER))
@@ -1756,9 +1756,9 @@ u8 CastformDataTypeChange(u8 battler)
         SET_BATTLER_TYPE(battler, TYPE_WATER);
         formChange = CASTFORM_TO_WATER;
     }
-    if (gBattleWeather & WEATHER_HAIL_ANY && !IS_BATTLER_OF_TYPE(battler, TYPE_ICE))
+    if (gBattleWeather & WEATHER_HAIL_ANY && !IS_BATTLER_OF_TYPE(battler, TYPE_FRIDGE))
     {
-        SET_BATTLER_TYPE(battler, TYPE_ICE);
+        SET_BATTLER_TYPE(battler, TYPE_FRIDGE);
         formChange = CASTFORM_TO_ICE;
     }
     return formChange;
@@ -2016,12 +2016,12 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 switch (gLastUsedAbility)
                 {
                 case ABILITY_VOLT_ABSORB:
-                    if (moveType == TYPE_ELECTRIC && gBattleMoves[move].power != 0)
+                    if (moveType == TYPE_ACDC && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSucc;
                         else
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain_PPLoss;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSucc_PPLoss;
 
                         effect = 1;
                     }
@@ -2030,15 +2030,15 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                     if (moveType == TYPE_WATER && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSucc;
                         else
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain_PPLoss;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSucc_PPLoss;
 
                         effect = 1;
                     }
                     break;
                 case ABILITY_FLASH_FIRE:
-                    if (moveType == TYPE_FIRE && !(gBattleMons[battler].status1 & STATUS1_FREEZE))
+                    if (moveType == TYPE_LIT && !(gBattleMons[battler].status1 & STATUS1_FREEZE))
                     {
                         if (!(gBattleResources->flags->flags[battler] & UNKNOWN_FLAG_FLASH_FIRE))
                         {
@@ -3275,7 +3275,7 @@ u8 GetMoveTarget(u16 move, u8 setTarget)
             {
                 targetBattler = Random() % gBattlersCount;
             } while (targetBattler == gBattlerAttacker || side == GetBattlerSide(targetBattler) || gAbsentBattlerFlags & gBitTable[targetBattler]);
-            if (gBattleMoves[move].type == TYPE_ELECTRIC
+            if (gBattleMoves[move].type == TYPE_ACDC
                 && AbilityBattleEffects(ABILITYEFFECT_COUNT_OTHER_SIDE, gBattlerAttacker, ABILITY_LIGHTNING_ROD, 0, 0)
                 && gBattleMons[targetBattler].ability != ABILITY_LIGHTNING_ROD)
             {

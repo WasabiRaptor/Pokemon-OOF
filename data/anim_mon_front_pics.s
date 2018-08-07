@@ -545,8 +545,8 @@ gMonFrontPic_Jolteon:: @ 8B35098
 	.incbin "graphics/pokemon/anim_front_pics/jolteon_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Flareon:: @ 8B35774
-	.incbin "graphics/pokemon/anim_front_pics/flareon_front_pic.4bpp.lz"
+gMonFrontPic_Glazeon:: @ 8B35774
+	.incbin "graphics/pokemon/anim_front_pics/glazeon_front_pic.4bpp.lz"
 
 	.align 2
 gMonFrontPic_Porygon:: @ 8B35DB8
@@ -733,8 +733,8 @@ gMonFrontPic_Bellossom:: @ 8B462C0
 	.incbin "graphics/pokemon/anim_front_pics/bellossom_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Marill:: @ 8B46758
-	.incbin "graphics/pokemon/anim_front_pics/marill_front_pic.4bpp.lz"
+gMonFrontPic_Pikablu:: @ 8B46758
+	.incbin "graphics/pokemon/anim_front_pics/pikablu_front_pic.4bpp.lz"
 
 	.align 2
 gMonFrontPic_Azumarill:: @ 8B46C84

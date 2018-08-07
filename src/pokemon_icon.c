@@ -161,7 +161,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Eevee,
     gMonIcon_Vaporeon,
     gMonIcon_Jolteon,
-    gMonIcon_Flareon,
+    gMonIcon_Glazeon,
     gMonIcon_Porygon,
     gMonIcon_Omanyte,
     gMonIcon_Omastar,
@@ -208,7 +208,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Flaaffy,
     gMonIcon_Ampharos,
     gMonIcon_Bellossom,
-    gMonIcon_Marill,
+    gMonIcon_Pikablu,
     gMonIcon_Azumarill,
     gMonIcon_Sudowoodo,
     gMonIcon_Politoed,
@@ -605,7 +605,7 @@ const u8 gMonIconPaletteIndices[] =
     2, // Eevee
     0, // Vaporeon
     0, // Jolteon
-    0, // Flareon
+    0, // Glazeon
     0, // Porygon
     0, // Omanyte
     0, // Omastar
@@ -652,7 +652,7 @@ const u8 gMonIconPaletteIndices[] =
     0, // Flaaffy
     0, // Ampharos
     1, // Bellossom
-    2, // Marill
+    2, // Pikablu
     2, // Azumarill
     1, // Sudowoodo
     1, // Politoed

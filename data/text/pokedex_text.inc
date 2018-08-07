@@ -282,7 +282,7 @@ gParasPokedexText:: @ 855EE31
 
 gParasectPokedexText:: @ 855EECB
 	.string "PARASECT are known to infest the roots of\n"
-	.string "large trees en masse and drain nutrients.\n"
+	.string "large trees en masse and succ nutrients.\n"
 	.string "When an infested tree dies, they move\n"
 	.string "onto another tree all at once.$"
 
@@ -814,8 +814,8 @@ gJolteonPokedexText:: @ 85622D9
 	.string "to drop thunderbolts. The bristling fur is\n"
 	.string "made of electrically charged needles.$"
 
-gFlareonPokedexText:: @ 856237A
-	.string "FLAREON’s fluffy fur releases heat into\n"
+gGlazeonPokedexText:: @ 856237A
+	.string "GLAZEON’s fluffy fur releases heat into\n"
 	.string "the air so that its body does not get\n"
 	.string "excessively hot. Its body temperature can\n"
 	.string "rise to a maximum of 1,650 degrees F.$"
@@ -1096,7 +1096,7 @@ gBellossomPokedexText:: @ 8563F67
 	.string "persists, it does a dance that is thought\n"
 	.string "to be a ritual for summoning the sun.$"
 
-gMarillPokedexText:: @ 856400B
+gPikabluPokedexText:: @ 856400B
 	.string "Its body is covered with water-repellent\n"
 	.string "fur. Because of the fur, it can swim\n"
 	.string "through water at high speed without being\n"

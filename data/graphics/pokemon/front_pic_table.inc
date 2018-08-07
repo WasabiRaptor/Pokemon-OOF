@@ -136,7 +136,7 @@ gMonFrontPicTable:: @ 830A18C
 	obj_tiles gMonFrontPic_Eevee, 0x800, 133
 	obj_tiles gMonFrontPic_Vaporeon, 0x800, 134
 	obj_tiles gMonFrontPic_Jolteon, 0x800, 135
-	obj_tiles gMonFrontPic_Flareon, 0x800, 136
+	obj_tiles gMonFrontPic_Glazeon, 0x800, 136
 	obj_tiles gMonFrontPic_Porygon, 0x800, 137
 	obj_tiles gMonFrontPic_Omanyte, 0x800, 138
 	obj_tiles gMonFrontPic_Omastar, 0x800, 139
@@ -183,7 +183,7 @@ gMonFrontPicTable:: @ 830A18C
 	obj_tiles gMonFrontPic_Flaaffy, 0x800, 180
 	obj_tiles gMonFrontPic_Ampharos, 0x800, 181
 	obj_tiles gMonFrontPic_Bellossom, 0x800, 182
-	obj_tiles gMonFrontPic_Marill, 0x800, 183
+	obj_tiles gMonFrontPic_Pikablu, 0x800, 183
 	obj_tiles gMonFrontPic_Azumarill, 0x800, 184
 	obj_tiles gMonFrontPic_Sudowoodo, 0x800, 185
 	obj_tiles gMonFrontPic_Politoed, 0x800, 186

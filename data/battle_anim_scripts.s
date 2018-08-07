@@ -83,7 +83,7 @@ gBattleAnims_Moves:: @ 82C8D6C
 	.4byte Move_SEISMIC_TOSS
 	.4byte Move_STRENGTH
 	.4byte Move_ABSORB
-	.4byte Move_MEGA_DRAIN
+	.4byte Move_MEGA_SUCC
 	.4byte Move_LEECH_SEED
 	.4byte Move_GROWTH
 	.4byte Move_RAZOR_LEAF
@@ -213,7 +213,7 @@ gBattleAnims_Moves:: @ 82C8D6C
 	.4byte Move_LOCK_ON
 	.4byte Move_OUTRAGE
 	.4byte Move_SANDSTORM
-	.4byte Move_GIGA_DRAIN
+	.4byte Move_GIGA_SUCC
 	.4byte Move_ENDURE
 	.4byte Move_CHARM
 	.4byte Move_ROLLOUT
@@ -5825,7 +5825,7 @@ AnimScript_82D1009:
 	delay 0x4
 	return
 
-Move_MEGA_DRAIN:
+Move_MEGA_SUCC:
 	loadspritegfx 0x27A3
 	loadspritegfx 0x272F
 	loadspritegfx 0x2797
@@ -5886,7 +5886,7 @@ AnimScript_82D1121:
 	delay 0x4
 	return
 
-Move_GIGA_DRAIN:
+Move_GIGA_SUCC:
 	loadspritegfx 0x27A3
 	loadspritegfx 0x272F
 	loadspritegfx 0x2797

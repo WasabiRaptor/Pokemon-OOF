@@ -1434,7 +1434,7 @@ static void TrySetBattleSeminarShow(void)
                                                     sideStatus, powerOverride,
                                                     0, gBattlerAttacker, gBattlerTarget);
 
-            if (gStatuses3[gBattlerAttacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ELECTRIC)
+            if (gStatuses3[gBattlerAttacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ACDC)
                 gBattleMoveDamage *= 2;
             if (gProtectStructs[gBattlerAttacker].helpingHand)
                 gBattleMoveDamage = gBattleMoveDamage * 15 / 10;

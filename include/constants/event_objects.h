@@ -145,7 +145,7 @@
 #define EVENT_OBJ_GFX_SUBMARINE_SHADOW           141
 #define EVENT_OBJ_GFX_PICHU_DOLL                 142
 #define EVENT_OBJ_GFX_PIKACHU_DOLL               143
-#define EVENT_OBJ_GFX_MARILL_DOLL                144
+#define EVENT_OBJ_GFX_PIKABLU_DOLL                144
 #define EVENT_OBJ_GFX_TOGEPI_DOLL                145
 #define EVENT_OBJ_GFX_CYNDAQUIL_DOLL             146
 #define EVENT_OBJ_GFX_CHIKORITA_DOLL             147

@@ -302,7 +302,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     0x17, // SPECIES_EEVEE
     0x17, // SPECIES_VAPOREON
     0x00, // SPECIES_JOLTEON
-    0x17, // SPECIES_FLAREON
+    0x17, // SPECIES_GLAZEON
     0x52, // SPECIES_PORYGON
     0x51, // SPECIES_OMANYTE
     0x09, // SPECIES_OMASTAR
@@ -349,7 +349,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     0x1e, // SPECIES_FLAAFFY
     0x2c, // SPECIES_AMPHAROS
     0x0b, // SPECIES_BELLOSSOM
-    0x00, // SPECIES_MARILL
+    0x00, // SPECIES_PIKABLU
     0x4a, // SPECIES_AZUMARILL
     0x46, // SPECIES_SUDOWOODO
     0x32, // SPECIES_POLITOED
@@ -717,7 +717,7 @@ static const u8 sMonAnimationDelayTable[] =
     0x00, // SPECIES_EEVEE
     0x00, // SPECIES_VAPOREON
     0x00, // SPECIES_JOLTEON
-    0x00, // SPECIES_FLAREON
+    0x00, // SPECIES_GLAZEON
     0x00, // SPECIES_PORYGON
     0x00, // SPECIES_OMANYTE
     0x00, // SPECIES_OMASTAR
@@ -764,7 +764,7 @@ static const u8 sMonAnimationDelayTable[] =
     0x00, // SPECIES_FLAAFFY
     0x0a, // SPECIES_AMPHAROS
     0x00, // SPECIES_BELLOSSOM
-    0x00, // SPECIES_MARILL
+    0x00, // SPECIES_PIKABLU
     0x00, // SPECIES_AZUMARILL
     0x00, // SPECIES_SUDOWOODO
     0x28, // SPECIES_POLITOED
@@ -1039,20 +1039,20 @@ const u16 gUnknown_08329D54[] =
 static const u8 sHoldEffectToType[][2] =
 {
     {HOLD_EFFECT_BUG_POWER, TYPE_BUG},
-    {HOLD_EFFECT_STEEL_POWER, TYPE_STEEL},
+    {HOLD_EFFECT_STEEL_POWER, TYPE_METAL},
     {HOLD_EFFECT_GROUND_POWER, TYPE_GROUND},
     {HOLD_EFFECT_ROCK_POWER, TYPE_ROCK},
-    {HOLD_EFFECT_GRASS_POWER, TYPE_GRASS},
-    {HOLD_EFFECT_DARK_POWER, TYPE_DARK},
+    {HOLD_EFFECT_GRASS_POWER, TYPE_WEED},
+    {HOLD_EFFECT_DARK_POWER, TYPE_EVIL},
     {HOLD_EFFECT_FIGHTING_POWER, TYPE_FIGHTING},
-    {HOLD_EFFECT_ELECTRIC_POWER, TYPE_ELECTRIC},
+    {HOLD_EFFECT_ELECTRIC_POWER, TYPE_ACDC},
     {HOLD_EFFECT_WATER_POWER, TYPE_WATER},
-    {HOLD_EFFECT_FLYING_POWER, TYPE_FLYING},
+    {HOLD_EFFECT_FLYING_POWER, TYPE_BIRD},
     {HOLD_EFFECT_POISON_POWER, TYPE_POISON},
-    {HOLD_EFFECT_ICE_POWER, TYPE_ICE},
+    {HOLD_EFFECT_ICE_POWER, TYPE_FRIDGE},
     {HOLD_EFFECT_GHOST_POWER, TYPE_GHOST},
     {HOLD_EFFECT_PSYCHIC_POWER, TYPE_PSYCHIC},
-    {HOLD_EFFECT_FIRE_POWER, TYPE_FIRE},
+    {HOLD_EFFECT_FIRE_POWER, TYPE_LIT},
     {HOLD_EFFECT_DRAGON_POWER, TYPE_DRAGON},
     {HOLD_EFFECT_NORMAL_POWER, TYPE_NORMAL},
 };
@@ -2289,7 +2289,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         defense *= 2;
     if (attackerHoldEffect == HOLD_EFFECT_THICK_CLUB && (attacker->species == SPECIES_CUBONE || attacker->species == SPECIES_MAROWAK))
         attack *= 2;
-    if (defender->ability == ABILITY_THICK_FAT && (type == TYPE_FIRE || type == TYPE_ICE))
+    if (defender->ability == ABILITY_THICK_FAT && (type == TYPE_LIT || type == TYPE_FRIDGE))
         spAttack /= 2;
     if (attacker->ability == ABILITY_HUSTLE)
         attack = (150 * attack) / 100;
@@ -2301,13 +2301,13 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         attack = (150 * attack) / 100;
     if (defender->ability == ABILITY_MARVEL_SCALE && defender->status1)
         defense = (150 * defense) / 100;
-    if (type == TYPE_ELECTRIC && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, 0xFD, 0))
+    if (type == TYPE_ACDC && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, 0xFD, 0))
         gBattleMovePower /= 2;
-    if (type == TYPE_FIRE && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, 0xFE, 0))
+    if (type == TYPE_LIT && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, 0xFE, 0))
         gBattleMovePower /= 2;
-    if (type == TYPE_GRASS && attacker->ability == ABILITY_OVERGROW && attacker->hp <= (attacker->maxHP / 3))
+    if (type == TYPE_WEED && attacker->ability == ABILITY_OVERGROW && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
-    if (type == TYPE_FIRE && attacker->ability == ABILITY_BLAZE && attacker->hp <= (attacker->maxHP / 3))
+    if (type == TYPE_LIT && attacker->ability == ABILITY_BLAZE && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (type == TYPE_WATER && attacker->ability == ABILITY_TORRENT && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
@@ -2412,7 +2412,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
             {
                 switch (type)
                 {
-                case TYPE_FIRE:
+                case TYPE_LIT:
                     damage /= 2;
                     break;
                 case TYPE_WATER:
@@ -2430,7 +2430,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
             {
                 switch (type)
                 {
-                case TYPE_FIRE:
+                case TYPE_LIT:
                     damage = (15 * damage) / 10;
                     break;
                 case TYPE_WATER:
@@ -2441,7 +2441,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         }
 
         // flash fire triggered
-        if ((gBattleResources->flags->flags[battlerIdAtk] & UNKNOWN_FLAG_FLASH_FIRE) && type == TYPE_FIRE)
+        if ((gBattleResources->flags->flags[battlerIdAtk] & UNKNOWN_FLAG_FLASH_FIRE) && type == TYPE_LIT)
             damage = (15 * damage) / 10;
     }
 

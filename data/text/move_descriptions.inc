@@ -214,7 +214,7 @@ gStrengthMoveDescription:: @ 8618E6E
 gAbsorbMoveDescription:: @ 8618E99
 	.string "An attack that absorbs\nhalf the damage inflicted.$"
 
-gMegaDrainMoveDescription:: @ 8618ECB
+gMegaSuccMoveDescription:: @ 8618ECB
 	.string "An attack that absorbs\nhalf the damage inflicted.$"
 
 gLeechSeedMoveDescription:: @ 8618EFD
@@ -604,7 +604,7 @@ gOutrageMoveDescription:: @ 861A76E
 gSandstormMoveDescription:: @ 861A7A0
 	.string "Causes a sandstorm that\nrages for several turns.$"
 
-gGigaDrainMoveDescription:: @ 861A7D1
+gGigaSuccMoveDescription:: @ 861A7D1
 	.string "An attack that steals half\nthe damage inflicted.$"
 
 gEndureMoveDescription:: @ 861A802
@@ -1136,7 +1136,7 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gSeismicTossMoveDescription
 	.4byte gStrengthMoveDescription
 	.4byte gAbsorbMoveDescription
-	.4byte gMegaDrainMoveDescription
+	.4byte gMegaSuccMoveDescription
 	.4byte gLeechSeedMoveDescription
 	.4byte gGrowthMoveDescription
 	.4byte gRazorLeafMoveDescription
@@ -1266,7 +1266,7 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gLockOnMoveDescription
 	.4byte gOutrageMoveDescription
 	.4byte gSandstormMoveDescription
-	.4byte gGigaDrainMoveDescription
+	.4byte gGigaSuccMoveDescription
 	.4byte gEndureMoveDescription
 	.4byte gCharmMoveDescription
 	.4byte gRolloutMoveDescription

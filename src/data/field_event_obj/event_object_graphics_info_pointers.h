@@ -145,7 +145,7 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SSTidal;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SubmarineShadow;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PichuDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PikachuDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MarillDoll;
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PikabluDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TogepiDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CyndaquilDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ChikoritaDoll;
@@ -394,7 +394,7 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
 	&gEventObjectGraphicsInfo_SubmarineShadow,
 	&gEventObjectGraphicsInfo_PichuDoll,
 	&gEventObjectGraphicsInfo_PikachuDoll,
-	&gEventObjectGraphicsInfo_MarillDoll,
+	&gEventObjectGraphicsInfo_PikabluDoll,
 	&gEventObjectGraphicsInfo_TogepiDoll,
 	&gEventObjectGraphicsInfo_CyndaquilDoll,
 	&gEventObjectGraphicsInfo_ChikoritaDoll,

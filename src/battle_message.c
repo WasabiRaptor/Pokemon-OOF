@@ -105,7 +105,7 @@ static const u8 sText_PkmnPoisonedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s 
 static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby poison!");
 static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX} is already\npoisoned.");
 static const u8 sText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX} is badly\npoisoned!");
-static const u8 sText_PkmnEnergyDrained[] = _("{B_DEF_NAME_WITH_PREFIX} had its\nenergy drained!");
+static const u8 sText_PkmnEnergySucced[] = _("{B_DEF_NAME_WITH_PREFIX} had its\nenergy succed!");
 static const u8 sText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX} was burned!");
 static const u8 sText_PkmnBurnedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nburned {B_EFF_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnHurtByBurn[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby its burn!");
@@ -557,7 +557,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     sText_PkmnHurtByPoison, // 42
     sText_PkmnAlreadyPoisoned, // 43
     sText_PkmnBadlyPoisoned, // 44
-    sText_PkmnEnergyDrained, // 45
+    sText_PkmnEnergySucced, // 45
     sText_PkmnWasBurned, // 46
     sText_PkmnBurnedBy, // 47
     sText_PkmnHurtByBurn, // 48
@@ -1064,9 +1064,9 @@ const u16 gAttractUsedStringIds[] =
     STRINGID_PKMNFELLINLOVE, STRINGID_PKMNSXINFATUATEDY
 };
 
-const u16 gLeechSeedDrainStringIds[] =
+const u16 gLeechSeedSuccStringIds[] =
 {
-    STRINGID_PKMNENERGYDRAINED, STRINGID_ITSUCKEDLIQUIDOOZE
+    STRINGID_PKMNENERGYSUCCED, STRINGID_ITSUCKEDLIQUIDOOZE
 };
 
 const u16 gSportsUsedStringIds[] =
