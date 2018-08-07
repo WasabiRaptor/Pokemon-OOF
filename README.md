@@ -1,12 +1,12 @@
-# Pokémon Emerald
+# Pokémon OOF
 
 [![Build Status][travis-badge]][travis]
 
-This is a disassembly of Pokémon Emerald.
+This is a meme fork of the disassembly of Pokémon Emerald.
 
 It builds the following rom:
 
-* pokeemerald.gba `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+* pokeOOF.gba 
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
@@ -20,6 +20,7 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 * Disassembly of [**Pokémon Pinball**][pokepinball]
 * Disassembly of [**Pokémon TCG**][poketcg]
 * Disassembly of [**Pokémon Ruby**][pokeruby]
+* Disassembly of [**Pokémon Emerald**][pokeemerald]
 * Disassembly of [**Pokémon Fire Red**][pokefirered]
 * Discord: [**pret**][Discord]
 * irc: **irc.freenode.net** [**#pret**][irc]
@@ -31,6 +32,7 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 [pokepinball]: https://github.com/pret/pokepinball
 [poketcg]: https://github.com/pret/poketcg
 [pokeruby]: https://github.com/pret/pokeruby
+[pokeemerald]: https://github.com/pret/pokeemerald
 [pokefirered]: https://github.com/pret/pokefirered
 [Discord]: https://discord.gg/cJxDDVP
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
