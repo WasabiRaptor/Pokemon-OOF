@@ -4,7 +4,7 @@ export LD := $(PREFIX)ld
 
 SHELL := /bin/bash -o pipefail
 
-ROM := pokeemerald.gba
+ROM := pokeOOF.gba
 OBJ_DIR := build/emerald
 
 ELF = $(ROM:.gba=.elf)
