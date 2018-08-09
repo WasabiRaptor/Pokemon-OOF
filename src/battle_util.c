@@ -2010,12 +2010,12 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 }
             }
             break;
-        case ABILITYEFFECT_ABSORBING: // 3
+        case ABILITYEFFECT_SUCCING: // 3
             if (move)
             {
                 switch (gLastUsedAbility)
                 {
-                case ABILITY_VOLT_ABSORB:
+                case ABILITY_VOLT_SUCC:
                     if (moveType == TYPE_ACDC && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
@@ -2026,7 +2026,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                         effect = 1;
                     }
                     break;
-                case ABILITY_WATER_ABSORB:
+                case ABILITY_WATER_SUCC:
                     if (moveType == TYPE_WATER && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)

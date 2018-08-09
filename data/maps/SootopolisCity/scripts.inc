@@ -1,1784 +1,1384 @@
-SootopolisCity_MapScripts:: @ 81E565C
-	map_script 1, SootopolisCity_MapScript1_1E5676
-	map_script 3, SootopolisCity_MapScript1_1E56EF
-	map_script 5, SootopolisCity_MapScript1_1E590B
-	map_script 2, SootopolisCity_MapScript2_1E5914
-	map_script 4, SootopolisCity_MapScript2_1E58DB
+SlateportCity_MapScripts:: @ 81DCC61
+	map_script 3, SlateportCity_MapScript1_1DCC6C
+	map_script 2, SlateportCity_MapScript2_1DCD12
 	.byte 0
 
-SootopolisCity_MapScript1_1E5676: @ 81E5676
-	checkflag FLAG_0x09E
-	call_if 0, SootopolisCity_EventScript_1E56E5
-	checkflag FLAG_0x081
-	goto_if 0, SootopolisCity_EventScript_1E5692
-	checkflag FLAG_0x09E
-	call_if 0, SootopolisCity_EventScript_1E5693
+SlateportCity_MapScript1_1DCC6C: @ 81DCC6C
+	setvar VAR_0x40AA, 0
+	call SlateportCity_EventScript_1DCC8D
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCC99
+	compare VAR_0x40D2, 1
+	call_if 1, SlateportCity_EventScript_1DCCE7
 	end
 
-SootopolisCity_EventScript_1E5692:: @ 81E5692
-	end
-
-SootopolisCity_EventScript_1E5693:: @ 81E5693
-	setmetatile 9, 6, 584, 1
-	setmetatile 9, 17, 584, 1
-	setmetatile 9, 26, 584, 1
-	setmetatile 44, 17, 584, 1
-	setmetatile 8, 35, 584, 1
-	setmetatile 53, 28, 584, 1
-	setmetatile 45, 6, 584, 1
-	setmetatile 48, 25, 584, 1
-	setmetatile 51, 36, 584, 1
+SlateportCity_EventScript_1DCC8D:: @ 81DCC8D
+	setflag FLAG_VISITED_SLATEPORT_CITY
+	setvar VAR_0x4086, 0
+	setflag FLAG_0x323
 	return
 
-SootopolisCity_EventScript_1E56E5:: @ 81E56E5
-	setmetatile 31, 32, 592, 1
+SlateportCity_EventScript_1DCC99:: @ 81DCC99
+	setobjectxyperm 11, 28, 13
+	setobjectxyperm 7, 25, 13
+	setobjectxyperm 3, 25, 14
+	setobjectxyperm 6, 27, 16
+	setobjectxyperm 8, 28, 16
+	setobjectxyperm 1, 29, 16
+	setobjectxyperm 2, 31, 14
+	setobjectmovementtype 11, 8
+	setobjectmovementtype 7, 18
+	setobjectmovementtype 3, 16
+	setobjectmovementtype 6, 7
+	setobjectmovementtype 8, 7
+	setobjectmovementtype 1, 7
+	setobjectmovementtype 2, 9
 	return
 
-SootopolisCity_MapScript1_1E56EF: @ 81E56EF
-	setflag FLAG_VISITED_SOOTOPOLIS_CITY
-	compare VAR_0x405E, 1
-	call_if 1, SootopolisCity_EventScript_1E5781
-	compare VAR_0x40CA, 1
-	call_if 1, SootopolisCity_EventScript_1E5781
-	call SootopolisCity_EventScript_1E5805
-	call SootopolisCity_EventScript_1E57B2
-	compare VAR_0x405E, 1
-	call_if 1, SootopolisCity_EventScript_1E5785
-	compare VAR_0x405E, 2
-	call_if 1, SootopolisCity_EventScript_1E5785
-	compare VAR_0x405E, 3
-	call_if 1, SootopolisCity_EventScript_1E5785
-	compare VAR_0x405E, 4
-	call_if 1, SootopolisCity_EventScript_1E5785
-	compare VAR_0x405E, 5
-	call_if 1, SootopolisCity_EventScript_1E5785
-	compare VAR_0x405E, 2
-	call_if 1, SootopolisCity_EventScript_1E5842
-	compare VAR_0x405E, 3
-	call_if 1, SootopolisCity_EventScript_1E5842
-	compare VAR_0x405E, 4
-	call_if 1, SootopolisCity_EventScript_1E585B
-	compare VAR_0x405E, 5
-	call_if 1, SootopolisCity_EventScript_1E5871
-	compare VAR_0x405E, 6
-	call_if 1, SootopolisCity_EventScript_1E58D3
-	end
-
-SootopolisCity_EventScript_1E5781:: @ 81E5781
+SlateportCity_EventScript_1DCCE7:: @ 81DCCE7
 	setflag FLAG_SPECIAL_FLAG_0x4000
+	getplayerxy VAR_0x8004, VAR_0x8005
+	compare VAR_0x8004, 30
+	goto_eq SlateportCity_EventScript_1DCD06
+	setobjectxyperm 35, 23, 27
+	setobjectmovementtype 35, 10
 	return
 
-SootopolisCity_EventScript_1E5785:: @ 81E5785
-	setobjectxyperm 3, 13, 48
-	setobjectxyperm 5, 46, 32
-	setobjectxyperm 4, 48, 41
-	setobjectxyperm 8, 45, 43
-	setobjectmovementtype 3, 7
-	setobjectmovementtype 5, 9
-	setobjectmovementtype 4, 9
-	setobjectmovementtype 8, 9
+SlateportCity_EventScript_1DCD06:: @ 81DCD06
+	setobjectxyperm 35, 22, 27
+	setobjectmovementtype 35, 10
 	return
 
-SootopolisCity_EventScript_1E57B2:: @ 81E57B2
-	compare VAR_0x405E, 0
-	goto_eq SootopolisCity_EventScript_1E5800
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E5800
-	compare VAR_0x405E, 1
-	goto_eq SootopolisCity_EventScript_1E5801
-	compare VAR_0x405E, 2
-	goto_eq SootopolisCity_EventScript_1E5801
-	compare VAR_0x405E, 3
-	goto_eq SootopolisCity_EventScript_1E5801
-	compare VAR_0x405E, 4
-	goto_eq SootopolisCity_EventScript_1E5801
-	compare VAR_0x40CA, 1
-	goto_if 3, SootopolisCity_EventScript_1E5801
-	return
-
-SootopolisCity_EventScript_1E5800:: @ 81E5800
-	return
-
-SootopolisCity_EventScript_1E5801:: @ 81E5801
-	setmaplayoutindex 357
-	return
-
-SootopolisCity_EventScript_1E5805:: @ 81E5805
-	compare VAR_0x405E, 0
-	goto_eq SootopolisCity_EventScript_1E583D
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E583D
-	compare VAR_0x405E, 1
-	goto_eq SootopolisCity_EventScript_1E583E
-	compare VAR_0x40CA, 1
-	goto_eq SootopolisCity_EventScript_1E583E
-	compare VAR_0x40CA, 1
-	goto_if 3, SootopolisCity_EventScript_27207A
-	return
-
-SootopolisCity_EventScript_1E583D:: @ 81E583D
-	return
-
-SootopolisCity_EventScript_1E583E:: @ 81E583E
-	setweather 13
-	return
-
-SootopolisCity_EventScript_1E5842:: @ 81E5842
-	checkflag FLAG_0x133
-	goto_eq SootopolisCity_EventScript_1E584C
-	return
-
-SootopolisCity_EventScript_1E584C:: @ 81E584C
-	setobjectxyperm 1, 30, 18
-	setobjectxyperm 7, 32, 18
-	return
-
-SootopolisCity_EventScript_1E585B:: @ 81E585B
-	setobjectxyperm 1, 30, 18
-	setobjectxyperm 18, 31, 18
-	setobjectxyperm 7, 32, 18
-	end
-
-SootopolisCity_EventScript_1E5871:: @ 81E5871
-	setobjectxyperm 1, 31, 18
-	setobjectxyperm 7, 29, 33
-	setobjectxyperm 16, 33, 35
-	setobjectxyperm 17, 34, 35
-	compare VAR_0x40D8, 0
-	call_if 1, SootopolisCity_EventScript_1E58AF
-	compare VAR_0x40D8, 1
-	call_if 1, SootopolisCity_EventScript_1E58BB
-	compare VAR_0x40D8, 2
-	call_if 1, SootopolisCity_EventScript_1E58C7
-	return
-
-SootopolisCity_EventScript_1E58AF:: @ 81E58AF
-	setobjectxyperm 18, 31, 33
-	setobjectmovementtype 18, 8
-	return
-
-SootopolisCity_EventScript_1E58BB:: @ 81E58BB
-	setobjectxyperm 18, 32, 33
-	setobjectmovementtype 18, 8
-	return
-
-SootopolisCity_EventScript_1E58C7:: @ 81E58C7
-	setobjectxyperm 18, 30, 33
-	setobjectmovementtype 18, 8
-	return
-
-SootopolisCity_EventScript_1E58D3:: @ 81E58D3
-	setobjectxyperm 1, 31, 18
-	return
-
-SootopolisCity_MapScript2_1E58DB: @ 81E58DB
-	map_script_2 VAR_0x405E, 5, SootopolisCity_EventScript_1E58E5
+SlateportCity_MapScript2_1DCD12: @ 81DCD12
+	map_script_2 VAR_0x40D2, 1, SlateportCity_EventScript_1DCD1C
 	.2byte 0
 
-SootopolisCity_EventScript_1E58E5:: @ 81E58E5
-	compare VAR_0x40CA, 1
-	call_if 1, SootopolisCity_EventScript_1E58FC
-	compare VAR_0x40CA, 2
-	call_if 1, SootopolisCity_EventScript_1E5901
-	end
-
-SootopolisCity_EventScript_1E58FC:: @ 81E58FC
-	turnobject 255, 2
-	return
-
-SootopolisCity_EventScript_1E5901:: @ 81E5901
-	turnobject 255, 2
-	setvar VAR_0x40CA, 3
-	return
-
-SootopolisCity_MapScript1_1E590B: @ 81E590B
-	setdivewarp MAP_UNDERWATER_SOOTOPOLIS_CITY, 255, 9, 6
-	end
-
-SootopolisCity_MapScript2_1E5914: @ 81E5914
-	map_script_2 VAR_0x405E, 1, SootopolisCity_EventScript_1E5926
-	map_script_2 VAR_0x40CA, 1, SootopolisCity_EventScript_1E5BFE
-	.2byte 0
-
-SootopolisCity_EventScript_1E5926:: @ 81E5926
+SlateportCity_EventScript_1DCD1C:: @ 81DCD1C
 	lockall
-	special StorePlayerCoordsInVars
-	compare VAR_0x8004, 43
-	goto_if 5, SootopolisCity_EventScript_1E5A82
-	compare VAR_0x8005, 32
-	goto_if 5, SootopolisCity_EventScript_1E5A82
-	goto SootopolisCity_EventScript_1E5946
-	end
-
-SootopolisCity_EventScript_1E5946:: @ 81E5946
-	delay 60
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5A68
+	addobject 35
+	applymovement 255, SlateportCity_Movement_1DCDA8
+	applymovement 35, SlateportCity_Movement_1DCDAC
 	waitmovement 0
-	special RemoveScriptEventObject
-	delay 60
-	fadescreenspeed 1, 8
-	setweather 15
-	doweather
-	setvar VAR_0x8004, 0
-	special sub_813B7D8
-	waitstate
-	applymovement 10, SootopolisCity_Movement_2725A4
-	applymovement 9, SootopolisCity_Movement_2725A8
+	msgbox SlateportCity_Text_1DF032, 4
+	closemessage
+	applymovement 35, SlateportCity_Movement_2725A4
 	waitmovement 0
 	delay 60
-	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement 10, SootopolisCity_Movement_1E5BB8
-	applymovement 9, SootopolisCity_Movement_1E5BE5
+	msgbox SlateportCity_Text_1DF0FE, 4
+	applymovement 35, SlateportCity_Movement_2725A8
 	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
+	msgbox SlateportCity_Text_1DF12B, 4
+	closemessage
+	delay 30
+	playfanfare MUS_ME_TORE_EYE
+	msgbox SlateportCity_Text_1DF1A6, 4
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_0x0D7
+	msgbox SlateportCity_Text_1DF1D3, 4
+	closemessage
+	applymovement 35, SlateportCity_Movement_1DCDB4
 	waitmovement 0
-	waitse
-	playmoncry SPECIES_GROUDON, 2
-	applymovement 10, SootopolisCity_Movement_1E5BC2
-	applymovement 9, SootopolisCity_Movement_1E5BDD
-	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement 10, SootopolisCity_Movement_1E5BB8
-	applymovement 9, SootopolisCity_Movement_1E5BE5
-	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
-	waitmovement 0
-	special SpawnScriptEventObject
-	applymovement 10, SootopolisCity_Movement_1E5BD6
-	applymovement 9, SootopolisCity_Movement_1E5BF7
-	applymovement 127, SootopolisCity_Movement_1E5A75
-	waitmovement 0
-	special RemoveScriptEventObject
-	setvar VAR_0x405E, 2
+	removeobject 35
+	setobjectxyperm 35, 10, 12
+	setobjectmovementtype 35, 8
 	clearflag FLAG_SPECIAL_FLAG_0x4000
+	setvar VAR_0x40D2, 2
+	addvar VAR_0x40D1, 1
 	releaseall
 	end
 
-SootopolisCity_Movement_1E5A68: @ 81E5A68
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
+SlateportCity_Movement_1DCDA8: @ 81DCDA8
+	step_14
+	step_13
+	step_27
 	step_end
 
-SootopolisCity_Movement_1E5A75: @ 81E5A75
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
+SlateportCity_Movement_1DCDAC: @ 81DCDAC
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
 	step_end
 
-SootopolisCity_EventScript_1E5A82:: @ 81E5A82
-	delay 60
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5BA4
-	waitmovement 0
-	special RemoveScriptEventObject
-	delay 60
-	fadescreenspeed 1, 8
-	setweather 15
-	doweather
-	setvar VAR_0x8004, 0
-	special sub_813B7D8
-	waitstate
-	applymovement 10, SootopolisCity_Movement_2725A4
-	applymovement 9, SootopolisCity_Movement_2725A8
-	waitmovement 0
-	delay 60
-	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement 10, SootopolisCity_Movement_1E5BB8
-	applymovement 9, SootopolisCity_Movement_1E5BE5
-	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_GROUDON, 2
-	applymovement 10, SootopolisCity_Movement_1E5BC2
-	applymovement 9, SootopolisCity_Movement_1E5BDD
-	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement 10, SootopolisCity_Movement_1E5BB8
-	applymovement 9, SootopolisCity_Movement_1E5BE5
-	waitmovement 0
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	applymovement 10, SootopolisCity_Movement_1E5BCF
-	applymovement 9, SootopolisCity_Movement_1E5BF0
-	waitmovement 0
-	special SpawnScriptEventObject
-	applymovement 10, SootopolisCity_Movement_1E5BD6
-	applymovement 9, SootopolisCity_Movement_1E5BF7
-	applymovement 127, SootopolisCity_Movement_1E5BAE
-	waitmovement 0
-	special RemoveScriptEventObject
-	setvar VAR_0x405E, 2
-	clearflag FLAG_SPECIAL_FLAG_0x4000
-	releaseall
-	end
-
-SootopolisCity_Movement_1E5BA4: @ 81E5BA4
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
+SlateportCity_Movement_1DCDB4: @ 81DCDB4
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
 	step_end
 
-SootopolisCity_Movement_1E5BAE: @ 81E5BAE
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	step_end
-
-SootopolisCity_Movement_1E5BB8: @ 81E5BB8
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	delay_16
-	delay_16
-	delay_16
-	init_affine_anim
-	walk_left_affine
-	clear_affine_anim
-	step_end
-
-SootopolisCity_Movement_1E5BC2: @ 81E5BC2
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	init_affine_anim
-	walk_left_affine
-	clear_affine_anim
-	step_end
-
-SootopolisCity_Movement_1E5BCF: @ 81E5BCF
-	lock_facing_direction
-	walk_right
-	delay_16
-	delay_16
-	delay_16
-	unlock_facing_direction
-	step_end
-
-SootopolisCity_Movement_1E5BD6: @ 81E5BD6
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	walk_in_place_slow_left
-	step_end
-
-SootopolisCity_Movement_1E5BDD: @ 81E5BDD
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	delay_16
-	delay_16
-	delay_16
-	walk_fast_right
-	step_end
-
-SootopolisCity_Movement_1E5BE5: @ 81E5BE5
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	walk_fast_right
-	step_end
-
-SootopolisCity_Movement_1E5BF0: @ 81E5BF0
-	lock_facing_direction
-	walk_left
-	delay_16
-	delay_16
-	delay_16
-	unlock_facing_direction
-	step_end
-
-SootopolisCity_Movement_1E5BF7: @ 81E5BF7
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	walk_in_place_slow_right
-	step_end
-
-SootopolisCity_EventScript_1E5BFE:: @ 81E5BFE
-	lockall
-	special StorePlayerCoordsInVars
-	compare VAR_0x8004, 43
-	goto_if 5, SootopolisCity_EventScript_1E5CCE
-	compare VAR_0x8005, 32
-	goto_if 5, SootopolisCity_EventScript_1E5CCE
-	goto SootopolisCity_EventScript_1E5C1E
-	end
-
-SootopolisCity_EventScript_1E5C1E:: @ 81E5C1E
-	delay 60
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5A68
-	waitmovement 0
-	special RemoveScriptEventObject
-	delay 60
-	fadescreenspeed 1, 8
-	call SootopolisCity_EventScript_1E5D82
-	removeobject 9
-	removeobject 10
-	addobject 11
-	setvar VAR_0x8004, 1
-	special sub_813B7D8
-	waitstate
-	playse SE_T_KAMI
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5E63
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 3
-	special sub_8139560
-	waitstate
-	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 2
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	waitmoncry
-	setweather 0
-	doweather
-	applymovement 11, SootopolisCity_Movement_1E5E5B
-	waitmovement 0
-	removeobject 11
-	special WaitWeather
-	waitstate
-	clearflag FLAG_SYS_WEATHER_CTRL
-	setvar VAR_0x40CA, 3
-	clearflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
-	fadenewbgm MUS_RUNECITY
-	delay 120
-	clearflag FLAG_SPECIAL_FLAG_0x4000
-	warp8 MAP_SOOTOPOLIS_CITY, 255, 43, 32
-	waitstate
-	end
-
-SootopolisCity_EventScript_1E5CCE:: @ 81E5CCE
-	delay 60
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5BA4
-	waitmovement 0
-	special RemoveScriptEventObject
-	delay 60
-	fadescreenspeed 1, 8
-	call SootopolisCity_EventScript_1E5D82
-	removeobject 9
-	removeobject 10
-	addobject 11
-	setvar VAR_0x8004, 1
-	special sub_813B7D8
-	waitstate
-	special SpawnScriptEventObject
-	applymovement 127, SootopolisCity_Movement_1E5E63
-	applymovement 255, SootopolisCity_Movement_1E5E68
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 3
-	special sub_8139560
-	waitstate
-	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 2
-	setvar VAR_0x8006, 8
-	setvar VAR_0x8007, 5
-	special sub_8139560
-	waitstate
-	waitmoncry
-	setweather 0
-	doweather
-	applymovement 11, SootopolisCity_Movement_1E5E5B
-	waitmovement 0
-	removeobject 11
-	special WaitWeather
-	waitstate
-	clearflag FLAG_SYS_WEATHER_CTRL
-	setvar VAR_0x40CA, 2
-	clearflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
-	fadenewbgm MUS_NAMINORI
-	delay 120
-	clearflag FLAG_SPECIAL_FLAG_0x4000
-	warp8 MAP_SOOTOPOLIS_CITY, 255, 29, 53
-	waitstate
-	end
-
-SootopolisCity_EventScript_1E5D82:: @ 81E5D82
-	setmetatile 27, 43, 656, 0
-	setmetatile 28, 43, 656, 0
-	setmetatile 29, 43, 656, 0
-	setmetatile 30, 43, 656, 0
-	setmetatile 27, 44, 656, 0
-	setmetatile 28, 44, 656, 0
-	setmetatile 29, 44, 656, 0
-	setmetatile 30, 44, 656, 0
-	setmetatile 27, 45, 656, 0
-	setmetatile 28, 45, 656, 0
-	setmetatile 29, 45, 656, 0
-	setmetatile 30, 45, 656, 0
-	setmetatile 32, 43, 656, 0
-	setmetatile 33, 43, 656, 0
-	setmetatile 34, 43, 656, 0
-	setmetatile 35, 43, 656, 0
-	setmetatile 32, 44, 656, 0
-	setmetatile 33, 44, 656, 0
-	setmetatile 34, 44, 656, 0
-	setmetatile 35, 44, 656, 0
-	setmetatile 32, 45, 656, 0
-	setmetatile 33, 45, 656, 0
-	setmetatile 34, 45, 656, 0
-	setmetatile 35, 45, 656, 0
-	return
-
-SootopolisCity_Movement_1E5E5B: @ 81E5E5B
-	walk_fast_up
-	walk_fastest_up
-	walk_fastest_up
-	walk_fastest_up
-	walk_fastest_up
-	walk_fastest_up
-	walk_fastest_up
-	step_end
-
-SootopolisCity_Movement_1E5E63: @ 81E5E63
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_Movement_1E5E68: @ 81E5E68
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_Movement_1E5E6D: @ 81E5E6D
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	step_end
-
-SootopolisCity_Movement_1E5E72: @ 81E5E72
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_slow_diag_northeast
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-SootopolisCity_Movement_1E5E7F: @ 81E5E7F
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_slow_diag_southwest
-	walk_slow_diag_southwest
-	step_end
-
-SootopolisCity_EventScript_1E5E8D:: @ 81E5E8D
+SlateportCity_EventScript_1DCDBD:: @ 81DCDBD
 	lock
 	faceplayer
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E5EC4
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E5ECE
-	compare VAR_0x405E, 2
-	goto_if 4, SootopolisCity_EventScript_1E5EBA
-	msgbox SootopolisCity_Text_1E6D77, 4
+	message SlateportCity_Text_1DD64A
+	waitmessage
+	pokemart SlateportCity_Pokemart_1DCDD4
+	msgbox gUnknown_08272A3F, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E5EBA:: @ 81E5EBA
-	msgbox SootopolisCity_Text_1E6DFE, 4
+SlateportCity_Pokemart_1DCDD4: @ 81DCDD4
+	.2byte ITEM_PROTEIN
+	.2byte ITEM_IRON
+	.2byte ITEM_CARBOS
+	.2byte ITEM_ZINC
+	.2byte ITEM_CALCIUM
+	.2byte ITEM_HP_UP
+	.2byte ITEM_NONE
 	release
 	end
 
-SootopolisCity_EventScript_1E5EC4:: @ 81E5EC4
-	msgbox SootopolisCity_Text_1E6F38, 4
-	release
-	end
-
-SootopolisCity_EventScript_1E5ECE:: @ 81E5ECE
-	msgbox SootopolisCity_Text_1E6ED4, 4
-	release
-	end
-
-SootopolisCity_EventScript_1E5ED8:: @ 81E5ED8
+SlateportCity_EventScript_1DCDE4:: @ 81DCDE4
 	lock
 	faceplayer
-	compare VAR_0x405E, 1
-	goto_if 3, SootopolisCity_EventScript_1E5F1B
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E5F1B
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E5F10
-	msgbox SootopolisCity_Text_1E6BFF, 4
-	closemessage
-	applymovement 3, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	release
-	end
-
-SootopolisCity_EventScript_1E5F10:: @ 81E5F10
-	msgbox SootopolisCity_Text_1E6C53, 4
-	closemessage
-	release
-	end
-
-SootopolisCity_EventScript_1E5F1B:: @ 81E5F1B
-	dodailyevents
-	special GetPlayerBigGuyGirlString
-	checkflag FLAG_0x932
-	goto_eq SootopolisCity_EventScript_1E5FBB
-	msgbox SootopolisCity_Text_2A7BB0, 4
-	random 10
-	addvar VAR_RESULT, 20
-	addvar VAR_RESULT, 133
-	giveitem_std VAR_RESULT
-	compare VAR_RESULT, 0
-	goto_eq SootopolisCity_EventScript_272054
-	setflag FLAG_0x932
-	msgbox SootopolisCity_Text_2A7C7C, 4
-	random 2
-	compare VAR_RESULT, 0
-	goto_eq SootopolisCity_EventScript_1E5F79
+	bufferleadmonspeciesname 0
+	msgbox SlateportCity_Text_1DD68A, 4
+	specialvar VAR_RESULT, LeadMonHasEffortRibbon
 	compare VAR_RESULT, 1
-	goto_eq SootopolisCity_EventScript_1E5F9A
-	end
-
-SootopolisCity_EventScript_1E5F79:: @ 81E5F79
-	giveitem_std ITEM_FIGY_BERRY
+	call_if 1, SlateportCity_EventScript_1DCE38
+	specialvar VAR_RESULT, Special_AreLeadMonEVsMaxedOut
 	compare VAR_RESULT, 0
-	goto_eq SootopolisCity_EventScript_272054
-	msgbox SootopolisCity_Text_2A7CB7, 4
+	call_if 1, SlateportCity_EventScript_1DCE2E
+	msgbox SlateportCity_Text_1DD697, 4
+	playfanfare MUS_FANFA4
+	message SlateportCity_Text_1DD6E3
+	waitfanfare
+	msgbox SlateportCity_Text_1DD702, 4
+	special GiveLeadMonEffortRibbon
 	release
 	end
 
-SootopolisCity_EventScript_1E5F9A:: @ 81E5F9A
-	giveitem_std ITEM_IAPAPA_BERRY
-	compare VAR_RESULT, 0
-	goto_eq SootopolisCity_EventScript_272054
-	msgbox SootopolisCity_Text_2A7CB7, 4
+SlateportCity_EventScript_1DCE2E:: @ 81DCE2E
+	msgbox SlateportCity_Text_1DD722, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E5FBB:: @ 81E5FBB
-	msgbox SootopolisCity_Text_2A7CEC, 5
-	compare VAR_RESULT, 1
-	goto_eq SootopolisCity_EventScript_1E5FD8
-	msgbox SootopolisCity_Text_2A7DD2, 4
+SlateportCity_EventScript_1DCE38:: @ 81DCE38
+	msgbox SlateportCity_Text_1DD77B, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E5FD8:: @ 81E5FD8
-	msgbox SootopolisCity_Text_2A7D80, 4
-	release
-	end
-
-SootopolisCity_EventScript_1E5FE2:: @ 81E5FE2
-	lockall
-	applymovement 2, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E600D
-	msgbox SootopolisCity_Text_1E71A1, 4
-	closemessage
-	applymovement 2, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E600D:: @ 81E600D
-	msgbox SootopolisCity_Text_1E728C, 4
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6017:: @ 81E6017
+SlateportCity_EventScript_1DCE42:: @ 81DCE42
 	lock
 	faceplayer
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E602E
-	msgbox SootopolisCity_Text_1E6CCA, 4
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCE59
+	msgbox SlateportCity_Text_1DD81A, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E602E:: @ 81E602E
-	msgbox SootopolisCity_Text_1E6D57, 4
+SlateportCity_EventScript_1DCE59:: @ 81DCE59
+	msgbox SlateportCity_Text_1DE3E2, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E6038:: @ 81E6038
+SlateportCity_EventScript_1DCE63:: @ 81DCE63
 	lock
 	faceplayer
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E607A
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E6084
-	compare VAR_0x405E, 2
-	goto_if 4, SootopolisCity_EventScript_1E6065
-	msgbox SootopolisCity_Text_1E6F90, 4
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCE7A
+	msgbox SlateportCity_Text_1DD8A6, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E6065:: @ 81E6065
-	msgbox SootopolisCity_Text_1E7078, 4
-	closemessage
-	applymovement 8, SootopolisCity_Movement_2725A2
-	waitmovement 0
+SlateportCity_EventScript_1DCE7A:: @ 81DCE7A
+	msgbox SlateportCity_Text_1DE28E, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E607A:: @ 81E607A
-	msgbox SootopolisCity_Text_1E710B, 4
+SlateportCity_EventScript_1DCE84:: @ 81DCE84
+	lock
+	faceplayer
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCEA4
+	checkflag FLAG_0x060
+	goto_eq SlateportCity_EventScript_1DCEAE
+	msgbox SlateportCity_Text_1DD93D, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E6084:: @ 81E6084
-	msgbox SootopolisCity_Text_1E70D4, 4
+SlateportCity_EventScript_1DCEA4:: @ 81DCEA4
+	msgbox SlateportCity_Text_1DE30C, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E608E:: @ 81E608E
+SlateportCity_EventScript_1DCEAE:: @ 81DCEAE
+	msgbox SlateportCity_Text_1DD999, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCEB8:: @ 81DCEB8
+	lock
+	faceplayer
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCECF
+	msgbox SlateportCity_Text_1DDA34, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCECF:: @ 81DCECF
+	msgbox SlateportCity_Text_1DE376, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCED9:: @ 81DCED9
+	compare VAR_0x4058, 1
+	goto_eq SlateportCity_EventScript_1DCEED
+	msgbox SlateportCity_Text_1DDA9A, 2
+	end
+
+SlateportCity_EventScript_1DCEED:: @ 81DCEED
+	msgbox SlateportCity_Text_1DE43D, 3
+	end
+
+SlateportCity_EventScript_1DCEF6:: @ 81DCEF6
+	lock
+	faceplayer
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCF0D
+	msgbox SlateportCity_Text_1DDB21, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCF0D:: @ 81DCF0D
+	msgbox SlateportCity_Text_1DE460, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCF17:: @ 81DCF17
+	lock
+	faceplayer
+	checkflag FLAG_0x094
+	goto_eq SlateportCity_EventScript_1DCF2C
+	msgbox SlateportCity_Text_1DDBAC, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCF2C:: @ 81DCF2C
+	msgbox SlateportCity_Text_1DDBD5, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCF36:: @ 81DCF36
+	msgbox SlateportCity_Text_1DE8BC, 3
+	end
+
+SlateportCity_EventScript_1DCF3F:: @ 81DCF3F
 	lockall
-	applymovement 4, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E60D9
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E60CF
-	compare VAR_0x405E, 1
-	goto_if 3, SootopolisCity_EventScript_1E60CF
-	msgbox SootopolisCity_Text_1E690B, 4
-	closemessage
-	applymovement 4, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	release
-	end
-
-SootopolisCity_EventScript_1E60CF:: @ 81E60CF
-	msgbox SootopolisCity_Text_1E68A1, 4
-	release
-	end
-
-SootopolisCity_EventScript_1E60D9:: @ 81E60D9
-	msgbox SootopolisCity_Text_1E6920, 4
-	release
-	end
-
-SootopolisCity_EventScript_1E60E3:: @ 81E60E3
-	lockall
-	applymovement 5, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E612D
 	checkflag FLAG_SYS_GAME_CLEAR
-	goto_eq SootopolisCity_EventScript_1E6137
-	compare VAR_0x405E, 6
-	goto_if 4, SootopolisCity_EventScript_1E6141
-	compare VAR_0x405E, 1
-	goto_if 3, SootopolisCity_EventScript_1E6141
-	msgbox SootopolisCity_Text_1E6692, 4
-	closemessage
-	applymovement 5, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	release
+	goto_eq SlateportCity_EventScript_1DCF66
+	checkflag FLAG_BADGE07_GET
+	goto_eq SlateportCity_EventScript_1DCF5C
+	msgbox SlateportCity_Text_1DE8F8, 4
+	releaseall
 	end
 
-SootopolisCity_EventScript_1E612D:: @ 81E612D
-	msgbox SootopolisCity_Text_1E6750, 4
-	release
+SlateportCity_EventScript_1DCF5C:: @ 81DCF5C
+	msgbox SlateportCity_Text_1DE940, 4
+	releaseall
 	end
 
-SootopolisCity_EventScript_1E6137:: @ 81E6137
-	msgbox SootopolisCity_Text_1E677F, 4
-	release
+SlateportCity_EventScript_1DCF66:: @ 81DCF66
+	msgbox SlateportCity_Text_1DE9AA, 4
+	releaseall
 	end
 
-SootopolisCity_EventScript_1E6141:: @ 81E6141
-	msgbox SootopolisCity_Text_1E6618, 4
-	release
+SlateportCity_EventScript_1DCF70:: @ 81DCF70
+	msgbox SlateportCity_Text_1DEA0B, 3
 	end
 
-SootopolisCity_EventScript_1E614B:: @ 81E614B
-	msgbox SootopolisCity_Text_1E656F, 3
+SlateportCity_EventScript_1DCF79:: @ 81DCF79
+	msgbox SlateportCity_Text_1DEA3B, 3
 	end
 
-SootopolisCity_EventScript_1E6154:: @ 81E6154
-	msgbox SootopolisCity_Text_1E65C8, 3
+SlateportCity_EventScript_1DCF82:: @ 81DCF82
+	msgbox SlateportCity_Text_1DEA6F, 3
 	end
 
-SootopolisCity_EventScript_1E615D:: @ 81E615D
-	msgbox SootopolisCity_Text_1E6604, 3
+SlateportCity_EventScript_1DCF8B:: @ 81DCF8B
+	msgbox SlateportCity_Text_1DEAAF, 3
 	end
 
-SootopolisCity_EventScript_1E6166:: @ 81E6166
+SlateportCity_EventScript_1DCF94:: @ 81DCF94
 	lockall
-	applymovement 7, SootopolisCity_Movement_27259E
-	waitmovement 0
-	checkflag FLAG_0x133
-	call_if 0, SootopolisCity_EventScript_1E61CC
-	compare VAR_0x405E, 2
-	goto_eq SootopolisCity_EventScript_1E61AE
-	compare VAR_0x405E, 3
-	goto_eq SootopolisCity_EventScript_1E61C2
-	compare VAR_0x405E, 4
-	goto_eq SootopolisCity_EventScript_1E61C2
-	checkflag FLAG_0x09E
-	goto_eq SootopolisCity_EventScript_1E61B8
-	msgbox SootopolisCity_Text_1E78E5, 4
+	checkflag FLAG_SYS_GAME_CLEAR
+	goto_eq SlateportCity_EventScript_1DCFA8
+	msgbox SlateportCity_Text_1DEAE3, 4
 	releaseall
 	end
 
-SootopolisCity_EventScript_1E61AE:: @ 81E61AE
-	msgbox SootopolisCity_Text_1E7866, 4
+SlateportCity_EventScript_1DCFA8:: @ 81DCFA8
+	msgbox SlateportCity_Text_1DEB5A, 4
 	releaseall
 	end
 
-SootopolisCity_EventScript_1E61B8:: @ 81E61B8
-	msgbox SootopolisCity_Text_1E794B, 4
-	releaseall
+SlateportCity_EventScript_1DCFB2:: @ 81DCFB2
+	msgbox SlateportCity_Text_1DEBA0, 3
 	end
 
-SootopolisCity_EventScript_1E61C2:: @ 81E61C2
-	msgbox SootopolisCity_Text_1E789A, 4
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E61CC:: @ 81E61CC
-	msgbox SootopolisCity_Text_1E75CB, 4
-	closemessage
-	compare VAR_FACING, 3
-	call_if 1, SootopolisCity_EventScript_1E6243
-	compare VAR_FACING, 2
-	call_if 1, SootopolisCity_EventScript_1E6255
-	msgbox SootopolisCity_Text_1E7737, 4
-	closemessage
-	applymovement 7, SootopolisCity_Movement_1E62D4
-	applymovement 255, SootopolisCity_Movement_1E630E
-	waitmovement 0
-	delay 120
-	applymovement 1, SootopolisCity_Movement_1E6341
-	waitmovement 0
-	applymovement 7, SootopolisCity_Movement_1E6344
-	applymovement 255, SootopolisCity_Movement_1E634F
-	waitmovement 0
-	msgbox SootopolisCity_Text_1E77F0, 4
-	closemessage
-	setflag FLAG_0x133
-	applymovement 255, SootopolisCity_Movement_1E635A
-	waitmovement 0
-	warp MAP_CAVE_OF_ORIGIN_ENTRANCE, 255, 9, 20
-	waitstate
-	end
-
-SootopolisCity_EventScript_1E6243:: @ 81E6243
-	applymovement 7, SootopolisCity_Movement_1E6267
-	applymovement 255, SootopolisCity_Movement_1E628C
-	waitmovement 0
-	return
-
-SootopolisCity_EventScript_1E6255:: @ 81E6255
-	applymovement 7, SootopolisCity_Movement_1E6267
-	applymovement 255, SootopolisCity_Movement_1E62B0
-	waitmovement 0
-	return
-
-SootopolisCity_Movement_1E6267: @ 81E6267
-	walk_up
-	walk_up
-	walk_up
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_in_place_fastest_down
-	step_end
-
-SootopolisCity_Movement_1E628C: @ 81E628C
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_Movement_1E62B0: @ 81E62B0
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_Movement_1E62D4: @ 81E62D4
-	walk_up
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	delay_4
-	walk_in_place_fastest_left
-	delay_16
-	delay_16
-	walk_right
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_Movement_1E630E: @ 81E630E
-	walk_up
-	walk_up
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-SootopolisCity_Movement_1E6341: @ 81E6341
-	walk_slow_left
-	walk_in_place_fastest_right
-	step_end
-
-SootopolisCity_Movement_1E6344: @ 81E6344
-	walk_down
-	walk_down
-	walk_left
-	delay_8
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_right
-	walk_in_place_fastest_left
-	step_end
-
-SootopolisCity_Movement_1E634F: @ 81E634F
-	delay_16
-	delay_16
-	delay_16
-	delay_8
-	walk_right
-	walk_right
-	walk_up
-	walk_up
-	walk_up
-	walk_in_place_fastest_right
-	step_end
-
-SootopolisCity_Movement_1E635A: @ 81E635A
-	walk_up
-	walk_up
-	step_end
-
-SootopolisCity_EventScript_1E635D:: @ 81E635D
-	lockall
-	applymovement 15, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E6388
-	msgbox SootopolisCity_Text_1E67DC, 4
-	closemessage
-	applymovement 15, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6388:: @ 81E6388
-	msgbox SootopolisCity_Text_1E6853, 4
-	closemessage
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6393:: @ 81E6393
-	lockall
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E63C7
-	msgbox SootopolisCity_Text_1E6936, 4
-	closemessage
-	applymovement 14, SootopolisCity_Movement_27259E
-	waitmovement 0
-	msgbox SootopolisCity_Text_1E696C, 4
-	closemessage
-	applymovement 14, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E63C7:: @ 81E63C7
-	applymovement 14, SootopolisCity_Movement_27259E
-	waitmovement 0
-	msgbox SootopolisCity_Text_1E69B8, 4
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E63DB:: @ 81E63DB
-	lockall
-	applymovement 13, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E6406
-	msgbox SootopolisCity_Text_1E6C7C, 4
-	closemessage
-	applymovement 13, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6406:: @ 81E6406
-	msgbox SootopolisCity_Text_1E6CA6, 4
-	closemessage
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6411:: @ 81E6411
-	lockall
-	applymovement 12, SootopolisCity_Movement_27259E
-	waitmovement 0
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E643C
-	msgbox SootopolisCity_Text_1E6A50, 4
-	closemessage
-	applymovement 12, SootopolisCity_Movement_2725A2
-	waitmovement 0
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E643C:: @ 81E643C
-	msgbox SootopolisCity_Text_1E6B2A, 4
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6446:: @ 81E6446
+SlateportCity_EventScript_1DCFBB:: @ 81DCFBB
 	lock
 	faceplayer
-	compare VAR_0x405E, 4
-	goto_eq SootopolisCity_EventScript_1E64D8
-	checkflag FLAG_0x138
-	goto_eq SootopolisCity_EventScript_1E64E2
-	checkflag FLAG_0x09E
-	goto_eq SootopolisCity_EventScript_1E646F
-	msgbox SootopolisCity_Text_1E7A3E, 4
+	compare VAR_0x4058, 1
+	call_if 1, SlateportCity_EventScript_1DCFD2
+	msgbox SlateportCity_Text_1DE10E, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E646F:: @ 81E646F
-	msgbox SootopolisCity_Text_1E7ACF, 4
-	giveitem_std ITEM_HM07
-	setflag FLAG_0x138
-	msgbox SootopolisCity_Text_1E7B86, 4
+SlateportCity_EventScript_1DCFD2:: @ 81DCFD2
+	msgbox SlateportCity_Text_1DE10E, 4
+	release
+	end
+
+SlateportCity_EventScript_1DCFDC:: @ 81DCFDC
+	msgbox SlateportCity_Text_1DE16C, 2
+	end
+
+SlateportCity_EventScript_1DCFE5:: @ 81DCFE5
+	msgbox SlateportCity_Text_1DDFF7, 2
+	end
+
+SlateportCity_EventScript_1DCFEE:: @ 81DCFEE
+	msgbox SlateportCity_Text_1DE04B, 2
+	end
+
+SlateportCity_EventScript_1DCFF7:: @ 81DCFF7
+	msgbox SlateportCity_Text_1DE0D2, 2
+	end
+
+SlateportCity_EventScript_1DD000:: @ 81DD000
+	msgbox SlateportCity_Text_1DE1EC, 2
+	end
+
+SlateportCity_EventScript_1DD009:: @ 81DD009
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDC4F, 4
 	closemessage
-	compare VAR_FACING, 2
-	call_if 1, SootopolisCity_EventScript_1E64B2
-	compare VAR_FACING, 4
-	call_if 1, SootopolisCity_EventScript_1E64B2
-	compare VAR_FACING, 3
-	call_if 1, SootopolisCity_EventScript_1E64C5
-	release
-	end
-
-SootopolisCity_EventScript_1E64B2:: @ 81E64B2
-	applymovement 18, SootopolisCity_Movement_1E64EC
+	applymovement 5, SlateportCity_Movement_2725A2
 	waitmovement 0
-	moveobjectoffscreen 18
-	setvar VAR_0x40D8, 1
-	return
+	release
+	end
 
-SootopolisCity_EventScript_1E64C5:: @ 81E64C5
-	applymovement 18, SootopolisCity_Movement_1E64EF
+SlateportCity_EventScript_1DD020:: @ 81DD020
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDC8A, 4
+	closemessage
+	applymovement 18, SlateportCity_Movement_2725A2
 	waitmovement 0
-	moveobjectoffscreen 18
-	setvar VAR_0x40D8, 2
-	return
-
-SootopolisCity_EventScript_1E64D8:: @ 81E64D8
-	msgbox SootopolisCity_Text_1E79C8, 4
 	release
 	end
 
-SootopolisCity_EventScript_1E64E2:: @ 81E64E2
-	msgbox SootopolisCity_Text_1E7CBC, 4
+SlateportCity_EventScript_1DD037:: @ 81DD037
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDCD5, 4
+	closemessage
+	applymovement 19, SlateportCity_Movement_2725A2
+	waitmovement 0
 	release
 	end
 
-SootopolisCity_Movement_1E64EC: @ 81E64EC
-	walk_right
-	walk_in_place_fastest_down
+SlateportCity_EventScript_1DD04E:: @ 81DD04E
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDD18, 4
+	closemessage
+	applymovement 26, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_EventScript_1DD065:: @ 81DD065
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDD7D, 4
+	closemessage
+	applymovement 27, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_EventScript_1DD07C:: @ 81DD07C
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDDC0, 4
+	closemessage
+	applymovement 28, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_EventScript_1DD093:: @ 81DD093
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDDDF, 4
+	closemessage
+	applymovement 29, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_EventScript_1DD0AA:: @ 81DD0AA
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDE2F, 4
+	closemessage
+	applymovement 30, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_EventScript_1DD0C1:: @ 81DD0C1
+	lock
+	faceplayer
+	playse SE_PIN
+	applymovement 31, SlateportCity_Movement_272598
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_27259A
+	waitmovement 0
+	msgbox SlateportCity_Text_1DDE6E, 4
+	closemessage
+	applymovement 31, SlateportCity_Movement_2725A2
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_1DD147
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_27259E
+	waitmovement 0
+	msgbox SlateportCity_Text_1DDE86, 4
+	closemessage
+	applymovement 31, SlateportCity_Movement_2725A2
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_1DD147
+	waitmovement 0
+	msgbox SlateportCity_Text_1DDEB8, 4
+	closemessage
+	applymovement 31, SlateportCity_Movement_27259E
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_1DD147
+	waitmovement 0
+	applymovement 31, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
+	end
+
+SlateportCity_Movement_1DD147: @ 81DD147
+	step_14
+	step_14
 	step_end
 
-SootopolisCity_Movement_1E64EF: @ 81E64EF
-	walk_left
-	walk_in_place_fastest_down
-	step_end
+SlateportCity_EventScript_1DD14A:: @ 81DD14A
+	msgbox SlateportCity_Text_1DDF32, 3
+	end
 
-SootopolisCity_EventScript_1E64F2:: @ 81E64F2
-	lockall
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E6509
-	msgbox SootopolisCity_Text_1E72DB, 4
+SlateportCity_EventScript_1DD153:: @ 81DD153
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_1DDF8D, 4
 	closemessage
-	releaseall
+	applymovement 33, SlateportCity_Movement_2725A2
+	waitmovement 0
+	release
 	end
 
-SootopolisCity_EventScript_1E6509:: @ 81E6509
-	msgbox SootopolisCity_Text_1E737E, 4
-	setflag FLAG_0x135
-	checkflag FLAG_0x134
-	goto_eq SootopolisCity_EventScript_1E654C
-	releaseall
+SlateportCity_EventScript_1DD16A:: @ 81DD16A
+	lock
+	faceplayer
+	message gUnknown_08272A21
+	waitmessage
+	pokemartdecoration SlateportCity_PokemartDecor_1DD184
+	msgbox gUnknown_08272A3F, 4
+	release
 	end
 
-SootopolisCity_EventScript_1E651F:: @ 81E651F
+	.align 2
+SlateportCity_PokemartDecor_1DD184: @ 81DD184
+	.2byte 95
+	.2byte 78
+	.2byte 96
+	.2byte 0
+	release
+	end
+
+SlateportCity_EventScript_1DD18E:: @ 81DD18E
+	msgbox gUnknown_08272E30, 4
+	release
+	end
+
+SlateportCity_EventScript_1DD198:: @ 81DD198
+	lock
+	faceplayer
+	checkflag FLAG_0x060
+	goto_if 0, SlateportCity_EventScript_1DD18E
+	message gUnknown_08272A21
+	waitmessage
+	pokemartdecoration SlateportCity_PokemartDecor_1DD1B8
+	msgbox gUnknown_08272A3F, 4
+	release
+	end
+
+SlateportCity_PokemartDecor_1DD1B8: @ 81DD1B8
+	.2byte 25
+	.2byte 27
+	.2byte 26
+	.2byte 28
+	.2byte 29
+	.2byte 30
+	.2byte 51
+	.2byte 52
+	.2byte 53
+	.2byte 54
+	.2byte 55
+	.2byte 56
+	.2byte 57
+	.2byte 58
+	.2byte 0
+	release
+	end
+
+SlateportCity_EventScript_1DD1D8:: @ 81DD1D8
+	lock
+	faceplayer
+	message gUnknown_08272A21
+	waitmessage
+	pokemart SlateportCity_Pokemart_1DD1F0
+	msgbox gUnknown_08272A3F, 4
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_1DD1F0: @ 81DD1F0
+	.2byte ITEM_TM10
+	.2byte ITEM_TM43
+	.2byte ITEM_NONE
+	release
+	end
+
+SlateportCity_EventScript_1DD1F8:: @ 81DD1F8
 	lockall
-	compare VAR_0x405E, 5
-	goto_eq SootopolisCity_EventScript_1E6536
-	msgbox SootopolisCity_Text_1E7460, 4
+	msgbox SlateportCity_Text_1DE502, 4
+	msgbox SlateportCity_Text_1DE54A, 4
 	closemessage
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E6536:: @ 81E6536
-	msgbox SootopolisCity_Text_1E74F6, 4
-	setflag FLAG_0x134
-	checkflag FLAG_0x135
-	goto_eq SootopolisCity_EventScript_1E654C
-	releaseall
-	end
-
-SootopolisCity_EventScript_1E654C:: @ 81E654C
-	setflag FLAG_0x33B
-	setflag FLAG_0x33A
-	setflag FLAG_0x09E
-	clearflag FLAG_0x358
-	clearflag FLAG_0x394
-	setvar VAR_0x40B9, 2
-	warpsilent MAP_SOOTOPOLIS_CITY, 255, 31, 34
+	applymovement 10, SlateportCity_Movement_2725A8
+	waitmovement 0
+	delay 10
+	applymovement 9, SlateportCity_Movement_2725AA
+	waitmovement 0
+	delay 25
+	applymovement 11, SlateportCity_Movement_1DD33C
+	applymovement 255, SlateportCity_Movement_1DD34A
+	applymovement 10, SlateportCity_Movement_1DD319
+	applymovement 9, SlateportCity_Movement_1DD326
+	waitmovement 0
+	removeobject 10
+	removeobject 9
+	msgbox SlateportCity_Text_1DE5F7, 4
+	applymovement 11, SlateportCity_Movement_2725A6
+	waitmovement 0
+	msgbox SlateportCity_Text_1DE64F, 4
+	playbgm MUS_AQA_0, 0
+	msgbox SlateportCity_Text_1DE724, 4
+	applymovement 6, SlateportCity_Movement_2725A4
+	applymovement 1, SlateportCity_Movement_2725A4
+	applymovement 7, SlateportCity_Movement_1DD309
+	applymovement 3, SlateportCity_Movement_272596
+	applymovement 2, SlateportCity_Movement_1DD311
+	waitmovement 0
+	applymovement 11, SlateportCity_Movement_2725AA
+	waitmovement 0
+	msgbox SlateportCity_Text_1DE7F7, 4
+	playse SE_PIN
+	applymovement 11, SlateportCity_Movement_272598
+	waitmovement 0
+	applymovement 11, SlateportCity_Movement_27259A
+	waitmovement 0
+	applymovement 11, SlateportCity_Movement_2725A6
+	waitmovement 0
+	msgbox SlateportCity_Text_1DE860, 4
+	msgbox SlateportCity_Text_1DE8A0, 4
+	closemessage
+	applymovement 11, SlateportCity_Movement_1DD337
+	applymovement 255, SlateportCity_Movement_1DD344
+	waitmovement 0
+	removeobject 11
+	clearflag FLAG_0x349
+	clearflag FLAG_0x350
+	clearflag FLAG_0x34D
+	clearflag FLAG_0x34E
+	setvar VAR_0x4058, 2
+	warp SLATEPORT_CITY_HARBOR, 255, 11, 14
 	waitstate
 	releaseall
 	end
 
-SootopolisCity_Movement_1E656B:: @ 81E656B
-	levitate
+SlateportCity_Movement_1DD309: @ 81DD309
+	step_14
+	step_14
+	step_57
+	step_28
+	step_14
+	step_14
+	step_27
 	step_end
 
-SootopolisCity_Movement_1E656D:: @ 81E656D
-	destroy_extra_task
+SlateportCity_Movement_1DD311: @ 81DD311
+	step_57
+	step_26
+	step_14
+	step_25
+	step_14
+	step_14
+	step_27
 	step_end
 
-SootopolisCity_Text_1E656F: @ 81E656F
-	.string "SOOTOPOLIS CITY POKéMON GYM\n"
-	.string "LEADER: JUAN\p"
-	.string "“The GYM LEADER with the beauty\n"
-	.string "of pure water!”$"
+SlateportCity_Movement_1DD319: @ 81DD319
+	step_14
+	step_left
+	step_left
+	step_down
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
 
-SootopolisCity_Text_1E65C8: @ 81E65C8
-	.string "SOOTOPOLIS CITY\p"
-	.string "“The mystical city where history\n"
-	.string "slumbers.”$"
+SlateportCity_Movement_1DD326: @ 81DD326
+	step_down
+	step_left
+	step_left
+	step_left
+	step_down
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
 
+SlateportCity_Movement_1DD334: @ 81DD334
+	step_down
+	step_26
+	step_end
 
-SootopolisCity_Text_1E6604: @ 81E6604
-	.string "The door is closed.$"
+SlateportCity_Movement_1DD337: @ 81DD337
+	step_right
+	step_up
+	step_up
+	step_54
+	step_end
 
-SootopolisCity_Text_1E6618: @ 81E6618
-	.string "Diving in the sea. Climbing up and\n"
-	.string "down stairs all the time…\p"
-	.string "If you live in this town, you end up\n"
-	.string "getting physically fit.$"
+SlateportCity_Movement_1DD33C: @ 81DD33C
+	step_14
+	step_14
+	step_14
+	step_14
+	step_14
+	step_down
+	step_left
+	step_end
 
-SootopolisCity_Text_1E6692: @ 81E6692
-	.string "These giant POKéMON suddenly appeared\n"
-	.string "in the middle of the city!\p"
-	.string "And, I’ve never seen them before!\p"
-	.string "Why are they smashing into each\n"
-	.string "other like that?\p"
-	.string "Why can’t they be friends, those\n"
-	.string "POKéMON?$"
+SlateportCity_Movement_1DD344: @ 81DD344
+	step_28
+	step_14
+	step_14
+	step_right
+	step_up
+	step_end
 
-SootopolisCity_Text_1E6750: @ 81E6750
-	.string "What? What? What?\n"
-	.string "What is that green POKéMON?!$"
+SlateportCity_Movement_1DD34A: @ 81DD34A
+	step_14
+	step_14
+	step_14
+	step_14
+	step_14
+	step_14
+	step_14
+	step_25
+	step_end
 
-SootopolisCity_Text_1E677F: @ 81E677F
-	.string "GROUDON and KYOGRE…\n"
-	.string "Where did they go?\p"
-	.string "Will they cause droughts or downpours\n"
-	.string "somewhere else?$"
+SlateportCity_EventScript_1DD353:: @ 81DD353
+	msgbox SlateportCity_Text_1DE491, 3
+	end
 
-SootopolisCity_Text_1E67DC: @ 81E67DC
-	.string "I just get this sense somehow that\n"
-	.string "the two POKéMON aren’t angry.\p"
-	.string "I think… They probably can’t control\n"
-	.string "their own power…$"
+SlateportCity_EventScript_1DD35C:: @ 81DD35C
+	msgbox SlateportCity_Text_1DE4C4, 3
+	end
 
-SootopolisCity_Text_1E6853: @ 81E6853
-	.string "That flying POKéMON came down from\n"
-	.string "the sky and stopped the rampaging\l"
-	.string "POKéMON…$"
+SlateportCity_EventScript_1DD365:: @ 81DD365
+	msgbox SlateportCity_Text_1DD7AD, 2
+	end
 
-SootopolisCity_Text_1E68A1: @ 81E68A1
-	.string "I… I’ve never been out of this city.\p"
-	.string "I wonder what the world is like on\n"
-	.string "the other side of this round sky?$"
+SlateportCity_EventScript_1DD36E:: @ 81DD36E
+	lock
+	faceplayer
+	checkflag FLAG_0x151
+	goto_eq SlateportCity_EventScript_1DD39A
+	msgbox SlateportCity_Text_1DEBCE, 4
+	giveitem_std ITEM_POWDER_JAR
+	setflag FLAG_0x151
+	msgbox SlateportCity_Text_1DED27, 4
+	release
+	end
 
-SootopolisCity_Text_1E690B: @ 81E690B
-	.string "Wow!\n"
-	.string "This is wicked!$"
+SlateportCity_EventScript_1DD39A:: @ 81DD39A
+	setvar VAR_0x8004, 1
+	specialvar VAR_RESULT, sub_80246D4
+	compare VAR_RESULT, 0
+	goto_eq SlateportCity_EventScript_1DD3C0
+	msgbox SlateportCity_Text_1DEE40, 4
+	special sub_80248B0
+	goto SlateportCity_EventScript_1DD3CA
+	end
 
-SootopolisCity_Text_1E6920: @ 81E6920
-	.string "Wow!\n"
-	.string "That was wicked!$"
+SlateportCity_EventScript_1DD3C0:: @ 81DD3C0
+	msgbox SlateportCity_Text_1DED27, 4
+	release
+	end
 
-SootopolisCity_Text_1E6936: @ 81E6936
-	.string "Go for it, red POKéMON!\n"
-	.string "Don’t back off, blue POKéMON!$"
+SlateportCity_EventScript_1DD3CA:: @ 81DD3CA
+	message SlateportCity_Text_1DEE67
+	waitmessage
+	setvar VAR_0x8004, 7
+	special sub_813A128
+	waitstate
+	switch VAR_RESULT
+	case 0, SlateportCity_EventScript_1DD46E
+	case 1, SlateportCity_EventScript_1DD482
+	case 2, SlateportCity_EventScript_1DD496
+	case 3, SlateportCity_EventScript_1DD4AA
+	case 4, SlateportCity_EventScript_1DD4BE
+	case 5, SlateportCity_EventScript_1DD4D2
+	case 6, SlateportCity_EventScript_1DD4E6
+	case 7, SlateportCity_EventScript_1DD4FA
+	case 8, SlateportCity_EventScript_1DD50E
+	case 9, SlateportCity_EventScript_1DD522
+	case 10, SlateportCity_EventScript_1DD536
+	case 11, SlateportCity_EventScript_1DD54A
+	case 127, SlateportCity_EventScript_1DD54A
+	end
 
-SootopolisCity_Text_1E696C: @ 81E696C
-	.string "… … … … … …\p"
-	.string "Hi, do you know the names of those\n"
-	.string "POKéMON fighting over there?$"
+SlateportCity_EventScript_1DD46E:: @ 81DD46E
+	bufferitemname 0, ITEM_ENERGY_POWDER
+	setvar VAR_0x8008, 30
+	setvar VAR_0x8009, 50
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E69B8: @ 81E69B8
-	.string "I was wondering which one would win,\n"
-	.string "the red one or the blue one, but, oh no,\l"
-	.string "it’s the green one that settles things!\p"
-	.string "Talk about a huge turn of events!$"
+SlateportCity_EventScript_1DD482:: @ 81DD482
+	bufferitemname 0, ITEM_ENERGY_ROOT
+	setvar VAR_0x8008, 31
+	setvar VAR_0x8009, 80
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6A50: @ 81E6A50
-	.string "There’s an ancient legend that claims\n"
-	.string "the land and sea were shaped by\l"
-	.string "a colossal battle between POKéMON.\p"
-	.string "Well, I’m seeing that happen with\n"
-	.string "my very own eyes!\p"
-	.string "Whoa! I never expected to be\n"
-	.string "witness to something this huge!$"
+SlateportCity_EventScript_1DD496:: @ 81DD496
+	bufferitemname 0, ITEM_HEAL_POWDER
+	setvar VAR_0x8008, 32
+	setvar VAR_0x8009, 50
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6B2A: @ 81E6B2A
-	.string "There’s an ancient legend that claims\n"
-	.string "the land and sea were shaped by\l"
-	.string "a colossal battle between POKéMON.\p"
-	.string "Well, I saw that happen with\n"
-	.string "my very own eyes!\p"
-	.string "Whoa! I never expected to be\n"
-	.string "witness to something this huge!$"
+SlateportCity_EventScript_1DD4AA:: @ 81DD4AA
+	bufferitemname 0, ITEM_REVIVAL_HERB
+	setvar VAR_0x8008, 33
+	setvar VAR_0x8009, 300
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6BFF: @ 81E6BFF
-	.string "A big POKéMON is fighting with\n"
-	.string "another big POKéMON!\p"
-	.string "Please, someone make them stop!$"
+SlateportCity_EventScript_1DD4BE:: @ 81DD4BE
+	bufferitemname 0, ITEM_PROTEIN
+	setvar VAR_0x8008, 64
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6C53: @ 81E6C53
-	.string "A pretty POKéMON came down from\n"
-	.string "the sky…$"
+SlateportCity_EventScript_1DD4D2:: @ 81DD4D2
+	bufferitemname 0, ITEM_IRON
+	setvar VAR_0x8008, 65
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6C7C: @ 81E6C7C
-	.string "Oh, no!\n"
-	.string "SOOTOPOLIS CITY will get wrecked!$"
+SlateportCity_EventScript_1DD4E6:: @ 81DD4E6
+	bufferitemname 0, ITEM_CARBOS
+	setvar VAR_0x8008, 66
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6CA6: @ 81E6CA6
-	.string "SOOTOPOLIS CITY didn’t get wrecked!$"
+SlateportCity_EventScript_1DD4FA:: @ 81DD4FA
+	bufferitemname 0, ITEM_CALCIUM
+	setvar VAR_0x8008, 67
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6CCA: @ 81E6CCA
-	.string "Hm!\n"
-	.string "You’ve come all the way to SOOTOPOLIS?\l"
-	.string "You’re no ordinary tourist.\p"
-	.string "But I suppose that doesn’t make you\n"
-	.string "an extraordinary tourist, either.$"
+SlateportCity_EventScript_1DD50E:: @ 81DD50E
+	bufferitemname 0, ITEM_ZINC
+	setvar VAR_0x8008, 70
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6D57: @ 81E6D57
-	.string "The city has regained its calm…$"
+SlateportCity_EventScript_1DD522:: @ 81DD522
+	bufferitemname 0, ITEM_HP_UP
+	setvar VAR_0x8008, 63
+	setvar VAR_0x8009, 1000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6D77: @ 81E6D77
-	.string "Who might you be?\p"
-	.string "This is the CAVE OF ORIGIN.\p"
-	.string "The spirits of POKéMON, becalmed at\n"
-	.string "MT. PYRE, are said to be revived here.\p"
-	.string "Please leave.$"
+SlateportCity_EventScript_1DD536:: @ 81DD536
+	bufferitemname 0, ITEM_PP_UP
+	setvar VAR_0x8008, 69
+	setvar VAR_0x8009, 3000
+	goto SlateportCity_EventScript_1DD557
+	end
 
-SootopolisCity_Text_1E6DFE: @ 81E6DFE
-	.string "A person with a strong will and\n"
-	.string "superior talent…\p"
-	.string "A TRAINER who has knowledge and\n"
-	.string "experience of many kinds of POKéMON…\p"
-	.string "If such a person were to appear, I was\n"
-	.string "instructed by WALLACE to lead that\l"
-	.string "TRAINER to this CAVE.$"
+SlateportCity_EventScript_1DD54A:: @ 81DD54A
+	msgbox SlateportCity_Text_1DEFBC, 4
+	special sub_8024918
+	release
+	end
 
-SootopolisCity_Text_1E6ED4: @ 81E6ED4
-	.string "Oh, my…\p"
-	.string "The clash between the two awakened\n"
-	.string "POKéMON was quelled by the awakening\l"
-	.string "of a third POKéMON…$"
+SlateportCity_EventScript_1DD557:: @ 81DD557
+	msgbox SlateportCity_Text_1DEE90, 5
+	compare VAR_RESULT, 0
+	goto_eq SlateportCity_EventScript_1DD3CA
+	copyvar VAR_0x8004, VAR_0x8009
+	specialvar VAR_RESULT, sub_80246D4
+	compare VAR_RESULT, 0
+	goto_eq SlateportCity_EventScript_1DD5CE
+	giveitem_std VAR_0x8008
+	compare VAR_RESULT, 0
+	goto_eq SlateportCity_EventScript_1DD5C1
+	copyvar VAR_0x8004, VAR_0x8009
+	special sub_802477C
+	special sub_802488C
+	msgbox SlateportCity_Text_1DEEF7, 5
+	compare VAR_RESULT, 1
+	goto_eq SlateportCity_EventScript_1DD3CA
+	msgbox SlateportCity_Text_1DEF79, 4
+	special sub_8024918
+	release
+	end
 
-SootopolisCity_Text_1E6F38: @ 81E6F38
-	.string "This is the CAVE OF ORIGIN…\p"
-	.string "With the passing of the crisis,\n"
-	.string "the cave, too, shall sleep…$"
+SlateportCity_EventScript_1DD5C1:: @ 81DD5C1
+	msgbox gUnknown_08272A89, 4
+	special sub_8024918
+	release
+	end
 
-SootopolisCity_Text_1E6F90: @ 81E6F90
-	.string "SOOTOPOLIS sprang up as a town in\n"
-	.string "the crater of a volcano.\p"
-	.string "If you look up at the sky, the lip of\n"
-	.string "the crater is also visible.\l"
-	.string "So, all you see is the sky in a circle.\p"
-	.string "But that’s what makes the sky above\n"
-	.string "SOOTOPOLIS the most beautiful.$"
+SlateportCity_EventScript_1DD5CE:: @ 81DD5CE
+	msgbox SlateportCity_Text_1DEEC9, 4
+	goto SlateportCity_EventScript_1DD3CA
+	end
 
-SootopolisCity_Text_1E7078: @ 81E7078
-	.string "When two POKéMON that gigantic\n"
-	.string "are fighting that savagely, there’s\l"
-	.string "not much that we can do.$"
+SlateportCity_EventScript_1DD5DC:: @ 81DD5DC
+	lockall
+	applymovement 255, SlateportCity_Movement_2725B2
+	waitmovement 0
+	opendoor 10, 12
+	waitdooranim
+	addobject 35
+	applymovement 255, SlateportCity_Movement_1DD630
+	applymovement 35, SlateportCity_Movement_1DD637
+	waitmovement 0
+	closedoor 10, 12
+	waitdooranim
+	msgbox SlateportCity_Text_1DF28C, 4
+	closemessage
+	applymovement 255, SlateportCity_Movement_1DD634
+	applymovement 35, SlateportCity_Movement_1DD63A
+	waitmovement 0
+	removeobject 35
+	addvar VAR_0x40D1, 1
+	setvar VAR_0x40D2, 3
+	releaseall
+	end
 
-SootopolisCity_Text_1E70D4: @ 81E70D4
-	.string "When that third POKéMON flew down,\n"
-	.string "I feared the worst.$"
+SlateportCity_Movement_1DD630: @ 81DD630
+	step_40
+	step_down
+	step_41
+	step_end
 
-SootopolisCity_Text_1E710B: @ 81E710B
-	.string "A circle of a night sky framed by\n"
-	.string "the crater of a volcano…\p"
-	.string "And in that ring, stars flicker and\n"
-	.string "blink as if they were alive…\l"
-	.string "It’s my favorite scenery.$"
+SlateportCity_Movement_1DD634: @ 81DD634
+	step_14
+	step_28
+	step_end
 
-SootopolisCity_Text_1E71A1: @ 81E71A1
-	.string "The weather was clear this morning,\n"
-	.string "but…\p"
-	.string "All of a sudden, dark clouds brewed up,\n"
-	.string "rain started falling in sheets, and\l"
-	.string "there was thunder and lightning, too.\p"
-	.string "The weather just went completely\n"
-	.string "wild!\p"
-	.string "Is all of this because of those\n"
-	.string "POKéMON?$"
+SlateportCity_Movement_1DD637: @ 81DD637
+	step_13
+	step_down
+	step_end
 
-SootopolisCity_Text_1E728C: @ 81E728C
-	.string "Oh?\p"
-	.string "It was you who brought that flying\n"
-	.string "POKéMON here?\p"
-	.string "Well, aren’t you amazing!$"
+SlateportCity_Movement_1DD63A: @ 81DD63A
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
+	step_end
 
-SootopolisCity_Text_1E72DB: @ 81E72DB
-	.string "MAXIE: G… GROUDON…\n"
-	.string "Please! Stop what you’re doing!\p"
-	.string "I know the extent of your power now!\p"
-	.string "If you keep going, all HOENN, not just\n"
-	.string "SOOTOPOLIS, will be utterly ruined!$"
+SlateportCity_EventScript_1DD643:: @ 81DD643
+	lockall
+	special sub_80224D0
+	waitstate
+	releaseall
+	end
 
-SootopolisCity_Text_1E737E: @ 81E737E
-	.string "MAXIE: So the super-ancient POKéMON\n"
-	.string "weren’t only GROUDON and KYOGRE…\p"
-	.string "After all our fruitless scheming and\n"
-	.string "frantic efforts, that one POKéMON’s\l"
-	.string "simple action puts everything right\l"
-	.string "again as if nothing had happened…\p"
-	.string "Fu…\n"
-	.string "Fuhahaha…$"
+SlateportCity_Text_1DD64A: @ 81DD64A
+	.string "I’m the ENERGY GURU! I’ll go for it and\n"
+	.string "sell you what you need!$"
 
-SootopolisCity_Text_1E7460: @ 81E7460
-	.string "ARCHIE: KYOGRE! What’s wrong?!\n"
-	.string "Look over here! It’s the RED ORB!\l"
-	.string "Calm down! KYOGRE!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "It’s no good!\n"
-	.string "It’s not responding at all!$"
+SlateportCity_Text_1DD68A: @ 81DD68A
+	.string "Oh?\n"
+	.string "Your {STR_VAR_1}…$"
 
-SootopolisCity_Text_1E74F6: @ 81E74F6
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
-	.string "flew off to who knows where.\p"
-	.string "The weather in HOENN has returned\n"
-	.string "to its normal state…\p"
-	.string "Haha…\n"
-	.string "Hahaha…\p"
-	.string "Maybe what we were trying to do was\n"
-	.string "something small, even meaningless,\l"
-	.string "to POKéMON…$"
+SlateportCity_Text_1DD697: @ 81DD697
+	.string "Went for it stupendously!\p"
+	.string "As its reward, please give it this\n"
+	.string "EFFORT RIBBON.$"
 
-SootopolisCity_Text_1E75CB: @ 81E75CB
-	.string "STEVEN: Those POKéMON fighting…\n"
-	.string "GROUDON… And KYOGRE…\p"
-	.string "The two super-ancient POKéMON\n"
-	.string "were awakened from a long sleep…\p"
-	.string "And now they are smashing each other\n"
-	.string "with their uncontrollable energy…\p"
-	.string "…{PLAYER}{KUN}.\p"
-	.string "You being here now I’ll take to mean\n"
-	.string "that you’re prepared to become\l"
-	.string "involved in this crisis.\p"
-	.string "Well, then, there’s someone that\n"
-	.string "I’d like you to meet.\p"
-	.string "Come with me, please.$"
+SlateportCity_Text_1DD6E3: @ 81DD6E3
+	.string "{PLAYER} received the EFFORT RIBBON.$"
 
-SootopolisCity_Text_1E7737: @ 81E7737
-	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
-	.string "you think POKéMON are to be feared?\p"
-	.string "But that’s not true.\n"
-	.string "POKéMON are really more…\p"
-	.string "…Why am I asking you this?\n"
-	.string "You already know.$"
+SlateportCity_Text_1DD702: @ 81DD702
+	.string "{PLAYER} put the EFFORT RIBBON\n"
+	.string "on {STR_VAR_1}.$"
 
-SootopolisCity_Text_1E77F0: @ 81E77F0
-	.string "STEVEN: Okay, here we are!\p"
-	.string "Inside here you’ll find someone named\n"
-	.string "WALLACE.\p"
-	.string "I think you have what’s needed to\n"
-	.string "help him…$"
+SlateportCity_Text_1DD722: @ 81DD722
+	.string "You have to go for it a little harder.\p"
+	.string "If you do, I’ll give your POKéMON\n"
+	.string "something nice.$"
 
-SootopolisCity_Text_1E7866: @ 81E7866
-	.string "STEVEN: I think you have what’s\n"
-	.string "needed to help him…$"
+SlateportCity_Text_1DD77B: @ 81DD77B
+	.string "Oh! Your {STR_VAR_1}, that EFFORT\n"
+	.string "RIBBON looks good on it!$"
 
-SootopolisCity_Text_1E789A: @ 81E789A
-	.string "STEVEN: The SKY PILLAR…\p"
-	.string "I’ve never been there.\n"
-	.string "I wonder where it could be?$"
+SlateportCity_Text_1DD7AD: @ 81DD7AD
+	.string "The light of the lighthouse reaches\n"
+	.string "dozens of miles away.\p"
+	.string "I wonder if it doesn’t startle POKéMON\n"
+	.string "in the sea.$"
 
-SootopolisCity_Text_1E78E5: @ 81E78E5
-	.string "STEVEN: So that’s RAYQUAZA…\p"
-	.string "It’s incredible how the two rampaging\n"
-	.string "POKéMON would flee from it in fear…$"
+SlateportCity_Text_1DD81A: @ 81DD81A
+	.string "Ooh, look at this!\p"
+	.string "The seaweed you can get around these\n"
+	.string "parts is fresh and full of life.\p"
+	.string "Why, it looks like it can even rear up\n"
+	.string "and attack!$"
 
-SootopolisCity_Text_1E794B: @ 81E794B
-	.string "STEVEN: It looks like both MAXIE and\n"
-	.string "ARCHIE have gone away somewhere.\p"
-	.string "Perhaps they’ve gone to MT. PYRE to\n"
-	.string "return those ORBS…$"
+SlateportCity_Text_1DD8A6: @ 81DD8A6
+	.string "Where the water is clean, the fruits\n"
+	.string "of bountiful harvest gather.\p"
+	.string "And where people gather, a market\n"
+	.string "soon starts.\p"
+	.string "That is how a town is born and grows.$"
 
-SootopolisCity_Text_1E79C8: @ 81E79C8
-	.string "WALLACE: Oh?\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "Haven’t you scaled the SKY PILLAR\n"
-	.string "yet?\p"
-	.string "I’m sure that you can make it to\n"
-	.string "the top of the SKY PILLAR…$"
+SlateportCity_Text_1DD93D: @ 81DD93D
+	.string "Shopping where you can breathe the\n"
+	.string "scent of the ocean…\p"
+	.string "SLATEPORT is such a wonderful place!$"
 
-SootopolisCity_Text_1E7A3E: @ 81E7A3E
-	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "The leaders of TEAM MAGMA and AQUA,\n"
-	.string "I don’t think they meant harm.\p"
-	.string "It wouldn’t hurt to hear what they\n"
-	.string "have to say for themselves.$"
+SlateportCity_Text_1DD999: @ 81DD999
+	.string "If you put DOLLS or CUSHIONS on\n"
+	.string "the floor, they’ll get dirty.\p"
+	.string "I’m going to buy some BRICKS so my\n"
+	.string "DOLLS and CUSHIONS won’t get dirty\l"
+	.string "when I leave them out.$"
 
-SootopolisCity_Text_1E7ACF: @ 81E7ACF
-	.string "WALLACE: {PLAYER}{KUN}…\n"
-	.string "My eyes didn’t deceive me.\p"
-	.string "Thanks to your help, SOOTOPOLIS…\n"
-	.string "No, all of HOENN was saved.\p"
-	.string "On behalf of the people, I thank you.\p"
-	.string "This is a gift from me.\n"
-	.string "Please accept it.$"
+SlateportCity_Text_1DDA34: @ 81DDA34
+	.string "Wroooar! I’m going to compete in\n"
+	.string "the BATTLE TENT, too!\p"
+	.string "But before that, I need to catch\n"
+	.string "some POKéMON!$"
 
-SootopolisCity_Text_1E7B86: @ 81E7B86
-	.string "That HIDDEN MACHINE contains\n"
-	.string "WATERFALL.\p"
-	.string "If you have the RAIN BADGE, a POKéMON\n"
-	.string "that has learned that HM move can\l"
-	.string "force its way up waterfalls.\p"
-	.string "And where does one get the RAIN BADGE?\n"
-	.string "You know, don’t you?\p"
-	.string "That’s right! You have to beat\n"
-	.string "the SOOTOPOLIS GYM LEADER.\p"
-	.string "When you’re all set to go, step through\n"
-	.string "that door.$"
+SlateportCity_Text_1DDA9A: @ 81DDA9A
+	.string "Whew… I’m just bushed…\p"
+	.string "I hiked over from MAUVILLE CITY.\n"
+	.string "But, boy, this city’s huge.\p"
+	.string "If I’d known this, I would’ve ridden\n"
+	.string "my BIKE here.$"
 
-SootopolisCity_Text_1E7CBC: @ 81E7CBC
-	.string "WALLACE: I’m sure that you will be\n"
-	.string "dazzled by my mentor’s breathtakingly\l"
-	.string "elegant battle style.$"
+SlateportCity_Text_1DDB21: @ 81DDB21
+	.string "STERN, the fellow who built the\n"
+	.string "MUSEUM, also happens to be the leader\l"
+	.string "of an undersea exploration team.\p"
+	.string "So, everyone calls him CAPT. STERN.$"
+
+SlateportCity_Text_1DDBAC: @ 81DDBAC
+	.string "What is that over there?\n"
+	.string "That long line…$"
+
+SlateportCity_Text_1DDBD5: @ 81DDBD5
+	.string "When I was a child, I visited\n"
+	.string "the MUSEUM often.\p"
+	.string "I used to dream about the mysteries of\n"
+	.string "the sea after seeing the exhibits.$"
+
+SlateportCity_Text_1DDC4F: @ 81DDC4F
+	.string "Hey, thewe! Quit pushing OnO!\n"
+	.string "dis is the wine, can’t u see -w-?$"
+
+SlateportCity_Text_1DDC8A: @ 81DDC8A
+	.string "THE WOLFPACK has a powicy of\n"
+	.string "assembwing and dispewsing at\l"
+	.string "the howls of ouw SENPAI OwO.$"
+
+SlateportCity_Text_1DDCD5: @ 81DDCD5
+	.string "Our SENPAI is briwwiant UwU.\p"
+	.string "What wouwd he want 2 do wit\n"
+	.string "a MUSEUM now OwO?$"
+
+SlateportCity_Text_1DDD18: @ 81DDD18
+	.string "What’s the new scheme, I wondew òwó?\p"
+	.string "Our SENPAI is scawy when he’s mad, so\n"
+	.string "I’d bettew not scwew things up OnO$"
+
+SlateportCity_Text_1DDD7D: @ 81DDD7D
+	.string "OwO If thewe’s something we need in\n"
+	.string "the MUSEUM, we shouwd take it aww òwó!$"
+
+SlateportCity_Text_1DDDC0: @ 81DDDC0
+	.string "Hey, you thewe òwó!\n"
+	.string "Don’t butt in OnO!\p"
+	.string "unwess its my butt UwU$"
+
+SlateportCity_Text_1DDDDF: @ 81DDDDF
+	.string "A wong wine, huh OwO?\p"
+	.string "It weminds me of the times I wined up 2\n"
+	.string "buy smash-hit games… UwU$"
+
+SlateportCity_Text_1DDE2F: @ 81DDE2F
+	.string "Why r we even wining up and paying OnO?\n"
+	.string "We should just mawch in òwó!$"
+
+SlateportCity_Text_1DDE6E: @ 81DDE6E
+	.string "OwO?\n"
+	.string "What do you want?$"
+
+SlateportCity_Text_1DDE86: @ 81DDE86
+	.string "u want to read this sign UwU?\n"
+	.string "I’ww wead it 4 u! -w-$"
+
+SlateportCity_Text_1DDEB8: @ 81DDEB8
+	.string "OwO Let’s see…\p"
+	.string "Um… I tink it says someting like\n"
+	.string "“the wife in the sea is endwess.”\p"
+	.string "Yup, I’m pretty suwe that’s what\n"
+	.string "it says UwU.$"
+
+SlateportCity_Text_1DDF32: @ 81DDF32
+	.string "òwó Grumble…\p"
+	.string "I should’ve brought my PsVita\n"
+	.string "so I wouldn’t get bored in line…\p"
+	.string "Grumble…$"
+
+SlateportCity_Text_1DDF8D: @ 81DDF8D
+	.string "When this operation’s over, I’ll take\n"
+	.string "you to a hot spring spa!\p"
+	.string "That’s what our leader said.\n"
+	.string "I can’t wait!$"
+
+SlateportCity_Text_1DDFF7: @ 81DDFF7
+	.string "The sea is just so vast…\p"
+	.string "Could the sea have been made by\n"
+	.string "the tears shed by POKéMON?$"
+
+SlateportCity_Text_1DE04B: @ 81DE04B
+	.string "Do you know what they do with old\n"
+	.string "ships that become too creaky to sail?\p"
+	.string "They sink them in the sea so they\n"
+	.string "become habitats for POKéMON.$"
+
+SlateportCity_Text_1DE0D2: @ 81DE0D2
+	.string "Whenever I visit here, I get carried\n"
+	.string "away and buy too much.$"
+
+SlateportCity_Text_1DE10E: @ 81DE10E
+	.string "If you want to change your POKéMON’s\n"
+	.string "nickname, you’ll have to get the NAME\l"
+	.string "RATER to help you.$"
+
+SlateportCity_Text_1DE16C: @ 81DE16C
+	.string "Any POKéMON you get in a trade,\n"
+	.string "you can’t change its nickname.\p"
+	.string "The original TRAINER’s love for that\n"
+	.string "POKéMON is in the nickname.$"
+
+SlateportCity_Text_1DE1EC: @ 81DE1EC
+	.string "Recently, a BATTLE TENT was built\n"
+	.string "in SLATEPORT.\p"
+	.string "GYMS are fun, but the BATTLE TENT’s\n"
+	.string "awesome in its own way.\p"
+	.string "You should go find tough POKéMON\n"
+	.string "for the BATTLE TENT!$"
+
+SlateportCity_Text_1DE28E: @ 81DE28E
+	.string "I was hoping that it was a famous star\n"
+	.string "so I could get an autograph.\p"
+	.string "But who’s that being interviewed?\n"
+	.string "Isn’t that CAPT. STERN?$"
+
+SlateportCity_Text_1DE30C: @ 81DE30C
+	.string "That lady interviewer is so cool\n"
+	.string "and pretty.\p"
+	.string "When I grow up, I’m going to be\n"
+	.string "an international journalist!$"
+
+SlateportCity_Text_1DE376: @ 81DE376
+	.string "CAPT. STERN says they discovered\n"
+	.string "something at the bottom of the sea.\p"
+	.string "I wonder what it is?\n"
+	.string "What could it be?$"
+
+SlateportCity_Text_1DE3E2: @ 81DE3E2
+	.string "What’s going on here?\p"
+	.string "Did the good CAPTAIN come back with\n"
+	.string "a big fish from the ocean floor?$"
+
+SlateportCity_Text_1DE43D: @ 81DE43D
+	.string "Hey! Are you watching?\n"
+	.string "Am I on TV?$"
+
+SlateportCity_Text_1DE460: @ 81DE460
+	.string "A TV interview! Here!\n"
+	.string "The CAPTAIN’s a celebrity!$"
+
+SlateportCity_Text_1DE491: @ 81DE491
+	.string "TY: Okay, CAPT. STERN, a big smile\n"
+	.string "for the camera!$"
+
+SlateportCity_Text_1DE4C4: @ 81DE4C4
+	.string "GABBY: I see, I see. You’ve had a most\n"
+	.string "invaluable experience…$"
+
+SlateportCity_Text_1DE502: @ 81DE502
+	.string "CAPT. STERN: Yes, indeed. We intend to\n"
+	.string "move ahead with our exploration.$"
+
+SlateportCity_Text_1DE54A: @ 81DE54A
+	.string "GABBY: That’s wonderful, CAPT. STERN!\n"
+	.string "Thank you for taking the time from\l"
+	.string "your busy schedule to talk to us.\p"
+	.string "We hope we can interview you again\n"
+	.string "with news of more discoveries!$"
+
+SlateportCity_Text_1DE5F7: @ 81DE5F7
+	.string "CAPT. STERN: Whew…\p"
+	.string "That was my first time to be filmed for\n"
+	.string "TV. That was nerve-wracking.$"
+
+SlateportCity_Text_1DE64F: @ 81DE64F
+	.string "Oh! {PLAYER}{KUN}!\n"
+	.string "You’re looking great!\p"
+	.string "We made a huge discovery on our last\n"
+	.string "seafloor exploration.\p"
+	.string "We found an underwater cavern on\n"
+	.string "ROUTE 128.\p"
+	.string "We think it’s the habitat of a POKéMON\n"
+	.string "that’s said to have been long extinct.$"
+
+SlateportCity_Text_1DE724: @ 81DE724
+	.string "Fufufu…\n"
+	.string "CAPT. STERN, I presume.\p"
+	.string "We of THE WOLFPACK will assume\n"
+	.string "control of your submarine!\p"
+	.string "Your objections are meaningless!\n"
+	.string "We expect your total cooperation!\p"
+	.string "Fufufu…\n"
+	.string "Just watch and learn what TEAM\l"
+	.string "AQUA has planned!$"
+
+SlateportCity_Text_1DE7F7: @ 81DE7F7
+	.string "CAPT. STERN: What was that all about?\p"
+	.string "It sounded like someone using\n"
+	.string "a megaphone…\p"
+	.string "Where did it come from?$"
+
+SlateportCity_Text_1DE860: @ 81DE860
+	.string "It’s from the HARBOR!\p"
+	.string "The submarine!\n"
+	.string "They’re trying to take it!$"
+
+SlateportCity_Text_1DE8A0: @ 81DE8A0
+	.string "{PLAYER}{KUN}!\n"
+	.string "Please, come with me!$"
+
+SlateportCity_Text_1DE8BC: @ 81DE8BC
+	.string "BATTLE TENT SLATEPORT SITE\n"
+	.string "“Find it! The ultimate POKéMON!”$"
+
+SlateportCity_Text_1DE8F8: @ 81DE8F8
+	.string "STERN’S SHIPYARD\p"
+	.string "“Wanted: A sailor capable of sailing\n"
+	.string "in all currents.”$"
+
+SlateportCity_Text_1DE940: @ 81DE940
+	.string "STERN’S SHIPYARD\p"
+	.string "“The ferry S.S. TIDAL nears\n"
+	.string "completion for serving the ports of\l"
+	.string "SLATEPORT and LILYCOVE.”$"
+
+SlateportCity_Text_1DE9AA: @ 81DE9AA
+	.string "STERN’S SHIPYARD\p"
+	.string "“Boarding of the SLATEPORT-LILYCOVE\n"
+	.string "ferry S.S. TIDAL is handled at the\l"
+	.string "HARBOR.”$"
+
+SlateportCity_Text_1DEA0B: @ 81DEA0B
+	.string "POKéMON FAN CLUB\n"
+	.string "“Calling all fans of POKéMON!”$"
+
+SlateportCity_Text_1DEA3B: @ 81DEA3B
+	.string "“The endless sea sustains\n"
+	.string "all life.”\p"
+	.string "OCEANIC MUSEUM$"
+
+SlateportCity_Text_1DEA6F: @ 81DEA6F
+	.string "SLATEPORT CITY\p"
+	.string "“The port where people and POKéMON\n"
+	.string "cross paths.”$"
+
+SlateportCity_Text_1DEAAF: @ 81DEAAF
+	.string "SLATEPORT MARKET\n"
+	.string "“Unique items found nowhere else!”$"
+
+SlateportCity_Text_1DEAE3: @ 81DEAE3
+	.string "SLATEPORT HARBOR\p"
+	.string "“The ferry S.S. TIDAL is under\n"
+	.string "construction in the SHIPYARD.\p"
+	.string "“Service is scheduled to begin\n"
+	.string "shortly.”$"
+
+SlateportCity_Text_1DEB5A: @ 81DEB5A
+	.string "SLATEPORT HARBOR\p"
+	.string "“Enjoy a delightful cruise on\n"
+	.string "the ferry S.S. TIDAL.”$"
+
+SlateportCity_Text_1DEBA0: @ 81DEBA0
+	.string "NAME RATER’S HOUSE\n"
+	.string "“POKéMON nicknames rated.”$"
+
+SlateportCity_Text_1DEBCE: @ 81DEBCE
+	.string "If a wild POKéMON gets hurt, it heals\n"
+	.string "itself by chewing on BERRIES.\p"
+	.string "Did you know that?\p"
+	.string "Somebody saw that and got the idea\n"
+	.string "of making medicine from BERRIES.\p"
+	.string "Did you know that?\p"
+	.string "To turn BERRIES into medicine,\n"
+	.string "they must be crushed into powder.\p"
+	.string "Did you know that?\p"
+	.string "You seem to have an interest\n"
+	.string "in BERRIES!\p"
+	.string "I’ve got something good for someone\n"
+	.string "like you.$"
+
+SlateportCity_Text_1DED27: @ 81DED27
+	.string "I recently had machines installed at\n"
+	.string "POKéMON CENTERS for crushing BERRIES.\p"
+	.string "The BERRY CRUSH machines are at\n"
+	.string "the DIRECT CORNER upstairs.\p"
+	.string "Did you know?\p"
+	.string "Could you make BERRY POWDER for\n"
+	.string "me using those machines?\p"
+	.string "I can make you all sorts of medicine\n"
+	.string "if you bring me lots of BERRY POWDER.$"
+
+SlateportCity_Text_1DEE40: @ 81DEE40
+	.string "Have you brought me some\n"
+	.string "BERRY POWDER?$"
+
+SlateportCity_Text_1DEE67: @ 81DEE67
+	.string "What would you like to exchange\n"
+	.string "it with?$"
+
+SlateportCity_Text_1DEE90: @ 81DEE90
+	.string "Okay, you want to exchange your\n"
+	.string "BERRY POWDER for one {STR_VAR_1}?$"
+
+SlateportCity_Text_1DEEC9: @ 81DEEC9
+	.string "Oh, dear. You don’t have enough\n"
+	.string "BERRY POWDER.$"
+
+SlateportCity_Text_1DEEF7: @ 81DEEF7
+	.string "This is fine BERRY POWDER.\n"
+	.string "It will make excellent medicine.\p"
+	.string "Would you like to trade more of your\n"
+	.string "BERRY POWDER for something else?$"
+
+SlateportCity_Text_1DEF79: @ 81DEF79
+	.string "Okay! When you get some more\n"
+	.string "BERRY POWDER, bring it to me, please!$"
+
+SlateportCity_Text_1DEFBC: @ 81DEFBC
+	.string "Come back if you’d like to trade your\n"
+	.string "BERRY POWDER for some medicine.\p"
+	.string "I’m always running a bazaar here.\p"
+	.string "Did you know?$"
+
+SlateportCity_Text_1DF032: @ 81DF032
+	.string "SCOTT: Huh?\n"
+	.string "I’m sure I met you somewhere before.\p"
+	.string "Have I introduced myself to you?\n"
+	.string "If not, my name’s SCOTT.\p"
+	.string "I just saw THE WOLFPACK run away from\n"
+	.string "here like they were stung.\p"
+	.string "Let me guess--you drove them away?$"
+
+SlateportCity_Text_1DF0FE: @ 81DF0FE
+	.string "SCOTT: Hmm…\n"
+	.string "Maybe, just maybe, this TRAINER…$"
+
+SlateportCity_Text_1DF12B: @ 81DF12B
+	.string "SCOTT: All right! I think you’re going\n"
+	.string "to become a good friend.\p"
+	.string "So, let’s register each other in our\n"
+	.string "POKéNAVS.\p"
+	.string "… … … … … …$"
+
+SlateportCity_Text_1DF1A6: @ 81DF1A6
+	.string "Registered this SCOTT person\n"
+	.string "in the POKéNAV.$"
+
+SlateportCity_Text_1DF1D3: @ 81DF1D3
+	.string "SCOTT: What I’d like to do is tag along\n"
+	.string "with you, but I do want to keep an eye\l"
+	.string "on the talents of other people, too.\p"
+	.string "So, I’ll be off to roam other towns\n"
+	.string "a bit more.\p"
+	.string "Be seeing you, {PLAYER}{KUN}!$"
+
+SlateportCity_Text_1DF28C: @ 81DF28C
+	.string "SCOTT: Oh, hey!\n"
+	.string "If it isn’t {PLAYER}{KUN}!\p"
+	.string "{PLAYER}{KUN}, let me guess--you’re going\n"
+	.string "to take the BATTLE TENT challenge?\p"
+	.string "Yeah! That’s a good idea!\n"
+	.string "That’s a really great idea!\p"
+	.string "After all, a tough TRAINER is\n"
+	.string "the perfect fit for the BATTLE TENT!\p"
+	.string "Give it your best effort!$"
+

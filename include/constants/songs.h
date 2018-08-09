@@ -180,8 +180,8 @@
 #define SE_W146 176             // Dizzy Punch
 #define SE_W120 177             // Self-Destruct
 #define SE_W153 178             // Explosion
-#define SE_W071B 179            // Absorb 2
-#define SE_W071 180             // Absorb
+#define SE_W071B 179            // Succ 2
+#define SE_W071 180             // Succ
 #define SE_W103 181             // Screech
 #define SE_W062 182             // BubbleBeam
 #define SE_W062B 183            // BubbleBeam 2

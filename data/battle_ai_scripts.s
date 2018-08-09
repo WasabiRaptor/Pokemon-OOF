@@ -55,19 +55,19 @@ AI_CheckBadMove:
 BattleAIScript_82DBF92: @ 82DBF92
 	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
 	get_ability AI_TARGET
-	if_equal ABILITY_VOLT_ABSORB, CheckIfVoltAbsorbCancelsElectric
-	if_equal ABILITY_WATER_ABSORB, CheckIfWaterAbsorbCancelsWater
+	if_equal ABILITY_VOLT_SUCC, CheckIfVoltSuccCancelsElectric
+	if_equal ABILITY_WATER_SUCC, CheckIfWaterSuccCancelsWater
 	if_equal ABILITY_FLASH_FIRE, CheckIfFlashFireCancelsFire
 	if_equal ABILITY_WONDER_GUARD, CheckIfWonderGuardCancelsMove
 	if_equal ABILITY_LEVITATE, CheckIfLevitateCancelsGroundMove
 	goto BattleAIScript_82DBFF7
 
-CheckIfVoltAbsorbCancelsElectric: @ 82DBFBD
+CheckIfVoltSuccCancelsElectric: @ 82DBFBD
 	get_curr_move_type
 	if_equal_ TYPE_ACDC, Score_Minus12
 	goto BattleAIScript_82DBFF7
 
-CheckIfWaterAbsorbCancelsWater: @ 82DBFCA
+CheckIfWaterSuccCancelsWater: @ 82DBFCA
 	get_curr_move_type
 	if_equal_ TYPE_WATER, Score_Minus12
 	goto BattleAIScript_82DBFF7
@@ -657,7 +657,7 @@ Score_Plus10:
 AI_TryToFaint:
 	if_target_is_ally AI_Ret
 	if_effect EFFECT_SLEEP, AI_CV_Sleep
-	if_effect EFFECT_ABSORB, AI_CV_Absorb
+	if_effect EFFECT_SUCC, AI_CV_Succ
 	if_effect EFFECT_EXPLOSION, AI_CV_SelfKO
 	if_effect EFFECT_DREAM_EATER, AI_CV_DreamEater
 	if_effect EFFECT_MIRROR_MOVE, AI_CV_MirrorMove
@@ -792,16 +792,16 @@ AI_CV_SleepEncourageSlpDamage: @ 82DCAA5
 AI_CV_Sleep_End: @ 82DCAAD
 	end
 
-AI_CV_Absorb: @ 82DCAAE
-	if_type_effectiveness AI_EFFECTIVENESS_x0_5, AI_CV_AbsorbEncourageMaybe
-	if_type_effectiveness AI_EFFECTIVENESS_x0_25, AI_CV_AbsorbEncourageMaybe
-	goto AI_CV_Absorb_End
+AI_CV_Succ: @ 82DCAAE
+	if_type_effectiveness AI_EFFECTIVENESS_x0_5, AI_CV_SuccEncourageMaybe
+	if_type_effectiveness AI_EFFECTIVENESS_x0_25, AI_CV_SuccEncourageMaybe
+	goto AI_CV_Succ_End
 
-AI_CV_AbsorbEncourageMaybe: @ 82DCABF
-	if_random_less_than 50, AI_CV_Absorb_End
+AI_CV_SuccEncourageMaybe: @ 82DCABF
+	if_random_less_than 50, AI_CV_Succ_End
 	score -3
 
-AI_CV_Absorb_End: @ 82DCAC7
+AI_CV_Succ_End: @ 82DCAC7
 	end
 
 AI_CV_SelfKO: @ 82DCAC8

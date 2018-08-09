@@ -211,11 +211,11 @@ gSeismicTossMoveDescription:: @ 8618E3F
 gStrengthMoveDescription:: @ 8618E6E
 	.string "Builds enormous power,\nthen slams the foe.$"
 
-gAbsorbMoveDescription:: @ 8618E99
-	.string "An attack that absorbs\nhalf the damage inflicted.$"
+gSuccMoveDescription:: @ 8618E99
+	.string "An attack that succs\nhalf the damage inflicted.$"
 
 gMegaSuccMoveDescription:: @ 8618ECB
-	.string "An attack that absorbs\nhalf the damage inflicted.$"
+	.string "An attack that succs\nhalf the damage inflicted.$"
 
 gLeechSeedMoveDescription:: @ 8618EFD
 	.string "Plants a seed on the foe to\nsteal HP on every turn.$"
@@ -227,7 +227,7 @@ gRazorLeafMoveDescription:: @ 8618F60
 	.string "Cuts the enemy with leaves.\nHigh critical-hit ratio.$"
 
 gSolarBeamMoveDescription:: @ 8618F95
-	.string "Absorbs light in one turn,\nthen attacks next turn.$"
+	.string "Succs light in one turn,\nthen attacks next turn.$"
 
 gPoisonPowderMoveDescription:: @ 8618FC8
 	.string "Scatters a toxic powder\nthat may poison the foe.$"
@@ -767,7 +767,7 @@ gSpitUpMoveDescription:: @ 861B1E6
 	.string "Releases stockpiled power\n(the more the better).$"
 
 gSwallowMoveDescription:: @ 861B217
-	.string "Absorbs stockpiled power\nand restores HP.$"
+	.string "Succs stockpiled power\nand restores HP.$"
 
 gHeatWaveMoveDescription:: @ 861B241
 	.string "Exhales a hot breath on the\nfoe. May inflict a burn.$"
@@ -1135,7 +1135,7 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gCounterMoveDescription
 	.4byte gSeismicTossMoveDescription
 	.4byte gStrengthMoveDescription
-	.4byte gAbsorbMoveDescription
+	.4byte gSuccMoveDescription
 	.4byte gMegaSuccMoveDescription
 	.4byte gLeechSeedMoveDescription
 	.4byte gGrowthMoveDescription

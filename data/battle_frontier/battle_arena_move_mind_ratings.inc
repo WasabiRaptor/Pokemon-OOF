@@ -71,7 +71,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  0 @ Counter
 	.byte  1 @ Seismic Toss
 	.byte  1 @ Strength
-	.byte  1 @ Absorb
+	.byte  1 @ Succ
 	.byte  1 @ Mega Succ
 	.byte  0 @ Leech Seed
 	.byte  0 @ Growth

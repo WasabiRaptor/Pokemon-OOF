@@ -80,63 +80,63 @@ static const u8 sText_PkmnForgotMove[] = _("{B_BUFF1} forgot\n{B_BUFF2}.\p");
 static const u8 sText_StopLearningMove[] = _("{PAUSE 32}Stop learning\n{B_BUFF2}?");
 static const u8 sText_DidNotLearnMove[] = _("{B_BUFF1} did not learn\n{B_BUFF2}.\p");
 static const u8 sText_UseNextPkmn[] = _("Use next POKéMON?");
-static const u8 sText_AttackMissed[] = _("{B_ATK_NAME_WITH_PREFIX}’s\nattack missed!");
-static const u8 sText_PkmnProtectedItself[] = _("{B_DEF_NAME_WITH_PREFIX}\nprotected itself!");
+static const u8 sText_AttackMissed[] = _("{B_ATK_NAME_WITH_PREFIX}’s\nattack fucking missed!");
+static const u8 sText_PkmnProtectedItself[] = _("{B_DEF_NAME_WITH_PREFIX} fucking\nprotected itself!");
 static const u8 sText_AvoidedDamage[] = _("{B_DEF_NAME_WITH_PREFIX} avoided\ndamage with {B_DEF_ABILITY}!");
 static const u8 sText_PkmnMakesGroundMiss[] = _("{B_DEF_NAME_WITH_PREFIX} makes GROUND\nmoves miss with {B_DEF_ABILITY}!");
 static const u8 sText_PkmnAvoidedAttack[] = _("{B_DEF_NAME_WITH_PREFIX} avoided\nthe attack!");
 static const u8 sText_ItDoesntAffect[] = _("It doesn’t affect\n{B_DEF_NAME_WITH_PREFIX}…");
-static const u8 sText_AttackerFainted[] = _("{B_ATK_NAME_WITH_PREFIX}\nfainted!\p");
-static const u8 sText_TargetFainted[] = _("{B_DEF_NAME_WITH_PREFIX}\nfainted!\p");
+static const u8 sText_AttackerFainted[] = _("{B_ATK_NAME_WITH_PREFIX}\nfucking died!\p");
+static const u8 sText_TargetFainted[] = _("{B_DEF_NAME_WITH_PREFIX}\nfucking died!\p");
 static const u8 sText_PlayerGotMoney[] = _("{B_PLAYER_NAME} got ¥{B_BUFF1}\nfor winning!\p");
 static const u8 sText_PlayerWhiteout[] = _("{B_PLAYER_NAME} is out of\nusable POKéMON!\p");
-static const u8 sText_PlayerWhiteout2[] = _("{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PlayerWhiteout2[] = _("{B_PLAYER_NAME} got mugged!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PreventsEscape[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents\nescape with {B_SCR_ACTIVE_ABILITY}!\p");
 static const u8 sText_CantEscape2[] = _("Can’t escape!\p");
-static const u8 sText_AttackerCantEscape[] = _("{B_ATK_NAME_WITH_PREFIX} can’t escape!");
+static const u8 sText_AttackerCantEscape[] = _("{B_ATK_NAME_WITH_PREFIX} can’t\nfucking escape!");
 static const u8 sText_HitXTimes[] = _("Hit {B_BUFF1} time(s)!");
 static const u8 sText_PkmnFellAsleep[] = _("{B_EFF_NAME_WITH_PREFIX}\nfell asleep!");
 static const u8 sText_PkmnMadeSleep[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nmade {B_EFF_NAME_WITH_PREFIX} sleep!");
 static const u8 sText_PkmnAlreadyAsleep[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready asleep!");
 static const u8 sText_PkmnAlreadyAsleep2[] = _("{B_ATK_NAME_WITH_PREFIX} is\nalready asleep!");
-static const u8 sText_PkmnWasntAffected[] = _("{B_DEF_NAME_WITH_PREFIX}\nwasn’t affected!");
+static const u8 sText_PkmnWasntAffected[] = _("{B_DEF_NAME_WITH_PREFIX}wasn’t\nfucking affected!");
 static const u8 sText_PkmnWasPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}\nwas poisoned!");
 static const u8 sText_PkmnPoisonedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\npoisoned {B_EFF_NAME_WITH_PREFIX}!");
-static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby poison!");
-static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX} is already\npoisoned.");
-static const u8 sText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX} is badly\npoisoned!");
+static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby fucking poison!");
+static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX} is already\nfucking poisoned.");
+static const u8 sText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX} is badly\nfucking poisoned!");
 static const u8 sText_PkmnEnergySucced[] = _("{B_DEF_NAME_WITH_PREFIX} had its\nenergy succed!");
-static const u8 sText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX} was burned!");
+static const u8 sText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX} was\nfucking burned!");
 static const u8 sText_PkmnBurnedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nburned {B_EFF_NAME_WITH_PREFIX}!");
-static const u8 sText_PkmnHurtByBurn[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby its burn!");
-static const u8 sText_PkmnAlreadyHasBurn[] = _("{B_DEF_NAME_WITH_PREFIX} already\nhas a burn.");
+static const u8 sText_PkmnHurtByBurn[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby its fucking burn!");
+static const u8 sText_PkmnAlreadyHasBurn[] = _("{B_DEF_NAME_WITH_PREFIX} already\nhas a fucking burn.");
 static const u8 sText_PkmnWasFrozen[] = _("{B_EFF_NAME_WITH_PREFIX} was\nfrozen solid!");
 static const u8 sText_PkmnFrozenBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nfroze {B_EFF_NAME_WITH_PREFIX} solid!");
-static const u8 sText_PkmnIsFrozen[] = _("{B_ATK_NAME_WITH_PREFIX} is\nfrozen solid!");
-static const u8 sText_PkmnWasDefrosted[] = _("{B_DEF_NAME_WITH_PREFIX} was\ndefrosted!");
-static const u8 sText_PkmnWasDefrosted2[] = _("{B_ATK_NAME_WITH_PREFIX} was\ndefrosted!");
-static const u8 sText_PkmnWasDefrostedBy[] = _("{B_ATK_NAME_WITH_PREFIX} was\ndefrosted by {B_CURRENT_MOVE}!");
+static const u8 sText_PkmnIsFrozen[] = _("{B_ATK_NAME_WITH_PREFIX} is\nfucking rozen solid!");
+static const u8 sText_PkmnWasDefrosted[] = _("{B_DEF_NAME_WITH_PREFIX} was\nfucking defrosted!");
+static const u8 sText_PkmnWasDefrosted2[] = _("{B_ATK_NAME_WITH_PREFIX} was\nfriccin defrosted!");
+static const u8 sText_PkmnWasDefrostedBy[] = _("{B_ATK_NAME_WITH_PREFIX} was\nfuccing defrosted by {B_CURRENT_MOVE}!");
 static const u8 sText_PkmnWasParalyzed[] = _("{B_EFF_NAME_WITH_PREFIX} is paralyzed!\nIt may be unable to move!");
 static const u8 sText_PkmnWasParalyzedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nparalyzed {B_EFF_NAME_WITH_PREFIX}!\lIt may be unable to move!");
-static const u8 sText_PkmnIsParalyzed[] = _("{B_ATK_NAME_WITH_PREFIX} is paralyzed!\nIt can’t move!");
+static const u8 sText_PkmnIsParalyzed[] = _("{B_ATK_NAME_WITH_PREFIX} is paralyzed!\nIt can’t friccin move!");
 static const u8 sText_PkmnIsAlreadyParalyzed[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready paralyzed!");
 static const u8 sText_PkmnHealedParalysis[] = _("{B_DEF_NAME_WITH_PREFIX} was\nhealed of paralysis!");
-static const u8 sText_PkmnDreamEaten[] = _("{B_DEF_NAME_WITH_PREFIX}’s\ndream was eaten!");
+static const u8 sText_PkmnDreamEaten[] = _("{B_DEF_NAME_WITH_PREFIX}’s\nfriccin dream was eaten!");
 static const u8 sText_StatsWontIncrease[] = _("{B_ATK_NAME_WITH_PREFIX}’s {B_BUFF1}\nwon’t go higher!");
 static const u8 sText_StatsWontDecrease[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_BUFF1}\nwon’t go lower!");
 static const u8 sText_TeamStoppedWorking[] = _("Your team’s {B_BUFF1}\nstopped working!");
 static const u8 sText_FoeStoppedWorking[] = _("The foe’s {B_BUFF1}\nstopped working!");
-static const u8 sText_PkmnIsConfused[] = _("{B_ATK_NAME_WITH_PREFIX} is\nconfused!");
+static const u8 sText_PkmnIsConfused[] = _("{B_ATK_NAME_WITH_PREFIX} is\nfucking confused!");
 static const u8 sText_PkmnHealedConfusion[] = _("{B_ATK_NAME_WITH_PREFIX} snapped\nout of confusion!");
-static const u8 sText_PkmnWasConfused[] = _("{B_EFF_NAME_WITH_PREFIX} became\nconfused!");
-static const u8 sText_PkmnAlreadyConfused[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready confused!");
+static const u8 sText_PkmnWasConfused[] = _("{B_EFF_NAME_WITH_PREFIX} became\nfuccing confused!");
+static const u8 sText_PkmnAlreadyConfused[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready ficken confused!");
 static const u8 sText_PkmnFellInLove[] = _("{B_DEF_NAME_WITH_PREFIX}\nfell in love!");
-static const u8 sText_PkmnInLove[] = _("{B_ATK_NAME_WITH_PREFIX} is in love\nwith {B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
+static const u8 sText_PkmnInLove[] = _("{B_ATK_NAME_WITH_PREFIX} wants to have\nsex with {B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnImmobilizedByLove[] = _("{B_ATK_NAME_WITH_PREFIX} is\nimmobilized by love!");
-static const u8 sText_PkmnBlownAway[] = _("{B_DEF_NAME_WITH_PREFIX} was\nblown away!");
+static const u8 sText_PkmnBlownAway[] = _("{B_DEF_NAME_WITH_PREFIX} was\nfucking blown away!");
 static const u8 sText_PkmnChangedType[] = _("{B_ATK_NAME_WITH_PREFIX} transformed\ninto the {B_BUFF1} type!");
-static const u8 sText_PkmnFlinched[] = _("{B_ATK_NAME_WITH_PREFIX} flinched!");
-static const u8 sText_PkmnRegainedHealth[] = _("{B_DEF_NAME_WITH_PREFIX} regained\nhealth!");
+static const u8 sText_PkmnFlinched[] = _("{B_ATK_NAME_WITH_PREFIX} flinched!\n thats some BS RNG!");
+static const u8 sText_PkmnRegainedHealth[] = _("{B_DEF_NAME_WITH_PREFIX} regained\nfucking health!");
 static const u8 sText_PkmnHPFull[] = _("{B_DEF_NAME_WITH_PREFIX}’s\nHP is full!");
 static const u8 sText_PkmnRaisedSpDef[] = _("{B_ATK_PREFIX2}’s {B_CURRENT_MOVE}\nraised SP. DEF!");
 static const u8 sText_PkmnRaisedSpDefALittle[] = _("{B_ATK_PREFIX2}’s {B_CURRENT_MOVE}\nraised SP. DEF a little!");
@@ -171,9 +171,9 @@ static const u8 sText_PkmnProtectedItself2[] = _("{B_ATK_NAME_WITH_PREFIX} prote
 static const u8 sText_PkmnBuffetedBySandstorm[] = _("{B_ATK_NAME_WITH_PREFIX} is buffeted\nby the sandstorm!");
 static const u8 sText_PkmnPeltedByHail[] = _("{B_ATK_NAME_WITH_PREFIX} is pelted\nby HAIL!");
 static const u8 sText_PkmnsXWoreOff[] = _("{B_ATK_PREFIX1}’s {B_BUFF1}\nwore off!");
-static const u8 sText_PkmnSeeded[] = _("{B_DEF_NAME_WITH_PREFIX} was seeded!");
+static const u8 sText_PkmnSeeded[] = _("{B_DEF_NAME_WITH_PREFIX} was seeded!\nI hope thats not sexual");
 static const u8 sText_PkmnEvadedAttack[] = _("{B_DEF_NAME_WITH_PREFIX} evaded\nthe attack!");
-static const u8 sText_PkmnSappedByLeechSeed[] = _("{B_ATK_NAME_WITH_PREFIX}’s health is\nsapped by LEECH SEED!");
+static const u8 sText_PkmnsuccedByLeechSeed[] = _("{B_ATK_NAME_WITH_PREFIX}’s health is\nsucced by LEECH SEED!");
 static const u8 sText_PkmnFastAsleep[] = _("{B_ATK_NAME_WITH_PREFIX} is fast\nasleep.");
 static const u8 sText_PkmnWokeUp[] = _("{B_ATK_NAME_WITH_PREFIX} woke up!");
 static const u8 sText_PkmnUproarKeptAwake[] = _("But {B_SCR_ACTIVE_NAME_WITH_PREFIX}’s UPROAR\nkept it awake!");
@@ -194,7 +194,7 @@ static const u8 sText_PkmnPickedUpItem[] = _("{B_PLAYER_NAME} picked up\n¥{B_BU
 static const u8 sText_PkmnUnaffected[] = _("{B_DEF_NAME_WITH_PREFIX} is\nunaffected!");
 static const u8 sText_PkmnTransformedInto[] = _("{B_ATK_NAME_WITH_PREFIX} transformed\ninto {B_BUFF1}!");
 static const u8 sText_PkmnMadeSubstitute[] = _("{B_ATK_NAME_WITH_PREFIX} made\na SUBSTITUTE!");
-static const u8 sText_PkmnHasSubstitute[] = _("{B_ATK_NAME_WITH_PREFIX} already\nhas a SUBSTITUTE!");
+static const u8 sText_PkmnHasSubstitute[] = _("{B_ATK_NAME_WITH_PREFIX} already\nhas a fucking SUBSTITUTE!");
 static const u8 sText_SubstituteDamaged[] = _("The SUBSTITUTE took damage\nfor {B_DEF_NAME_WITH_PREFIX}!\p");
 static const u8 sText_PkmnSubstituteFaded[] = _("{B_DEF_NAME_WITH_PREFIX}’s\nSUBSTITUTE faded!\p");
 static const u8 sText_PkmnMustRecharge[] = _("{B_ATK_NAME_WITH_PREFIX} must\nrecharge!");
@@ -210,8 +210,8 @@ static const u8 sText_PkmnTookFoe[] = _("{B_DEF_NAME_WITH_PREFIX} took\n{B_ATK_N
 static const u8 sText_PkmnReducedPP[] = _("Reduced {B_DEF_NAME_WITH_PREFIX}’s\n{B_BUFF1} by {B_BUFF2}!");
 static const u8 sText_PkmnStoleItem[] = _("{B_ATK_NAME_WITH_PREFIX} stole\n{B_DEF_NAME_WITH_PREFIX}’s {B_LAST_ITEM}!");
 static const u8 sText_TargetCantEscapeNow[] = _("{B_DEF_NAME_WITH_PREFIX} can’t\nescape now!");
-static const u8 sText_PkmnFellIntoNightmare[] = _("{B_DEF_NAME_WITH_PREFIX} fell into\na NIGHTMARE!");
-static const u8 sText_PkmnLockedInNightmare[] = _("{B_ATK_NAME_WITH_PREFIX} is locked\nin a NIGHTMARE!");
+static const u8 sText_PkmnFellIntoNightmare[] = _("{B_DEF_NAME_WITH_PREFIX} fell into\na fucking NIGHTMARE!");
+static const u8 sText_PkmnLockedInNightmare[] = _("{B_ATK_NAME_WITH_PREFIX} is locked\nin a freaking NIGHTMARE!");
 static const u8 sText_PkmnLaidCurse[] = _("{B_ATK_NAME_WITH_PREFIX} cut its own HP and\nlaid a CURSE on {B_DEF_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnAfflictedByCurse[] = _("{B_ATK_NAME_WITH_PREFIX} is afflicted\nby the CURSE!");
 static const u8 sText_SpikesScattered[] = _("SPIKES were scattered all around\nthe opponent’s side!");
@@ -235,11 +235,11 @@ static const u8 sText_PkmnCenterAttention[] = _("{B_ATK_NAME_WITH_PREFIX} became
 static const u8 sText_PkmnChargingPower[] = _("{B_ATK_NAME_WITH_PREFIX} began\ncharging power!");
 static const u8 sText_NaturePowerTurnedInto[] = _("NATURE POWER turned into\n{B_CURRENT_MOVE}!");
 static const u8 sText_PkmnStatusNormal[] = _("{B_ATK_NAME_WITH_PREFIX}’s status\nreturned to normal!");
-static const u8 sText_PkmnSubjectedToTorment[] = _("{B_DEF_NAME_WITH_PREFIX} was subjected\nto TORMENT!");
+static const u8 sText_PkmnSubjectedToTorment[] = _("{B_DEF_NAME_WITH_PREFIX} was subjected\nto fucking TORMENT!");
 static const u8 sText_PkmnTighteningFocus[] = _("{B_ATK_NAME_WITH_PREFIX} is tightening\nits focus!");
 static const u8 sText_PkmnFellForTaunt[] = _("{B_DEF_NAME_WITH_PREFIX} fell for\nthe TAUNT!");
 static const u8 sText_PkmnReadyToHelp[] = _("{B_ATK_NAME_WITH_PREFIX} is ready to\nhelp {B_DEF_NAME_WITH_PREFIX}!");
-static const u8 sText_PkmnSwitchedItems[] = _("{B_ATK_NAME_WITH_PREFIX} switched\nitems with its opponent!");
+static const u8 sText_PkmnSwitchedItems[] = _("{B_ATK_NAME_WITH_PREFIX} fucking switched\nitems with its opponent!");
 static const u8 sText_PkmnObtainedX[] = _("{B_ATK_NAME_WITH_PREFIX} obtained\n{B_BUFF1}.");
 static const u8 sText_PkmnObtainedX2[] = _("{B_DEF_NAME_WITH_PREFIX} obtained\n{B_BUFF2}.");
 static const u8 sText_PkmnObtainedXYObtainedZ[] = _("{B_ATK_NAME_WITH_PREFIX} obtained\n{B_BUFF1}.\p{B_DEF_NAME_WITH_PREFIX} obtained\n{B_BUFF2}.");
@@ -247,7 +247,7 @@ static const u8 sText_PkmnCopiedFoe[] = _("{B_ATK_NAME_WITH_PREFIX} copied\n{B_D
 static const u8 sText_PkmnMadeWish[] = _("{B_ATK_NAME_WITH_PREFIX} made a WISH!");
 static const u8 sText_PkmnWishCameTrue[] = _("{B_BUFF1}’s WISH\ncame true!");
 static const u8 sText_PkmnPlantedRoots[] = _("{B_ATK_NAME_WITH_PREFIX} planted its roots!");
-static const u8 sText_PkmnAbsorbedNutrients[] = _("{B_ATK_NAME_WITH_PREFIX} absorbed\nnutrients with its roots!");
+static const u8 sText_PkmnSuccedNutrients[] = _("{B_ATK_NAME_WITH_PREFIX} succed\nnutrients with its roots!");
 static const u8 sText_PkmnAnchoredItself[] = _("{B_DEF_NAME_WITH_PREFIX} anchored\nitself with its roots!");
 static const u8 sText_PkmnWasMadeDrowsy[] = _("{B_ATK_NAME_WITH_PREFIX} made\n{B_DEF_NAME_WITH_PREFIX} drowsy!");
 static const u8 sText_PkmnKnockedOff[] = _("{B_ATK_NAME_WITH_PREFIX} knocked off\n{B_DEF_NAME_WITH_PREFIX}’s {B_LAST_ITEM}!");
@@ -259,17 +259,17 @@ static const u8 sText_PkmnShroudedItself[] = _("{B_ATK_NAME_WITH_PREFIX} shroude
 static const u8 sText_PkmnMoveBounced[] = _("{B_ATK_NAME_WITH_PREFIX}’s {B_CURRENT_MOVE}\nwas bounced back by MAGIC COAT!");
 static const u8 sText_PkmnWaitsForTarget[] = _("{B_ATK_NAME_WITH_PREFIX} waits for a target\nto make a move!");
 static const u8 sText_PkmnSnatchedMove[] = _("{B_DEF_NAME_WITH_PREFIX} SNATCHED\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s move!");
-static const u8 sText_ElectricityWeakened[] = _("Electricity’s power was\nweakened!");
-static const u8 sText_FireWeakened[] = _("Fire’s power was\nweakened!");
+static const u8 sText_ElectricityWeakened[] = _("Electricity’s power was\nfucking weakened!");
+static const u8 sText_FireWeakened[] = _("Fire’s power was\nfreaking weakened!");
 static const u8 sText_XFoundOneY[] = _("{B_ATK_NAME_WITH_PREFIX} found\none {B_LAST_ITEM}!");
 static const u8 sText_SoothingAroma[] = _("A soothing aroma wafted\nthrough the area!");
-static const u8 sText_ItemsCantBeUsedNow[] = _("Items can’t be used now.{PAUSE 64}");
+static const u8 sText_ItemsCantBeUsedNow[] = _("No using items u cheaty fuck.{PAUSE 64}");
 static const u8 sText_ForXCommaYZ[] = _("For {B_SCR_ACTIVE_NAME_WITH_PREFIX},\n{B_LAST_ITEM} {B_BUFF1}");
 static const u8 sText_PkmnUsedXToGetPumped[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} used\n{B_LAST_ITEM} to get pumped!");
 static const u8 sText_PkmnLostFocus[] = _("{B_ATK_NAME_WITH_PREFIX} lost its\nfocus and couldn’t move!");
 static const u8 sText_PkmnWasDraggedOut[] = _("{B_DEF_NAME_WITH_PREFIX} was\ndragged out!\p");
 static const u8 sText_TheWallShattered[] = _("The wall shattered!");
-static const u8 sText_ButNoEffect[] = _("But it had no effect!");
+static const u8 sText_ButNoEffect[] = _("it did fucking nothing");
 static const u8 sText_PkmnHasNoMovesLeft[] = _("{B_ACTIVE_NAME_WITH_PREFIX} has no\nmoves left!\p");
 static const u8 sText_PkmnMoveIsDisabled[] = _("{B_ACTIVE_NAME_WITH_PREFIX}’s {B_CURRENT_MOVE}\nis disabled!\p");
 static const u8 sText_PkmnCantUseMoveTorment[] = _("{B_ACTIVE_NAME_WITH_PREFIX} can’t use the same\nmove in a row due to the TORMENT!\p");
@@ -302,7 +302,7 @@ static const u8 sText_PkmnsXPreventsYLoss[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}
 static const u8 sText_PkmnsXInfatuatedY[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\ninfatuated {B_ATK_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnsXMadeYIneffective[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\nmade {B_CURRENT_MOVE} ineffective!");
 static const u8 sText_PkmnsXCuredYProblem[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\ncured its {B_BUFF1} problem!");
-static const u8 sText_ItSuckedLiquidOoze[] = _("It sucked up the\nLIQUID OOZE!");
+static const u8 sText_ItSuccedLiquidOoze[] = _("It succed up the\nLIQUID OOZE!");
 static const u8 sText_PkmnTransformed[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} transformed!");
 static const u8 sText_PkmnsXTookAttack[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\ntook the attack!");
 const u8 gText_PkmnsXPreventsSwitching[] = _("{B_BUFF1}’s {B_LAST_ABILITY}\nprevents switching!\p");
@@ -324,13 +324,13 @@ static const u8 sText_PkmnsStatChanged4[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_B
 static const u8 sText_StatsWontIncrease2[] = _("{B_ATK_NAME_WITH_PREFIX}’s stats won’t\ngo any higher!");
 static const u8 sText_StatsWontDecrease2[] = _("{B_DEF_NAME_WITH_PREFIX}’s stats won’t\ngo any lower!");
 static const u8 sText_CriticalHit[] = _("A critical hit!");
-static const u8 sText_OneHitKO[] = _("It’s a one-hit KO!");
+static const u8 sText_OneHitKO[] = _("haha\nyes\lIt’s a one-hit KO!");
 static const u8 sText_123Poof[] = _("{PAUSE 32}1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE 0x0038}Poof!\p");
 static const u8 sText_AndEllipsis[] = _("And…\p");
 static const u8 sText_HMMovesCantBeForgotten[] = _("HM moves can’t be\nforgotten now.\p");
-static const u8 sText_NotVeryEffective[] = _("It’s not very effective…");
-static const u8 sText_SuperEffective[] = _("It’s super effective!");
-static const u8 sText_GotAwaySafely[] = _("{PLAY_SE 0x0011}Got away safely!\p");
+static const u8 sText_NotVeryEffective[] = _("It’s not very effective ya dingus");
+static const u8 sText_SuperEffective[] = _("It’s super fucking effective!");
+static const u8 sText_GotAwaySafely[] = _("you coward\p");
 static const u8 sText_PkmnFledUsingIts[] = _("{PLAY_SE 0x0011}{B_ATK_NAME_WITH_PREFIX} fled\nusing its {B_LAST_ITEM}!\p");
 static const u8 sText_PkmnFledUsing[] = _("{PLAY_SE 0x0011}{B_ATK_NAME_WITH_PREFIX} fled\nusing {B_ATK_ABILITY}!\p");
 static const u8 sText_WildPkmnFled[] = _("{PLAY_SE 0x0011}Wild {B_BUFF1} fled!");
@@ -342,27 +342,27 @@ static const u8 sText_PlayerBattledToDrawLinkTrainer[] = _("Player battled to a 
 static const u8 sText_PlayerBattledToDrawVsTwo[] = _("Player battled to a draw against\n{B_20} and {B_21}!");
 static const u8 sText_WildFled[] = _("{PLAY_SE 0x0011}{B_20} fled!");
 static const u8 sText_TwoWildFled[] = _("{PLAY_SE 0x0011}{B_20} and\n{B_21} fled!");
-static const u8 sText_NoRunningFromTrainers[] = _("No! There’s no running\nfrom a TRAINER battle!\p");
+static const u8 sText_NoRunningFromTrainers[] = _("what?\nyou know that doesn’t work\p");
 static const u8 sText_CantEscape[] = _("Can’t escape!\p");
-static const u8 sText_DontLeaveBirch[] = _("PROF. BIRCH: Don’t leave me like this!\p");
-static const u8 sText_ButNothingHappened[] = _("But nothing happened!");
-static const u8 sText_ButItFailed[] = _("But it failed!");
-static const u8 sText_ItHurtConfusion[] = _("It hurt itself in its\nconfusion!");
+static const u8 sText_DontLeaveBirch[] = _("PROF. BITCH: Don’t leave me like this!\p");
+static const u8 sText_ButNothingHappened[] = _("nothing happened you idiot");
+static const u8 sText_ButItFailed[] = _("it failed ya dingus");
+static const u8 sText_ItHurtConfusion[] = _("and the dingus punched\nitself for no reason");
 static const u8 sText_MirrorMoveFailed[] = _("The MIRROR MOVE failed!");
-static const u8 sText_StartedToRain[] = _("It started to rain!");
-static const u8 sText_DownpourStarted[] = _("A downpour started!");
-static const u8 sText_RainContinues[] = _("Rain continues to fall.");
-static const u8 sText_DownpourContinues[] = _("The downpour continues.");
-static const u8 sText_RainStopped[] = _("The rain stopped.");
-static const u8 sText_SandstormBrewed[] = _("A sandstorm brewed!");
-static const u8 sText_SandstormRages[] = _("The sandstorm rages.");
-static const u8 sText_SandstormSubsided[] = _("The sandstorm subsided.");
-static const u8 sText_SunlightGotBright[] = _("The sunlight got bright!");
-static const u8 sText_SunlightStrong[] = _("The sunlight is strong.");
-static const u8 sText_SunlightFaded[] = _("The sunlight faded.");
-static const u8 sText_StartedHail[] = _("It started to hail!");
-static const u8 sText_HailContinues[] = _("Hail continues to fall.");
-static const u8 sText_HailStopped[] = _("The hail stopped.");
+static const u8 sText_StartedToRain[] = _("oh its raining");
+static const u8 sText_DownpourStarted[] = _("oh its really raining");
+static const u8 sText_RainContinues[] = _("hey its still raining jsyk");
+static const u8 sText_DownpourContinues[] = _("man this rain is unrelenting");
+static const u8 sText_RainStopped[] = _("fucking finally");
+static const u8 sText_SandstormBrewed[] = _("what song is this");
+static const u8 sText_SandstormRages[] = _("DUDUDUDUDUDUDUDUDU");
+static const u8 sText_SandstormSubsided[] = _("that meme is dead and\nyou know it");
+static const u8 sText_SunlightGotBright[] = _("ugh, sunlight");
+static const u8 sText_SunlightStrong[] = _("uuuuggggghhhhhh");
+static const u8 sText_SunlightFaded[] = _("that gave me a sunburn\n don't do it again");
+static const u8 sText_StartedHail[] = _("godammit here comes the hail");
+static const u8 sText_HailContinues[] = _("ow, can you make that stop?");
+static const u8 sText_HailStopped[] = _("took you long enough");
 static const u8 sText_FailedToSpitUp[] = _("But it failed to SPIT UP\na thing!");
 static const u8 sText_FailedToSwallow[] = _("But it failed to SWALLOW\na thing!");
 static const u8 sText_WindBecameHeatWave[] = _("The wind turned into a\nHEAT WAVE!");
@@ -371,7 +371,7 @@ static const u8 sText_CoinsScattered[] = _("Coins scattered everywhere!");
 static const u8 sText_TooWeakForSubstitute[] = _("It was too weak to make\na SUBSTITUTE!");
 static const u8 sText_SharedPain[] = _("The battlers shared\ntheir pain!");
 static const u8 sText_BellChimed[] = _("A bell chimed!");
-static const u8 sText_FaintInThree[] = _("All affected POKéMON will\nfaint in three turns!");
+static const u8 sText_FaintInThree[] = _("haha ur all gonna\ndie in three turns!");
 static const u8 sText_NoPPLeft[] = _("There’s no PP left for\nthis move!\p");
 static const u8 sText_ButNoPPLeft[] = _("But there was no PP left\nfor the move!");
 static const u8 sText_PkmnIgnoresAsleep[] = _("{B_ATK_NAME_WITH_PREFIX} ignored\norders while asleep!");
@@ -418,7 +418,7 @@ static const u8 sText_LinkPartnerSentOutPkmnGoPkmn[] = _("{B_1F} sent out {B_LIN
 static const u8 sText_PkmnThatsEnough[] = _("{B_BUFF1}, that’s enough!\nCome back!");
 static const u8 sText_PkmnComeBack[] = _("{B_BUFF1}, come back!");
 static const u8 sText_PkmnOkComeBack[] = _("{B_BUFF1}, OK!\nCome back!");
-static const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, good!\nCome back!");
+static const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, good!\nCum back!");
 static const u8 sText_Trainer1WithdrewPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nwithdrew {B_BUFF1}!");
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_20} withdrew\n{B_BUFF1}!");
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_22} withdrew\n{B_BUFF1}!");
@@ -470,22 +470,22 @@ static const u8 sText_PlayerUsedItem[] = _("{B_PLAYER_NAME} used\n{B_LAST_ITEM}!
 static const u8 sText_WallyUsedItem[] = _("WALLY used\n{B_LAST_ITEM}!");
 static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!");
 static const u8 sText_TrainerBlockedBall[] = _("The TRAINER blocked the BALL!");
-static const u8 sText_DontBeAThief[] = _("Don’t be a thief!");
+static const u8 sText_DontBeAThief[] = _("this isn't COLO or XD idiot");
 static const u8 sText_ItDodgedBall[] = _("It dodged the thrown BALL!\nThis POKéMON can’t be caught!");
 static const u8 sText_YouMissedPkmn[] = _("You missed the POKéMON!");
-static const u8 sText_PkmnBrokeFree[] = _("Oh, no!\nThe POKéMON broke free!");
-static const u8 sText_ItAppearedCaught[] = _("Aww!\nIt appeared to be caught!");
-static const u8 sText_AarghAlmostHadIt[] = _("Aargh!\nAlmost had it!");
-static const u8 sText_ShootSoClose[] = _("Shoot!\nIt was so close, too!");
-static const u8 sText_GotchaPkmnCaught[] = _("Gotcha!\n{B_OPPONENT_MON1_NAME} was caught!{UNKNOWN_A}{PLAY_BGM MUS_KACHI22}\p");
-static const u8 sText_GotchaPkmnCaught2[] = _("Gotcha!\n{B_OPPONENT_MON1_NAME} was caught!{UNKNOWN_A}{PLAY_BGM MUS_KACHI22}{PAUSE 127}");
+static const u8 sText_PkmnBrokeFree[] = _("whelp\nThe POKéMON got out");
+static const u8 sText_ItAppearedCaught[] = _("DAMN!\nget in my balls you fuck!");
+static const u8 sText_AarghAlmostHadIt[] = _("rip\nin\lrip");
+static const u8 sText_ShootSoClose[] = _("rip\nin\lpepperonis");
+static const u8 sText_GotchaPkmnCaught[] = _("Yeet!\n{B_OPPONENT_MON1_NAME} was caught!{UNKNOWN_A}{PLAY_BGM MUS_KACHI22}\p");
+static const u8 sText_GotchaPkmnCaught2[] = _("Yaaaas!\n{B_OPPONENT_MON1_NAME} was caught!{UNKNOWN_A}{PLAY_BGM MUS_KACHI22}{PAUSE 127}");
 static const u8 sText_GiveNicknameCaptured[] = _("Give a nickname to the\ncaptured {B_OPPONENT_MON1_NAME}?");
 static const u8 sText_PkmnSentToPC[] = _("{B_OPPONENT_MON1_NAME} was sent to\n{B_PC_CREATOR_NAME} PC.");
 static const u8 sText_Someones[] = _("someone’s");
 static const u8 sText_Lanettes[] = _("LANETTE’s");
 static const u8 sText_PkmnDataAddedToDex[] = _("{B_OPPONENT_MON1_NAME}’s data was\nadded to the POKéDEX.\p");
-static const u8 sText_ItIsRaining[] = _("It is raining.");
-static const u8 sText_SandstormIsRaging[] = _("A sandstorm is raging.");
+static const u8 sText_ItIsRaining[] = _("ugh rain");
+static const u8 sText_SandstormIsRaging[] = _("Darude Sandstorm");
 static const u8 sText_BoxIsFull[] = _("The BOX is full!\nYou can’t catch any more!\p");
 static const u8 sText_EnigmaBerry[] = _("ENIGMA BERRY");
 static const u8 sText_BerrySuffix[] = _(" BERRY");
@@ -618,7 +618,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     sText_PkmnPeltedByHail, // 103
     sText_PkmnSeeded, // 104
     sText_PkmnEvadedAttack, // 105
-    sText_PkmnSappedByLeechSeed, // 106
+    sText_PkmnsuccedByLeechSeed, // 106
     sText_PkmnFastAsleep, // 107
     sText_PkmnWokeUp, // 108
     sText_PkmnUproarKeptAwake, // 109
@@ -692,7 +692,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     sText_PkmnMadeWish, // 177
     sText_PkmnWishCameTrue, // 178
     sText_PkmnPlantedRoots, // 179
-    sText_PkmnAbsorbedNutrients, // 180
+    sText_PkmnSuccedNutrients, // 180
     sText_PkmnAnchoredItself, // 181
     sText_PkmnWasMadeDrowsy, // 182
     sText_PkmnKnockedOff, // 183
@@ -825,7 +825,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     sText_PkmnsXInfatuatedY, // 310
     sText_PkmnsXMadeYIneffective, // 311
     sText_PkmnsXCuredYProblem, // 312
-    sText_ItSuckedLiquidOoze, // 313
+    sText_ItSuccedLiquidOoze, // 313
     sText_PkmnTransformed, // 314
     sText_ElectricityWeakened, // 315
     sText_FireWeakened, // 316
@@ -948,7 +948,7 @@ const u16 gReflectLightScreenSafeguardStringIds[] =
 const u16 gLeechSeedStringIds[] =
 {
     STRINGID_PKMNSEEDED, STRINGID_PKMNEVADEDATTACK,
-    STRINGID_ITDOESNTAFFECT, STRINGID_PKMNSAPPEDBYLEECHSEED, STRINGID_ITSUCKEDLIQUIDOOZE,
+    STRINGID_ITDOESNTAFFECT, STRINGID_PKMNsuccedBYLEECHSEED, STRINGID_ITSUCCEDLIQUIDOOZE,
 };
 
 const u16 gRestUsedStringIds[] =
@@ -1066,7 +1066,7 @@ const u16 gAttractUsedStringIds[] =
 
 const u16 gLeechSeedSuccStringIds[] =
 {
-    STRINGID_PKMNENERGYSUCCED, STRINGID_ITSUCKEDLIQUIDOOZE
+    STRINGID_PKMNENERGYSUCCED, STRINGID_ITSUCCEDLIQUIDOOZE
 };
 
 const u16 gSportsUsedStringIds[] =
@@ -1355,7 +1355,7 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_WING_ATTACK, MOVE_FLY, MOVE_BIND, MOVE_SLAM,
     MOVE_HORN_ATTACK, MOVE_WRAP, MOVE_THRASH, MOVE_TAIL_WHIP,
     MOVE_LEER, MOVE_BITE, MOVE_GROWL, MOVE_ROAR,
-    MOVE_SING, MOVE_PECK, MOVE_ABSORB, MOVE_STRING_SHOT,
+    MOVE_SING, MOVE_PECK, MOVE_SUCC, MOVE_STRING_SHOT,
     MOVE_EARTHQUAKE, MOVE_FISSURE, MOVE_DIG, MOVE_TOXIC,
     MOVE_SCREECH, MOVE_METRONOME, MOVE_LICK, MOVE_CLAMP,
     MOVE_CONSTRICT, MOVE_POISON_GAS, MOVE_BUBBLE,

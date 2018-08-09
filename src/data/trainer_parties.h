@@ -6316,7 +6316,7 @@ const struct TrainerMonNoItemCustomMoves gTrainerParty_GinaAndMia2[] = {
 	.iv = 0,
 	.lvl = 10,
 	.species = SPECIES_SHROOMISH,
-	.moves = MOVE_ABSORB, MOVE_LEECH_SEED, MOVE_NONE, MOVE_NONE
+	.moves = MOVE_SUCC, MOVE_LEECH_SEED, MOVE_NONE, MOVE_NONE
 	}
 };
 

@@ -23,7 +23,7 @@ gEasyChatWordsByLetter_A:: @ 859D0C8
 	.2byte EC_WORD_ABSENT
 	.2byte EC_POKEMON(ABSOL)
 	.2byte EC_WORD_ABSOLUTELY
-	.2byte EC_MOVE(ABSORB)
+	.2byte EC_MOVE(SUCC)
 	.2byte EC_WORD_ACCEPT
 	.2byte EC_MOVE2(ACID)
 	.2byte EC_MOVE2(ACID_ARMOR)
@@ -1780,7 +1780,7 @@ gEasyChatWordsByLetter_V:: @ 859DE94
 	.2byte EC_WORD_VITAL_SPIRIT
 	.2byte EC_MOVE(VITAL_THROW)
 	.2byte EC_POKEMON(VOLBEAT)
-	.2byte EC_WORD_VOLT_ABSORB
+	.2byte EC_WORD_VOLT_SUCC
 	.2byte EC_MOVE2(VOLT_TACKLE)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON(VOLTORB)
@@ -1810,7 +1810,7 @@ gEasyChatWordsByLetter_W:: @ 859DED6
 	.2byte EC_WORD_WAS
 	.2byte EC_WORD_WASN_T
 	.2byte EC_WORD_WATER
-	.2byte EC_WORD_WATER_ABSORB
+	.2byte EC_WORD_WATER_SUCC
 	.2byte EC_MOVE2(WATER_GUN)
 	.2byte EC_MOVE2(WATER_PULSE)
 	.2byte EC_MOVE2(WATER_SPORT)

@@ -17,7 +17,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectHit
 	.4byte BattleScript_EffectSleep
 	.4byte BattleScript_EffectPoisonHit
-	.4byte BattleScript_EffectAbsorb
+	.4byte BattleScript_EffectSucc
 	.4byte BattleScript_EffectBurnHit
 	.4byte BattleScript_EffectFreezeHit
 	.4byte BattleScript_EffectParalyzeHit
@@ -340,7 +340,7 @@ BattleScript_EffectPoisonTail::
 	setmoveeffect MOVE_EFFECT_POISON
 	goto BattleScript_EffectHit
 
-BattleScript_EffectAbsorb::
+BattleScript_EffectSucc::
 	attackcanceler
 	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
 	attackstring
@@ -362,19 +362,19 @@ BattleScript_EffectAbsorb::
 	waitmessage 0x40
 	negativedamage
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
-	jumpifability BS_TARGET, ABILITY_LIQUID_OOZE, BattleScript_AbsorbLiquidOoze
+	jumpifability BS_TARGET, ABILITY_LIQUID_OOZE, BattleScript_SuccLiquidOoze
 	setbyte cMULTISTRING_CHOOSER, 0x0
-	goto BattleScript_AbsorbUpdateHp
-BattleScript_AbsorbLiquidOoze::
+	goto BattleScript_SuccUpdateHp
+BattleScript_SuccLiquidOoze::
 	manipulatedamage ATK80_DMG_CHANGE_SIGN
 	setbyte cMULTISTRING_CHOOSER, 0x1
-BattleScript_AbsorbUpdateHp::
+BattleScript_SuccUpdateHp::
 	healthbarupdate BS_ATTACKER
 	datahpupdate BS_ATTACKER
-	jumpifmovehadnoeffect BattleScript_AbsorbTryFainting
+	jumpifmovehadnoeffect BattleScript_SuccTryFainting
 	printfromtable gLeechSeedSuccStringIds
 	waitmessage 0x40
-BattleScript_AbsorbTryFainting::
+BattleScript_SuccTryFainting::
 	tryfaintmon BS_ATTACKER, FALSE, NULL
 	tryfaintmon BS_TARGET, FALSE, NULL
 	goto BattleScript_MoveEnd
@@ -3641,7 +3641,7 @@ BattleScript_WishButFullHp::
 
 BattleScript_IngrainTurnHeal::
 	playanimation BS_ATTACKER, B_ANIM_INGRAIN_HEAL, NULL
-	printstring STRINGID_PKMNABSORBEDNUTRIENTS
+	printstring STRINGID_PKMNSUCCEDNUTRIENTS
 	waitmessage 0x40
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
 	healthbarupdate BS_ATTACKER

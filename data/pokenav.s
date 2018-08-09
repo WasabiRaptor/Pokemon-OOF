@@ -1104,7 +1104,7 @@ gUnknown_086216A8:: @ 86216A8
 	.string "If you want to shout loud,$"
 
 gUnknown_086216C3:: @ 86216C3
-	.string "suck in air with your belly!$"
+	.string "succ in air with your belly!$"
 
 gUnknown_086216E0:: @ 86216E0
 	.string "Protect POKéMON from harm.$"

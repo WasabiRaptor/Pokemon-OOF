@@ -11,8 +11,8 @@ static const u8 gDampAbilityDescription[] = _("Prevents self-destruction.");
 static const u8 gLimberAbilityDescription[] = _("Prevents paralysis.");
 static const u8 gSandVeilAbilityDescription[] = _("Ups evasion in a sandstorm.");
 static const u8 gStaticAbilityDescription[] = _("Paralyzes on contact.");
-static const u8 gVoltAbsorbAbilityDescription[] = _("Turns electricity into HP.");
-static const u8 gWaterAbsorbAbilityDescription[] = _("Changes water into HP.");
+static const u8 gVoltSuccAbilityDescription[] = _("Turns electricity into HP.");
+static const u8 gWaterSuccAbilityDescription[] = _("Changes water into HP.");
 static const u8 gObliviousAbilityDescription[] = _("Prevents attraction.");
 static const u8 gCloudNineAbilityDescription[] = _("Negates weather effects.");
 static const u8 gCompoundEyesAbilityDescription[] = _("Raises accuracy.");
@@ -92,8 +92,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 	_("LIMBER"),
 	_("SAND VEIL"),
 	_("STATIC"),
-	_("VOLT ABSORB"),
-	_("WATER ABSORB"),
+	_("VOLT SUCC"),
+	_("WATER SUCC"),
 	_("OBLIVIOUS"),
 	_("CLOUD NINE"),
 	_("COMPOUNDEYES"),
@@ -174,8 +174,8 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     gLimberAbilityDescription,
     gSandVeilAbilityDescription,
     gStaticAbilityDescription,
-    gVoltAbsorbAbilityDescription,
-    gWaterAbsorbAbilityDescription,
+    gVoltSuccAbilityDescription,
+    gWaterSuccAbilityDescription,
     gObliviousAbilityDescription,
     gCloudNineAbilityDescription,
     gCompoundEyesAbilityDescription,

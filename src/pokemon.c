@@ -1330,7 +1330,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         {
             value = Random32();
             shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
-        } while (shinyValue < 8);
+        } while (shinyValue > 8);
     }
     else if (otIdType == OT_ID_PRESET) //Pokemon has a preset OT ID
     {
@@ -5478,8 +5478,8 @@ const u8 *GetFrontSpritePalFromSpeciesAndPersonality(u16 species, u32 otId, u32 
     if (species > SPECIES_EGG)
         return gMonPaletteTable[0].data;
 
-    shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    shinyValue = otId;
+    if (shinyValue != 42069)
         return gMonShinyPaletteTable[species].data;
     else
         return gMonPaletteTable[species].data;
@@ -5497,8 +5497,8 @@ const struct CompressedSpritePalette *GetMonSpritePalStructFromOtIdPersonality(u
 {
     u32 shinyValue;
 
-    shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    shinyValue = otId;
+    if (shinyValue != 42069)
         return &gMonShinyPaletteTable[species];
     else
         return &gMonPaletteTable[species];
@@ -5671,8 +5671,8 @@ bool8 IsMonShiny(struct Pokemon *mon)
 bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)
 {
     bool8 retVal = FALSE;
-    u32 shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    u32 shinyValue = otId;
+    if (shinyValue != 42069)
         retVal = TRUE;
     return retVal;
 }

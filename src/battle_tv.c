@@ -195,8 +195,8 @@ static const u16 *const sPointsArray[] =
 static const u16 sUnknown_0860A8A4[] =
 {
     STRINGID_PKMNPERISHCOUNTFELL, STRINGID_PKMNWISHCAMETRUE, STRINGID_PKMNLOSTPPGRUDGE,
-    STRINGID_PKMNTOOKFOE, STRINGID_PKMNABSORBEDNUTRIENTS, STRINGID_PKMNANCHOREDITSELF,
-    STRINGID_PKMNAFFLICTEDBYCURSE, STRINGID_PKMNSAPPEDBYLEECHSEED, STRINGID_PKMNLOCKEDINNIGHTMARE,
+    STRINGID_PKMNTOOKFOE, STRINGID_PKMNSUCCEDNUTRIENTS, STRINGID_PKMNANCHOREDITSELF,
+    STRINGID_PKMNAFFLICTEDBYCURSE, STRINGID_PKMNsuccedBYLEECHSEED, STRINGID_PKMNLOCKEDINNIGHTMARE,
     STRINGID_PKMNHURTBY, STRINGID_PKMNHURTBYBURN, STRINGID_PKMNHURTBYPOISON,
     STRINGID_PKMNHURTBYSPIKES, STRINGID_ATTACKERFAINTED, STRINGID_TARGETFAINTED,
     STRINGID_PKMNHITWITHRECOIL, STRINGID_PKMNCRASHED, 0xFFFF
@@ -311,7 +311,7 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         tvPtr->pos[atkSide][atkFlank].ingrainMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
         tvPtr->pos[atkSide][atkFlank].ingrainMoveSlot = moveSlot;
         break;
-    case STRINGID_PKMNABSORBEDNUTRIENTS:
+    case STRINGID_PKMNSUCCEDNUTRIENTS:
         if (tvPtr->pos[atkSide][atkFlank].ingrainMonId != 0)
         {
             AddMovePoints(2, 6, atkSide,
@@ -386,7 +386,7 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         tvPtr->pos[defSide][defFlank].leechSeedMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
         tvPtr->pos[defSide][defFlank].leechSeedMoveSlot = moveSlot;
         break;
-    case STRINGID_PKMNSAPPEDBYLEECHSEED:
+    case STRINGID_PKMNsuccedBYLEECHSEED:
         if (tvPtr->pos[atkSide][atkFlank].leechSeedMonId != 0)
         {
             AddMovePoints(8, 1, tvPtr->pos[atkSide][atkFlank].leechSeedMonId - 1, tvPtr->pos[atkSide][atkFlank].leechSeedMoveSlot);

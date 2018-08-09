@@ -497,7 +497,7 @@ gContestMoves:: @ 858C2B4
 	.byte 0, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Absorb
+@ Succ
 	.byte 0x0a @ effect ID
 	.byte CONTEST_SMART
 	.byte 0 @ combo starter ID

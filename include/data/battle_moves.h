@@ -784,8 +784,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.priority = 0,
 		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
 	},
-	{ // MOVE_ABSORB
-		.effect = EFFECT_ABSORB,
+	{ // MOVE_SUCC
+		.effect = EFFECT_SUCC,
 		.power = 20,
 		.type = TYPE_WEED,
 		.accuracy = 100,
@@ -796,7 +796,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
 	},
 	{ // MOVE_MEGA_SUCC
-		.effect = EFFECT_ABSORB,
+		.effect = EFFECT_SUCC,
 		.power = 40,
 		.type = TYPE_WEED,
 		.accuracy = 100,
@@ -1555,7 +1555,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
 	},
 	{ // MOVE_LEECH_LIFE
-		.effect = EFFECT_ABSORB,
+		.effect = EFFECT_SUCC,
 		.power = 20,
 		.type = TYPE_BUG,
 		.accuracy = 100,
@@ -2226,7 +2226,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.flags = 0,
 	},
 	{ // MOVE_GIGA_SUCC
-		.effect = EFFECT_ABSORB,
+		.effect = EFFECT_SUCC,
 		.power = 60,
 		.type = TYPE_WEED,
 		.accuracy = 100,

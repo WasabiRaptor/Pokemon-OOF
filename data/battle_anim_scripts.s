@@ -82,7 +82,7 @@ gBattleAnims_Moves:: @ 82C8D6C
 	.4byte Move_COUNTER
 	.4byte Move_SEISMIC_TOSS
 	.4byte Move_STRENGTH
-	.4byte Move_ABSORB
+	.4byte Move_SUCC
 	.4byte Move_MEGA_SUCC
 	.4byte Move_LEECH_SEED
 	.4byte Move_GROWTH
@@ -5772,7 +5772,7 @@ AnimScript_82D0F79:
 	delay 0x1
 	return
 
-Move_ABSORB:
+Move_SUCC:
 	loadspritegfx 0x27A3
 	loadspritegfx 0x272F
 	loadspritegfx 0x2797
@@ -10699,7 +10699,7 @@ Anim_Hail:
 Status_LeechSeed:
 	createvisualtask sub_817351C, 0x5
 	delay 0x0
-	goto Move_ABSORB
+	goto Move_SUCC
 
 Anim_Hit:
 	loadspritegfx 0x2797

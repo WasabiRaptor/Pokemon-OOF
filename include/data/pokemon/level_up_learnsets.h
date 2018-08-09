@@ -559,7 +559,7 @@ const u16 gGolbatLevelUpLearnset[] = {
 };
 
 const u16 gOddishLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 7, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE(14, MOVE_POISON_POWDER),
     LEVEL_UP_MOVE(16, MOVE_STUN_SPORE),
@@ -571,7 +571,7 @@ const u16 gOddishLevelUpLearnset[] = {
 };
 
 const u16 gGloomLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 1, MOVE_POISON_POWDER),
     LEVEL_UP_MOVE( 7, MOVE_SWEET_SCENT),
@@ -585,7 +585,7 @@ const u16 gGloomLevelUpLearnset[] = {
 };
 
 const u16 gVileplumeLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_AROMATHERAPY),
     LEVEL_UP_MOVE( 1, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE( 1, MOVE_MEGA_SUCC),
@@ -1578,7 +1578,7 @@ const u16 gTangelaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_INGRAIN),
     LEVEL_UP_MOVE( 1, MOVE_CONSTRICT),
     LEVEL_UP_MOVE( 4, MOVE_SLEEP_POWDER),
-    LEVEL_UP_MOVE(10, MOVE_ABSORB),
+    LEVEL_UP_MOVE(10, MOVE_SUCC),
     LEVEL_UP_MOVE(13, MOVE_GROWTH),
     LEVEL_UP_MOVE(19, MOVE_POISON_POWDER),
     LEVEL_UP_MOVE(22, MOVE_VINE_WHIP),
@@ -1939,7 +1939,7 @@ const u16 gOmastarLevelUpLearnset[] = {
 const u16 gKabutoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
-    LEVEL_UP_MOVE(13, MOVE_ABSORB),
+    LEVEL_UP_MOVE(13, MOVE_SUCC),
     LEVEL_UP_MOVE(19, MOVE_LEER),
     LEVEL_UP_MOVE(25, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE(31, MOVE_SAND_ATTACK),
@@ -1953,8 +1953,8 @@ const u16 gKabutoLevelUpLearnset[] = {
 const u16 gKabutopsLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
-    LEVEL_UP_MOVE(13, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
+    LEVEL_UP_MOVE(13, MOVE_SUCC),
     LEVEL_UP_MOVE(19, MOVE_LEER),
     LEVEL_UP_MOVE(25, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE(31, MOVE_SAND_ATTACK),
@@ -2511,7 +2511,7 @@ const u16 gAmpharosLevelUpLearnset[] = {
 };
 
 const u16 gBellossomLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 1, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE( 1, MOVE_MAGICAL_LEAF),
@@ -2635,7 +2635,7 @@ const u16 gAipomLevelUpLearnset[] = {
 };
 
 const u16 gSunkernLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 6, MOVE_GROWTH),
     LEVEL_UP_MOVE(13, MOVE_MEGA_SUCC),
     LEVEL_UP_MOVE(18, MOVE_INGRAIN),
@@ -2647,7 +2647,7 @@ const u16 gSunkernLevelUpLearnset[] = {
 };
 
 const u16 gSunfloraLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 6, MOVE_GROWTH),
     LEVEL_UP_MOVE(13, MOVE_RAZOR_LEAF),
@@ -3576,7 +3576,7 @@ const u16 gSpecies276LevelUpLearnset[] = {
 const u16 gTreeckoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 6, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 6, MOVE_SUCC),
     LEVEL_UP_MOVE(11, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(16, MOVE_PURSUIT),
     LEVEL_UP_MOVE(21, MOVE_SCREECH),
@@ -3591,9 +3591,9 @@ const u16 gTreeckoLevelUpLearnset[] = {
 const u16 gGrovyleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE( 6, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 6, MOVE_SUCC),
     LEVEL_UP_MOVE(11, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(16, MOVE_FURY_CUTTER),
     LEVEL_UP_MOVE(17, MOVE_PURSUIT),
@@ -3609,9 +3609,9 @@ const u16 gGrovyleLevelUpLearnset[] = {
 const u16 gSceptileLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE( 6, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 6, MOVE_SUCC),
     LEVEL_UP_MOVE(11, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(16, MOVE_FURY_CUTTER),
     LEVEL_UP_MOVE(17, MOVE_PURSUIT),
@@ -3814,8 +3814,8 @@ const u16 gSilcoonLevelUpLearnset[] = {
 };
 
 const u16 gBeautiflyLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
-    LEVEL_UP_MOVE(10, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
+    LEVEL_UP_MOVE(10, MOVE_SUCC),
     LEVEL_UP_MOVE(13, MOVE_GUST),
     LEVEL_UP_MOVE(17, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE(20, MOVE_MORNING_SUN),
@@ -3850,7 +3850,7 @@ const u16 gDustoxLevelUpLearnset[] = {
 const u16 gLotadLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 3, MOVE_GROWL),
-    LEVEL_UP_MOVE( 7, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 7, MOVE_SUCC),
     LEVEL_UP_MOVE(13, MOVE_NATURE_POWER),
     LEVEL_UP_MOVE(21, MOVE_MIST),
     LEVEL_UP_MOVE(31, MOVE_RAIN_DANCE),
@@ -3861,7 +3861,7 @@ const u16 gLotadLevelUpLearnset[] = {
 const u16 gLombreLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 3, MOVE_GROWL),
-    LEVEL_UP_MOVE( 7, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 7, MOVE_SUCC),
     LEVEL_UP_MOVE(13, MOVE_NATURE_POWER),
     LEVEL_UP_MOVE(19, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE(25, MOVE_FURY_SWIPES),
@@ -3875,7 +3875,7 @@ const u16 gLombreLevelUpLearnset[] = {
 const u16 gLudicoloLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_NATURE_POWER),
     LEVEL_UP_END
 };
@@ -3989,7 +3989,7 @@ const u16 gSwellowLevelUpLearnset[] = {
 };
 
 const u16 gShroomishLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 4, MOVE_TACKLE),
     LEVEL_UP_MOVE( 7, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE(10, MOVE_LEECH_SEED),
@@ -4003,7 +4003,7 @@ const u16 gShroomishLevelUpLearnset[] = {
 };
 
 const u16 gBreloomLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE( 1, MOVE_LEECH_SEED),
@@ -4579,7 +4579,7 @@ const u16 gWalreinLevelUpLearnset[] = {
 const u16 gCacneaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 5, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 5, MOVE_SUCC),
     LEVEL_UP_MOVE( 9, MOVE_GROWTH),
     LEVEL_UP_MOVE(13, MOVE_LEECH_SEED),
     LEVEL_UP_MOVE(17, MOVE_SAND_ATTACK),
@@ -4596,9 +4596,9 @@ const u16 gCacneaLevelUpLearnset[] = {
 const u16 gCacturneLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
-    LEVEL_UP_MOVE( 5, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 5, MOVE_SUCC),
     LEVEL_UP_MOVE( 9, MOVE_GROWTH),
     LEVEL_UP_MOVE(13, MOVE_LEECH_SEED),
     LEVEL_UP_MOVE(17, MOVE_SAND_ATTACK),
@@ -4877,7 +4877,7 @@ const u16 gDusclopsLevelUpLearnset[] = {
 };
 
 const u16 gRoseliaLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 5, MOVE_GROWTH),
     LEVEL_UP_MOVE( 9, MOVE_POISON_STING),
     LEVEL_UP_MOVE(13, MOVE_STUN_SPORE),

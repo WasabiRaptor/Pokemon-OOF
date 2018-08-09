@@ -113,10 +113,10 @@ static bool8 ShouldSwitchIfWonderGuard(void)
     return FALSE; // There is not a single Pokemon in the party that has a super effective move against a mon with Wonder Guard.
 }
 
-static bool8 FindMonThatAbsorbsOpponentsMove(void)
+static bool8 FindMonThatSuccsOpponentsMove(void)
 {
     u8 battlerIn1, battlerIn2;
-    u8 absorbingTypeAbility;
+    u8 succingTypeAbility;
     s32 firstId;
     s32 lastId; // + 1
     struct Pokemon *party;
@@ -146,15 +146,15 @@ static bool8 FindMonThatAbsorbsOpponentsMove(void)
     }
 
     if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_LIT)
-        absorbingTypeAbility = ABILITY_FLASH_FIRE;
+        succingTypeAbility = ABILITY_FLASH_FIRE;
     else if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_WATER)
-        absorbingTypeAbility = ABILITY_WATER_ABSORB;
+        succingTypeAbility = ABILITY_WATER_SUCC;
     else if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_ACDC)
-        absorbingTypeAbility = ABILITY_VOLT_ABSORB;
+        succingTypeAbility = ABILITY_VOLT_SUCC;
     else
         return FALSE;
 
-    if (gBattleMons[gActiveBattler].ability == absorbingTypeAbility)
+    if (gBattleMons[gActiveBattler].ability == succingTypeAbility)
         return FALSE;
 
     if (gBattleTypeFlags & (BATTLE_TYPE_TWO_OPPONENTS | BATTLE_TYPE_x800000))
@@ -200,7 +200,7 @@ static bool8 FindMonThatAbsorbsOpponentsMove(void)
         else
             monAbility = gBaseStats[species].ability1;
 
-        if (absorbingTypeAbility == monAbility && Random() & 1)
+        if (succingTypeAbility == monAbility && Random() & 1)
         {
             // we found a mon.
             *(gBattleStruct->AI_monToSwitchIntoId + gActiveBattler) = i;
@@ -506,7 +506,7 @@ static bool8 ShouldSwitch(void)
         return TRUE;
     if (ShouldSwitchIfWonderGuard())
         return TRUE;
-    if (FindMonThatAbsorbsOpponentsMove())
+    if (FindMonThatSuccsOpponentsMove())
         return TRUE;
     if (ShouldSwitchIfNaturalCure())
         return TRUE;
