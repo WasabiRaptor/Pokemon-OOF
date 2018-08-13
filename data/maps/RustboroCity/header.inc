@@ -1,4 +1,4 @@
-RustboroCity::
+RustboroCity: @ 848250C
 	.4byte RustboroCity_Layout
 	.4byte RustboroCity_MapEvents
 	.4byte RustboroCity_MapScripts
@@ -12,3 +12,4 @@ RustboroCity::
 	.2byte 0
 	.byte 13
 	.byte MAP_BATTLE_SCENE_NORMAL
+

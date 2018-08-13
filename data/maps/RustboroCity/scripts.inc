@@ -8,13 +8,13 @@ RustboroCity_MapScript1_1E06C8: @ 81E06C8
 	call RustboroCity_EventScript_271ED7
 	compare VAR_0x405A, 6
 	call_if 1, RustboroCity_EventScript_1E0707
-	getplayerxy VAR_0x4000, VAR_0x4001
+	getplayerxy VAR_TEMP_0, VAR_TEMP_1
 	compare VAR_0x405A, 6
 	goto_eq RustboroCity_EventScript_1E06EC
 	end
 
 RustboroCity_EventScript_1E06EC:: @ 81E06EC
-	compare VAR_0x4000, 11
+	compare VAR_TEMP_0, 11
 	goto_eq RustboroCity_EventScript_1E06FF
 	setobjectxyperm 15, 12, 15
 	end
@@ -105,30 +105,30 @@ RustboroCity_EventScript_1E07BD:: @ 81E07BD
 	end
 
 RustboroCity_Movement_1E084E: @ 81E084E
-	step_1d
+	walk_in_place_down
 	step_end
 
 RustboroCity_Movement_1E0850: @ 81E0850
-	step_down
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E0852: @ 81E0852
-	step_down
-	step_14
+	walk_down
+	delay_16
 	step_end
 
 RustboroCity_Movement_1E0855: @ 81E0855
-	step_14
-	step_left
-	step_down
-	step_down
-	step_right
-	step_26
-	step_14
+	delay_16
+	walk_left
+	walk_down
+	walk_down
+	walk_right
+	walk_in_place_fastest_up
+	delay_16
 	step_end
 
 RustboroCity_Movement_1E085D: @ 81E085D
-	step_up
+	walk_up
 	step_end
 
 RustboroCity_EventScript_1E085F:: @ 81E085F
@@ -186,29 +186,7 @@ RustboroCity_EventScript_1E08C7:: @ 81E08C7
 
 RustboroCity_EventScript_1E08D1:: @ 81E08D1
 	msgbox RustboroCity_Text_1E1633, 2
-	applymovement 4, spinning_teleport
-	waitmovement 0
-	removeobject 4
 	end
-
-spinning_teleport:
-	step_01
-	step_12
-	step_02
-	step_12
-	step_00
-	step_12
-	step_03
-	step_12
-	step_01
-	step_52
-	step_32
-	step_32
-	step_32
-	step_32
-	step_32
-	step_32
-	step_end
 
 RustboroCity_EventScript_1E08DA:: @ 81E08DA
 	msgbox RustboroCity_Text_1E1695, 3
@@ -374,100 +352,100 @@ RustboroCity_EventScript_1E0A79:: @ 81E0A79
 	return
 
 RustboroCity_Movement_1E0A8E: @ 81E0A8E
-	step_30
-	step_30
-	step_18
-	step_18
-	step_18
-	step_18
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fastest_right
+	walk_fastest_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 RustboroCity_Movement_1E0AA0: @ 81E0AA0
-	step_30
-	step_30
-	step_18
-	step_18
-	step_18
-	step_18
-	step_18
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fastest_right
+	walk_fastest_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 RustboroCity_Movement_1E0AB1: @ 81E0AB1
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
-	step_26
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_in_place_fastest_up
 	step_end
 
 RustboroCity_Movement_1E0AB9: @ 81E0AB9
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 RustboroCity_Movement_1E0AC1: @ 81E0AC1
-	step_down
-	step_right
-	step_right
+	walk_down
+	walk_right
+	walk_right
 	step_end
 
 RustboroCity_Movement_1E0AC5: @ 81E0AC5
-	step_down
-	step_down
-	step_right
-	step_right
+	walk_down
+	walk_down
+	walk_right
+	walk_right
 	step_end
 
 RustboroCity_Movement_1E0ACA: @ 81E0ACA
-	step_down
-	step_down
-	step_right
-	step_right
+	walk_down
+	walk_down
+	walk_right
+	walk_right
 	step_end
 
 RustboroCity_Movement_1E0ACF: @ 81E0ACF
-	step_down
-	step_down
-	step_down
-	step_right
-	step_right
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
 	step_end
 
 RustboroCity_Movement_1E0AD5: @ 81E0AD5
-	step_down
-	step_down
-	step_down
-	step_right
-	step_right
-	step_right
-	step_25
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_in_place_fastest_down
 	step_end
 
 RustboroCity_EventScript_1E0ADD:: @ 81E0ADD
@@ -481,42 +459,42 @@ RustboroCity_EventScript_1E0ADD:: @ 81E0ADD
 
 RustboroCity_EventScript_1E0AF2:: @ 81E0AF2
 	waitse
-	setvar VAR_0x4001, 4
+	setvar VAR_TEMP_1, 4
 	goto RustboroCity_EventScript_1E0C5B
 	end
 
 RustboroCity_EventScript_1E0AFE:: @ 81E0AFE
 	lockall
-	setvar VAR_0x4001, 0
+	setvar VAR_TEMP_1, 0
 	goto RustboroCity_EventScript_1E0B2E
 	end
 
 RustboroCity_EventScript_1E0B0A:: @ 81E0B0A
 	lockall
-	setvar VAR_0x4001, 1
+	setvar VAR_TEMP_1, 1
 	goto RustboroCity_EventScript_1E0B2E
 	end
 
 RustboroCity_EventScript_1E0B16:: @ 81E0B16
 	lockall
-	setvar VAR_0x4001, 2
+	setvar VAR_TEMP_1, 2
 	goto RustboroCity_EventScript_1E0B2E
 	end
 
 RustboroCity_EventScript_1E0B22:: @ 81E0B22
 	lockall
-	setvar VAR_0x4001, 3
+	setvar VAR_TEMP_1, 3
 	goto RustboroCity_EventScript_1E0B2E
 	end
 
 RustboroCity_EventScript_1E0B2E:: @ 81E0B2E
-	compare VAR_0x4001, 0
+	compare VAR_TEMP_1, 0
 	call_if 1, RustboroCity_EventScript_1E0B6F
-	compare VAR_0x4001, 1
+	compare VAR_TEMP_1, 1
 	call_if 1, RustboroCity_EventScript_1E0B9B
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RustboroCity_EventScript_1E0BC7
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RustboroCity_EventScript_1E0BF3
 	setflag FLAG_0x09F
 	setvar VAR_0x405A, 3
@@ -576,43 +554,43 @@ RustboroCity_EventScript_1E0BF3:: @ 81E0BF3
 	return
 
 RustboroCity_Movement_1E0C29: @ 81E0C29
-	step_down
+	walk_down
 	step_end
 
 RustboroCity_EventScript_1E0C2B:: @ 81E0C2B
 	lockall
-	setvar VAR_0x4001, 0
+	setvar VAR_TEMP_1, 0
 	goto RustboroCity_EventScript_1E0C5B
 	end
 
 RustboroCity_EventScript_1E0C37:: @ 81E0C37
 	lockall
-	setvar VAR_0x4001, 1
+	setvar VAR_TEMP_1, 1
 	goto RustboroCity_EventScript_1E0C5B
 	end
 
 RustboroCity_EventScript_1E0C43:: @ 81E0C43
 	lockall
-	setvar VAR_0x4001, 2
+	setvar VAR_TEMP_1, 2
 	goto RustboroCity_EventScript_1E0C5B
 	end
 
 RustboroCity_EventScript_1E0C4F:: @ 81E0C4F
 	lockall
-	setvar VAR_0x4001, 3
+	setvar VAR_TEMP_1, 3
 	goto RustboroCity_EventScript_1E0C5B
 	end
 
 RustboroCity_EventScript_1E0C5B:: @ 81E0C5B
-	compare VAR_0x4001, 0
+	compare VAR_TEMP_1, 0
 	call_if 1, RustboroCity_EventScript_1E0CDC
-	compare VAR_0x4001, 1
+	compare VAR_TEMP_1, 1
 	call_if 1, RustboroCity_EventScript_1E0D08
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RustboroCity_EventScript_1E0D34
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RustboroCity_EventScript_1E0D60
-	compare VAR_0x4001, 4
+	compare VAR_TEMP_1, 4
 	call_if 1, RustboroCity_EventScript_1E0D96
 	msgbox RustboroCity_Text_1E194D, 4
 	giveitem_std ITEM_GREAT_BALL
@@ -624,7 +602,7 @@ RustboroCity_EventScript_1E0C5B:: @ 81E0C5B
 	setflag FLAG_0x2DC
 	setvar VAR_0x405A, 5
 	delay 30
-	warp RUSTBORO_CITY_DEVON_CORP_3F, 255, 2, 2
+	warp MAP_RUSTBORO_CITY_DEVON_CORP_3F, 255, 2, 2
 	waitstate
 	releaseall
 	end
@@ -994,59 +972,59 @@ RustboroCity_EventScript_1E11FB:: @ 81E11FB
 	end
 
 RustboroCity_Movement_1E120E: @ 81E120E
-	step_down
-	step_left
-	step_left
-	step_left
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E1215: @ 81E1215
-	step_down
-	step_left
-	step_left
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E121B: @ 81E121B
-	step_down
-	step_left
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_left
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E1220: @ 81E1220
-	step_down
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E1224: @ 81E1224
-	step_down
-	step_down
+	walk_down
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E1227: @ 81E1227
-	step_down
-	step_right
-	step_down
+	walk_down
+	walk_right
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E122B: @ 81E122B
-	step_down
-	step_right
-	step_right
-	step_down
+	walk_down
+	walk_right
+	walk_right
+	walk_down
 	step_end
 
 RustboroCity_Movement_1E1230: @ 81E1230
-	step_down
-	step_right
-	step_right
-	step_right
-	step_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_down
 	step_end
 
 RustboroCity_EventScript_1E1236:: @ 81E1236
@@ -1104,9 +1082,9 @@ RustboroCity_Text_1E1589: @ 81E1589
 	.string "that PEEKO.$"
 
 RustboroCity_Text_1E1633: @ 81E1633
-	.string "oh\p"
-	.string "I must go\n"
-	.string "my planet needs me$"
+	.string "Wow, you have POKéMON with you, too.\p"
+	.string "When I get bigger, I’m going to go\n"
+	.string "places with POKéMON, too.$"
 
 RustboroCity_Text_1E1695: @ 81E1695
 	.string "POKéMON TRAINER’S SCHOOL!\p"
@@ -1129,8 +1107,8 @@ RustboroCity_Text_1E1789: @ 81E1789
 	.string "BADGES, it may not obey you…$"
 
 RustboroCity_Text_1E17FE: @ 81E17FE
-	.string "òwó\n"
-	.string "ur GUDS r mine now!$"
+	.string "Get out!\n"
+	.string "Out of the way!$"
 
 RustboroCity_Text_1E1817: @ 81E1817
 	.string "Wait! Pleeeaaase!\p"
@@ -1140,7 +1118,7 @@ RustboroCity_Text_1E183E: @ 81E183E
 	.string "Oh, it’s you!\p"
 	.string "You’re that fantastic TRAINER who\n"
 	.string "helped me in PETALBURG WOODS!\p"
-	.string "Help me! I was robbed by that weird kid!\n"
+	.string "Help me! I was robbed by TEAM AQUA!\n"
 	.string "I have to get the DEVON GOODS back!\p"
 	.string "If I don’t…\n"
 	.string "I’m going to be in serious trouble.$"

@@ -188,7 +188,7 @@ Route110_EventScript_1EF44C:: @ 81EF44C
 	waitmovement 0
 	msgbox Route110_Text_298201, 4
 	setvar VAR_0x8004, 512
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 512
 	callstd 8
 	release
@@ -228,7 +228,7 @@ Route110_EventScript_1EF4F3:: @ 81EF4F3
 	waitmovement 0
 	msgbox Route110_Text_297CFE, 4
 	setvar VAR_0x8004, 353
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 353
 	callstd 8
 	release
@@ -258,7 +258,7 @@ Route110_EventScript_1EF56C:: @ 81EF56C
 	waitmovement 0
 	msgbox Route110_Text_297ECD, 4
 	setvar VAR_0x8004, 358
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 358
 	callstd 8
 	release
@@ -283,7 +283,7 @@ Route110_EventScript_1EF5CE:: @ 81EF5CE
 	waitmovement 0
 	msgbox Route110_Text_2983EE, 4
 	setvar VAR_0x8004, 302
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 302
 	callstd 8
 	release
@@ -557,50 +557,50 @@ Route110_EventScript_1EF9A0:: @ 81EF9A0
 	return
 
 Route110_Movement_1EF9A8: @ 81EF9A8
-	step_down
-	step_left
-	step_25
+	walk_down
+	walk_left
+	walk_in_place_fastest_down
 	step_end
 
 Route110_Movement_1EF9AC: @ 81EF9AC
-	step_down
+	walk_down
 	step_end
 
 Route110_Movement_1EF9AE: @ 81EF9AE
-	step_down
-	step_right
-	step_25
+	walk_down
+	walk_right
+	walk_in_place_fastest_down
 	step_end
 
 Route110_Movement_1EF9B2: @ 81EF9B2
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 Route110_Movement_1EF9BA: @ 81EF9BA
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_15
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_down
 	step_end
 
 Route110_Movement_1EF9C3: @ 81EF9C3
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 Route110_EventScript_1EF9CB:: @ 81EF9CB
@@ -717,83 +717,83 @@ Route110_EventScript_1EFB25:: @ 81EFB25
 	return
 
 Route110_Movement_1EFB30: @ 81EFB30
-	step_down
-	step_down
-	step_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 Route110_Movement_1EFB34: @ 81EFB34
-	step_down
-	step_left
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_left
+	walk_down
 	step_end
 
 Route110_Movement_1EFB39: @ 81EFB39
-	step_down
-	step_left
-	step_down
+	walk_down
+	walk_left
+	walk_down
 	step_end
 
 Route110_Movement_1EFB3D: @ 81EFB3D
-	step_down
-	step_down
+	walk_down
+	walk_down
 	step_end
 
 Route110_Movement_1EFB40: @ 81EFB40
-	step_down
-	step_right
-	step_down
+	walk_down
+	walk_right
+	walk_down
 	step_end
 
 Route110_Movement_1EFB44: @ 81EFB44
-	step_up
-	step_up
-	step_right
-	step_up
-	step_up
-	step_up
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_Movement_1EFB4B: @ 81EFB4B
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_Movement_1EFB51: @ 81EFB51
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_Movement_1EFB57: @ 81EFB57
-	step_up
-	step_up
-	step_up
-	step_up
-	step_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_Text_1EFB5D: @ 81EFB5D
-	.string "OwO THE WOLFPACK’s activities?\n"
-	.string "We can’t tawk about them yet OnO.$"
+	.string "TEAM AQUA’s activities…\n"
+	.string "We can’t talk about them yet.$"
 
 Route110_Text_1EFB93: @ 81EFB93
-	.string "I want 2 get going to SWATEPOWT and\n"
-	.string "kick up a wuckus òwó!$"
+	.string "I want to get going to SLATEPORT and\n"
+	.string "kick up a ruckus!$"
 
 Route110_Text_1EFBCA: @ 81EFBCA
 	.string "This is my first job after joining\n"
-	.string "THE WOLFPACK. It’s a little scawy -w-.$"
+	.string "TEAM AQUA. It’s a little scary.$"
 
 Route110_Text_1EFC0D: @ 81EFC0D
-	.string "THE WOLFPACK’s actions shouwd bwing\n"
-	.string "smiwes to peopwe’s faces ÎwÎ!$"
+	.string "TEAM AQUA’s actions should bring\n"
+	.string "smiles to people’s faces!$"
 
 Route110_Text_1EFC48: @ 81EFC48
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
@@ -951,7 +951,7 @@ Route110_Text_1F0755: @ 81F0755
 
 Route110_Text_1F0812: @ 81F0812
 	.string "ROUTE 110\n"
-	.string "{0x7A} SLATEPORT CITY$"
+	.string "{DOWN_ARROW} SLATEPORT CITY$"
 
 Route110_Text_1F082D: @ 81F082D
 	.string "SEASIDE CYCLING ROAD$"
@@ -965,14 +965,14 @@ Route110_Text_1F0842: @ 81F0842
 
 Route110_Text_1F08CD: @ 81F08CD
 	.string "ROUTE 110\n"
-	.string "{0x7B} ROUTE 103$"
+	.string "{LEFT_ARROW} ROUTE 103$"
 
 Route110_Text_1F08E3: @ 81F08E3
 	.string "SEASIDE PARKING$"
 
 Route110_Text_1F08F3: @ 81F08F3
 	.string "ROUTE 110\n"
-	.string "{0x79} MAUVILLE CITY$"
+	.string "{UP_ARROW} MAUVILLE CITY$"
 
 Route110_Text_1F090D: @ 81F090D
 	.string "TRAINER TIPS\p"
@@ -987,7 +987,7 @@ Route110_Text_1F0992: @ 81F0992
 	.string "by pressing SELECT.$"
 
 Route110_Text_1F09DB: @ 81F09DB
-	.string "“Three steps {0x7C} and two steps {0x79}\n"
+	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
 	.string "to reach the wondrous TRICK HOUSE.”$"
 
 Route110_Text_1F0A1E: @ 81F0A1E

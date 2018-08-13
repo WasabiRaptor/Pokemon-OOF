@@ -51,35 +51,35 @@ RusturfTunnel_EventScript_22CE99:: @ 822CE99
 
 RusturfTunnel_EventScript_22CEAE:: @ 822CEAE
 	lockall
-	compare VAR_0x4001, 1
+	compare VAR_TEMP_1, 1
 	call_if 1, RusturfTunnel_EventScript_22CFA7
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RusturfTunnel_EventScript_22CFBC
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RusturfTunnel_EventScript_22CFC7
 	call RusturfTunnel_EventScript_22CFFF
 	msgbox RusturfTunnel_Text_22D65C, 4
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RusturfTunnel_EventScript_22CFC8
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RusturfTunnel_EventScript_22CFC8
 	giveitem_std ITEM_HM04
 	setflag FLAG_0x06A
 	msgbox RusturfTunnel_Text_22D6D2, 4
 	closemessage
-	compare VAR_0x4001, 1
+	compare VAR_TEMP_1, 1
 	call_if 1, RusturfTunnel_EventScript_22CF5D
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RusturfTunnel_EventScript_22CF6F
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RusturfTunnel_EventScript_22CF8B
 	msgbox RusturfTunnel_Text_22D745, 4
 	closemessage
-	compare VAR_0x4001, 1
+	compare VAR_TEMP_1, 1
 	call_if 1, RusturfTunnel_EventScript_22CFD4
-	compare VAR_0x4001, 2
+	compare VAR_TEMP_1, 2
 	call_if 1, RusturfTunnel_EventScript_22CFE6
-	compare VAR_0x4001, 3
+	compare VAR_TEMP_1, 3
 	call_if 1, RusturfTunnel_EventScript_22CFE6
 	call RusturfTunnel_EventScript_272216
 	releaseall
@@ -150,133 +150,133 @@ RusturfTunnel_EventScript_22CFFF:: @ 822CFFF
 	return
 
 RusturfTunnel_Movement_22D017: @ 822D017
-	step_right
-	step_right
-	step_right
-	step_right
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 RusturfTunnel_Movement_22D023: @ 822D023
-	step_right
-	step_right
-	step_right
-	step_right
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 RusturfTunnel_Movement_22D02F: @ 822D02F
-	step_13
-	step_26
-	step_14
-	step_14
-	step_28
+	delay_8
+	walk_in_place_fastest_up
+	delay_16
+	delay_16
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D035: @ 822D035
-	step_left
-	step_28
+	walk_left
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D038: @ 822D038
-	step_down
-	step_26
-	step_13
-	step_28
+	walk_down
+	walk_in_place_fastest_up
+	delay_8
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D03D: @ 822D03D
-	step_up
-	step_25
-	step_13
-	step_28
+	walk_up
+	walk_in_place_fastest_down
+	delay_8
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D042: @ 822D042
-	step_left
-	step_28
+	walk_left
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D045: @ 822D045
-	step_right
-	step_27
+	walk_right
+	walk_in_place_fastest_left
 	step_end
 
 RusturfTunnel_Movement_22D048: @ 822D048
-	step_up
-	step_28
+	walk_up
+	walk_in_place_fastest_right
 	step_end
 
 RusturfTunnel_Movement_22D04B: @ 822D04B
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 RusturfTunnel_Movement_22D058: @ 822D058
-	step_up
-	step_right
-	step_right
-	step_right
-	step_right
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
-	step_down
+	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 RusturfTunnel_Movement_22D065: @ 822D065
-	step_right
+	walk_right
 	step_end
 
 RusturfTunnel_Movement_22D067: @ 822D067
-	step_22
-	step_22
-	step_16
-	step_18
+	walk_in_place_fast_up
+	walk_in_place_fast_up
+	walk_fast_up
+	walk_fast_right
 	step_end
 
 RusturfTunnel_Movement_22D06C: @ 822D06C
-	step_24
-	step_24
-	step_18
-	step_26
+	walk_in_place_fast_right
+	walk_in_place_fast_right
+	walk_fast_right
+	walk_in_place_fastest_up
 	step_end
 
 RusturfTunnel_EventScript_22D071:: @ 822D071
-	setvar VAR_0x4001, 1
+	setvar VAR_TEMP_1, 1
 	end
 
 RusturfTunnel_EventScript_22D077:: @ 822D077
-	setvar VAR_0x4001, 2
+	setvar VAR_TEMP_1, 2
 	end
 
 RusturfTunnel_EventScript_22D07D:: @ 822D07D
-	setvar VAR_0x4001, 3
+	setvar VAR_TEMP_1, 3
 	end
 
 RusturfTunnel_EventScript_22D083:: @ 822D083
@@ -293,9 +293,9 @@ RusturfTunnel_EventScript_22D083:: @ 822D083
 	end
 
 RusturfTunnel_Movement_22D0AB: @ 822D0AB
-	step_40
-	step_right
-	step_41
+	lock_facing_direction
+	walk_right
+	unlock_facing_direction
 	step_end
 
 RusturfTunnel_EventScript_22D0AF:: @ 822D0AF
@@ -353,76 +353,76 @@ RusturfTunnel_EventScript_22D0C2:: @ 822D0C2
 	end
 
 RusturfTunnel_Movement_22D178: @ 822D178
-	step_00
-	step_40
-	step_up
-	step_41
-	step_27
+	face_down
+	lock_facing_direction
+	walk_up
+	unlock_facing_direction
+	walk_in_place_fastest_left
 	step_end
 
 RusturfTunnel_Movement_22D17E: @ 822D17E
-	step_down
-	step_26
+	walk_down
+	walk_in_place_fastest_up
 	step_end
 
 RusturfTunnel_Movement_22D181: @ 822D181
-	step_17
-	step_17
-	step_17
-	step_17
-	step_17
-	step_17
-	step_17
-	step_17
-	step_17
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 RusturfTunnel_Movement_22D18B: @ 822D18B
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
-	step_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 RusturfTunnel_Movement_22D193: @ 822D193
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 RusturfTunnel_Movement_22D19F: @ 822D19F
-	step_14
-	step_13
-	step_12
-	step_27
+	delay_16
+	delay_8
+	delay_4
+	walk_in_place_fastest_left
 	step_end
 
 RusturfTunnel_Movement_22D1A4: @ 822D1A4
-	step_14
-	step_right
+	delay_16
+	walk_right
 	step_end
 
 RusturfTunnel_Movement_22D1A7: @ 822D1A7
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 RusturfTunnel_EventScript_22D1B1:: @ 822D1B1
@@ -431,33 +431,33 @@ RusturfTunnel_EventScript_22D1B1:: @ 822D1B1
 	end
 
 RusturfTunnel_Text_22D1C8: @ 822D1C8
-	.string "OwO r u coming?\n"
-	.string "u shouwd tink abowt dis òwó!$"
+	.string "What, are you coming?\n"
+	.string "Come and get some, then!$"
 
 RusturfTunnel_Text_22D1F7: @ 822D1F7
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_22D20A: @ 822D20A
-	.string "OnO dis was dumb!\p"
-	.string "dat hostage POKéMON tuwned out 2\n"
-	.string "be wowthless òwó!\p"
-	.string "pewhaps dis isnt 2 bad UwU\n"
-	.string "ur stuck in dis tunnew wit me\p"
-	.string "OwO\n"
-	.string "So you want to battwe me?$"
+	.string "Grah, keelhaul it all!\p"
+	.string "That hostage POKéMON turned out to\n"
+	.string "be worthless!\p"
+	.string "And to think I made a getaway…\n"
+	.string "In this tunnel to nowhere!\p"
+	.string "Hey! You!\n"
+	.string "So you want to battle me?$"
 
 RusturfTunnel_Text_22D2B0: @ 822D2B0
-	.string "OnO\n"
-	.string "u shouwd let me win!$"
+	.string "Urrrggh! My career in crime comes to\n"
+	.string "a dead end!$"
 
 RusturfTunnel_Text_22D2E1: @ 822D2E1
-	.string "UwU I wish I couwd win\p"
-	.string "SENPAI said hed get me a suit\n"
-	.string "if I did dis job -w-.\p"
-	.string "but u had to wuin it aww òwó\n"
-	.string "owo\p"
-	.string "but u can have dis back\n"
-	.string "becuz ur cute uwu$"
+	.string "This is plain not right…\p"
+	.string "The BOSS told me this would be a\n"
+	.string "slick-and-easy job to pull.\p"
+	.string "All I had to do was steal some package\n"
+	.string "from DEVON.\p"
+	.string "Tch!\n"
+	.string "You want it back that badly, take it!$"
 
 RusturfTunnel_Text_22D395: @ 822D395
 	.string "PEEKO!\n"
@@ -493,7 +493,7 @@ RusturfTunnel_Text_22D510: @ 822D510
 
 RusturfTunnel_Text_22D5F3: @ 822D5F3
 	.string "To get from RUSTBORO to VERDANTURF,\n"
-	.string "you need to go to HUHFORD, then pass\l"
+	.string "you need to go to DEWFORD, then pass\l"
 	.string "through SLATEPORT and MAUVILLE…$"
 
 RusturfTunnel_Text_22D65C: @ 822D65C

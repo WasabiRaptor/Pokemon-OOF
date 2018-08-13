@@ -114,128 +114,128 @@ PetalburgWoods_EventScript_22E1A7:: @ 822E1A7
 	end
 
 PetalburgWoods_Movement_22E1B1: @ 822E1B1
-	step_01
-	step_14
-	step_12
-	step_03
-	step_14
-	step_13
-	step_02
-	step_14
-	step_13
-	step_00
-	step_14
-	step_03
-	step_14
-	step_13
-	step_01
-	step_14
+	face_up
+	delay_16
+	delay_4
+	face_right
+	delay_16
+	delay_8
+	face_left
+	delay_16
+	delay_8
+	face_down
+	delay_16
+	face_right
+	delay_16
+	delay_8
+	face_up
+	delay_16
 	step_end
 
 PetalburgWoods_Movement_22E1C2: @ 822E1C2
-	step_18
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fast_right
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 PetalburgWoods_Movement_22E1CB: @ 822E1CB
-	step_14
-	step_3e
-	step_down
-	step_down
+	delay_16
+	face_player
+	walk_down
+	walk_down
 	step_end
 
 PetalburgWoods_Movement_22E1D0: @ 822E1D0
-	step_14
-	step_3e
-	step_down
-	step_down
-	step_down
-	step_28
+	delay_16
+	face_player
+	walk_down
+	walk_down
+	walk_down
+	walk_in_place_fastest_right
 	step_end
 
 PetalburgWoods_Movement_22E1D7: @ 822E1D7
-	step_17
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
+	walk_fast_left
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	step_end
 
 PetalburgWoods_Movement_22E1E0: @ 822E1E0
-	step_14
-	step_14
-	step_26
+	delay_16
+	delay_16
+	walk_in_place_fastest_up
 	step_end
 
 PetalburgWoods_Movement_22E1E4: @ 822E1E4
-	step_18
-	step_15
-	step_15
-	step_17
-	step_26
+	walk_fast_right
+	walk_fast_down
+	walk_fast_down
+	walk_fast_left
+	walk_in_place_fastest_up
 	step_end
 
 PetalburgWoods_Movement_22E1EA: @ 822E1EA
-	step_15
-	step_18
-	step_26
+	walk_fast_down
+	walk_fast_right
+	walk_in_place_fastest_up
 	step_end
 
 PetalburgWoods_Movement_22E1EE: @ 822E1EE
-	step_25
-	step_14
-	step_14
-	step_14
-	step_14
-	step_14
-	step_01
+	walk_in_place_fastest_down
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	face_up
 	step_end
 
 PetalburgWoods_Movement_22E1F6: @ 822E1F6
-	step_15
-	step_15
+	walk_fast_down
+	walk_fast_down
 	step_end
 
 PetalburgWoods_Movement_22E1F9: @ 822E1F9
-	step_40
-	step_up
-	step_41
+	lock_facing_direction
+	walk_up
+	unlock_facing_direction
 	step_end
 
 PetalburgWoods_Movement_22E1FD: @ 822E1FD
-	step_16
-	step_16
-	step_16
-	step_16
-	step_16
-	step_14
-	step_14
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	delay_16
+	delay_16
 	step_end
 
 PetalburgWoods_Movement_22E205: @ 822E205
-	step_15
-	step_15
-	step_15
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
 	step_end
 
 PetalburgWoods_Movement_22E209: @ 822E209
-	step_down
-	step_down
-	step_14
-	step_14
+	walk_down
+	walk_down
+	delay_16
+	delay_16
 	step_end
 
 PetalburgWoods_Movement_22E20E: @ 822E20E
-	step_down
+	walk_down
 	step_end
 
 PetalburgWoods_EventScript_22E210:: @ 822E210
@@ -301,7 +301,7 @@ PetalburgWoods_EventScript_22E2C5:: @ 822E2C5
 PetalburgWoods_EventScript_22E2D6:: @ 822E2D6
 	msgbox PetalburgWoods_Text_22E8C3, 4
 	setvar VAR_0x8004, 621
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 621
 	callstd 8
 	release
@@ -317,7 +317,7 @@ PetalburgWoods_EventScript_22E2EF:: @ 822E2EF
 PetalburgWoods_EventScript_22E302:: @ 822E302
 	msgbox PetalburgWoods_Text_22E914, 4
 	setvar VAR_0x8004, 621
-	special sub_81D1C20
+	special SetMatchCallRegisteredFlag
 	setorcopyvar VAR_0x8000, 621
 	callstd 8
 	release
@@ -335,18 +335,17 @@ PetalburgWoods_Text_22E332: @ 822E332
 PetalburgWoods_Text_22E34F: @ 822E34F
 	.string "Hello, have you seen any POKéMON\n"
 	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.\n"
-	.string "its spores can get you pretty high$"
+	.string "I really love that POKéMON.$"
 
 PetalburgWoods_Text_22E3AA: @ 822E3AA
-	.string "òwó I was going to ambush u, but u\n"
-	.string "had to dawdwe in PETAWBUWG WOODS\l"
-	.string "fowevew, didn’t u OnO?\p"
-	.string "I got sick of waiting, so hewe I am -w-!$"
+	.string "I was going to ambush you, but you\n"
+	.string "had to dawdle in PETALBURG WOODS\l"
+	.string "forever, didn’t you?\p"
+	.string "I got sick of waiting, so here I am!$"
 
 PetalburgWoods_Text_22E428: @ 822E428
-	.string "OwO u r the DEVON WESEAWCHEW?\p"
-	.string "u should give me those papers UnU$"
+	.string "You! DEVON RESEARCHER!\p"
+	.string "Hand over those papers!$"
 
 PetalburgWoods_Text_22E457: @ 822E457
 	.string "Aiyeeeh!\p"
@@ -354,35 +353,35 @@ PetalburgWoods_Text_22E457: @ 822E457
 	.string "You’ve got to help me, please!$"
 
 PetalburgWoods_Text_22E4A5: @ 822E4A5
-	.string "OwO What do u think u r doing?\n"
-	.string "òwó u r going to pwotect him?\p"
-	.string "No 1 who cwosses THE WOLFPACK\n"
-	.string "gets any mewcy, weww u r cute UwU\p"
-	.string "maybe we couwd cuddwe instead!$"
+	.string "Hunh? What do you think you’re doing?\n"
+	.string "What, you’re going to protect him?\p"
+	.string "No one who crosses TEAM AQUA\n"
+	.string "gets any mercy, not even a kid!\p"
+	.string "Come on and battle me!$"
 
 PetalburgWoods_Text_22E542: @ 822E542
-	.string "OwO whats this!$"
+	.string "You’re kidding me! You’re tough!$"
 
 PetalburgWoods_Text_22E563: @ 822E563
-	.string "òwó Grrr… u got nyewve\n"
-	.string "meddwing with THE WOLFPACK!\l"
-	.string "u r pwobabwy a diwty hackew!\p"
-	.string "I wouwd destwoy u scum, but I’m out of\n"
+	.string "Grrr… You’ve got some nerve\n"
+	.string "meddling with TEAM AQUA!\l"
+	.string "Come on and battle me again!\p"
+	.string "I wish I could say that, but I’m out of\n"
 	.string "POKéMON…\p"
-	.string "And, hey, THE WOLFPACK is awso\n"
-	.string "aftew something in WUSTBOWO.\p"
-	.string "I’ww wet u go today UwU$"
+	.string "And, hey, we of TEAM AQUA are also\n"
+	.string "after something in RUSTBORO.\p"
+	.string "I’ll let you go today!$"
 
 PetalburgWoods_Text_22E63D: @ 822E63D
 	.string "Whew…\n"
-	.string "That was... strange\p"
+	.string "That was awfully close!\p"
 	.string "Thanks to you, he didn’t rob me of\n"
 	.string "these important papers.\p"
 	.string "I know, I’ll give you a GREAT BALL as\n"
 	.string "my thanks!$"
 
 PetalburgWoods_Text_22E6C7: @ 822E6C7
-	.string "Didn’t that deranged child say\n"
+	.string "Didn’t that TEAM AQUA thug say\n"
 	.string "they were after something in\l"
 	.string "RUSTBORO, too?$"
 
@@ -416,16 +415,16 @@ PetalburgWoods_Text_22E86B: @ 822E86B
 
 PetalburgWoods_Text_22E889: @ 822E889
 	.string "If you have a big BUG POKéMON,\n"
-	.string "people think youre pretty dank.$"
+	.string "people respect you for it.$"
 
 PetalburgWoods_Text_22E8C3: @ 822E8C3
-	.string "yo nibba\n"
-	.string "youre the dank one!\p"
+	.string "I want a rematch when my BUG\n"
+	.string "POKéMON grow up!\p"
 	.string "I’m registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_22E914: @ 822E914
-	.string "I want a rematch when Im more dank \n"
-	.string "because youre the danket nibba I know!\p"
+	.string "I want a rematch when my BUG \n"
+	.string "POKéMON grow up!\p"
 	.string "I’m registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_22E966: @ 822E966
@@ -469,10 +468,8 @@ PetalburgWoods_Text_22EB63: @ 822EB63
 
 PetalburgWoods_Text_22EC10: @ 822EC10
 	.string "TRAINER TIPS\p"
-	.string "wtf is this normie shit\n"
-	.string "I cant believe you read this sign\p"
-	.string "I happen to be an intelluctual myself\n"
-	.string "so Ill share some knowlege with you\p"
+	.string "Any POKéMON that appears even once\n"
+	.string "in a battle is awarded EXP Points.\p"
 	.string "To raise a weak POKéMON, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"
@@ -481,9 +478,9 @@ PetalburgWoods_Text_22EC10: @ 822EC10
 
 PetalburgWoods_Text_22ED07: @ 822ED07
 	.string "TRAINER TIPS\p"
-	.string "Dont make your pokemon gay\n"
-	.string "they will miss all their attacks\l"
-	.string "miss me with that gay shit\p"
-	.string "also if a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER or something.$"
+	.string "In addition to Hit Points (HP), POKéMON\n"
+	.string "have Power Points (PP) that are used to\l"
+	.string "make moves during battle.\p"
+	.string "If a POKéMON runs out of PP, it must be\n"
+	.string "taken to a POKéMON CENTER.$"
 
