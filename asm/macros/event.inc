@@ -883,6 +883,11 @@
 	.2byte \index
 	.endm
 
+	.macro checkpartytype index
+	.byte 0x7c
+	.2byte \index
+	.endm
+
 	@ Writes the name of the Pokemon at index species to the specified buffer.
 	.macro bufferspeciesname out, species
 	.byte 0x7d

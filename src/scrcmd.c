@@ -1725,6 +1725,28 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_checkpartytype(struct ScriptContext *ctx)
+{
+    u8 i;
+    u16 typeId = ScriptReadHalfword(ctx);
+
+    gSpecialVar_Result = 6;
+    for (i = 0; i < 6; i++)
+    {
+        u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
+        if (!species)
+            break;
+        // UB: GetMonData() arguments don't match function definition
+        if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && GetMonData(type1 == typeId) == TRUE)
+        {
+            gSpecialVar_Result = i;
+            gSpecialVar_0x8004 = species;
+            break;
+        }
+    }
+    return FALSE;
+}
+
 bool8 ScrCmd_givemoney(struct ScriptContext *ctx)
 {
     u32 amount = ScriptReadWord(ctx);

@@ -125,6 +125,7 @@ gScriptCmdTable:: @ 81DB67C
 	.4byte ScrCmd_giveegg
 	.4byte ScrCmd_setmonmove
 	.4byte ScrCmd_checkpartymove
+	.4byte ScrCmd_checkpartytype
 	.4byte ScrCmd_bufferspeciesname
 	.4byte ScrCmd_bufferleadmonspeciesname
 	.4byte ScrCmd_bufferpartymonnick

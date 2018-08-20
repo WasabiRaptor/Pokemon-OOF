@@ -1902,7 +1902,7 @@ Route109_EventScript_271E95:: @ 8271E95
 	return
 
 EventScript_271EA0:: @ 8271EA0
-	checkpartymove MOVE_SURF
+	checkpartytype TYPE_WATER
 	compare VAR_RESULT, 6
 	goto_eq EventScript_271ED6
 	bufferpartymonnick 0, VAR_RESULT
