@@ -85,7 +85,7 @@ gEasyChatWordsByLetter_A:: @ 859D0C8
 	.2byte EC_POKEMON2(ARCANINE)
 	.2byte EC_WORD_ARE
 	.2byte EC_WORD_AREN_T
-	.2byte EC_WORD_ARENA_TRAP
+	.2byte EC_WORD_GAY_TRAP
 	.2byte EC_POKEMON2(ARIADOS)
 	.2byte EC_MOVE2(ARM_THRUST)
 	.2byte EC_POKEMON(ARMALDO)
@@ -101,7 +101,7 @@ gEasyChatWordsByLetter_A:: @ 859D0C8
 	.2byte EC_MOVE(ASTONISH)
 	.2byte EC_WORD_AT
 	.2byte EC_WORD_ATTACK
-	.2byte EC_MOVE2(ATTRACT)
+	.2byte EC_MOVE2(GAY)
 	.2byte EC_WORD_AUNT
 	.2byte EC_MOVE(AURORA_BEAM)
 	.2byte EC_WORD_AVANT_GARDE
@@ -316,7 +316,7 @@ gEasyChatWordsByLetter_C:: @ 859D248
 	.2byte EC_MOVE2(CURSE)
 	.2byte EC_MOVE(CUT)
 	.2byte EC_WORD_CUTE
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_WORD_GAY_PRIDE
 	.2byte EC_WORD_CUTENESS
 	.2byte EC_POKEMON2(CYNDAQUIL)
 
@@ -2291,8 +2291,8 @@ gEasyChatWordsByLetter_UnusedJapaneseMe:: @ 859E292
 	.2byte EC_POKEMON(TENTACOOL)
 	.2byte EC_WORD_FIERY
 	.2byte EC_POKEMON2(MAREEP)
-	.2byte EC_MOVE2(ATTRACT)
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_MOVE2(GAY)
+	.2byte EC_WORD_GAY_PRIDE
 	.2byte EC_WORD_IMMUNITY
 
 gEasyChatWordsByLetter_UnusedJapaneseMo:: @ 859E2C6

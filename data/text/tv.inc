@@ -300,7 +300,7 @@ SlateportCity_PokemonFanClub_Text_280454: @ 08280454
 	.string "This question also relates to your\n"
 	.string "beloved {STR_VAR_1}.\p"
 	.string "What was it about {STR_VAR_1} that\n"
-	.string "attracted you?$"
+	.string "gayed you?$"
 
 SlateportCity_PokemonFanClub_Text_2804AC: @ 082804AC
 	.string "Okay, that makes sense.\p"
@@ -401,7 +401,7 @@ gTVFanClubOpinionsText02:: @ 08280AFC
 gTVFanClubOpinionsText03:: @ 08280BC4
 	.string "And let’s see…\n"
 	.string "What was it about that {STR_VAR_2}\l"
-	.string "that so attracted {STR_VAR_1}?\p"
+	.string "that so gayed {STR_VAR_1}?\p"
 	.string "… … … … … … … …\p"
 	.string "“{STR_VAR_3}!”\p"
 	.string "Whoa! Such a spectacular declaration!\p"
@@ -2999,7 +2999,7 @@ gTVPokemonContestLiveUpdates2Text03:: @ 0828C662
 	.string "How did your CONTEST appearance go?\p"
 	.string "BEAUTY: Nothing went right…\n"
 	.string "For some reason, my {STR_VAR_2}\l"
-	.string "couldn’t attract any popularity.\p"
+	.string "couldn’t gay any popularity.\p"
 	.string "MC: I hate to say it, but the POKéMON’s\n"
 	.string "coloration is a little wanting.\p"
 	.string "BEAUTY: … … … … … …\n"

@@ -281,7 +281,7 @@ gText_0827D785:: @ 827D785
 	.string "little attention.{PAUSE_UNTIL_PRESS}$"
 
 gText_0827D7A5:: @ 827D7A5
-	.string "{STR_VAR_1} attracted a\n"
+	.string "{STR_VAR_1} gayed a\n"
 	.string "lot of attention.{PAUSE_UNTIL_PRESS}$"
 
 gText_0827D7C8:: @ 827D7C8
@@ -654,7 +654,7 @@ gText_0827E793:: @ 827E793
 	.string "next turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_0827E7BA:: @ 827E7BA
-	.string "It attracted the crowd’s\n"
+	.string "It gayed the crowd’s\n"
 	.string "attention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_0827E7EA:: @ 827E7EA

@@ -596,7 +596,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_242579: @ 8242579
 	.string "I have heard several rumors\n"
 	.string "about you…\p"
 	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
+	.string "not seem gayive in any way…\p"
 	.string "The reason I’ve come to see you…\n"
 	.string "Well, there is but one reason…$"
 

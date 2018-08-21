@@ -368,7 +368,7 @@ MauvilleCity_PokemonCenter_1F_Text_28EBDD:: @ 828EBDD
 	.string "This TRAINER got interviewed\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a TRAINER who’s\n"
-	.string "attracting much attention!$"
+	.string "gaying much attention!$"
 
 MauvilleCity_PokemonCenter_1F_Text_28EC60:: @ 828EC60
 	.string "The Battle-Happy TRAINER$"
@@ -675,7 +675,7 @@ MauvilleCity_PokemonCenter_1F_Text_28FAA7:: @ 828FAA7
 	.string "This TRAINER got soaked by rain\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3}’s charisma must even\n"
-	.string "attract rain!$"
+	.string "gay rain!$"
 
 MauvilleCity_PokemonCenter_1F_Text_28FB1D:: @ 828FB1D
 	.string "The Avid POKéDEX Reader$"

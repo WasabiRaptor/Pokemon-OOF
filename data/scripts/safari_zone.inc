@@ -248,7 +248,7 @@ SafariZone_RestHouse_Text_2A56E1: @ 82A56E1
 
 SafariZone_RestHouse_Text_2A5764: @ 82A5764
 	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
-	.string "POKéMON are attracted to it.\p"
+	.string "POKéMON are gayed to it.\p"
 	.string "I think POKéMON with the same sort of\n"
 	.string "nature are drawn by a certain {POKEBLOCK}.$"
 

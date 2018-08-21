@@ -589,41 +589,41 @@ const struct WildPokemon gRusturfTunnel_LandMons[] =
 
 const struct WildPokemonInfo gRusturfTunnel_LandMonsInfo = {10, gRusturfTunnel_LandMons};
 
-const struct WildPokemon gGraniteCave_1F_LandMons[] =
+const struct WildPokemon gGayCave_1F_LandMons[] =
 {
-	{7, 7, SPECIES_ZUBAT},
-	{8, 8, SPECIES_MAKUHITA},
-	{7, 7, SPECIES_MAKUHITA},
-	{8, 8, SPECIES_ZUBAT},
-	{9, 9, SPECIES_MAKUHITA},
-	{8, 8, SPECIES_ABRA},
-	{10, 10, SPECIES_MAKUHITA},
-	{6, 6, SPECIES_MAKUHITA},
-	{7, 7, SPECIES_GEODUDE},
-	{8, 8, SPECIES_GEODUDE},
-	{6, 6, SPECIES_GEODUDE},
-	{9, 9, SPECIES_GEODUDE},
+	{7, 7, SPECIES_GAY},
+	{8, 8, SPECIES_TRAPINCH},
+	{7, 7, SPECIES_TRAPINCH},
+	{8, 8, SPECIES_GAY},
+	{9, 9, SPECIES_TRAPINCH},
+	{8, 8, SPECIES_SKITTY},
+	{10, 10, SPECIES_TRAPINCH},
+	{6, 6, SPECIES_TRAPINCH},
+	{7, 7, SPECIES_TOGEPI},
+	{8, 8, SPECIES_TOGEPI},
+	{6, 6, SPECIES_TOGEPI},
+	{9, 9, SPECIES_TOGEPI},
 };
 
-const struct WildPokemonInfo gGraniteCave_1F_LandMonsInfo = {10, gGraniteCave_1F_LandMons};
+const struct WildPokemonInfo gGayCave_1F_LandMonsInfo = {10, gGayCave_1F_LandMons};
 
-const struct WildPokemon gGraniteCave_B1F_LandMons[] =
+const struct WildPokemon gGayCave_B1F_LandMons[] =
 {
-	{9, 9, SPECIES_ZUBAT},
-	{10, 10, SPECIES_ARON},
-	{9, 9, SPECIES_ARON},
-	{11, 11, SPECIES_ARON},
-	{10, 10, SPECIES_ZUBAT},
-	{9, 9, SPECIES_ABRA},
-	{10, 10, SPECIES_MAKUHITA},
-	{11, 11, SPECIES_MAKUHITA},
-	{10, 10, SPECIES_SABLEYE},
-	{10, 10, SPECIES_SABLEYE},
-	{9, 9, SPECIES_SABLEYE},
-	{11, 11, SPECIES_SABLEYE},
+	{9, 9, SPECIES_GAY},
+	{10, 10, SPECIES_CLEFAIRY},
+	{9, 9, SPECIES_CLEFAIRY},
+	{11, 11, SPECIES_CLEFAIRY},
+	{10, 10, SPECIES_GAY},
+	{9, 9, SPECIES_SKITTY},
+	{10, 10, SPECIES_TRAPINCH},
+	{11, 11, SPECIES_TRAPINCH},
+	{10, 10, SPECIES_JIGGLYPUFF},
+	{10, 10, SPECIES_JIGGLYPUFF},
+	{9, 9, SPECIES_JIGGLYPUFF},
+	{11, 11, SPECIES_JIGGLYPUFF},
 };
 
-const struct WildPokemonInfo gGraniteCave_B1F_LandMonsInfo = {10, gGraniteCave_B1F_LandMons};
+const struct WildPokemonInfo gGayCave_B1F_LandMonsInfo = {10, gGayCave_B1F_LandMons};
 
 const struct WildPokemon gMtPyre_1F_LandMons[] =
 {
@@ -717,7 +717,7 @@ const struct WildPokemon gAbandonedShip_Rooms_B1F_FishingMons[] =
 
 const struct WildPokemonInfo gAbandonedShip_Rooms_B1F_FishingMonsInfo = {20, gAbandonedShip_Rooms_B1F_FishingMons};
 
-const struct WildPokemon gGraniteCave_B2F_LandMons[] =
+const struct WildPokemon gGayCave_B2F_LandMons[] =
 {
 	{10, 10, SPECIES_ZUBAT},
 	{11, 11, SPECIES_ARON},
@@ -733,9 +733,9 @@ const struct WildPokemon gGraniteCave_B2F_LandMons[] =
 	{10, 10, SPECIES_SABLEYE},
 };
 
-const struct WildPokemonInfo gGraniteCave_B2F_LandMonsInfo = {10, gGraniteCave_B2F_LandMons};
+const struct WildPokemonInfo gGayCave_B2F_LandMonsInfo = {10, gGayCave_B2F_LandMons};
 
-const struct WildPokemon gGraniteCave_B2F_RockSmashMons[] =
+const struct WildPokemon gGayCave_B2F_RockSmashMons[] =
 {
 	{10, 15, SPECIES_GEODUDE},
 	{10, 20, SPECIES_NOSEPASS},
@@ -744,7 +744,7 @@ const struct WildPokemon gGraniteCave_B2F_RockSmashMons[] =
 	{15, 20, SPECIES_GEODUDE},
 };
 
-const struct WildPokemonInfo gGraniteCave_B2F_RockSmashMonsInfo = {20, gGraniteCave_B2F_RockSmashMons};
+const struct WildPokemonInfo gGayCave_B2F_RockSmashMonsInfo = {20, gGayCave_B2F_RockSmashMons};
 
 const struct WildPokemon gFieryPath_LandMons[] =
 {
@@ -1331,7 +1331,7 @@ const struct WildPokemon gMtPyre_Summit_LandMons[] =
 
 const struct WildPokemonInfo gMtPyre_Summit_LandMonsInfo = {10, gMtPyre_Summit_LandMons};
 
-const struct WildPokemon gGraniteCave_StevensRoom_LandMons[] =
+const struct WildPokemon gGayCave_StevensRoom_LandMons[] =
 {
 	{7, 7, SPECIES_ZUBAT},
 	{8, 8, SPECIES_MAKUHITA},
@@ -1347,7 +1347,7 @@ const struct WildPokemon gGraniteCave_StevensRoom_LandMons[] =
 	{8, 8, SPECIES_ARON},
 };
 
-const struct WildPokemonInfo gGraniteCave_StevensRoom_LandMonsInfo = {10, gGraniteCave_StevensRoom_LandMons};
+const struct WildPokemonInfo gGayCave_StevensRoom_LandMonsInfo = {10, gGayCave_StevensRoom_LandMons};
 
 const struct WildPokemon gRoute125_WaterMons[] =
 {
@@ -3405,17 +3405,17 @@ const struct WildPokemonHeader gWildMonHeaders[] =
 		.fishingMonsInfo = NULL,
 	},
 	{
-		.mapGroup = MAP_GROUP(GRANITE_CAVE_1F),
-		.mapNum = MAP_NUM(GRANITE_CAVE_1F),
-		.landMonsInfo = &gGraniteCave_1F_LandMonsInfo,
+		.mapGroup = MAP_GROUP(GAY_CAVE_1F),
+		.mapNum = MAP_NUM(GAY_CAVE_1F),
+		.landMonsInfo = &gGayCave_1F_LandMonsInfo,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
 		.fishingMonsInfo = NULL,
 	},
 	{
-		.mapGroup = MAP_GROUP(GRANITE_CAVE_B1F),
-		.mapNum = MAP_NUM(GRANITE_CAVE_B1F),
-		.landMonsInfo = &gGraniteCave_B1F_LandMonsInfo,
+		.mapGroup = MAP_GROUP(GAY_CAVE_B1F),
+		.mapNum = MAP_NUM(GAY_CAVE_B1F),
+		.landMonsInfo = &gGayCave_B1F_LandMonsInfo,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
 		.fishingMonsInfo = NULL,
@@ -3461,11 +3461,11 @@ const struct WildPokemonHeader gWildMonHeaders[] =
 		.fishingMonsInfo = &gAbandonedShip_Rooms_B1F_FishingMonsInfo,
 	},
 	{
-		.mapGroup = MAP_GROUP(GRANITE_CAVE_B2F),
-		.mapNum = MAP_NUM(GRANITE_CAVE_B2F),
-		.landMonsInfo = &gGraniteCave_B2F_LandMonsInfo,
+		.mapGroup = MAP_GROUP(GAY_CAVE_B2F),
+		.mapNum = MAP_NUM(GAY_CAVE_B2F),
+		.landMonsInfo = &gGayCave_B2F_LandMonsInfo,
 		.waterMonsInfo = NULL,
-		.rockSmashMonsInfo = &gGraniteCave_B2F_RockSmashMonsInfo,
+		.rockSmashMonsInfo = &gGayCave_B2F_RockSmashMonsInfo,
 		.fishingMonsInfo = NULL,
 	},
 	{
@@ -3637,9 +3637,9 @@ const struct WildPokemonHeader gWildMonHeaders[] =
 		.fishingMonsInfo = NULL,
 	},
 	{
-		.mapGroup = MAP_GROUP(GRANITE_CAVE_STEVENS_ROOM),
-		.mapNum = MAP_NUM(GRANITE_CAVE_STEVENS_ROOM),
-		.landMonsInfo = &gGraniteCave_StevensRoom_LandMonsInfo,
+		.mapGroup = MAP_GROUP(GAY_CAVE_STEVENS_ROOM),
+		.mapNum = MAP_NUM(GAY_CAVE_STEVENS_ROOM),
+		.landMonsInfo = &gGayCave_StevensRoom_LandMonsInfo,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
 		.fishingMonsInfo = NULL,
@@ -4900,23 +4900,23 @@ static u8 PickWildMonNature(void)
 
 static void CreateWildMon(u16 species, u8 level)
 {
-    bool32 checkCuteCharm;
+    bool32 checkGayPride;
 
     ZeroEnemyPartyMons();
-    checkCuteCharm = TRUE;
+    checkGayPride = TRUE;
 
     switch (gBaseStats[species].genderRatio)
     {
     case MON_MALE:
     case MON_FEMALE:
     case MON_GENDERLESS:
-        checkCuteCharm = FALSE;
+        checkGayPride = FALSE;
         break;
     }
 
-    if (checkCuteCharm
+    if (checkGayPride
         && !GetMonData(&gPlayerParty[0], MON_DATA_SANITY_BIT3)
-        && GetMonAbility(&gPlayerParty[0]) == ABILITY_CUTE_CHARM
+        && GetMonAbility(&gPlayerParty[0]) == ABILITY_GAY_PRIDE
         && Random() % 3 != 0)
     {
         u16 leadingMonSpecies = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES);
@@ -5045,7 +5045,7 @@ static bool8 DoWildEncounterRateTest(u32 encounterRate, bool8 ignoreAbility)
             encounterRate *= 2;
         else if (ability == ABILITY_WHITE_SMOKE)
             encounterRate /= 2;
-        else if (ability == ABILITY_ARENA_TRAP)
+        else if (ability == ABILITY_GAY_TRAP)
             encounterRate *= 2;
         else if (ability == ABILITY_SAND_VEIL && gSaveBlock1Ptr->weather == 8)
             encounterRate /= 2;

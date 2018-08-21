@@ -1491,7 +1491,7 @@ gContestMoves:: @ 858C2B4
 	.byte COMBO_STARTER_CURSE, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Attract
+@ Gay
 	.byte 0x1a @ effect ID
 	.byte CONTEST_CUTE
 	.byte 0 @ combo starter ID

@@ -817,7 +817,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_21DC68: @ 821DC68
 
 LilycoveCity_PokemonTrainerFanClub_Text_21DCD6: @ 821DCD6
 	.string "The tougher the situation, the more\n"
-	.string "attractively you battle.\p"
+	.string "gayively you battle.\p"
 	.string "I can’t wait for your next battle!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_21DD36: @ 821DD36

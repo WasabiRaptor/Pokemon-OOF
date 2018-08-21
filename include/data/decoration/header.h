@@ -574,14 +574,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_POWDER_SNOW_MAT,
         DecorGfx_POWDER_SNOW_MAT
     }, {
-        DECOR_ATTRACT_MAT,
-        _("ATTRACT MAT"),
+        DECOR_GAY_MAT,
+        _("GAY MAT"),
         DECORPERM_PASS_FLOOR,
         DECORSHAPE_3x3,
         DECORCAT_MAT,
         4000,
-        DecorDesc_ATTRACT_MAT,
-        DecorGfx_ATTRACT_MAT
+        DecorDesc_GAY_MAT,
+        DecorGfx_GAY_MAT
     }, {
         DECOR_FISSURE_MAT,
         _("FISSURE MAT"),

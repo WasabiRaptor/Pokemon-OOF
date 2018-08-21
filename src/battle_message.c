@@ -130,7 +130,7 @@ static const u8 sText_PkmnIsConfused[] = _("{B_ATK_NAME_WITH_PREFIX} is\nfucking
 static const u8 sText_PkmnHealedConfusion[] = _("{B_ATK_NAME_WITH_PREFIX} snapped\nout of confusion!");
 static const u8 sText_PkmnWasConfused[] = _("{B_EFF_NAME_WITH_PREFIX} became\nfuccing confused!");
 static const u8 sText_PkmnAlreadyConfused[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready ficken confused!");
-static const u8 sText_PkmnFellInLove[] = _("{B_DEF_NAME_WITH_PREFIX}\nfell in love!");
+static const u8 sText_PkmnFellInLove[] = _("{B_DEF_NAME_WITH_PREFIX}\ngot infected with\lthe gay!");
 static const u8 sText_PkmnInLove[] = _("{B_ATK_NAME_WITH_PREFIX} wants to have\nsex with {B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnImmobilizedByLove[] = _("{B_ATK_NAME_WITH_PREFIX} is\nimmobilized by love!");
 static const u8 sText_PkmnBlownAway[] = _("{B_DEF_NAME_WITH_PREFIX} was\nfucking blown away!");
@@ -299,7 +299,7 @@ static const u8 sText_PkmnsXRestoredHPALittle2[] = _("{B_ATK_NAME_WITH_PREFIX}�
 static const u8 sText_PkmnsXWhippedUpSandstorm[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nwhipped up a sandstorm!");
 static const u8 sText_PkmnsXIntensifiedSun[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nintensified the sun’s rays!");
 static const u8 sText_PkmnsXPreventsYLoss[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nprevents {B_BUFF1} loss!");
-static const u8 sText_PkmnsXInfatuatedY[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\ninfatuated {B_ATK_NAME_WITH_PREFIX}!");
+static const u8 sText_PkmnsXInfatuatedY[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\nturned {B_ATK_NAME_WITH_PREFIX} gay!");
 static const u8 sText_PkmnsXMadeYIneffective[] = _("{B_DEF_NAME_WITH_PREFIX}’s {B_DEF_ABILITY}\nmade {B_CURRENT_MOVE} ineffective!");
 static const u8 sText_PkmnsXCuredYProblem[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\ncured its {B_BUFF1} problem!");
 static const u8 sText_ItSuccedLiquidOoze[] = _("It succed up the\nLIQUID OOZE!");
@@ -1059,7 +1059,7 @@ const u16 gKOFailedStringIds[] =
     STRINGID_ATTACKMISSED, STRINGID_PKMNUNAFFECTED
 };
 
-const u16 gAttractUsedStringIds[] =
+const u16 gGayUsedStringIds[] =
 {
     STRINGID_PKMNFELLINLOVE, STRINGID_PKMNSXINFATUATEDY
 };
@@ -1360,7 +1360,7 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_SCREECH, MOVE_METRONOME, MOVE_LICK, MOVE_CLAMP,
     MOVE_CONSTRICT, MOVE_POISON_GAS, MOVE_BUBBLE,
     MOVE_SLASH, MOVE_SPIDER_WEB, MOVE_NIGHTMARE, MOVE_CURSE,
-    MOVE_FORESIGHT, MOVE_CHARM, MOVE_ATTRACT, MOVE_ROCK_SMASH,
+    MOVE_FORESIGHT, MOVE_CHARM, MOVE_GAY, MOVE_ROCK_SMASH,
     MOVE_UPROAR, MOVE_SPIT_UP, MOVE_SWALLOW, MOVE_TORMENT,
     MOVE_FLATTER, MOVE_ROLE_PLAY, MOVE_ENDEAVOR, MOVE_TICKLE,
     MOVE_COVET, 0

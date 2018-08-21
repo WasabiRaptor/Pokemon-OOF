@@ -168,7 +168,7 @@ AI_CheckBadMove_CheckEffect: @ 82DC045
 	if_effect EFFECT_PERISH_SONG, AI_CBM_PerishSong
 	if_effect EFFECT_SANDSTORM, AI_CBM_Sandstorm
 	if_effect EFFECT_SWAGGER, AI_CBM_Confuse
-	if_effect EFFECT_ATTRACT, AI_CBM_Attract
+	if_effect EFFECT_GAY, AI_CBM_Gay
 	if_effect EFFECT_RETURN, AI_CBM_HighRiskForDamage
 	if_effect EFFECT_PRESENT, AI_CBM_HighRiskForDamage
 	if_effect EFFECT_FRUSTRATION, AI_CBM_HighRiskForDamage
@@ -457,26 +457,26 @@ AI_CBM_Sandstorm: @ 82DC5ED
 	if_equal AI_WEATHER_SANDSTORM, Score_Minus8
 	end
 
-AI_CBM_Attract: @ 82DC5F5
+AI_CBM_Gay: @ 82DC5F5
 	if_status2 AI_TARGET, STATUS2_INFATUATION, Score_Minus10
 	get_ability AI_TARGET
 	if_equal ABILITY_OBLIVIOUS, Score_Minus10
 	get_gender AI_USER
-	if_equal 0, AI_CBM_Attract_CheckIfTargetIsFemale
-	if_equal 254, AI_CBM_Attract_CheckIfTargetIsMale
+	if_equal 0, AI_CBM_Gay_CheckIfTargetIsFemale
+	if_equal 254, AI_CBM_Gay_CheckIfTargetIsMale
 	goto Score_Minus10
 
-AI_CBM_Attract_CheckIfTargetIsFemale: @ 82DC61A
+AI_CBM_Gay_CheckIfTargetIsFemale: @ 82DC61A
 	get_gender AI_TARGET
-	if_equal 254, AI_CBM_Attract_End
+	if_equal 254, AI_CBM_Gay_End
 	goto Score_Minus10
 
-AI_CBM_Attract_CheckIfTargetIsMale: @ 82DC627
+AI_CBM_Gay_CheckIfTargetIsMale: @ 82DC627
 	get_gender AI_TARGET
-	if_equal 0, AI_CBM_Attract_End
+	if_equal 0, AI_CBM_Gay_End
 	goto Score_Minus10
 
-AI_CBM_Attract_End: @ 82DC634
+AI_CBM_Gay_End: @ 82DC634
 	end
 
 AI_CBM_Safeguard: @ 82DC635
@@ -896,7 +896,7 @@ AI_CV_MirrorMove_EncouragedMovesToMirror: @ 82DCB6C
     .2byte MOVE_EXTREME_SPEED
     .2byte MOVE_THIEF
     .2byte MOVE_COVET
-    .2byte MOVE_ATTRACT
+    .2byte MOVE_GAY
     .2byte MOVE_SWAGGER
     .2byte MOVE_TORMENT
     .2byte MOVE_FLATTER
@@ -1839,7 +1839,7 @@ AI_CV_Encore_EncouragedMovesToEncore:
     .byte EFFECT_SANDSTORM
     .byte EFFECT_ENDURE
     .byte EFFECT_SWAGGER
-    .byte EFFECT_ATTRACT
+    .byte EFFECT_GAY
     .byte EFFECT_SAFEGUARD
     .byte EFFECT_RAIN_DANCE
     .byte EFFECT_SUNNY_DAY
@@ -2504,7 +2504,7 @@ AI_CV_ChangeSelfAbility_AbilitiesToEncourage:
     .byte ABILITY_SWIFT_SWIM
     .byte ABILITY_HUGE_POWER
     .byte ABILITY_RAIN_DISH
-    .byte ABILITY_CUTE_CHARM
+    .byte ABILITY_GAY_PRIDE
     .byte ABILITY_SHED_SKIN
     .byte ABILITY_MARVEL_SCALE
     .byte ABILITY_PURE_POWER
@@ -2882,7 +2882,7 @@ AI_Risky_EffectsToEncourage:
     .byte EFFECT_COUNTER
     .byte EFFECT_DESTINY_BOND
     .byte EFFECT_SWAGGER
-    .byte EFFECT_ATTRACT
+    .byte EFFECT_GAY
     .byte EFFECT_PRESENT
     .byte EFFECT_ALL_STATS_UP_HIT
     .byte EFFECT_BELLY_DRUM
@@ -3335,7 +3335,7 @@ AI_HPAware_DiscouragedEffectsWhenTargetLowHP: @ 82DE2B1
     .byte EFFECT_PERISH_SONG
     .byte EFFECT_SWAGGER
     .byte EFFECT_FURY_CUTTER
-    .byte EFFECT_ATTRACT
+    .byte EFFECT_GAY
     .byte EFFECT_SAFEGUARD
     .byte EFFECT_PSYCH_UP
     .byte EFFECT_MIRROR_COAT
@@ -3366,7 +3366,7 @@ AI_Roaming:
 	get_ability AI_USER
 	if_equal ABILITY_LEVITATE, AI_Roaming_Flee
 	get_ability AI_TARGET
-	if_equal ABILITY_ARENA_TRAP, AI_Roaming_End
+	if_equal ABILITY_GAY_TRAP, AI_Roaming_End
 
 AI_Roaming_Flee: @ 82DE335
 	flee

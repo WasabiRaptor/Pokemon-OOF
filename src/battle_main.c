@@ -4057,7 +4057,7 @@ u8 IsRunningFromBattleImpossible(void)
         if (side != GetBattlerSide(i)
          && gBattleMons[gActiveBattler].ability != ABILITY_LEVITATE
          && !IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_BIRD)
-         && gBattleMons[i].ability == ABILITY_ARENA_TRAP)
+         && gBattleMons[i].ability == ABILITY_GAY_TRAP)
         {
             gBattleScripting.battler = i;
             gLastUsedAbility = gBattleMons[i].ability;
@@ -4252,7 +4252,7 @@ static void HandleTurnActionSelectionState(void)
                         BtlController_EmitChoosePokemon(0, PARTY_CANT_SWITCH, 6, ABILITY_NONE, gBattleStruct->field_60[gActiveBattler]);
                     }
                     else if ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_SHADOW_TAG))
-                             || ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_ARENA_TRAP))
+                             || ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_GAY_TRAP))
                                  && !IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_BIRD)
                                  && gBattleMons[gActiveBattler].ability != ABILITY_LEVITATE)
                              || ((i = AbilityBattleEffects(ABILITYEFFECT_CHECK_FIELD_EXCEPT_BATTLER, gActiveBattler, ABILITY_MAGNET_PULL, 0, 0))

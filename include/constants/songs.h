@@ -227,8 +227,8 @@
 #define SE_W227B 223            // Encore 2
 #define SE_W226 224             // Baton Pass
 #define SE_W208 225             // Milk Drink
-#define SE_W213 226             // Attract
-#define SE_W213B 227            // Attract 2
+#define SE_W213 226             // Gay
+#define SE_W213B 227            // Gay 2
 #define SE_W234 228             // Morning Sun
 #define SE_W260 229             // Flatter
 #define SE_W328 230             // Sand Tomb

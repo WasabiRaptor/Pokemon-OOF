@@ -6,7 +6,7 @@ gEasyChatGroup_Move2:: @ 859C9F8
 	.2byte MOVE_AMNESIA
 	.2byte MOVE_ARM_THRUST
 	.2byte MOVE_ASSIST
-	.2byte MOVE_ATTRACT
+	.2byte MOVE_GAY
 	.2byte MOVE_BARRAGE
 	.2byte MOVE_BARRIER
 	.2byte MOVE_BATON_PASS

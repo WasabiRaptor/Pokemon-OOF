@@ -69,7 +69,7 @@ Route103_Text_29077D: @ 829077D
 	.string "This tree looks like it can be\n"
 	.string "CUT down!$"
 
-GraniteCave_B2F_EventScript_2907A6:: @ 82907A6
+GayCave_B2F_EventScript_2907A6:: @ 82907A6
 MirageTower_3F_EventScript_2907A6:: @ 82907A6
 MirageTower_4F_EventScript_2907A6:: @ 82907A6
 Route110_TrickHousePuzzle3_EventScript_2907A6:: @ 82907A6

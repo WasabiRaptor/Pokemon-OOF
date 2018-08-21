@@ -1,63 +1,63 @@
-GraniteCave_StevensRoom_MapScripts:: @ 822DC7A
+GayCave_StevensRoom_MapScripts:: @ 822DC7A
 	.byte 0
 
-GraniteCave_StevensRoom_EventScript_22DC7B:: @ 822DC7B
+GayCave_StevensRoom_EventScript_22DC7B:: @ 822DC7B
 	lock
 	faceplayer
-	msgbox GraniteCave_StevensRoom_Text_22DD5A, 4
+	msgbox GayCave_StevensRoom_Text_22DD5A, 4
 	setvar VAR_0x8004, 274
-	call GraniteCave_StevensRoom_EventScript_2723E4
+	call GayCave_StevensRoom_EventScript_2723E4
 	setflag FLAG_0x0BD
-	msgbox GraniteCave_StevensRoom_Text_22DDBD, 4
+	msgbox GayCave_StevensRoom_Text_22DDBD, 4
 	giveitem_std ITEM_TM47
 	compare VAR_RESULT, 0
-	call_if 1, GraniteCave_StevensRoom_EventScript_22DD3C
-	msgbox GraniteCave_StevensRoom_Text_22DE6B, 4
+	call_if 1, GayCave_StevensRoom_EventScript_22DD3C
+	msgbox GayCave_StevensRoom_Text_22DE6B, 4
 	closemessage
 	delay 30
 	playfanfare MUS_ME_TORE_EYE
-	msgbox GraniteCave_StevensRoom_Text_22DF6A, 4
+	msgbox GayCave_StevensRoom_Text_22DF6A, 4
 	waitfanfare
 	closemessage
 	delay 30
 	setflag FLAG_0x131
-	msgbox GraniteCave_StevensRoom_Text_22DF8C, 4
+	msgbox GayCave_StevensRoom_Text_22DF8C, 4
 	closemessage
 	compare VAR_FACING, 2
-	call_if 1, GraniteCave_StevensRoom_EventScript_22DD0D
+	call_if 1, GayCave_StevensRoom_EventScript_22DD0D
 	compare VAR_FACING, 1
-	call_if 1, GraniteCave_StevensRoom_EventScript_22DD2A
+	call_if 1, GayCave_StevensRoom_EventScript_22DD2A
 	compare VAR_FACING, 3
-	call_if 1, GraniteCave_StevensRoom_EventScript_22DD18
+	call_if 1, GayCave_StevensRoom_EventScript_22DD18
 	compare VAR_FACING, 4
-	call_if 1, GraniteCave_StevensRoom_EventScript_22DD18
+	call_if 1, GayCave_StevensRoom_EventScript_22DD18
 	playse SE_KAIDAN
 	removeobject 1
 	release
 	end
 
-GraniteCave_StevensRoom_EventScript_22DD0D:: @ 822DD0D
-	applymovement 1, GraniteCave_StevensRoom_Movement_22DD45
+GayCave_StevensRoom_EventScript_22DD0D:: @ 822DD0D
+	applymovement 1, GayCave_StevensRoom_Movement_22DD45
 	waitmovement 0
 	return
 
-GraniteCave_StevensRoom_EventScript_22DD18:: @ 822DD18
-	applymovement 255, GraniteCave_StevensRoom_Movement_22DD4C
-	applymovement 1, GraniteCave_StevensRoom_Movement_22DD45
+GayCave_StevensRoom_EventScript_22DD18:: @ 822DD18
+	applymovement 255, GayCave_StevensRoom_Movement_22DD4C
+	applymovement 1, GayCave_StevensRoom_Movement_22DD45
 	waitmovement 0
 	return
 
-GraniteCave_StevensRoom_EventScript_22DD2A:: @ 822DD2A
-	applymovement 255, GraniteCave_StevensRoom_Movement_22DD4C
-	applymovement 1, GraniteCave_StevensRoom_Movement_22DD51
+GayCave_StevensRoom_EventScript_22DD2A:: @ 822DD2A
+	applymovement 255, GayCave_StevensRoom_Movement_22DD4C
+	applymovement 1, GayCave_StevensRoom_Movement_22DD51
 	waitmovement 0
 	return
 
-GraniteCave_StevensRoom_EventScript_22DD3C:: @ 822DD3C
-	msgbox GraniteCave_StevensRoom_Text_22DFAA, 4
+GayCave_StevensRoom_EventScript_22DD3C:: @ 822DD3C
+	msgbox GayCave_StevensRoom_Text_22DFAA, 4
 	return
 
-GraniteCave_StevensRoom_Movement_22DD45: @ 822DD45
+GayCave_StevensRoom_Movement_22DD45: @ 822DD45
 	walk_up
 	walk_up
 	walk_up
@@ -66,14 +66,14 @@ GraniteCave_StevensRoom_Movement_22DD45: @ 822DD45
 	delay_8
 	step_end
 
-GraniteCave_StevensRoom_Movement_22DD4C: @ 822DD4C
+GayCave_StevensRoom_Movement_22DD4C: @ 822DD4C
 	delay_16
 	delay_16
 	delay_16
 	walk_in_place_fastest_up
 	step_end
 
-GraniteCave_StevensRoom_Movement_22DD51: @ 822DD51
+GayCave_StevensRoom_Movement_22DD51: @ 822DD51
 	walk_left
 	walk_up
 	walk_up
@@ -84,14 +84,14 @@ GraniteCave_StevensRoom_Movement_22DD51: @ 822DD51
 	delay_8
 	step_end
 
-GraniteCave_StevensRoom_Text_22DD5A: @ 822DD5A
+GayCave_StevensRoom_Text_22DD5A: @ 822DD5A
 	.string "My name is STEVEN.\p"
 	.string "I’m interested in rare stones,\n"
 	.string "so I travel here and there.\p"
 	.string "Oh?\n"
 	.string "A LETTER for me?$"
 
-GraniteCave_StevensRoom_Text_22DDBD: @ 822DDBD
+GayCave_StevensRoom_Text_22DDBD: @ 822DDBD
 	.string "STEVEN: Okay, thank you.\p"
 	.string "You went through all this trouble to\n"
 	.string "deliver that. I need to thank you.\p"
@@ -100,7 +100,7 @@ GraniteCave_StevensRoom_Text_22DDBD: @ 822DDBD
 	.string "It contains my favorite move,\n"
 	.string "STEEL WING.$"
 
-GraniteCave_StevensRoom_Text_22DE6B: @ 822DE6B
+GayCave_StevensRoom_Text_22DE6B: @ 822DE6B
 	.string "STEVEN: Your POKéMON appear quite\n"
 	.string "capable.\p"
 	.string "If you keep training, you could even\n"
@@ -111,14 +111,14 @@ GraniteCave_StevensRoom_Text_22DE6B: @ 822DE6B
 	.string "our POKéNAVS.\p"
 	.string "… … … … … …$"
 
-GraniteCave_StevensRoom_Text_22DF6A: @ 822DF6A
+GayCave_StevensRoom_Text_22DF6A: @ 822DF6A
 	.string "Registered STEVEN\n"
 	.string "in the POKéNAV.$"
 
-GraniteCave_StevensRoom_Text_22DF8C: @ 822DF8C
+GayCave_StevensRoom_Text_22DF8C: @ 822DF8C
 	.string "Now, I’ve got to hurry along.$"
 
-GraniteCave_StevensRoom_Text_22DFAA: @ 822DFAA
+GayCave_StevensRoom_Text_22DFAA: @ 822DFAA
 	.string "Oh, your BAG is full…\n"
 	.string "That’s too bad, then.$"
 

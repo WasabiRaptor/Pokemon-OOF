@@ -350,19 +350,19 @@ RusturfTunnel_EventScript_291143:: @ 8291143
 	giveitem_std ITEM_MAX_ETHER, 1, 1
 	end
 
-GraniteCave_1F_EventScript_291150:: @ 8291150
+GayCave_1F_EventScript_291150:: @ 8291150
 	giveitem_std ITEM_ESCAPE_ROPE, 1, 1
 	end
 
-GraniteCave_B1F_EventScript_29115D:: @ 829115D
+GayCave_B1F_EventScript_29115D:: @ 829115D
 	giveitem_std ITEM_POKE_BALL, 1, 1
 	end
 
-GraniteCave_B2F_EventScript_29116A:: @ 829116A
+GayCave_B2F_EventScript_29116A:: @ 829116A
 	giveitem_std ITEM_REPEL, 1, 1
 	end
 
-GraniteCave_B2F_EventScript_291177:: @ 8291177
+GayCave_B2F_EventScript_291177:: @ 8291177
 	giveitem_std ITEM_RARE_CANDY, 1, 1
 	end
 

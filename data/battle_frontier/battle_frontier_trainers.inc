@@ -1075,7 +1075,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte EC_WORD_HAVE
 	.2byte EC_WORD_THEIR
 	.2byte EC_WORD_OWN
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_WORD_GAY_PRIDE
 @ win speech
 	.2byte EC_WORD_YOU
 	.2byte EC_WORD_SEE
@@ -2047,7 +2047,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte EC_WORD_TOYS
 @ loss speech
 	.2byte EC_WORD_I
-	.2byte EC_MOVE2(ATTRACT)
+	.2byte EC_MOVE2(GAY)
 	.2byte EC_WORD_COLOR_CHANGE
 	.2byte EC_WORD_VERSION
 	.2byte EC_WORD_TOYS
@@ -3282,8 +3282,8 @@ gBattleFrontierTrainers:: @ 85D5ACC
 @ pre-battle speech
 	.2byte EC_WORD_WILL
 	.2byte EC_WORD_MY
-	.2byte EC_WORD_CUTE_CHARM
-	.2byte EC_MOVE2(ATTRACT)
+	.2byte EC_WORD_GAY_PRIDE
+	.2byte EC_MOVE2(GAY)
 	.2byte EC_WORD_YOU
 	.2byte EC_WORD_QUES
 @ win speech
@@ -6022,7 +6022,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte EC_WORD_A
 	.2byte EC_WORD_POKEMON
 	.2byte EC_WORD_WITH
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_WORD_GAY_PRIDE
 @ loss speech
 	.2byte EC_WORD_YOU_RE
 	.2byte EC_WORD_SO
@@ -7143,9 +7143,9 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte EC_WORD_CUTENESS
 @ loss speech
 	.2byte EC_WORD_MY
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_WORD_GAY_PRIDE
 	.2byte EC_WORD_DOESN_T
-	.2byte EC_MOVE2(ATTRACT)
+	.2byte EC_MOVE2(GAY)
 	.2byte EC_WORD_YOU
 	.2byte EC_WORD_QUES
 	.4byte gBattleFrontierTrainerMons_Caitlin
@@ -7241,7 +7241,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 @ win speech
 	.2byte EC_WORD_WATER
 	.2byte EC_WORD_POKEMON
-	.2byte EC_MOVE2(ATTRACT)
+	.2byte EC_MOVE2(GAY)
 	.2byte EC_WORD_ME
 	.2byte EC_WORD_WITHOUT
 	.2byte EC_WORD_END

@@ -457,12 +457,12 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         }
         break;
     case STRINGID_PKMNFELLINLOVE:
-        tvPtr->pos[defSide][defFlank].attractMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
-        tvPtr->pos[defSide][defFlank].attractMoveSlot = moveSlot;
+        tvPtr->pos[defSide][defFlank].gayMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
+        tvPtr->pos[defSide][defFlank].gayMoveSlot = moveSlot;
         break;
     case STRINGID_PKMNIMMOBILIZEDBYLOVE:
-        if (tvPtr->pos[atkSide][atkFlank].attractMonId != 0)
-            AddMovePoints(9, 0, tvPtr->pos[atkSide][atkFlank].attractMonId - 1, tvPtr->pos[atkSide][atkFlank].attractMoveSlot);
+        if (tvPtr->pos[atkSide][atkFlank].gayMonId != 0)
+            AddMovePoints(9, 0, tvPtr->pos[atkSide][atkFlank].gayMonId - 1, tvPtr->pos[atkSide][atkFlank].gayMoveSlot);
         break;
     case STRINGID_PKMNWASPARALYZED:
         tvPtr->mon[effSide][gBattlerPartyIndexes[gEffectBattler]].prlzMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;

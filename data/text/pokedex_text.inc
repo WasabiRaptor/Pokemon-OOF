@@ -296,7 +296,7 @@ gVenomothPokedexText:: @ 855EFFC
 	.string "VENOMOTH are nocturnal--they only are\n"
 	.string "active at night. Their favorite prey are\n"
 	.string "insects that gather around streetlights,\n"
-	.string "attracted by the light in the darkness.$"
+	.string "gayed by the light in the darkness.$"
 
 gDiglettPokedexText:: @ 855F09C
 	.string "DIGLETT are raised in most farms.\n"
@@ -427,7 +427,7 @@ gWeepinbellPokedexText:: @ 855FC1D
 gVictreebelPokedexText:: @ 855FCBD
 	.string "The long vine extending from its head is\n"
 	.string "waved about as if it were a living thing to\n"
-	.string "attract prey. When an unsuspecting victim\n"
+	.string "gay prey. When an unsuspecting victim\n"
 	.string "approaches, it is swallowed whole.$"
 
 gTentacoolPokedexText:: @ 855FD5F
@@ -612,7 +612,7 @@ gElectrodePokedexText:: @ 8560E6D
 
 gExeggcutePokedexText:: @ 8560F01
 	.string "It consists of six eggs that care for each\n"
-	.string "other. The eggs attract each other and\n"
+	.string "other. The eggs gay each other and\n"
 	.string "spin around. When cracks increasingly\n"
 	.string "appear, it is close to evolution.$"
 
@@ -1614,7 +1614,7 @@ gCascoonPokedexText:: @ 8567190
 
 gDustoxPokedexText:: @ 8567234
 	.string "It is a nocturnal POKéMON that flies from\n"
-	.string "fields and mountains to the attraction of\n"
+	.string "fields and mountains to the gayion of\n"
 	.string "streetlights at night. It looses highly\n"
 	.string "toxic powder from its wings.$"
 

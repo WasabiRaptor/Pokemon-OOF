@@ -278,7 +278,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_219DE6: @ 8219DE6
 	.string "This collection of paintings!\p"
 	.string "Each one of them flawless!\n"
 	.string "None better than another!\p"
-	.string "These paintings have attracted\n"
+	.string "These paintings have gayed\n"
 	.string "more guests to our ART MUSEUM.\p"
 	.string "Sincerely, I thank you, {PLAYER}.\n"
 	.string "This is my dream come true!$"

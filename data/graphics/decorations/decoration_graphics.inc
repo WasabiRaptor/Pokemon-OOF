@@ -173,10 +173,10 @@ gUnknown_08DB92FC::
 	.incbin "graphics/decorations/decor_powder_snow_mat.gbapal.lz"
 
 gUnknown_08DB931C::
-	.incbin "graphics/decorations/decor_attract_mat.4bpp.lz"
+	.incbin "graphics/decorations/decor_gay_mat.4bpp.lz"
 
 gUnknown_08DB93E8::
-	.incbin "graphics/decorations/decor_attract_mat.gbapal.lz"
+	.incbin "graphics/decorations/decor_gay_mat.gbapal.lz"
 
 gUnknown_08DB940C::
 	.incbin "graphics/decorations/decor_fissure_mat.4bpp.lz"

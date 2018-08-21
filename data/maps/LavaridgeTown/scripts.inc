@@ -406,7 +406,7 @@ LavaridgeTown_Text_1EB092: @ 81EB092
 	.string "They’re claiming that these hot springs\n"
 	.string "are good for calming nervous tension,\l"
 	.string "relieving aching muscles, solving\l"
-	.string "romantic problems, and attracting\l"
+	.string "romantic problems, and gaying\l"
 	.string "money…$"
 
 LavaridgeTown_Text_1EB12B: @ 81EB12B

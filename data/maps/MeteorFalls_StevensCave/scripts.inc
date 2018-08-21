@@ -46,7 +46,7 @@ MeteorFalls_StevensCave_Text_23B32D: @ 823B32D
 
 MeteorFalls_StevensCave_Text_23B358: @ 823B358
 	.string "STEVEN: Come to think of it, ever since\n"
-	.string "our paths first crossed in GRANITE\l"
+	.string "our paths first crossed in GAY\l"
 	.string "CAVE in DEWFORD, I had this feeling.\p"
 	.string "I thought that you would eventually\n"
 	.string "become the CHAMPION.\p"

@@ -1009,6 +1009,10 @@ gMonFrontPic_Celebi:: @ 8B60090
 	.incbin "graphics/pokemon/anim_front_pics/celebi_front_pic.4bpp.lz"
 
 	.align 2
+gMonFrontPic_Gay:: @ 8B60090
+	.incbin "graphics/pokemon/anim_front_pics/gay_front_pic.4bpp.lz"
+
+	.align 2
 gMonFrontPic_DoubleQuestionMark:: @ 8B60544
 	.incbin "graphics/pokemon/anim_front_pics/double_question_mark_front_pic.4bpp.lz"
 

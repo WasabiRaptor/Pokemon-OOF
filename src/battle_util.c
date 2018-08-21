@@ -2184,7 +2184,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                     effect++;
                 }
                 break;
-            case ABILITY_CUTE_CHARM:
+            case ABILITY_GAY_PRIDE:
                 if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
                  && gBattleMons[gBattlerAttacker].hp != 0
                  && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
@@ -2200,7 +2200,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 {
                     gBattleMons[gBattlerAttacker].status2 |= STATUS2_INFATUATED_WITH(gBattlerTarget);
                     BattleScriptPushCursor();
-                    gBattlescriptCurrInstr = BattleScript_CuteCharmActivates;
+                    gBattlescriptCurrInstr = BattleScript_GayPrideActivates;
                     effect++;
                 }
                 break;
@@ -3012,7 +3012,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
-            case HOLD_EFFECT_CURE_ATTRACT:
+            case HOLD_EFFECT_CURE_GAY:
                 if (gBattleMons[battlerId].status2 & STATUS2_INFATUATION)
                 {
                     gBattleMons[battlerId].status2 &= ~(STATUS2_INFATUATION);
@@ -3115,7 +3115,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     effect = ITEM_EFFECT_OTHER;
                 }
                 break;
-            case HOLD_EFFECT_CURE_ATTRACT:
+            case HOLD_EFFECT_CURE_GAY:
                 if (gBattleMons[battlerId].status2 & STATUS2_INFATUATION)
                 {
                     gBattleMons[battlerId].status2 &= ~(STATUS2_INFATUATION);

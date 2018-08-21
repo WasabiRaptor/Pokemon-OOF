@@ -224,7 +224,7 @@ gBattleAnims_Moves:: @ 82C8D6C
 	.4byte Move_FURY_CUTTER
 	.4byte Move_STEEL_WING
 	.4byte Move_MEAN_LOOK
-	.4byte Move_ATTRACT
+	.4byte Move_GAY
 	.4byte Move_SLEEP_TALK
 	.4byte Move_HEAL_BELL
 	.4byte Move_RETURN
@@ -2022,7 +2022,7 @@ Move_SPARK:
 	waitforvisualfinish
 	end
 
-Move_ATTRACT:
+Move_GAY:
 	loadspritegfx 0x27E8
 	loopsewithpan SE_W204, -64, 0xC, 0x3
 	createvisualtask sub_80D5EB8, 0x5, 0, 12, 4096, 4, 0

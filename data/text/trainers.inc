@@ -2603,7 +2603,7 @@ Route118_Text_29D3AA: @ 829D3AA
 
 Route118_Text_29D3D9: @ 829D3D9
 	.string "If you use a sweet aroma properly,\n"
-	.string "POKéMON will be attracted by it.$"
+	.string "POKéMON will be gayed by it.$"
 
 Route118_Text_29D41D: @ 829D41D
 	.string "BIRD POKéMON that FLY elegantly in\n"

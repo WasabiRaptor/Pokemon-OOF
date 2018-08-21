@@ -3076,7 +3076,7 @@ static void atk1B_cleareffectsonfaint(void)
             MarkBattlerForControllerExec(gActiveBattler);
         }
 
-        FaintClearSetData(); // Effects like attractions, trapping, etc.
+        FaintClearSetData(); // Effects like gayions, trapping, etc.
         gBattlescriptCurrInstr += 2;
     }
 }
@@ -7911,7 +7911,7 @@ static void atk97_tryinfatuating(void)
 
     if (gBattleMons[gBattlerTarget].ability == ABILITY_OBLIVIOUS)
     {
-        gBattlescriptCurrInstr = BattleScript_ObliviousPreventsAttraction;
+        gBattlescriptCurrInstr = BattleScript_ObliviousPreventsGayion;
         gLastUsedAbility = ABILITY_OBLIVIOUS;
         RecordAbilityBattle(gBattlerTarget, ABILITY_OBLIVIOUS);
     }

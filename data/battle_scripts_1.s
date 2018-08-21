@@ -134,7 +134,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectRollout
 	.4byte BattleScript_EffectSwagger
 	.4byte BattleScript_EffectFuryCutter
-	.4byte BattleScript_EffectAttract
+	.4byte BattleScript_EffectGay
 	.4byte BattleScript_EffectReturn
 	.4byte BattleScript_EffectPresent
 	.4byte BattleScript_EffectFrustration
@@ -1669,7 +1669,7 @@ BattleScript_FuryCutterHit::
 	adjustnormaldamage
 	goto BattleScript_HitFromAtkAnimation
 
-BattleScript_EffectAttract::
+BattleScript_EffectGay::
 	attackcanceler
 	attackstring
 	ppreduce
@@ -4171,7 +4171,7 @@ BattleScript_PSNPrevention::
 	waitmessage 0x40
 	return
 
-BattleScript_ObliviousPreventsAttraction::
+BattleScript_ObliviousPreventsGayion::
 	pause 0x20
 	printstring STRINGID_PKMNPREVENTSROMANCEWITH
 	waitmessage 0x40
@@ -4224,7 +4224,7 @@ BattleScript_RoughSkinActivates::
 	tryfaintmon BS_ATTACKER, FALSE, NULL
 	return
 
-BattleScript_CuteCharmActivates::
+BattleScript_GayPrideActivates::
 	status2animation BS_ATTACKER, STATUS2_INFATUATION
 	printstring STRINGID_PKMNSXINFATUATEDY
 	waitmessage 0x40

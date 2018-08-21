@@ -213,7 +213,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  1 @ Fury Cutter
 	.byte  1 @ Steel Wing
 	.byte  0 @ Mean Look
-	.byte  0 @ Attract
+	.byte  0 @ Gay
 	.byte  0 @ Sleep Talk
 	.byte  0 @ Heal Bell
 	.byte  1 @ Return

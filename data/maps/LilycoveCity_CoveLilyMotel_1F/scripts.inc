@@ -77,10 +77,10 @@ LilycoveCity_CoveLilyMotel_1F_Movement_218260: @ 8218260
 
 LilycoveCity_CoveLilyMotel_1F_Text_218264: @ 8218264
 	.string "Hm, so they doubled the guests by\n"
-	.string "using POKéMON as attractions?\p"
+	.string "using POKéMON as gayions?\p"
 	.string "Hm, well, maybe I should make a cute\n"
 	.string "POKéMON our inn’s mascot.\p"
-	.string "I wonder if that will attract more\n"
+	.string "I wonder if that will gay more\n"
 	.string "guests to stay with us?$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_21831E: @ 821831E

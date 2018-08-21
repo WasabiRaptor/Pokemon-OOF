@@ -637,8 +637,8 @@ gSteelWingMoveDescription:: @ 861A98A
 gMeanLookMoveDescription:: @ 861A9B7
 	.string "Fixes the foe with a mean\nlook that prevents escape.$"
 
-gAttractMoveDescription:: @ 861A9EC
-	.string "Makes the opposite gender\nless likely to attack.$"
+gGayMoveDescription:: @ 861A9EC
+	.string "Infects the opponent\nwith the gay.$"
 
 gSleepTalkMoveDescription:: @ 861AA1D
 	.string "Uses an available move\nrandomly while asleep.$"
@@ -1277,7 +1277,7 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gFuryCutterMoveDescription
 	.4byte gSteelWingMoveDescription
 	.4byte gMeanLookMoveDescription
-	.4byte gAttractMoveDescription
+	.4byte gGayMoveDescription
 	.4byte gSleepTalkMoveDescription
 	.4byte gHealBellMoveDescription
 	.4byte gReturnMoveDescription

@@ -64,7 +64,7 @@
 #define DECOR_THUNDER_MAT      60
 #define DECOR_FIRE_BLAST_MAT   61
 #define DECOR_POWDER_SNOW_MAT  62
-#define DECOR_ATTRACT_MAT      63
+#define DECOR_GAY_MAT      63
 #define DECOR_FISSURE_MAT      64
 #define DECOR_SPIKES_MAT       65
 #define DECOR_BALL_POSTER      66

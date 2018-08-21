@@ -317,10 +317,10 @@ gMapGroup24::
 	.4byte RusturfTunnel
 	.4byte Underwater_SootopolisCity
 	.4byte DesertRuins
-	.4byte GraniteCave_1F
-	.4byte GraniteCave_B1F
-	.4byte GraniteCave_B2F
-	.4byte GraniteCave_StevensRoom
+	.4byte GayCave_1F
+	.4byte GayCave_B1F
+	.4byte GayCave_B2F
+	.4byte GayCave_StevensRoom
 	.4byte PetalburgWoods
 	.4byte MtChimney
 	.4byte JaggedPass

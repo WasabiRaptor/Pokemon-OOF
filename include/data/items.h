@@ -2996,7 +2996,7 @@ const struct Item gItems[] =
         .name = _("MENTAL HERB"),
         .itemId = ITEM_MENTAL_HERB,
         .price = 100,
-        .holdEffect = HOLD_EFFECT_CURE_ATTRACT,
+        .holdEffect = HOLD_EFFECT_CURE_GAY,
         .holdEffectParam = 0,
         .description = gMentalHerbItemDescription,
         .importance = 0,
@@ -5368,7 +5368,7 @@ const struct Item gItems[] =
     },
     {
         .name = _("TM45"),
-        .itemId = ITEM_TM45_ATTRACT,
+        .itemId = ITEM_TM45_GAY,
         .price = 3000,
         .holdEffect = HOLD_EFFECT_NONE,
         .holdEffectParam = 0,

@@ -382,7 +382,7 @@ const u16 DecorGfx_POWDER_SNOW_MAT[] = {
     0x112
 };
 
-const u16 DecorGfx_ATTRACT_MAT[] = {
+const u16 DecorGfx_GAY_MAT[] = {
     0x103,
     0x104,
     0x105,

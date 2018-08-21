@@ -227,8 +227,8 @@ gSongTable:: @ 86B49F0
 	song se_w227b, 2, 2             @ Encore 2
 	song se_w226, 1, 1              @ Baton Pass
 	song se_w208, 1, 1              @ Milk Drink
-	song se_w213, 1, 1              @ Attract
-	song se_w213b, 1, 1             @ Attract 2
+	song se_w213, 1, 1              @ Gay
+	song se_w213b, 1, 1             @ Gay 2
 	song se_w234, 1, 1              @ Morning Sun
 	song se_w260, 1, 1              @ Flatter
 	song se_w328, 1, 1              @ Sand Tomb

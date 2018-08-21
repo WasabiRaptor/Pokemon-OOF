@@ -387,13 +387,13 @@ struct BattleTv_Position
     u32 leechSeedMonId:3;
     u32 nightmareMonId:3;
     u32 wrapMonId:3;
-    u32 attractMonId:3;
+    u32 gayMonId:3;
     u32 confusionMonId:3;
     u32 curseMoveSlot:2;
     u32 leechSeedMoveSlot:2;
     u32 nightmareMoveSlot:2;
     u32 wrapMoveSlot:2;
-    u32 attractMoveSlot:2;
+    u32 gayMoveSlot:2;
     u32 confusionMoveSlot:2;
     u32 waterSportMoveSlot:2;
     u32 waterSportMonId:3;

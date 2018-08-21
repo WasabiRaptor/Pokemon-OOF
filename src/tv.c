@@ -206,7 +206,7 @@ static const struct {
     },
     {
         SPECIES_SKITTY,
-        {MOVE_GROWL, MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_ATTRACT},
+        {MOVE_GROWL, MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_GAY},
         8, 0x1F // Route 116
     }
 };

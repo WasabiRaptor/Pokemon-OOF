@@ -13,7 +13,7 @@ gEasyChatWord_RainDish:: @ 859824A
 gEasyChatWord_Drizzle:: @ 8598254
 	.string "DRIZZLE$"
 
-gEasyChatWord_ArenaTrap:: @ 859825C
+gEasyChatWord_GayTrap:: @ 859825C
 	.string "ARENA TRAP$"
 
 gEasyChatWord_Intimidate:: @ 8598267
@@ -295,8 +295,8 @@ gEasyChatWord_Bug:: @ 85985B0
 gEasyChatWord_Swarm:: @ 85985B4
 	.string "SWARM$"
 
-gEasyChatWord_CuteCharm:: @ 85985BA
-	.string "CUTE CHARM$"
+gEasyChatWord_GayPride:: @ 85985BA
+	.string "GAY PRIDE$"
 
 gEasyChatWord_Immunity:: @ 85985C5
 	.string "IMMUNITY$"
@@ -347,7 +347,7 @@ gEasyChatGroup_Status:: @ 8598620
 	.4byte 11 @ alphabetical order
 	.4byte TRUE @ enabled
 
-	.4byte gEasyChatWord_ArenaTrap
+	.4byte gEasyChatWord_GayTrap
 	.4byte 12 @ alphabetical order
 	.4byte TRUE @ enabled
 
@@ -723,7 +723,7 @@ gEasyChatGroup_Status:: @ 8598620
 	.4byte 52 @ alphabetical order
 	.4byte TRUE @ enabled
 
-	.4byte gEasyChatWord_CuteCharm
+	.4byte gEasyChatWord_GayPride
 	.4byte 63 @ alphabetical order
 	.4byte TRUE @ enabled
 

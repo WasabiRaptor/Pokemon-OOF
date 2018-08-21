@@ -59,7 +59,7 @@
 #define EC_WORD_THICK_FAT     (EC_GROUP_STATUS << 9) | 0x2
 #define EC_WORD_RAIN_DISH     (EC_GROUP_STATUS << 9) | 0x3
 #define EC_WORD_DRIZZLE       (EC_GROUP_STATUS << 9) | 0x4
-#define EC_WORD_ARENA_TRAP    (EC_GROUP_STATUS << 9) | 0x5
+#define EC_WORD_GAY_TRAP    (EC_GROUP_STATUS << 9) | 0x5
 #define EC_WORD_INTIMIDATE    (EC_GROUP_STATUS << 9) | 0x6
 #define EC_WORD_ROCK_HEAD     (EC_GROUP_STATUS << 9) | 0x7
 #define EC_WORD_COLOR         (EC_GROUP_STATUS << 9) | 0x8
@@ -153,7 +153,7 @@
 #define EC_WORD_WATER_VEIL    (EC_GROUP_STATUS << 9) | 0x60
 #define EC_WORD_BUG           (EC_GROUP_STATUS << 9) | 0x61
 #define EC_WORD_SWARM         (EC_GROUP_STATUS << 9) | 0x62
-#define EC_WORD_CUTE_CHARM    (EC_GROUP_STATUS << 9) | 0x63
+#define EC_WORD_GAY_PRIDE    (EC_GROUP_STATUS << 9) | 0x63
 #define EC_WORD_IMMUNITY      (EC_GROUP_STATUS << 9) | 0x64
 #define EC_WORD_BLAZE         (EC_GROUP_STATUS << 9) | 0x65
 #define EC_WORD_PICKUP        (EC_GROUP_STATUS << 9) | 0x66

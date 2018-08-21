@@ -1954,15 +1954,15 @@ gBattleAnimSpritePalette_216:: @ 8D2366C
 
 	.align 2
 gUnknown_08C232E0:: @ 8C232E0
-	.incbin "graphics/battle_anims/backgrounds/attract.4bpp.lz"
+	.incbin "graphics/battle_anims/backgrounds/gay.4bpp.lz"
 
 	.align 2
 gUnknown_08C23D50:: @ 8C23D50
-	.incbin "graphics/battle_anims/backgrounds/attract.gbapal.lz"
+	.incbin "graphics/battle_anims/backgrounds/gay.gbapal.lz"
 
 	.align 2
 gUnknown_08C23D78:: @ 8C23D78
-	.incbin "graphics/battle_anims/backgrounds/attract.bin.lz"
+	.incbin "graphics/battle_anims/backgrounds/gay.bin.lz"
 
 	.align 2
 gBattleAnimSpriteSheet_217:: @ 8D243A0

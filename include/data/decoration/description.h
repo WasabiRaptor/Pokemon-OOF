@@ -297,9 +297,9 @@ const u8 DecorDesc_POWDER_SNOW_MAT[] = _(
         "SNOW image design.\n"
         "Put items on top.");
 
-const u8 DecorDesc_ATTRACT_MAT[] = _(
+const u8 DecorDesc_GAY_MAT[] = _(
     "A mat designed with\n"
-        "an ATTRACT image.\n"
+        "an GAY image.\n"
         "Put items on top.");
 
 const u8 DecorDesc_FISSURE_MAT[] = _(

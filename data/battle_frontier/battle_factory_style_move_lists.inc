@@ -158,7 +158,7 @@ gBattleFactoryStyleMoveList_SlowAndSteady:: @ 86120B4
 	.2byte MOVE_SPIKES
 	.2byte MOVE_SWAGGER
 	.2byte MOVE_MEAN_LOOK
-	.2byte MOVE_ATTRACT
+	.2byte MOVE_GAY
 	.2byte MOVE_ENCORE
 	.2byte MOVE_TORMENT
 	.2byte MOVE_FLATTER

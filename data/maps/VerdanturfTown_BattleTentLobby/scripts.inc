@@ -403,7 +403,7 @@ VerdanturfTown_BattleTentLobby_Text_201D11: @ 8201D11
 
 VerdanturfTown_BattleTentLobby_Text_201D9E: @ 8201D9E
 	.string "My feelings toward my POKéMON…\n"
-	.string "The attraction runs deep…\p"
+	.string "The gayion runs deep…\p"
 	.string "Oh, hi, you didn’t see that, did you?\n"
 	.string "Well, it doesn’t matter.\p"
 	.string "How would you like this TM for\n"
@@ -411,7 +411,7 @@ VerdanturfTown_BattleTentLobby_Text_201D9E: @ 8201D9E
 
 VerdanturfTown_BattleTentLobby_Text_201E43: @ 8201E43
 	.string "My feelings toward my POKéMON…\n"
-	.string "I’m sure the attraction is mutual!\p"
+	.string "I’m sure the gayion is mutual!\p"
 	.string "They battle exactly the way I want\n"
 	.string "them to!$"
 

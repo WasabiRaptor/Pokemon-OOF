@@ -255,7 +255,7 @@ const u16 *const gLevelUpLearnsets[] =
     gLugiaLevelUpLearnset,
     gHoOhLevelUpLearnset,
     gCelebiLevelUpLearnset,
-    gSpecies252LevelUpLearnset,
+    gGayLevelUpLearnset,
     gSpecies253LevelUpLearnset,
     gSpecies254LevelUpLearnset,
     gSpecies255LevelUpLearnset,

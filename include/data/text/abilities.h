@@ -13,7 +13,7 @@ static const u8 gSandVeilAbilityDescription[] = _("Ups evasion in a sandstorm.")
 static const u8 gStaticAbilityDescription[] = _("Paralyzes on contact.");
 static const u8 gVoltSuccAbilityDescription[] = _("Turns electricity into HP.");
 static const u8 gWaterSuccAbilityDescription[] = _("Changes water into HP.");
-static const u8 gObliviousAbilityDescription[] = _("Prevents attraction.");
+static const u8 gObliviousAbilityDescription[] = _("Prevents gayion.");
 static const u8 gCloudNineAbilityDescription[] = _("Negates weather effects.");
 static const u8 gCompoundEyesAbilityDescription[] = _("Raises accuracy.");
 static const u8 gInsomniaAbilityDescription[] = _("Prevents sleep.");
@@ -57,7 +57,7 @@ static const u8 gHyperCutterAbilityDescription[] = _("Prevents ATTACK reduction.
 static const u8 gPickupAbilityDescription[] = _("May pick up items.");
 static const u8 gTruantAbilityDescription[] = _("Moves only every two turns.");
 static const u8 gHustleAbilityDescription[] = _("Trades accuracy for power.");
-static const u8 gCuteCharmAbilityDescription[] = _("Infatuates on contact.");
+static const u8 gGayPrideAbilityDescription[] = _("Infects the enemy with the gay.");
 static const u8 gPlusAbilityDescription[] = _("Powers up with MINUS.");
 static const u8 gMinusAbilityDescription[] = _("Powers up with PLUS.");
 static const u8 gForecastAbilityDescription[] = _("Changes with the weather.");
@@ -72,7 +72,7 @@ static const u8 gTorrentAbilityDescription[] = _("Ups WATER moves in a pinch.");
 static const u8 gSwarmAbilityDescription[] = _("Ups BUG moves in a pinch.");
 static const u8 gRockHeadAbilityDescription[] = _("Prevents recoil damage.");
 static const u8 gDroughtAbilityDescription[] = _("Summons sunlight in battle.");
-static const u8 gArenaTrapAbilityDescription[] = _("Prevents fleeing.");
+static const u8 gGayTrapAbilityDescription[] = _("nobody escapes the gay.");
 static const u8 gVitalSpiritAbilityDescription[] = _("Prevents sleep.");
 static const u8 gWhiteSmokeAbilityDescription[] = _("Prevents ability reduction.");
 static const u8 gPurePowerAbilityDescription[] = _("Raises ATTACK.");
@@ -138,7 +138,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 	_("PICKUP"),
 	_("TRUANT"),
 	_("HUSTLE"),
-	_("CUTE CHARM"),
+	_("GAY PRIDE"),
 	_("PLUS"),
 	_("MINUS"),
 	_("FORECAST"),
@@ -220,7 +220,7 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     gPickupAbilityDescription,
     gTruantAbilityDescription,
     gHustleAbilityDescription,
-    gCuteCharmAbilityDescription,
+    gGayPrideAbilityDescription,
     gPlusAbilityDescription,
     gMinusAbilityDescription,
     gForecastAbilityDescription,
@@ -235,7 +235,7 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     gSwarmAbilityDescription,
     gRockHeadAbilityDescription,
     gDroughtAbilityDescription,
-    gArenaTrapAbilityDescription,
+    gGayTrapAbilityDescription,
     gVitalSpiritAbilityDescription,
     gWhiteSmokeAbilityDescription,
     gPurePowerAbilityDescription,

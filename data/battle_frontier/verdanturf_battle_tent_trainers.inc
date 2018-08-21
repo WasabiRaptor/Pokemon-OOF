@@ -770,7 +770,7 @@ gVerdanturfBattleTentTrainers:: @ 85DE610
 	.2byte EC_WORD_MATCH
 	.2byte EC_WORD_FOR
 	.2byte EC_WORD_MY
-	.2byte EC_WORD_CUTE_CHARM
+	.2byte EC_WORD_GAY_PRIDE
 @ loss speech
 	.2byte EC_WORD_DON_T
 	.2byte EC_WORD_YOU

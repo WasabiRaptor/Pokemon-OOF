@@ -1463,14 +1463,14 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Daphne[] = {
 	.lvl = 39,
 	.species = SPECIES_LUVDISC,
 	.heldItem = ITEM_NUGGET,
-	.moves = MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_FLAIL, MOVE_WATER_PULSE
+	.moves = MOVE_GAY, MOVE_SWEET_KISS, MOVE_FLAIL, MOVE_WATER_PULSE
 	},
 	{
 	.iv = 100,
 	.lvl = 39,
 	.species = SPECIES_LUVDISC,
 	.heldItem = ITEM_NUGGET,
-	.moves = MOVE_ATTRACT, MOVE_SAFEGUARD, MOVE_TAKE_DOWN, MOVE_WATER_PULSE
+	.moves = MOVE_GAY, MOVE_SAFEGUARD, MOVE_TAKE_DOWN, MOVE_WATER_PULSE
 	}
 };
 
@@ -3308,7 +3308,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Glacia[] = {
 	.lvl = 52,
 	.species = SPECIES_SEALEO,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_ATTRACT, MOVE_DOUBLE_EDGE, MOVE_HAIL, MOVE_BLIZZARD
+	.moves = MOVE_GAY, MOVE_DOUBLE_EDGE, MOVE_HAIL, MOVE_BLIZZARD
 	},
 	{
 	.iv = 250,
@@ -3463,14 +3463,14 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery1[] = {
 	.lvl = 26,
 	.species = SPECIES_CAMERUPT,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_OVERHEAT, MOVE_TACKLE, MOVE_SUNNY_DAY, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_TACKLE, MOVE_SUNNY_DAY, MOVE_GAY
 	},
 	{
 	.iv = 250,
 	.lvl = 29,
 	.species = SPECIES_TORKOAL,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_SLAM, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_SLAM, MOVE_GAY
 	}
 };
 
@@ -3580,7 +3580,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Juan1[] = {
 	.lvl = 41,
 	.species = SPECIES_LUVDISC,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_WATER_PULSE, MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_FLAIL
+	.moves = MOVE_WATER_PULSE, MOVE_GAY, MOVE_SWEET_KISS, MOVE_FLAIL
 	},
 	{
 	.iv = 200,
@@ -4274,7 +4274,7 @@ const struct TrainerMonNoItemCustomMoves gTrainerParty_Quincy[] = {
 	.iv = 100,
 	.lvl = 43,
 	.species = SPECIES_SLAKING,
-	.moves = MOVE_ATTRACT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_FLAMETHROWER
+	.moves = MOVE_GAY, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_FLAMETHROWER
 	},
 	{
 	.iv = 100,
@@ -6545,14 +6545,14 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Annika[] = {
 	.lvl = 39,
 	.species = SPECIES_FEEBAS,
 	.heldItem = ITEM_ORAN_BERRY,
-	.moves = MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_ATTRACT
+	.moves = MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_GAY
 	},
 	{
 	.iv = 100,
 	.lvl = 39,
 	.species = SPECIES_FEEBAS,
 	.heldItem = ITEM_ORAN_BERRY,
-	.moves = MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_ATTRACT
+	.moves = MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_GAY
 	}
 };
 
@@ -9210,7 +9210,7 @@ const struct TrainerMonNoItemCustomMoves gTrainerParty_MelAndPaul[] = {
 	.iv = 0,
 	.lvl = 27,
 	.species = SPECIES_BEAUTIFLY,
-	.moves = MOVE_GUST, MOVE_MEGA_SUCC, MOVE_ATTRACT, MOVE_STUN_SPORE
+	.moves = MOVE_GUST, MOVE_MEGA_SUCC, MOVE_GAY, MOVE_STUN_SPORE
 	}
 };
 
@@ -10753,28 +10753,28 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery2[] = {
 	.lvl = 38,
 	.species = SPECIES_MAGCARGO,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
+	.moves = MOVE_OVERHEAT, MOVE_GAY, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
 	},
 	{
 	.iv = 255,
 	.lvl = 36,
 	.species = SPECIES_PONYTA,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE
+	.moves = MOVE_FLAMETHROWER, MOVE_GAY, MOVE_SOLAR_BEAM, MOVE_BOUNCE
 	},
 	{
 	.iv = 255,
 	.lvl = 38,
 	.species = SPECIES_CAMERUPT,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_GAY
 	},
 	{
 	.iv = 255,
 	.lvl = 40,
 	.species = SPECIES_TORKOAL,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_GAY
 	}
 };
 
@@ -10791,28 +10791,28 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery3[] = {
 	.lvl = 43,
 	.species = SPECIES_MAGCARGO,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
+	.moves = MOVE_OVERHEAT, MOVE_GAY, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
 	},
 	{
 	.iv = 255,
 	.lvl = 41,
 	.species = SPECIES_PONYTA,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE
+	.moves = MOVE_FLAMETHROWER, MOVE_GAY, MOVE_SOLAR_BEAM, MOVE_BOUNCE
 	},
 	{
 	.iv = 255,
 	.lvl = 43,
 	.species = SPECIES_CAMERUPT,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_GAY
 	},
 	{
 	.iv = 255,
 	.lvl = 45,
 	.species = SPECIES_TORKOAL,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_GAY
 	}
 };
 
@@ -10836,28 +10836,28 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery4[] = {
 	.lvl = 48,
 	.species = SPECIES_MAGCARGO,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
+	.moves = MOVE_OVERHEAT, MOVE_GAY, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
 	},
 	{
 	.iv = 255,
 	.lvl = 46,
 	.species = SPECIES_RAPIDASH,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE
+	.moves = MOVE_FLAMETHROWER, MOVE_GAY, MOVE_SOLAR_BEAM, MOVE_BOUNCE
 	},
 	{
 	.iv = 255,
 	.lvl = 48,
 	.species = SPECIES_CAMERUPT,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_GAY
 	},
 	{
 	.iv = 255,
 	.lvl = 50,
 	.species = SPECIES_TORKOAL,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_GAY
 	}
 };
 
@@ -10874,7 +10874,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery5[] = {
 	.lvl = 53,
 	.species = SPECIES_MAGCARGO,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
+	.moves = MOVE_OVERHEAT, MOVE_GAY, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE
 	},
 	{
 	.iv = 255,
@@ -10888,21 +10888,21 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Flannery5[] = {
 	.lvl = 51,
 	.species = SPECIES_RAPIDASH,
 	.heldItem = ITEM_NONE,
-	.moves = MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE
+	.moves = MOVE_FLAMETHROWER, MOVE_GAY, MOVE_SOLAR_BEAM, MOVE_BOUNCE
 	},
 	{
 	.iv = 255,
 	.lvl = 53,
 	.species = SPECIES_CAMERUPT,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_GAY
 	},
 	{
 	.iv = 255,
 	.lvl = 55,
 	.species = SPECIES_TORKOAL,
 	.heldItem = ITEM_WHITE_HERB,
-	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT
+	.moves = MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_GAY
 	}
 };
 
