@@ -47,7 +47,7 @@ MauvilleCity_PokemonCenter_1F_Text_210F06: @ 8210F06
 	.string "the Day Care in Kanto for over \n"
 	.string "4 years alone... And lonely...\p" 
 	.string " Without visiting him once...\l" 
-	.string "I am sure Red has it’s reasons \n 
+	.string "I am sure Red has it’s reasons \n"
 	.string "for not visiting him. but that\p" 
 	.string "doesn’t mean he gave him up...\l"  
 	.string "I mean Red will never gonna give \n" 
