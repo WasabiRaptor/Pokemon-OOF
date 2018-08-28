@@ -41,7 +41,7 @@ MauvilleCity_PokemonCenter_1F_Text_210EA1: @ 8210EA1
 
 MauvilleCity_PokemonCenter_1F_Text_210F06: @ 8210F06
 	.string "Did you hear the rumor that Rick\n"
-	.string " Astley is actually Red's former\p"
+	.string " Astley is actually Red’s former\p"
 	.string " Gastly that Red abandonned... \n" 
 	.string "Eux... I mean that he left at \p" 
 	.string "the Day Care in Kanto for over \n"
@@ -71,7 +71,7 @@ MauvilleCity_PokemonCenter_1F_Text_210F8A: @ 8210F8A
 	.string "NPC said about Red and that rumor.\l"  
 	.string "Just let’s continue to talk about \n"   
 	.string "the Rick Astley and Red rumor.\l" 	 
-	.string "Red didn't abandon willingly Rick \n"  
+	.string "Red didn’t abandon willingly Rick \n"  
 	.string "Astley, but he was cursed by \p"  
 	.string " Flareon to give him up for \n"    
 	.string "Zapdos on Bloody Friday.\l" 	 
