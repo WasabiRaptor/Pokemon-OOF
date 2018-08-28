@@ -104,6 +104,8 @@ MauvilleCity_PokemonCenter_1F_Text_210F8A: @ 8210F8A
 	.string "human again, it still has to carry\p"  
 	.string " it’s POKéBALL to protect him.\l"  
 	.string "I think the rumor is very believable\n"  
-	.string " , it’s not a coincidence that Rick\p" 	  	  	  	  	  	  	 
-	.string " came here after Flareon got caught$"
+	.string " , it’s not a coincidence that Rick\p" 
+	.string " Astley came here right after Flareon\n" 
+	.string " got defeated and got caught, as it \p"
+	.string " caused soo much choas here too.$"
 
