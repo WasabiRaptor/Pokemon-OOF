@@ -6022,6 +6022,22 @@ gMonIcon_Celebi:: @ 8CDCEF8
 gMonFootprint_Celebi:: @ 8CDD2F8
 	.incbin "graphics/pokemon/footprints/celebi_footprint.1bpp"
 
+		.align 2
+gMonStillFrontPic_Gay:: @ 8CDD318
+	.incbin "graphics/pokemon/front_pics/gay_still_front_pic.4bpp.lz"
+
+	.align 2
+gMonPalette_Gay:: @ 8CDD498
+	.incbin "graphics/pokemon/palettes/gay_palette.gbapal.lz"
+
+	.align 2
+gMonBackPic_Gay:: @ 8CDD4AC
+	.incbin "graphics/pokemon/back_pics/gay_back_pic.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Gay:: @ 8CDD630
+	.incbin "graphics/pokemon/palettes/gay_palette.gbapal.lz"
+
 	.align 2
 gMonStillFrontPic_DoubleQuestionMark:: @ 8CDD318
 	.incbin "graphics/pokemon/front_pics/double_question_mark_still_front_pic.4bpp.lz"

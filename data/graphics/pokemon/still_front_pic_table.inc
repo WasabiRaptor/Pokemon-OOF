@@ -252,7 +252,7 @@ gMonStillFrontPicTable:: @ 8301418
 	obj_tiles gMonStillFrontPic_Lugia, 0x800, 249
 	obj_tiles gMonStillFrontPic_HoOh, 0x800, 250
 	obj_tiles gMonStillFrontPic_Celebi, 0x800, 251
-	obj_tiles gMonStillFrontPic_DoubleQuestionMark, 0x800, 252
+	obj_tiles gMonStillFrontPic_Gay, 0x800, 252
 	obj_tiles gMonStillFrontPic_DoubleQuestionMark, 0x800, 253
 	obj_tiles gMonStillFrontPic_DoubleQuestionMark, 0x800, 254
 	obj_tiles gMonStillFrontPic_DoubleQuestionMark, 0x800, 255

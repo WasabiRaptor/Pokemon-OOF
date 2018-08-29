@@ -252,7 +252,7 @@ gMonBackPicTable:: @ 83028B8
 	obj_tiles gMonBackPic_Lugia, 0x800, 249
 	obj_tiles gMonBackPic_HoOh, 0x800, 250
 	obj_tiles gMonBackPic_Celebi, 0x800, 251
-	obj_tiles gMonBackPic_DoubleQuestionMark, 0x800, 252
+	obj_tiles gMonBackPic_Gay, 0x800, 252
 	obj_tiles gMonBackPic_DoubleQuestionMark, 0x800, 253
 	obj_tiles gMonBackPic_DoubleQuestionMark, 0x800, 254
 	obj_tiles gMonBackPic_DoubleQuestionMark, 0x800, 255

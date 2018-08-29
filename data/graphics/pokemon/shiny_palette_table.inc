@@ -252,7 +252,7 @@ gMonShinyPaletteTable:: @ 8304438
 	obj_pal gMonShinyPalette_Lugia, 749
 	obj_pal gMonShinyPalette_HoOh, 750
 	obj_pal gMonShinyPalette_Celebi, 751
-	obj_pal gMonShinyPalette_DoubleQuestionMark, 752
+	obj_pal gMonShinyPalette_Gay, 752
 	obj_pal gMonShinyPalette_DoubleQuestionMark, 753
 	obj_pal gMonShinyPalette_DoubleQuestionMark, 754
 	obj_pal gMonShinyPalette_DoubleQuestionMark, 755
