@@ -304,10 +304,10 @@ gStdScripts_End:: @ 81DC2CC
 	.include "data/maps/RusturfTunnel/scripts.inc"
 	.include "data/maps/Underwater_SootopolisCity/scripts.inc"
 	.include "data/maps/DesertRuins/scripts.inc"
-	.include "data/maps/GayCave_1F/scripts.inc"
-	.include "data/maps/GayCave_B1F/scripts.inc"
-	.include "data/maps/GayCave_B2F/scripts.inc"
-	.include "data/maps/GayCave_StevensRoom/scripts.inc"
+	.include "data/maps/GraniteCave_1F/scripts.inc"
+	.include "data/maps/GraniteCave_B1F/scripts.inc"
+	.include "data/maps/GraniteCave_B2F/scripts.inc"
+	.include "data/maps/GraniteCave_StevensRoom/scripts.inc"
 	.include "data/maps/PetalburgWoods/scripts.inc"
 	.include "data/maps/MtChimney/scripts.inc"
 	.include "data/maps/JaggedPass/scripts.inc"
@@ -1902,7 +1902,7 @@ Route109_EventScript_271E95:: @ 8271E95
 	return
 
 EventScript_271EA0:: @ 8271EA0
-	checkpartytype TYPE_WATER
+	checkpartymove MOVE_SURF
 	compare VAR_RESULT, 6
 	goto_eq EventScript_271ED6
 	bufferpartymonnick 0, VAR_RESULT
@@ -2568,7 +2568,7 @@ SlateportCity_House1_EventScript_2723DD:: @ 82723DD
 	return
 
 FallarborTown_House1_EventScript_2723E4:: @ 82723E4
-GayCave_StevensRoom_EventScript_2723E4:: @ 82723E4
+GraniteCave_StevensRoom_EventScript_2723E4:: @ 82723E4
 SlateportCity_OceanicMuseum_2F_EventScript_2723E4:: @ 82723E4
 	bufferitemname 0, VAR_0x8004
 	playfanfare MUS_ME_WAZA
@@ -6003,7 +6003,7 @@ Text_2A82F7: @ 82A82F7
 	.string "A blueprint of some sort?\n"
 	.string "It’s too complicated!$"
 
-GayCave_B1F_MapScript2_2A8327: @ 82A8327
+GraniteCave_B1F_MapScript2_2A8327: @ 82A8327
 MirageTower_2F_MapScript2_2A8327: @ 82A8327
 MirageTower_3F_MapScript2_2A8327: @ 82A8327
 MtPyre_2F_MapScript2_2A8327: @ 82A8327
@@ -6012,7 +6012,7 @@ SkyPillar_4F_MapScript2_2A8327: @ 82A8327
 	map_script_2 VAR_ICE_STEP_COUNT, 0, gUnknown_082A8337
 	.2byte 0
 
-GayCave_B1F_MapScript1_2A8331: @ 82A8331
+GraniteCave_B1F_MapScript1_2A8331: @ 82A8331
 MirageTower_2F_MapScript1_2A8331: @ 82A8331
 MirageTower_3F_MapScript1_2A8331: @ 82A8331
 MtPyre_2F_MapScript1_2A8331: @ 82A8331
@@ -6022,7 +6022,7 @@ MtPyre_2F_MapScript1_2A8331: @ 82A8331
 gUnknown_082A8337:: @ 82A8337
 	lockall
 	delay 20
-	applymovement 255, GayCave_B1F_Movement_2A8369
+	applymovement 255, GraniteCave_B1F_Movement_2A8369
 	waitmovement 0
 	playse SE_RU_HYUU
 	delay 60
@@ -6033,7 +6033,7 @@ gUnknown_082A8337:: @ 82A8337
 gUnknown_082A8350:: @ 82A8350
 	lockall
 	delay 20
-	applymovement 255, GayCave_B1F_Movement_2A8369
+	applymovement 255, GraniteCave_B1F_Movement_2A8369
 	waitmovement 0
 	playse SE_RU_HYUU
 	delay 60
@@ -6041,7 +6041,7 @@ gUnknown_082A8350:: @ 82A8350
 	waitstate
 	end
 
-GayCave_B1F_Movement_2A8369: @ 82A8369
+GraniteCave_B1F_Movement_2A8369: @ 82A8369
 	set_invisible
 	step_end
 

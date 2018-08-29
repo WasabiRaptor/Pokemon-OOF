@@ -52,7 +52,7 @@ static const u8 sMapName_Route132[] = _("ROUTE 132");
 static const u8 sMapName_Route133[] = _("ROUTE 133");
 static const u8 sMapName_Route134[] = _("ROUTE 134");
 static const u8 sMapName_Underwater[] = _("UNDERWATER");
-static const u8 sMapName_GayCave[] = _("GAY CAVE");
+static const u8 sMapName_GraniteCave[] = _("GAY CAVE");
 static const u8 sMapName_MtChimney[] = _("MT. CHIMNEY");
 static const u8 sMapName_SafariZone[] = _("SAFARI ZONE");
 static const u8 sMapName_BattleFrontier[] = _("BATTLE FRONTIER");
@@ -258,7 +258,7 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     {23,  6, 3, 3, sMapName_Underwater},
     {23,  9, 4, 1, sMapName_Underwater},
     {21,  7, 1, 1, sMapName_Underwater},
-    { 1, 13, 1, 1, sMapName_GayCave},
+    { 1, 13, 1, 1, sMapName_GraniteCave},
     { 6,  2, 1, 1, sMapName_MtChimney},
     {16,  2, 1, 1, sMapName_SafariZone},
     {22, 12, 1, 1, sMapName_BattleFrontier},
