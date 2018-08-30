@@ -5365,6 +5365,10 @@ void ClearBattleMonForms(void)
 
 u16 GetBattleBGM(void)
 {
+    u8 rnd = Random();
+    u8 rnd2 = Random();
+    u8 rnd3 = Random();
+
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         return MUS_BATTLE34;
     else if (gBattleTypeFlags & BATTLE_TYPE_REGI)
@@ -5384,6 +5388,21 @@ u16 GetBattleBGM(void)
 
         switch (trainerClass)
         {
+        case TRAINER_CLASS_PKMN_RANGER:
+        case TRAINER_CLASS_COOLTRAINER_1:
+        case TRAINER_CLASS_PSYCHIC:
+        case TRAINER_CLASS_EXPERT:
+        case TRAINER_CLASS_DRAGON_TAMER:
+        case TRAINER_CLASS_COLLECTOR:
+        case TRAINER_CLASS_RICH_BOY:
+        case TRAINER_CLASS_BATTLE_GIRL:
+        case TRAINER_CLASS_BEAUTY:
+        case TRAINER_CLASS_LADY:
+        case TRAINER_CLASS_HEX_MANIAC:
+            return MUS_RG_VS_GYM;              
+        case TRAINER_CLASS_INTERVIEWER:
+        case TRAINER_CLASS_WINSTRATE:
+            return MUS_RG_VS_LAST;
         case TRAINER_CLASS_AQUA_LEADER:
         case TRAINER_CLASS_MAGMA_LEADER:
             return MUS_BATTLE30;
@@ -5400,7 +5419,7 @@ u16 GetBattleBGM(void)
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
                 return MUS_BATTLE35;
             if (!StringCompare(gTrainers[gTrainerBattleOpponent_A].trainerName, gText_BattleWallyName))
-                return MUS_BATTLE20;
+                return MUS_RG_VS_LAST;
             return MUS_BATTLE35;
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_BATTLE38;
@@ -5413,11 +5432,59 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONT;
         default:
-            return MUS_BATTLE20;
+            {
+            if (rnd == rnd2)       
+                if (rnd == rnd3)
+                    if (rnd2 == rnd3)
+                        return MUS_VS_FRONT;
+                    else if (rnd2 > rnd3)
+                        return MUS_BATTLE33;
+                    else
+                        return MUS_RG_VS_LAST;
+                else if (rnd > rnd3)
+                    return MUS_BATTLE20;
+                else
+                    return MUS_RG_VS_TORE;
+            else if (rnd > rnd2)
+                if (rnd > rnd3)
+                    return MUS_BATTLE32;
+                else if (rnd == rnd3)
+                    return MUS_BATTLE31;
+                else
+                    return MUS_BATTLE35;
+            else
+                if (rnd > rnd3)
+                    return MUS_BATTLE38;
+                else if (rnd == rnd3)
+                    return MUS_BATTLE30;
+                else 
+                    return MUS_RG_VS_GYM;
+            }
         }
     }
+    {
+    if (rnd == rnd2)       
+        if (rnd > rnd3)
+            return MUS_SUIKUN;
+        else if (rnd == rnd3)
+            return MUS_RG_VS_MYU2;
+        else
+            return MUS_RG_VS_DEN;
+    else if (rnd > rnd2)
+        if (rnd > rnd3)
+            return MUS_RG_VS_YASEI;
+        else if (rnd == rnd3)
+            return MUS_BATTLE27;
+        else
+            return MUS_VS_MEW;
     else
-        return MUS_BATTLE27;
+        if (rnd > rnd3)
+            return MUS_VS_REKKU;
+        else if (rnd == rnd3)
+            return MUS_BATTLE36;
+        else
+            return MUS_BATTLE27;
+    }
 }
 
 void PlayBattleBGM(void)
