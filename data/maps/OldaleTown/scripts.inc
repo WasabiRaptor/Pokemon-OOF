@@ -351,10 +351,9 @@ OldaleTown_Movement_1E918B: @ 81E918B
 	step_end
 
 OldaleTown_Text_1E918E: @ 81E918E
-	.string "I want to take a rest, so I’m saving my\n"
-	.string "There this cool bar in Mauville City \p"
-	.string "called Gastley, too bad I am not \n"
-	.string "allowed to buy some booze because I am\p"
+	.string "There this cool bar in Mauville City \n"
+	.string "called Gastley, too bad I am not \p"
+	.string "allowed to buy some booze because I am\n"
 	.string " still a teen. :( \l"
 	.string "I even tried to buy booze with a fake\n"
 	.string "identity card and a disgiuse, but Rick,\p" 
