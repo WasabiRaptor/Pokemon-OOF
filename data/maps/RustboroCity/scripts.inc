@@ -1050,36 +1050,42 @@ RustboroCity_Text_1E130D: @ 81E130D
 	.string "realize what is required of them.$"
 
 RustboroCity_Text_1E139E: @ 81E139E
-	.string "Hey, that’s RUSTBORO’s GYM BADGE!\p"
-	.string "Out of all the POKéMON GYM BADGES,\n"
-	.string "RUSTBORO’s is the coolest, I’d say.$"
+	.string "Isn’t the RUSTBORO’s GYM LEADER\p"
+	.string "HOT AS HELL!\n"
+	.string "I’d hit that!!!.$"
 
-RustboroCity_Text_1E1407: @ 81E1407
-	.string "Oh? Who might you be?\n"
-	.string "You’re a new face around these parts.\p"
-	.string "Have you just transferred into the\n"
-	.string "POKéMON TRAINER’S SCHOOL?$"
+RustboroCity_Text_1E1407: @ 81E1407                     H    
+	.string "Oh you! Have you seen that POKéMON \n"
+	.string "TRAINER’S SCHOOL?\l"
+	.string "It’s pointless as hell!\n"
+	.string "Why even bother going to school if \n"
+	.string "you can learn it on the internet\l"
+	.string "Also isn't POKéMON supposed to \n"
+	.string "distract you from school? WTF man!$"
 
 RustboroCity_Text_1E1480: @ 81E1480
-	.string "I challenged the GYM LEADER, but…\p"
-	.string "It’s not going to be easy winning with\n"
-	.string "my FIRE-type POKéMON…\p"
-	.string "FIRE-type POKéMON don’t match up\n"
-	.string "well against ROCK-type POKéMON…$"
+	.string "I just challenged the ROCK GYM \p"
+	.string "LEADER and she just rocked my world.\l"
+	.string "My FIRE-type POKéMON were sent TO\n"
+	.string "ANOTHER DIMENSION!\l"
+	.string "She’s just as hard and hot as Brock.$"
 
 RustboroCity_Text_1E1520: @ 81E1520
-	.string "The old sailor MR. BRINEY lives in\n"
-	.string "a cottage by the sea.\p"
-	.string "He goes for walks in the tunnel every\n"
-	.string "so often.$"
+	.string "The old retarded sailor MR. BRINEY \n"
+	.string "lives in a house near the sea.\p"
+	.string "It’s rumored that he catches some\n"
+	.string "Wingulls and grills them afterwards!\l"
+	.string "Might be the reason why there isn’t \n"
+	.string "as many anymore. Too good, I hate \p"
+	.string "those POKéMON. Fuck Protect spam! $"
 
 RustboroCity_Text_1E1589: @ 81E1589
-	.string "The old sailor MR. BRINEY lives in\n"
-	.string "a cottage by the sea.\p"
-	.string "He said he was going shopping in\n"
-	.string "SLATEPORT for his pet, PEEKO.\p"
-	.string "That old sea dog, he must really love\n"
-	.string "that PEEKO.$"
+	.string "Did you hear of that old creep \n"
+	.string "MR. BRINEY who lives near the sea?\l"
+	.string "It’s rumored that he’s in love with\n"
+	.string "his Wingull called PEEKO.\l"
+	.string "POKéPHILIA is fucking disguting. \n"
+	.string "I hope it’s not true.$"
 
 RustboroCity_Text_1E1633: @ 81E1633
 	.string "Wow, you have POKéMON with you, too.\p"
@@ -1087,9 +1093,10 @@ RustboroCity_Text_1E1633: @ 81E1633
 	.string "places with POKéMON, too.$"
 
 RustboroCity_Text_1E1695: @ 81E1695
-	.string "POKéMON TRAINER’S SCHOOL!\p"
-	.string "If I go to this school, will I be able\n"
-	.string "to catch rare POKéMON easily?$"
+	.string "They told me that if I go to the \p
+	.string "POKéMON TRAINER’S SCHOOL,  I will be\n"
+	.string " able to catch rare POKéMON easily?\l"
+	.string "I call bullshit!$"
 
 RustboroCity_Text_1E16F4: @ 81E16F4
 	.string "If a POKéMON gains experience in\n"
