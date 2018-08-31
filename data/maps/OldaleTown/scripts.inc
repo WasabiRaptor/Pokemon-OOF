@@ -352,7 +352,21 @@ OldaleTown_Movement_1E918B: @ 81E918B
 
 OldaleTown_Text_1E918E: @ 81E918E
 	.string "I want to take a rest, so I’m saving my\n"
-	.string "progress.$"
+	.string "There this cool bar in Mauville City \p"
+	.string "called Gastley, too bad I am not \n"
+	.string "allowed to buy some booze because I am\p"
+	.string " still a teen. :( \l"
+	.string "I even tried to buy booze with a fake\n"
+	.string "identity card and a disgiuse, but Rick,\p" 
+	.string " Astley directly recognized me, it's \n"
+	.string " like he has some kind of psychic\p"
+	.string " powers to recognize me this quickly.\l"
+	.string "He told me nicely that I can’t drink \n"
+	.string " because it’s unhealthy for me in my \p"
+	.string "young age.\l"
+	.string "Miss me with that gay shit!\n"
+	.string "I want some booze and get drunk.\l"
+	.string "I can’t wait to finally turn 18 soon.$"
 
 OldaleTown_Text_1E91C0: @ 81E91C0
 	.string "Hi!\n"
