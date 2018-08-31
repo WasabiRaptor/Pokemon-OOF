@@ -1052,9 +1052,9 @@ RustboroCity_Text_1E130D: @ 81E130D
 RustboroCity_Text_1E139E: @ 81E139E
 	.string "Isn’t the RUSTBORO’s GYM LEADER\p"
 	.string "HOT AS HELL!\n"
-	.string "I’d hit that!!!.$"
+	.string "I’d hit that!!!$"
 
-RustboroCity_Text_1E1407: @ 81E1407                     H    
+RustboroCity_Text_1E1407: @ 81E1407                        
 	.string "Oh you! Have you seen that POKéMON \n"
 	.string "TRAINER’S SCHOOL?\l"
 	.string "It’s pointless as hell!\n"
@@ -1093,7 +1093,7 @@ RustboroCity_Text_1E1633: @ 81E1633
 	.string "places with POKéMON, too.$"
 
 RustboroCity_Text_1E1695: @ 81E1695
-	.string "They told me that if I go to the \p
+	.string "They told me that if I go to the \p"
 	.string "POKéMON TRAINER’S SCHOOL,  I will be\n"
 	.string " able to catch rare POKéMON easily?\l"
 	.string "I call bullshit!$"
