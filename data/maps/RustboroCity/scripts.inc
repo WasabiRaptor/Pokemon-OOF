@@ -1060,7 +1060,7 @@ RustboroCity_Text_1E1407: @ 81E1407
 	.string "It’s pointless as hell!\n"
 	.string "Why even bother going to school if \n"
 	.string "you can learn it on the internet\l"
-	.string "Also i’snt POKéMON supposed to \n"
+	.string "Also Isn’t POKéMON supposed to \n"
 	.string "distract you from school? WTF man!$"
 
 RustboroCity_Text_1E1480: @ 81E1480
