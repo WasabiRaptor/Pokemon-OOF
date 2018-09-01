@@ -357,7 +357,7 @@ OldaleTown_Text_1E918E: @ 81E918E
 	.string " still a teen. :( \l"
 	.string "I even tried to buy booze with a fake\n"
 	.string "identity card and a disgiuse, but Rick,\p" 
-	.string " Astley directly recognized me, it's \n"
+	.string " Astley directly recognized me, it’s \n"
 	.string " like he has some kind of psychic\p"
 	.string " powers to recognize me this quickly.\l"
 	.string "He told me nicely that I can’t drink \n"
@@ -409,10 +409,10 @@ OldaleTown_Text_1E93F8: @ 81E93F8
 OldaleTown_Text_1E9462: @ 81E9462
 	.string "MAY: {PLAYER}{KUN}!\n"
 	.string "...\l"
-	.string "stop being so slow!$
+	.string "stop being so slow!$"
 
 OldaleTown_Text_1E948A: @ 81E948A
-	.string "BRENDAN: girrrl you got a might \n"
+	.string "BRENDAN: girrrl you got a mighty\n"
 	.string "slow pace, you need some better shoes\l"
 	.string "{PLAYER}, we should go to the mall later.$"
 
