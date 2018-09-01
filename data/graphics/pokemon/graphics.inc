@@ -3252,7 +3252,7 @@ gMonBackPic_Glazeon:: @ 8C8E3A8
 
 	.align 2
 gMonShinyPalette_Glazeon:: @ 8C8E738
-	.incbin "graphics/pokemon/palettes/glazeon_shiny_palette.gbapal.lz"
+	.incbin "graphics/pokemon/palettes/glazeon_palette.gbapal.lz"
 
 	.align 2
 gMonIcon_Glazeon:: @ 8C8E760
@@ -5820,7 +5820,7 @@ gMonBackPic_Raikou:: @ 8CD65B0
 
 	.align 2
 gMonShinyPalette_Raikou:: @ 8CD6958
-	.incbin "graphics/pokemon/palettes/raikou_shiny_palette.gbapal.lz"
+	.incbin "graphics/pokemon/palettes/raikou_palette.gbapal.lz"
 
 	.align 2
 gMonIcon_Raikou:: @ 8CD6980
@@ -5844,7 +5844,7 @@ gMonBackPic_Entei:: @ 8CD73C4
 
 	.align 2
 gMonShinyPalette_Entei:: @ 8CD77E8
-	.incbin "graphics/pokemon/palettes/entei_shiny_palette.gbapal.lz"
+	.incbin "graphics/pokemon/palettes/entei_palette.gbapal.lz"
 
 	.align 2
 gMonIcon_Entei:: @ 8CD7810
@@ -5868,7 +5868,7 @@ gMonBackPic_Suicune:: @ 8CD81DC
 
 	.align 2
 gMonShinyPalette_Suicune:: @ 8CD86B8
-	.incbin "graphics/pokemon/palettes/suicune_shiny_palette.gbapal.lz"
+	.incbin "graphics/pokemon/palettes/suicune_palette.gbapal.lz"
 
 	.align 2
 gMonIcon_Suicune:: @ 8CD86E0
@@ -6022,20 +6022,20 @@ gMonIcon_Celebi:: @ 8CDCEF8
 gMonFootprint_Celebi:: @ 8CDD2F8
 	.incbin "graphics/pokemon/footprints/celebi_footprint.1bpp"
 
-		.align 2
-gMonStillFrontPic_Gay:: @ 8CDD318
+	.align 2
+gMonStillFrontPic_Gay:: 
 	.incbin "graphics/pokemon/front_pics/gay_still_front_pic.4bpp.lz"
 
 	.align 2
-gMonPalette_Gay:: @ 8CDD498
+gMonPalette_Gay:: 
 	.incbin "graphics/pokemon/palettes/gay_palette.gbapal.lz"
 
 	.align 2
-gMonBackPic_Gay:: @ 8CDD4AC
+gMonBackPic_Gay:: 
 	.incbin "graphics/pokemon/back_pics/gay_back_pic.4bpp.lz"
 
 	.align 2
-gMonShinyPalette_Gay:: @ 8CDD630
+gMonShinyPalette_Gay:: 
 	.incbin "graphics/pokemon/palettes/gay_palette.gbapal.lz"
 
 	.align 2
