@@ -153,7 +153,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 	_("SWARM"),
 	_("ROCK HEAD"),
 	_("DROUGHT"),
-	_("ARENA TRAP"),
+	_("GAY TRAP"),
 	_("VITAL SPIRIT"),
 	_("WHITE SMOKE"),
 	_("PURE POWER"),
