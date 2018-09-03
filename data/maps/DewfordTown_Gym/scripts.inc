@@ -338,7 +338,7 @@ DewfordTown_Gym_Text_1FCB9F: @ 81FCB9F
 	.string "Come on!$"
 
 DewfordTown_Gym_Text_1FCBB8: @ 81FCBB8
-	.string "Not enough power…$"
+	.string "Nothing personal kid…$"
 
 DewfordTown_Gym_Text_1FCBCA: @ 81FCBCA
 	.string "Your skill overcame my strength!\n"
