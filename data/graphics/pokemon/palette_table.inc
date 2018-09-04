@@ -306,7 +306,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Shedinja, 303
 	obj_pal gMonPalette_Taillow, 304
 	obj_pal gMonPalette_Swellow, 305
-	obj_pal gMonPalette_Shroomish, 306
+	obj_pal gMonPalette_Slavish, 306
 	obj_pal gMonPalette_Breloom, 307
 	obj_pal gMonPalette_Spinda, 308
 	obj_pal gMonPalette_Wingull, 309

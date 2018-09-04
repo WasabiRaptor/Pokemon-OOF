@@ -1133,8 +1133,8 @@ gMonFrontPic_Swellow:: @ 8B6AD5C
 	.incbin "graphics/pokemon/anim_front_pics/swellow_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Shroomish:: @ 8B6B2C8
-	.incbin "graphics/pokemon/anim_front_pics/shroomish_front_pic.4bpp.lz"
+gMonFrontPic_Slavish:: @ 8B6B2C8
+	.incbin "graphics/pokemon/anim_front_pics/slavish_front_pic.4bpp.lz"
 
 	.align 2
 gMonFrontPic_Breloom:: @ 8B6B690

@@ -571,7 +571,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "EYEBALL$", 12
 	pokedex_entry   8,   36, gMasquerainPokedexText, 378,   8,  256,  0
 	.string "MUSHROOM$", 12
-	pokedex_entry   4,   45,  gShroomishPokedexText, 513,  22,  256,  0
+	pokedex_entry   4,   45,  gSlavishPokedexText, 513,  22,  256,  0
 	.string "MUSHROOM$", 12
 	pokedex_entry  12,  392,	gBreloomPokedexText, 324,   6,  256,  0
 	.string "SLACKER$", 12

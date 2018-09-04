@@ -306,7 +306,7 @@ gMonBackPicTable:: @ 83028B8
 	obj_tiles gMonBackPic_Shedinja, 0x800, 303
 	obj_tiles gMonBackPic_Taillow, 0x800, 304
 	obj_tiles gMonBackPic_Swellow, 0x800, 305
-	obj_tiles gMonBackPic_Shroomish, 0x800, 306
+	obj_tiles gMonBackPic_Slavish, 0x800, 306
 	obj_tiles gMonBackPic_Breloom, 0x800, 307
 	obj_tiles gMonBackPic_Spinda, 0x800, 308
 	obj_tiles gMonBackPic_Wingull, 0x800, 309

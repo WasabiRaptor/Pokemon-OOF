@@ -10074,7 +10074,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SHROOMISH] =
+    [SPECIES_SLAVISH] =
     {
         .baseHP        = 60,
         .baseAttack    = 40,

@@ -3994,7 +3994,7 @@ const u16 gSwellowLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-const u16 gShroomishLevelUpLearnset[] = {
+const u16 gSlavishLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SUCC),
     LEVEL_UP_MOVE( 4, MOVE_TACKLE),
     LEVEL_UP_MOVE( 7, MOVE_STUN_SPORE),

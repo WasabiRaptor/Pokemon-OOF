@@ -131,7 +131,7 @@
 	.4byte 0x0
 	.4byte 0x0
 	.4byte 0xffff
-	.2byte SPECIES_SHROOMISH
+	.2byte SPECIES_SLAVISH
 	.string "SMISH$     "
 	.string "GRANT$  "
 	.byte 35

@@ -306,7 +306,7 @@ gMonFootprintTable:: @ 856E694
 	.4byte gMonFootprint_Shedinja
 	.4byte gMonFootprint_Taillow
 	.4byte gMonFootprint_Swellow
-	.4byte gMonFootprint_Shroomish
+	.4byte gMonFootprint_Slavish
 	.4byte gMonFootprint_Breloom
 	.4byte gMonFootprint_Spinda
 	.4byte gMonFootprint_Wingull

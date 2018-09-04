@@ -974,7 +974,7 @@ const u16 gEggMoves[] = {
               MOVE_RAGE,
               MOVE_SKY_ATTACK),
 
-    egg_moves(SHROOMISH,
+    egg_moves(SLAVISH,
               MOVE_FAKE_TEARS,
               MOVE_SWAGGER,
               MOVE_CHARM,

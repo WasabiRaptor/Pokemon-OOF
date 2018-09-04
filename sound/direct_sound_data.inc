@@ -1883,8 +1883,8 @@ Cry_Breloom:: @ 88C1E24
 	.incbin "sound/direct_sound_samples/cry_breloom.bin"
 
 	.align 2
-Cry_Shroomish:: @ 88C2AE4
-	.incbin "sound/direct_sound_samples/cry_shroomish.bin"
+Cry_Slavish:: @ 88C2AE4
+	.incbin "sound/direct_sound_samples/cry_slavish.bin"
 
 	.align 2
 Cry_Linoone:: @ 88C33BC

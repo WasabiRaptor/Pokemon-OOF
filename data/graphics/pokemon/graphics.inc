@@ -6751,28 +6751,28 @@ gMonFootprint_Swellow:: @ 8CF1C0C
 	.incbin "graphics/pokemon/footprints/swellow_footprint.1bpp"
 
 	.align 2
-gMonStillFrontPic_Shroomish:: @ 8CF1C2C
-	.incbin "graphics/pokemon/front_pics/shroomish_still_front_pic.4bpp.lz"
+gMonStillFrontPic_Slavish:: @ 8CF1C2C
+	.incbin "graphics/pokemon/front_pics/slavish_still_front_pic.4bpp.lz"
 
 	.align 2
-gMonPalette_Shroomish:: @ 8CF1E94
-	.incbin "graphics/pokemon/palettes/shroomish_palette.gbapal.lz"
+gMonPalette_Slavish:: @ 8CF1E94
+	.incbin "graphics/pokemon/palettes/slavish_palette.gbapal.lz"
 
 	.align 2
-gMonBackPic_Shroomish:: @ 8CF1EBC
-	.incbin "graphics/pokemon/back_pics/shroomish_back_pic.4bpp.lz"
+gMonBackPic_Slavish:: @ 8CF1EBC
+	.incbin "graphics/pokemon/back_pics/slavish_back_pic.4bpp.lz"
 
 	.align 2
-gMonShinyPalette_Shroomish:: @ 8CF219C
-	.incbin "graphics/pokemon/palettes/shroomish_shiny_palette.gbapal.lz"
+gMonShinyPalette_Slavish:: @ 8CF219C
+	.incbin "graphics/pokemon/palettes/slavish_palette.gbapal.lz"
 
 	.align 2
-gMonIcon_Shroomish:: @ 8CF21C4
-	.incbin "graphics/pokemon/icons/shroomish_icon.4bpp"
+gMonIcon_Slavish:: @ 8CF21C4
+	.incbin "graphics/pokemon/icons/slavish_icon.4bpp"
 
 	.align 2
-gMonFootprint_Shroomish:: @ 8CF25C4
-	.incbin "graphics/pokemon/footprints/shroomish_footprint.1bpp"
+gMonFootprint_Slavish:: @ 8CF25C4
+	.incbin "graphics/pokemon/footprints/slavish_footprint.1bpp"
 
 	.align 2
 gMonStillFrontPic_Breloom:: @ 8CF25E4

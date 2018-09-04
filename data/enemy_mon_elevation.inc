@@ -307,7 +307,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  8 @ SPECIES_SHEDINJA
 	.byte  0 @ SPECIES_TAILLOW
 	.byte  0 @ SPECIES_SWELLOW
-	.byte  0 @ SPECIES_SHROOMISH
+	.byte  0 @ SPECIES_SLAVISH
 	.byte  0 @ SPECIES_BRELOOM
 	.byte  0 @ SPECIES_SPINDA
 	.byte 16 @ SPECIES_WINGULL

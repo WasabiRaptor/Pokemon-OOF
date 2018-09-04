@@ -306,7 +306,7 @@ gMonStillFrontPicTable:: @ 8301418
 	obj_tiles gMonStillFrontPic_Shedinja, 0x800, 303
 	obj_tiles gMonStillFrontPic_Taillow, 0x800, 304
 	obj_tiles gMonStillFrontPic_Swellow, 0x800, 305
-	obj_tiles gMonStillFrontPic_Shroomish, 0x800, 306
+	obj_tiles gMonStillFrontPic_Slavish, 0x800, 306
 	obj_tiles gMonStillFrontPic_Breloom, 0x800, 307
 	obj_tiles gMonStillFrontPic_Spinda, 0x800, 308
 	obj_tiles gMonStillFrontPic_Wingull, 0x800, 309

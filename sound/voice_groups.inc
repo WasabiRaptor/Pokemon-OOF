@@ -14413,7 +14413,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Rayquaza  @ 869EE58
 	cry Cry_Salamence  @ 869EE64
 	cry Cry_Breloom  @ 869EE70
-	cry Cry_Shroomish  @ 869EE7C
+	cry Cry_Slavish  @ 869EE7C
 	cry Cry_Linoone  @ 869EE88
 	cry Cry_Tropius  @ 869EE94
 	cry Cry_Wailmer  @ 869EEA0
@@ -14804,7 +14804,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Rayquaza  @ 86A0088
 	cry2 Cry_Salamence  @ 86A0094
 	cry2 Cry_Breloom  @ 86A00A0
-	cry2 Cry_Shroomish  @ 86A00AC
+	cry2 Cry_Slavish  @ 86A00AC
 	cry2 Cry_Linoone  @ 86A00B8
 	cry2 Cry_Tropius  @ 86A00C4
 	cry2 Cry_Wailmer  @ 86A00D0

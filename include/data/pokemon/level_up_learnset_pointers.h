@@ -309,7 +309,7 @@ const u16 *const gLevelUpLearnsets[] =
     gShedinjaLevelUpLearnset,
     gTaillowLevelUpLearnset,
     gSwellowLevelUpLearnset,
-    gShroomishLevelUpLearnset,
+    gSlavishLevelUpLearnset,
     gBreloomLevelUpLearnset,
     gSpindaLevelUpLearnset,
     gWingullLevelUpLearnset,

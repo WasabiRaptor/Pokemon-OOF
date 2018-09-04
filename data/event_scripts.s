@@ -5395,7 +5395,7 @@ gUnknown_0827ED18:: @ 27ED18
 	.string "POOCHYENA$"
 
 gUnknown_0827ED22:: @ 27ED22
-	.string "SHROOMISH$"
+	.string "SLAVISH$"
 
 gUnknown_0827ED2C:: @ 27ED2C
 	.string "ZIGZAGOON$"

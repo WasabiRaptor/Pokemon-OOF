@@ -334,7 +334,7 @@ PetalburgWoods_Text_22E332: @ 822E332
 
 PetalburgWoods_Text_22E34F: @ 822E34F
 	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
+	.string "called SLAVISH around here?\p"
 	.string "I really love that POKéMON.$"
 
 PetalburgWoods_Text_22E3AA: @ 822E3AA

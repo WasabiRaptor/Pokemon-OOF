@@ -1708,10 +1708,10 @@ gMasquerainPokedexText:: @ 8567AC8
 	.string "fly if its wings get wet, it shelters itself\n"
 	.string "from rain under large trees and eaves.$"
 
-gShroomishPokedexText:: @ 8567B72
+gSlavishPokedexText:: @ 8567B72
 	.string "It loves to eat damp, composted soil in\n"
 	.string "forests. If you enter a forest after a\n"
-	.string "long rain, you can see many SHROOMISH\n"
+	.string "long rain, you can see many SLAVISH\n"
 	.string "feasting on composted soil.$"
 
 gBreloomPokedexText:: @ 8567C03

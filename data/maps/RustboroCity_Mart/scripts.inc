@@ -72,7 +72,7 @@ RustboroCity_Mart_EventScript_214F86:: @ 8214F86
 RustboroCity_Mart_Text_214F8F: @ 8214F8F
 	.string "I’m buying some PARLYZ HEALS and\n"
 	.string "ANTIDOTES.\p"
-	.string "Just in case I run into SHROOMISH\n"
+	.string "Just in case I run into SLAVISH\n"
 	.string "in PETALBURG WOODS.$"
 
 RustboroCity_Mart_Text_214FF1: @ 8214FF1

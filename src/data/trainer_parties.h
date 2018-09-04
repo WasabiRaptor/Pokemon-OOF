@@ -387,7 +387,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Daisy[] = {
 	{
 	.iv = 0,
 	.lvl = 14,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -405,7 +405,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Rose1[] = {
 	{
 	.iv = 0,
 	.lvl = 14,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -446,7 +446,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Rose2[] = {
 	{
 	.iv = 10,
 	.lvl = 26,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 10,
@@ -459,7 +459,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Rose3[] = {
 	{
 	.iv = 20,
 	.lvl = 28,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 20,
@@ -477,7 +477,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Rose4[] = {
 	{
 	.iv = 30,
 	.lvl = 31,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 30,
@@ -1569,7 +1569,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Sheila[] = {
 	{
 	.iv = 0,
 	.lvl = 21,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -2630,7 +2630,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Autumn[] = {
 	{
 	.iv = 0,
 	.lvl = 21,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -3707,7 +3707,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Karen1[] = {
 	{
 	.iv = 10,
 	.lvl = 9,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -3715,7 +3715,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Georgia[] = {
 	{
 	.iv = 10,
 	.lvl = 16,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 10,
@@ -3728,7 +3728,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Karen2[] = {
 	{
 	.iv = 20,
 	.lvl = 26,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 20,
@@ -3741,7 +3741,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Karen3[] = {
 	{
 	.iv = 30,
 	.lvl = 29,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 30,
@@ -6132,7 +6132,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Diana1[] = {
 	{
 	.iv = 0,
 	.lvl = 19,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -6159,7 +6159,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Irene[] = {
 	{
 	.iv = 0,
 	.lvl = 17,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -6172,7 +6172,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Diana2[] = {
 	{
 	.iv = 10,
 	.lvl = 25,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 10,
@@ -6315,7 +6315,7 @@ const struct TrainerMonNoItemCustomMoves gTrainerParty_GinaAndMia2[] = {
 	{
 	.iv = 0,
 	.lvl = 10,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	.moves = MOVE_SUCC, MOVE_LEECH_SEED, MOVE_NONE, MOVE_NONE
 	}
 };
@@ -7242,7 +7242,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Lydia1[] = {
 	{
 	.iv = 0,
 	.lvl = 11,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -7296,7 +7296,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Lydia2[] = {
 	{
 	.iv = 10,
 	.lvl = 22,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 10,
@@ -8000,7 +8000,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Tiana[] = {
 	{
 	.iv = 0,
 	.lvl = 4,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -8013,7 +8013,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Haley1[] = {
 	{
 	.iv = 0,
 	.lvl = 6,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -8034,7 +8034,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Vivi[] = {
 	{
 	.iv = 100,
 	.lvl = 15,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 100,
@@ -8052,7 +8052,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Haley2[] = {
 	{
 	.iv = 10,
 	.lvl = 26,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -8117,7 +8117,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Robin[] = {
 	{
 	.iv = 0,
 	.lvl = 14,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -9534,7 +9534,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Bianca[] = {
 	{
 	.iv = 0,
 	.lvl = 18,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	}
 };
 
@@ -9992,7 +9992,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Shayla[] = {
 	{
 	.iv = 0,
 	.lvl = 18,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -10083,7 +10083,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Johnson[] = {
 	{
 	.iv = 0,
 	.lvl = 8,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 0,
@@ -10235,7 +10235,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Pat[] = {
 	{
 	.iv = 10,
 	.lvl = 25,
-	.species = SPECIES_SHROOMISH,
+	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 10,

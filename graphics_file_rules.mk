@@ -433,7 +433,7 @@ $(RAYQUAZAGFXDIR)/rayquaza_chase.4bpp: %.4bpp: %.png
 graphics/picture_frame/frame5.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 86
 
-$(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/shroomish.4bpp \
+$(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/slavish.4bpp \
 									  $(ROULETTEGFXDIR)/tailow.4bpp
 	@cat $^ >$@
 

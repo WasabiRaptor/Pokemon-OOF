@@ -322,7 +322,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     372,  // Shelgon
      90,  // Shellder
     275,  // Shiftry
-    285,  // Shroomish
+    285,  // Slavish
     213,  // Shuckle
     353,  // Shuppet
     266,  // Silcoon
@@ -465,7 +465,7 @@ const u16 gPokedexOrder_Weight[] =
     311,  // Plusle
      52,  // Meowth
     312,  // Minun
-    285,  // Shroomish
+    285,  // Slavish
     251,  // Celebi
     222,  // Corsola
     252,  // Treecko
@@ -848,7 +848,7 @@ const u16 gPokedexOrder_Height[] =
     182,  // Bellossom
     316,  // Gulpin
     263,  // Zigzagoon
-    285,  // Shroomish
+    285,  // Slavish
     138,  // Omanyte
     331,  // Cacnea
      98,  // Krabby

@@ -331,7 +331,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Shedinja,
     gMonIcon_Taillow,
     gMonIcon_Swellow,
-    gMonIcon_Shroomish,
+    gMonIcon_Slavish,
     gMonIcon_Breloom,
     gMonIcon_Spinda,
     gMonIcon_Wingull,
@@ -775,7 +775,7 @@ const u8 gMonIconPaletteIndices[] =
     1, // Shedinja
     2, // Taillow
     2, // Swellow
-    1, // Shroomish
+    1, // Slavish
     1, // Breloom
     1, // Spinda
     0, // Wingull

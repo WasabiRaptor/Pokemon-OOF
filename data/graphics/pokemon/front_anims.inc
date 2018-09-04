@@ -2959,7 +2959,7 @@ gAnimCmd_SWELLOW_1:: @ 8307E4C
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_SHROOMISH_1:: @ 8307E5C
+gAnimCmd_SLAVISH_1:: @ 8307E5C
     obj_image_anim_frame 0, 6
     obj_image_anim_frame 1, 6
     obj_image_anim_frame 0, 6
@@ -5786,9 +5786,9 @@ gAnims_SWELLOW:: @ 8309634
     .4byte gAnimCmd_SWELLOW_1
 
 	.align 2
-gAnims_SHROOMISH:: @ 830963C
+gAnims_SLAVISH:: @ 830963C
     .4byte gAnimCmd_General_Frame0
-    .4byte gAnimCmd_SHROOMISH_1
+    .4byte gAnimCmd_SLAVISH_1
 
 	.align 2
 gAnims_BRELOOM:: @ 8309644
@@ -6779,7 +6779,7 @@ gMonAnimationsSpriteAnimsPtrTable:: @ 8309AAC
     .4byte gAnims_SHEDINJA
     .4byte gAnims_TAILLOW
     .4byte gAnims_SWELLOW
-    .4byte gAnims_SHROOMISH
+    .4byte gAnims_SLAVISH
     .4byte gAnims_BRELOOM
     .4byte gAnims_SPINDA
     .4byte gAnims_WINGULL

@@ -489,7 +489,7 @@ static const u8 sSpeciesToBackAnimSet[] =
     0x14, // SPECIES_SHEDINJA
     0x12, // SPECIES_TAILLOW
     0x15, // SPECIES_SWELLOW
-    0x13, // SPECIES_SHROOMISH
+    0x13, // SPECIES_SLAVISH
     0x15, // SPECIES_BRELOOM
     0x07, // SPECIES_SPINDA
     0x11, // SPECIES_WINGULL

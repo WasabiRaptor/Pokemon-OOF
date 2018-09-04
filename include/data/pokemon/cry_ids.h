@@ -32,7 +32,7 @@ const u16 gSpeciesIdToCryId[] =
     303, // SHEDINJA
     266, // TAILLOW
     267, // SWELLOW
-    374, // SHROOMISH
+    374, // SLAVISH
     373, // BRELOOM
     269, // SPINDA
     280, // WINGULL

@@ -472,7 +472,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     0x1c, // SPECIES_SHEDINJA
     0x1e, // SPECIES_TAILLOW
     0x01, // SPECIES_SWELLOW
-    0x00, // SPECIES_SHROOMISH
+    0x00, // SPECIES_SLAVISH
     0x00, // SPECIES_BRELOOM
     0x31, // SPECIES_SPINDA
     0x1b, // SPECIES_WINGULL
@@ -887,7 +887,7 @@ static const u8 sMonAnimationDelayTable[] =
     0x00, // SPECIES_SHEDINJA
     0x00, // SPECIES_TAILLOW
     0x00, // SPECIES_SWELLOW
-    0x00, // SPECIES_SHROOMISH
+    0x00, // SPECIES_SLAVISH
     0x00, // SPECIES_BRELOOM
     0x00, // SPECIES_SPINDA
     0x00, // SPECIES_WINGULL

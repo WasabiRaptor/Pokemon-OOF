@@ -29,7 +29,7 @@ gSpeciesIdToCryId:: @ 831F61C
 	.2byte 303 @ SHEDINJA
 	.2byte 266 @ TAILLOW
 	.2byte 267 @ SWELLOW
-	.2byte 374 @ SHROOMISH
+	.2byte 374 @ SLAVISH
 	.2byte 373 @ BRELOOM
 	.2byte 269 @ SPINDA
 	.2byte 280 @ WINGULL

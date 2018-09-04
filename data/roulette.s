@@ -164,7 +164,7 @@ RouletteSpritePalette_05: @ 85B64D0
 
 	.align 2
 RouletteSpritePalette_06: @ 85B64F0
-	.incbin "graphics/roulette/shroomish.gbapal"
+	.incbin "graphics/roulette/slavish.gbapal"
 
 	.align 2
 RouletteSpritePalette_07: @ 85B6510

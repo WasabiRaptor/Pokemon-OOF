@@ -306,7 +306,7 @@ gMonShinyPaletteTable:: @ 8304438
 	obj_pal gMonShinyPalette_Shedinja, 803
 	obj_pal gMonShinyPalette_Taillow, 804
 	obj_pal gMonShinyPalette_Swellow, 805
-	obj_pal gMonShinyPalette_Shroomish, 806
+	obj_pal gMonShinyPalette_Slavish, 806
 	obj_pal gMonShinyPalette_Breloom, 807
 	obj_pal gMonShinyPalette_Spinda, 808
 	obj_pal gMonShinyPalette_Wingull, 809
