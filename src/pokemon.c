@@ -258,9 +258,9 @@ static const u8 sMonFrontAnimIdsTable[] =
     0x30, // SPECIES_MUK
     0x12, // SPECIES_SHELLDER
     0x1d, // SPECIES_CLOYSTER
-    0x15, // SPECIES_GASTLY
-    0x35, // SPECIES_HAUNTER
-    0x3a, // SPECIES_GENGAR
+    0x53, // SPECIES_GASTLY
+    0x53, // SPECIES_HAUNTER
+    0x53, // SPECIES_GENGAR
     0x43, // SPECIES_ONIX
     0x4f, // SPECIES_DROWZEE
     0x09, // SPECIES_HYPNO
