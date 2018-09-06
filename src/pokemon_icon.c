@@ -428,7 +428,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Metagross,
     gMonIcon_Regirock,
     gMonIcon_Regice,
-    gMonIcon_Registeel,
+    gMonIcon_Reggie,
     gMonIcon_Kyogre,
     gMonIcon_Groudon,
     gMonIcon_Rayquaza,
@@ -872,7 +872,7 @@ const u8 gMonIconPaletteIndices[] =
     0, // Metagross
     2, // Regirock
     2, // Regice
-    2, // Registeel
+    2, // Reggie
     2, // Kyogre
     0, // Groudon
     1, // Rayquaza

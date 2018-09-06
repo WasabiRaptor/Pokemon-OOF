@@ -759,7 +759,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "ICEBERG$", 12
 	pokedex_entry  18, 1750,	 gRegicePokedexText, 256,   0,  301,  2
 	.string "IRON$", 12
-	pokedex_entry  19, 2050,  gRegisteelPokedexText, 256,   0,  359,  6
+	pokedex_entry  19, 2050,  gReggiePokedexText, 256,   0,  359,  6
 	.string "EON$", 12
 	pokedex_entry  14,  400,	 gLatiasPokedexText, 304,   3,  256,  0
 	.string "EON$", 12

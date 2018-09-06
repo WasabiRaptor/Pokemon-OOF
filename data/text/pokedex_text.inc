@@ -2272,7 +2272,7 @@ gRegicePokedexText:: @ 856B0B9
 	.string "believe the ice was formed during an\n"
 	.string "ice age.$"
 
-gRegisteelPokedexText:: @ 856B136
+gReggiePokedexText:: @ 856B136
 	.string "Its body is harder than any other kind of\n"
 	.string "metal. The body metal is composed of a\n"
 	.string "mysterious substance. Not only is it hard,\n"

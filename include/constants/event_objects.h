@@ -187,7 +187,7 @@
 #define EVENT_OBJ_GFX_BIG_WAILMER_DOLL           183
 #define EVENT_OBJ_GFX_BIG_REGIROCK_DOLL          184
 #define EVENT_OBJ_GFX_BIG_REGICE_DOLL            185
-#define EVENT_OBJ_GFX_BIG_REGISTEEL_DOLL         186
+#define EVENT_OBJ_GFX_BIG_REGGIE_DOLL         186
 #define EVENT_OBJ_GFX_LATIAS                     187
 #define EVENT_OBJ_GFX_LATIOS                     188
 #define EVENT_OBJ_GFX_BOY_5                      189
@@ -203,7 +203,7 @@
 #define EVENT_OBJ_GFX_FOSSIL                     199
 #define EVENT_OBJ_GFX_REGIROCK                   200
 #define EVENT_OBJ_GFX_REGICE                     201
-#define EVENT_OBJ_GFX_REGISTEEL                  202
+#define EVENT_OBJ_GFX_REGGIE                  202
 #define EVENT_OBJ_GFX_SKITTY                     203
 #define EVENT_OBJ_GFX_KECLEON_1                  204
 #define EVENT_OBJ_GFX_KYOGRE_2                   205

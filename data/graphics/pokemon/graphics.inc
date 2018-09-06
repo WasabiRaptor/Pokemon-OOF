@@ -9079,28 +9079,28 @@ gMonFootprint_Regice:: @ 8D354E4
 	.incbin "graphics/pokemon/footprints/regice_footprint.1bpp"
 
 	.align 2
-gMonStillFrontPic_Registeel:: @ 8D35504
-	.incbin "graphics/pokemon/front_pics/registeel_still_front_pic.4bpp.lz"
+gMonStillFrontPic_Reggie:: @ 8D35504
+	.incbin "graphics/pokemon/front_pics/reggie_still_front_pic.4bpp.lz"
 
 	.align 2
-gMonPalette_Registeel:: @ 8D3598C
-	.incbin "graphics/pokemon/palettes/registeel_palette.gbapal.lz"
+gMonPalette_Reggie:: @ 8D3598C
+	.incbin "graphics/pokemon/palettes/reggie_palette.gbapal.lz"
 
 	.align 2
-gMonBackPic_Registeel:: @ 8D359B4
-	.incbin "graphics/pokemon/back_pics/registeel_back_pic.4bpp.lz"
+gMonBackPic_Reggie:: @ 8D359B4
+	.incbin "graphics/pokemon/back_pics/reggie_back_pic.4bpp.lz"
 
 	.align 2
-gMonShinyPalette_Registeel:: @ 8D35CEC
-	.incbin "graphics/pokemon/palettes/registeel_shiny_palette.gbapal.lz"
+gMonShinyPalette_Reggie:: @ 8D35CEC
+	.incbin "graphics/pokemon/palettes/reggie_shiny_palette.gbapal.lz"
 
 	.align 2
-gMonIcon_Registeel:: @ 8D35D14
-	.incbin "graphics/pokemon/icons/registeel_icon.4bpp"
+gMonIcon_Reggie:: @ 8D35D14
+	.incbin "graphics/pokemon/icons/reggie_icon.4bpp"
 
 	.align 2
-gMonFootprint_Registeel:: @ 8D36114
-	.incbin "graphics/pokemon/footprints/registeel_footprint.1bpp"
+gMonFootprint_Reggie:: @ 8D36114
+	.incbin "graphics/pokemon/footprints/reggie_footprint.1bpp"
 
 	.align 2
 gMonStillFrontPic_Kyogre:: @ 8D36134

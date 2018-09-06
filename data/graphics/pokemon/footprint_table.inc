@@ -403,7 +403,7 @@ gMonFootprintTable:: @ 856E694
 	.4byte gMonFootprint_Metagross
 	.4byte gMonFootprint_Regirock
 	.4byte gMonFootprint_Regice
-	.4byte gMonFootprint_Registeel
+	.4byte gMonFootprint_Reggie
 	.4byte gMonFootprint_Kyogre
 	.4byte gMonFootprint_Groudon
 	.4byte gMonFootprint_Rayquaza

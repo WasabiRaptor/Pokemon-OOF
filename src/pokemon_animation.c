@@ -586,7 +586,7 @@ static const u8 sSpeciesToBackAnimSet[] =
     0x09, // SPECIES_METAGROSS
     0x09, // SPECIES_REGIROCK
     0x09, // SPECIES_REGICE
-    0x09, // SPECIES_REGISTEEL
+    0x09, // SPECIES_REGGIE
     0x19, // SPECIES_KYOGRE
     0x17, // SPECIES_GROUDON
     0x0d, // SPECIES_RAYQUAZA

@@ -1521,8 +1521,8 @@ gMonFrontPic_Regice:: @ 8B8F1E8
 	.incbin "graphics/pokemon/anim_front_pics/regice_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Registeel:: @ 8B8F994
-	.incbin "graphics/pokemon/anim_front_pics/registeel_front_pic.4bpp.lz"
+gMonFrontPic_Reggie:: @ 8B8F994
+	.incbin "graphics/pokemon/anim_front_pics/reggie_front_pic.4bpp.lz"
 
 	.align 2
 gMonFrontPic_Kyogre:: @ 8B90170

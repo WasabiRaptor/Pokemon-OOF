@@ -1807,8 +1807,8 @@ Cry_Regice:: @ 88AAC78
 	.incbin "sound/direct_sound_samples/cry_regice.bin"
 
 	.align 2
-Cry_Registeel:: @ 88ACC78
-	.incbin "sound/direct_sound_samples/cry_registeel.bin"
+Cry_Reggie:: @ 88ACC78
+	.incbin "sound/direct_sound_samples/cry_reggie.bin"
 
 	.align 2
 Cry_Castform:: @ 88AE37C

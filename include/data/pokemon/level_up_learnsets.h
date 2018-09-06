@@ -5489,7 +5489,7 @@ const u16 gRegiceLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-const u16 gRegisteelLevelUpLearnset[] = {
+const u16 gReggieLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
     LEVEL_UP_MOVE( 9, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE(17, MOVE_CURSE),

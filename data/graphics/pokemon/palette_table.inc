@@ -403,7 +403,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Metagross, 400
 	obj_pal gMonPalette_Regirock, 401
 	obj_pal gMonPalette_Regice, 402
-	obj_pal gMonPalette_Registeel, 403
+	obj_pal gMonPalette_Reggie, 403
 	obj_pal gMonPalette_Kyogre, 404
 	obj_pal gMonPalette_Groudon, 405
 	obj_pal gMonPalette_Rayquaza, 406

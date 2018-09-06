@@ -403,7 +403,7 @@ gMonBackPicTable:: @ 83028B8
 	obj_tiles gMonBackPic_Metagross, 0x800, 400
 	obj_tiles gMonBackPic_Regirock, 0x800, 401
 	obj_tiles gMonBackPic_Regice, 0x800, 402
-	obj_tiles gMonBackPic_Registeel, 0x800, 403
+	obj_tiles gMonBackPic_Reggie, 0x800, 403
 	obj_tiles gMonBackPic_Kyogre, 0x800, 404
 	obj_tiles gMonBackPic_Groudon, 0x800, 405
 	obj_tiles gMonBackPic_Rayquaza, 0x800, 406

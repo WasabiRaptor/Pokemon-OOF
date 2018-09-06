@@ -14394,7 +14394,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Shelgon  @ 869ED74
 	cry Cry_Regirock  @ 869ED80
 	cry Cry_Regice  @ 869ED8C
-	cry Cry_Registeel  @ 869ED98
+	cry Cry_Reggie  @ 869ED98
 	cry Cry_Castform  @ 869EDA4
 	cry Cry_Volbeat  @ 869EDB0
 	cry Cry_Illumise  @ 869EDBC
@@ -14785,7 +14785,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Shelgon  @ 869FFA4
 	cry2 Cry_Regirock  @ 869FFB0
 	cry2 Cry_Regice  @ 869FFBC
-	cry2 Cry_Registeel  @ 869FFC8
+	cry2 Cry_Reggie  @ 869FFC8
 	cry2 Cry_Castform  @ 869FFD4
 	cry2 Cry_Volbeat  @ 869FFE0
 	cry2 Cry_Illumise  @ 869FFEC

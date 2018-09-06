@@ -187,7 +187,7 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigBlastoiseDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigWailmerDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegirockDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegiceDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegisteelDoll;
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigReggieDoll;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Latias;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Latios;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Boy5;
@@ -203,7 +203,7 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Groudon1;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Fossil;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Regirock;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Regice;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Registeel;
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Reggie;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Skitty;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kecleon1;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kyogre2;
@@ -436,7 +436,7 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
 	&gEventObjectGraphicsInfo_BigWailmerDoll,
 	&gEventObjectGraphicsInfo_BigRegirockDoll,
 	&gEventObjectGraphicsInfo_BigRegiceDoll,
-	&gEventObjectGraphicsInfo_BigRegisteelDoll,
+	&gEventObjectGraphicsInfo_BigReggieDoll,
 	&gEventObjectGraphicsInfo_Latias,
 	&gEventObjectGraphicsInfo_Latios,
 	&gEventObjectGraphicsInfo_Boy5,
@@ -452,7 +452,7 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
 	&gEventObjectGraphicsInfo_Fossil,
 	&gEventObjectGraphicsInfo_Regirock,
 	&gEventObjectGraphicsInfo_Regice,
-	&gEventObjectGraphicsInfo_Registeel,
+	&gEventObjectGraphicsInfo_Reggie,
 	&gEventObjectGraphicsInfo_Skitty,
 	&gEventObjectGraphicsInfo_Kecleon1,
 	&gEventObjectGraphicsInfo_Kyogre2,

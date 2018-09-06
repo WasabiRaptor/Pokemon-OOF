@@ -403,7 +403,7 @@ gMonShinyPaletteTable:: @ 8304438
 	obj_pal gMonShinyPalette_Metagross, 900
 	obj_pal gMonShinyPalette_Regirock, 901
 	obj_pal gMonShinyPalette_Regice, 902
-	obj_pal gMonShinyPalette_Registeel, 903
+	obj_pal gMonShinyPalette_Reggie, 903
 	obj_pal gMonShinyPalette_Kyogre, 904
 	obj_pal gMonShinyPalette_Groudon, 905
 	obj_pal gMonShinyPalette_Rayquaza, 906

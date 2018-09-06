@@ -404,7 +404,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_METAGROSS
 	.byte  0 @ SPECIES_REGIROCK
 	.byte  0 @ SPECIES_REGICE
-	.byte  0 @ SPECIES_REGISTEEL
+	.byte  0 @ SPECIES_REGGIE
 	.byte  0 @ SPECIES_KYOGRE
 	.byte  0 @ SPECIES_GROUDON
 	.byte  6 @ SPECIES_RAYQUAZA

@@ -569,7 +569,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     0x10, // SPECIES_METAGROSS
     0x01, // SPECIES_REGIROCK
     0x44, // SPECIES_REGICE
-    0x09, // SPECIES_REGISTEEL
+    0x09, // SPECIES_REGGIE
     0x2d, // SPECIES_KYOGRE
     0x10, // SPECIES_GROUDON
     0x0f, // SPECIES_RAYQUAZA
@@ -984,7 +984,7 @@ static const u8 sMonAnimationDelayTable[] =
     0x00, // SPECIES_METAGROSS
     0x00, // SPECIES_REGIROCK
     0x00, // SPECIES_REGICE
-    0x00, // SPECIES_REGISTEEL
+    0x00, // SPECIES_REGGIE
     0x3c, // SPECIES_KYOGRE
     0x00, // SPECIES_GROUDON
     0x3c, // SPECIES_RAYQUAZA

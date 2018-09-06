@@ -1087,14 +1087,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_REGICE_DOLL,
         DecorGfx_REGICE_DOLL
     }, {
-        DECOR_REGISTEEL_DOLL,
-        _("REGISTEEL DOLL"),
+        DECOR_REGGIE_DOLL,
+        _("REGGIE DOLL"),
         DECORPERM_SOLID_MAT,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_REGISTEEL_DOLL,
-        DecorGfx_REGISTEEL_DOLL}
+        DecorDesc_REGGIE_DOLL,
+        DecorGfx_REGGIE_DOLL}
 };
 
 #endif //GUARD_DATA_DECORATION_HEADER_H

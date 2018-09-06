@@ -129,7 +129,7 @@ const u16 gSpeciesIdToCryId[] =
     350, // METAGROSS
     353, // REGIROCK
     354, // REGICE
-    355, // REGISTEEL
+    355, // REGGIE
     370, // KYOGRE
     369, // GROUDON
     371, // RAYQUAZA

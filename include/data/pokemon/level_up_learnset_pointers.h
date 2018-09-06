@@ -406,7 +406,7 @@ const u16 *const gLevelUpLearnsets[] =
     gMetagrossLevelUpLearnset,
     gRegirockLevelUpLearnset,
     gRegiceLevelUpLearnset,
-    gRegisteelLevelUpLearnset,
+    gReggieLevelUpLearnset,
     gKyogreLevelUpLearnset,
     gGroudonLevelUpLearnset,
     gRayquazaLevelUpLearnset,

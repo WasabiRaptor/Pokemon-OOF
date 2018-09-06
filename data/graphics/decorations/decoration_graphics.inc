@@ -245,8 +245,8 @@ gUnknown_08DB9FFC::
 	.incbin "graphics/decorations/decor_regirock_doll.gbapal.lz"
 
 gUnknown_08DBA020::
-	.incbin "graphics/decorations/decor_registeel_doll.4bpp.lz"
+	.incbin "graphics/decorations/decor_reggie_doll.4bpp.lz"
 
 gUnknown_08DBA12C::
-	.incbin "graphics/decorations/decor_registeel_doll.gbapal.lz"
+	.incbin "graphics/decorations/decor_reggie_doll.gbapal.lz"
 

@@ -1616,8 +1616,8 @@ const struct SpriteFrameImage gEventObjectPicTable_BigRegiceDoll[] = {
     obj_frame_tiles(gEventObjectPic_BigRegiceDoll),
 };
 
-const struct SpriteFrameImage gEventObjectPicTable_BigRegisteelDoll[] = {
-    obj_frame_tiles(gEventObjectPic_BigRegisteelDoll),
+const struct SpriteFrameImage gEventObjectPicTable_BigReggieDoll[] = {
+    obj_frame_tiles(gEventObjectPic_BigReggieDoll),
 };
 
 const struct SpriteFrameImage gEventObjectPicTable_LatiasLatios[] = {

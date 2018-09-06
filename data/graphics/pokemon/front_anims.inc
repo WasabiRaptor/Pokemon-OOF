@@ -3981,7 +3981,7 @@ gAnimCmd_REGICE_1:: @ 8308944
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_REGISTEEL_1:: @ 830895C
+gAnimCmd_REGGIE_1:: @ 830895C
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 10
@@ -3990,7 +3990,7 @@ gAnimCmd_REGISTEEL_1:: @ 830895C
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_REGISTEEL_2:: @ 8308974
+gAnimCmd_REGGIE_2:: @ 8308974
     obj_image_anim_frame 0, 20
     obj_image_anim_frame 2, 20
     obj_image_anim_frame 0, 20
@@ -6279,10 +6279,10 @@ gAnims_REGICE:: @ 830995C
     .4byte gAnimCmd_REGICE_1
 
 	.align 2
-gAnims_REGISTEEL:: @ 8309964
+gAnims_REGGIE:: @ 8309964
     .4byte gAnimCmd_General_Frame0
-    .4byte gAnimCmd_REGISTEEL_1
-    .4byte gAnimCmd_REGISTEEL_2
+    .4byte gAnimCmd_REGGIE_1
+    .4byte gAnimCmd_REGGIE_2
 
 	.align 2
 gAnims_KYOGRE:: @ 8309970
@@ -6876,7 +6876,7 @@ gMonAnimationsSpriteAnimsPtrTable:: @ 8309AAC
     .4byte gAnims_METAGROSS
     .4byte gAnims_REGIROCK
     .4byte gAnims_REGICE
-    .4byte gAnims_REGISTEEL
+    .4byte gAnims_REGGIE
     .4byte gAnims_KYOGRE
     .4byte gAnims_GROUDON
     .4byte gAnims_RAYQUAZA

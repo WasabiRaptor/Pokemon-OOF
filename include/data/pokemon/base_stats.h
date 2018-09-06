@@ -13275,7 +13275,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_REGISTEEL] =
+    [SPECIES_REGGIE] =
     {
         .baseHP        = 80,
         .baseAttack    = 75,

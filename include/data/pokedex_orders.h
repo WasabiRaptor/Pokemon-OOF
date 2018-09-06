@@ -297,7 +297,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     384,  // Rayquaza
     378,  // Regice
     377,  // Regirock
-    379,  // Registeel
+    379,  // Reggie
     369,  // Relicanth
     223,  // Remoraid
     112,  // Rhydon
@@ -784,7 +784,7 @@ const u16 gPokedexOrder_Weight[] =
     250,  // Ho-Oh
     248,  // Tyranitar
     375,  // Metang
-    379,  // Registeel
+    379,  // Reggie
     384,  // Rayquaza
      95,  // Onix
     149,  // Dragonite
@@ -1158,7 +1158,7 @@ const u16 gPokedexOrder_Height[] =
     257,  // Blaziken
     323,  // Camerupt
     112,  // Rhydon
-    379,  // Registeel
+    379,  // Reggie
      23,  // Ekans
     330,  // Flygon
     357,  // Tropius

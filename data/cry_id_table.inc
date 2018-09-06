@@ -126,7 +126,7 @@ gSpeciesIdToCryId:: @ 831F61C
 	.2byte 350 @ METAGROSS
 	.2byte 353 @ REGIROCK
 	.2byte 354 @ REGICE
-	.2byte 355 @ REGISTEEL
+	.2byte 355 @ REGGIE
 	.2byte 370 @ KYOGRE
 	.2byte 369 @ GROUDON
 	.2byte 371 @ RAYQUAZA

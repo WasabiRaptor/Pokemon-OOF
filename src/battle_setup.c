@@ -570,8 +570,8 @@ void StartRegiBattle(void)
     case SPECIES_REGICE:
         transitionId = B_TRANSITION_REGICE;
         break;
-    case SPECIES_REGISTEEL:
-        transitionId = B_TRANSITION_REGISTEEL;
+    case SPECIES_REGGIE:
+        transitionId = B_TRANSITION_REGGIE;
         break;
     default:
         transitionId = B_TRANSITION_GRID_SQUARES;
