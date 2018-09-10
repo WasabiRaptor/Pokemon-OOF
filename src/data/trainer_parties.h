@@ -3505,7 +3505,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Norman1[] = {
 	}
 };
 
-const struct TrainerMonItemCustomMoves gTrainerParty_Winona1[] = {
+const struct TrainerMonItemCustomMoves gTrainerParty_Nhoj1[] = {
 	{
 	.iv = 210,
 	.lvl = 29,
@@ -11058,7 +11058,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Norman5[] = {
 	}
 };
 
-const struct TrainerMonItemCustomMoves gTrainerParty_Winona2[] = {
+const struct TrainerMonItemCustomMoves gTrainerParty_Nhoj2[] = {
 	{
 	.iv = 255,
 	.lvl = 40,
@@ -11096,7 +11096,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Winona2[] = {
 	}
 };
 
-const struct TrainerMonItemCustomMoves gTrainerParty_Winona3[] = {
+const struct TrainerMonItemCustomMoves gTrainerParty_Nhoj3[] = {
 	{
 	.iv = 255,
 	.lvl = 43,
@@ -11141,7 +11141,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Winona3[] = {
 	}
 };
 
-const struct TrainerMonItemCustomMoves gTrainerParty_Winona4[] = {
+const struct TrainerMonItemCustomMoves gTrainerParty_Nhoj4[] = {
 	{
 	.iv = 255,
 	.lvl = 48,
@@ -11186,7 +11186,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Winona4[] = {
 	}
 };
 
-const struct TrainerMonItemCustomMoves gTrainerParty_Winona5[] = {
+const struct TrainerMonItemCustomMoves gTrainerParty_Nhoj5[] = {
 	{
 	.iv = 255,
 	.lvl = 53,

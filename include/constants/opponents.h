@@ -271,7 +271,7 @@
 #define TRAINER_WATTSON_1       267
 #define TRAINER_FLANNERY_1      268
 #define TRAINER_NORMAN_1        269
-#define TRAINER_WINONA_1        270
+#define TRAINER_NHOJ_1        270
 #define TRAINER_TATE_AND_LIZA_1 271
 #define TRAINER_JUAN_1          272
 #define TRAINER_JERRY_1         273
@@ -791,10 +791,10 @@
 #define TRAINER_NORMAN_3        787
 #define TRAINER_NORMAN_4        788
 #define TRAINER_NORMAN_5        789
-#define TRAINER_WINONA_2        790
-#define TRAINER_WINONA_3        791
-#define TRAINER_WINONA_4        792
-#define TRAINER_WINONA_5        793
+#define TRAINER_NHOJ_2        790
+#define TRAINER_NHOJ_3        791
+#define TRAINER_NHOJ_4        792
+#define TRAINER_NHOJ_5        793
 #define TRAINER_TATE_AND_LIZA_2 794
 #define TRAINER_TATE_AND_LIZA_3 795
 #define TRAINER_TATE_AND_LIZA_4 796

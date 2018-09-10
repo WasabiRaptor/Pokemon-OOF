@@ -277,11 +277,11 @@ extern const u8 gText_Flannery_Pokenav_2B2C0E[];
 extern const u8 gText_Flannery_Pokenav_2B2CF1[];
 extern const u8 gText_Flannery_Pokenav_2B2D54[];
 extern const u8 gFlanneryMatchCallDesc[];
-extern const u8 gText_Winona_Pokenav_2B2DA4[];
-extern const u8 gText_Winona_Pokenav_2B2E2B[];
-extern const u8 gText_Winona_Pokenav_2B2EC2[];
-extern const u8 gText_Winona_Pokenav_2B2F16[];
-extern const u8 gWinonaMatchCallDesc[];
+extern const u8 gText_Nhoj_Pokenav_2B2DA4[];
+extern const u8 gText_Nhoj_Pokenav_2B2E2B[];
+extern const u8 gText_Nhoj_Pokenav_2B2EC2[];
+extern const u8 gText_Nhoj_Pokenav_2B2F16[];
+extern const u8 gNhojMatchCallDesc[];
 extern const u8 gText_TateLiza_Pokenav_2B2F97[];
 extern const u8 gText_TateLiza_Pokenav_2B306E[];
 extern const u8 gText_TateLiza_Pokenav_2B3158[];
@@ -487,15 +487,15 @@ static const match_call_text_data_t sFlanneryTextScripts[] = {
 
 MATCHCALLDEF(sFlanneryMatchCallHeader, 5, 3, FLAG_0x1D6, 0x44, gFlanneryMatchCallDesc, NULL, sFlanneryTextScripts);
 
-static const match_call_text_data_t sWinonaTextScripts[] = {
-    { gText_Winona_Pokenav_2B2DA4, 0xFFFE,              0xFFFF },
-    { gText_Winona_Pokenav_2B2E2B, 0xFFFF,              0xFFFF },
-    { gText_Winona_Pokenav_2B2EC2, 0xFFFF,              0xFFFF },
-    { gText_Winona_Pokenav_2B2F16, FLAG_SYS_GAME_CLEAR, 0xFFFF },
+static const match_call_text_data_t sNhojTextScripts[] = {
+    { gText_Nhoj_Pokenav_2B2DA4, 0xFFFE,              0xFFFF },
+    { gText_Nhoj_Pokenav_2B2E2B, 0xFFFF,              0xFFFF },
+    { gText_Nhoj_Pokenav_2B2EC2, 0xFFFF,              0xFFFF },
+    { gText_Nhoj_Pokenav_2B2F16, FLAG_SYS_GAME_CLEAR, 0xFFFF },
     { NULL,                        0xFFFF,              0xFFFF }
 };
 
-MATCHCALLDEF(sWinonaMatchCallHeader, 5, 11, FLAG_0x1D7, 0x46, gWinonaMatchCallDesc, NULL, sWinonaTextScripts);
+MATCHCALLDEF(sNhojMatchCallHeader, 5, 11, FLAG_0x1D7, 0x46, gNhojMatchCallDesc, NULL, sNhojTextScripts);
 
 static const match_call_text_data_t sTateLizaTextScripts[] = {
     { gText_TateLiza_Pokenav_2B2F97, 0xFFFE,              0xFFFF },
@@ -566,7 +566,7 @@ static const match_call_t sMatchCallHeaders[] = {
     {.type5 = &sBrawlyMatchCallHeader},
     {.type5 = &sWattsonMatchCallHeader},
     {.type5 = &sFlanneryMatchCallHeader},
-    {.type5 = &sWinonaMatchCallHeader},
+    {.type5 = &sNhojMatchCallHeader},
     {.type5 = &sTateLizaMatchCallHeader},
     {.type5 = &sJuanMatchCallHeader},
     {.type5 = &sSidneyMatchCallHeader},

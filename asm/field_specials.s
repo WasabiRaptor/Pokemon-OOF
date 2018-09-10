@@ -7965,7 +7965,7 @@ _0813BE84:
 	.pool
 _0813BE98:
 	ldr r0, =gStringVar1
-	ldr r1, =gText_Winona
+	ldr r1, =gText_Nhoj
 	bl StringCopy
 	b _0813BF04
 	.pool

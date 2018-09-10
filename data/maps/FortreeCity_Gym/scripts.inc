@@ -16,7 +16,7 @@ FortreeCity_Gym_EventScript_2165C4:: @ 82165C4
 	end
 
 FortreeCity_Gym_EventScript_2165C8:: @ 82165C8
-	trainerbattle 1, TRAINER_WINONA_1, 0, FortreeCity_Gym_Text_216D75, FortreeCity_Gym_Text_216E60, FortreeCity_Gym_EventScript_2165FD
+	trainerbattle 1, TRAINER_NHOJ_1, 0, FortreeCity_Gym_Text_216D75, FortreeCity_Gym_Text_216E60, FortreeCity_Gym_EventScript_2165FD
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq FortreeCity_Gym_EventScript_21668D
@@ -67,7 +67,7 @@ FortreeCity_Gym_EventScript_21666A:: @ 821666A
 	return
 
 FortreeCity_Gym_EventScript_21668D:: @ 821668D
-	trainerbattle 7, TRAINER_WINONA_1, 0, FortreeCity_Gym_Text_217100, FortreeCity_Gym_Text_2171E6, FortreeCity_Gym_Text_217292
+	trainerbattle 7, TRAINER_NHOJ_1, 0, FortreeCity_Gym_Text_217100, FortreeCity_Gym_Text_2171E6, FortreeCity_Gym_Text_217292
 	msgbox FortreeCity_Gym_Text_21720B, 6
 	end
 
@@ -142,7 +142,7 @@ FortreeCity_Gym_EventScript_21677B:: @ 821677B
 FortreeCity_Gym_Text_216785: @ 8216785
 	.string "Yo, how’s it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
+	.string "FORTREE GYM LEADER NHOJ is\n"
 	.string "a master of FLYING-type POKéMON.\p"
 	.string "She’s waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
@@ -185,32 +185,32 @@ FortreeCity_Gym_Text_2169F1: @ 82169F1
 	.string "myself even stronger.$"
 
 FortreeCity_Gym_Text_216A66: @ 8216A66
-	.string "There’s no need for WINONA, our GYM\n"
+	.string "There’s no need for NHOJ, our GYM\n"
 	.string "LEADER, to deal with you!\p"
 	.string "I’m plenty good enough for you!$"
 
 FortreeCity_Gym_Text_216AC4: @ 8216AC4
-	.string "WINONA, I…\n"
+	.string "NHOJ, I…\n"
 	.string "I lost!$"
 
 FortreeCity_Gym_Text_216AD7: @ 8216AD7
-	.string "WINONA is cute and she’s strong.\n"
+	.string "NHOJ is cute and she’s strong.\n"
 	.string "She’s the ultimate LEADER!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_216B1A: @ 8216B1A
-	.string "WINONA taught me personally!\n"
+	.string "NHOJ taught me personally!\n"
 	.string "You can’t beat me easily!$"
 
 FortreeCity_Gym_Text_216B51: @ 8216B51
 	.string "I was beaten…$"
 
 FortreeCity_Gym_Text_216B5F: @ 8216B5F
-	.string "Thanks to WINONA, the people of\n"
+	.string "Thanks to NHOJ, the people of\n"
 	.string "FORTREE can live without fear.$"
 
 FortreeCity_Gym_Text_216B9E: @ 8216B9E
-	.string "When WINONA takes to battle, her face\n"
+	.string "When NHOJ takes to battle, her face\n"
 	.string "shines with beautiful determination…\p"
 	.string "I’m not letting you witness that\n"
 	.string "lovely sight!$"
@@ -221,7 +221,7 @@ FortreeCity_Gym_Text_216C18: @ 8216C18
 
 FortreeCity_Gym_Text_216C32: @ 8216C32
 	.string "You’d better watch it!\n"
-	.string "Don’t get distracted staring at WINONA\l"
+	.string "Don’t get distracted staring at NHOJ\l"
 	.string "or you’ll go crashing down in a heap!$"
 
 FortreeCity_Gym_Text_216C96: @ 8216C96
@@ -235,10 +235,10 @@ FortreeCity_Gym_Text_216CF2: @ 8216CF2
 FortreeCity_Gym_Text_216D0F: @ 8216D0F
 	.string "Sure, you beat me all right.\n"
 	.string "But you’d better watch it! Our LEADER\l"
-	.string "WINONA’s POKéMON are all business.$"
+	.string "NHOJ’s POKéMON are all business.$"
 
 FortreeCity_Gym_Text_216D75: @ 8216D75
-	.string "I am WINONA. I am the LEADER of\n"
+	.string "I am NHOJ. I am the LEADER of\n"
 	.string "the FORTREE POKéMON GYM.\p"
 	.string "I have become one with BIRD POKéMON\n"
 	.string "and have soared the skies…\p"
@@ -256,7 +256,7 @@ FortreeCity_Gym_Text_216E60: @ 8216E60
 
 FortreeCity_Gym_Text_216EEC: @ 8216EEC
 	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "from NHOJ.$"
 
 FortreeCity_Gym_Text_216F17: @ 8216F17
 	.string "With the FEATHER BADGE, all POKéMON up\n"
@@ -274,7 +274,7 @@ FortreeCity_Gym_Text_216FEC: @ 8216FEC
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_217044: @ 8217044
-	.string "Registered GYM LEADER WINONA\n"
+	.string "Registered GYM LEADER NHOJ\n"
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_217071: @ 8217071
@@ -286,11 +286,11 @@ FortreeCity_Gym_Text_2170AE: @ 82170AE
 
 FortreeCity_Gym_Text_2170C7: @ 82170C7
 	.string "FORTREE CITY POKéMON GYM\p"
-	.string "WINONA’S CERTIFIED TRAINERS:\n"
+	.string "NHOJ’S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_217100: @ 8217100
-	.string "WINONA: We humans can never escape\n"
+	.string "NHOJ: We humans can never escape\n"
 	.string "gravity’s pull on the ground.\p"
 	.string "But by striving for excellence,\n"
 	.string "we have the power to soar!\p"
@@ -303,14 +303,14 @@ FortreeCity_Gym_Text_2171E6: @ 82171E6
 	.string "I failed to reach your height again…$"
 
 FortreeCity_Gym_Text_21720B: @ 821720B
-	.string "WINONA: Even though I have lost,\n"
+	.string "NHOJ: Even though I have lost,\n"
 	.string "the wings of my heart remain unbroken.\p"
 	.string "I can rise and soar again and\n"
 	.string "yet again.\p"
 	.string "I am convinced of it!$"
 
 FortreeCity_Gym_Text_217292: @ 8217292
-	.string "WINONA: We humans can never escape\n"
+	.string "NHOJ: We humans can never escape\n"
 	.string "gravity’s pull on the ground.\p"
 	.string "But by striving for excellence,\n"
 	.string "we have the power to soar!\p"

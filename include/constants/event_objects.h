@@ -131,7 +131,7 @@
 #define EVENT_OBJ_GFX_WATTSON                    127
 #define EVENT_OBJ_GFX_FLANNERY                   128
 #define EVENT_OBJ_GFX_NORMAN                     129
-#define EVENT_OBJ_GFX_WINONA                     130
+#define EVENT_OBJ_GFX_NHOJ                     130
 #define EVENT_OBJ_GFX_LIZA                       131
 #define EVENT_OBJ_GFX_TATE                       132
 #define EVENT_OBJ_GFX_WALLACE                    133

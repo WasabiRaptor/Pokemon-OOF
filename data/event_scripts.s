@@ -9151,27 +9151,27 @@ gText_Flannery_Pokenav_2B2D54:: @ 82B2D54
 	.string "I’m positive that you keep getting\l"
 	.string "better at training every time.$"
 
-gText_Winona_Pokenav_2B2DA4:: @ 82B2DA4
-	.string "WINONA: Hello, {PLAYER}!\p"
+gText_Nhoj_Pokenav_2B2DA4:: @ 82B2DA4
+	.string "NHOJ: Hello, {PLAYER}!\p"
 	.string "Thanks to our battle, I’ve come\n"
 	.string "to understand my weak points!\p"
 	.string "When I reopen the GYM, I won’t go\n"
 	.string "down in defeat again!$"
 
-gText_Winona_Pokenav_2B2E2B:: @ 82B2E2B
-	.string "WINONA: You’ve done it, {PLAYER}!\p"
+gText_Nhoj_Pokenav_2B2E2B:: @ 82B2E2B
+	.string "NHOJ: You’ve done it, {PLAYER}!\p"
 	.string "News about the new CHAMPION\n"
 	.string "has reached us in FORTREE!\p"
 	.string "But… The next time we battle,\n"
 	.string "it’s not going to end the same way.$"
 
-gText_Winona_Pokenav_2B2EC2:: @ 82B2EC2
-	.string "WINONA: Is this {PLAYER}?\n"
+gText_Nhoj_Pokenav_2B2EC2:: @ 82B2EC2
+	.string "NHOJ: Is this {PLAYER}?\n"
 	.string "Our GYM is back in operation!\p"
 	.string "We’re waiting for you in FORTREE!$"
 
-gText_Winona_Pokenav_2B2F16:: @ 82B2F16
-	.string "WINONA: {PLAYER}…\n"
+gText_Nhoj_Pokenav_2B2F16:: @ 82B2F16
+	.string "NHOJ: {PLAYER}…\n"
 	.string "Though I have lost, my wings will\l"
 	.string "never break.\p"
 	.string "Yes, in exactly the same way that\n"

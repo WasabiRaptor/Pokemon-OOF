@@ -45,7 +45,7 @@ gTrainerFrontPicPaletteTable:: @ 830593C
 	obj_pal gTrainerPalette_LeaderWattson, 42
 	obj_pal gTrainerPalette_LeaderFlannery, 43
 	obj_pal gTrainerPalette_LeaderNorman, 44
-	obj_pal gTrainerPalette_LeaderWinona, 45
+	obj_pal gTrainerPalette_LeaderNhoj, 45
 	obj_pal gTrainerPalette_LeaderTateAndLiza, 46
 	obj_pal gTrainerPalette_LeaderJuan, 47
 	obj_pal gTrainerPalette_SchoolKidM, 48

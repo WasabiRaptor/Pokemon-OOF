@@ -107,7 +107,7 @@ FortreeCity_Text_1E2738: @ 81E2738
 
 FortreeCity_Text_1E27B6: @ 81E27B6
 	.string "I’ve got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I’ll beat WINONA.$"
+	.string "with me. This time, I’ll beat NHOJ.$"
 
 FortreeCity_Text_1E27FE: @ 81E27FE
 	.string "The ground succs rainwater, and\n"
@@ -153,7 +153,7 @@ FortreeCity_Text_1E2AAC: @ 81E2AAC
 
 FortreeCity_Text_1E2AE6: @ 81E2AE6
 	.string "FORTREE CITY POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
+	.string "LEADER: NHOJ\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

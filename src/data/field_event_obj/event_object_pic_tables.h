@@ -1290,16 +1290,16 @@ const struct SpriteFrameImage gEventObjectPicTable_Norman[] = {
     obj_frame_tiles(gEventObjectPic_Norman_8),
 };
 
-const struct SpriteFrameImage gEventObjectPicTable_Winona[] = {
-    obj_frame_tiles(gEventObjectPic_Winona_0),
-    obj_frame_tiles(gEventObjectPic_Winona_1),
-    obj_frame_tiles(gEventObjectPic_Winona_2),
-    obj_frame_tiles(gEventObjectPic_Winona_0),
-    obj_frame_tiles(gEventObjectPic_Winona_0),
-    obj_frame_tiles(gEventObjectPic_Winona_1),
-    obj_frame_tiles(gEventObjectPic_Winona_1),
-    obj_frame_tiles(gEventObjectPic_Winona_2),
-    obj_frame_tiles(gEventObjectPic_Winona_2),
+const struct SpriteFrameImage gEventObjectPicTable_Nhoj[] = {
+    obj_frame_tiles(gEventObjectPic_Nhoj_0),
+    obj_frame_tiles(gEventObjectPic_Nhoj_1),
+    obj_frame_tiles(gEventObjectPic_Nhoj_2),
+    obj_frame_tiles(gEventObjectPic_Nhoj_0),
+    obj_frame_tiles(gEventObjectPic_Nhoj_0),
+    obj_frame_tiles(gEventObjectPic_Nhoj_1),
+    obj_frame_tiles(gEventObjectPic_Nhoj_1),
+    obj_frame_tiles(gEventObjectPic_Nhoj_2),
+    obj_frame_tiles(gEventObjectPic_Nhoj_2),
 };
 
 const struct SpriteFrameImage gEventObjectPicTable_Liza[] = {

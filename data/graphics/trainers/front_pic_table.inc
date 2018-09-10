@@ -45,7 +45,7 @@ gTrainerFrontPicTable:: @ 8305654
 	obj_tiles gTrainerFrontPic_LeaderWattson, 0x800, 42
 	obj_tiles gTrainerFrontPic_LeaderFlannery, 0x800, 43
 	obj_tiles gTrainerFrontPic_LeaderNorman, 0x800, 44
-	obj_tiles gTrainerFrontPic_LeaderWinona, 0x800, 45
+	obj_tiles gTrainerFrontPic_LeaderNhoj, 0x800, 45
 	obj_tiles gTrainerFrontPic_LeaderTateAndLiza, 0x800, 46
 	obj_tiles gTrainerFrontPic_LeaderJuan, 0x800, 47
 	obj_tiles gTrainerFrontPic_SchoolKidM, 0x800, 48

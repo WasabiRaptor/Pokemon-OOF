@@ -359,12 +359,12 @@ gTrainerPalette_LeaderNorman:: @ 8D5BA40
 	.incbin "graphics/trainers/palettes/leader_norman.gbapal.lz"
 
 	.align 2
-gTrainerFrontPic_LeaderWinona:: @ 8D5BA68
-	.incbin "graphics/trainers/front_pics/leader_winona_front_pic.4bpp.lz"
+gTrainerFrontPic_LeaderNhoj:: @ 8D5BA68
+	.incbin "graphics/trainers/front_pics/nhojfrontpic.4bpp.lz"
 
 	.align 2
-gTrainerPalette_LeaderWinona:: @ 8D5BDE8
-	.incbin "graphics/trainers/palettes/leader_winona.gbapal.lz"
+gTrainerPalette_LeaderNhoj:: @ 8D5BDE8
+	.incbin "graphics/trainers/palettes/nhoj.gbapal.lz"
 
 	.align 2
 gTrainerFrontPic_LeaderTateAndLiza:: @ 8D5BE10

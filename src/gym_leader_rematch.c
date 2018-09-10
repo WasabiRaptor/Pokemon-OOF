@@ -14,7 +14,7 @@ static const u16 GymLeaderRematches_AfterNewMauville[] = {
     REMATCH_WATTSON,
     REMATCH_FLANNERY,
     REMATCH_NORMAN,
-    REMATCH_WINONA,
+    REMATCH_NHOJ,
     REMATCH_TATE_AND_LIZA,
     REMATCH_JUAN
 };
@@ -25,7 +25,7 @@ static const u16 GymLeaderRematches_BeforeNewMauville[] = {
     // Wattson isn't available at this time
     REMATCH_FLANNERY,
     REMATCH_NORMAN,
-    REMATCH_WINONA,
+    REMATCH_NHOJ,
     REMATCH_TATE_AND_LIZA,
     REMATCH_JUAN
 };

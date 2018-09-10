@@ -131,7 +131,7 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Brawly;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wattson;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Flannery;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Norman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Winona;
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Nhoj;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Liza;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Tate;
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wallace;
@@ -380,7 +380,7 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
 	&gEventObjectGraphicsInfo_Wattson,
 	&gEventObjectGraphicsInfo_Flannery,
 	&gEventObjectGraphicsInfo_Norman,
-	&gEventObjectGraphicsInfo_Winona,
+	&gEventObjectGraphicsInfo_Nhoj,
 	&gEventObjectGraphicsInfo_Liza,
 	&gEventObjectGraphicsInfo_Tate,
 	&gEventObjectGraphicsInfo_Wallace,

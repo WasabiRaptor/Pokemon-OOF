@@ -1,5 +1,5 @@
 FortreeCity_Gym_EventObjects: @ 8530C98
-	object_event 1, EVENT_OBJ_GFX_WINONA, 0, 15, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, FortreeCity_Gym_EventScript_2165C8, 0
+	object_event 1, EVENT_OBJ_GFX_NHOJ, 0, 15, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, FortreeCity_Gym_EventScript_2165C8, 0
 	object_event 2, EVENT_OBJ_GFX_MAN_6, 0, 4, 14, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 3, FortreeCity_Gym_EventScript_2166A8, 0
 	object_event 3, EVENT_OBJ_GFX_CAMPER, 0, 10, 10, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 2, FortreeCity_Gym_EventScript_2166D6, 0
 	object_event 4, EVENT_OBJ_GFX_PICNICKER, 0, 5, 17, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 1, FortreeCity_Gym_EventScript_2166ED, 0

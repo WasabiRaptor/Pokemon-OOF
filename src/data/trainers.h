@@ -3779,18 +3779,18 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = gTrainerParty_Norman1 }
     },
 
-    [TRAINER_WINONA_1] =
+    [TRAINER_NHOJ_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        .trainerName = _("WINONA"),
+        .trainerPic = TRAINER_PIC_LEADER_NHOJ,
+        .trainerName = _("NHOJ"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = 0x17,
         .partySize = 5,
-        .party = {.ItemCustomMoves = gTrainerParty_Winona1 }
+        .party = {.ItemCustomMoves = gTrainerParty_Nhoj1 }
     },
 
     [TRAINER_TATE_AND_LIZA_1] =
@@ -11059,60 +11059,60 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = gTrainerParty_Norman5 }
     },
 
-    [TRAINER_WINONA_2] =
+    [TRAINER_NHOJ_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        .trainerName = _("WINONA"),
+        .trainerPic = TRAINER_PIC_LEADER_NHOJ,
+        .trainerName = _("NHOJ"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = 0x17,
         .partySize = 5,
-        .party = {.ItemCustomMoves = gTrainerParty_Winona2 }
+        .party = {.ItemCustomMoves = gTrainerParty_Nhoj2 }
     },
 
-    [TRAINER_WINONA_3] =
+    [TRAINER_NHOJ_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        .trainerName = _("WINONA"),
+        .trainerPic = TRAINER_PIC_LEADER_NHOJ,
+        .trainerName = _("NHOJ"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = 0x17,
         .partySize = 6,
-        .party = {.ItemCustomMoves = gTrainerParty_Winona3 }
+        .party = {.ItemCustomMoves = gTrainerParty_Nhoj3 }
     },
 
-    [TRAINER_WINONA_4] =
+    [TRAINER_NHOJ_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        .trainerName = _("WINONA"),
+        .trainerPic = TRAINER_PIC_LEADER_NHOJ,
+        .trainerName = _("NHOJ"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = 0x17,
         .partySize = 6,
-        .party = {.ItemCustomMoves = gTrainerParty_Winona4 }
+        .party = {.ItemCustomMoves = gTrainerParty_Nhoj4 }
     },
 
-    [TRAINER_WINONA_5] =
+    [TRAINER_NHOJ_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        .trainerName = _("WINONA"),
+        .trainerPic = TRAINER_PIC_LEADER_NHOJ,
+        .trainerName = _("NHOJ"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = 0x17,
         .partySize = 6,
-        .party = {.ItemCustomMoves = gTrainerParty_Winona5 }
+        .party = {.ItemCustomMoves = gTrainerParty_Nhoj5 }
     },
 
     [TRAINER_TATE_AND_LIZA_2] =
