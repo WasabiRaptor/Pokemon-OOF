@@ -84,5 +84,5 @@ MauvilleCity_PokemonCenter_1F_Text_210F8A: @ 8210F8A
 	.string " the champion of the Kanjoh \n" 
 	.string "region and defeated together\p"
 	.string " with Red the false prophet \n"
-	.string "Flareon who cause huge chaos.$"
+	.string "Flareon who caused chaos.$"
 
