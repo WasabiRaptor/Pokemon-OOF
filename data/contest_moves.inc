@@ -1827,7 +1827,7 @@ gContestMoves:: @ 858C2B4
 	.byte COMBO_STARTER_CHARM, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Will-O-Wisp
+@ MyMixtape
 	.byte 0x0c @ effect ID
 	.byte CONTEST_BEAUTY
 	.byte 0 @ combo starter ID

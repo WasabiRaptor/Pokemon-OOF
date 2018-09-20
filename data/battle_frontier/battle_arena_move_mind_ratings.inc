@@ -261,7 +261,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  0 @ Hail
 	.byte  0 @ Torment
 	.byte  0 @ Flatter
-	.byte  0 @ Will-O-Wisp
+	.byte  0 @ MyMixtape
 	.byte  0 @ Memento
 	.byte  1 @ Facade
 	.byte  1 @ Focus Punch

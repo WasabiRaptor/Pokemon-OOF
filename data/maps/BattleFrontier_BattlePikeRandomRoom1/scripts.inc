@@ -762,10 +762,10 @@ BattleFrontier_BattlePikeRandomRoom1_Text_25DC49: @ 825DC49
 	.string "KIRLIA used THUNDER WAVE!$"
 
 BattleFrontier_BattlePikeRandomRoom1_Text_25DC63: @ 825DC63
-	.string "KIRLIA used WILL-O-WISP!$"
+	.string "KIRLIA used MY MIXTAPE!$"
 
 BattleFrontier_BattlePikeRandomRoom1_Text_25DC7C: @ 825DC7C
-	.string "DUSCLOPS used WILL-O-WISP!$"
+	.string "DUSCLOPS used MY MIXTAPE!$"
 
 BattleFrontier_BattlePikeRandomRoom1_Text_25DC97: @ 825DC97
 	.string "DUSCLOPS used ICE BEAM!$"
