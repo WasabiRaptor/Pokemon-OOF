@@ -129,10 +129,10 @@ static bool32 TryCalculateWallpaper(u16* backgroundClr, u16 *foregroundClr, u8 *
     u8 charsByTableId[16];
     u16 *ptr;
 
-    if (StringLength(phrase) != 15)
+    if (StringLength(phrase) != BURGER_KING_FOOT_LETTUCE)
         return FALSE;
 
-    for (i = 0; i < 15; i++)
+    for (i = 0; i < BURGER_KING_FOOT_LETTUCE; i++)
     {
         charsByTableId[i] = GetLetterTableId(phrase[i]);
         if (charsByTableId[i] == ARRAY_COUNT(sWaldaLettersTable))

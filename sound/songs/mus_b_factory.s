@@ -186,7 +186,7 @@ mus_b_factory_1_B1:
 	.byte	W04
 	.byte		        19*mus_b_factory_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_factory_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W01
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W03
@@ -234,7 +234,7 @@ mus_b_factory_1_B1:
 	.byte		VOL   , 22*mus_b_factory_mvl/mxv
 	.byte	W04
 	.byte		PAN   , c_v-32
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		PAN   , c_v-37
 	.byte		VOL   , 14*mus_b_factory_mvl/mxv
@@ -1122,7 +1122,7 @@ mus_b_factory_3_B1:
 	.byte		PAN   , c_v-32
 	.byte		N24   , En3 , v060
 	.byte	W96
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , En4 , v048
 	.byte	W18
 	.byte		N06   
@@ -2613,7 +2613,7 @@ mus_b_factory_5_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -2664,7 +2664,7 @@ mus_b_factory_5_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -2715,7 +2715,7 @@ mus_b_factory_5_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -2766,7 +2766,7 @@ mus_b_factory_5_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -3770,7 +3770,7 @@ mus_b_factory_6_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -3820,7 +3820,7 @@ mus_b_factory_6_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -3870,7 +3870,7 @@ mus_b_factory_6_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04
@@ -3920,7 +3920,7 @@ mus_b_factory_6_B1:
 	.byte	W01
 	.byte		MOD   , 127
 	.byte	W03
-	.byte		VOL   , 15*mus_b_factory_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_factory_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_b_factory_mvl/mxv
 	.byte	W04

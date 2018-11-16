@@ -43,7 +43,7 @@ se_t_kami_1:
 	.byte	W06
 	.byte		BEND  , c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		TIE   , Gs2 , v112
 	.byte	W03
 	.byte		BEND  , c_v-4

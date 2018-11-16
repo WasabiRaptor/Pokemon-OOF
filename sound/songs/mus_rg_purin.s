@@ -69,7 +69,7 @@ mus_rg_purin_1:
 	.byte	W09
 	.byte		MOD   , 7
 	.byte	W09
-	.byte		VOL   , 15*mus_rg_purin_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_purin_mvl/mxv
 	.byte	W06
 	.byte		        13*mus_rg_purin_mvl/mxv
 	.byte	W03
@@ -200,7 +200,7 @@ mus_rg_purin_2:
 	.byte	W03
 	.byte		        18*mus_rg_purin_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_purin_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_purin_mvl/mxv
 	.byte		MOD   , 9
 	.byte	W03
 	.byte		VOL   , 9*mus_rg_purin_mvl/mxv

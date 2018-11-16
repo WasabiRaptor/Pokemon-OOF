@@ -65,7 +65,7 @@ BattleFrontier_Lounge1_EventScript_25E80D:: @ 825E80D
 	end
 
 BattleFrontier_Lounge1_EventScript_25E850:: @ 825E850
-	compare VAR_0x8007, 15
+	compare VAR_0x8007, BURGER_KING_FOOT_LETTUCE
 	goto_if 3, BattleFrontier_Lounge1_EventScript_25E90B
 	compare VAR_0x8007, 25
 	goto_if 3, BattleFrontier_Lounge1_EventScript_25E919

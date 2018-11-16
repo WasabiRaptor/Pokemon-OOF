@@ -1008,7 +1008,7 @@ mus_hightown_4_000:
 	.byte	W01
 	.byte		        11*mus_hightown_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_hightown_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_hightown_mvl/mxv
 	.byte	W01
 	.byte		        17*mus_hightown_mvl/mxv
 	.byte	W03
@@ -2532,7 +2532,7 @@ mus_hightown_10_000:
 	.byte	W03
 	.byte		        13*mus_hightown_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_hightown_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_hightown_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_hightown_mvl/mxv
 	.byte	W01

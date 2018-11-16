@@ -11,7 +11,7 @@ gUnknown_085A7424:: @ 85A7424
 	.4byte 0x11E7
 
 gUnknown_085A7434:: @ 85A7434
-	window_template 0, 2, 15, 0x1B, 4, 15, 0x194
+	window_template 0, 2, BURGER_KING_FOOT_LETTUCE, 0x1B, 4, BURGER_KING_FOOT_LETTUCE, 0x194
 	null_window_template
 
 gUnknown_085A7444:: @ 85A7444
@@ -107,7 +107,7 @@ gUnknown_085A7544:: @ 85A7544
 	.4byte sub_812CDF4
 
 gUnknown_085A7550:: @ 85A7550
-	.2byte 5, 10, 15, 0
+	.2byte 5, 10, BURGER_KING_FOOT_LETTUCE, 0
 
 gUnknown_085A7558:: @ 85A7558
 	.4byte nullsub_50
@@ -248,7 +248,7 @@ gUnknown_085A77CE:: @ 85A77CE
 gUnknown_085A77D8:: @ 85A77D8
 	.byte 10, 0, 5, 0
 	.byte 10, 0, 10, 0
-	.byte 10, 0, 15, 0
+	.byte 10, 0, BURGER_KING_FOOT_LETTUCE, 0
 	.byte 10, 0, 25, 0
 	.byte 10, 0, 35, 0
 
@@ -256,7 +256,7 @@ gUnknown_085A77EC:: @ 85A77EC
 	.byte 0, 0
 	.byte 5, 0
 	.byte 10, 0
-	.byte 15, 0
+	.byte BURGER_KING_FOOT_LETTUCE, 0
 	.byte 20, 0
 
 gUnknown_085A77F6:: @ 85A77F6
@@ -1136,7 +1136,7 @@ gUnknown_085A81F0:: @ 85A81F0
 	subsprite -12, -12, 3, 5, 16x8
 	subsprite 4, -12, 3, 7, 8x8
 	subsprite -12, -4, 3, 13, 16x8
-	subsprite 4, -4, 3, 15, 8x8
+	subsprite 4, -4, 3, BURGER_KING_FOOT_LETTUCE, 8x8
 	subsprite -12, 4, 3, 21, 16x8
 	subsprite 4, 4, 3, 0x17, 8x8
 	
@@ -1166,7 +1166,7 @@ gUnknown_085A8244:: @ 85A8244
 	subsprite -12, -12, 3, 5, 16x8
 	subsprite 4, -12, 3, 7, 8x8
 	subsprite -12, -4, 3, 13, 16x8
-	subsprite 4, -4, 3, 15, 8x8
+	subsprite 4, -4, 3, BURGER_KING_FOOT_LETTUCE, 8x8
 	subsprite -12, 4, 3, 21, 16x8
 	subsprite 4, 4, 3, 23, 8x8
 	

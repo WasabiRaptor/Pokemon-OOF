@@ -90,7 +90,7 @@ se_w320_2:
 	.byte		PAN   , c_v+14
 	.byte		N09   , En5 
 	.byte	W12
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v-14
 	.byte		N66   , Gn5 
 	.byte	W06

@@ -52,7 +52,7 @@ BattleFrontier_Lounge3_EventScript_261E3B:: @ 8261E3B
 	end
 
 BattleFrontier_Lounge3_EventScript_261E46:: @ 8261E46
-	setvar VAR_0x8008, 15
+	setvar VAR_0x8008, BURGER_KING_FOOT_LETTUCE
 	goto BattleFrontier_Lounge3_EventScript_261E51
 	end
 

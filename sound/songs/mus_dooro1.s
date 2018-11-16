@@ -396,7 +396,7 @@ mus_dooro1_2_004:
 	.byte	W12
 	.byte		        En1 
 	.byte	W24
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N12   , En2 
 	.byte	W03
 	.byte		BEND  , c_v+0

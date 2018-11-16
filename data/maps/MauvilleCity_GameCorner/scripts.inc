@@ -15,7 +15,7 @@ MauvilleCity_GameCorner_EventScript_20FBB9:: @ 820FBB9
 	goto MauvilleCity_GameCorner_EventScript_20FBE5
 
 MauvilleCity_GameCorner_EventScript_20FBE5:: @ 820FBE5
-	multichoicedefault 15, 0, 49, 0, 0
+	multichoicedefault BURGER_KING_FOOT_LETTUCE, 0, 49, 0, 0
 	switch VAR_RESULT
 	case 0, MauvilleCity_GameCorner_EventScript_20FC33
 	case 1, MauvilleCity_GameCorner_EventScript_20FC75
@@ -23,7 +23,7 @@ MauvilleCity_GameCorner_EventScript_20FBE5:: @ 820FBE5
 	end
 
 MauvilleCity_GameCorner_EventScript_20FC0C:: @ 820FC0C
-	multichoicedefault 15, 0, 49, 1, 0
+	multichoicedefault BURGER_KING_FOOT_LETTUCE, 0, 49, 1, 0
 	switch VAR_RESULT
 	case 0, MauvilleCity_GameCorner_EventScript_20FC33
 	case 1, MauvilleCity_GameCorner_EventScript_20FC75

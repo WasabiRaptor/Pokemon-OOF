@@ -61,7 +61,7 @@ se_w327_1:
 	.byte	W01
 	.byte		VOL   , 38*se_w327_mvl/mxv
 	.byte	W01
-	.byte		        15*se_w327_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*se_w327_mvl/mxv
 	.byte		BEND  , c_v-3
 	.byte	W02
 	.byte	FINE

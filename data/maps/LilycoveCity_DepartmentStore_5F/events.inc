@@ -3,7 +3,7 @@ LilycoveCity_DepartmentStore_5F_EventObjects: @ 8532348
 	object_event 2, EVENT_OBJ_GFX_WOMAN_2, 0, 7, 7, 3, MOVEMENT_TYPE_FACE_DOWN_AND_LEFT, 1, 1, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_22006C, 0
 	object_event 3, EVENT_OBJ_GFX_WOMAN_4, 0, 7, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_21FFA6, 0
 	object_event 4, EVENT_OBJ_GFX_WOMAN_4, 0, 9, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_21FFDC, 0
-	object_event 5, EVENT_OBJ_GFX_WOMAN_4, 0, 15, 6, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_22000A, 0
+	object_event 5, EVENT_OBJ_GFX_WOMAN_4, 0, BURGER_KING_FOOT_LETTUCE, 6, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_22000A, 0
 	object_event 6, EVENT_OBJ_GFX_WOMAN_4, 0, 17, 6, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_22003A, 0
 	object_event 7, EVENT_OBJ_GFX_WOMAN_3, 0, 9, 5, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, LilycoveCity_DepartmentStore_5F_EventScript_220075, 0
 

@@ -10,6 +10,6 @@ CaveOfOrigin_UnusedRubySapphireMap3: @ 848433C
 	.byte WEATHER_FOG_1
 	.byte MAP_TYPE_UNDERGROUND
 	.2byte 0
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte MAP_BATTLE_SCENE_NORMAL
 

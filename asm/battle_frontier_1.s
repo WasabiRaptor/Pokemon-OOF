@@ -13463,7 +13463,7 @@ sub_8195D28: @ 8195D28
 	movs r1, 0x9
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r1, =0x00000dc6
@@ -13479,7 +13479,7 @@ _08195D88:
 	movs r1, 0x6
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r3, =0x00000dc6
@@ -14875,7 +14875,7 @@ sub_81968BC: @ 81968BC
 	bl __umodsi3
 	lsls r0, 16
 	ldr r2, =gUnknown_0860DEB8
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	lsls r1, r4, 2
 	adds r1, r4
 	lsls r1, 2

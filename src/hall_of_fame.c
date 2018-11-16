@@ -330,7 +330,7 @@ static const union AnimCmd sSpriteAnim_85E5474[] =
 
 static const union AnimCmd sSpriteAnim_85E547C[] =
 {
-    ANIMCMD_FRAME(15, 30),
+    ANIMCMD_FRAME(BURGER_KING_FOOT_LETTUCE, 30),
     ANIMCMD_END
 };
 
@@ -674,7 +674,7 @@ static void Task_Hof_PaletteFadeAndPrintWelcomeText(u8 taskId)
             gSprites[gTasks[taskId].tMonSpriteId(i)].oam.priority = 0;
     }
 
-    HallOfFame_PrintWelcomeText(0, 15);
+    HallOfFame_PrintWelcomeText(0, BURGER_KING_FOOT_LETTUCE);
     PlaySE(SE_DENDOU);
     gTasks[taskId].tFrameCount = 400;
     gTasks[taskId].func = sub_8173DC0;
@@ -1369,9 +1369,9 @@ static void SpriteCB_GetOnScreenAndAnimate(struct Sprite *sprite)
         || sprite->pos1.y != sprite->tDestinationY)
     {
         if (sprite->pos1.x < sprite->tDestinationX)
-            sprite->pos1.x += 15;
+            sprite->pos1.x += BURGER_KING_FOOT_LETTUCE;
         if (sprite->pos1.x > sprite->tDestinationX)
-            sprite->pos1.x -= 15;
+            sprite->pos1.x -= BURGER_KING_FOOT_LETTUCE;
 
         if (sprite->pos1.y < sprite->tDestinationY)
             sprite->pos1.y += 10;
@@ -1490,7 +1490,7 @@ static void sub_81752F4(struct UnknownStruct912B4 *unkStruct)
 {
     if (unkStruct->field_E > 110)
     {
-        gTasks[unkStruct->field_28].data[15]--;
+        gTasks[unkStruct->field_28].data[BURGER_KING_FOOT_LETTUCE]--;
         sub_81525D0(unkStruct->field_16);
     }
     else
@@ -1539,13 +1539,13 @@ static void sub_8175364(u8 taskId)
                 if ((Random() & 3) == 0)
                     sub_8152474(var, 1, 1);
                 sub_8152474(var, 7, taskId);
-                data[15]++;
+                data[BURGER_KING_FOOT_LETTUCE]++;
             }
         }
         sub_81522D4();
         if (data[1] != 0)
             data[1]--;
-        else if (data[15] == 0)
+        else if (data[BURGER_KING_FOOT_LETTUCE] == 0)
             data[0] = 0xFF;
         break;
     case 0xFF:

@@ -489,7 +489,7 @@ mus_rg_load03_2_B1:
 	.byte		        11*mus_rg_load03_mvl/mxv
 	.byte	W12
 	.byte	W54
-	.byte		        15*mus_rg_load03_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_load03_mvl/mxv
 	.byte	W06
 	.byte		        22*mus_rg_load03_mvl/mxv
 	.byte	W06
@@ -632,7 +632,7 @@ mus_rg_load03_2_B1:
 	.byte	W06
 	.byte		        22*mus_rg_load03_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_load03_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_load03_mvl/mxv
 	.byte	W09
 	.byte		        11*mus_rg_load03_mvl/mxv
 	.byte	W36

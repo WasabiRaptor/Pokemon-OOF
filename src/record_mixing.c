@@ -324,7 +324,7 @@ static void Task_RecordMixing_SoundEffect(u8 taskId)
 #undef tCounter
 
 #define tState        data[0]
-#define tSndEffTaskId data[15]
+#define tSndEffTaskId data[BURGER_KING_FOOT_LETTUCE]
 
 static void Task_RecordMixing_Main(u8 taskId)
 {

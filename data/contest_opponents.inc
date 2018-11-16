@@ -310,7 +310,7 @@
 	.2byte SPECIES_MANECTRIC
 	.string "RIKELEC$   "
 	.string "CHANCE$ "
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.2byte 0
 	.4byte 0x80001fff
 	.2byte 12
@@ -539,7 +539,7 @@
 	.2byte 320
 	.2byte 275
 	.byte 50
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 75
 	.byte 10
 	.byte 20
@@ -560,9 +560,9 @@
 	.2byte 31
 	.2byte 216
 	.2byte 45
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 21
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 85
 	.byte 35
 	.byte 110
@@ -806,7 +806,7 @@
 	.byte 45
 	.byte 60
 	.byte 25
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 100
 	.4byte 0x0
 	.4byte 0x0
@@ -823,7 +823,7 @@
 	.2byte 129
 	.2byte 104
 	.2byte 97
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.byte 40
 	.byte 30
 	.byte 25
@@ -846,10 +846,10 @@
 	.2byte 45
 	.2byte 240
 	.2byte 352
-	.byte 15
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 30
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 75
 	.byte 120
 	.4byte 0x0
@@ -1677,7 +1677,7 @@
 	.byte 18
 	.2byte 0
 	.4byte 0x80400fff
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 349
 	.2byte 63
 	.2byte 195
@@ -1696,7 +1696,7 @@
 	.2byte SPECIES_KIRLIA
 	.string "LIRKI$     "
 	.string "LAMAR$  "
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.2byte 0
 	.4byte 0x80200fff
 	.2byte 39
@@ -1853,7 +1853,7 @@
 	.byte 6
 	.2byte 0
 	.4byte 0x80004fff
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 153
 	.2byte 113
 	.2byte 129
@@ -2051,7 +2051,7 @@
 	.byte 37
 	.2byte 0
 	.4byte 0x20100fff
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 129
 	.2byte 98
 	.2byte 234

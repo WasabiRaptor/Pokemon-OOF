@@ -1745,16 +1745,16 @@ gUnknown_08623358:: @ 8623358
 	.4byte 0x31EB
 
 gUnknown_08623364:: @ 8623364
-	window_template 1, 13, 1, 13, 4, 15, 2
+	window_template 1, 13, 1, 13, 4, BURGER_KING_FOOT_LETTUCE, 2
 
 gUnknown_0862336C:: @ 862336C
-	window_template 1, 1, 6, 7, 2, 15, 0x36
+	window_template 1, 1, 6, 7, 2, BURGER_KING_FOOT_LETTUCE, 0x36
 
 gUnknown_08623374:: @ 8623374
-	window_template 1, 1, 0x1C, 5, 2, 15, 0x44
+	window_template 1, 1, 0x1C, 5, 2, BURGER_KING_FOOT_LETTUCE, 0x44
 
 gUnknown_0862337C:: @ 862337C
-	window_template 1, 13, 0x1C, 3, 2, 15, 0x44
+	window_template 1, 13, 0x1C, 3, 2, BURGER_KING_FOOT_LETTUCE, 0x44
 
 gUnknown_08623384:: @ 8623384
 	.4byte NULL
@@ -1972,7 +1972,7 @@ gUnknown_08624C78:: @ 8624C78
 	obj_tiles gUnknown_08624280, 0x1800, 9
 
 gUnknown_08624C80:: @ 8624C80
-	obj_pal gUnknown_08623FF8, 15
+	obj_pal gUnknown_08623FF8, BURGER_KING_FOOT_LETTUCE
 	obj_pal gUnknown_08624018, 16
 	obj_pal gUnknown_08624038, 17
 	obj_pal gUnknown_08624058, 18
@@ -2029,7 +2029,7 @@ gUnknown_08624CF8:: @ 8624CF8
 	.4byte gUnknown_08624CE0
 
 gUnknown_08624D04:: @ 8624D04
-	spr_template 9, 15, gUnknown_08624CB0, gDummySpriteAnimTable, NULL, gUnknown_08624CF8, SpriteCallbackDummy
+	spr_template 9, BURGER_KING_FOOT_LETTUCE, gUnknown_08624CB0, gDummySpriteAnimTable, NULL, gUnknown_08624CF8, SpriteCallbackDummy
 
 	.section .rodata.after.match.call
 

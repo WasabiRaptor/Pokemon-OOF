@@ -218,7 +218,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Grunt13[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Grunt14[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_CARVANHA,
 	}
 };
@@ -2362,12 +2362,12 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Fernando1[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Dalton1[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MAGNEMITE,
 	},
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_WHISMUR,
 	}
 };
@@ -2874,7 +2874,7 @@ const struct TrainerMonItemDefaultMoves gTrainerParty_Jeffrey5[] = {
 const struct TrainerMonNoItemCustomMoves gTrainerParty_Edward[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_ABRA,
 	.moves = MOVE_HIDDEN_POWER, MOVE_NONE, MOVE_NONE, MOVE_NONE
 	}
@@ -3381,7 +3381,7 @@ const struct TrainerMonItemCustomMoves gTrainerParty_Roxanne1[] = {
 	},
 	{
 	.iv = 200,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_NOSEPASS,
 	.heldItem = ITEM_ORAN_BERRY,
 	.moves = MOVE_BLOCK, MOVE_HARDEN, MOVE_TACKLE, MOVE_ROCK_TOMB
@@ -3631,17 +3631,17 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Ted[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Paul[] = {
 	{
 	.iv = 10,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_NUMEL,
 	},
 	{
 	.iv = 10,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_ODDISH,
 	},
 	{
 	.iv = 10,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_WINGULL,
 	}
 };
@@ -3794,7 +3794,7 @@ const struct TrainerMonNoItemCustomMoves gTrainerParty_KateAndJoy[] = {
 const struct TrainerMonNoItemCustomMoves gTrainerParty_AnnaAndMeg1[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_ZIGZAGOON,
 	.moves = MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH
 	},
@@ -3884,7 +3884,7 @@ const struct TrainerMonItemDefaultMoves gTrainerParty_Victor[] = {
 const struct TrainerMonItemDefaultMoves gTrainerParty_Miguel1[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_SKITTY,
 	.heldItem = ITEM_ORAN_BERRY
 	}
@@ -4401,7 +4401,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Allen[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Timmy[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_ARON,
 	},
 	{
@@ -4469,7 +4469,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Andrew[] = {
 	},
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MAGIKARP,
 	}
 };
@@ -6243,12 +6243,12 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Diana5[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_AmyAndLiv1[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_PLUSLE,
 	},
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MINUN,
 	}
 };
@@ -7841,7 +7841,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Brendan10[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_TORCHIC,
 	}
 };
@@ -7854,7 +7854,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Brendan11[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_TREECKO,
 	}
 };
@@ -7937,7 +7937,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Brendan12[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MUDKIP,
 	}
 };
@@ -7950,7 +7950,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_May10[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_TREECKO,
 	}
 };
@@ -8028,17 +8028,17 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Janice[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Vivi[] = {
 	{
 	.iv = 100,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_PIKABLU,
 	},
 	{
 	.iv = 100,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_SLAVISH,
 	},
 	{
 	.iv = 100,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_NUMEL,
 	}
 };
@@ -9055,7 +9055,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Henry[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Roger[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MAGIKARP,
 	},
 	{
@@ -9493,7 +9493,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Joseph[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Alyssa[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MAGNEMITE,
 	}
 };
@@ -9501,7 +9501,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Alyssa[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Marcos[] = {
 	{
 	.iv = 100,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_VOLTORB,
 	}
 };
@@ -9509,7 +9509,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Marcos[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Rhett[] = {
 	{
 	.iv = 100,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MAKUHITA,
 	}
 };
@@ -9840,7 +9840,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Maxie3[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Pete[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_TENTACOOL,
 	}
 };
@@ -9848,7 +9848,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_Pete[] = {
 const struct TrainerMonNoItemDefaultMoves gTrainerParty_Isabelle[] = {
 	{
 	.iv = 0,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_PIKABLU,
 	}
 };
@@ -10280,7 +10280,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_May14[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_TORCHIC,
 	}
 };
@@ -10293,7 +10293,7 @@ const struct TrainerMonNoItemDefaultMoves gTrainerParty_May15[] = {
 	},
 	{
 	.iv = 50,
-	.lvl = 15,
+	.lvl = BURGER_KING_FOOT_LETTUCE,
 	.species = SPECIES_MUDKIP,
 	}
 };

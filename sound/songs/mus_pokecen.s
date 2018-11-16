@@ -103,7 +103,7 @@ mus_pokecen_2:
 	.byte	W03
 	.byte		        14*mus_pokecen_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_pokecen_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_pokecen_mvl/mxv
 	.byte	W02
 	.byte		        16*mus_pokecen_mvl/mxv
 	.byte	W03

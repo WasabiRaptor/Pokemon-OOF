@@ -134,27 +134,27 @@ const u16 gUnknown_082FF018[] = INCBIN_U16("graphics/birch_speech/bg2.gbapal");
 const u16 gUnknown_082FF028[] = {0, 0, 0, 0, 0, 0, 0, 0};
 
 const struct WindowTemplate sWindowTemplates_NoSavedGame[] = {
-    {0, 2, 1, 26, 2, 15, 1},
-    {0, 2, 5, 26, 2, 15, 0x35}
+    {0, 2, 1, 26, 2, BURGER_KING_FOOT_LETTUCE, 1},
+    {0, 2, 5, 26, 2, BURGER_KING_FOOT_LETTUCE, 0x35}
 };
 
 const struct WindowTemplate sWindowTemplates_HasSavedGame[] = {
-    {0, 2, 1, 26, 6, 15, 1},
-    {0, 2, 9, 26, 2, 15, 0x9D},
-    {0, 2, 13, 26, 2, 15, 0xD1},
-    {0, 2, 17, 26, 2, 15, 0x105},
-    {0, 2, 21, 26, 2, 15, 0x139}
+    {0, 2, 1, 26, 6, BURGER_KING_FOOT_LETTUCE, 1},
+    {0, 2, 9, 26, 2, BURGER_KING_FOOT_LETTUCE, 0x9D},
+    {0, 2, 13, 26, 2, BURGER_KING_FOOT_LETTUCE, 0xD1},
+    {0, 2, 17, 26, 2, BURGER_KING_FOOT_LETTUCE, 0x105},
+    {0, 2, 21, 26, 2, BURGER_KING_FOOT_LETTUCE, 0x139}
 };
 
 const struct WindowTemplate sWindowTemplate_ErrorWindow[] = {
-    {0, 2, 15, 26, 4, 15, 0x16D},
+    {0, 2, BURGER_KING_FOOT_LETTUCE, 26, 4, BURGER_KING_FOOT_LETTUCE, 0x16D},
     {0xFF, 0, 0, 0, 0, 0, 0}
 };
 
 const struct WindowTemplate gUnknown_082FF080[] = {
-    {0, 2, 15, 27, 4, 15, 1},
-    {0, 3, 5, 6, 4, 15, 0x6D},
-    {0, 3, 2, 9, 10, 15, 0x85},
+    {0, 2, BURGER_KING_FOOT_LETTUCE, 27, 4, BURGER_KING_FOOT_LETTUCE, 1},
+    {0, 3, 5, 6, 4, BURGER_KING_FOOT_LETTUCE, 0x6D},
+    {0, 3, 2, 9, 10, BURGER_KING_FOOT_LETTUCE, 0x85},
     {0xFF, 0, 0, 0, 0, 0, 0}
 };
 
@@ -366,9 +366,9 @@ u32 InitMainMenu(bool8 returningFromOptionsMenu)
 #define tItemCount data[12]
 #define tScrollArrowTaskId data[13]
 #define tIsScrolled data[14]
-#define tWirelessAdapterConnected data[15]
+#define tWirelessAdapterConnected data[BURGER_KING_FOOT_LETTUCE]
 
-#define tArrowTaskIsScrolled data[15]   // For scroll indicator arrow task
+#define tArrowTaskIsScrolled data[BURGER_KING_FOOT_LETTUCE]   // For scroll indicator arrow task
 
 void Task_MainMenuCheckSaveFile(u8 taskId)
 {
@@ -1355,7 +1355,7 @@ void task_new_game_prof_birch_speech_part2_3(u8 taskId)
 {
     if (!sub_8197224())
     {
-        sub_80323CC(2, 1, 0xF3, 0xDF, 2, 15);
+        sub_80323CC(2, 1, 0xF3, 0xDF, 2, BURGER_KING_FOOT_LETTUCE);
         gTasks[taskId].func = task_new_game_prof_birch_speech_part2_4;
     }
 }

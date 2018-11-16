@@ -103,7 +103,7 @@ enum
     TDA_12 = 12,
     TDA_13 = 13,
     TDA_14 = 14,
-    TDA_TASK_B_ID = 15,
+    TDA_TASK_B_ID = BURGER_KING_FOOT_LETTUCE,
 
     // Appears to be responsible for text
     TDB_0 = 0,

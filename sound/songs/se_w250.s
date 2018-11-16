@@ -100,7 +100,7 @@ se_w250_1:
 	.byte		VOL   , 11*se_w250_mvl/mxv
 	.byte		BEND  , c_v-19
 	.byte	W03
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		VOL   , 6*se_w250_mvl/mxv
 	.byte	W01

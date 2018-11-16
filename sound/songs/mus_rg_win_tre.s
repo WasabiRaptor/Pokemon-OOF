@@ -2054,7 +2054,7 @@ mus_rg_win_tre_6:
 	.byte	W02
 	.byte		        60*mus_rg_win_tre_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_rg_win_tre_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_win_tre_mvl/mxv
 	.byte		MOD   , 0
 	.byte		N24   , Bn2 
 	.byte	W04

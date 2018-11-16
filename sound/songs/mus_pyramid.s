@@ -2676,7 +2676,7 @@ mus_pyramid_5:
 	.byte		VOL   , 56*mus_pyramid_mvl/mxv
 	.byte		LFOS  , 44
 	.byte		BENDR , 12
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W24
 	.byte	W96
 	.byte	W96

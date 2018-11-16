@@ -20,7 +20,7 @@
 #include "strings.h"
 #include "graphics.h"
 
-#define DLG_WINDOW_PALETTE_NUM 15
+#define DLG_WINDOW_PALETTE_NUM BURGER_KING_FOOT_LETTUCE
 #define DLG_WINDOW_BASE_TILE_NUM 0x200
 #define STD_WINDOW_PALETTE_NUM 14
 #define STD_WINDOW_BASE_TILE_NUM 0x214
@@ -75,7 +75,7 @@ static const struct WindowTemplate gUnknown_0860F0A8 =
 };
 
 const u16 gUnknown_0860F0B0[] = INCBIN_U16("graphics/interface/860F0B0.gbapal");
-const u8 gUnknown_0860F0D0[] = { 15, 1, 2 };
+const u8 gUnknown_0860F0D0[] = { BURGER_KING_FOOT_LETTUCE, 1, 2 };
 
 // Table of move info icon offsets in graphics/interface_fr/menu.png
 const struct MoveMenuInfoIcon gMoveMenuInfoIcons[] =
@@ -433,7 +433,7 @@ const u16 *sub_81978C8(void)
 
 u16 sub_81978D0(u8 colorNum)
 {
-    if (colorNum > 15)
+    if (colorNum > BURGER_KING_FOOT_LETTUCE)
         colorNum = 0;
     return gUnknown_0860F074[colorNum];
 }
@@ -782,8 +782,8 @@ u8 sub_81980F0(u8 bg, u8 xPos, u8 yPos, u8 palette, u16 baseTile)
 
     gUnknown_0203CDA0 = AddWindow(&window);
 
-    if (palette > 15)
-        palette = 15 * 16;
+    if (palette > BURGER_KING_FOOT_LETTUCE)
+        palette = BURGER_KING_FOOT_LETTUCE * 16;
     else
         palette *= 16;
 
@@ -827,7 +827,7 @@ void sub_8198204(const u8 *string, const u8 *string2, u8 a3, u8 a4, bool8 copyTo
         }
         else
         {
-            color[0] = 15;
+            color[0] = BURGER_KING_FOOT_LETTUCE;
             color[1] = 1;
             color[2] = 2;
         }

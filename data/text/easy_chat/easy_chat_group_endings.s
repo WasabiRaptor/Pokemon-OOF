@@ -232,7 +232,7 @@ gEasyChatGroup_Endings:: @ 859A2D0
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Be
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Gimme

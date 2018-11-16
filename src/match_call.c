@@ -522,35 +522,35 @@ static const match_call_text_data_t sSidneyTextScripts[] = {
     { NULL,                        0xFFFF, 0xFFFF }
 };
 
-MATCHCALLDEF(sSidneyMatchCallHeader, 5, 15, FLAG_0x1A5, 0x49, gEliteFourMatchCallDesc, NULL, sSidneyTextScripts);
+MATCHCALLDEF(sSidneyMatchCallHeader, 5, BURGER_KING_FOOT_LETTUCE, FLAG_0x1A5, 0x49, gEliteFourMatchCallDesc, NULL, sSidneyTextScripts);
 
 static const match_call_text_data_t sPhoebeTextScripts[] = {
     { gText_Phoebe_Pokenav_2B3561, 0xFFFF, 0xFFFF },
     { NULL,                        0xFFFF, 0xFFFF }
 };
 
-MATCHCALLDEF(sPhoebeMatchCallHeader, 5, 15, FLAG_0x1A6, 0x4A, gEliteFourMatchCallDesc, NULL, sPhoebeTextScripts);
+MATCHCALLDEF(sPhoebeMatchCallHeader, 5, BURGER_KING_FOOT_LETTUCE, FLAG_0x1A6, 0x4A, gEliteFourMatchCallDesc, NULL, sPhoebeTextScripts);
 
 static const match_call_text_data_t sGlaciaTextScripts[] = {
     { gText_Glacia_Pokenav_2B35E4, 0xFFFF, 0xFFFF },
     { NULL,                        0xFFFF, 0xFFFF }
 };
 
-MATCHCALLDEF(sGlaciaMatchCallHeader, 5, 15, FLAG_0x1A7, 0x4B, gEliteFourMatchCallDesc, NULL, sGlaciaTextScripts);
+MATCHCALLDEF(sGlaciaMatchCallHeader, 5, BURGER_KING_FOOT_LETTUCE, FLAG_0x1A7, 0x4B, gEliteFourMatchCallDesc, NULL, sGlaciaTextScripts);
 
 static const match_call_text_data_t sDrakeTextScripts[] = {
     { gText_Drake_Pokenav_2B368B, 0xFFFF, 0xFFFF },
     { NULL,                       0xFFFF, 0xFFFF }
 };
 
-MATCHCALLDEF(sDrakeMatchCallHeader, 5, 15, FLAG_0x1A8, 0x4C, gEliteFourMatchCallDesc, NULL, sDrakeTextScripts);
+MATCHCALLDEF(sDrakeMatchCallHeader, 5, BURGER_KING_FOOT_LETTUCE, FLAG_0x1A8, 0x4C, gEliteFourMatchCallDesc, NULL, sDrakeTextScripts);
 
 static const match_call_text_data_t sWallaceTextScripts[] = {
     { gText_Wallace_Pokenav_2B3790, 0xFFFF, 0xFFFF },
     { NULL,                         0xFFFF, 0xFFFF }
 };
 
-MATCHCALLDEF(sWallaceMatchCallHeader, 5, 15, FLAG_0x1A9, 0x4D, gChampionMatchCallDesc, NULL, sWallaceTextScripts);
+MATCHCALLDEF(sWallaceMatchCallHeader, 5, BURGER_KING_FOOT_LETTUCE, FLAG_0x1A9, 0x4D, gChampionMatchCallDesc, NULL, sWallaceTextScripts);
 
 static const match_call_t sMatchCallHeaders[] = {
     {.type0 = &sMrStoneMatchCallHeader},

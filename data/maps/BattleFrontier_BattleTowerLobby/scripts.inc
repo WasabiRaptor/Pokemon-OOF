@@ -261,7 +261,7 @@ BattleFrontier_BattleTowerLobby_EventScript_23E984:: @ 823E984
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
 	case 127, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_23F02B
@@ -341,7 +341,7 @@ BattleFrontier_BattleTowerLobby_EventScript_23EAED:: @ 823EAED
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
 	case 127, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_23F02B
@@ -422,7 +422,7 @@ BattleFrontier_BattleTowerLobby_EventScript_23EC59:: @ 823EC59
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
 	case 127, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_23F02B
@@ -502,7 +502,7 @@ BattleFrontier_BattleTowerLobby_EventScript_23EDC2:: @ 823EDC2
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
 	case 127, BattleFrontier_BattleTowerLobby_EventScript_23F0E6
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_23F02B

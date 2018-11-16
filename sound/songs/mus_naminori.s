@@ -745,7 +745,7 @@ mus_naminori_2_001:
 	.byte	W07
 	.byte		        25*mus_naminori_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_naminori_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_naminori_mvl/mxv
 	.byte	W07
 mus_naminori_2_002:
 	.byte		VOL   , 80*mus_naminori_mvl/mxv

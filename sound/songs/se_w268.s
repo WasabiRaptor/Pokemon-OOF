@@ -70,7 +70,7 @@ se_w268_1:
 	.byte		        c_v+0
 	.byte	W01
 	.byte		        c_v-2
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		PAN   , c_v-4
 	.byte	W02

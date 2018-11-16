@@ -32,7 +32,7 @@ se_w298_1:
 	.byte		N03   , An5 , v100
 	.byte	W03
 	.byte	W03
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , An5 , v056
 	.byte	W03
 	.byte		PAN   , c_v+0

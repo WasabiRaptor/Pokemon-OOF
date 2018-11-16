@@ -684,7 +684,7 @@ void MultiplyInvertedPaletteRGBComponents(u16 i, u8 r, u8 g, u8 b)
     "\tlsls r3, 24\n"
     "\tlsrs r3, 24\n"
     "\tldr r4, _08085D00 @ =gPlttBufferUnfaded\n"
-    "\tlsrs r0, 15\n"
+    "\tlsrs r0, BURGER_KING_FOOT_LETTUCE\n"
     "\tadds r4, r0, r4\n"
     "\tldrh r4, [r4]\n"
     "\tmovs r5, 0x1F\n"
@@ -758,7 +758,7 @@ void MultiplyPaletteRGBComponents(u16 i, u8 r, u8 g, u8 b)
     "\tlsls r3, 24\n"
     "\tlsrs r3, 24\n"
     "\tldr r4, _08085D78 @ =gPlttBufferUnfaded\n"
-    "\tlsrs r0, 15\n"
+    "\tlsrs r0, BURGER_KING_FOOT_LETTUCE\n"
     "\tadds r4, r0, r4\n"
     "\tldrh r4, [r4]\n"
     "\tmovs r5, 0x1F\n"
@@ -909,7 +909,7 @@ void HallOfFameRecordEffect_1(struct Task *task)
 {
     if (gSprites[task->data[6]].data[0] > 1)
     {
-        task->data[15]++; // was this ever initialized? is this ever used?
+        task->data[BURGER_KING_FOOT_LETTUCE]++; // was this ever initialized? is this ever used?
         task->data[0]++;
     }
 }
@@ -1116,7 +1116,7 @@ void HallOfFameRecordEffectHelper(s16 a0, s16 a1, s16 a2, u8 a3)
 
 void SpriteCB_HallOfFameMonitor(struct Sprite *sprite)
 {
-    if (gTasks[sprite->data[0]].data[15])
+    if (gTasks[sprite->data[0]].data[BURGER_KING_FOOT_LETTUCE])
     {
         if (sprite->data[1] == 0 || (--sprite->data[1]) == 0)
         {
@@ -1695,7 +1695,7 @@ bool8 FldEff_UseDive(void)
 {
     u8 taskId;
     taskId = CreateTask(Task_Dive, 0xff);
-    gTasks[taskId].data[15] = gFieldEffectArguments[0];
+    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = gFieldEffectArguments[0];
     gTasks[taskId].data[14] = gFieldEffectArguments[1];
     Task_Dive(taskId);
     return FALSE;
@@ -1716,7 +1716,7 @@ bool8 dive_1_lock(struct Task *task)
 bool8 dive_2_unknown(struct Task *task)
 {
     ScriptContext2_Enable();
-    gFieldEffectArguments[0] = task->data[15];
+    gFieldEffectArguments[0] = task->data[BURGER_KING_FOOT_LETTUCE];
     FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
     task->data[0]++;
     return FALSE;
@@ -2050,7 +2050,7 @@ void sub_80B7D14(struct Task *task)
 {
     task->data[0]++;
     task->data[14] = 64;
-    task->data[15] = GetPlayerFacingDirection();
+    task->data[BURGER_KING_FOOT_LETTUCE] = GetPlayerFacingDirection();
 }
 
 void sub_80B7D34(struct Task *task)
@@ -2067,7 +2067,7 @@ void sub_80B7D34(struct Task *task)
     {
         if (task->data[14] == 0 && !gPaletteFade.active && sub_80859A0() == TRUE)
         {
-            SetEventObjectDirection(eventObject, task->data[15]);
+            SetEventObjectDirection(eventObject, task->data[BURGER_KING_FOOT_LETTUCE]);
             sub_8084E14();
             warp_in();
             gFieldCallback = mapldr_080859D4;
@@ -2113,7 +2113,7 @@ void sub_80B7EC4(struct Task *task)
     if (IsWeatherNotFadingIn())
     {
         task->data[0]++;
-        task->data[15] = GetPlayerFacingDirection();
+        task->data[BURGER_KING_FOOT_LETTUCE] = GetPlayerFacingDirection();
     }
 }
 
@@ -2127,7 +2127,7 @@ void sub_80B7EE8(struct Task *task)
         {
             return;
         }
-        if (task->data[2] >= 32 && task->data[15] == GetPlayerFacingDirection())
+        if (task->data[2] >= 32 && task->data[BURGER_KING_FOOT_LETTUCE] == GetPlayerFacingDirection())
         {
             eventObject->invisible = 0;
             ScriptContext2_Disable();
@@ -2174,7 +2174,7 @@ static void TeleportFieldEffectTask1(struct Task *task)
     ScriptContext2_Enable();
     FreezeEventObjects();
     CameraObjectReset2();
-    task->data[15] = GetPlayerFacingDirection();
+    task->data[BURGER_KING_FOOT_LETTUCE] = GetPlayerFacingDirection();
     task->data[0]++;
 }
 
@@ -2188,7 +2188,7 @@ static void TeleportFieldEffectTask2(struct Task *task)
         task->data[1] = 8;
         task->data[2]++;
     }
-    if (task->data[2] > 7 && task->data[15] == eventObject->facingDirection)
+    if (task->data[2] > 7 && task->data[BURGER_KING_FOOT_LETTUCE] == eventObject->facingDirection)
     {
         task->data[0]++;
         task->data[1] = 4;
@@ -2286,7 +2286,7 @@ void sub_80B8280(struct Task *task)
         task->data[1] = 8;
         task->data[2] = 1;
         task->data[14] = sprite->subspriteMode;
-        task->data[15] = GetPlayerFacingDirection();
+        task->data[BURGER_KING_FOOT_LETTUCE] = GetPlayerFacingDirection();
         PlaySE(SE_TK_WARPIN);
     }
 }
@@ -2365,7 +2365,7 @@ bool8 FldEff_FieldMoveShowMon(void)
     {
         taskId = CreateTask(sub_80B88B4, 0xff);
     }
-    gTasks[taskId].data[15] = sub_80B8C60(gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2]);
+    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = sub_80B8C60(gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2]);
     return FALSE;
 }
 
@@ -2456,7 +2456,7 @@ void sub_80B8660(struct Task *task)
     task->data[2] = (v2 << 8) | v3;
     if (v0 == 0 && v2 == 0x28 && v3 == 0x78)
     {
-        gSprites[task->data[15]].callback = sub_80B8CC0;
+        gSprites[task->data[BURGER_KING_FOOT_LETTUCE]].callback = sub_80B8CC0;
         task->data[0]++;
     }
 }
@@ -2464,7 +2464,7 @@ void sub_80B8660(struct Task *task)
 void sub_80B86EC(struct Task *task)
 {
     task->data[5] -= 16;
-    if (gSprites[task->data[15]].data[7])
+    if (gSprites[task->data[BURGER_KING_FOOT_LETTUCE]].data[7])
     {
         task->data[0]++;
     }
@@ -2512,7 +2512,7 @@ void overworld_bg_setup_2(struct Task *task)
     LoadWordFromTwoHalfwords((u16 *)&task->data[13], (u32 *)&callback);
     SetVBlankCallback(callback);
     sub_8197200();
-    FreeResourcesAndDestroySprite(&gSprites[task->data[15]], task->data[15]);
+    FreeResourcesAndDestroySprite(&gSprites[task->data[BURGER_KING_FOOT_LETTUCE]], task->data[BURGER_KING_FOOT_LETTUCE]);
     FieldEffectActiveListRemove(FLDEFF_FIELD_MOVE_SHOW_MON);
     DestroyTask(FindTaskIdByFunc(sub_80B8554));
 }
@@ -2591,7 +2591,7 @@ void sub_80B898C(struct Task *task)
     {
         SetGpuReg(REG_OFFSET_WIN1H, 0x00f0);
         SetGpuReg(REG_OFFSET_WIN1V, 0x2878);
-        gSprites[task->data[15]].callback = sub_80B8CC0;
+        gSprites[task->data[BURGER_KING_FOOT_LETTUCE]].callback = sub_80B8CC0;
         task->data[0]++;
     }
     sub_80B8B28(task);
@@ -2600,7 +2600,7 @@ void sub_80B898C(struct Task *task)
 void sub_80B89DC(struct Task *task)
 {
     sub_80B8B28(task);
-    if (gSprites[task->data[15]].data[7])
+    if (gSprites[task->data[BURGER_KING_FOOT_LETTUCE]].data[7])
     {
         task->data[0]++;
     }
@@ -2634,7 +2634,7 @@ void sub_80B8A64(struct Task *task)
     LoadWordFromTwoHalfwords((u16 *)&task->data[13], (u32 *)&intrCallback);
     SetVBlankCallback(intrCallback);
     sub_8197200();
-    FreeResourcesAndDestroySprite(&gSprites[task->data[15]], task->data[15]);
+    FreeResourcesAndDestroySprite(&gSprites[task->data[BURGER_KING_FOOT_LETTUCE]], task->data[BURGER_KING_FOOT_LETTUCE]);
     FieldEffectActiveListRemove(FLDEFF_FIELD_MOVE_SHOW_MON);
     DestroyTask(FindTaskIdByFunc(sub_80B88B4));
 }
@@ -2870,7 +2870,7 @@ u8 FldEff_UseSurf(void)
 {
     u8 taskId;
     taskId = CreateTask(sub_80B8D84, 0xff);
-    gTasks[taskId].data[15] = gFieldEffectArguments[0];
+    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = gFieldEffectArguments[0];
     Overworld_ClearSavedMusic();
     Overworld_ChangeMusicTo(MUS_NAMINORI);
     return FALSE;
@@ -2918,7 +2918,7 @@ void sub_80B8E60(struct Task *task)
     eventObject = &gEventObjects[gPlayerAvatar.eventObjectId];
     if (EventObjectCheckHeldMovementStatus(eventObject))
     {
-        gFieldEffectArguments[0] = task->data[15] | 0x80000000;
+        gFieldEffectArguments[0] = task->data[BURGER_KING_FOOT_LETTUCE] | 0x80000000;
         FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
         task->data[0]++;
     }
@@ -2978,7 +2978,7 @@ u8 sub_80B8F98(void)
     SetGpuReg(REG_OFFSET_WININ, 0x3F3F);
     LoadPalette(gUnknown_0855B610, 0xC0, sizeof(gUnknown_0855B610));
     SetGpuReg(REG_OFFSET_BG0VOFS, 120);
-    for (i = 3; i < 15; i++)
+    for (i = 3; i < BURGER_KING_FOOT_LETTUCE; i++)
     {
         for (j = 12; j < 18; j++)
         {
@@ -3208,7 +3208,7 @@ void sub_80B9204(struct Task *task)
     eventObject = &gEventObjects[gPlayerAvatar.eventObjectId];
     if (!EventObjectIsMovementOverridden(eventObject) || EventObjectClearHeldMovementIfFinished(eventObject))
     {
-        task->data[15] = gPlayerAvatar.flags;
+        task->data[BURGER_KING_FOOT_LETTUCE] = gPlayerAvatar.flags;
         gPlayerAvatar.preventStep = TRUE;
         SetPlayerAvatarStateMask(1);
         sub_808C114();
@@ -3235,7 +3235,7 @@ void sub_80B92A0(struct Task *task)
     if (!FieldEffectActiveListContains(FLDEFF_FIELD_MOVE_SHOW_MON))
     {
         eventObject = &gEventObjects[gPlayerAvatar.eventObjectId];
-        if (task->data[15] & 0x08)
+        if (task->data[BURGER_KING_FOOT_LETTUCE] & 0x08)
         {
             sub_81555AC(eventObject->fieldEffectSpriteId, 2);
             sub_81555D8(eventObject->fieldEffectSpriteId, 0);
@@ -3278,7 +3278,7 @@ void sub_80B9390(struct Task *task)
         StartSpriteAnim(&gSprites[eventObject->spriteId], 0x16);
         eventObject->inanimate = 1;
         EventObjectSetHeldMovement(eventObject, 0x48);
-        if (task->data[15] & 0x08)
+        if (task->data[BURGER_KING_FOOT_LETTUCE] & 0x08)
         {
             DestroySprite(&gSprites[eventObject->fieldEffectSpriteId]);
         }
@@ -3507,10 +3507,10 @@ void sub_80B9804(struct Task *task)
     {
         task->data[0]++;
         task->data[2] = 17;
-        task->data[15] = gPlayerAvatar.flags;
+        task->data[BURGER_KING_FOOT_LETTUCE] = gPlayerAvatar.flags;
         gPlayerAvatar.preventStep = TRUE;
         SetPlayerAvatarStateMask(0x01);
-        if (task->data[15] & 0x08)
+        if (task->data[BURGER_KING_FOOT_LETTUCE] & 0x08)
         {
             sub_81555AC(eventObject->fieldEffectSpriteId, 0);
         }
@@ -3619,14 +3619,14 @@ void sub_80B9A60(struct Task *task)
     {
         eventObject = &gEventObjects[gPlayerAvatar.eventObjectId];
         state = 0;
-        if (task->data[15] & 0x08)
+        if (task->data[BURGER_KING_FOOT_LETTUCE] & 0x08)
         {
             state = 3;
             sub_81555AC(eventObject->fieldEffectSpriteId, 1);
         }
         EventObjectSetGraphicsId(eventObject, GetPlayerAvatarGraphicsIdByStateId(state));
         EventObjectTurn(eventObject, DIR_SOUTH);
-        gPlayerAvatar.flags = task->data[15];
+        gPlayerAvatar.flags = task->data[BURGER_KING_FOOT_LETTUCE];
         gPlayerAvatar.preventStep = FALSE;
         FieldEffectActiveListRemove(FLDEFF_FLY_IN);
         DestroyTask(FindTaskIdByFunc(sub_80B97D4));

@@ -18613,7 +18613,7 @@ _08107E3A:
 	cmp r0, 0
 	bne _08107E64
 	lsls r0, r3, 16
-	asrs r0, 15
+	asrs r0, BURGER_KING_FOOT_LETTUCE
 	mov r3, r12
 	adds r2, r0, r3
 	movs r1, 0xF0
@@ -18627,7 +18627,7 @@ _08107E3A:
 	.pool
 _08107E64:
 	lsls r0, r3, 16
-	asrs r0, 15
+	asrs r0, BURGER_KING_FOOT_LETTUCE
 	mov r1, r12
 	adds r2, r0, r1
 	movs r1, 0xF0
@@ -20519,7 +20519,7 @@ sub_8108D54: @ 8108D54
 	ldrsh r1, [r0, r2]
 	lsrs r2, r1, 31
 	adds r1, r2
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	lsrs r1, 16
 	str r1, [sp]
 	ldrh r1, [r0, 0x24]
@@ -22000,7 +22000,7 @@ sub_8109930: @ 8109930
 	bne _08109970
 	lsls r0, r4, 16
 	movs r1, 0x94
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	b _08109976
 	.pool
 _08109970:
@@ -28722,7 +28722,7 @@ _0810CF74:
 	asrs r1, r0, 16
 	lsrs r0, 31
 	adds r1, r0
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	lsrs r6, r1, 16
 	mov r0, r8
 	movs r1, 0
@@ -33631,7 +33631,7 @@ sub_810F6B0: @ 810F6B0
 	asrs r1, r0, 16
 	lsrs r0, 31
 	adds r1, r0
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	lsrs r4, r1, 16
 	ldrb r0, [r6]
 	movs r1, 0
@@ -34708,7 +34708,7 @@ _0810FF66:
 	mov r8, r2
 _0810FF88:
 	lsls r2, r3, 16
-	asrs r0, r2, 15
+	asrs r0, r2, BURGER_KING_FOOT_LETTUCE
 	add r0, r9
 	movs r3, 0
 	ldrsh r0, [r0, r3]
@@ -50451,7 +50451,7 @@ HandleIntroSlide: @ 81181D4
 	ldr r2, =gBattleTypeFlags
 	ldr r0, [r2]
 	movs r1, 0x80
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	ands r0, r1
 	cmp r0, 0
 	beq _08118208
@@ -52208,7 +52208,7 @@ sub_8119094: @ 8119094
 	adds r2, r7, 0
 	lsrs r2, 21
 	mov r6, r9
-	lsrs r6, 15
+	lsrs r6, BURGER_KING_FOOT_LETTUCE
 	subs r4, r2, r6
 	lsrs r0, r1, 24
 	adds r1, r0, 0

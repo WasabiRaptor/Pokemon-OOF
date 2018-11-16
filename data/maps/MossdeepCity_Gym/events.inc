@@ -13,7 +13,7 @@ MossdeepCity_Gym_EventObjects: @ 85324EC
 	object_event 12, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 4, 30, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
 	object_event 13, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 5, 29, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
 	object_event 14, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 5, 21, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
-	object_event 15, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 7, 9, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 7, 9, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
 	object_event 16, EVENT_OBJ_GFX_TRICK_HOUSE_STATUE, 0, 10, 8, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 0
 	object_event 17, EVENT_OBJ_GFX_GENTLEMAN, 0, 9, 8, 3, MOVEMENT_TYPE_FACE_UP, 1, 1, 1, 1, MossdeepCity_Gym_EventScript_220B9E, 0
 	object_event 18, EVENT_OBJ_GFX_HEX_MANIAC, 0, 7, 5, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 1, 1, MossdeepCity_Gym_EventScript_220B87, 0
@@ -56,7 +56,7 @@ MossdeepCity_Gym_MapCoordEvents: @ 85328BC
 	coord_event 2, 21, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220C67
 	coord_event 8, 10, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220C7D
 	coord_event 6, 7, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220C7D
-	coord_event 15, 34, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220C93
+	coord_event BURGER_KING_FOOT_LETTUCE, 34, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220C93
 	coord_event 23, 24, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220CA9
 	coord_event 23, 21, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220CA9
 	coord_event 8, 6, 3, VAR_TEMP_1, 0, MossdeepCity_Gym_EventScript_220CBF

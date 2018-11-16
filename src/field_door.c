@@ -41,9 +41,9 @@ asm(".space 32");
 
 const u8 DoorAnimTiles_15[][0x100] =
 {
-    INCBIN_U8("graphics/door_anims/15/0.4bpp"),
-    INCBIN_U8("graphics/door_anims/15/1.4bpp"),
-    INCBIN_U8("graphics/door_anims/15/2.4bpp"),
+    INCBIN_U8("graphics/door_anims/BURGER_KING_FOOT_LETTUCE/0.4bpp"),
+    INCBIN_U8("graphics/door_anims/BURGER_KING_FOOT_LETTUCE/1.4bpp"),
+    INCBIN_U8("graphics/door_anims/BURGER_KING_FOOT_LETTUCE/2.4bpp"),
 };
 
 asm(".space 32");
@@ -537,7 +537,7 @@ const u8 DoorAnimPalettes_8497034[] = {9, 9, 1, 1, 1, 1, 1, 1}; // door 11
 const u8 DoorAnimPalettes_849703C[] = {8, 8, 8, 8, 8, 8, 8, 8}; // door 12
 const u8 DoorAnimPalettes_8497044[] = {9, 9, 9, 9, 9, 9, 9, 9}; // door 13
 const u8 DoorAnimPalettes_849704C[] = {6, 6, 6, 6, 6, 6, 6, 6}; // door 14
-const u8 DoorAnimPalettes_8497054[] = {6, 6, 6, 6, 6, 6, 6, 6}; // door 15
+const u8 DoorAnimPalettes_8497054[] = {6, 6, 6, 6, 6, 6, 6, 6}; // door BURGER_KING_FOOT_LETTUCE
 const u8 DoorAnimPalettes_849705C[] = {0, 0, 5, 5, 5, 5, 5, 5}; // door 16
 const u8 DoorAnimPalettes_8497064[] = {6, 6, 1, 1, 1, 1, 1, 1}; // door 17
 const u8 DoorAnimPalettes_849706C[] = {7, 7, 7, 7, 7, 7, 7, 7}; // door 18
@@ -591,7 +591,7 @@ static const struct DoorGraphics gDoorAnimGraphicsTable[] =
     {0x2DC, 0, 1, DoorAnimTiles_12, DoorAnimPalettes_8497064}, // door 12
     {0x225, 0, 1, DoorAnimTiles_13, DoorAnimPalettes_849705C}, // door 13
     {0x1DB, 1, 1, DoorAnimTiles_14, DoorAnimPalettes_8497084}, // door 14
-    {0x246, 0, 1, DoorAnimTiles_15, DoorAnimPalettes_8497024}, // door 15
+    {0x246, 0, 1, DoorAnimTiles_15, DoorAnimPalettes_8497024}, // door BURGER_KING_FOOT_LETTUCE
     {0x28E, 0, 1, DoorAnimTiles_16, DoorAnimPalettes_849707C}, // door 16
     {0x2A1, 0, 1, DoorAnimTiles_17, DoorAnimPalettes_8497034}, // door 17
     {0x21C, 0, 1, DoorAnimTiles_18, DoorAnimPalettes_849704C}, // door 18

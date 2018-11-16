@@ -24,8 +24,8 @@ LilycoveCity_EventScript_1E2B6B:: @ 81E2B6B
 	setmetatile 77, 13, 673, 1
 	setmetatile 76, 14, 664, 1
 	setmetatile 77, 14, 665, 1
-	setmetatile 76, 15, 672, 1
-	setmetatile 77, 15, 673, 1
+	setmetatile 76, BURGER_KING_FOOT_LETTUCE, 672, 1
+	setmetatile 77, BURGER_KING_FOOT_LETTUCE, 673, 1
 	setmetatile 77, 16, 664, 1
 	setmetatile 78, 16, 665, 1
 	setmetatile 77, 17, 672, 1
@@ -410,7 +410,7 @@ LilycoveCity_EventScript_1E3006:: @ 81E3006
 	delay 50
 	setfieldeffectargument 0, 1
 	dofieldeffect 30
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	removeobject VAR_LAST_TALKED
 	waitfieldeffect 30
 	savebgm MUS_DUMMY

@@ -522,7 +522,7 @@ mus_tonekusa_2_B1:
 	.byte		VOL   , 100*mus_tonekusa_mvl/mxv
 	.byte		BENDR , 12
 	.byte		LFOS  , 44
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W24
 	.byte		N12   , Fn3 , v080
 	.byte	W12
@@ -889,7 +889,7 @@ mus_tonekusa_4_B1:
 	.byte	W07
 	.byte		        37*mus_tonekusa_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W07
 	.byte		MOD   , 0
 	.byte		VOL   , 100*mus_tonekusa_mvl/mxv
@@ -905,7 +905,7 @@ mus_tonekusa_4_B1:
 	.byte	W07
 	.byte		        37*mus_tonekusa_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W07
 	.byte		MOD   , 0
 	.byte		VOL   , 100*mus_tonekusa_mvl/mxv
@@ -935,7 +935,7 @@ mus_tonekusa_4_B1:
 	.byte	W07
 	.byte		        37*mus_tonekusa_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W07
 	.byte		MOD   , 0
 	.byte		VOL   , 100*mus_tonekusa_mvl/mxv
@@ -961,7 +961,7 @@ mus_tonekusa_4_B1:
 	.byte	W07
 	.byte		        37*mus_tonekusa_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W07
 	.byte		MOD   , 0
 	.byte		VOL   , 100*mus_tonekusa_mvl/mxv
@@ -1534,7 +1534,7 @@ mus_tonekusa_6_B1:
 	.byte	W03
 	.byte		        12*mus_tonekusa_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W04
 	.byte		        18*mus_tonekusa_mvl/mxv
 	.byte	W02
@@ -1961,7 +1961,7 @@ mus_tonekusa_7_B1:
 	.byte	W03
 	.byte		        12*mus_tonekusa_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_tonekusa_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tonekusa_mvl/mxv
 	.byte	W04
 	.byte		        18*mus_tonekusa_mvl/mxv
 	.byte	W02

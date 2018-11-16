@@ -30,7 +30,7 @@ SlateportCity_OceanicMuseum_1F_MapBGEvents: @ 852F7F8
 	bg_event 12, 1, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AE9E
 	bg_event 10, 1, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AE95
 	bg_event 13, 1, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AE9E
-	bg_event 15, 4, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AEA7
+	bg_event BURGER_KING_FOOT_LETTUCE, 4, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AEA7
 	bg_event 18, 4, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AEB0
 	bg_event 18, 7, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AEB9
 	bg_event 2, 1, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_OceanicMuseum_1F_EventScript_20AEC2

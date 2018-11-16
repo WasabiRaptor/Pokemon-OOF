@@ -121,7 +121,7 @@ mus_rg_pokefue_1:
 	.byte	W03
 	.byte		        19*mus_rg_pokefue_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_pokefue_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_pokefue_mvl/mxv
 	.byte	W09
 	.byte		        11*mus_rg_pokefue_mvl/mxv
 	.byte	W09

@@ -1262,7 +1262,7 @@ mus_m_dungon_6_B1:
 	.byte	W04
 	.byte		        c_v-11
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-18
 	.byte	W03
@@ -1653,7 +1653,7 @@ mus_m_dungon_7_B1:
 	.byte	W04
 	.byte		        c_v-11
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-18
 	.byte	W03
@@ -2047,7 +2047,7 @@ mus_m_dungon_10_B1:
 	.byte	W03
 	.byte		        c_v-10
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		        c_v-16
 	.byte	W02
@@ -2081,7 +2081,7 @@ mus_m_dungon_10_B1:
 	.byte	W24
 	.byte		BEND  , c_v-12
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-20
 	.byte	W03
@@ -2146,7 +2146,7 @@ mus_m_dungon_10_B1:
 	.byte	W03
 	.byte		        c_v-10
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		        c_v-16
 	.byte	W02
@@ -2180,7 +2180,7 @@ mus_m_dungon_10_B1:
 	.byte	W24
 	.byte		BEND  , c_v-12
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-20
 	.byte	W03
@@ -2417,7 +2417,7 @@ mus_m_dungon_10_B1:
 	.byte	W06
 	.byte		        c_v-13
 	.byte	W04
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v-18
 	.byte	W03
@@ -2450,7 +2450,7 @@ mus_m_dungon_10_B1:
 	.byte	W07
 	.byte		        27*mus_m_dungon_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_m_dungon_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_m_dungon_mvl/mxv
 	.byte	W07
 	.byte		        2*mus_m_dungon_mvl/mxv
 	.byte	W24

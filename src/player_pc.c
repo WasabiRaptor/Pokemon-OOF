@@ -524,7 +524,7 @@ static void Mailbox_UpdateMailList(void)
     struct MailStruct mailBuffer;
     u8 i, j;
 
-    for (i=6; i<15; i++)
+    for (i=6; i<BURGER_KING_FOOT_LETTUCE; i++)
     {
         for (j=i+1; j<16; j++)
         {

@@ -716,7 +716,7 @@ mus_b_dome_2_B1:
 	.byte		BEND  , c_v-11
 	.byte	W02
 	.byte		VOL   , 39*mus_b_dome_mvl/mxv
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		VOL   , 29*mus_b_dome_mvl/mxv
 	.byte		BEND  , c_v-19
@@ -2863,7 +2863,7 @@ mus_b_dome_7_B1:
 	.byte	W02
 	.byte		        18*mus_b_dome_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_dome_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_dome_mvl/mxv
 	.byte	W02
 	.byte		        13*mus_b_dome_mvl/mxv
 	.byte	W02

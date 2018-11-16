@@ -4260,7 +4260,7 @@ _08156034:
 	movs r1, 0x3
 	bl __divsi3
 	lsls r0, 16
-	asrs r0, 15
+	asrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r4
 	ldrh r0, [r0]
 	lsls r0, 16

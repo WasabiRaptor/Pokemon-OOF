@@ -7032,7 +7032,7 @@ _0819E0E6:
 	adds r1, r6
 	lsls r1, 20
 	movs r3, 0x90
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r1, r3
 	asrs r1, 16
 	mov r0, sp
@@ -15243,7 +15243,7 @@ _081A2410:
 	b _081A241E
 _081A241A:
 	movs r0, 0x80
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 _081A241E:
 	bl sub_81A1C24
 	lsls r0, 24
@@ -20000,7 +20000,7 @@ sub_81A4DB8: @ 81A4DB8
 	bl VarGet
 	lsls r0, 16
 	ldr r1, =gUnknown_08611C8C
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, 0x1
 	adds r0, r1
 	ldrb r0, [r0]
@@ -20017,7 +20017,7 @@ sub_81A4DD8: @ 81A4DD8
 	lsls r0, 16
 	ldr r2, =0x00004010
 	ldr r1, =gUnknown_08611C8C
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r1
 	ldrb r1, [r0]
 	adds r0, r2, 0
@@ -20682,7 +20682,7 @@ _081A53C0:
 	movs r0, 0x48
 	bl SetGpuReg
 	movs r6, 0x80
-	lsls r6, 15
+	lsls r6, BURGER_KING_FOOT_LETTUCE
 	movs r4, 0x7
 _081A53CE:
 	asrs r1, r6, 16
@@ -21560,7 +21560,7 @@ sub_81A5B08: @ 81A5B08
 	movs r1, 0x9
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r1, =0x00000dd8
@@ -21576,7 +21576,7 @@ _081A5B58:
 	movs r1, 0x6
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r2, =0x00000dd8
@@ -28221,7 +28221,7 @@ sub_81A917C: @ 81A917C
 	movs r1, 0x9
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r1, =0x00000e18
@@ -28237,7 +28237,7 @@ _081A91CC:
 	movs r1, 0x6
 	bl __umodsi3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r5
 	ldrh r0, [r0]
 	ldr r2, =0x00000e18

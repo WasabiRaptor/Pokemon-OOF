@@ -3094,15 +3094,15 @@ gBattleAnimSpritePalette_260:: @ 8E68764
 
 	.align 2
 gBattleAnimBackgroundImage_15:: @ 8E6877C
-	.incbin "graphics/battle_anims/backgrounds/15.4bpp.lz"
+	.incbin "graphics/battle_anims/backgrounds/BURGER_KING_FOOT_LETTUCE.4bpp.lz"
 
 	.align 2
 gBattleAnimBackgroundPalette_15:: @ 8E690EC
-	.incbin "graphics/battle_anims/backgrounds/15.gbapal.lz"
+	.incbin "graphics/battle_anims/backgrounds/BURGER_KING_FOOT_LETTUCE.gbapal.lz"
 
 	.align 2
 gBattleAnimBackgroundTilemap_15:: @ 8E69110
-	.incbin "graphics/battle_anims/backgrounds/15.bin.lz"
+	.incbin "graphics/battle_anims/backgrounds/BURGER_KING_FOOT_LETTUCE.bin.lz"
 
 	.align 2
 gBattleAnimSpriteSheet_262:: @ 8E69308
@@ -4914,7 +4914,7 @@ gTilesetPalettes_General:: @ 8DD4E10
 	.incbin "data/tilesets/primary/general/palettes/12.gbapal"
 	.incbin "data/tilesets/primary/general/palettes/13.gbapal"
 	.incbin "data/tilesets/primary/general/palettes/14.gbapal"
-	.incbin "data/tilesets/primary/general/palettes/15.gbapal"
+	.incbin "data/tilesets/primary/general/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_General:: @ 8DD5010

@@ -151,7 +151,7 @@ TrainerHill_Entrance_EventScript_268275:: @ 8268275
 TrainerHill_Entrance_EventScript_26827D:: @ 826827D
 	message TrainerHill_Entrance_Text_2685F8
 	waitmessage
-	multichoice 15, 6, 17, 0
+	multichoice BURGER_KING_FOOT_LETTUCE, 6, 17, 0
 	switch VAR_RESULT
 	case 0, TrainerHill_Entrance_EventScript_2682C8
 	case 1, TrainerHill_Entrance_EventScript_268314
@@ -203,7 +203,7 @@ TrainerHill_Entrance_EventScript_26832E:: @ 826832E
 	return
 
 TrainerHill_Entrance_EventScript_26835C:: @ 826835C
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sp194_trainer_tower
 	goto TrainerHill_Entrance_EventScript_268314
 	end

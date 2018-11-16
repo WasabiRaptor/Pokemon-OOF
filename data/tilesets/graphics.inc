@@ -19,7 +19,7 @@ gTilesetPalettes_Petalburg:: @ 833A704
 	.incbin "data/tilesets/secondary/petalburg/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/petalburg/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/petalburg/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/petalburg/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/petalburg/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Rustboro:: @ 833A904
@@ -42,7 +42,7 @@ gTilesetPalettes_Rustboro:: @ 833BEC0
 	.incbin "data/tilesets/secondary/rustboro/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/rustboro/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/rustboro/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/rustboro/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/rustboro/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Dewford:: @ 833C0C0
@@ -65,7 +65,7 @@ gTilesetPalettes_Dewford:: @ 833D540
 	.incbin "data/tilesets/secondary/dewford/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/dewford/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/dewford/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/dewford/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/dewford/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Slateport:: @ 833D740
@@ -88,7 +88,7 @@ gTilesetPalettes_Slateport:: @ 833F708
 	.incbin "data/tilesets/secondary/slateport/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/slateport/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/slateport/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/slateport/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/slateport/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Mauville:: @ 833F908
@@ -111,7 +111,7 @@ gTilesetPalettes_Mauville:: @ 834172C
 	.incbin "data/tilesets/secondary/mauville/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mauville/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mauville/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mauville/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mauville/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Lavaridge:: @ 834192C
@@ -134,7 +134,7 @@ gTilesetPalettes_Lavaridge:: @ 8342E28
 	.incbin "data/tilesets/secondary/lavaridge/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/lavaridge/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/lavaridge/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/lavaridge/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/lavaridge/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Fallarbor:: @ 8343028
@@ -157,7 +157,7 @@ gTilesetPalettes_Fallarbor:: @ 83447A0
 	.incbin "data/tilesets/secondary/fallarbor/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/fallarbor/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/fallarbor/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/fallarbor/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/fallarbor/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Fortree:: @ 83449A0
@@ -180,7 +180,7 @@ gTilesetPalettes_Fortree:: @ 8346020
 	.incbin "data/tilesets/secondary/fortree/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/fortree/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/fortree/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/fortree/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/fortree/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Lilycove:: @ 8346220
@@ -203,7 +203,7 @@ gTilesetPalettes_Lilycove:: @ 83475C0
 	.incbin "data/tilesets/secondary/lilycove/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/lilycove/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/lilycove/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/lilycove/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/lilycove/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Mossdeep:: @ 83477C0
@@ -226,7 +226,7 @@ gTilesetPalettes_Mossdeep:: @ 8348E10
 	.incbin "data/tilesets/secondary/mossdeep/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mossdeep/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mossdeep/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_EverGrande:: @ 8349010
@@ -249,7 +249,7 @@ gTilesetPalettes_EverGrande:: @ 8349C28
 	.incbin "data/tilesets/secondary/ever_grande/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/ever_grande/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/ever_grande/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/ever_grande/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/ever_grande/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Pacifidlog:: @ 8349E28
@@ -272,7 +272,7 @@ gTilesetPalettes_Pacifidlog:: @ 834B5B4
 	.incbin "data/tilesets/secondary/pacifidlog/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pacifidlog/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pacifidlog/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pacifidlog/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pacifidlog/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Sootopolis:: @ 834B7B4
@@ -295,7 +295,7 @@ gTilesetPalettes_Sootopolis:: @ 834C6B4
 	.incbin "data/tilesets/secondary/sootopolis/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/sootopolis/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/sootopolis/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/sootopolis/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleFrontierOutsideWest:: @ 834C8B4
@@ -318,7 +318,7 @@ gTilesetPalettes_BattleFrontierOutsideWest:: @ 834E3E4
 	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleFrontierOutsideEast:: @ 834E5E4
@@ -341,7 +341,7 @@ gTilesetPalettes_BattleFrontierOutsideEast:: @ 834F984
 	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_InsideBuilding:: @ 834FB84
@@ -364,7 +364,7 @@ gTilesetPalettes_InsideBuilding:: @ 83508BC
 	.incbin "data/tilesets/primary/building/palettes/12.gbapal"
 	.incbin "data/tilesets/primary/building/palettes/13.gbapal"
 	.incbin "data/tilesets/primary/building/palettes/14.gbapal"
-	.incbin "data/tilesets/primary/building/palettes/15.gbapal"
+	.incbin "data/tilesets/primary/building/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Shop:: @ 8350ABC
@@ -387,7 +387,7 @@ gTilesetPalettes_Shop:: @ 83520DC
 	.incbin "data/tilesets/secondary/shop/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/shop/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/shop/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/shop/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/shop/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PokemonCenter:: @ 83522DC
@@ -410,7 +410,7 @@ gTilesetPalettes_PokemonCenter:: @ 8353574
 	.incbin "data/tilesets/secondary/pokemon_center/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_center/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_center/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pokemon_center/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_center/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Cave:: @ 8353774
@@ -433,7 +433,7 @@ gTilesetPalettes_Cave:: @ 8355260
 	.incbin "data/tilesets/secondary/cave/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/cave/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/cave/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/cave/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/cave/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PokemonSchool:: @ 8355460
@@ -456,7 +456,7 @@ gTilesetPalettes_PokemonSchool:: @ 8355BA8
 	.incbin "data/tilesets/secondary/pokemon_school/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_school/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_school/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pokemon_school/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_school/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PokemonFanClub:: @ 8355DA8
@@ -479,7 +479,7 @@ gTilesetPalettes_PokemonFanClub:: @ 83566D4
 	.incbin "data/tilesets/secondary/pokemon_fan_club/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_fan_club/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_fan_club/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pokemon_fan_club/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_fan_club/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Unused1:: @ 83568D4
@@ -502,7 +502,7 @@ gTilesetPalettes_Unused1:: @ 8356920
 	.incbin "data/tilesets/secondary/unused_1/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/unused_1/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/unused_1/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/unused_1/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/unused_1/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MeteorFalls:: @ 8356B20
@@ -525,7 +525,7 @@ gTilesetPalettes_MeteorFalls:: @ 8358840
 	.incbin "data/tilesets/secondary/meteor_falls/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/meteor_falls/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/meteor_falls/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/meteor_falls/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/meteor_falls/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_OceanicMuseum:: @ 8358A40
@@ -548,7 +548,7 @@ gTilesetPalettes_OceanicMuseum:: @ 83599CC
 	.incbin "data/tilesets/secondary/oceanic_museum/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/oceanic_museum/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/oceanic_museum/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/oceanic_museum/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/oceanic_museum/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_CableClub:: @ 8359BCC
@@ -574,7 +574,7 @@ gTilesetPalettes_CableClub:: @ 835EACC
 	.incbin "data/tilesets/secondary/cable_club/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/cable_club/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/cable_club/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/cable_club/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/cable_club/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_SeashoreHouse:: @ 835ECCC
@@ -597,7 +597,7 @@ gTilesetPalettes_SeashoreHouse:: @ 835F5A8
 	.incbin "data/tilesets/secondary/seashore_house/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/seashore_house/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/seashore_house/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/seashore_house/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/seashore_house/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PrettyPetalFlowerShop:: @ 835F7A8
@@ -620,7 +620,7 @@ gTilesetPalettes_PrettyPetalFlowerShop:: @ 83603A0
 	.incbin "data/tilesets/secondary/pretty_petal_flower_shop/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pretty_petal_flower_shop/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pretty_petal_flower_shop/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pretty_petal_flower_shop/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pretty_petal_flower_shop/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PokemonDayCare:: @ 83605A0
@@ -643,7 +643,7 @@ gTilesetPalettes_PokemonDayCare:: @ 8360FDC
 	.incbin "data/tilesets/secondary/pokemon_day_care/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_day_care/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/pokemon_day_care/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/pokemon_day_care/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_day_care/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Facility:: @ 83611DC
@@ -666,7 +666,7 @@ gTilesetPalettes_Facility:: @ 8362E90
 	.incbin "data/tilesets/secondary/facility/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/facility/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/facility/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/facility/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/facility/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BikeShop:: @ 8363090
@@ -689,7 +689,7 @@ gTilesetPalettes_BikeShop:: @ 83643C0
 	.incbin "data/tilesets/secondary/bike_shop/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/bike_shop/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/bike_shop/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/bike_shop/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/bike_shop/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_RusturfTunnel:: @ 83645C0
@@ -712,7 +712,7 @@ gTilesetPalettes_RusturfTunnel:: @ 8365008
 	.incbin "data/tilesets/secondary/rusturf_tunnel/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/rusturf_tunnel/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/rusturf_tunnel/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/rusturf_tunnel/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/rusturf_tunnel/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -735,7 +735,7 @@ gTilesetPalettes_SecretBaseBrownCave:: @ 8365788
 	.incbin "data/tilesets/secondary/secret_base/brown_cave/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/brown_cave/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/brown_cave/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/brown_cave/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/brown_cave/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -758,7 +758,7 @@ gTilesetPalettes_SecretBaseTree:: @ 8365EAC
 	.incbin "data/tilesets/secondary/secret_base/tree/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/tree/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/tree/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/tree/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/tree/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -781,7 +781,7 @@ gTilesetPalettes_SecretBaseShrub:: @ 8366614
 	.incbin "data/tilesets/secondary/secret_base/shrub/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/shrub/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/shrub/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/shrub/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/shrub/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -804,7 +804,7 @@ gTilesetPalettes_SecretBaseBlueCave:: @ 8366C30
 	.incbin "data/tilesets/secondary/secret_base/blue_cave/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/blue_cave/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/blue_cave/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/blue_cave/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/blue_cave/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -827,7 +827,7 @@ gTilesetPalettes_SecretBaseYellowCave:: @ 8367368
 	.incbin "data/tilesets/secondary/secret_base/yellow_cave/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/yellow_cave/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/yellow_cave/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/yellow_cave/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/yellow_cave/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 @ unused compressed copy of tiles
@@ -850,7 +850,7 @@ gTilesetPalettes_SecretBaseRedCave:: @ 83679A0
 	.incbin "data/tilesets/secondary/secret_base/red_cave/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/red_cave/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/secret_base/red_cave/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/secret_base/red_cave/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/secret_base/red_cave/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_SecretBaseBrownCave:: @ 8367BA0
@@ -897,7 +897,7 @@ gTilesetPalettes_InsideOfTruck:: @ 836BC3C
 	.incbin "data/tilesets/secondary/inside_of_truck/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/inside_of_truck/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/inside_of_truck/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/inside_of_truck/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/inside_of_truck/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Contest:: @ 836BE3C
@@ -920,7 +920,7 @@ gTilesetPalettes_Contest:: @ 836C990
 	.incbin "data/tilesets/secondary/contest/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/contest/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/contest/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/contest/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/contest/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_LilycoveMuseum:: @ 836CB90
@@ -943,7 +943,7 @@ gTilesetPalettes_LilycoveMuseum:: @ 836DEAC
 	.incbin "data/tilesets/secondary/lilycove_museum/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/lilycove_museum/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/lilycove_museum/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/lilycove_museum/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/lilycove_museum/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BrendansMaysHouse:: @ 836E0AC
@@ -966,7 +966,7 @@ gTilesetPalettes_BrendansMaysHouse:: @ 836F178
 	.incbin "data/tilesets/secondary/brendans_mays_house/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/brendans_mays_house/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/brendans_mays_house/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/brendans_mays_house/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/brendans_mays_house/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Lab:: @ 836F378
@@ -989,7 +989,7 @@ gTilesetPalettes_Lab:: @ 83703DC
 	.incbin "data/tilesets/secondary/lab/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/lab/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/lab/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/lab/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/lab/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Underwater:: @ 83705DC
@@ -1012,7 +1012,7 @@ gTilesetPalettes_Underwater:: @ 8371798
 	.incbin "data/tilesets/secondary/underwater/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/underwater/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/underwater/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/underwater/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/underwater/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_GenericBuilding:: @ 8371998
@@ -1035,7 +1035,7 @@ gTilesetPalettes_GenericBuilding:: @ 83733C4
 	.incbin "data/tilesets/secondary/generic_building/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/generic_building/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/generic_building/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/generic_building/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/generic_building/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MauvilleGameCorner:: @ 83735C4
@@ -1058,7 +1058,7 @@ gTilesetPalettes_MauvilleGameCorner:: @ 8374288
 	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_Unused2:: @ 8374488
@@ -1081,7 +1081,7 @@ gTilesetPalettes_Unused2:: @ 83749B0
 	.incbin "data/tilesets/secondary/unused_2/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/unused_2/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/unused_2/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/unused_2/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/unused_2/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_RustboroGym:: @ 8374BB0
@@ -1104,7 +1104,7 @@ gTilesetPalettes_RustboroGym:: @ 8374F34
 	.incbin "data/tilesets/secondary/rustboro_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/rustboro_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/rustboro_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/rustboro_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/rustboro_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_DewfordGym:: @ 8375134
@@ -1127,7 +1127,7 @@ gTilesetPalettes_DewfordGym:: @ 8375400
 	.incbin "data/tilesets/secondary/dewford_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/dewford_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/dewford_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/dewford_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/dewford_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MauvilleGym:: @ 8375600
@@ -1150,7 +1150,7 @@ gTilesetPalettes_MauvilleGym:: @ 8375D84
 	.incbin "data/tilesets/secondary/mauville_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mauville_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mauville_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mauville_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mauville_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_LavaridgeGym:: @ 8375F84
@@ -1173,7 +1173,7 @@ gTilesetPalettes_LavaridgeGym:: @ 83762AC
 	.incbin "data/tilesets/secondary/lavaridge_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/lavaridge_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/lavaridge_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/lavaridge_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/lavaridge_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_PetalburgGym:: @ 83764AC
@@ -1196,7 +1196,7 @@ gTilesetPalettes_PetalburgGym:: @ 8376B50
 	.incbin "data/tilesets/secondary/petalburg_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/petalburg_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/petalburg_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/petalburg_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/petalburg_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_FortreeGym:: @ 8376D50
@@ -1219,7 +1219,7 @@ gTilesetPalettes_FortreeGym:: @ 83770C4
 	.incbin "data/tilesets/secondary/fortree_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/fortree_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/fortree_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/fortree_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/fortree_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MossdeepGym:: @ 83772C4
@@ -1242,7 +1242,7 @@ gTilesetPalettes_MossdeepGym:: @ 8377730
 	.incbin "data/tilesets/secondary/mossdeep_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mossdeep_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mossdeep_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_SootopolisGym:: @ 8377930
@@ -1265,7 +1265,7 @@ gTilesetPalettes_SootopolisGym:: @ 8378AC4
 	.incbin "data/tilesets/secondary/sootopolis_gym/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/sootopolis_gym/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/sootopolis_gym/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/sootopolis_gym/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis_gym/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_TrickHousePuzzle:: @ 8378CC4
@@ -1288,7 +1288,7 @@ gTilesetPalettes_TrickHousePuzzle:: @ 8379A78
 	.incbin "data/tilesets/secondary/trick_house_puzzle/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/trick_house_puzzle/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/trick_house_puzzle/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/trick_house_puzzle/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/trick_house_puzzle/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_InsideShip:: @ 8379C78
@@ -1311,7 +1311,7 @@ gTilesetPalettes_InsideShip:: @ 837A848
 	.incbin "data/tilesets/secondary/inside_ship/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/inside_ship/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/inside_ship/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/inside_ship/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/inside_ship/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_SecretBase:: @ 837AA48
@@ -1337,7 +1337,7 @@ gTilesetPalettes_SecretBase:: @ 8382A48
 	.incbin "data/tilesets/primary/secret_base/palettes/12.gbapal"
 	.incbin "data/tilesets/primary/secret_base/palettes/13.gbapal"
 	.incbin "data/tilesets/primary/secret_base/palettes/14.gbapal"
-	.incbin "data/tilesets/primary/secret_base/palettes/15.gbapal"
+	.incbin "data/tilesets/primary/secret_base/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_EliteFour:: @ 8382C48
@@ -1360,7 +1360,7 @@ gTilesetPalettes_EliteFour:: @ 8383CC4
 	.incbin "data/tilesets/secondary/elite_four/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/elite_four/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/elite_four/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/elite_four/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/elite_four/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleFrontier:: @ 8383EC4
@@ -1383,7 +1383,7 @@ gTilesetPalettes_BattleFrontier:: @ 8384BC8
 	.incbin "data/tilesets/secondary/battle_frontier/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_frontier/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattlePalace:: @ 8384DC8
@@ -1406,7 +1406,7 @@ gTilesetPalettes_BattlePalace:: @ 8385540
 	.incbin "data/tilesets/secondary/battle_palace/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_palace/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_palace/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_palace/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_palace/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleDome:: @ 8385740
@@ -1429,7 +1429,7 @@ gTilesetPalettes_BattleDome:: @ 8386990
 	.incbin "data/tilesets/secondary/battle_dome/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_dome/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_dome/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_dome/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_dome/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleFactory:: @ 8386B90
@@ -1452,7 +1452,7 @@ gTilesetPalettes_BattleFactory:: @ 8387D7C
 	.incbin "data/tilesets/secondary/battle_factory/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_factory/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_factory/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_factory/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_factory/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattlePike:: @ 8387F7C
@@ -1475,7 +1475,7 @@ gTilesetPalettes_BattlePike:: @ 8389250
 	.incbin "data/tilesets/secondary/battle_pike/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_pike/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_pike/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_pike/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_pike/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleArena:: @ 8389450
@@ -1498,7 +1498,7 @@ gTilesetPalettes_BattleArena:: @ 8389F8C
 	.incbin "data/tilesets/secondary/battle_arena/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_arena/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_arena/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_arena/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattlePyramid:: @ 838A18C
@@ -1521,7 +1521,7 @@ gTilesetPalettes_BattlePyramid:: @ 838B39C
 	.incbin "data/tilesets/secondary/battle_pyramid/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_pyramid/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_pyramid/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_pyramid/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_pyramid/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MirageTower:: @ 838B59C
@@ -1544,7 +1544,7 @@ gTilesetPalettes_MirageTower:: @ 838CFE4
 	.incbin "data/tilesets/secondary/mirage_tower/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mirage_tower/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mirage_tower/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mirage_tower/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mirage_tower/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MossdeepGameCorner:: @ 838D1E4
@@ -1567,7 +1567,7 @@ gTilesetPalettes_MossdeepGameCorner:: @ 838D604
 	.incbin "data/tilesets/secondary/mossdeep_game_corner/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep_game_corner/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mossdeep_game_corner/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mossdeep_game_corner/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mossdeep_game_corner/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_IslandHarbor:: @ 838D804
@@ -1590,7 +1590,7 @@ gTilesetPalettes_IslandHarbor:: @ 838F1D4
 	.incbin "data/tilesets/secondary/island_harbor/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/island_harbor/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/island_harbor/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/island_harbor/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/island_harbor/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_TrainerHill:: @ 838F3D4
@@ -1613,7 +1613,7 @@ gTilesetPalettes_TrainerHill:: @ 83904C4
 	.incbin "data/tilesets/secondary/trainer_hill/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/trainer_hill/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/trainer_hill/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/trainer_hill/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/trainer_hill/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_NavelRock:: @ 83906C4
@@ -1636,7 +1636,7 @@ gTilesetPalettes_NavelRock:: @ 8392258
 	.incbin "data/tilesets/secondary/navel_rock/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/navel_rock/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/navel_rock/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/navel_rock/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/navel_rock/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleFrontierRankingHall:: @ 8392458
@@ -1659,7 +1659,7 @@ gTilesetPalettes_BattleFrontierRankingHall:: @ 8392CAC
 	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_BattleTent:: @ 8392EAC
@@ -1682,7 +1682,7 @@ gTilesetPalettes_BattleTent:: @ 8393910
 	.incbin "data/tilesets/secondary/battle_tent/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/battle_tent/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_tent/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_tent/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/battle_tent/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_MysteryEventsHouse:: @ 8393B10
@@ -1705,7 +1705,7 @@ gTilesetPalettes_MysteryEventsHouse:: @ 8395478
 	.incbin "data/tilesets/secondary/mystery_events_house/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/mystery_events_house/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/mystery_events_house/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/mystery_events_house/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/mystery_events_house/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetPalettes_UnionRoom:: @ 8395678
@@ -1724,7 +1724,7 @@ gTilesetPalettes_UnionRoom:: @ 8395678
 	.incbin "data/tilesets/secondary/union_room/palettes/12.gbapal"
 	.incbin "data/tilesets/secondary/union_room/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/union_room/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/union_room/palettes/15.gbapal"
+	.incbin "data/tilesets/secondary/union_room/palettes/BURGER_KING_FOOT_LETTUCE.gbapal"
 
 	.align 2
 gTilesetTiles_UnionRoom:: @ 8395878

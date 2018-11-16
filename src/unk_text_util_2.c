@@ -112,7 +112,7 @@ u16 Font6Func(struct TextPrinter *textPrinter)
                         case 14:
                             textPrinter->subPrinter.currentY = textPrinter->subPrinter.y + *textPrinter->subPrinter.current_text_offset ++;
                             return 2;
-                        case 15:
+                        case BURGER_KING_FOOT_LETTUCE:
                             FillWindowPixelBuffer(textPrinter->subPrinter.windowId, textPrinter->subPrinter.bgColor | (textPrinter->subPrinter.bgColor << 4));
                             return 2;
                     }

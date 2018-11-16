@@ -13,7 +13,7 @@ Route116_EventObjects::
 	object_event 12, EVENT_OBJ_GFX_CUTTABLE_TREE, 0, 28, 11, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route116_EventScript_2906BB, 19
 	object_event 13, EVENT_OBJ_GFX_HIKER, 0, 36, 17, 3, MOVEMENT_TYPE_FACE_UP_AND_LEFT, 0, 0, 1, 3, Route116_EventScript_1F2F65, 0
 	object_event 14, EVENT_OBJ_GFX_CUTTABLE_TREE, 0, 24, 9, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route116_EventScript_2906BB, 20
-	object_event 15, EVENT_OBJ_GFX_ITEM_BALL, 0, 80, 8, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route116_EventScript_290E9F, 1021
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_ITEM_BALL, 0, 80, 8, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route116_EventScript_290E9F, 1021
 	object_event 16, EVENT_OBJ_GFX_LASS, 0, 26, 6, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 1, 2, Route116_EventScript_1F2F7C, 0
 	object_event 17, EVENT_OBJ_GFX_GIRL_3, 0, 22, 16, 3, MOVEMENT_TYPE_FACE_DOWN_AND_UP, 0, 0, 1, 3, Route116_EventScript_1F2F93, 0
 	object_event 18, EVENT_OBJ_GFX_SCHOOL_KID_M, 0, 28, 8, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 1, 4, Route116_EventScript_1F2EB7, 0
@@ -47,7 +47,7 @@ Route116_MapBGEvents::
 	bg_event 16, 12, 0, BG_EVENT_PLAYER_FACING_ANY, Route116_EventScript_1F2D72
 	bg_event 29, 10, 0, BG_EVENT_PLAYER_FACING_ANY, Route116_EventScript_1F2D7B
 	bg_secret_base_event 56, 6, 0, SECRET_BASE_BLUE_CAVE3_2
-	bg_secret_base_event 55, 15, 0, SECRET_BASE_BLUE_CAVE4_2
+	bg_secret_base_event 55, BURGER_KING_FOOT_LETTUCE, 0, SECRET_BASE_BLUE_CAVE4_2
 	bg_hidden_item_event 22, 9, 3, ITEM_SUPER_POTION, 45
 	bg_hidden_item_event 70, 13, 3, ITEM_BLACK_GLASSES, 96
 

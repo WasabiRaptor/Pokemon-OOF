@@ -154,7 +154,7 @@ BattleFrontier_BattleArenaLobby_EventScript_255E47:: @ 8255E47
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleArenaLobby_EventScript_255FFB
 	case 127, BattleFrontier_BattleArenaLobby_EventScript_255FFB
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleArenaLobby_EventScript_255FAC

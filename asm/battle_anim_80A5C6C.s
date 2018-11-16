@@ -4448,7 +4448,7 @@ sub_80A7E6C: @ 80A7E6C
 	adds r0, r4, 0
 	bl sub_80A7F18
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	movs r1, 0x40
 	subs r5, r1, r0
 	ldr r1, =gSprites
@@ -4492,7 +4492,7 @@ sub_80A7EC0: @ 80A7EC0
 	lsrs r0, 24
 	bl sub_80A7F18
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	movs r1, 0x40
 	subs r5, r1, r0
 	ldr r1, =gSprites

@@ -299,7 +299,7 @@ mus_b_tube_2_B1:
 	.byte		BEND  , c_v+0
 	.byte	W04
 	.byte		VOL   , 70*mus_b_tube_mvl/mxv
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		VOL   , 62*mus_b_tube_mvl/mxv
 	.byte		BEND  , c_v+36
@@ -1160,7 +1160,7 @@ mus_b_tube_3_000:
 	.byte		MOD   , 10
 	.byte		BEND  , c_v-10
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v-25
 	.byte	W02
@@ -2510,7 +2510,7 @@ mus_b_tube_7_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -2539,7 +2539,7 @@ mus_b_tube_7_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -2568,7 +2568,7 @@ mus_b_tube_7_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -2597,7 +2597,7 @@ mus_b_tube_7_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -3307,7 +3307,7 @@ mus_b_tube_8_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -3336,7 +3336,7 @@ mus_b_tube_8_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -3365,7 +3365,7 @@ mus_b_tube_8_B1:
 	.byte	W02
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_tube_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_b_tube_mvl/mxv
 	.byte	W02
@@ -3396,8 +3396,8 @@ mus_b_tube_8_B1:
 	.byte		        18*mus_b_tube_mvl/mxv
 	.byte		BEND  , c_v-10
 	.byte	W02
-	.byte		VOL   , 15*mus_b_tube_mvl/mxv
-	.byte		BEND  , c_v-15
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_b_tube_mvl/mxv
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		VOL   , 12*mus_b_tube_mvl/mxv
 	.byte		BEND  , c_v-25

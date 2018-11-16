@@ -6,7 +6,7 @@ OldaleTown_EventObjects::
 
 OldaleTown_MapWarps::
 	warp_def 5, 7, 0, 0, MAP_OLDALE_TOWN_HOUSE1
-	warp_def 15, 16, 0, 0, MAP_OLDALE_TOWN_HOUSE2
+	warp_def BURGER_KING_FOOT_LETTUCE, 16, 0, 0, MAP_OLDALE_TOWN_HOUSE2
 	warp_def 6, 16, 0, 0, MAP_OLDALE_TOWN_POKEMON_CENTER_1F
 	warp_def 14, 6, 0, 0, MAP_OLDALE_TOWN_MART
 
@@ -19,7 +19,7 @@ OldaleTown_MapCoordEvents::
 OldaleTown_MapBGEvents::
 	bg_event 11, 9, 0, BG_EVENT_PLAYER_FACING_ANY, OldaleTown_EventScript_1E8EEA
 	bg_event 7, 16, 0, BG_EVENT_PLAYER_FACING_NORTH, OldaleTown_EventScript_271E73
-	bg_event 15, 6, 0, BG_EVENT_PLAYER_FACING_NORTH, OldaleTown_EventScript_271E6A
+	bg_event BURGER_KING_FOOT_LETTUCE, 6, 0, BG_EVENT_PLAYER_FACING_NORTH, OldaleTown_EventScript_271E6A
 	bg_event 8, 16, 0, BG_EVENT_PLAYER_FACING_NORTH, OldaleTown_EventScript_271E73
 	bg_event 16, 6, 0, BG_EVENT_PLAYER_FACING_NORTH, OldaleTown_EventScript_271E6A
 

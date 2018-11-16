@@ -2244,7 +2244,7 @@ mus_mishiro_7_B1:
 	.byte	W03
 	.byte		        18*mus_mishiro_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_mishiro_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_mishiro_mvl/mxv
 	.byte	W04
 	.byte		MOD   , 0
 	.byte		VOL   , 37*mus_mishiro_mvl/mxv
@@ -2311,7 +2311,7 @@ mus_mishiro_7_B1:
 	.byte	W03
 	.byte		        16*mus_mishiro_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_mishiro_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_mishiro_mvl/mxv
 	.byte	W04
 	.byte		MOD   , 0
 	.byte		VOL   , 37*mus_mishiro_mvl/mxv

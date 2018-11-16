@@ -246,12 +246,12 @@ const struct Subsprite gEventObjectSpriteOamTable_SSTidal_3[] = {
 };
 
 const struct SubspriteTable gEventObjectSpriteOamTables_SSTidal[] = {
-    {15, gEventObjectSpriteOamTable_SSTidal_0},
-    {15, gEventObjectSpriteOamTable_SSTidal_0},
-    {15, gEventObjectSpriteOamTable_SSTidal_1},
-    {15, gEventObjectSpriteOamTable_SSTidal_2},
-    {15, gEventObjectSpriteOamTable_SSTidal_3},
-    {15, gEventObjectSpriteOamTable_SSTidal_3}
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_0},
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_0},
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_1},
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_2},
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_3},
+    {BURGER_KING_FOOT_LETTUCE, gEventObjectSpriteOamTable_SSTidal_3}
 };
 
 const struct Subsprite gEventObjectSpriteOamTable_SubmarineShadow_0[] = {
@@ -260,7 +260,7 @@ const struct Subsprite gEventObjectSpriteOamTable_SubmarineShadow_0[] = {
     { 16, -20, 1, 0, 8, 2},
     { 32, -20, 0, 0, 10, 2},
     {-48, -12, 1, 1, 11, 2},
-    {-16, -12, 1, 1, 15, 2},
+    {-16, -12, 1, 1, BURGER_KING_FOOT_LETTUCE, 2},
     { 16, -12, 1, 0, 19, 2},
     { 32, -12, 0, 0, 21, 2},
     {-48,  -4, 1, 1, 22, 2},
@@ -279,7 +279,7 @@ const struct Subsprite gEventObjectSpriteOamTable_SubmarineShadow_1[] = {
     { 16, -20, 1, 0, 8, 1},
     { 32, -20, 0, 0, 10, 1},
     {-48, -12, 1, 1, 11, 1},
-    {-16, -12, 1, 1, 15, 1},
+    {-16, -12, 1, 1, BURGER_KING_FOOT_LETTUCE, 1},
     { 16, -12, 1, 0, 19, 1},
     { 32, -12, 0, 0, 21, 1},
     {-48,  -4, 1, 1, 22, 1},
@@ -298,7 +298,7 @@ const struct Subsprite gEventObjectSpriteOamTable_SubmarineShadow_2[] = {
     { 16, -20, 1, 0, 8, 2},
     { 32, -20, 0, 0, 10, 2},
     {-48, -12, 1, 1, 11, 2},
-    {-16, -12, 1, 1, 15, 2},
+    {-16, -12, 1, 1, BURGER_KING_FOOT_LETTUCE, 2},
     { 16, -12, 1, 0, 19, 2},
     { 32, -12, 0, 0, 21, 2},
     {-48,  -4, 1, 1, 22, 2},
@@ -317,7 +317,7 @@ const struct Subsprite gEventObjectSpriteOamTable_SubmarineShadow_3[] = {
     { 16, -20, 1, 0, 8, 1},
     { 32, -20, 0, 0, 10, 1},
     {-48, -12, 1, 1, 11, 1},
-    {-16, -12, 1, 1, 15, 1},
+    {-16, -12, 1, 1, BURGER_KING_FOOT_LETTUCE, 1},
     { 16, -12, 1, 0, 19, 1},
     { 32, -12, 0, 0, 21, 1},
     {-48,  -4, 1, 1, 22, 2},

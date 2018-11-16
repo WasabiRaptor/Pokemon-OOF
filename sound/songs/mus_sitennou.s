@@ -640,7 +640,7 @@ mus_sitennou_3_B1:
 	.byte	W06
 	.byte		N12   , Ds2 
 	.byte	W03
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W09
 	.byte		VOICE , 24
 	.byte		VOL   , 68*mus_sitennou_mvl/mxv
@@ -1785,7 +1785,7 @@ mus_sitennou_8_B1:
 	.byte	W06
 	.byte		N18   , Cn2 
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W12
 	.byte		        0
 	.byte		N03   , Bn1 

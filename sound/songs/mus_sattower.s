@@ -1332,7 +1332,7 @@ mus_sattower_3_B1:
 	.byte		PAN   , c_v+24
 	.byte		N24   , Ds4 
 	.byte	W24
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N24   , Cn4 
 	.byte	W24
 	.byte	W96
@@ -1364,7 +1364,7 @@ mus_sattower_3_B1:
 	.byte	W04
 	.byte		        Fn4 
 	.byte	W04
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N04   , Dn3 
 	.byte	W04
 	.byte		        Fn3 
@@ -1481,7 +1481,7 @@ mus_sattower_3_B1:
 	.byte	W04
 	.byte		        Ds4 
 	.byte	W04
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N04   , Fs4 , v064
 	.byte	W04
 	.byte		        Ds4 
@@ -1671,7 +1671,7 @@ mus_sattower_3_B1:
 	.byte	W04
 	.byte		        As3 
 	.byte	W04
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N04   , Fs3 
 	.byte	W04
 	.byte		        As3 

@@ -13,9 +13,9 @@ SlateportCity_EventObjects::
 	object_event 12, EVENT_OBJ_GFX_SAILOR, 0, 37, 41, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, SlateportCity_EventScript_1DCFE5, 0
 	object_event 13, EVENT_OBJ_GFX_SAILOR, 0, 28, 46, 3, MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT, 1, 0, 0, 0, SlateportCity_EventScript_1DCFEE, 0
 	object_event 14, EVENT_OBJ_GFX_WOMAN_2, 0, 9, 50, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 0, 1, 0, 0, SlateportCity_EventScript_1DCFF7, 0
-	object_event 15, EVENT_OBJ_GFX_MAN_4, 0, 16, 46, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, SlateportCity_EventScript_1DD000, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_MAN_4, 0, 16, 46, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, SlateportCity_EventScript_1DD000, 0
 	object_event 16, EVENT_OBJ_GFX_MANIAC, 0, 8, 24, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 0, 1, 0, 0, SlateportCity_EventScript_1DCFBB, 0
-	object_event 17, EVENT_OBJ_GFX_WOMAN_7, 0, 15, 31, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, SlateportCity_EventScript_1DCFDC, 0
+	object_event 17, EVENT_OBJ_GFX_WOMAN_7, 0, BURGER_KING_FOOT_LETTUCE, 31, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, SlateportCity_EventScript_1DCFDC, 0
 	object_event 18, EVENT_OBJ_GFX_AQUA_MEMBER_M, 0, 30, 27, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, SlateportCity_EventScript_1DD020, 882
 	object_event 19, EVENT_OBJ_GFX_AQUA_MEMBER_M, 0, 29, 27, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, SlateportCity_EventScript_1DD037, 882
 	object_event 20, EVENT_OBJ_GFX_MART_EMPLOYEE, 0, 6, 38, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, SlateportCity_EventScript_1DD198, 0
@@ -57,7 +57,7 @@ SlateportCity_MapBGEvents::
 	bg_event 21, 19, 0, BG_EVENT_PLAYER_FACING_NORTH, SlateportCity_EventScript_271E73
 	bg_event 14, 26, 0, BG_EVENT_PLAYER_FACING_NORTH, SlateportCity_EventScript_271E6A
 	bg_event 24, 12, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_EventScript_1DCF94
-	bg_event 15, 26, 0, BG_EVENT_PLAYER_FACING_NORTH, SlateportCity_EventScript_271E6A
+	bg_event BURGER_KING_FOOT_LETTUCE, 26, 0, BG_EVENT_PLAYER_FACING_NORTH, SlateportCity_EventScript_271E6A
 	bg_event 14, 51, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_EventScript_1DCF8B
 	bg_event 26, 26, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_EventScript_1DCF79
 	bg_event 16, 22, 0, BG_EVENT_PLAYER_FACING_ANY, SlateportCity_EventScript_1DCF82

@@ -37,7 +37,7 @@ se_w255_1:
 	.byte		N03   , Gn4 
 	.byte	W02
 	.byte		PAN   , c_v-7
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		PAN   , c_v+8
 	.byte		BEND  , c_v+28
@@ -47,7 +47,7 @@ se_w255_1:
 	.byte		N03   , Gn4 , v064
 	.byte	W01
 	.byte		PAN   , c_v-7
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		PAN   , c_v+8
 	.byte		BEND  , c_v+28

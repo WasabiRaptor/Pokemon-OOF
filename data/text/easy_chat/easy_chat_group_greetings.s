@@ -175,7 +175,7 @@ gEasyChatGroup_Greetings:: @ 8599150
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Apologize
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Forgive

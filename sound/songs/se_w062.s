@@ -149,7 +149,7 @@ se_w062_1_001:
 	.byte		VOL   , 38*se_w062_mvl/mxv
 	.byte		PAN   , c_v-6
 	.byte	W01
-	.byte		VOL   , 15*se_w062_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*se_w062_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W01
 	.byte		VOL   , 7*se_w062_mvl/mxv

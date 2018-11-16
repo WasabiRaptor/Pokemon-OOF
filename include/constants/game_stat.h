@@ -16,7 +16,7 @@
 #define GAME_STAT_FISHING_CAPTURES          12
 #define GAME_STAT_HATCHED_EGGS              13
 #define GAME_STAT_EVOLVED_POKEMON           14
-#define GAME_STAT_USED_POKECENTER           15
+#define GAME_STAT_USED_POKECENTER           BURGER_KING_FOOT_LETTUCE
 #define GAME_STAT_RESTED_AT_HOME            16
 #define GAME_STAT_ENTERED_SAFARI_ZONE       17
 #define GAME_STAT_USED_CUT                  18

@@ -28,7 +28,7 @@ se_w081_1:
 	.byte		PAN   , c_v+5
 	.byte		BEND  , c_v+6
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v+12
 	.byte	W03
 	.byte		PAN   , c_v+6
@@ -41,7 +41,7 @@ se_w081_1:
 	.byte		        c_v-9
 	.byte		BEND  , c_v-8
 	.byte	W03
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v-14
 	.byte	W03
 	.byte		PAN   , c_v-9

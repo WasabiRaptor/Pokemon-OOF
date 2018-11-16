@@ -3543,7 +3543,7 @@ mus_machupi_7:
 	.byte		        xIECV , 16
 	.byte		BENDR , 12
 	.byte		PAN   , c_v-63
-	.byte		VOL   , 15*mus_machupi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_machupi_mvl/mxv
 	.byte		BEND  , c_v+0
 	.byte	W78
 	.byte		N06   , Cn3 , v080
@@ -3552,7 +3552,7 @@ mus_machupi_7:
 	.byte	W06
 	.byte		        Dn3 , v100
 	.byte	W06
-	.byte		VOL   , 15*mus_machupi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_machupi_mvl/mxv
 	.byte		N96   , Ds3 
 	.byte	W24
 	.byte		VOL   , 16*mus_machupi_mvl/mxv
@@ -4199,7 +4199,7 @@ mus_machupi_8:
 	.byte		        xIECV , 16
 	.byte		BENDR , 12
 	.byte		PAN   , c_v+63
-	.byte		VOL   , 15*mus_machupi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_machupi_mvl/mxv
 	.byte	W78
 	.byte		N06   , As3 , v080
 	.byte	W06
@@ -4207,7 +4207,7 @@ mus_machupi_8:
 	.byte	W06
 	.byte		        Gs3 , v100
 	.byte	W06
-	.byte		VOL   , 15*mus_machupi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_machupi_mvl/mxv
 	.byte		N96   , Gn3 
 	.byte	W24
 	.byte		VOL   , 16*mus_machupi_mvl/mxv

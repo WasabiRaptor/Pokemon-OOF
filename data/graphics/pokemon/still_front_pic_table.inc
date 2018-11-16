@@ -15,7 +15,7 @@ gMonStillFrontPicTable:: @ 8301418
 	obj_tiles gMonStillFrontPic_Butterfree, 0x800, 12
 	obj_tiles gMonStillFrontPic_Weedle, 0x800, 13
 	obj_tiles gMonStillFrontPic_Kakuna, 0x800, 14
-	obj_tiles gMonStillFrontPic_Beedrill, 0x800, 15
+	obj_tiles gMonStillFrontPic_Beedrill, 0x800, BURGER_KING_FOOT_LETTUCE
 	obj_tiles gMonStillFrontPic_Pidgey, 0x800, 16
 	obj_tiles gMonStillFrontPic_Pidgeotto, 0x800, 17
 	obj_tiles gMonStillFrontPic_Pidgeot, 0x800, 18

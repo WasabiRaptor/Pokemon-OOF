@@ -1061,7 +1061,7 @@ mus_rg_pokeyashi_3_004:
 	.byte	W03
 	.byte		BEND  , c_v-7
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-26
 	.byte	W03
@@ -1109,7 +1109,7 @@ mus_rg_pokeyashi_3_006:
 	.byte	W03
 	.byte		BEND  , c_v-7
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-26
 	.byte	W03
@@ -1376,7 +1376,7 @@ mus_rg_pokeyashi_4:
 	.byte	W03
 	.byte		BEND  , c_v-7
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-26
 	.byte	W03
@@ -1431,7 +1431,7 @@ mus_rg_pokeyashi_4_001:
 	.byte		BEND  , c_v-7
 	.byte	W03
 	.byte		VOL   , 68*mus_rg_pokeyashi_mvl/mxv
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-26
 	.byte	W03
@@ -1576,7 +1576,7 @@ mus_rg_pokeyashi_4_007:
 	.byte		BEND  , c_v-7
 	.byte	W03
 	.byte		VOL   , 68*mus_rg_pokeyashi_mvl/mxv
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-26
 	.byte	W03

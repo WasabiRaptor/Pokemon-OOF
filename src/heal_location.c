@@ -22,7 +22,7 @@ static const struct HealLocation sHealLocations[] = {
     HEAL_LOCATION(MAUVILLE_CITY,                     22,  6),
     HEAL_LOCATION(RUSTBORO_CITY,                     16, 39),
     HEAL_LOCATION(FORTREE_CITY,                       5,  7),
-    HEAL_LOCATION(LILYCOVE_CITY,                     24, 15),
+    HEAL_LOCATION(LILYCOVE_CITY,                     24, BURGER_KING_FOOT_LETTUCE),
     HEAL_LOCATION(MOSSDEEP_CITY,                     28, 17),
     HEAL_LOCATION(SOOTOPOLIS_CITY,                   43, 32),
     HEAL_LOCATION(EVER_GRANDE_CITY,                  27, 49),
@@ -35,7 +35,7 @@ static const struct HealLocation sHealLocations[] = {
     HEAL_LOCATION(VERDANTURF_TOWN,                   16,  4),
     HEAL_LOCATION(PACIFIDLOG_TOWN,                    8, 16),
     HEAL_LOCATION(EVER_GRANDE_CITY,                  18,  6),
-    HEAL_LOCATION(SOUTHERN_ISLAND_EXTERIOR,          15, 20),
+    HEAL_LOCATION(SOUTHERN_ISLAND_EXTERIOR,          BURGER_KING_FOOT_LETTUCE, 20),
     HEAL_LOCATION(BATTLE_FRONTIER_OUTSIDE_EAST,       3, 52)
 };
 

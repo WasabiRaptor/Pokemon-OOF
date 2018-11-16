@@ -89,7 +89,7 @@ gFallarborBattleTentTrainerMons_Alanzo:: @ 85DEF76
 	.2byte 12
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte -1
 
 gFallarborBattleTentTrainerMons_Howard:: @ 85DEF86
@@ -155,7 +155,7 @@ gFallarborBattleTentTrainerMons_Gianna:: @ 85DEFD6
 gFallarborBattleTentTrainerMons_Yahir:: @ 85DEFE2
 	.2byte 4
 	.2byte 8
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 17
 	.2byte 22
 	.2byte 24
@@ -199,7 +199,7 @@ gFallarborBattleTentTrainerMons_Rory:: @ 85DF024
 	.2byte 9
 	.2byte 11
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 27
 	.2byte 39
 	.2byte -1

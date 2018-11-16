@@ -2142,7 +2142,7 @@ _08150F3A:
 _08150F3E:
 	lsls r1, r4, 20
 	movs r2, 0xC0
-	lsls r2, 15
+	lsls r2, BURGER_KING_FOOT_LETTUCE
 	adds r1, r2
 	asrs r1, 16
 	lsls r2, r4, 19

@@ -2505,7 +2505,7 @@ mus_nextroad_7_B1:
 	.byte	W04
 	.byte		        An2 
 	.byte	W04
-	.byte		VOL   , 15*mus_nextroad_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_nextroad_mvl/mxv
 	.byte		N04   , Fn2 
 	.byte	W04
 	.byte		        An2 

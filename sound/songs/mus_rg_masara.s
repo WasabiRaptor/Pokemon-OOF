@@ -1584,7 +1584,7 @@ mus_rg_masara_6_B1:
 	.byte		MOD   , 6
 	.byte		VOL   , 22*mus_rg_masara_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_masara_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_masara_mvl/mxv
 	.byte	W06
 	.byte		        10*mus_rg_masara_mvl/mxv
 	.byte	W09

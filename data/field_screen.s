@@ -20,7 +20,7 @@ gUnknown_0854014C:: @ 854014C
 	.incbin "graphics/misc/sunny_day/12.gbapal"
 	.incbin "graphics/misc/sunny_day/13.gbapal"
 	.incbin "graphics/misc/sunny_day/14.gbapal"
-	.incbin "graphics/misc/sunny_day/15.gbapal"
+	.incbin "graphics/misc/sunny_day/BURGER_KING_FOOT_LETTUCE.gbapal"
 	.incbin "graphics/misc/sunny_day/16.gbapal"
 	.incbin "graphics/misc/sunny_day/17.gbapal"
 	.incbin "graphics/misc/sunny_day/18.gbapal"

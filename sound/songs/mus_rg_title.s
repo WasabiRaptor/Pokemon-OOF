@@ -3255,7 +3255,7 @@ mus_rg_title_10_B1:
 	.byte	W03
 	.byte		        c_v-20
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-11
 	.byte	W03

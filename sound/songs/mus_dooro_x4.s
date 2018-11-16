@@ -1205,7 +1205,7 @@ mus_dooro_x4_4_000:
 	.byte	W06
 	.byte		        35*mus_dooro_x4_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_dooro_x4_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06
@@ -1224,7 +1224,7 @@ mus_dooro_x4_4_000:
 	.byte	W06
 	.byte		        35*mus_dooro_x4_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_dooro_x4_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06
@@ -1243,7 +1243,7 @@ mus_dooro_x4_4_000:
 	.byte	W06
 	.byte		        35*mus_dooro_x4_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_dooro_x4_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06
@@ -1732,7 +1732,7 @@ mus_dooro_x4_5_000:
 	.byte	W03
 	.byte		N09   
 	.byte	W03
-	.byte		VOL   , 15*mus_dooro_x4_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06
@@ -1759,7 +1759,7 @@ mus_dooro_x4_5_000:
 	.byte	W03
 	.byte		N09   
 	.byte	W03
-	.byte		VOL   , 15*mus_dooro_x4_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06
@@ -1786,7 +1786,7 @@ mus_dooro_x4_5_000:
 	.byte	W03
 	.byte		N09   
 	.byte	W03
-	.byte		VOL   , 15*mus_dooro_x4_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_dooro_x4_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_dooro_x4_mvl/mxv
 	.byte	W06

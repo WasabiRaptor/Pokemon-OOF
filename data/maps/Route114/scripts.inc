@@ -32,7 +32,7 @@ Route114_EventScript_1F2582:: @ 81F2582
 	goto_eq Route114_EventScript_1F25C7
 	msgbox Route114_Text_2A6FCB, 4
 	random 5
-	addvar VAR_RESULT, 15
+	addvar VAR_RESULT, BURGER_KING_FOOT_LETTUCE
 	addvar VAR_RESULT, 133
 	giveitem_std VAR_RESULT
 	compare VAR_RESULT, 0

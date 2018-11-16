@@ -237,7 +237,7 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
 
     if (moveSlot >= 4 && sub_817E0B8(stringId) && stringId > BATTLESTRINGS_ID_ADDER)
     {
-        tvPtr->side[atkSide].faintCause = 15;
+        tvPtr->side[atkSide].faintCause = BURGER_KING_FOOT_LETTUCE;
         return;
     }
 
@@ -582,7 +582,7 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         break;
     case STRINGID_PKMNUSEDSAFEGUARD:
         if (tvPtr->side[defSide].safeguardMonId != 0)
-            AddMovePoints(15, 0, tvPtr->side[defSide].safeguardMonId - 1, tvPtr->side[defSide].safeguardMoveSlot);
+            AddMovePoints(BURGER_KING_FOOT_LETTUCE, 0, tvPtr->side[defSide].safeguardMonId - 1, tvPtr->side[defSide].safeguardMoveSlot);
         break;
     case STRINGID_PKMNSAFEGUARDEXPIRED:
         tvPtr->side[atkSide].safeguardMonId = 0;
@@ -650,7 +650,7 @@ void BattleTv_SetDataBasedOnMove(u16 move, u16 weatherFlags, struct DisableStruc
 
     if (moveSlot >= 4)
     {
-        tvPtr->side[atkSide].faintCause = 15;
+        tvPtr->side[atkSide].faintCause = BURGER_KING_FOOT_LETTUCE;
         return;
     }
 
@@ -1180,7 +1180,7 @@ static void AddMovePoints(u8 caseId, u16 arg1, u8 arg2, u8 arg3)
         break;
     case 8:
     case 9:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
     case 16:
     case 21:
         movePoints->points[atkSide ^ BIT_SIDE][arg2 * 4 + arg3] += sPointsArray[caseId][arg1];
@@ -1364,7 +1364,7 @@ static void AddPointsOnFainting(bool8 targetFainted)
                 (gBattlerPartyIndexes[gBattlerAttacker]) * 4 + tvPtr->side[atkSide].usedMoveSlot);
             }
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             break;
         }
     }
@@ -1437,7 +1437,7 @@ static void TrySetBattleSeminarShow(void)
             if (gStatuses3[gBattlerAttacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ACDC)
                 gBattleMoveDamage *= 2;
             if (gProtectStructs[gBattlerAttacker].helpingHand)
-                gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+                gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE / 10;
 
             moveResultFlags = TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget);
             dmgByMove[i] = gBattleMoveDamage;

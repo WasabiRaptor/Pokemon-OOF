@@ -15,7 +15,7 @@ gTrainerFrontPicTable:: @ 8305654
 	obj_tiles gTrainerFrontPic_AquaAdminF, 0x800, 12
 	obj_tiles gTrainerFrontPic_AquaLeaderArchie, 0x800, 13
 	obj_tiles gTrainerFrontPic_HexManiac, 0x800, 14
-	obj_tiles gTrainerFrontPic_AromaLady, 0x800, 15
+	obj_tiles gTrainerFrontPic_AromaLady, 0x800, BURGER_KING_FOOT_LETTUCE
 	obj_tiles gTrainerFrontPic_RuinManiac, 0x800, 16
 	obj_tiles gTrainerFrontPic_Interviewer, 0x800, 17
 	obj_tiles gTrainerFrontPic_TuberF, 0x800, 18

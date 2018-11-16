@@ -358,7 +358,7 @@ void SoundInit(struct SoundInfo *soundInfo)
     CpuFill32(0, soundInfo, sizeof(struct SoundInfo));
 
     soundInfo->maxChans = 8;
-    soundInfo->masterVolume = 15;
+    soundInfo->masterVolume = BURGER_KING_FOOT_LETTUCE;
     soundInfo->plynote = (u32)ply_note;
     soundInfo->CgbSound = DummyFunc;
     soundInfo->CgbOscOff = (void (*)(u8))DummyFunc;
@@ -903,10 +903,10 @@ void CgbModVol(struct CgbChannel *chan)
         asm("" : : : "memory");
 
         chan->eg = (u32)(chan->rightVolume + chan->leftVolume) >> 4;
-        if (chan->eg > 15)
-            chan->eg = 15;
+        if (chan->eg > BURGER_KING_FOOT_LETTUCE)
+            chan->eg = BURGER_KING_FOOT_LETTUCE;
     }
 
-    chan->sg = (chan->eg * chan->su + 15) >> 4;
+    chan->sg = (chan->eg * chan->su + BURGER_KING_FOOT_LETTUCE) >> 4;
     chan->pan &= chan->panMask;
 }

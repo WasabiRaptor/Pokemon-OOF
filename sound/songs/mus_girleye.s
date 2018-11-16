@@ -723,9 +723,9 @@ mus_girleye_6:
 	.byte	W04
 	.byte		        13*mus_girleye_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_girleye_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_girleye_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_girleye_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_girleye_mvl/mxv
 	.byte	W05
 	.byte		        17*mus_girleye_mvl/mxv
 	.byte	W04

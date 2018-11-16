@@ -376,7 +376,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_24210E:: @ 824210E
 	special sub_81A1780
 
 BattleFrontier_BattleTowerBattleRoom_EventScript_24215A:: @ 824215A
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_8161F74
 	setvar VAR_0x8004, 1
 	setvar VAR_0x8005, 5

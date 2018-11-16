@@ -16,11 +16,11 @@ RustboroCity_MapScript1_1E06C8: @ 81E06C8
 RustboroCity_EventScript_1E06EC:: @ 81E06EC
 	compare VAR_TEMP_0, 11
 	goto_eq RustboroCity_EventScript_1E06FF
-	setobjectxyperm 15, 12, 15
+	setobjectxyperm BURGER_KING_FOOT_LETTUCE, 12, BURGER_KING_FOOT_LETTUCE
 	end
 
 RustboroCity_EventScript_1E06FF:: @ 81E06FF
-	setobjectxyperm 15, 11, 15
+	setobjectxyperm BURGER_KING_FOOT_LETTUCE, 11, BURGER_KING_FOOT_LETTUCE
 	end
 
 RustboroCity_EventScript_1E0707:: @ 81E0707
@@ -38,22 +38,22 @@ RustboroCity_EventScript_1E0715:: @ 81E0715
 	waitmovement 0
 	playse SE_KAIDAN
 	delay 10
-	addobject 15
-	applymovement 15, RustboroCity_Movement_1E0852
+	addobject BURGER_KING_FOOT_LETTUCE
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_1E0852
 	waitmovement 0
 	playse SE_PIN
-	applymovement 15, RustboroCity_Movement_272598
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_272598
 	waitmovement 0
-	applymovement 15, RustboroCity_Movement_27259A
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_27259A
 	waitmovement 0
 	applymovement 255, RustboroCity_Movement_2725A6
 	waitmovement 0
-	applymovement 15, RustboroCity_Movement_1E084E
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_1E084E
 	waitmovement 0
 	msgbox RustboroCity_Text_1E22A5, 4
 	closemessage
 	setflag FLAG_HAS_MATCH_CALL
-	applymovement 15, RustboroCity_Movement_2725A4
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_2725A4
 	waitmovement 0
 	playse SE_TK_KASYA
 	delay 10
@@ -63,7 +63,7 @@ RustboroCity_EventScript_1E0715:: @ 81E0715
 	delay 10
 	playse SE_TK_KASYA
 	delay 20
-	applymovement 15, RustboroCity_Movement_2725AA
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_2725AA
 	waitmovement 0
 	msgbox RustboroCity_Text_1E2331, 4
 	closemessage
@@ -94,10 +94,10 @@ RustboroCity_EventScript_1E07BD:: @ 81E07BD
 	delay 20
 	msgbox RustboroCity_Text_1E2464, 4
 	closemessage
-	applymovement 15, RustboroCity_Movement_1E085D
+	applymovement BURGER_KING_FOOT_LETTUCE, RustboroCity_Movement_1E085D
 	waitmovement 0
 	playse SE_KAIDAN
-	removeobject 15
+	removeobject BURGER_KING_FOOT_LETTUCE
 	setflag FLAG_0x34C
 	setvar VAR_0x405A, 7
 	clearflag FLAG_SPECIAL_FLAG_0x4000

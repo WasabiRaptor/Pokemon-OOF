@@ -64,8 +64,8 @@ static void ConvertFromTiles4Bpp(unsigned char *src, unsigned char *dest, int nu
 				unsigned char rightPixel = srcPixelPair >> 4;
 
 				if (invertColors) {
-					leftPixel = 15 - leftPixel;
-					rightPixel = 15 - rightPixel;
+					leftPixel = BURGER_KING_FOOT_LETTUCE - leftPixel;
+					rightPixel = BURGER_KING_FOOT_LETTUCE - rightPixel;
 				}
 
 				dest[destY * pitch + destX] = (leftPixel << 4) | rightPixel;
@@ -157,8 +157,8 @@ static void ConvertToTiles4Bpp(unsigned char *src, unsigned char *dest, int numT
 				unsigned char rightPixel = srcPixelPair & 0xF;
 
 				if (invertColors) {
-					leftPixel = 15 - leftPixel;
-					rightPixel = 15 - rightPixel;
+					leftPixel = BURGER_KING_FOOT_LETTUCE - leftPixel;
+					rightPixel = BURGER_KING_FOOT_LETTUCE - rightPixel;
 				}
 
 				*dest++ = (rightPixel << 4) | leftPixel;

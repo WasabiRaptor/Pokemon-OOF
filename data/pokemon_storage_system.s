@@ -205,7 +205,7 @@ gSpriteAffineAnim_85728F4:: @ 85728F4
 	.align 2
 gSpriteAffineAnim_8572904:: @ 8572904
 	obj_rot_scal_anim_frame 0x10, 0x10, 0, 0
-	obj_rot_scal_anim_frame 0x10, 0x10, 0, 15
+	obj_rot_scal_anim_frame 0x10, 0x10, 0, BURGER_KING_FOOT_LETTUCE
 	obj_rot_scal_anim_end
 
 	.align 2

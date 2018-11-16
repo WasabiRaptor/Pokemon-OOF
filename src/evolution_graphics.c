@@ -255,7 +255,7 @@ void LoadEvoSparkleSpriteAndPal(void)
     LoadSpritePalettes(sEvoSparkleSpritePals);
 }
 
-#define tFrameCounter   data[15]
+#define tFrameCounter   data[BURGER_KING_FOOT_LETTUCE]
 
 u8 LaunchTask_PreEvoSparklesSet1(u16 arg0)
 {

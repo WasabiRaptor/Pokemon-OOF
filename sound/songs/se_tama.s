@@ -18,7 +18,7 @@
 se_tama_1:
 	.byte	KEYSH , se_tama_key+0
 	.byte	TEMPO , 110*se_tama_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		BENDR , 12
 	.byte		VOL   , 100*se_tama_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -129,7 +129,7 @@ se_tama_1:
 se_tama_2:
 	.byte	KEYSH , se_tama_key+0
 	.byte		VOICE , 25
-	.byte		VOL   , 15*se_tama_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*se_tama_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BEND  , c_v+0
 	.byte		TIE   , Gs2 , v060

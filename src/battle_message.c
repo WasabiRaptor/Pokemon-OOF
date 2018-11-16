@@ -325,7 +325,7 @@ static const u8 sText_StatsWontIncrease2[] = _("{B_ATK_NAME_WITH_PREFIX}’s sta
 static const u8 sText_StatsWontDecrease2[] = _("{B_DEF_NAME_WITH_PREFIX}’s stats won’t\ngo any lower!");
 static const u8 sText_CriticalHit[] = _("A critical hit!");
 static const u8 sText_OneHitKO[] = _("haha\nyes\lIt’s a one-hit KO!");
-static const u8 sText_123Poof[] = _("{PAUSE 32}1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE 0x0038}Poof!\p");
+static const u8 sText_123Poof[] = _("{PAUSE 32}1, {PAUSE BURGER_KING_FOOT_LETTUCE}2, and{PAUSE BURGER_KING_FOOT_LETTUCE}… {PAUSE BURGER_KING_FOOT_LETTUCE}… {PAUSE BURGER_KING_FOOT_LETTUCE}… {PAUSE BURGER_KING_FOOT_LETTUCE}{PLAY_SE 0x0038}Poof!\p");
 static const u8 sText_AndEllipsis[] = _("And…\p");
 static const u8 sText_HMMovesCantBeForgotten[] = _("HM moves can’t be\nforgotten now.\p");
 static const u8 sText_NotVeryEffective[] = _("It’s not very effective ya dingus");
@@ -527,7 +527,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     sText_Trainer1LoseText, // 12
     sText_PkmnGainedEXP, // 13
     sText_PkmnGrewToLv, // 14
-    sText_PkmnLearnedMove, // 15
+    sText_PkmnLearnedMove, // BURGER_KING_FOOT_LETTUCE
     sText_TryToLearnMove1, // 16
     sText_TryToLearnMove2, // 17
     sText_TryToLearnMove3, // 18
@@ -1379,7 +1379,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.lineSpacing = 0,
 		.speed = 1,
 		.fgColor = 1,
-		.bgColor = 15,
+		.bgColor = BURGER_KING_FOOT_LETTUCE,
 		.shadowColor = 6,
 	},
 	{ // 1
@@ -1391,7 +1391,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.lineSpacing = 0,
 		.speed = 0,
 		.fgColor = 1,
-		.bgColor = 15,
+		.bgColor = BURGER_KING_FOOT_LETTUCE,
 		.shadowColor = 6,
 	},
 	{ // 2
@@ -1404,7 +1404,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 3
 		.fillValue = 0xEE,
@@ -1416,7 +1416,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 4
 		.fillValue = 0xEE,
@@ -1428,7 +1428,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 5
 		.fillValue = 0xEE,
@@ -1440,7 +1440,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 6
 		.fillValue = 0xEE,
@@ -1452,7 +1452,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 7
 		.fillValue = 0xEE,
@@ -1476,7 +1476,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 9
 		.fillValue = 0xEE,
@@ -1500,7 +1500,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 11
 		.fillValue = 0xEE,
@@ -1512,7 +1512,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 12
 		.fillValue = 0xEE,
@@ -1524,7 +1524,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 13
 		.fillValue = 0xEE,
@@ -1536,7 +1536,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 14
 		.fillValue = 0x0,
@@ -1550,7 +1550,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.bgColor = 0,
 		.shadowColor = 2,
 	},
-	{ // 15
+	{ // BURGER_KING_FOOT_LETTUCE
 		.fillValue = 0xEE,
 		.fontId = 1,
 		.x = -1,
@@ -1560,7 +1560,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 16
 		.fillValue = 0xEE,
@@ -1572,7 +1572,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 17
 		.fillValue = 0xEE,
@@ -1584,7 +1584,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 18
 		.fillValue = 0xEE,
@@ -1596,7 +1596,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 19
 		.fillValue = 0xEE,
@@ -1608,7 +1608,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 20
 		.fillValue = 0xEE,
@@ -1620,7 +1620,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 21
 		.fillValue = 0x0,
@@ -1671,7 +1671,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.lineSpacing = 0,
 		.speed = 1,
 		.fgColor = 1,
-		.bgColor = 15,
+		.bgColor = BURGER_KING_FOOT_LETTUCE,
 		.shadowColor = 6,
 	},
 	{ // 1
@@ -1683,7 +1683,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.lineSpacing = 0,
 		.speed = 0,
 		.fgColor = 1,
-		.bgColor = 15,
+		.bgColor = BURGER_KING_FOOT_LETTUCE,
 		.shadowColor = 6,
 	},
 	{ // 2
@@ -1696,7 +1696,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 3
 		.fillValue = 0xEE,
@@ -1708,7 +1708,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 4
 		.fillValue = 0xEE,
@@ -1720,7 +1720,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 5
 		.fillValue = 0xEE,
@@ -1732,7 +1732,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 6
 		.fillValue = 0xEE,
@@ -1744,7 +1744,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 7
 		.fillValue = 0xEE,
@@ -1768,7 +1768,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 9
 		.fillValue = 0xEE,
@@ -1792,7 +1792,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 11
 		.fillValue = 0xEE,
@@ -1804,7 +1804,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 12
 		.fillValue = 0xEE,
@@ -1816,7 +1816,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 13
 		.fillValue = 0xEE,
@@ -1828,7 +1828,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 14
 		.fillValue = 0x0,
@@ -1842,7 +1842,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.bgColor = 0,
 		.shadowColor = 2,
 	},
-	{ // 15
+	{ // BURGER_KING_FOOT_LETTUCE
 		.fillValue = 0xEE,
 		.fontId = 1,
 		.x = -1,
@@ -1852,7 +1852,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 1,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 16
 		.fillValue = 0xEE,
@@ -1864,7 +1864,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 17
 		.fillValue = 0xEE,
@@ -1876,7 +1876,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 18
 		.fillValue = 0xEE,
@@ -1888,7 +1888,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 19
 		.fillValue = 0xEE,
@@ -1900,7 +1900,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 20
 		.fillValue = 0xEE,
@@ -1912,7 +1912,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 21
 		.fillValue = 0xEE,
@@ -1924,7 +1924,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
 		.speed = 0,
 		.fgColor = 13,
 		.bgColor = 14,
-		.shadowColor = 15,
+		.shadowColor = BURGER_KING_FOOT_LETTUCE,
 	},
 	{ // 22
 		.fillValue = 0x11,

@@ -153,7 +153,7 @@ gVerdanturfBattleTentTrainerMons_Justine:: @ 85DE568
 
 gVerdanturfBattleTentTrainerMons_Tyson:: @ 85DE574
 	.2byte 5
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 30
 	.2byte 16
@@ -163,7 +163,7 @@ gVerdanturfBattleTentTrainerMons_Tyson:: @ 85DE574
 
 gVerdanturfBattleTentTrainerMons_Laila:: @ 85DE584
 	.2byte 5
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 19
 	.2byte 24
 	.2byte 41
@@ -232,7 +232,7 @@ gVerdanturfBattleTentTrainerMons_Marquis:: @ 85DE5EA
 	.2byte 24
 	.2byte 34
 	.2byte 5
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 7
 	.2byte 42
 	.2byte -1

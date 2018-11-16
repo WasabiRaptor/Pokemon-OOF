@@ -13,7 +13,7 @@ LittlerootTown_MaysHouse_2F_EventObjects: @ 852D480
 	object_event 12, 250, 0, 4, 7, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, 0x0, 184
 	object_event 13, 251, 0, 5, 7, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, 0x0, 185
 	object_event 14, EVENT_OBJ_GFX_MOM, 0, 1, 1, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 0, 0, 0, 0x0, 757
-	object_event 15, EVENT_OBJ_GFX_PICHU_DOLL, 0, 3, 4, 4, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, 0x0, 849
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_PICHU_DOLL, 0, 3, 4, 4, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, 0x0, 849
 	object_event 16, EVENT_OBJ_GFX_ITEM_BALL, 0, 5, 4, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, LittlerootTown_MaysHouse_2F_EventScript_1F9334, 818
 
 LittlerootTown_MaysHouse_2F_MapWarps: @ 852D600

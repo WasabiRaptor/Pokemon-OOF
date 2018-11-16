@@ -1592,7 +1592,7 @@ mus_vs_mew_4:
 	.byte	W09
 	.byte		BEND  , c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-21
 	.byte	W03
@@ -1724,7 +1724,7 @@ mus_vs_mew_4_B1:
 	.byte	W03
 	.byte		        c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-19
 	.byte	W03
@@ -1749,7 +1749,7 @@ mus_vs_mew_4_B1:
 	.byte	W03
 	.byte		        c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-19
 	.byte	W03
@@ -1961,7 +1961,7 @@ mus_vs_mew_4_B1:
 	.byte	W06
 	.byte		        c_v-10
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-20
 	.byte	W03

@@ -16,7 +16,7 @@
 #define EVENT_OBJ_GFX_LITTLE_GIRL_2               12
 #define EVENT_OBJ_GFX_BOY_3                       13
 #define EVENT_OBJ_GFX_GIRL_3                      14
-#define EVENT_OBJ_GFX_BOY_4                       15
+#define EVENT_OBJ_GFX_BOY_4                       BURGER_KING_FOOT_LETTUCE
 #define EVENT_OBJ_GFX_WOMAN_1                     16
 #define EVENT_OBJ_GFX_FAT_MAN                     17
 #define EVENT_OBJ_GFX_WOMAN_2                     18

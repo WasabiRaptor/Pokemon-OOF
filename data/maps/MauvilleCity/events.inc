@@ -28,7 +28,7 @@ MauvilleCity_MapBGEvents::
 	bg_event 24, 5, 0, BG_EVENT_PLAYER_FACING_NORTH, MauvilleCity_EventScript_271E73
 	bg_event 19, 7, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_EventScript_1DF3D7
 	bg_event 33, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_EventScript_1DF3E9
-	bg_event 11, 15, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_EventScript_1DF3F2
+	bg_event 11, BURGER_KING_FOOT_LETTUCE, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_EventScript_1DF3F2
 
 MauvilleCity_MapEvents::
 	map_events MauvilleCity_EventObjects, MauvilleCity_MapWarps, 0x0, MauvilleCity_MapBGEvents

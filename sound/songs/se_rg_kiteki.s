@@ -82,7 +82,7 @@ se_rg_kiteki_1:
 	.byte		PAN   , c_v-18
 	.byte	W06
 	.byte		VOL   , 48*se_rg_kiteki_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		VOL   , 42*se_rg_kiteki_mvl/mxv
 	.byte		PAN   , c_v+25
@@ -108,7 +108,7 @@ se_rg_kiteki_2:
 	.byte	KEYSH , se_rg_kiteki_key+0
 	.byte		VOICE , 81
 	.byte		PAN   , c_v+0
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 48*se_rg_kiteki_mvl/mxv
 	.byte		N04   , En1 , v127
 	.byte	W04
@@ -133,7 +133,7 @@ se_rg_kiteki_2:
 	.byte	W06
 	.byte		        23*se_rg_kiteki_mvl/mxv
 	.byte	W06
-	.byte		        15*se_rg_kiteki_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*se_rg_kiteki_mvl/mxv
 	.byte	W06
 	.byte		        13*se_rg_kiteki_mvl/mxv
 	.byte	W06

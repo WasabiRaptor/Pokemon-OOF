@@ -19,7 +19,7 @@ se_moter_1:
 	.byte	KEYSH , se_moter_key+0
 se_moter_1_B1:
 	.byte	TEMPO , 150*se_moter_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 90*se_moter_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BEND  , c_v+0

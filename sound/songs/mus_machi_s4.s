@@ -359,7 +359,7 @@ mus_machi_s4_1_B1:
 	.byte	W07
 	.byte		        26*mus_machi_s4_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_machi_s4_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_machi_s4_mvl/mxv
 	.byte	W01
 	.byte		MOD   , 0
 	.byte	W06
@@ -1257,7 +1257,7 @@ mus_machi_s4_4_000:
 	.byte	W07
 	.byte		        30*mus_machi_s4_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_machi_s4_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_machi_s4_mvl/mxv
 	.byte	W07
 	.byte	GOTO
 	 .word	mus_machi_s4_4_B1
@@ -1528,7 +1528,7 @@ mus_machi_s4_5_001:
 	.byte		        30*mus_machi_s4_mvl/mxv
 	.byte		N12   
 	.byte	W05
-	.byte		VOL   , 15*mus_machi_s4_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_machi_s4_mvl/mxv
 	.byte	W07
 	.byte	GOTO
 	 .word	mus_machi_s4_5_B1

@@ -595,7 +595,7 @@ mus_inter_v_6_B1:
 	.byte	W05
 	.byte		        19*mus_inter_v_mvl/mxv
 	.byte	W07
-	.byte		        15*mus_inter_v_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_inter_v_mvl/mxv
 	.byte	W05
 	.byte		        8*mus_inter_v_mvl/mxv
 	.byte	W07
@@ -782,7 +782,7 @@ mus_inter_v_7_B1:
 	.byte	W05
 	.byte		        19*mus_inter_v_mvl/mxv
 	.byte	W07
-	.byte		        15*mus_inter_v_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_inter_v_mvl/mxv
 	.byte	W05
 	.byte		        8*mus_inter_v_mvl/mxv
 	.byte	W07

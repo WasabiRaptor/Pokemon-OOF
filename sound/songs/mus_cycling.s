@@ -1981,7 +1981,7 @@ mus_cycling_4_000:
 	.byte	W03
 	.byte		        16*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W04
 	.byte		        14*mus_cycling_mvl/mxv
 	.byte	W02
@@ -2915,7 +2915,7 @@ mus_cycling_6_B1:
 	.byte	W03
 	.byte		        17*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W04
 	.byte		        40*mus_cycling_mvl/mxv
 	.byte		MOD   , 0
@@ -3034,7 +3034,7 @@ mus_cycling_6_B1:
 	.byte	W03
 	.byte		        17*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W04
 	.byte		        40*mus_cycling_mvl/mxv
 	.byte		MOD   , 0
@@ -3121,7 +3121,7 @@ mus_cycling_6_B1:
 	.byte	W03
 	.byte		        16*mus_cycling_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_cycling_mvl/mxv
 	.byte	W03
@@ -3147,7 +3147,7 @@ mus_cycling_6_B1:
 	.byte	W02
 	.byte		        16*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W07
 	.byte		        34*mus_cycling_mvl/mxv
 	.byte		N12   , Bn1 
@@ -3222,7 +3222,7 @@ mus_cycling_6_B1:
 	.byte	W03
 	.byte		        16*mus_cycling_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W02
 	.byte		        13*mus_cycling_mvl/mxv
 	.byte	W03
@@ -3598,7 +3598,7 @@ mus_cycling_7_B1:
 	.byte	W04
 	.byte		        19*mus_cycling_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W03
 	.byte		        9*mus_cycling_mvl/mxv
 	.byte	W03
@@ -3714,7 +3714,7 @@ mus_cycling_7_B1:
 	.byte	W04
 	.byte		        19*mus_cycling_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W03
 	.byte		        9*mus_cycling_mvl/mxv
 	.byte	W03
@@ -3955,7 +3955,7 @@ mus_cycling_7_B1:
 	.byte	W02
 	.byte		        17*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W03
 	.byte		        12*mus_cycling_mvl/mxv
 	.byte	W04
@@ -3983,7 +3983,7 @@ mus_cycling_7_B1:
 	.byte	W02
 	.byte		        17*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W03
 	.byte		        12*mus_cycling_mvl/mxv
 	.byte	W04
@@ -4011,7 +4011,7 @@ mus_cycling_7_B1:
 	.byte	W02
 	.byte		        17*mus_cycling_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_cycling_mvl/mxv
 	.byte	W03
 	.byte		        12*mus_cycling_mvl/mxv
 	.byte	W28

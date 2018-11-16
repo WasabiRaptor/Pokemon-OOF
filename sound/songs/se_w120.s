@@ -54,7 +54,7 @@ se_w120_1:
 	.byte		VOL   , 13*se_w120_mvl/mxv
 	.byte	W01
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W22
 	.byte	FINE
 

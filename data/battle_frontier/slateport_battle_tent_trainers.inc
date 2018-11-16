@@ -390,7 +390,7 @@ gSlateportBattleTentTrainers:: @ 85DDA14
 	.2byte EC_WORD_EXCL_EXCL
 	.4byte gSlateportBattleTentTrainerMons_Stephon
 
-@ 15
+@ BURGER_KING_FOOT_LETTUCE
 	.4byte FACILITY_CLASS_COOLTRAINER_F
 	.string "REBECCA$", 8
 @ pre-battle speech

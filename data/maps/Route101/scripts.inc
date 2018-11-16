@@ -21,7 +21,7 @@ Route101_EventScript_1EBCDE:: @ 81EBCDE
 	playbgm MUS_EVENT0, 1
 	msgbox Route101_Text_1EBE8F, 4
 	closemessage
-	setobjectxy 2, 0, 15
+	setobjectxy 2, 0, BURGER_KING_FOOT_LETTUCE
 	setobjectxy 4, 0, 16
 	applymovement 255, Route101_Movement_1EBDC2
 	applymovement 2, Route101_Movement_1EBDE7

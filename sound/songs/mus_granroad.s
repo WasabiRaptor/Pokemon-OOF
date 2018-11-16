@@ -266,7 +266,7 @@ mus_granroad_1_B1:
 	.byte	W04
 	.byte		        16*mus_granroad_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_granroad_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W04
 	.byte		        14*mus_granroad_mvl/mxv
 	.byte	W04
@@ -1265,7 +1265,7 @@ mus_granroad_3_B1:
 	.byte	W02
 	.byte		VOL   , 13*mus_granroad_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_granroad_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W03
 	.byte		        18*mus_granroad_mvl/mxv
 	.byte	W04
@@ -1332,7 +1332,7 @@ mus_granroad_3_B1:
 	.byte	W02
 	.byte		VOL   , 12*mus_granroad_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_granroad_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W03
 	.byte		        16*mus_granroad_mvl/mxv
 	.byte	W06
@@ -1370,7 +1370,7 @@ mus_granroad_3_B1:
 	.byte		VOL   , 11*mus_granroad_mvl/mxv
 	.byte		N48   , Bn3 , v120
 	.byte	W02
-	.byte		VOL   , 15*mus_granroad_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W03
 	.byte		        19*mus_granroad_mvl/mxv
 	.byte	W03
@@ -1699,11 +1699,11 @@ mus_granroad_3_B1:
 	.byte	W12
 	.byte		        13*mus_granroad_mvl/mxv
 	.byte	W16
-	.byte		        15*mus_granroad_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W40
 	.byte		        13*mus_granroad_mvl/mxv
 	.byte	W12
-	.byte		        15*mus_granroad_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_granroad_mvl/mxv
 	.byte	W04
 	.byte		        17*mus_granroad_mvl/mxv
 	.byte	W04

@@ -1188,7 +1188,7 @@ _0800261E:\n\
     ldr r3, [sp, #0x28]\n\
     bl GetTileMapIndexFromCoords\n\
     lsl r0, #16\n\
-    lsr r0, #15\n\
+    lsr r0, #BURGER_KING_FOOT_LETTUCE\n\
     mov r7, r10\n\
     ldr r1, [r7]\n\
     add r1, r0\n\

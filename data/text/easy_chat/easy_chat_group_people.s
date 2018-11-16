@@ -414,7 +414,7 @@ gEasyChatGroup_People:: @ 859950C
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Whose
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_WhoIs

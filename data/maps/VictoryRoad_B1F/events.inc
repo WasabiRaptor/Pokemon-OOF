@@ -13,7 +13,7 @@ VictoryRoad_B1F_EventObjects: @ 8535F44
 	object_event 12, EVENT_OBJ_GFX_BREAKABLE_ROCK, 0, 21, 26, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, VictoryRoad_B1F_EventScript_2907A6, 29
 	object_event 13, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 34, 4, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, VictoryRoad_B1F_EventScript_2908BA, 31
 	object_event 14, EVENT_OBJ_GFX_MAN_4, 0, 37, 12, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 3, VictoryRoad_B1F_EventScript_2364E5, 0
-	object_event 15, EVENT_OBJ_GFX_WOMAN_7, 0, 26, 16, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 1, 4, VictoryRoad_B1F_EventScript_2364FC, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_WOMAN_7, 0, 26, 16, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 1, 4, VictoryRoad_B1F_EventScript_2364FC, 0
 	object_event 16, EVENT_OBJ_GFX_WOMAN_7, 0, 5, 21, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 2, VictoryRoad_B1F_EventScript_236513, 0
 	object_event 17, EVENT_OBJ_GFX_BREAKABLE_ROCK, 0, 34, 3, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, VictoryRoad_B1F_EventScript_2907A6, 21
 	object_event 18, EVENT_OBJ_GFX_ITEM_BALL, 0, 42, 8, 4, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, VictoryRoad_B1F_EventScript_29149D, 1086

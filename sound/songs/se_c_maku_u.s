@@ -45,7 +45,7 @@ se_c_maku_u_1:
 
 se_c_maku_u_2:
 	.byte	KEYSH , se_c_maku_u_key+0
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 12*se_c_maku_u_mvl/mxv
 	.byte		BEND  , c_v+0
 	.byte		N12   , Fn3 , v100

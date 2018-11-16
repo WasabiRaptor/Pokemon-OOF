@@ -1,5 +1,5 @@
 VictoryRoad_B2F_EventObjects: @ 8536188
-	object_event 1, EVENT_OBJ_GFX_MAN_4, 0, 15, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 2, VictoryRoad_B2F_EventScript_2368D5, 0
+	object_event 1, EVENT_OBJ_GFX_MAN_4, 0, BURGER_KING_FOOT_LETTUCE, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 2, VictoryRoad_B2F_EventScript_2368D5, 0
 	object_event 2, EVENT_OBJ_GFX_MAN_4, 0, 43, 14, 3, MOVEMENT_TYPE_FACE_UP, 1, 1, 1, 4, VictoryRoad_B2F_EventScript_2368EC, 0
 	object_event 3, EVENT_OBJ_GFX_WOMAN_7, 0, 2, 17, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 2, VictoryRoad_B2F_EventScript_236903, 0
 	object_event 4, EVENT_OBJ_GFX_WOMAN_7, 0, 35, 22, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 1, 2, VictoryRoad_B2F_EventScript_23691A, 0

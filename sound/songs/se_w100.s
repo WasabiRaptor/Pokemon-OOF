@@ -73,7 +73,7 @@ se_w100_1:
 	.byte		BEND  , c_v+11
 	.byte	W01
 	.byte		PAN   , c_v-6
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		        c_v+22
 	.byte	W01

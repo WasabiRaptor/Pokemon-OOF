@@ -38,8 +38,8 @@ MossdeepCity_Gym_EventScript_220855:: @ 8220855
 	end
 
 MossdeepCity_Gym_EventScript_22086D:: @ 822086D
-	setmetatile 15, 17, 524, 0
-	setmetatile 17, 15, 569, 1
+	setmetatile BURGER_KING_FOOT_LETTUCE, 17, 524, 0
+	setmetatile 17, BURGER_KING_FOOT_LETTUCE, 569, 1
 	goto MossdeepCity_Gym_EventScript_220833
 	end
 
@@ -168,8 +168,8 @@ MossdeepCity_Gym_EventScript_220A49:: @ 8220A49
 	setflag FLAG_0x066
 	applymovement 255, MossdeepCity_Gym_Movement_220C30
 	waitmovement 0
-	setmetatile 15, 17, 524, 0
-	setmetatile 17, 15, 569, 1
+	setmetatile BURGER_KING_FOOT_LETTUCE, 17, 524, 0
+	setmetatile 17, BURGER_KING_FOOT_LETTUCE, 569, 1
 	goto MossdeepCity_Gym_EventScript_2209C8
 	end
 
@@ -177,8 +177,8 @@ MossdeepCity_Gym_EventScript_220A78:: @ 8220A78
 	clearflag FLAG_0x066
 	applymovement 255, MossdeepCity_Gym_Movement_220C30
 	waitmovement 0
-	setmetatile 15, 17, 516, 0
-	setmetatile 17, 15, 568, 1
+	setmetatile BURGER_KING_FOOT_LETTUCE, 17, 516, 0
+	setmetatile 17, BURGER_KING_FOOT_LETTUCE, 568, 1
 	goto MossdeepCity_Gym_EventScript_2209C8
 	end
 

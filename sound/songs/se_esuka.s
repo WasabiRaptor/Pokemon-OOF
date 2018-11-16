@@ -32,7 +32,7 @@ se_esuka_1:
 	.byte	W01
 	.byte		VOL   , 62*se_esuka_mvl/mxv
 	.byte	W02
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		VOL   , 69*se_esuka_mvl/mxv
 	.byte	W01

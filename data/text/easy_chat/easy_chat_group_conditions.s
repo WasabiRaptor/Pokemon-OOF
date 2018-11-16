@@ -384,7 +384,7 @@ gEasyChatGroup_Conditions:: @ 859AD1C
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Top
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_NonStop

@@ -1136,7 +1136,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Cn3 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Cn3 , v080
 	.byte	W06
 	.byte		        Cn3 , v048
@@ -1202,7 +1202,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Ds3 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Ds3 , v080
 	.byte	W06
 	.byte		        Ds3 , v048
@@ -1212,7 +1212,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        As2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , As2 , v080
 	.byte	W06
 	.byte		        As2 , v048
@@ -1226,7 +1226,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        An2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Gn2 , v080
 	.byte	W06
 	.byte		        Gn2 , v048
@@ -1250,7 +1250,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Gn2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Gn2 , v080
 	.byte	W06
 	.byte		        Gn2 , v048
@@ -1264,7 +1264,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Fs2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , An2 , v080
 	.byte	W06
 	.byte		        An2 , v048
@@ -1278,7 +1278,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Gn2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Gn2 , v080
 	.byte	W06
 	.byte		        Gn2 , v048
@@ -1288,7 +1288,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        As2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , As2 , v080
 	.byte	W06
 	.byte		        As2 , v048
@@ -1326,7 +1326,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Ds3 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Ds3 , v080
 	.byte	W06
 	.byte		        Ds3 , v048
@@ -1340,7 +1340,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        As2 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , An2 , v080
 	.byte	W06
 	.byte		        An2 , v048
@@ -1354,7 +1354,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        Cn3 , v048
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Cn3 , v080
 	.byte	W06
 	.byte		        Cn3 , v048
@@ -1378,7 +1378,7 @@ mus_rg_nana67_4_B1:
 	.byte	W06
 	.byte		        As2 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Dn2 
 	.byte	W06
 	.byte		        Dn2 , v048

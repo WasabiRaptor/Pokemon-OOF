@@ -72,13 +72,13 @@ gAnimCmd_BLASTOISE_1:: @ 8305FF4
 
 	.align 2
 gAnimCmd_CATERPIE_1:: @ 830600C
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 5
     obj_image_anim_end
 
@@ -108,11 +108,11 @@ gAnimCmd_BUTTERFREE_1:: @ 830603C
 	.align 2
 gAnimCmd_WEEDLE_1:: @ 8306074
     obj_image_anim_frame 0, 5
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 5
     obj_image_anim_end
 
@@ -169,7 +169,7 @@ gAnimCmd_PIDGEOTTO_1:: @ 8306110
 gAnimCmd_PIDGEOT_1:: @ 8306128
     obj_image_anim_frame 1, 20
     obj_image_anim_frame 0, 10
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 1
     obj_image_anim_end
 
@@ -222,7 +222,7 @@ gAnimCmd_FEAROW_1:: @ 83061C8
     obj_image_anim_frame 1, 7
     obj_image_anim_frame 0, 7
     obj_image_anim_frame 1, 7
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 7
     obj_image_anim_frame 0, 7
     obj_image_anim_frame 1, 7
@@ -248,11 +248,11 @@ gAnimCmd_ARBOK_1:: @ 8306208
 
 	.align 2
 gAnimCmd_PIKACHU_1:: @ 8306218
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -265,11 +265,11 @@ gAnimCmd_PIKACHU_2:: @ 8306230
 
 	.align 2
 gAnimCmd_RAICHU_1:: @ 8306244
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -341,30 +341,30 @@ gAnimCmd_NIDOQUEEN_1:: @ 83062FC
 
 	.align 2
 gAnimCmd_NIDORAN_M_1:: @ 8306308
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 5
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_NIDORINO_1:: @ 8306318
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 5
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_NIDOKING_1:: @ 8306328
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 40
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CLEFAIRY_1:: @ 830633C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
@@ -380,11 +380,11 @@ gAnimCmd_CLEFABLE_1:: @ 830634C
 
 	.align 2
 gAnimCmd_VULPIX_1:: @ 8306368
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -397,11 +397,11 @@ gAnimCmd_VULPIX_2:: @ 8306380
 
 	.align 2
 gAnimCmd_NINETALES_1:: @ 8306394
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -414,11 +414,11 @@ gAnimCmd_NINETALES_2:: @ 83063AC
 
 	.align 2
 gAnimCmd_JIGGLYPUFF_1:: @ 83063C0
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -431,11 +431,11 @@ gAnimCmd_JIGGLYPUFF_2:: @ 83063D8
 
 	.align 2
 gAnimCmd_WIGGLYTUFF_1:: @ 83063EC
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -519,15 +519,15 @@ gAnimCmd_PARAS_1:: @ 83064EC
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
@@ -539,9 +539,9 @@ gAnimCmd_PARASECT_1:: @ 8306530
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 35
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -550,8 +550,8 @@ gAnimCmd_VENONAT_1:: @ 830654C
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 35
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -619,11 +619,11 @@ gAnimCmd_PERSIAN_1:: @ 830661C
 
 	.align 2
 gAnimCmd_PSYDUCK_1:: @ 8306628
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -636,11 +636,11 @@ gAnimCmd_PSYDUCK_2:: @ 8306640
 
 	.align 2
 gAnimCmd_GOLDUCK_1:: @ 8306654
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -663,12 +663,12 @@ gAnimCmd_MANKEY_1:: @ 8306680
 
 	.align 2
 gAnimCmd_PRIMEAPE_1:: @ 830669C
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -676,7 +676,7 @@ gAnimCmd_GROWLITHE_1:: @ 83066B8
     obj_image_anim_frame 1, 8
     obj_image_anim_frame 0, 8
     obj_image_anim_frame 1, 8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
     obj_image_anim_frame 0, 10
     obj_image_anim_end
@@ -686,7 +686,7 @@ gAnimCmd_ARCANINE_1:: @ 83066D4
     obj_image_anim_frame 1, 8
     obj_image_anim_frame 0, 8
     obj_image_anim_frame 1, 8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 40
     obj_image_anim_frame 0, 10
     obj_image_anim_end
@@ -726,24 +726,24 @@ gAnimCmd_ABRA_1:: @ 8306724
 gAnimCmd_KADABRA_1:: @ 830673C
     obj_image_anim_frame 0, 12
     obj_image_anim_frame 1, 45
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_ALAKAZAM_1:: @ 830674C
     obj_image_anim_frame 0, 9
     obj_image_anim_frame 1, 54
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_MACHOP_1:: @ 830675C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
@@ -797,7 +797,7 @@ gAnimCmd_VICTREEBEL_1:: @ 83067DC
 	.align 2
 gAnimCmd_TENTACOOL_1:: @ 83067FC
     obj_image_anim_frame 0, 8
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 7
     obj_image_anim_frame 1, 11
     obj_image_anim_frame 0, 11
@@ -814,7 +814,7 @@ gAnimCmd_TENTACRUEL_1:: @ 8306814
 
 	.align 2
 gAnimCmd_GEODUDE_1:: @ 830682C
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 36
     obj_image_anim_frame 0, 10
     obj_image_anim_end
@@ -889,11 +889,11 @@ gAnimCmd_FARFETCHD_1:: @ 83068E0
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
@@ -924,14 +924,14 @@ gAnimCmd_DODRIO_1:: @ 830692C
 
 	.align 2
 gAnimCmd_SEEL_1:: @ 8306954
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1013,7 +1013,7 @@ gAnimCmd_GASTLY_1:: @ 8306A38
 	.align 2
 gAnimCmd_HAUNTER_1:: @ 8306A48
     obj_image_anim_frame 1, 8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 35
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 0, 10
@@ -1045,13 +1045,13 @@ gAnimCmd_DROWZEE_1:: @ 8306A80
 
 	.align 2
 gAnimCmd_HYPNO_1:: @ 8306A9C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1067,9 +1067,9 @@ gAnimCmd_KRABBY_1:: @ 8306ABC
 	.align 2
 gAnimCmd_KINGLER_1:: @ 8306AD8
     obj_image_anim_frame 0, 5
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 25
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 10
@@ -1136,7 +1136,7 @@ gAnimCmd_MAROWAK_1:: @ 8306B80
 
 	.align 2
 gAnimCmd_HITMONLEE_1:: @ 8306B9C
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 20
     obj_image_anim_end
 
@@ -1147,7 +1147,7 @@ gAnimCmd_HITMONCHAN_1:: @ 8306BA8
     obj_image_anim_frame 1, 5
     obj_image_anim_frame 0, 5
     obj_image_anim_frame 1, 5
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 25
     obj_image_anim_frame 0, 10
     obj_image_anim_end
@@ -1156,7 +1156,7 @@ gAnimCmd_HITMONCHAN_1:: @ 8306BA8
 gAnimCmd_LICKITUNG_1:: @ 8306BCC
     obj_image_anim_frame 0, 28
     obj_image_anim_frame 1, 32
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1348,12 +1348,12 @@ gAnimCmd_STARMIE_2:: @ 8306DB8
 
 	.align 2
 gAnimCmd_MR_MIME_1:: @ 8306DCC
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1464,8 +1464,8 @@ gAnimCmd_VAPOREON_1:: @ 8306EE8
 
 	.align 2
 gAnimCmd_JOLTEON_1:: @ 8306EF4
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1540,7 +1540,7 @@ gAnimCmd_SNORLAX_1:: @ 8306FA4
 	.align 2
 gAnimCmd_ARTICUNO_1:: @ 8306FB4
     obj_image_anim_frame 1, 25
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
     obj_image_anim_frame 0, 10
     obj_image_anim_end
@@ -1591,9 +1591,9 @@ gAnimCmd_MOLTRES_1:: @ 8306FDC
 
 	.align 2
 gAnimCmd_DRATINI_1:: @ 8307060
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1613,7 +1613,7 @@ gAnimCmd_DRAGONITE_1:: @ 8307084
 
 	.align 2
 gAnimCmd_MEWTWO_1:: @ 8307094
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 20
     obj_image_anim_end
 
@@ -1626,15 +1626,15 @@ gAnimCmd_MEW_1:: @ 83070A0
 
 	.align 2
 gAnimCmd_CHIKORITA_1:: @ 83070B0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_BAYLEEF_1:: @ 83070C0
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1689,9 +1689,9 @@ gAnimCmd_FERALIGATR_1:: @ 830712C
 
 	.align 2
 gAnimCmd_SENTRET_1:: @ 8307140
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
@@ -1838,11 +1838,11 @@ gAnimCmd_LANTURN_2:: @ 83072E4
 
 	.align 2
 gAnimCmd_PICHU_1:: @ 83072F8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1863,11 +1863,11 @@ gAnimCmd_CLEFFA_1:: @ 8307324
 
 	.align 2
 gAnimCmd_IGGLYBUFF_1:: @ 8307338
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1887,18 +1887,18 @@ gAnimCmd_TOGEPI_1:: @ 8307364
 
 	.align 2
 gAnimCmd_TOGETIC_1:: @ 8307374
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_NATU_1:: @ 8307384
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1911,13 +1911,13 @@ gAnimCmd_NATU_2:: @ 830739C
 
 	.align 2
 gAnimCmd_XATU_1:: @ 83073B0
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 45
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1934,8 +1934,8 @@ gAnimCmd_MAREEP_1:: @ 83073E4
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 20
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -1949,7 +1949,7 @@ gAnimCmd_FLAAFFY_1:: @ 8307400
 	.align 2
 gAnimCmd_AMPHAROS_1:: @ 8307414
     obj_image_anim_frame 1, 50
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
@@ -1984,12 +1984,12 @@ gAnimCmd_AZUMARILL_1:: @ 830745C
 
 	.align 2
 gAnimCmd_SUDOWOODO_1:: @ 8307474
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2019,17 +2019,17 @@ gAnimCmd_SKIPLOOM_1:: @ 83074C0
     obj_image_anim_frame 1, 12
     obj_image_anim_frame 0, 12
     obj_image_anim_frame 1, 12
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_JUMPLUFF_1:: @ 83074E4
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 25
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 25
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2048,9 +2048,9 @@ gAnimCmd_SUNKERN_1:: @ 830750C
 
 	.align 2
 gAnimCmd_SUNFLORA_1:: @ 8307520
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2081,9 +2081,9 @@ gAnimCmd_YANMA_1:: @ 8307530
 
 	.align 2
 gAnimCmd_WOOPER_1:: @ 830758C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2094,7 +2094,7 @@ gAnimCmd_QUAGSIRE_1:: @ 830759C
 
 	.align 2
 gAnimCmd_ESPEON_1:: @ 83075A8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 25
     obj_image_anim_frame 0, 20
     obj_image_anim_end
@@ -2107,15 +2107,15 @@ gAnimCmd_UMBREON_1:: @ 83075B8
 
 	.align 2
 gAnimCmd_MURKROW_1:: @ 83075C4
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 20
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SLOWKING_1:: @ 83075D0
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2141,11 +2141,11 @@ gAnimCmd_UNOWN_1:: @ 830760C
 
 	.align 2
 gAnimCmd_WOBBUFFET_1:: @ 830761C
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2158,13 +2158,13 @@ gAnimCmd_WOBBUFFET_2:: @ 8307634
 
 	.align 2
 gAnimCmd_GIRAFARIG_1:: @ 8307648
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2198,8 +2198,8 @@ gAnimCmd_FORRETRESS_1:: @ 83076A0
 	.align 2
 gAnimCmd_DUNSPARCE_1:: @ 83076B4
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
@@ -2236,7 +2236,7 @@ gAnimCmd_QWILFISH_1:: @ 8307708
     obj_image_anim_frame 1, 8
     obj_image_anim_frame 0, 8
     obj_image_anim_frame 1, 8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 50
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 0, 30
@@ -2274,8 +2274,8 @@ gAnimCmd_HERACROSS_2:: @ 830775C
 
 	.align 2
 gAnimCmd_SNEASEL_1:: @ 8307770
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2391,11 +2391,11 @@ gAnimCmd_MANTINE_1:: @ 830787C
 
 	.align 2
 gAnimCmd_SKARMORY_1:: @ 8307890
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2439,13 +2439,13 @@ gAnimCmd_KINGDRA_2:: @ 83078F4
 
 	.align 2
 gAnimCmd_PHANPY_1:: @ 8307908
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2458,13 +2458,13 @@ gAnimCmd_PHANPY_2:: @ 8307928
 
 	.align 2
 gAnimCmd_DONPHAN_1:: @ 830793C
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 10
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2477,17 +2477,17 @@ gAnimCmd_DONPHAN_2:: @ 830795C
 
 	.align 2
 gAnimCmd_PORYGON2_1:: @ 8307970
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_STANTLER_1:: @ 8307988
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2525,8 +2525,8 @@ gAnimCmd_SMOOCHUM_1:: @ 83079E4
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 30
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2538,8 +2538,8 @@ gAnimCmd_ELEKID_1:: @ 8307A00
 
 	.align 2
 gAnimCmd_MAGBY_1:: @ 8307A10
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 20
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 10
@@ -2556,7 +2556,7 @@ gAnimCmd_MILTANK_1:: @ 8307A30
 	.align 2
 gAnimCmd_BLISSEY_1:: @ 8307A3C
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2631,9 +2631,9 @@ gAnimCmd_GAY_1:: @ 8307AD4
 	.align 2
 gAnimCmd_TREECKO_1:: @ 8307AE4
     obj_image_anim_frame 0, 6
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 6
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 3
     obj_image_anim_end
 
@@ -2772,9 +2772,9 @@ gAnimCmd_WURMPLE_1:: @ 8307C40
 
 	.align 2
 gAnimCmd_SILCOON_1:: @ 8307C50
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 25
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -2881,13 +2881,13 @@ gAnimCmd_SEEDOT_1:: @ 8307D48
 	.align 2
 gAnimCmd_NUZLEAF_1:: @ 8307D70
     obj_image_anim_frame 0, 7
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 7
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 7
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 7
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 7
     obj_image_anim_end
 
@@ -2900,7 +2900,7 @@ gAnimCmd_SHIFTRY_1:: @ 8307D98
 
 	.align 2
 gAnimCmd_NINCADA_1:: @ 8307DA8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 22
     obj_image_anim_frame 0, 11
     obj_image_anim_frame 1, 33
@@ -2941,7 +2941,7 @@ gAnimCmd_SHEDINJA_1:: @ 8307E0C
 	.align 2
 gAnimCmd_TAILLOW_1:: @ 8307E24
     obj_image_anim_frame 0, 5
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 2
     obj_image_anim_frame 1, 2
     obj_image_anim_frame 0, 2
@@ -3054,7 +3054,7 @@ gAnimCmd_WAILORD_1:: @ 8307F4C
 
 	.align 2
 gAnimCmd_SKITTY_1:: @ 8307F5C
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 35
     obj_image_anim_frame 0, 9
     obj_image_anim_end
@@ -3072,29 +3072,29 @@ gAnimCmd_KECLEON_1:: @ 8307F7C
     obj_image_anim_frame 1, 18
     obj_image_anim_frame 0, 8
     obj_image_anim_frame 1, 8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_BALTOY_1:: @ 8307F94
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CLAYDOL_1:: @ 8307FB4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3110,11 +3110,11 @@ gAnimCmd_NOSEPASS_1:: @ 8307FD4
 
 	.align 2
 gAnimCmd_TORKOAL_1:: @ 8307FF4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3128,87 +3128,87 @@ gAnimCmd_SABLEYE_1:: @ 830800C
 
 	.align 2
 gAnimCmd_BARBOACH_1:: @ 8308024
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_WHISCASH_1:: @ 830805C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_LUVDISC_1:: @ 8308094
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CORPHISH_1:: @ 83080AC
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CRAWDAUNT_1:: @ 83080CC
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_FEEBAS_1:: @ 83080E4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_MILOTIC_1:: @ 8308104
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3239,32 +3239,32 @@ gAnimCmd_SHARPEDO_1:: @ 830814C
 
 	.align 2
 gAnimCmd_TRAPINCH_1:: @ 8308174
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_VIBRAVA_1:: @ 830818C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_FLYGON_1:: @ 83081AC
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
@@ -3309,22 +3309,22 @@ gAnimCmd_MANECTRIC_1:: @ 8308220
 
 	.align 2
 gAnimCmd_NUMEL_1:: @ 8308238
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 20
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 40
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CAMERUPT_1:: @ 8308250
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3332,20 +3332,20 @@ gAnimCmd_SPHEAL_1:: @ 8308270
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 43
     obj_image_anim_frame 1, 60
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SEALEO_1:: @ 8308294
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3354,58 +3354,58 @@ gAnimCmd_WALREIN_1:: @ 83082AC
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 30
     obj_image_anim_frame 1, 6
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CACNEA_1:: @ 83082C4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CACTURNE_1:: @ 83082F4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SNORUNT_1:: @ 830830C
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_GLALIE_1:: @ 8308324
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_LUNATONE_1:: @ 830833C
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3418,11 +3418,11 @@ gAnimCmd_LUNATONE_2:: @ 8308354
 
 	.align 2
 gAnimCmd_SOLROCK_1:: @ 8308368
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3461,11 +3461,11 @@ gAnimCmd_SPOINK_1:: @ 83083B4
 
 	.align 2
 gAnimCmd_GRUMPIG_1:: @ 83083E4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3538,11 +3538,11 @@ gAnimCmd_SWABLU_2:: @ 830849C
 
 	.align 2
 gAnimCmd_ALTARIA_1:: @ 83084B8
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 20
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3555,29 +3555,29 @@ gAnimCmd_ALTARIA_2:: @ 83084D0
 
 	.align 2
 gAnimCmd_WYNAUT_1:: @ 83084E4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_DUSKULL_1:: @ 83084FC
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_DUSCLOPS_1:: @ 8308514
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3630,7 +3630,7 @@ gAnimCmd_GULPIN_1:: @ 8308598
 
 	.align 2
 gAnimCmd_SWALOT_1:: @ 83085B0
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 0, 30
@@ -3638,11 +3638,11 @@ gAnimCmd_SWALOT_1:: @ 83085B0
 
 	.align 2
 gAnimCmd_TROPIUS_1:: @ 83085C4
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3677,91 +3677,91 @@ gAnimCmd_EXPLOUD_1:: @ 8308620
 
 	.align 2
 gAnimCmd_CLAMPERL_1:: @ 8308630
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_HUNTAIL_1:: @ 8308648
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_GOREBYSS_1:: @ 8308660
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_ABSOL_1:: @ 8308678
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SHUPPET_1:: @ 8308690
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_BANETTE_1:: @ 83086B0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SEVIPER_1:: @ 83086D0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_ZANGOOSE_1:: @ 83086F0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 50
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_RELICANTH_1:: @ 8308710
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3831,42 +3831,42 @@ gAnimCmd_ILLUMISE_1:: @ 83087A8
 
 	.align 2
 gAnimCmd_LILEEP_1:: @ 83087C0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_CRADILY_1:: @ 83087D8
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_ANORITH_1:: @ 83087F8
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_ARMALDO_1:: @ 8308818
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3902,20 +3902,20 @@ gAnimCmd_GARDEVOIR_1:: @ 8308850
 
 	.align 2
 gAnimCmd_BAGON_1:: @ 8308888
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
 gAnimCmd_SHELGON_1:: @ 83088A0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3923,8 +3923,8 @@ gAnimCmd_SALAMENCE_1:: @ 83088B8
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 10
     obj_image_anim_frame 0, 30
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2
@@ -3974,7 +3974,7 @@ gAnimCmd_REGIROCK_2:: @ 8308930
 	.align 2
 gAnimCmd_REGICE_1:: @ 8308944
     obj_image_anim_frame 0, 20
-    obj_image_anim_frame 1, 15
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_frame 0, 10
     obj_image_anim_frame 1, 18
     obj_image_anim_frame 0, 10
@@ -4123,15 +4123,15 @@ gAnimCmd_DEOXYS_2:: @ 8308ABC
 
 	.align 2
 gAnimCmd_CHIMECHO_1:: @ 8308AD0
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
-    obj_image_anim_frame 1, 15
-    obj_image_anim_frame 0, 15
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 1, BURGER_KING_FOOT_LETTUCE
+    obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
     obj_image_anim_end
 
 	.align 2

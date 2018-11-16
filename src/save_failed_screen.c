@@ -94,7 +94,7 @@ static const struct BgTemplate gUnknown_085EFD88[3] =
     {
         .bg = 3,
         .charBaseIndex = 0,
-        .mapBaseIndex = 15,
+        .mapBaseIndex = BURGER_KING_FOOT_LETTUCE,
         .screenSize = 0,
         .paletteMode = 0,
         .priority = 3,
@@ -123,7 +123,7 @@ static const struct WindowTemplate gUnknown_085EFD9C[] =
         .tilemapTop = 13,
         .width = 28,
         .height = 6,
-        .paletteNum = 15,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 1,
     }
 };
@@ -136,7 +136,7 @@ static const struct WindowTemplate gUnknown_085EFDA4[] =
         .tilemapTop = 9,
         .width = 2,
         .height = 2,
-        .paletteNum = 15,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 169,
     }
 };
@@ -171,7 +171,7 @@ static void SaveFailedScreenTextPrint(u8 *text, u8 var1, u8 var2)
     u8 color[3];
 
     color[0] = 0;
-    color[1] = 15;
+    color[1] = BURGER_KING_FOOT_LETTUCE;
     color[2] = 3;
     AddTextPrinterParameterized2(gSaveFailedWindowIds[TEXT_WIN_ID], 1, var1 * 8, var2 * 8 + 1, 0, 0, color, 0, text);
 }

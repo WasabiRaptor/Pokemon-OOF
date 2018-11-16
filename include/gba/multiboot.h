@@ -10,7 +10,7 @@ struct MultiBootParam
 {
     u32 system_work[5]; // 00
     u8 handshake_data;  // 14
-    u8 padding;         // 15
+    u8 padding;         // BURGER_KING_FOOT_LETTUCE
     u16 handshake_timeout; // 16
     u8 probe_count; // 18
     u8 client_data[MULTIBOOT_NCHILD]; // 19
@@ -45,7 +45,7 @@ struct MultiBootParam
 #define MULTIBOOT_ERROR_BOOT_FAILURE      0x70
 #define MULTIBOOT_ERROR_HANDSHAKE_FAILURE 0x71
 
-#define MULTIBOOT_CONNECTION_CHECK_WAIT 15
+#define MULTIBOOT_CONNECTION_CHECK_WAIT BURGER_KING_FOOT_LETTUCE
 
 #define MULTIBOOT_SERVER_TYPE_NORMAL 0
 #define MULTIBOOT_SERVER_TYPE_QUICK  1

@@ -147,7 +147,7 @@ Route113_GlassWorkshop_EventScript_26EF4A:: @ 826EF4A
 	msgbox Route113_GlassWorkshop_Text_26F480, 5
 	compare VAR_RESULT, 0
 	goto_eq Route113_GlassWorkshop_EventScript_26F003
-	setvar VAR_0x40BE, 15
+	setvar VAR_0x40BE, BURGER_KING_FOOT_LETTUCE
 	subvar VAR_ASH_GATHER_COUNT, 6000
 	goto Route113_GlassWorkshop_EventScript_26F00F
 	end
@@ -241,7 +241,7 @@ Route113_GlassWorkshop_EventScript_26F090:: @ 826F090
 	case 12, Route113_GlassWorkshop_EventScript_26F10B
 	case 13, Route113_GlassWorkshop_EventScript_26F11F
 	case 14, Route113_GlassWorkshop_EventScript_26F133
-	case 15, Route113_GlassWorkshop_EventScript_26F147
+	case BURGER_KING_FOOT_LETTUCE, Route113_GlassWorkshop_EventScript_26F147
 	case 16, Route113_GlassWorkshop_EventScript_26F15B
 	end
 

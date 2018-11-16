@@ -1341,7 +1341,7 @@ mus_rg_titlerog_4_001:
 	.byte	W01
 	.byte		        14*mus_rg_titlerog_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_rg_titlerog_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_titlerog_mvl/mxv
 	.byte	W02
 	.byte		        16*mus_rg_titlerog_mvl/mxv
 	.byte	W01
@@ -1594,7 +1594,7 @@ mus_rg_titlerog_4_001:
 	.byte	W02
 	.byte		        16*mus_rg_titlerog_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_rg_titlerog_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_titlerog_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_rg_titlerog_mvl/mxv
 	.byte	W01
@@ -1751,7 +1751,7 @@ mus_rg_titlerog_5:
 	.byte	W01
 	.byte		        14*mus_rg_titlerog_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_rg_titlerog_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_titlerog_mvl/mxv
 	.byte	W02
 	.byte		        16*mus_rg_titlerog_mvl/mxv
 	.byte	W01
@@ -2004,7 +2004,7 @@ mus_rg_titlerog_5:
 	.byte	W02
 	.byte		        16*mus_rg_titlerog_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_rg_titlerog_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_titlerog_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_rg_titlerog_mvl/mxv
 	.byte	W01

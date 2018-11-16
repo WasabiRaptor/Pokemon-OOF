@@ -11,8 +11,8 @@ BattleFrontier_BattleTowerCorridor_MapScript1_241AB5: @ 8241AB5
 	end
 
 BattleFrontier_BattleTowerCorridor_EventScript_241AD3:: @ 8241AD3
-	setmetatile 15, 0, 519, 0
-	setmetatile 15, 1, 527, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, 0, 519, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, 1, 527, 0
 	end
 
 BattleFrontier_BattleTowerCorridor_MapScript2_241AE6: @ 8241AE6

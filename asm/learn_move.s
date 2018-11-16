@@ -1153,7 +1153,7 @@ _081610E4:
 	subs r1, r4, r1
 	lsls r1, 19
 	movs r0, 0xD0
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0
 	asrs r1, 16
 	lsls r2, 19
@@ -1186,7 +1186,7 @@ _08161124:
 	subs r1, r4, r1
 	lsls r1, 19
 	movs r0, 0xD0
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0
 	asrs r1, 16
 	lsls r2, 19

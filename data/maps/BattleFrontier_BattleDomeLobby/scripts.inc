@@ -207,7 +207,7 @@ BattleFrontier_BattleDomeLobby_EventScript_249ABF:: @ 8249ABF
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattleDomeLobby_EventScript_249C64
 	case 127, BattleFrontier_BattleDomeLobby_EventScript_249C64
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattleDomeLobby_EventScript_249C15
@@ -260,7 +260,7 @@ BattleFrontier_BattleDomeLobby_EventScript_249BC2:: @ 8249BC2
 	setvar VAR_0x8004, 3
 	setvar VAR_0x8005, 3
 	special sub_81A1780
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_818E9AC
 	msgbox BattleFrontier_BattleDomeLobby_Text_24A437, 4
 	closemessage

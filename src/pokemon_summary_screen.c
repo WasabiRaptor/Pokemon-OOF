@@ -487,7 +487,7 @@ bool8 sub_81BFB10(void)
         sub_81C0348();
         gMain.state++;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_81C2AFC(gUnknown_0203CF1C->unk40C0);
         gMain.state++;
         break;
@@ -1246,7 +1246,7 @@ void sub_81C1070(s16 *a, s8 b, u8 *c)
     if (*c != 4 && moveIndex == 4 && gUnknown_0203CF1C->unk40C4 == 0)
     {
         ClearWindowTilemap(14);
-        ClearWindowTilemap(15);
+        ClearWindowTilemap(BURGER_KING_FOOT_LETTUCE);
         schedule_bg_copy_tilemap_to_vram(0);
         sub_81C1DA4(0, 3);
         sub_81C1EFC(0, 3, 0);
@@ -1270,7 +1270,7 @@ void sub_81C11F4(u8 taskId)
     if (gUnknown_0203CF1C->unk40C6 != 4)
     {
         ClearWindowTilemap(14);
-        ClearWindowTilemap(15);
+        ClearWindowTilemap(BURGER_KING_FOOT_LETTUCE);
         sub_81C1DA4(0, 3);
         sub_81C1EFC(0, 3, 0);
     }
@@ -1845,7 +1845,7 @@ bool8 sub_81C18A8()
 void sub_81C18F4(u8 taskId)
 {
     ClearWindowTilemap(14);
-    ClearWindowTilemap(15);
+    ClearWindowTilemap(BURGER_KING_FOOT_LETTUCE);
     schedule_bg_copy_tilemap_to_vram(0);
     sub_81C1DA4(0, 3);
     sub_81C1EFC(0, 3, 0);
@@ -2246,7 +2246,7 @@ void sub_81C1F80(u8 taskId)
         if (data[0] < 0)
         {
             if (gUnknown_0203CF1C->unk40C0 == 3 && FuncIsActiveTask(sub_81C0B8C) == 0)
-                PutWindowTilemap(15);
+                PutWindowTilemap(BURGER_KING_FOOT_LETTUCE);
             sub_81C240C(data[2]);
         }
         else
@@ -2674,8 +2674,8 @@ void sub_81C286C()
     sub_81C25A4(13, gText_Status, 2, 1, 0, 1);
     sub_81C25A4(14, gText_Power, 0, 1, 0, 1);
     sub_81C25A4(14, gText_Accuracy2, 0, 17, 0, 1);
-    sub_81C25A4(15, gText_Appeal, 0, 1, 0, 1);
-    sub_81C25A4(15, gText_Jam, 0, 17, 0, 1);
+    sub_81C25A4(BURGER_KING_FOOT_LETTUCE, gText_Appeal, 0, 1, 0, 1);
+    sub_81C25A4(BURGER_KING_FOOT_LETTUCE, gText_Jam, 0, 17, 0, 1);
 }
 
 void sub_81C2AFC(u8 a)
@@ -2715,7 +2715,7 @@ void sub_81C2AFC(u8 a)
             if (gUnknown_0203CF1C->unk40BC == 3)
             {
                 if(!(gUnknown_0203CF1C->unk40C4 == 0 && gUnknown_0203CF1C->unk40C6 == 4))
-                    PutWindowTilemap(15);
+                    PutWindowTilemap(BURGER_KING_FOOT_LETTUCE);
             }
             else
                 PutWindowTilemap(5);
@@ -2757,7 +2757,7 @@ void sub_81C2C38(u8 a)
             if (gUnknown_0203CF1C->unk40BC == 3)
             {
                 if(!(gUnknown_0203CF1C->unk40C4 == 0 && gUnknown_0203CF1C->unk40C6 == 4))
-                    ClearWindowTilemap(15);
+                    ClearWindowTilemap(BURGER_KING_FOOT_LETTUCE);
             }
             else
                 ClearWindowTilemap(5);

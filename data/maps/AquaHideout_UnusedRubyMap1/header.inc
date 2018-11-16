@@ -10,6 +10,6 @@ AquaHideout_UnusedRubyMap1: @ 84846D8
 	.byte WEATHER_NONE
 	.byte MAP_TYPE_UNDERGROUND
 	.2byte 0
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte MAP_BATTLE_SCENE_MAGMA
 

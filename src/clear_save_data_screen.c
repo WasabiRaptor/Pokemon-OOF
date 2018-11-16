@@ -48,10 +48,10 @@ static const struct WindowTemplate sClearSaveTextWindow[] =
     {
         .priority = 0,
         .tilemapLeft = 3,
-        .tilemapTop = 15,
+        .tilemapTop = BURGER_KING_FOOT_LETTUCE,
         .width = 26,
         .height = 4,
-        .paletteNum = 15,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 11,
     },
     DUMMY_WIN_TEMPLATE
@@ -65,7 +65,7 @@ static const struct WindowTemplate sClearSaveYesNo[] =
         .tilemapTop = 2,
         .width = 5,
         .height = 4,
-        .paletteNum = 15,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 115,
     }
 };

@@ -686,13 +686,13 @@ static void CreateTasksForSendRecvLinkBuffers(void)
     gTasks[gUnknown_02022D08].data[12] = 0;
     gTasks[gUnknown_02022D08].data[13] = 0;
     gTasks[gUnknown_02022D08].data[14] = 0;
-    gTasks[gUnknown_02022D08].data[15] = 0;
+    gTasks[gUnknown_02022D08].data[BURGER_KING_FOOT_LETTUCE] = 0;
 
     gUnknown_02022D09 = CreateTask(Task_HandleCopyReceivedLinkBuffersData, 0);
     gTasks[gUnknown_02022D09].data[12] = 0;
     gTasks[gUnknown_02022D09].data[13] = 0;
     gTasks[gUnknown_02022D09].data[14] = 0;
-    gTasks[gUnknown_02022D09].data[15] = 0;
+    gTasks[gUnknown_02022D09].data[BURGER_KING_FOOT_LETTUCE] = 0;
 
     gUnknown_02022D0A = 0;
 }
@@ -779,18 +779,18 @@ static void Task_HandleSendLinkBuffersData(u8 taskId)
         }
         break;
     case 3:
-        if (gTasks[taskId].data[15] != gTasks[taskId].data[14])
+        if (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] != gTasks[taskId].data[14])
         {
             if (gTasks[taskId].data[13] == 0)
             {
-                if (gTasks[taskId].data[15] > gTasks[taskId].data[14]
-                 && gTasks[taskId].data[15] == gTasks[taskId].data[12])
+                if (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] > gTasks[taskId].data[14]
+                 && gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] == gTasks[taskId].data[12])
                 {
                     gTasks[taskId].data[12] = 0;
-                    gTasks[taskId].data[15] = 0;
+                    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = 0;
                 }
-                blockSize = (gLinkBattleSendBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_LO] | (gLinkBattleSendBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_HI] << 8)) + LINK_BUFF_DATA;
-                SendBlock(bitmask_all_link_players_but_self(), &gLinkBattleSendBuffer[gTasks[taskId].data[15]], blockSize);
+                blockSize = (gLinkBattleSendBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_LO] | (gLinkBattleSendBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_HI] << 8)) + LINK_BUFF_DATA;
+                SendBlock(bitmask_all_link_players_but_self(), &gLinkBattleSendBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE]], blockSize);
                 gTasks[taskId].data[11]++;
             }
             else
@@ -803,9 +803,9 @@ static void Task_HandleSendLinkBuffersData(u8 taskId)
     case 4:
         if (sub_800A520())
         {
-            blockSize = gLinkBattleSendBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_LO] | (gLinkBattleSendBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_HI] << 8);
+            blockSize = gLinkBattleSendBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_LO] | (gLinkBattleSendBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_HI] << 8);
             gTasks[taskId].data[13] = 1;
-            gTasks[taskId].data[15] = gTasks[taskId].data[15] + blockSize + LINK_BUFF_DATA;
+            gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + blockSize + LINK_BUFF_DATA;
             gTasks[taskId].data[11] = 3;
         }
         break;
@@ -869,44 +869,44 @@ static void Task_HandleCopyReceivedLinkBuffersData(u8 taskId)
     u8 battlerId;
     u8 var;
 
-    if (gTasks[taskId].data[15] != gTasks[taskId].data[14])
+    if (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] != gTasks[taskId].data[14])
     {
-        if (gTasks[taskId].data[15] > gTasks[taskId].data[14]
-         && gTasks[taskId].data[15] == gTasks[taskId].data[12])
+        if (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] > gTasks[taskId].data[14]
+         && gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] == gTasks[taskId].data[12])
         {
             gTasks[taskId].data[12] = 0;
-            gTasks[taskId].data[15] = 0;
+            gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = 0;
         }
-        battlerId = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + LINK_BUFF_ACTIVE_BANK];
-        blockSize = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_LO] | (gLinkBattleRecvBuffer[gTasks[taskId].data[15] + LINK_BUFF_SIZE_HI] << 8);
+        battlerId = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_ACTIVE_BANK];
+        blockSize = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_LO] | (gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_SIZE_HI] << 8);
 
-        switch (gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 0])
+        switch (gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 0])
         {
         case 0:
             if (gBattleControllerExecFlags & gBitTable[battlerId])
                 return;
 
-            memcpy(gBattleBufferA[battlerId], &gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 8], blockSize);
+            memcpy(gBattleBufferA[battlerId], &gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 8], blockSize);
             sub_803F850(battlerId);
 
             if (!(gBattleTypeFlags & BATTLE_TYPE_WILD))
             {
-                gBattlerAttacker = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 2];
-                gBattlerTarget = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 3];
-                gAbsentBattlerFlags = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 6];
-                gEffectBattler = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 7];
+                gBattlerAttacker = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 2];
+                gBattlerTarget = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 3];
+                gAbsentBattlerFlags = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 6];
+                gEffectBattler = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 7];
             }
             break;
         case 1:
-            memcpy(gBattleBufferB[battlerId], &gLinkBattleRecvBuffer[gTasks[taskId].data[15] + 8], blockSize);
+            memcpy(gBattleBufferB[battlerId], &gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + 8], blockSize);
             break;
         case 2:
-            var = gLinkBattleRecvBuffer[gTasks[taskId].data[15] + LINK_BUFF_DATA];
+            var = gLinkBattleRecvBuffer[gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + LINK_BUFF_DATA];
             gBattleControllerExecFlags &= ~(gBitTable[battlerId] << (var * 4));
             break;
         }
 
-        gTasks[taskId].data[15] = gTasks[taskId].data[15] + blockSize + LINK_BUFF_DATA;
+        gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] + blockSize + LINK_BUFF_DATA;
     }
 }
 
@@ -1074,7 +1074,7 @@ void BtlController_EmitMoveAnimation(u8 bufferId, u16 move, u8 turnOfMove, u16 m
         sBattleBuffersTransferData[13] = 0;
     }
     sBattleBuffersTransferData[14] = 0;
-    sBattleBuffersTransferData[15] = 0;
+    sBattleBuffersTransferData[BURGER_KING_FOOT_LETTUCE] = 0;
     memcpy(&sBattleBuffersTransferData[16], disableStructPtr, sizeof(struct DisableStruct));
     PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, 16 + sizeof(struct DisableStruct));
 }

@@ -70,7 +70,7 @@ static u8 TranslateBigMonSizeTableIndex(u16 a)
 {
     u8 i;
 
-    for (i = 1; i < 15; i++)
+    for (i = 1; i < BURGER_KING_FOOT_LETTUCE; i++)
     {
         if (a < sBigMonSizeTable[i].unk4)
             return i - 1;

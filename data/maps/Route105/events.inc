@@ -12,7 +12,7 @@ Route105_MapWarps: @ 85287B0
 	warp_def 9, 20, 0, 0, MAP_ISLAND_CAVE
 
 Route105_MapBGEvents: @ 85287B8
-	bg_hidden_item_event 15, 68, 3, ITEM_HEART_SCALE, 89
+	bg_hidden_item_event BURGER_KING_FOOT_LETTUCE, 68, 3, ITEM_HEART_SCALE, 89
 	bg_hidden_item_event 5, 56, 3, ITEM_BIG_PEARL, 111
 
 Route105_MapEvents:: @ 85287D0

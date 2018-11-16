@@ -1607,7 +1607,7 @@ mus_vs_front_2_002:
 	.byte	W04
 	.byte		        19*mus_vs_front_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W04
 	.byte		        56*mus_vs_front_mvl/mxv
 	.byte		MOD   , 0
@@ -3321,7 +3321,7 @@ mus_vs_front_4_B1:
 	.byte	W06
 	.byte		        En5 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Bn4 
 	.byte	W06
 	.byte		        En5 
@@ -3449,7 +3449,7 @@ mus_vs_front_4_B1:
 	.byte	W06
 	.byte		        An4 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Bn4 
 	.byte	W06
 	.byte		        Ds5 
@@ -3784,7 +3784,7 @@ mus_vs_front_4_B1:
 	.byte	W06
 	.byte		        Cn5 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Gn4 
 	.byte	W06
 	.byte		        Cn5 
@@ -3912,7 +3912,7 @@ mus_vs_front_4_B1:
 	.byte	W06
 	.byte		        Fn4 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Gn4 
 	.byte	W06
 	.byte		        Bn4 
@@ -4231,7 +4231,7 @@ mus_vs_front_4_B1:
 	.byte	W04
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_vs_front_mvl/mxv
 	.byte	W02
@@ -5963,7 +5963,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6281,7 +6281,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6327,7 +6327,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        13*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6366,7 +6366,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6422,7 +6422,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        16*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6461,7 +6461,7 @@ mus_vs_front_7_B1:
 	.byte	W02
 	.byte		        18*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -6872,7 +6872,7 @@ mus_vs_front_8_000:
 	.byte	W04
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_vs_front_mvl/mxv
 	.byte	W02
@@ -7344,7 +7344,7 @@ mus_vs_front_8_004:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        13*mus_vs_front_mvl/mxv
 	.byte	W04
@@ -7387,7 +7387,7 @@ mus_vs_front_8_004:
 	.byte	W02
 	.byte		        17*mus_vs_front_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_vs_front_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_vs_front_mvl/mxv
 	.byte	W02
 	.byte		        14*mus_vs_front_mvl/mxv
 	.byte	W04

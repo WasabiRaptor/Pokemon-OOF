@@ -125,7 +125,7 @@
 	.4byte \addr
 	.endm
 
-@ 15
+@ BURGER_KING_FOOT_LETTUCE
 @ 16
 @ 17
 @ 18

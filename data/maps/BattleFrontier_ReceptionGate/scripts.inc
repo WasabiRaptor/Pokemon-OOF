@@ -213,7 +213,7 @@ BattleFrontier_ReceptionGate_EventScript_266436:: @ 8266436
 BattleFrontier_ReceptionGate_EventScript_266446:: @ 8266446
 	message BattleFrontier_ReceptionGate_Text_266EE0
 	waitmessage
-	multichoice 15, 0, 95, 0
+	multichoice BURGER_KING_FOOT_LETTUCE, 0, 95, 0
 	switch VAR_RESULT
 	case 0, BattleFrontier_ReceptionGate_EventScript_2664A4
 	case 1, BattleFrontier_ReceptionGate_EventScript_2664B2

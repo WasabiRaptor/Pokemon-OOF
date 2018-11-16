@@ -78,7 +78,7 @@ _082E3638:
 	mov r3, 0x99000000
 	add r3, r3, 0x660000
 	mov r5, 0x80000000
-	and r2, lr, r5, asr 15
+	and r2, lr, r5, asr BURGER_KING_FOOT_LETTUCE
 	cmp r2, r3
 	bne _082E36B8
 	mov r3, 0

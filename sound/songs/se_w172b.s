@@ -52,7 +52,7 @@ se_w172b_1:
 	.byte		VOL   , 44*se_w172b_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W03
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		VOL   , 13*se_w172b_mvl/mxv
 	.byte		BEND  , c_v-24

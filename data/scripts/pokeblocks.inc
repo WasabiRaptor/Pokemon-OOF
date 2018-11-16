@@ -398,7 +398,7 @@ LilycoveCity_ContestLobby_EventScript_293E14: @ 8293E14
 
 LilycoveCity_ContestLobby_EventScript_293E1E:: @ 8293E1E
 	lockall
-	setvar VAR_0x8008, 15
+	setvar VAR_0x8008, BURGER_KING_FOOT_LETTUCE
 	setvar VAR_0x8009, 3
 	applymovement 9, LilycoveCity_ContestLobby_Movement_2725A2
 	applymovement 17, LilycoveCity_ContestLobby_Movement_2725A2
@@ -526,7 +526,7 @@ LilycoveCity_ContestLobby_EventScript_293FB4:: @ 8293FB4
 	end
 
 LilycoveCity_ContestLobby_EventScript_293FBD:: @ 8293FBD
-	setvar VAR_0x8008, 15
+	setvar VAR_0x8008, BURGER_KING_FOOT_LETTUCE
 	goto LilycoveCity_ContestLobby_EventScript_293FC8
 	end
 

@@ -87,7 +87,7 @@ mus_tozan_1:
 	.byte	W03
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -202,7 +202,7 @@ mus_tozan_1_003:
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		VOICE , 125
-	.byte		VOL   , 15*mus_tozan_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -280,7 +280,7 @@ mus_tozan_1_003:
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 15*mus_tozan_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -358,7 +358,7 @@ mus_tozan_1_005:
 	.byte	W03
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -696,7 +696,7 @@ mus_tozan_1_009:
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 15*mus_tozan_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -770,7 +770,7 @@ mus_tozan_1_009:
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 15*mus_tozan_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -816,7 +816,7 @@ mus_tozan_1_009:
 	.byte		        12*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 15*mus_tozan_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_tozan_mvl/mxv
 	.byte	W03
@@ -846,7 +846,7 @@ mus_tozan_1_009:
 	.byte	W02
 	.byte		VOL   , 11*mus_tozan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W03
 	.byte		        19*mus_tozan_mvl/mxv
 	.byte	W04
@@ -864,7 +864,7 @@ mus_tozan_1_009:
 	.byte	W03
 	.byte		        13*mus_tozan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte		        19*mus_tozan_mvl/mxv
 	.byte	W02
@@ -3008,7 +3008,7 @@ mus_tozan_4_006:
 	.byte	W03
 	.byte		        17*mus_tozan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W04
 	.byte	PEND
 mus_tozan_4_007:
@@ -3158,7 +3158,7 @@ mus_tozan_4_007:
 	.byte		MOD   , 7
 	.byte		PAN   , c_v+16
 	.byte	W05
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v+9
 	.byte	W06
@@ -4054,7 +4054,7 @@ mus_tozan_6_001:
 	.byte	W04
 	.byte		        20*mus_tozan_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_tozan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_tozan_mvl/mxv
 	.byte	W03
 	.byte		        14*mus_tozan_mvl/mxv
 	.byte	W03

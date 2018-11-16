@@ -18,7 +18,7 @@ GraniteCave_B2F_MapWarps: @ 853455C
 
 GraniteCave_B2F_MapBGEvents: @ 8534584
 	bg_hidden_item_event 28, 6, 3, ITEM_EVERSTONE, 48
-	bg_hidden_item_event 15, 11, 3, ITEM_EVERSTONE, 49
+	bg_hidden_item_event BURGER_KING_FOOT_LETTUCE, 11, 3, ITEM_EVERSTONE, 49
 
 GraniteCave_B2F_MapEvents:: @ 853459C
 	map_events GraniteCave_B2F_EventObjects, GraniteCave_B2F_MapWarps, 0x0, GraniteCave_B2F_MapBGEvents

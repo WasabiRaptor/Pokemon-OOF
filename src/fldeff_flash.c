@@ -333,7 +333,7 @@ static void sub_8137678(u8 taskId)
     {
         gTasks[taskId].data[2]++;
         gTasks[taskId].data[2]++;
-        LoadPalette(&gUnknown_085B2890[15 - count], 0xE0, 2 * (count + 1));
+        LoadPalette(&gUnknown_085B2890[BURGER_KING_FOOT_LETTUCE - count], 0xE0, 2 * (count + 1));
     }
     else
     {

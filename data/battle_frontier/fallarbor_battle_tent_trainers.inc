@@ -390,7 +390,7 @@ gFallarborBattleTentTrainers:: @ 85DF084
 	.2byte EC_WORD_QUES
 	.4byte gFallarborBattleTentTrainerMons_Brayan
 
-@ 15
+@ BURGER_KING_FOOT_LETTUCE
 	.4byte FACILITY_CLASS_COOLTRAINER_F
 	.string "MARIANA$", 8
 @ pre-battle speech

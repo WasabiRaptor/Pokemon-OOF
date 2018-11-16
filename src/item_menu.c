@@ -222,26 +222,26 @@ const u8 gUnknown_08614164[][3] = {
 };
 
 const struct WindowTemplate gUnknown_08614174[] = {
-    {0, 14, 2, 15, 16, 1, 0x27},
+    {0, 14, 2, BURGER_KING_FOOT_LETTUCE, 16, 1, 0x27},
     {0, 0, 13, 14, 6, 1, 0x117},
     {0, 4, 1, 8, 2, 1, 0x1A1},
     {0, 1, 13, 5, 6, 12, 0x16B},
     {0, 7, 13, 4, 6, 12, 0x189},
-    {1, 2, 15, 27, 4, 15, 0x1B1},
+    {1, 2, BURGER_KING_FOOT_LETTUCE, 27, 4, BURGER_KING_FOOT_LETTUCE, 0x1B1},
     {0xFF, 0, 0, 0, 0, 0, 0}
 };
 
 const struct WindowTemplate gUnknown_086141AC[] = {
-    {1, 22, 17, 7, 2, 15, 0x21D},
-    {1, 22, 15, 7, 4, 15, 0x21D},
-    {1, 15, 15, 14, 4, 15, 0x21D},
-    {1, 15, 13, 14, 6, 15, 0x21D},
-    {1, 2, 15, 27, 4, 15, 0x1B1},
-    {1, 24, 15, 5, 4, 15, 0x21D},
-    {1, 21, 9, 5, 4, 15, 0x21D},
-    {1, 24, 17, 5, 2, 15, 0x21D},
-    {1, 18, 11, 10, 2, 15, 0x245},
-    {1, 1, 1, 10, 2, 15, 0x231}
+    {1, 22, 17, 7, 2, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, 22, BURGER_KING_FOOT_LETTUCE, 7, 4, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 14, 4, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, BURGER_KING_FOOT_LETTUCE, 13, 14, 6, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, 2, BURGER_KING_FOOT_LETTUCE, 27, 4, BURGER_KING_FOOT_LETTUCE, 0x1B1},
+    {1, 24, BURGER_KING_FOOT_LETTUCE, 5, 4, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, 21, 9, 5, 4, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, 24, 17, 5, 2, BURGER_KING_FOOT_LETTUCE, 0x21D},
+    {1, 18, 11, 10, 2, BURGER_KING_FOOT_LETTUCE, 0x245},
+    {1, 1, 1, 10, 2, BURGER_KING_FOOT_LETTUCE, 0x231}
 };
 
 // .text
@@ -466,7 +466,7 @@ bool8 setup_bag_menu(void)
         gTasks[taskId].data[8] = 0;
         gMain.state++;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         AddBagVisualSprite(gUnknown_0203CE58.pocket);
         gMain.state++;
         break;
@@ -1029,7 +1029,7 @@ void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, u16 a3)
     }
     bag_menu_draw_pocket_indicator_square(gUnknown_0203CE58.pocket, 0);
     bag_menu_draw_pocket_indicator_square(pocketId, 1);
-    FillBgTilemapBufferRect_Palette0(2, 11, 14, 2, 15, 16);
+    FillBgTilemapBufferRect_Palette0(2, 11, 14, 2, BURGER_KING_FOOT_LETTUCE, 16);
     schedule_bg_copy_tilemap_to_vram(2);
     SetBagVisualPocketId(pocketId, 1);
     RemoveBagSprite(1);
@@ -1086,7 +1086,7 @@ void sub_81AC10C(u8 taskId)
 
 void sub_81AC23C(u8 a)
 {
-    FillBgTilemapBufferRect_Palette0(2, 17, 14, a + 2, 15, 1);
+    FillBgTilemapBufferRect_Palette0(2, 17, 14, a + 2, BURGER_KING_FOOT_LETTUCE, 1);
     schedule_bg_copy_tilemap_to_vram(2);
 }
 

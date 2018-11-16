@@ -973,7 +973,7 @@ mus_ayasii_6_B1:
 	.byte		VOL   , 12*mus_ayasii_mvl/mxv
 	.byte		N36   , Gs2 
 	.byte	W02
-	.byte		VOL   , 15*mus_ayasii_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_ayasii_mvl/mxv
 	.byte	W03
 	.byte		        19*mus_ayasii_mvl/mxv
 	.byte	W03
@@ -1490,7 +1490,7 @@ mus_ayasii_9_B1:
 	.byte		VOL   , 12*mus_ayasii_mvl/mxv
 	.byte		N36   , En3 
 	.byte	W02
-	.byte		VOL   , 15*mus_ayasii_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_ayasii_mvl/mxv
 	.byte	W03
 	.byte		        19*mus_ayasii_mvl/mxv
 	.byte	W03

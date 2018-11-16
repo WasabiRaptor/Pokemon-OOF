@@ -279,7 +279,7 @@ const u16 gUnknown_082ED6E0[] = {
     0x0002, 0x7f7d, 0x0000, 0xffff
 };
 
-const char sUnref_082ED6E8[][15] = {
+const char sUnref_082ED6E8[][BURGER_KING_FOOT_LETTUCE] = {
     "RFU WAIT",
     "RFU BOOT",
     "RFU ERROR",
@@ -598,7 +598,7 @@ void sub_800C27C(bool8 a0)
             case 14:
                 gUnknown_03004140.unk_04 = 14;
                 break;
-            case 15:
+            case BURGER_KING_FOOT_LETTUCE:
                 break;
             case 16:
                 gUnknown_03004140.unk_04 = gUnknown_03004140.unk_11;
@@ -804,7 +804,7 @@ void sub_800C54C(u32 a0)
                     case 14:
                         rfu_REQ_endConnectParent();
                         break;
-                    case 15:
+                    case BURGER_KING_FOOT_LETTUCE:
                         break;
                     case 16:
                         rfu_REQ_CHILD_startConnectRecovery(gUnknown_03007890->unk_03);
@@ -1010,7 +1010,7 @@ static void sub_800C7B4(u16 r8, u16 r6)
                     if (!sp0)
                     {
                         gUnknown_03004140.unk_04 = 19;
-                        gUnknown_03004140.unk_05 = 15;
+                        gUnknown_03004140.unk_05 = BURGER_KING_FOOT_LETTUCE;
                         gUnknown_03004140.unk_1e = 0x22;
                         gUnknown_03004140.unk_14 = gUnknown_03004140.unk_10;
                     }
@@ -1085,7 +1085,7 @@ static void sub_800C7B4(u16 r8, u16 r6)
                         gUnknown_03004140.unk_02 = 1;
                         sub_800D30C(0x41, 0x00);
                     }
-                    else if (gUnknown_03004140.unk_05 == 15)
+                    else if (gUnknown_03004140.unk_05 == BURGER_KING_FOOT_LETTUCE)
                     {
                         gUnknown_03004140.unk_04 = gUnknown_03004140.unk_05;
                         gUnknown_03004140.unk_02 = 1;
@@ -1220,8 +1220,8 @@ static void sub_800C7B4(u16 r8, u16 r6)
         if (r8 == 28 && r6 != 0 && gUnknown_03004140.unk_07 == 4)
         {
             gUnknown_03007890->unk_00 = 1;
-            gUnknown_03007890->unk_02 = 15;
-            sub_800D334(15);
+            gUnknown_03007890->unk_02 = BURGER_KING_FOOT_LETTUCE;
+            sub_800D334(BURGER_KING_FOOT_LETTUCE);
             rfu_waitREQComplete();
             return;
         }
@@ -1405,7 +1405,7 @@ static void sub_800D158(void)
 {
     u16 imeBak = REG_IME;
     REG_IME = 0;
-    if (gUnknown_03004140.unk_04 == 15)
+    if (gUnknown_03004140.unk_04 == BURGER_KING_FOOT_LETTUCE)
     {
         if (--gUnknown_03004140.unk_28[gUnknown_03004140.unk_10] == 0 || gUnknown_03007880[gUnknown_03004140.unk_10]->unk_0 == 0x27)
         {
@@ -1435,7 +1435,7 @@ static void sub_800D158(void)
 
 static void sub_800D20C(void)
 {
-    if (gUnknown_03004140.unk_04 == 15 && gUnknown_03007880[gUnknown_03004140.unk_10]->unk_0 == 0x26)
+    if (gUnknown_03004140.unk_04 == BURGER_KING_FOOT_LETTUCE && gUnknown_03007880[gUnknown_03004140.unk_10]->unk_0 == 0x26)
     {
         gUnknown_03004140.unk_04 = gUnknown_03004140.unk_05 = 0;
         rfu_clearSlot(4, gUnknown_03004140.unk_10);
@@ -2711,9 +2711,9 @@ void sub_800EB44(u8 taskId)
             break;
         case 14:
             sub_800C27C(0);
-            gUnknown_03005000.unk_04 = 15;
+            gUnknown_03005000.unk_04 = BURGER_KING_FOOT_LETTUCE;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             break;
         case 16:
             gUnknown_03005000.unk_cdb = 0;

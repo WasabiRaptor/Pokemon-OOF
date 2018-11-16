@@ -171,7 +171,7 @@ se_w047_2_001:
 	.byte		VOL   , 83*se_w047_mvl/mxv
 	.byte	W06
 	.byte		        69*se_w047_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		VOL   , 50*se_w047_mvl/mxv
 	.byte	W06

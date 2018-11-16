@@ -2199,7 +2199,7 @@ mus_thankfor_3_001:
 	.byte	W08
 	.byte		        14*mus_thankfor_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W02
 	.byte		        16*mus_thankfor_mvl/mxv
 	.byte	W12
@@ -2538,7 +2538,7 @@ mus_thankfor_4_004:
 	.byte	W03
 	.byte		        17*mus_thankfor_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W02
 	.byte		        12*mus_thankfor_mvl/mxv
 	.byte	W03
@@ -2601,7 +2601,7 @@ mus_thankfor_4_004:
 	.byte	W03
 	.byte		        17*mus_thankfor_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W01
 	.byte		MOD   , 0
 	.byte		VOL   , 12*mus_thankfor_mvl/mxv
@@ -3205,7 +3205,7 @@ mus_thankfor_4_004:
 	.byte	W02
 	.byte		        14*mus_thankfor_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_thankfor_mvl/mxv
 	.byte	W04
@@ -3637,7 +3637,7 @@ mus_thankfor_5:
 	.byte	W04
 	.byte		        Gn4 , v072
 	.byte	W04
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N04   , Bn4 , v088
 	.byte	W04
 	.byte		        Gn4 , v084
@@ -4119,7 +4119,7 @@ mus_thankfor_5_000:
 	.byte	W07
 	.byte		        14*mus_thankfor_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_thankfor_mvl/mxv
 	.byte	W07
@@ -4275,7 +4275,7 @@ mus_thankfor_6_002:
 	.byte	W02
 	.byte		        12*mus_thankfor_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W02
 	.byte		        20*mus_thankfor_mvl/mxv
 	.byte	W03
@@ -5299,7 +5299,7 @@ mus_thankfor_7_003:
 	.byte	W02
 	.byte		        12*mus_thankfor_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_thankfor_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W02
 	.byte		        20*mus_thankfor_mvl/mxv
 	.byte	W03
@@ -6735,7 +6735,7 @@ mus_thankfor_10_004:
 	.byte		VOL   , 14*mus_thankfor_mvl/mxv
 	.byte		N96   , Dn3 
 	.byte	W09
-	.byte		VOL   , 15*mus_thankfor_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_thankfor_mvl/mxv
 	.byte	W05
 	.byte		        17*mus_thankfor_mvl/mxv
 	.byte	W03

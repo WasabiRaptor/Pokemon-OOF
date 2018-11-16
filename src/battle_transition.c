@@ -337,7 +337,7 @@ static const TaskFunc sPhase2_Tasks[B_TRANSITION_COUNT] =
     Phase2Task_Sydney,                      // 12
     Phase2Task_Phoebe,                      // 13
     Phase2Task_Glacia,                      // 14
-    Phase2Task_Drake,                       // 15
+    Phase2Task_Drake,                       // BURGER_KING_FOOT_LETTUCE
     Phase2Task_Champion,                    // 16
     Phase2Task_Aqua,                        // 17
     Phase2Task_Magma,                       // 18
@@ -678,7 +678,7 @@ static const TransitionStateFunc sPhase2_WhiteFade_Funcs[] =
     Phase2_WhiteFade_Func5
 };
 
-static const s16 sUnknown_085C8DA0[] = {0, 20, 15, 40, 10, 25, 35, 5};
+static const s16 sUnknown_085C8DA0[] = {0, 20, BURGER_KING_FOOT_LETTUCE, 40, 10, 25, 35, 5};
 
 static const TransitionStateFunc sPhase2_GridSquares_Funcs[] =
 {
@@ -952,7 +952,7 @@ void BattleTransition_Start(u8 transitionId)
 
 // main task that launches sub-tasks for phase1 and phase2
 #define tTransitionId   data[1]
-#define tTransitionDone data[15]
+#define tTransitionDone data[BURGER_KING_FOOT_LETTUCE]
 
 bool8 IsBattleTransitionDone(void)
 {
@@ -1053,7 +1053,7 @@ static void Phase1Task_TransitionAll(u8 taskId)
 #define tFrames             data[8]
 #define tOpponentSpriteId   data[13]
 #define tPlayerSpriteId     data[14]
-#define tMugshotId          data[15]
+#define tMugshotId          data[BURGER_KING_FOOT_LETTUCE]
 
 static void Phase2Task_Blur(u8 taskId)
 {
@@ -1081,7 +1081,7 @@ static bool8 Phase2_Blur_Func2(struct Task *task)
         task->tData1 = 4;
         if (++task->tData2 == 10)
             BeginNormalPaletteFade(0xFFFFFFFF, -1, 0, 0x10, 0);
-        SetGpuReg(REG_OFFSET_MOSAIC, (task->tData2 & 15) * 17);
+        SetGpuReg(REG_OFFSET_MOSAIC, (task->tData2 & BURGER_KING_FOOT_LETTUCE) * 17);
         if (task->tData2 > 14)
             task->tState++;
     }
@@ -1490,7 +1490,7 @@ static bool8 Phase2_BigPokeball_Func3(struct Task *task)
         task->tData3 = 2;
     }
     sTransitionStructPtr->BLDALPHA = (task->tData1 << 8) | task->tData2;
-    if (task->tData2 > 15)
+    if (task->tData2 > BURGER_KING_FOOT_LETTUCE)
         task->tState++;
     task->tData4 += 8;
     task->tData5 -= 256;
@@ -1722,7 +1722,7 @@ static void sub_814713C(struct Sprite *sprite)
             }
         }
         sprite->pos1.x += arr0[sprite->data[0]];
-        if (sprite->pos1.x < -15 || sprite->pos1.x > 255)
+        if (sprite->pos1.x < -BURGER_KING_FOOT_LETTUCE || sprite->pos1.x > 255)
             FieldEffectStop(sprite, FLDEFF_POKEBALL);
     }
 }
@@ -2296,12 +2296,12 @@ static bool8 Phase2_Mugshot_Func7(struct Task *task)
         {
             s16 index1 = 0x50 - i;
             s16 index2 = 0x50 + i;
-            if (gScanlineEffectRegBuffers[0][index1] <= 15)
+            if (gScanlineEffectRegBuffers[0][index1] <= BURGER_KING_FOOT_LETTUCE)
             {
                 r6 = TRUE;
                 gScanlineEffectRegBuffers[0][index1]++;
             }
-            if (gScanlineEffectRegBuffers[0][index2] <= 15)
+            if (gScanlineEffectRegBuffers[0][index2] <= BURGER_KING_FOOT_LETTUCE)
             {
                 r6 = TRUE;
                 gScanlineEffectRegBuffers[0][index2]++;
@@ -2333,7 +2333,7 @@ static bool8 Phase2_Mugshot_Func9(struct Task *task)
 
     task->tData3++;
     memset(gScanlineEffectRegBuffers[0], task->tData3, 0x140);
-    if (task->tData3 > 15)
+    if (task->tData3 > BURGER_KING_FOOT_LETTUCE)
         task->tState++;
 
     sTransitionStructPtr->VBlank_DMA++;
@@ -3628,7 +3628,7 @@ static bool8 Phase1_TransitionAll_Func1(struct Task *task)
             task->tData7 = 16;
         BlendPalettes(-1, task->tData7, 0x2D6B);
     }
-    if (task->tData7 > 15)
+    if (task->tData7 > BURGER_KING_FOOT_LETTUCE)
     {
         task->tState++;
         task->tData6 = task->tData2;

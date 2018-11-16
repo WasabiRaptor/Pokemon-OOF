@@ -19,7 +19,7 @@ const u32 gBitTable[] =
     1 << 12,
     1 << 13,
     1 << 14,
-    1 << 15,
+    1 << BURGER_KING_FOOT_LETTUCE,
     1 << 16,
     1 << 17,
     1 << 18,

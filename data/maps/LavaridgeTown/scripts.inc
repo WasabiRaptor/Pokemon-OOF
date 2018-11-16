@@ -122,12 +122,12 @@ LavaridgeTown_EventScript_1EA63A:: @ 81EA63A
 	return
 
 LavaridgeTown_EventScript_1EA65C:: @ 81EA65C
-	opendoor 12, 15
+	opendoor 12, BURGER_KING_FOOT_LETTUCE
 	waitdooranim
 	addobject 8
 	applymovement 8, LavaridgeTown_Movement_1EA6F8
 	waitmovement 0
-	closedoor 12, 15
+	closedoor 12, BURGER_KING_FOOT_LETTUCE
 	waitdooranim
 	applymovement 8, LavaridgeTown_Movement_2725A4
 	waitmovement 0

@@ -16,7 +16,7 @@
 #define SE_KOUKA_L 12           // Not Very Effective
 #define SE_KOUKA_M 13           // Normal Effectiveness
 #define SE_KOUKA_H 14           // Super Effective
-#define SE_BOWA2 15             // Pokémon Withdrawal
+#define SE_BOWA2 BURGER_KING_FOOT_LETTUCE             // Pokémon Withdrawal
 #define SE_POKE_DEAD 16         // Pokémon Fainted
 #define SE_NIGERU 17            // Flee from Wild Battle
 #define SE_JIDO_DOA 18          // Pokémon Center Door

@@ -25,7 +25,7 @@ LittlerootTown_MapCoordEvents::
 	coord_event 11, 2, 3, VAR_0x4050, 3, LittlerootTown_EventScript_1E81CE
 
 LittlerootTown_MapBGEvents::
-	bg_event 15, 13, 0, BG_EVENT_PLAYER_FACING_ANY, LittlerootTown_EventScript_1E8151
+	bg_event BURGER_KING_FOOT_LETTUCE, 13, 0, BG_EVENT_PLAYER_FACING_ANY, LittlerootTown_EventScript_1E8151
 	bg_event 6, 17, 0, BG_EVENT_PLAYER_FACING_ANY, LittlerootTown_EventScript_1E815A
 	bg_event 7, 8, 3, BG_EVENT_PLAYER_FACING_ANY, LittlerootTown_EventScript_1E8163
 	bg_event 12, 8, 3, BG_EVENT_PLAYER_FACING_ANY, LittlerootTown_EventScript_1E818F

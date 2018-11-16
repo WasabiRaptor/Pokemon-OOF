@@ -31,7 +31,7 @@ se_w233_1:
 	.byte	W03
 	.byte		VOL   , 93*se_w233_mvl/mxv
 	.byte		PAN   , c_v-16
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		VOICE , 21
 	.byte		VOL   , 110*se_w233_mvl/mxv

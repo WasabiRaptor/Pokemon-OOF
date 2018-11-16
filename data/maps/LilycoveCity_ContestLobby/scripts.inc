@@ -857,7 +857,7 @@ LilycoveCity_ContestLobby_EventScript_21AB4B:: @ 821AB4B
 	end
 
 LilycoveCity_ContestLobby_EventScript_21AB88:: @ 821AB88
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	return
 
 LilycoveCity_ContestLobby_EventScript_21AB8E:: @ 821AB8E

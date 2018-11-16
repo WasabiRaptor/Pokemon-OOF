@@ -81,7 +81,7 @@ Route110_TrickHousePuzzle2_EventScript_26BC3C:: @ 826BC3C
 
 Route110_TrickHousePuzzle2_EventScript_26BC4F:: @ 826BC4F
 	setmetatile 14, 5, 601, 0
-	setmetatile 7, 15, 618, 0
+	setmetatile 7, BURGER_KING_FOOT_LETTUCE, 618, 0
 	return
 
 Route110_TrickHousePuzzle2_EventScript_26BC62:: @ 826BC62

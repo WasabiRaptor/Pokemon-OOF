@@ -42,7 +42,7 @@ static const struct BgTemplate sBgTemplates[] =
 
 static const struct WindowTemplate sWindowTemplates[] =
 {
-    {0, 4, 15, 22, 4, 14, 20},
+    {0, 4, BURGER_KING_FOOT_LETTUCE, 22, 4, 14, 20},
     {0, 7, 6, 16, 4, 14, 0x6C},
     DUMMY_WIN_TEMPLATE
 };
@@ -150,7 +150,7 @@ static void CB2_MysteryEventMenu(void)
         {
             PlaySE(SE_SELECT);
             CloseLink();
-            gMain.state = 15;
+            gMain.state = BURGER_KING_FOOT_LETTUCE;
         }
         break;
     case 4:
@@ -174,7 +174,7 @@ static void CB2_MysteryEventMenu(void)
             {
                 PlaySE(SE_SELECT);
                 CloseLink();
-                gMain.state = 15;
+                gMain.state = BURGER_KING_FOOT_LETTUCE;
             }
         }
         else
@@ -214,7 +214,7 @@ static void CB2_MysteryEventMenu(void)
         {
             PlaySE(SE_SELECT);
             CloseLink();
-            gMain.state = 15;
+            gMain.state = BURGER_KING_FOOT_LETTUCE;
         }
         break;
     case 7:
@@ -263,7 +263,7 @@ static void CB2_MysteryEventMenu(void)
             gMain.state++;
         }
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, 0);
         gMain.state++;
         break;

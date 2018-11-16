@@ -56,7 +56,7 @@ gUnknown_085B62E4:: @ 85B62E4
 	.byte    4,   9,  11,   0,   0,   8,   0,   0
 	.byte    5,  11,  17,   0,   0,   0,   2,   0
 	.byte    6,  13,   8,   0,   0,   1,   0,   0
-	.byte    7,  15,  14,   0,   0,  64,   0,   0
+	.byte    7,  BURGER_KING_FOOT_LETTUCE,  14,   0,   0,  64,   0,   0
 	.byte    8,  17,  16,   0,   0,   0,   1,   0
 	.byte    9,  19,   7,   0, 128,   0,   0,   0
 	.byte   10,  21,  13,   0,   0,  32,   0,   0
@@ -644,10 +644,10 @@ gSpriteAnim_85B7880:: @ 85B7880
 
 	.align 2
 gSpriteAnim_85B7894:: @ 85B7894
-	obj_image_anim_frame 0, 15
-	obj_image_anim_frame 4, 15
-	obj_image_anim_frame 8, 15
-	obj_image_anim_frame 4, 15
+	obj_image_anim_frame 0, BURGER_KING_FOOT_LETTUCE
+	obj_image_anim_frame 4, BURGER_KING_FOOT_LETTUCE
+	obj_image_anim_frame 8, BURGER_KING_FOOT_LETTUCE
+	obj_image_anim_frame 4, BURGER_KING_FOOT_LETTUCE
 	obj_image_anim_jump 0
 
 	.align 2
@@ -830,8 +830,8 @@ gSpriteAffineAnim_85B7A48:: @ 85B7A48
 	.align 2
 gSpriteAffineAnim_85B7A60:: @ 85B7A60
 	obj_rot_scal_anim_frame 0x100, 0x100, 0, 0
-	obj_rot_scal_anim_frame 0xFFFE, 0x0, 0, 15
-	obj_rot_scal_anim_frame 0xFFFF, 0xFFFE, 0, 15
+	obj_rot_scal_anim_frame 0xFFFE, 0x0, 0, BURGER_KING_FOOT_LETTUCE
+	obj_rot_scal_anim_frame 0xFFFF, 0xFFFE, 0, BURGER_KING_FOOT_LETTUCE
 	obj_rot_scal_anim_frame 0xFFFF, 0xFFFB, 0, 24
 	obj_rot_scal_anim_end
 

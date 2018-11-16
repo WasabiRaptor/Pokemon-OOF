@@ -345,7 +345,7 @@ BattleFrontier_BattlePikeRandomRoom1_EventScript_25D643:: @ 825D643
 	call_if 1, BattleFrontier_BattlePikeRandomRoom1_EventScript_25D75F
 	compare VAR_RESULT, 4
 	call_if 1, BattleFrontier_BattlePikeRandomRoom1_EventScript_25D766
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A703C
 	waitstate
 	applymovement 1, BattleFrontier_BattlePikeRandomRoom1_Movement_25D7A2
@@ -378,7 +378,7 @@ BattleFrontier_BattlePikeRandomRoom1_EventScript_25D6D5:: @ 825D6D5
 	call_if 1, BattleFrontier_BattlePikeRandomRoom1_EventScript_25D76D
 	compare VAR_RESULT, 1
 	call_if 1, BattleFrontier_BattlePikeRandomRoom1_EventScript_25D774
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A703C
 	waitstate
 	applymovement 1, BattleFrontier_BattlePikeRandomRoom1_Movement_25D7A2

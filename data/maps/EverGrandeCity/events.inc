@@ -21,7 +21,7 @@ EverGrandeCity_MapBGEvents::
 	bg_event 19, 43, 5, BG_EVENT_PLAYER_FACING_ANY, EverGrandeCity_EventScript_1E7D2B
 	bg_event 29, 48, 0, BG_EVENT_PLAYER_FACING_NORTH, EverGrandeCity_EventScript_271E73
 	bg_event 18, 52, 5, BG_EVENT_PLAYER_FACING_ANY, EverGrandeCity_EventScript_1E7D34
-	bg_event 23, 15, 0, BG_EVENT_PLAYER_FACING_ANY, EverGrandeCity_EventScript_1E7D3D
+	bg_event 23, BURGER_KING_FOOT_LETTUCE, 0, BG_EVENT_PLAYER_FACING_ANY, EverGrandeCity_EventScript_1E7D3D
 	bg_event 28, 48, 0, BG_EVENT_PLAYER_FACING_NORTH, EverGrandeCity_EventScript_271E73
 
 EverGrandeCity_MapEvents::

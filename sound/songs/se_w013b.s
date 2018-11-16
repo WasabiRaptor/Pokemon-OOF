@@ -30,7 +30,7 @@ se_w013b_1:
 	.byte	W01
 	.byte		VOL   , 80*se_w013b_mvl/mxv
 	.byte	W02
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v+1
 	.byte	W01
 	.byte		VOL   , 64*se_w013b_mvl/mxv

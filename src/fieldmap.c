@@ -74,7 +74,7 @@ void mapheader_copy_mapdata_with_padding(struct MapHeader *mapHeader)
     mapLayout = mapHeader->mapLayout;
     CpuFastFill16(0x03ff, gUnknown_02032318, sizeof(gUnknown_02032318));
     gUnknown_03005DC0.map = gUnknown_02032318;
-    width = mapLayout->width + 15;
+    width = mapLayout->width + BURGER_KING_FOOT_LETTUCE;
     gUnknown_03005DC0.width = width;
     height = mapLayout->height + 14;
     gUnknown_03005DC0.height = height;
@@ -510,7 +510,7 @@ void save_serialize_map(void)
     y = gSaveBlock1Ptr->pos.y;
     for (i = y; i < y + 14; i++)
     {
-        for (j = x; j < x + 15; j++)
+        for (j = x; j < x + BURGER_KING_FOOT_LETTUCE; j++)
         {
             *mapView++ = gUnknown_02032318[width * i + j];
         }
@@ -560,14 +560,14 @@ void mapdata_from_sav2(void)
             else
                 a0 = -1;
 
-            for (j = x; j < x + 15; j++)
+            for (j = x; j < x + BURGER_KING_FOOT_LETTUCE; j++)
             {
                 if (!sub_8088BF0(&gUnknown_02032318[j + width * i], width, a0))
                     gUnknown_02032318[j + width * i] = *mapView;
                 mapView++;
             }
         }
-        for (j = x; j < x + 15; j++)
+        for (j = x; j < x + BURGER_KING_FOOT_LETTUCE; j++)
         {
             if (y != 0)
                 sub_80D423C(j, y - 1);
@@ -595,7 +595,7 @@ void sub_80885C4(u8 a1)
     r8 = 0;
     x0 = gSaveBlock1Ptr->pos.x;
     y0 = gSaveBlock1Ptr->pos.y;
-    x2 = 15;
+    x2 = BURGER_KING_FOOT_LETTUCE;
     y2 = 14;
     switch (a1)
     {
@@ -623,7 +623,7 @@ void sub_80885C4(u8 a1)
         for (x = 0; x < x2; x++)
         {
             desti = width * (y + y0);
-            srci = (y + r8) * 15 + r9;
+            srci = (y + r8) * BURGER_KING_FOOT_LETTUCE + r9;
             src = &mapView[srci + i];
             dest = &gUnknown_02032318[x0 + desti + j];
             *dest = *src;

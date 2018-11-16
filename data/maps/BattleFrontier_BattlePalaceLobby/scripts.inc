@@ -178,7 +178,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_24D9E6:: @ 824D9E6
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattlePalaceLobby_EventScript_24DB94
 	case 127, BattleFrontier_BattlePalaceLobby_EventScript_24DB94
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattlePalaceLobby_EventScript_24DB45

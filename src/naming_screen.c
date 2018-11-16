@@ -1456,7 +1456,7 @@ static void sub_80E48E8(void)
     u8 buffer[0x20];
 
     StringCopy(buffer, gSpeciesNames[gNamingScreenData->monSpecies]);
-    StringAppendN(buffer, gNamingScreenData->template->title, 15);
+    StringAppendN(buffer, gNamingScreenData->template->title, BURGER_KING_FOOT_LETTUCE);
     FillWindowPixelBuffer(gNamingScreenData->windows[3], 0x11);
     PrintTextOnWindow(gNamingScreenData->windows[3], 1, buffer, 8, 1, 0, 0);
     PutWindowTilemap(gNamingScreenData->windows[3]);
@@ -1670,7 +1670,7 @@ static const struct TextColorThing sUnkColorStruct =
     {
         {13, 1, 2},
         {14, 1, 2},
-        {15, 1, 2}
+        {BURGER_KING_FOOT_LETTUCE, 1, 2}
     }
 };
 
@@ -1736,7 +1736,7 @@ static void sub_80E4E5C(void)
 
 static void sub_80E4EF0(void)
 {
-    const u8 color[3] = { 15, 1, 2 };
+    const u8 color[3] = { BURGER_KING_FOOT_LETTUCE, 1, 2 };
 
     FillWindowPixelBuffer(gNamingScreenData->windows[4], 0xFF);
     box_print(gNamingScreenData->windows[4], 0, 2, 1, color, 0, gText_MoveOkBack);
@@ -1856,7 +1856,7 @@ static const struct NamingScreenTemplate monNamingScreenTemplate =
 static const struct NamingScreenTemplate wandaWordsScreenTemplate =
 {
     .copyExistingString = 1,
-    .maxChars = 15,
+    .maxChars = BURGER_KING_FOOT_LETTUCE,
     .iconFunction = 4,
     .addGenderIcon = 0,
     .initialPage = 1,
@@ -1932,7 +1932,7 @@ static const struct Subsprite gUnknown_0858C004[] =
     { 12,  -8,  0,  0,   9,     1},
     {-20,   0,  1,  1,  10,     1},
     { 12,   0,  0,  0,  14,     1},
-    {-20,   8,  1,  1,  15,     1},
+    {-20,   8,  1,  1,  BURGER_KING_FOOT_LETTUCE,     1},
     { 12,   8,  0,  0,  19,     1}
 };
 

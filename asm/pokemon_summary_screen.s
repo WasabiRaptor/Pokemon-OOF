@@ -478,7 +478,7 @@ sub_81C48F0: @ 81C48F0
 _081C494C:
 	adds r0, r2, r3
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0, r5
 	adds r0, r4
 	ldrh r0, [r0]
@@ -692,7 +692,7 @@ _081C4B2A:
 _081C4B30:
 	lsls r1, r5, 20
 	movs r0, 0xB2
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0
 	asrs r1, 16
 	ldr r0, =gUnknown_0861D084

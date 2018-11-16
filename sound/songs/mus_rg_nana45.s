@@ -1993,7 +1993,7 @@ mus_rg_nana45_5_B1:
 	.byte	W05
 	.byte		VOL   , 14*mus_rg_nana45_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_nana45_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_nana45_mvl/mxv
 	.byte	W06
 	.byte		        16*mus_rg_nana45_mvl/mxv
 	.byte	W03
@@ -2192,7 +2192,7 @@ mus_rg_nana45_6_000:
 	.byte	W12
 	.byte		VOL   , 21*mus_rg_nana45_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_nana45_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_nana45_mvl/mxv
 	.byte	W06
 	.byte		        10*mus_rg_nana45_mvl/mxv
 	.byte	W48
@@ -2225,7 +2225,7 @@ mus_rg_nana45_6_000:
 	.byte	W36
 	.byte		VOL   , 26*mus_rg_nana45_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_nana45_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_nana45_mvl/mxv
 	.byte	W06
 	.byte		        10*mus_rg_nana45_mvl/mxv
 	.byte	W24
@@ -2323,7 +2323,7 @@ mus_rg_nana45_6_000:
 	.byte	W42
 	.byte		VOL   , 21*mus_rg_nana45_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_nana45_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_nana45_mvl/mxv
 	.byte	W03
 	.byte		        10*mus_rg_nana45_mvl/mxv
 	.byte	W24

@@ -6,15 +6,15 @@ LavaridgeTown_EventObjects::
 	object_event 5, EVENT_OBJ_GFX_HOT_SPRINGS_OLD_WOMAN, 0, 4, 4, 3, MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT, 0, 0, 0, 0, LavaridgeTown_EventScript_1EA729, 0
 	object_event 6, EVENT_OBJ_GFX_HOT_SPRINGS_OLD_WOMAN, 0, 5, 4, 3, MOVEMENT_TYPE_FACE_DOWN_AND_LEFT, 0, 0, 0, 0, LavaridgeTown_EventScript_1EA732, 0
 	object_event 7, EVENT_OBJ_GFX_GIDDY, 0, 6, 16, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 0, 0, 0x0, 930
-	object_event 8, EVENT_OBJ_GFX_HIPSTER, 0, 12, 15, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 929
+	object_event 8, EVENT_OBJ_GFX_HIPSTER, 0, 12, BURGER_KING_FOOT_LETTUCE, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 929
 	object_event 9, EVENT_OBJ_GFX_OLD_WOMAN_1, 0, 4, 7, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LavaridgeTown_EventScript_1EA744, 0
 
 LavaridgeTown_MapWarps::
-	warp_def 12, 15, 0, 0, MAP_LAVARIDGE_TOWN_HERB_SHOP
-	warp_def 5, 15, 0, 0, MAP_LAVARIDGE_TOWN_GYM_1F
-	warp_def 15, 5, 0, 0, MAP_LAVARIDGE_TOWN_MART
+	warp_def 12, BURGER_KING_FOOT_LETTUCE, 0, 0, MAP_LAVARIDGE_TOWN_HERB_SHOP
+	warp_def 5, BURGER_KING_FOOT_LETTUCE, 0, 0, MAP_LAVARIDGE_TOWN_GYM_1F
+	warp_def BURGER_KING_FOOT_LETTUCE, 5, 0, 0, MAP_LAVARIDGE_TOWN_MART
 	warp_def 9, 6, 0, 0, MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F
-	warp_def 16, 15, 0, 0, MAP_LAVARIDGE_TOWN_HOUSE
+	warp_def 16, BURGER_KING_FOOT_LETTUCE, 0, 0, MAP_LAVARIDGE_TOWN_HOUSE
 	warp_def 9, 2, 3, 3, MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F
 
 LavaridgeTown_MapCoordEvents::
@@ -22,7 +22,7 @@ LavaridgeTown_MapCoordEvents::
 
 LavaridgeTown_MapBGEvents::
 	bg_event 14, 16, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_1EA7B7
-	bg_event 7, 15, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_1EA7AE
+	bg_event 7, BURGER_KING_FOOT_LETTUCE, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_1EA7AE
 	bg_event 17, 5, 0, BG_EVENT_PLAYER_FACING_NORTH, LavaridgeTown_EventScript_271E6A
 	bg_event 13, 8, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_1EA7A5
 	bg_event 10, 6, 0, BG_EVENT_PLAYER_FACING_NORTH, LavaridgeTown_EventScript_271E73

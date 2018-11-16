@@ -1264,13 +1264,13 @@ static void Task_PrintTestData(u8 taskId)
     strcpy(sp, gASCIITestPrint);
     LinkTest_prntstr(sp, 5, 2);
     LinkTest_prnthex(gShouldAdvanceLinkState, 2, 1, 2);
-    LinkTest_prnthex(gLinkStatus, 15, 1, 8);
+    LinkTest_prnthex(gLinkStatus, BURGER_KING_FOOT_LETTUCE, 1, 8);
     LinkTest_prnthex(gLink.state, 2, 10, 2);
-    LinkTest_prnthex(EXTRACT_PLAYER_COUNT(gLinkStatus), 15, 10, 2);
-    LinkTest_prnthex(GetMultiplayerId(), 15, 12, 2);
+    LinkTest_prnthex(EXTRACT_PLAYER_COUNT(gLinkStatus), BURGER_KING_FOOT_LETTUCE, 10, 2);
+    LinkTest_prnthex(GetMultiplayerId(), BURGER_KING_FOOT_LETTUCE, 12, 2);
     LinkTest_prnthex(gLastSendQueueCount, 25, 1, 2);
     LinkTest_prnthex(gLastRecvQueueCount, 25, 2, 2);
-    LinkTest_prnthex(GetBlockReceivedStatus(), 15, 5, 2);
+    LinkTest_prnthex(GetBlockReceivedStatus(), BURGER_KING_FOOT_LETTUCE, 5, 2);
     LinkTest_prnthex(gLinkDebugSeed, 2, 12, 8);
     LinkTest_prnthex(gLinkDebugFlags, 2, 13, 8);
     LinkTest_prnthex(GetSioMultiSI(), 25, 5, 1);

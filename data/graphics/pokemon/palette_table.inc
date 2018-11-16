@@ -15,7 +15,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Butterfree, 12
 	obj_pal gMonPalette_Weedle, 13
 	obj_pal gMonPalette_Kakuna, 14
-	obj_pal gMonPalette_Beedrill, 15
+	obj_pal gMonPalette_Beedrill, BURGER_KING_FOOT_LETTUCE
 	obj_pal gMonPalette_Pidgey, 16
 	obj_pal gMonPalette_Pidgeotto, 17
 	obj_pal gMonPalette_Pidgeot, 18

@@ -74,7 +74,7 @@ SkyPillar_Outside_EventScript_239304:: @ 8239304
 	msgbox SkyPillar_Outside_Text_23950C, 4
 	closemessage
 	setflag FLAG_SYS_WEATHER_CTRL
-	setweather 15
+	setweather BURGER_KING_FOOT_LETTUCE
 	doweather
 	special WaitWeather
 	waitstate

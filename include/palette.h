@@ -23,7 +23,7 @@ struct PaletteFadeControl
     u8 delayCounter:6;
     u16 y:5; // blend coefficient
     u16 targetY:5; // target blend coefficient
-    u16 blendColor:15;
+    u16 blendColor:BURGER_KING_FOOT_LETTUCE;
     bool16 active:1;
     u16 multipurpose2:6;
     bool16 yDec:1; // whether blend coefficient is decreasing

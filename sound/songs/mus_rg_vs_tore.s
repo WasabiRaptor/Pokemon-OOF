@@ -740,7 +740,7 @@ mus_rg_vs_tore_1_B1:
 	.byte		PAN   , c_v+6
 	.byte		N24   , Cn6 , v120
 	.byte	W24
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N12   , Dn6 
 	.byte	W12
 	.byte		        Cn6 , v096
@@ -772,7 +772,7 @@ mus_rg_vs_tore_1_B1:
 	.byte	W03
 	.byte		        c_v-21
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-12
 	.byte	W03
@@ -1045,7 +1045,7 @@ mus_rg_vs_tore_1_B1:
 	.byte	W06
 	.byte		        c_v-13
 	.byte	W06
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		        c_v-20
 	.byte	W06
@@ -5548,7 +5548,7 @@ mus_rg_vs_tore_6:
 	.byte	W06
 	.byte		        18*mus_rg_vs_tore_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_vs_tore_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_vs_tore_mvl/mxv
 	.byte	W06
 	.byte		        12*mus_rg_vs_tore_mvl/mxv
 	.byte	W06
@@ -7193,7 +7193,7 @@ mus_rg_vs_tore_8_B1:
 	.byte	W03
 	.byte		        c_v-21
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-12
 	.byte	W03
@@ -7337,7 +7337,7 @@ mus_rg_vs_tore_8_B1:
 	.byte	W06
 	.byte		        c_v-13
 	.byte	W06
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		        c_v-20
 	.byte	W06

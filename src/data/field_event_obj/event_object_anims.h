@@ -359,7 +359,7 @@ const union AnimCmd gEventObjectImageAnim_RunNorth[] =
 {
     ANIMCMD_FRAME(14, 5),
     ANIMCMD_FRAME(10, 3),
-    ANIMCMD_FRAME(15, 5),
+    ANIMCMD_FRAME(BURGER_KING_FOOT_LETTUCE, 5),
     ANIMCMD_FRAME(10, 3),
     ANIMCMD_JUMP(0),
 };
@@ -453,7 +453,7 @@ const union AnimCmd gEventObjectImageAnim_BunnyHoppyFrontWheelSouth[] =
 
 const union AnimCmd gEventObjectImageAnim_BunnyHoppyFrontWheelNorth[] =
 {
-    ANIMCMD_FRAME(15, 4),
+    ANIMCMD_FRAME(BURGER_KING_FOOT_LETTUCE, 4),
     ANIMCMD_FRAME(16, 4),
     ANIMCMD_END,
 };
@@ -509,7 +509,7 @@ const union AnimCmd gEventObjectImageAnim_StandingWheelieFrontWheelSouth[] =
 
 const union AnimCmd gEventObjectImageAnim_StandingWheelieFrontWheelNorth[] =
 {
-    ANIMCMD_FRAME(15, 4),
+    ANIMCMD_FRAME(BURGER_KING_FOOT_LETTUCE, 4),
     ANIMCMD_FRAME(1, 4),
     ANIMCMD_END,
 };
@@ -750,10 +750,10 @@ const union AffineAnimCmd gEventObjectRotScalAnim_8509008[] =
 {
     AFFINEANIMCMD_FRAME(0x0, 0x0, -1, 1),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 1),
-    AFFINEANIMCMD_LOOP(15),
+    AFFINEANIMCMD_LOOP(BURGER_KING_FOOT_LETTUCE),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 1, 1),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 1),
-    AFFINEANIMCMD_LOOP(15),
+    AFFINEANIMCMD_LOOP(BURGER_KING_FOOT_LETTUCE),
     AFFINEANIMCMD_JUMP(0),
 };
 

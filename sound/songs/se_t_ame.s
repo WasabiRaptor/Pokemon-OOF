@@ -21,7 +21,7 @@ se_t_ame_1:
 	.byte		VOICE , 36
 	.byte		BENDR , 12
 	.byte		PAN   , c_v+0
-	.byte		VOL   , 15*se_t_ame_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*se_t_ame_mvl/mxv
 	.byte		BEND  , c_v+0
 	.byte		N24   , Gn3 , v060
 	.byte	W03

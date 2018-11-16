@@ -47,7 +47,7 @@ se_w161b_1:
 	.byte	W06
 	.byte		BEND  , c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N60   , Cs3 , v124
 	.byte	W03
 	.byte		BEND  , c_v-4

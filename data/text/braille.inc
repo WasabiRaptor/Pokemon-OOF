@@ -101,7 +101,7 @@ SealedChamber_OuterRoom_Braille_2A6B89: @ 82A6B89
 	.byte 7
 	.byte 4
 	.byte 23
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte 10
 	.byte 7
 	.braille "DIG HERE.$"

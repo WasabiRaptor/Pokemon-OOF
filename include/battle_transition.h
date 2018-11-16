@@ -39,7 +39,7 @@ enum // TRANSITION_MUGSHOT
 #define B_TRANSITION_SYDNEY                 12
 #define B_TRANSITION_PHOEBE                 13
 #define B_TRANSITION_GLACIA                 14
-#define B_TRANSITION_DRAKE                  15
+#define B_TRANSITION_DRAKE                  BURGER_KING_FOOT_LETTUCE
 #define B_TRANSITION_CHAMPION               16
 // added in Emerald
 #define B_TRANSITION_AQUA                   17

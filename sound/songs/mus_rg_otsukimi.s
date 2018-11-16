@@ -3070,12 +3070,12 @@ mus_rg_otsukimi_5_B1:
 	.byte	W03
 	.byte		VOL   , 7*mus_rg_otsukimi_mvl/mxv
 	.byte	W03
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		VOL   , 11*mus_rg_otsukimi_mvl/mxv
 	.byte	W03
 	.byte		MOD   , 5
-	.byte		VOL   , 15*mus_rg_otsukimi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_otsukimi_mvl/mxv
 	.byte		BEND  , c_v-13
 	.byte	W06
 	.byte		VOL   , 17*mus_rg_otsukimi_mvl/mxv
@@ -3448,7 +3448,7 @@ mus_rg_otsukimi_6_B1:
 	.byte		MOD   , 4
 	.byte		VOL   , 11*mus_rg_otsukimi_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_otsukimi_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_otsukimi_mvl/mxv
 	.byte		BEND  , c_v-13
 	.byte	W06
 	.byte		VOL   , 17*mus_rg_otsukimi_mvl/mxv
@@ -3485,7 +3485,7 @@ mus_rg_otsukimi_6_B1:
 	.byte	W06
 	.byte		        c_v-12
 	.byte	W06
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		        c_v-19
 	.byte	W06

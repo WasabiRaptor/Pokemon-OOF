@@ -23,7 +23,7 @@ se_expmax_1:
 	.byte		BENDR , 2
 	.byte		LFOS  , 40
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , An5 , v112
 	.byte	W01
 	.byte		N15   , En6 , v104
@@ -47,7 +47,7 @@ se_expmax_2:
 	.byte		BENDR , 2
 	.byte		VOL   , 43*se_expmax_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , An4 , v108
 	.byte	W01
 	.byte		N12   , Cs6 , v104

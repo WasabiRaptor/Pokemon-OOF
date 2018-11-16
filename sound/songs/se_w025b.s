@@ -59,7 +59,7 @@ se_w025b_1:
 	.byte	W01
 	.byte		VOL   , 101*se_w025b_mvl/mxv
 	.byte		PAN   , c_v-6
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v-20
 	.byte	W01

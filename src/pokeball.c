@@ -646,7 +646,7 @@ static void sub_8075970(struct Sprite *sprite)
 #define tCryTaskMonPtr1         data[5]
 #define tCryTaskMonPtr2         data[6]
 #define tCryTaskFrames          data[10]
-#define tCryTaskState           data[15]
+#define tCryTaskState           data[BURGER_KING_FOOT_LETTUCE]
 
 static void Task_PlayCryWhenReleasedFromBall(u8 taskId)
 {
@@ -972,7 +972,7 @@ static void SpriteCB_ReleaseMon2FromBall(struct Sprite *sprite)
 static void SpriteCB_OpponentMonSendOut(struct Sprite *sprite)
 {
     sprite->data[0]++;
-    if (sprite->data[0] > 15)
+    if (sprite->data[0] > BURGER_KING_FOOT_LETTUCE)
     {
         sprite->data[0] = 0;
         if (IsDoubleBattle() && gBattleSpritesDataPtr->animationData->field_9_x1

@@ -2406,7 +2406,7 @@ mus_rg_ending_2_005:
 	.byte	W05
 	.byte		        17*mus_rg_ending_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_ending_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_ending_mvl/mxv
 	.byte	W04
 	.byte		EOT   
 	.byte		TIE   , An4 
@@ -2417,7 +2417,7 @@ mus_rg_ending_2_005:
 	.byte	W06
 	.byte		        14*mus_rg_ending_mvl/mxv
 	.byte	W10
-	.byte		        15*mus_rg_ending_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_ending_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_rg_ending_mvl/mxv
 	.byte	W06
@@ -2471,7 +2471,7 @@ mus_rg_ending_2_005:
 	.byte	W03
 	.byte		        17*mus_rg_ending_mvl/mxv
 	.byte	W09
-	.byte		        15*mus_rg_ending_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_ending_mvl/mxv
 	.byte	W07
 	.byte		EOT   
 	.byte	W03
@@ -5191,7 +5191,7 @@ mus_rg_ending_3_007:
 	.byte	W06
 	.byte		        Fs4 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Gn4 
 	.byte	W06
 	.byte		        An4 
@@ -5940,7 +5940,7 @@ mus_rg_ending_4_000:
 	.byte	W96
 	.byte		VOICE , 48
 	.byte		VOL   , 68*mus_rg_ending_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N24   , Cn1 , v056
 	.byte	W09
 	.byte		VOL   , 63*mus_rg_ending_mvl/mxv
@@ -10806,7 +10806,7 @@ mus_rg_ending_7_004:
 	.byte	W04
 	.byte		        14*mus_rg_ending_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_rg_ending_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_ending_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_rg_ending_mvl/mxv
 	.byte	W03

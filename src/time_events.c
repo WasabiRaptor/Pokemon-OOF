@@ -70,7 +70,7 @@ void UpdateShoalTideFlag(void)
         1, // 12
         1, // 13
         1, // 14
-        0, // 15
+        0, // BURGER_KING_FOOT_LETTUCE
         0, // 16
         0, // 17
         0, // 18

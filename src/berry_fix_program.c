@@ -55,10 +55,10 @@ static const struct BgTemplate gUnknown_08618108[] = {
 };
 
 static const struct WindowTemplate gUnknown_08618110[] = {
-    {0, 2,  4, 26, 2, 15, 0x001},
-    {0, 1, 11, 28, 8, 15, 0x035},
-    {0, 0,  8, 30, 2, 15, 0x115},
-    {0, 8,  0, 14, 2, 15, 0x151},
+    {0, 2,  4, 26, 2, BURGER_KING_FOOT_LETTUCE, 0x001},
+    {0, 1, 11, 28, 8, BURGER_KING_FOOT_LETTUCE, 0x035},
+    {0, 0,  8, 30, 2, BURGER_KING_FOOT_LETTUCE, 0x115},
+    {0, 8,  0, 14, 2, BURGER_KING_FOOT_LETTUCE, 0x151},
     {-1}
 };
 

@@ -514,7 +514,7 @@ mus_rg_load02_2:
 	.byte	W03
 	.byte		        Gn5 
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Dn5 
 	.byte	W03
 	.byte		        En5 
@@ -2226,7 +2226,7 @@ mus_rg_load02_8_000:
 	.byte		PAN   , c_v+0
 	.byte		N48   , Gn2 , v120
 	.byte	W96
-	.byte		VOL   , 15*mus_rg_load02_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_load02_mvl/mxv
 	.byte		PAN   , c_v-4
 	.byte		N03   , Gs4 , v072
 	.byte	W06

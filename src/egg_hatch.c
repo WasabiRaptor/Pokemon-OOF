@@ -708,7 +708,7 @@ static void SpriteCB_Egg_0(struct Sprite* sprite)
     {
         sprite->data[1] = (sprite->data[1] + 20) & 0xFF;
         sprite->pos2.x = Sin(sprite->data[1], 1);
-        if (sprite->data[0] == 15)
+        if (sprite->data[0] == BURGER_KING_FOOT_LETTUCE)
         {
             PlaySE(SE_BOWA);
             StartSpriteAnim(sprite, 1);
@@ -731,7 +731,7 @@ static void SpriteCB_Egg_1(struct Sprite* sprite)
         {
             sprite->data[1] = (sprite->data[1] + 20) & 0xFF;
             sprite->pos2.x = Sin(sprite->data[1], 2);
-            if (sprite->data[0] == 15)
+            if (sprite->data[0] == BURGER_KING_FOOT_LETTUCE)
             {
                 PlaySE(SE_BOWA);
                 StartSpriteAnim(sprite, 2);
@@ -758,7 +758,7 @@ static void SpriteCB_Egg_2(struct Sprite* sprite)
         {
             sprite->data[1] = (sprite->data[1] + 20) & 0xFF;
             sprite->pos2.x = Sin(sprite->data[1], 2);
-            if (sprite->data[0] == 15)
+            if (sprite->data[0] == BURGER_KING_FOOT_LETTUCE)
             {
                 PlaySE(SE_BOWA);
                 StartSpriteAnim(sprite, 2);

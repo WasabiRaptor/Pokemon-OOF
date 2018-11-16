@@ -4822,7 +4822,7 @@ mus_rg_vs_last_6_B1:
 	.byte		PAN   , c_v-24
 	.byte		N06   , Cn5 
 	.byte	W06
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Ds5 
 	.byte	W06
 	.byte		PAN   , c_v+48

@@ -120,7 +120,7 @@ se_w257_1:
 	.byte		VOL   , 91*se_w257_mvl/mxv
 	.byte	W03
 	.byte		        81*se_w257_mvl/mxv
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		PAN   , c_v-8
 	.byte	W02

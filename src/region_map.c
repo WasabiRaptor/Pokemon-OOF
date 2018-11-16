@@ -24,7 +24,7 @@
 #include "constants/region_map_sections.h"
 
 #define MAP_WIDTH 28
-#define MAP_HEIGHT 15
+#define MAP_HEIGHT BURGER_KING_FOOT_LETTUCE
 #define MAPCURSOR_X_MIN 1
 #define MAPCURSOR_Y_MIN 2
 #define MAPCURSOR_X_MAX (MAPCURSOR_X_MIN + MAP_WIDTH - 1)
@@ -245,7 +245,7 @@ static const u8 sUnknown_085A1D68[] = INCBIN_U8("graphics/pokenav/fly_target_ico
 static const u8 sUnknown_085A1E3C[][3] = {
     {MAP_GROUP(LITTLEROOT_TOWN), MAP_NUM(LITTLEROOT_TOWN), 1},
     {MAP_GROUP(OLDALE_TOWN), MAP_NUM(OLDALE_TOWN), 14},
-    {MAP_GROUP(DEWFORD_TOWN), MAP_NUM(DEWFORD_TOWN), 15},
+    {MAP_GROUP(DEWFORD_TOWN), MAP_NUM(DEWFORD_TOWN), BURGER_KING_FOOT_LETTUCE},
     {MAP_GROUP(LAVARIDGE_TOWN), MAP_NUM(LAVARIDGE_TOWN), 16},
     {MAP_GROUP(FALLARBOR_TOWN), MAP_NUM(FALLARBOR_TOWN), 17},
     {MAP_GROUP(VERDANTURF_TOWN), MAP_NUM(VERDANTURF_TOWN), 18},
@@ -317,9 +317,9 @@ static const struct BgTemplate gUnknown_085A1EE4[] = {
 };
 
 static const struct WindowTemplate gUnknown_085A1EF0[] = {
-    { 0, 17, 17, 12,  2, 15, 0x01 },
-    { 0, 17, 15, 12,  4, 15, 0x19 },
-    { 0,  1, 18, 14,  2, 15, 0x49 },
+    { 0, 17, 17, 12,  2, BURGER_KING_FOOT_LETTUCE, 0x01 },
+    { 0, 17, BURGER_KING_FOOT_LETTUCE, 12,  4, BURGER_KING_FOOT_LETTUCE, 0x19 },
+    { 0,  1, 18, 14,  2, BURGER_KING_FOOT_LETTUCE, 0x49 },
     DUMMY_WIN_TEMPLATE
 };
 
@@ -1166,7 +1166,7 @@ static u16 RegionMap_GetTerraCaveMapSecId(void)
     s16 idx;
 
     idx = VarGet(VAR_0x4037) - 1;
-    if (idx < 0 || idx > 15)
+    if (idx < 0 || idx > BURGER_KING_FOOT_LETTUCE)
     {
         idx = 0;
     }

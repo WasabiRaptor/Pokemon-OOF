@@ -1056,7 +1056,7 @@ EventScript_27149D:: @ 827149D
 	setberrytree 61, 25, 5
 	setberrytree 79, 23, 5
 	setberrytree 14, 23, 5
-	setberrytree 15, 21, 5
+	setberrytree BURGER_KING_FOOT_LETTUCE, 21, 5
 	setberrytree 30, 21, 5
 	setberrytree 65, 25, 5
 	setberrytree 72, 25, 5
@@ -1410,7 +1410,7 @@ OldaleTown_PokemonCenter_1F_EventScript_271954:: @ 8271954
 	return
 
 OldaleTown_PokemonCenter_1F_EventScript_27195A:: @ 827195A
-	incrementgamestat 15
+	incrementgamestat BURGER_KING_FOOT_LETTUCE
 	compare VAR_0x8004, 0
 	call_if 1, OldaleTown_PokemonCenter_1F_EventScript_271987
 	compare VAR_0x8004, 1
@@ -1560,7 +1560,7 @@ EventScript_271B45:: @ 8271B45
 	return
 
 EventScript_271B55:: @ 8271B55
-	bufferstdstring 2, 15
+	bufferstdstring 2, BURGER_KING_FOOT_LETTUCE
 	compare VAR_0x8007, 1
 	call_if 1, EventScript_271BAF
 	return
@@ -2172,7 +2172,7 @@ Route130_EventScript_27207A:: @ 827207A
 Route131_EventScript_27207A:: @ 827207A
 SkyPillar_Outside_EventScript_27207A:: @ 827207A
 SootopolisCity_EventScript_27207A:: @ 827207A
-	setweather 15
+	setweather BURGER_KING_FOOT_LETTUCE
 	return
 
 DewfordTown_Gym_EventScript_27207E:: @ 827207E
@@ -3764,11 +3764,11 @@ Route127_EventScript_273BCC:: @ 8273BCC
 Route129_EventScript_273C39:: @ 8273C39
 	setmetatile 16, 14, 334, 0
 	setmetatile 17, 14, 334, 0
-	setmetatile 15, 15, 334, 0
-	setmetatile 16, 15, 335, 0
-	setmetatile 17, 15, 335, 0
-	setmetatile 18, 15, 334, 0
-	setmetatile 15, 16, 334, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 334, 0
+	setmetatile 16, BURGER_KING_FOOT_LETTUCE, 335, 0
+	setmetatile 17, BURGER_KING_FOOT_LETTUCE, 335, 0
+	setmetatile 18, BURGER_KING_FOOT_LETTUCE, 334, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, 16, 334, 0
 	setmetatile 16, 16, 335, 0
 	setmetatile 17, 16, 335, 0
 	setmetatile 18, 16, 334, 0
@@ -3865,7 +3865,7 @@ Route105_EventScript_273D6D:: @ 8273D6D
 	case 12, Route105_EventScript_274002
 	case 13, Route105_EventScript_27406F
 	case 14, Route105_EventScript_2740DC
-	case 15, Route105_EventScript_274149
+	case BURGER_KING_FOOT_LETTUCE, Route105_EventScript_274149
 	case 16, Route105_EventScript_2741B6
 	return
 
@@ -4002,11 +4002,11 @@ Route105_EventScript_2740DC:: @ 82740DC
 Route105_EventScript_274149:: @ 8274149
 	setmetatile 16, 14, 368, 0
 	setmetatile 17, 14, 368, 0
-	setmetatile 15, 15, 368, 0
-	setmetatile 16, 15, 368, 0
-	setmetatile 17, 15, 368, 0
-	setmetatile 18, 15, 368, 0
-	setmetatile 15, 16, 368, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 368, 0
+	setmetatile 16, BURGER_KING_FOOT_LETTUCE, 368, 0
+	setmetatile 17, BURGER_KING_FOOT_LETTUCE, 368, 0
+	setmetatile 18, BURGER_KING_FOOT_LETTUCE, 368, 0
+	setmetatile BURGER_KING_FOOT_LETTUCE, 16, 368, 0
 	setmetatile 16, 16, 368, 0
 	setmetatile 17, 16, 368, 0
 	setmetatile 18, 16, 368, 0
@@ -4040,7 +4040,7 @@ Underwater7_EventScript_274223:: @ 8274223
 	case 12, Underwater3_EventScript_27429C
 	case 13, Underwater3_EventScript_2742A5
 	case 14, Underwater3_EventScript_2742AE
-	case 15, Underwater3_EventScript_2742B7
+	case BURGER_KING_FOOT_LETTUCE, Underwater3_EventScript_2742B7
 	case 16, Underwater3_EventScript_2742C0
 	return
 
@@ -4069,7 +4069,7 @@ Underwater3_EventScript_2742AE:: @ 82742AE
 	return
 
 Underwater3_EventScript_2742B7:: @ 82742B7
-	setescapewarp MAP_ROUTE129, 255, 17, 15
+	setescapewarp MAP_ROUTE129, 255, 17, BURGER_KING_FOOT_LETTUCE
 	return
 
 Underwater3_EventScript_2742C0:: @ 82742C0
@@ -6257,7 +6257,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_2A861C:: @ 82A861C
 	special sub_818E3BC
 	compare VAR_0x8004, 0
 	goto_eq LilycoveCity_PokemonCenter_1F_EventScript_2A864C
-	compare VAR_0x8004, 15
+	compare VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	goto_eq LilycoveCity_PokemonCenter_1F_EventScript_2A8656
 
 LilycoveCity_PokemonCenter_1F_EventScript_2A8635:: @ 82A8635
@@ -10070,7 +10070,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B69D3:: @ 82B69D3
 	setvar VAR_0x8005, 0
 	copyvar VAR_0x8006, VAR_0x8007
 	special sub_81A085C
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 	setvar VAR_0x8004, 8
 	setvar VAR_0x8005, 1
@@ -10111,7 +10111,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6ACF:: @ 82B6ACF
 	setvar VAR_0x8006, 10
 	special sub_81A085C
 	waitstate
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6B09:: @ 82B6B09
@@ -10162,7 +10162,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6B81:: @ 82B6B81
 	setvar VAR_0x8005, 4
 	special sub_81A085C
 	waitstate
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 	compare VAR_RESULT, 0
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_2B6B09
@@ -10204,7 +10204,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6C0C:: @ 82B6C0C
 	setvar VAR_0x8005, 4
 	special sub_81A085C
 	waitstate
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 	compare VAR_RESULT, 0
 	goto_eq BattleFrontier_BattleTowerLobby_EventScript_2B6B09
@@ -10249,7 +10249,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6C77:: @ 82B6C77
 	setvar VAR_0x8005, 0
 	copyvar VAR_0x8006, VAR_0x8007
 	special sub_81A085C
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 	setvar VAR_0x8004, 8
 	setvar VAR_0x8005, 1
@@ -10324,7 +10324,7 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6DD4:: @ 82B6DD4
 	special sub_81A085C
 	setvar VAR_0x8004, 8
 	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 15
+	setvar VAR_0x8006, BURGER_KING_FOOT_LETTUCE
 	special sub_81A085C
 	waitstate
 	setvar VAR_0x8004, 9
@@ -14609,7 +14609,7 @@ MossdeepCity_EventScript_2C81EE:: @ 82C81EE
 	compare VAR_RESULT, 0
 	goto_eq MossdeepCity_EventScript_2C8242
 	msgbox MossdeepCity_Text_2C7B0D, 4
-	setvar VAR_0x8005, 15
+	setvar VAR_0x8005, BURGER_KING_FOOT_LETTUCE
 	call MossdeepCity_EventScript_2C8326
 	compare VAR_RESULT, 0
 	goto_eq MossdeepCity_EventScript_2C8242

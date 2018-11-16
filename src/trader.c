@@ -58,7 +58,7 @@ void CreateAvailableDecorationsMenu(u8 taskId)
     u8 i;
     s16 * data = gTasks[taskId].data;
     struct MauvilleOldManTrader *trader = &gSaveBlock1Ptr->oldMan.trader;
-    struct WindowTemplate windowTemplate = {0, 1, 1, 10, 10, 15, 1};
+    struct WindowTemplate windowTemplate = {0, 1, 1, 10, 10, BURGER_KING_FOOT_LETTUCE, 1};
     s32 windowWidth = GetStringWidth(1, gText_Exit, 0);
     s32 fiveMarksWidth = GetStringWidth(1, gText_FiveMarks, 0);
     for (i = 0; i < 4; i++)

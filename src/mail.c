@@ -150,8 +150,8 @@ static const struct WindowTemplate sUnknown_0859F29C[] = {
         .tilemapLeft = 2,
         .tilemapTop = 3,
         .width = 26,
-        .height = 15,
-        .paletteNum = 15,
+        .height = BURGER_KING_FOOT_LETTUCE,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 1
     },
     DUMMY_WIN_TEMPLATE
@@ -388,7 +388,7 @@ static bool8 MailReadBuildGraphics(void)
                 RunTextPrinters();
             }
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             if (sub_8087598() == TRUE)
             {
                 return FALSE;

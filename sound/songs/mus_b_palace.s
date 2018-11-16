@@ -2443,7 +2443,7 @@ mus_b_palace_6:
 	.byte	W04
 	.byte		        16*mus_b_palace_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_palace_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_palace_mvl/mxv
 	.byte	W01
 	.byte		        14*mus_b_palace_mvl/mxv
 	.byte	W02

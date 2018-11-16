@@ -399,7 +399,7 @@ mus_b_arena_2:
 	.byte	W04
 	.byte		        17*mus_b_arena_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_arena_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_arena_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_b_arena_mvl/mxv
 	.byte	W02
@@ -414,7 +414,7 @@ mus_b_arena_2:
 	.byte	W04
 	.byte		        12*mus_b_arena_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_arena_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_arena_mvl/mxv
 	.byte	W04
 	.byte		        17*mus_b_arena_mvl/mxv
 	.byte	W02
@@ -954,7 +954,7 @@ mus_b_arena_5:
 	.byte	W04
 	.byte		        17*mus_b_arena_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_arena_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_arena_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_b_arena_mvl/mxv
 	.byte	W02
@@ -969,7 +969,7 @@ mus_b_arena_5:
 	.byte	W04
 	.byte		        12*mus_b_arena_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_arena_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_arena_mvl/mxv
 	.byte	W04
 	.byte		        17*mus_b_arena_mvl/mxv
 	.byte	W02
@@ -1192,7 +1192,7 @@ mus_b_arena_6:
 	.byte		VOL   , 41*mus_b_arena_mvl/mxv
 	.byte		LFOS  , 44
 	.byte		BENDR , 12
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte	W24
 	.byte		N24   , Dn4 , v100

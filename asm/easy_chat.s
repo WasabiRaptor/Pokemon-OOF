@@ -2340,7 +2340,7 @@ sub_811B488: @ 811B488
 	lsls r0, 16
 	ldr r1, =gUnknown_0203A118
 	ldr r1, [r1]
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, 0x3C
 	adds r1, r0
 	strh r4, [r1]
@@ -6186,7 +6186,7 @@ sub_811D230: @ 811D230
 	ldr r1, =0x0000ffff
 	ands r0, r1
 	movs r1, 0xD8
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	orrs r0, r1
 	str r0, [sp, 0x4]
 	mov r0, sp
@@ -10378,7 +10378,7 @@ sub_811F2D4: @ 811F2D4
 	adds r2, r1, 0x1
 	strh r2, [r0]
 	lsls r1, 16
-	lsrs r1, 15
+	lsrs r1, BURGER_KING_FOOT_LETTUCE
 	adds r0, 0x2
 	adds r0, r1
 	strh r5, [r0]
@@ -10390,7 +10390,7 @@ _0811F2FE:
 	adds r1, r2, 0x1
 	strh r1, [r0]
 	lsls r2, 16
-	lsrs r2, 15
+	lsrs r2, BURGER_KING_FOOT_LETTUCE
 	adds r0, 0x2
 	adds r0, r2
 	strh r3, [r0]
@@ -10408,7 +10408,7 @@ _0811F2FE:
 	adds r1, r0, 0x1
 	strh r1, [r2]
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r2, 0x2
 	adds r0, r3, r0
 	movs r1, 0x11
@@ -10417,7 +10417,7 @@ _0811F2FE:
 	adds r1, r0, 0x1
 	strh r1, [r2]
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r3, r0
 	movs r1, 0x12
 	strh r1, [r0]
@@ -10425,7 +10425,7 @@ _0811F2FE:
 	adds r1, r0, 0x1
 	strh r1, [r2]
 	lsls r0, 16
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r0
 	movs r0, 0x13
 	strh r0, [r3]
@@ -10441,7 +10441,7 @@ _0811F358:
 	adds r2, r1, 0x1
 	strh r2, [r0]
 	lsls r1, 16
-	lsrs r1, 15
+	lsrs r1, BURGER_KING_FOOT_LETTUCE
 	adds r0, 0x2
 	adds r0, r1
 	movs r1, 0x14
@@ -10456,7 +10456,7 @@ _0811F37A:
 	adds r2, r1, 0x1
 	strh r2, [r0]
 	lsls r1, 16
-	lsrs r1, 15
+	lsrs r1, BURGER_KING_FOOT_LETTUCE
 	adds r0, 0x2
 	adds r0, r1
 	movs r1, 0x15

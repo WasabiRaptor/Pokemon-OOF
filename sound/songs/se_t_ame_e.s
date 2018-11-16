@@ -50,7 +50,7 @@ se_t_ame_e_1:
 	.byte	W03
 	.byte		        20*se_t_ame_e_mvl/mxv
 	.byte	W03
-	.byte		        15*se_t_ame_e_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*se_t_ame_e_mvl/mxv
 	.byte	W03
 	.byte		        10*se_t_ame_e_mvl/mxv
 	.byte	W03

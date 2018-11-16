@@ -22,7 +22,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_223D7A:: @ 8223D7A
 
 MossdeepCity_SpaceCenter_2F_EventScript_223D9F:: @ 8223D9F
 	setobjectxyperm 5, 11, 2
-	setobjectxyperm 7, 15, 2
+	setobjectxyperm 7, BURGER_KING_FOOT_LETTUCE, 2
 	setobjectxyperm 6, 13, 4
 	return
 

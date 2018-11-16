@@ -151,7 +151,7 @@ LinkContestRoom1_EventScript_23B8F8:: @ 823B8F8
 	case 12, LinkContestRoom1_EventScript_23BAAD
 	case 13, LinkContestRoom1_EventScript_23BAB3
 	case 14, LinkContestRoom1_EventScript_23BAB9
-	case 15, LinkContestRoom1_EventScript_23BABF
+	case BURGER_KING_FOOT_LETTUCE, LinkContestRoom1_EventScript_23BABF
 	case 16, LinkContestRoom1_EventScript_23BAC5
 	case 17, LinkContestRoom1_EventScript_23BACB
 	case 18, LinkContestRoom1_EventScript_23BAD1
@@ -208,7 +208,7 @@ LinkContestRoom1_EventScript_23BA9B:: @ 823BA9B
 	return
 
 LinkContestRoom1_EventScript_23BAA1:: @ 823BAA1
-	setvar VAR_TEMP_1, 15
+	setvar VAR_TEMP_1, BURGER_KING_FOOT_LETTUCE
 	return
 
 LinkContestRoom1_EventScript_23BAA7:: @ 823BAA7
@@ -365,7 +365,7 @@ LinkContestRoom1_EventScript_23BC92:: @ 823BC92
 	createvobject 24, 12, 12, 7, 3, 3
 	createvobject 45, 13, 12, 8, 3, 3
 	createvobject 50, 14, 13, 3, 3, 3
-	createvobject 52, 15, 13, 4, 3, 3
+	createvobject 52, BURGER_KING_FOOT_LETTUCE, 13, 4, 3, 3
 	createvobject 65, 17, 13, 6, 3, 3
 	createvobject 83, 18, 13, 7, 3, 3
 	createvobject 116, 19, 13, 8, 3, 3
@@ -395,7 +395,7 @@ LinkContestRoom1_EventScript_23BD86:: @ 823BD86
 	createvobject 24, 12, 12, 7, 3, 3
 	createvobject 45, 13, 12, 8, 3, 3
 	createvobject 50, 14, 13, 3, 3, 3
-	createvobject 52, 15, 13, 4, 3, 3
+	createvobject 52, BURGER_KING_FOOT_LETTUCE, 13, 4, 3, 3
 	createvobject 65, 17, 13, 6, 3, 3
 	createvobject 83, 18, 13, 7, 3, 3
 	createvobject 116, 19, 13, 8, 3, 3
@@ -436,7 +436,7 @@ LinkContestRoom1_EventScript_23BEA2:: @ 823BEA2
 	end
 
 LinkContestRoom1_EventScript_23BEAC:: @ 823BEAC
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 255, 15, 4
+	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 255, BURGER_KING_FOOT_LETTUCE, 4
 	waitstate
 	end
 

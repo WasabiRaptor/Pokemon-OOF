@@ -99,10 +99,10 @@ void DoBrailleStrengthEffect(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_STRENGTH);
     MapGridSetMetatileIdAt(14, 26, 554);
-    MapGridSetMetatileIdAt(15, 26, 555);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 26, 555);
     MapGridSetMetatileIdAt(16, 26, 556);
     MapGridSetMetatileIdAt(14, 27, 3634);
-    MapGridSetMetatileIdAt(15, 27, 563);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 27, 563);
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BAN);
@@ -145,10 +145,10 @@ void UseFlyAncientTomb_Callback(void)
 void UseFlyAncientTomb_Finish(void)
 {
     MapGridSetMetatileIdAt(14, 26, 554);
-    MapGridSetMetatileIdAt(15, 26, 555);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 26, 555);
     MapGridSetMetatileIdAt(16, 26, 556);
     MapGridSetMetatileIdAt(14, 27, 3634);
-    MapGridSetMetatileIdAt(15, 27, 563);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 27, 563);
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BAN);
@@ -245,10 +245,10 @@ void UseStrengthDesertRuins_Callback(void)
 void sub_8179860(void)
 {
     MapGridSetMetatileIdAt(14, 26, 554);
-    MapGridSetMetatileIdAt(15, 26, 555);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 26, 555);
     MapGridSetMetatileIdAt(16, 26, 556);
     MapGridSetMetatileIdAt(14, 27, 3634);
-    MapGridSetMetatileIdAt(15, 27, 563);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 27, 563);
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BAN);
@@ -281,10 +281,10 @@ void UseFlyAncientTomb_Callback(void)
 void sub_8179944(void)
 {
     MapGridSetMetatileIdAt(14, 26, 554);
-    MapGridSetMetatileIdAt(15, 26, 555);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 26, 555);
     MapGridSetMetatileIdAt(16, 26, 556);
     MapGridSetMetatileIdAt(14, 27, 3634);
-    MapGridSetMetatileIdAt(15, 27, 563);
+    MapGridSetMetatileIdAt(BURGER_KING_FOOT_LETTUCE, 27, 563);
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BAN);

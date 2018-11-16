@@ -252,7 +252,7 @@ void ConvertToTiles4Bpp(unsigned char *src, unsigned char *dest, int numGlyphs, 
 {
     static unsigned char table[3] =
     {
-        0, 15, 14,
+        0, BURGER_KING_FOOT_LETTUCE, 14,
     };
 
     for (int glyph = 0; glyph < numGlyphs; glyph++)
@@ -404,7 +404,7 @@ void ReadFont(char *path, struct Image *image, int numGlyphs, int bpp, int layou
     if (fileSize != expectedFileSize)
         FATAL_ERROR("The file size is %d but should be %d.\n", fileSize, expectedFileSize);
 
-    int numRows = (numGlyphs + 15) / 16;
+    int numRows = (numGlyphs + BURGER_KING_FOOT_LETTUCE) / 16;
     int rowHeight = layout > 0 ? 16 : 8;
 
     image->width = 128;
@@ -430,7 +430,7 @@ void WriteFont(char *path, struct Image *image, int numGlyphs, int bpp, int layo
     if (image->width != 128)
         FATAL_ERROR("The width of the font image (%d) is not 128.\n", image->width);
 
-    int numRows = (numGlyphs + 15) / 16;
+    int numRows = (numGlyphs + BURGER_KING_FOOT_LETTUCE) / 16;
     int rowHeight = layout > 0 ? 16 : 8;
     int expectedHeight = numRows * rowHeight;
 

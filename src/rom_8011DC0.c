@@ -438,7 +438,7 @@ bool32 sub_80126CC(u32 caseId)
     switch (caseId)
     {
     case 9 ... 11:
-    case 15 ... 16:
+    case BURGER_KING_FOOT_LETTUCE ... 16:
     case 23 ... 27:
         return TRUE;
     default:
@@ -560,7 +560,7 @@ void sub_8012780(u8 taskId)
             && sub_8012240()
             && gMain.newKeys & START_BUTTON)
         {
-            data->state = 15;
+            data->state = BURGER_KING_FOOT_LETTUCE;
             sub_800EF38();
         }
         if (data->state == 6 && sub_80105EC())
@@ -631,7 +631,7 @@ void sub_8012780(u8 taskId)
                 {
                     if ((gUnknown_02022C2D & 0xF0) != 0 || data->field_13 == 4)
                     {
-                        data->state = 15;
+                        data->state = BURGER_KING_FOOT_LETTUCE;
                     }
                     else
                     {
@@ -673,7 +673,7 @@ void sub_8012780(u8 taskId)
         if (++data->field_E > 120)
             data->state = 17;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (PrintOnTextbox(&data->textState, gUnknown_082EDC5C))
             data->state = 16;
         break;
@@ -705,9 +705,9 @@ void sub_8012780(u8 taskId)
         case 1:
         case -1:
             if ((gUnknown_02022C2D & 0xF0) != 0)
-                data->state = 15;
+                data->state = BURGER_KING_FOOT_LETTUCE;
             else if (data->field_13 == (gUnknown_02022C2D & 0xF))
-                data->state = 15;
+                data->state = BURGER_KING_FOOT_LETTUCE;
             else
                 data->state = 4;
             break;
@@ -818,7 +818,7 @@ void sub_8012FC4(u8 *dst, u8 caseId)
     case 9:
     case 10:
     case 11:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
     case 16:
     case 23:
     case 24:
@@ -862,7 +862,7 @@ void sub_80130B4(u8 *dst, u8 caseId)
     case 9:
     case 10:
     case 11:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
     case 16:
     case 23:
     case 24:
@@ -891,7 +891,7 @@ void sub_8013160(u8 *dst, u8 caseId)
     case 9:
     case 10:
     case 11:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
     case 16:
     case 23:
     case 24:
@@ -1278,7 +1278,7 @@ void sub_80134E8(u8 taskId)
         gSpecialVar_Result = 5;
         data->state = 23;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_800E084();
         if (PrintOnTextbox(&data->textState, gUnknown_082EDE9C[sub_8011A74()]))
         {
@@ -1377,7 +1377,7 @@ void sub_8013C7C(u8 taskId)
     case 3:
         if (sub_8013E44() == 1)
             PlaySE(SE_PC_LOGIN);
-        if (gTasks[taskId].data[15] == 0xFF)
+        if (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] == 0xFF)
             data->state = 10;
         break;
     case 10:
@@ -1689,7 +1689,7 @@ void sub_801440C(u8 taskId)
     case 1 ... 4:
     case 9 ... 11:
     case 13:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_800E3A8();
         break;
     }
@@ -1735,7 +1735,7 @@ void sub_801440C(u8 taskId)
         sub_8014304(MAP_GROUP(TRADE_CENTER), MAP_NUM(TRADE_CENTER), 5, 8, 3);
         SetMainCallback2(sub_8014384);
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_80143E4(gBlockSendBuffer, TRUE);
         overworld_free_bg_tilemaps();
         sub_8014304(MAP_GROUP(RECORD_CORNER), MAP_NUM(RECORD_CORNER), 8, 9, 4);
@@ -2049,7 +2049,7 @@ void sub_8014A40(u8 taskId)
         if (sub_800EF1C())
         {
             sub_800EF58(FALSE);
-            data->state = 15;
+            data->state = BURGER_KING_FOOT_LETTUCE;
         }
         else
         {
@@ -2075,7 +2075,7 @@ void sub_8014A40(u8 taskId)
             gSpecialVar_Result = 5;
         }
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (sub_8011A74() == 1 || sub_8011A74() == 2)
         {
             data->state = 13;
@@ -3032,9 +3032,9 @@ void sub_80156E0(u8 taskId)
         break;
     case 14:
         sub_800ADF8();
-        data->state = 15;
+        data->state = BURGER_KING_FOOT_LETTUCE;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (sub_800A520())
             data->state = 16;
         break;

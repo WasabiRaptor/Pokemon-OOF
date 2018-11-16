@@ -130,7 +130,7 @@ se_w082_1:
 	.byte		        34*se_w082_mvl/mxv
 	.byte		BEND  , c_v+63
 	.byte	W01
-	.byte		VOL   , 15*se_w082_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*se_w082_mvl/mxv
 	.byte	W23
 	.byte	FINE
 

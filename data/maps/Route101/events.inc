@@ -12,7 +12,7 @@ Route101_MapCoordEvents::
 	coord_event 10, 18, 3, VAR_0x4060, 2, Route101_EventScript_1EBD4E
 	coord_event 11, 18, 3, VAR_0x4060, 2, Route101_EventScript_1EBD4E
 	coord_event 6, 16, 3, VAR_0x4060, 2, Route101_EventScript_1EBD64
-	coord_event 6, 15, 3, VAR_0x4060, 2, Route101_EventScript_1EBD64
+	coord_event 6, BURGER_KING_FOOT_LETTUCE, 3, VAR_0x4060, 2, Route101_EventScript_1EBD64
 	coord_event 6, 17, 3, VAR_0x4060, 2, Route101_EventScript_1EBD64
 	coord_event 6, 18, 3, VAR_0x4060, 2, Route101_EventScript_1EBD64
 	coord_event 7, 13, 3, VAR_0x4060, 2, Route101_EventScript_1EBD7A

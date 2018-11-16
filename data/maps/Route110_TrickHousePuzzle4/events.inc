@@ -12,7 +12,7 @@ Route110_TrickHousePuzzle4_EventObjects: @ 853E338
 	object_event 11, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 9, 3, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route110_TrickHousePuzzle4_EventScript_2908BA, 23
 	object_event 12, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 10, 12, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route110_TrickHousePuzzle4_EventScript_2908BA, 24
 	object_event 13, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 14, 2, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route110_TrickHousePuzzle4_EventScript_2908BA, 25
-	object_event 14, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 10, 15, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route110_TrickHousePuzzle4_EventScript_2908BA, 26
+	object_event 14, EVENT_OBJ_GFX_PUSHABLE_BOULDER, 0, 10, BURGER_KING_FOOT_LETTUCE, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route110_TrickHousePuzzle4_EventScript_2908BA, 26
 
 Route110_TrickHousePuzzle4_MapWarps: @ 853E488
 	warp_def 0, 21, 3, 2, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE

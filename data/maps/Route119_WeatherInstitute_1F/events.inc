@@ -1,5 +1,5 @@
 Route119_WeatherInstitute_1F_EventObjects: @ 853EB20
-	object_event 1, EVENT_OBJ_GFX_AQUA_MEMBER_M, 0, 15, 3, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 3, Route119_WeatherInstitute_1F_EventScript_26FB29, 890
+	object_event 1, EVENT_OBJ_GFX_AQUA_MEMBER_M, 0, BURGER_KING_FOOT_LETTUCE, 3, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 3, Route119_WeatherInstitute_1F_EventScript_26FB29, 890
 	object_event 2, EVENT_OBJ_GFX_AQUA_MEMBER_F, 0, 10, 5, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 2, Route119_WeatherInstitute_1F_EventScript_26FB40, 890
 	object_event 3, EVENT_OBJ_GFX_MAN_5, 0, 5, 4, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, Route119_WeatherInstitute_1F_EventScript_26FB0F, 892
 	object_event 4, EVENT_OBJ_GFX_MAN_5, 0, 2, 11, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 0, 0, 0, Route119_WeatherInstitute_1F_EventScript_26FAC8, 892

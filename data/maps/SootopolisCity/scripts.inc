@@ -218,7 +218,7 @@ SootopolisCity_EventScript_1E5946:: @ 81E5946
 	special RemoveScriptEventObject
 	delay 60
 	fadescreenspeed 1, 8
-	setweather 15
+	setweather BURGER_KING_FOOT_LETTUCE
 	doweather
 	setvar VAR_0x8004, 0
 	special sub_813B7D8
@@ -318,7 +318,7 @@ SootopolisCity_EventScript_1E5A82:: @ 81E5A82
 	special RemoveScriptEventObject
 	delay 60
 	fadescreenspeed 1, 8
-	setweather 15
+	setweather BURGER_KING_FOOT_LETTUCE
 	doweather
 	setvar VAR_0x8004, 0
 	special sub_813B7D8
@@ -1269,13 +1269,13 @@ SootopolisCity_Movement_1E635A: @ 81E635A
 
 SootopolisCity_EventScript_1E635D:: @ 81E635D
 	lockall
-	applymovement 15, SootopolisCity_Movement_27259E
+	applymovement BURGER_KING_FOOT_LETTUCE, SootopolisCity_Movement_27259E
 	waitmovement 0
 	compare VAR_0x405E, 5
 	goto_eq SootopolisCity_EventScript_1E6388
 	msgbox SootopolisCity_Text_1E67DC, 4
 	closemessage
-	applymovement 15, SootopolisCity_Movement_2725A2
+	applymovement BURGER_KING_FOOT_LETTUCE, SootopolisCity_Movement_2725A2
 	waitmovement 0
 	releaseall
 	end

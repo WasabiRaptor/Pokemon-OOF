@@ -2,13 +2,13 @@
 gBattlePyramidOpenLevelWildMons_Round1:: @ 8612E80
 @ 0
 	.2byte SPECIES_PLUSLE
-	.byte 15 @ base level difference
+	.byte BURGER_KING_FOOT_LETTUCE @ base level difference
 	.byte 2 @ unknown
 	.2byte MOVE_THUNDER_WAVE, MOVE_SPARK, MOVE_ENCORE, MOVE_NONE
 
 @ 1
 	.2byte SPECIES_MINUN
-	.byte 15 @ base level difference
+	.byte BURGER_KING_FOOT_LETTUCE @ base level difference
 	.byte 2 @ unknown
 	.2byte MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_QUICK_ATTACK, MOVE_NONE
 

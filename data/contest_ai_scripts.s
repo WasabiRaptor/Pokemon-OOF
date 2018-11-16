@@ -131,7 +131,7 @@ AI_score1_081DC27F:
 	score -5
 	end
 AI_score2_081DC27F:
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 AI_score3_081DC27F:
 	score -20
@@ -151,7 +151,7 @@ AI_contest09_081DC2AB:
 	if_excitement_eq 4, AI_contest0F_1_081DC2AB
 	if_excitement_eq 3, AI_contest0F_2_081DC2AB
 	if_user_has_exciting_move AI_end_081DC2AB
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 AI_contest0F_1_081DC2AB:
 	if_user_order_not_eq MON_1, AI_contest7D_1_081DC2AB
@@ -170,7 +170,7 @@ AI_contest7D_2_081DC2AB:
 	score +10
 	end
 AI_score_081DC2AB:
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 AI_contest7D_3_081DC2AB:
 	if_random 127, AI_end_081DC2AB
@@ -240,7 +240,7 @@ AI_contest04_4_081DC348:
 	end
 AI_contest7D_081DC348:
 	if_random 125, AI_end_081DC348
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 AI_end_081DC348:
 	end
@@ -273,7 +273,7 @@ ContestEffect39_score1:
 	end
 ContestEffect39_score2:
 	if_random 125, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect39_score3:
 	if_random 125, ContestEffectEnd
@@ -298,7 +298,7 @@ ContestEffect41:
 ContestEffect3:
 	if_user_order_not_eq MON_4, ContestEffectEnd
 	if_random 50, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 	if_turn_eq 4, ContestEffect3_7D
 	if_random 220, ContestEffect3_score
@@ -306,7 +306,7 @@ ContestEffect3:
 	end
 ContestEffect3_7D:
 	if_random 20, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect3_score:
 	score -20
@@ -316,7 +316,7 @@ ContestEffect38:
 	if_effect_in_user_moveset CONTEST_EFFECT_BETTER_WITH_GOOD_CONDITION, ContestEffect38_contest04
 	if_user_condition_eq 3, ContestEffect38_score1
 	if_random 50, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect38_score1:
 	score -10
@@ -359,7 +359,7 @@ ContestEffect31_score1:
 	score +5
 	end
 ContestEffect31_score2:
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect31_score3:
 	score +20
@@ -413,7 +413,7 @@ ContestEffect46_05:
 	end
 ContestEffect46_score1:
 	if_random 125, ContestEffectEnd
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect46_score2:
 	if_random 125, ContestEffectEnd
@@ -421,7 +421,7 @@ ContestEffect46_score2:
 	end
 ContestEffect46_score3:
 	if_random 125, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect46_score4:
 	if_random 178, ContestEffectEnd
@@ -451,7 +451,7 @@ ContestEffect27_score2:
 	end
 ContestEffect27_score3:
 	if_random 125, ContestEffect27_55_2
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	if_user_order_more_than MON_2, ContestEffect27_55_2
 	end
 ContestEffect27_noscore:
@@ -476,7 +476,7 @@ ContestEffect27_score5:
 	end
 ContestEffect27_score6:
 	if_random 125, ContestEffect27_55_3
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	if_user_order_more_than MON_3, ContestEffect27_55_3
 	end
 ContestEffect27_noscore2:
@@ -499,7 +499,7 @@ ContestEffect27_score8:
 	end
 ContestEffect27_score9:
 	if_random 125, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect27_end:
 	end
@@ -578,7 +578,7 @@ ContestEffect18_0E:
 	if_user_order_eq MON_4, ContestEffect18_random3
 	end
 ContestEffect18_score2:
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect18_random1:
 	if_random 125, ContestEffectEnd
@@ -590,7 +590,7 @@ ContestEffect18_random2:
 	end
 ContestEffect18_random3:
 	if_random 125, ContestEffectEnd
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 
 ContestEffectEnd:
@@ -678,18 +678,18 @@ ContestEffect2_9_score1:
 	end
 ContestEffect2_9_score2:
 	if_can_participate MON_1, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_9_score3:
 	if_can_participate MON_1, ContestEffectEnd2
 	if_can_participate MON_2, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_9_score4:
 	if_can_participate MON_1, ContestEffectEnd2
 	if_can_participate MON_2, ContestEffectEnd2
 	if_can_participate MON_3, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 
 ContestEffect2_25:
@@ -769,19 +769,19 @@ ContestEffect2_2:
 	end
 ContestEffect2_2_score1:
 	if_random 20, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_2_score2:
 	if_random 40, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_2_score3:
 	if_random 60, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_2_score4:
 	if_random 80, ContestEffectEnd2
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 ContestEffect2_2_score5:
 	if_random 20, ContestEffectEnd2
@@ -803,10 +803,10 @@ AI_effectcheck1_081DCA4C:
 	if_effect_type_eq 1, AI_random1_081DCA4C
 	end
 AI_score1_081DCA4C:
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 AI_score2_081DCA4C:
-	score -15
+	score -BURGER_KING_FOOT_LETTUCE
 	end
 AI_random1_081DCA4C:
 	if_random 100, ContestEffectEnd2
@@ -841,7 +841,7 @@ AI_effectcheck4_081DCA4C:
 	if_effect_type_eq 3, AI_random3_081DCA4C
 	end
 AI_score5_081DCA4C:
-	score +15
+	score +BURGER_KING_FOOT_LETTUCE
 	end
 AI_score6_081DCA4C:
 	score -10

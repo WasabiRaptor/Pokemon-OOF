@@ -418,7 +418,7 @@ void PlayCryInternal(u16 species, s8 pan, s8 volume, u8 priority, u8 mode)
         pitch = 15616;
         break;
     case 9:
-        length = 15;
+        length = BURGER_KING_FOOT_LETTUCE;
         v0 = TRUE;
         release = 125;
         pitch = 15200;

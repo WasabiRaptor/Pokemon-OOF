@@ -13,7 +13,7 @@ LittlerootTown_BrendansHouse_2F_EventObjects::
 	object_event 12, 250, 0, 1, 4, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, 0x0, 184
 	object_event 13, 251, 0, 1, 5, 0, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, 0x0, 185
 	object_event 14, EVENT_OBJ_GFX_MOM, 0, 7, 1, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 0, 0, 0, 0x0, 757
-	object_event 15, EVENT_OBJ_GFX_ITEM_BALL, 0, 3, 4, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, LittlerootTown_BrendansHouse_2F_EventScript_1F8481, 817
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_ITEM_BALL, 0, 3, 4, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, LittlerootTown_BrendansHouse_2F_EventScript_1F8481, 817
 	object_event 16, EVENT_OBJ_GFX_SWABLU_DOLL, 0, 5, 5, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 815
 
 LittlerootTown_BrendansHouse_2F_MapWarps::

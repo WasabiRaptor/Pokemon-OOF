@@ -22,7 +22,7 @@ se_w234_1:
 	.byte		VOL   , 95*se_w234_mvl/mxv
 	.byte		BENDR , 2
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		N06   , Ds6 , v112
 	.byte	W03
@@ -78,7 +78,7 @@ se_w234_2:
 	.byte		BENDR , 2
 	.byte		VOL   , 43*se_w234_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Gs6 , v108
 	.byte	W03
 	.byte	W03

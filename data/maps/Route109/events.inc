@@ -3,7 +3,7 @@ Route109_EventObjects::
 	object_event 2, EVENT_OBJ_GFX_OLD_MAN_1, 0, 21, 24, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 0, 0, Route109_EventScript_1EE910, 741
 	object_event 3, EVENT_OBJ_GFX_SWIMMER_M, 0, 12, 36, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 1, 5, Route109_EventScript_1EEA3D, 0
 	object_event 4, EVENT_OBJ_GFX_SWIMMER_F, 0, 25, 39, 1, MOVEMENT_TYPE_FACE_UP_AND_LEFT, 0, 0, 1, 5, Route109_EventScript_1EEA54, 0
-	object_event 5, EVENT_OBJ_GFX_SAILOR, 0, 15, 17, 4, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 1, Route109_EventScript_1EEA6B, 0
+	object_event 5, EVENT_OBJ_GFX_SAILOR, 0, BURGER_KING_FOOT_LETTUCE, 17, 4, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 1, Route109_EventScript_1EEA6B, 0
 	object_event 6, EVENT_OBJ_GFX_SAILOR, 0, 24, 13, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 6, Route109_EventScript_1EEA82, 0
 	object_event 7, EVENT_OBJ_GFX_TUBER_M, 0, 19, 10, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 3, Route109_EventScript_1EEA99, 0
 	object_event 8, EVENT_OBJ_GFX_TUBER_F, 0, 22, 7, 3, MOVEMENT_TYPE_WALK_SLOWLY_IN_PLACE_RIGHT, 0, 0, 1, 4, Route109_EventScript_1EEAFB, 0
@@ -13,7 +13,7 @@ Route109_EventObjects::
 	object_event 12, EVENT_OBJ_GFX_TUBER_F, 0, 28, 31, 3, MOVEMENT_TYPE_FACE_DOWN_AND_LEFT, 0, 0, 1, 3, Route109_EventScript_1EEB5D, 0
 	object_event 13, EVENT_OBJ_GFX_FISHERMAN, 0, 21, 56, 0, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 3, Route109_EventScript_1EEB8B, 0
 	object_event 14, EVENT_OBJ_GFX_TUBER_M, 0, 24, 18, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, Route109_EventScript_1EE99E, 0
-	object_event 15, EVENT_OBJ_GFX_TUBER_F, 0, 25, 18, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 0, 0, Route109_EventScript_1EE9B5, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_TUBER_F, 0, 25, 18, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 0, 0, Route109_EventScript_1EE9B5, 0
 	object_event 16, EVENT_OBJ_GFX_WOMAN_2, 0, 30, 32, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, Route109_EventScript_1EEA06, 0
 	object_event 17, EVENT_OBJ_GFX_WOMAN_5, 0, 8, 41, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 1, Route109_EventScript_1EEBBD, 0
 	object_event 18, EVENT_OBJ_GFX_MAN_5, 0, 9, 41, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 1, Route109_EventScript_1EEBA2, 0
@@ -28,7 +28,7 @@ Route109_MapWarps::
 	warp_def 12, 5, 0, 0, MAP_ROUTE109_SEASHORE_HOUSE
 
 Route109_MapBGEvents::
-	bg_event 15, 5, 0, BG_EVENT_PLAYER_FACING_ANY, Route109_EventScript_1EEA2B
+	bg_event BURGER_KING_FOOT_LETTUCE, 5, 0, BG_EVENT_PLAYER_FACING_ANY, Route109_EventScript_1EEA2B
 	bg_event 29, 10, 3, BG_EVENT_PLAYER_FACING_ANY, Route109_EventScript_1EEA34
 	bg_hidden_item_event 16, 23, 3, ITEM_REVIVE, 50
 	bg_hidden_item_event 33, 5, 3, ITEM_HEART_SCALE, 52

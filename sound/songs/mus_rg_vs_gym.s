@@ -228,7 +228,7 @@ mus_rg_vs_gym_1_B1:
 	.byte	W06
 	.byte		        Cn3 
 	.byte	W06
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , En3 
 	.byte	W06
 	.byte		        Dn3 
@@ -816,7 +816,7 @@ mus_rg_vs_gym_1_B1:
 	.byte	W06
 	.byte		        Fs3 , v076
 	.byte	W06
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Fn3 
 	.byte	W06
 	.byte		        En3 , v080
@@ -3175,7 +3175,7 @@ mus_rg_vs_gym_5_B1:
 	.byte	W03
 	.byte		        c_v+22
 	.byte	W03
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		PAN   , c_v+18
 	.byte		BEND  , c_v+9

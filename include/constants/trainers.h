@@ -25,7 +25,7 @@
 #define TRAINER_PIC_AQUA_ADMIN_F          12
 #define TRAINER_PIC_AQUA_LEADER_ARCHIE    13
 #define TRAINER_PIC_HEX_MANIAC            14
-#define TRAINER_PIC_AROMA_LADY            15
+#define TRAINER_PIC_AROMA_LADY            BURGER_KING_FOOT_LETTUCE
 #define TRAINER_PIC_RUIN_MANIAC           16
 #define TRAINER_PIC_INTERVIEWER           17
 #define TRAINER_PIC_TUBER_F               18

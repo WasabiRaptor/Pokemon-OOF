@@ -13,7 +13,7 @@
 	.equ	W12,	W00+12		@
 	.equ	W13,	W00+13		@
 	.equ	W14,	W00+14		@
-	.equ	W15,	W00+15		@
+	.equ	W15,	W00+BURGER_KING_FOOT_LETTUCE		@
 	.equ	W16,	W00+16		@
 	.equ	W17,	W00+17		@
 	.equ	W18,	W00+18		@
@@ -89,7 +89,7 @@
 	.equ	N13,	N01+12		@
 	.equ	N14,	N01+13		@
 	.equ	N15,	N01+14		@
-	.equ	N16,	N01+15		@
+	.equ	N16,	N01+BURGER_KING_FOOT_LETTUCE		@
 	.equ	N17,	N01+16		@
 	.equ	N18,	N01+17		@
 	.equ	N19,	N01+18		@
@@ -148,7 +148,7 @@
 	.equ	CnM1,	12		@
 	.equ	CsM1,	13		@
 	.equ	DnM1,	14		@
-	.equ	DsM1,	15		@
+	.equ	DsM1,	BURGER_KING_FOOT_LETTUCE		@
 	.equ	EnM1,	16		@
 	.equ	FnM1,	17		@
 	.equ	FsM1,	18		@
@@ -279,7 +279,7 @@
 	.equ	v012,	12		@
 	.equ	v013,	13		@
 	.equ	v014,	14		@
-	.equ	v015,	15		@
+	.equ	v015,	BURGER_KING_FOOT_LETTUCE		@
 	.equ	v016,	16		@
 	.equ	v017,	17		@
 	.equ	v018,	18		@
@@ -422,7 +422,7 @@
 	.equ	mem_mem_beq,12		@
 	.equ	mem_mem_bne,13		@
 	.equ	mem_mem_bhi,14		@
-	.equ	mem_mem_bhs,15		@
+	.equ	mem_mem_bhs,BURGER_KING_FOOT_LETTUCE		@
 	.equ	mem_mem_bls,16		@
 	.equ	mem_mem_blo,17		@
 

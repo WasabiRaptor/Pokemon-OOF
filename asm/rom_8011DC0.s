@@ -20509,7 +20509,7 @@ sub_801FDDC: @ 801FDDC
 	ldr r1, =0x0000ffff
 	ands r0, r1
 	movs r1, 0xA4
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	orrs r0, r1
 	str r0, [sp, 0x10]
 	add r0, sp, 0xC
@@ -20662,7 +20662,7 @@ sub_801FF18: @ 801FF18
 	ldr r1, =0x0000ffff
 	ands r0, r1
 	movs r1, 0xD4
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	orrs r0, r1
 	str r0, [sp, 0x18]
 	ldr r1, =gUnknown_082F2D40
@@ -45477,7 +45477,7 @@ sub_802C818: @ 802C818
 	lsls r1, 11
 	ands r1, r0
 	ldr r0, =gUnknown_082FB704
-	lsrs r1, 15
+	lsrs r1, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0
 	ldrh r0, [r1]
 	pop {r1}
@@ -47852,7 +47852,7 @@ sub_802DA9C: @ 802DA9C
 	ldr r1, =0x0000ffff
 	ands r0, r1
 	movs r1, 0x86
-	lsls r1, 15
+	lsls r1, BURGER_KING_FOOT_LETTUCE
 	orrs r0, r1
 	str r0, [sp, 0x4]
 	mov r0, sp
@@ -48662,7 +48662,7 @@ sub_802E138: @ 802E138
 	movs r2, 0x3
 	strb r2, [r3]
 	ldr r3, [r1, 0x8]
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	ldr r2, [sp, 0x8]
 	ldr r4, =0x00007fff
 	mov r8, r4
@@ -48742,7 +48742,7 @@ sub_802E1BC: @ 802E1BC
 	cmp r0, 0x3
 	bne _0802E228
 	ldr r0, [sp, 0x8]
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	str r0, [r4, 0x8]
 	mov r0, sp
 	ldrb r1, [r0, 0x3]

@@ -2295,7 +2295,7 @@ static void sub_816EEA8(u8 taskId)
             }
             if (data[1] == 6)
             {
-                spriteId = CreateSprite(&gUnknown_085E5030, 120, 88, 15);
+                spriteId = CreateSprite(&gUnknown_085E5030, 120, 88, BURGER_KING_FOOT_LETTUCE);
                 PlaySE(SE_OP_BASYU);
                 gSprites[spriteId].invisible = TRUE;
                 gSprites[spriteId].data[3] = data[4];
@@ -2487,8 +2487,8 @@ static void sub_816F318(struct Sprite *sprite)
             SetOamMatrix(sprite->data[1], sprite->data[2], 0, 0, sprite->data[2]);
             sprite->data[2] = (sprite->data[2] * 95) / 100;
             r0 = (sprite->data[2] - 192) / 128 + 9;
-            if (r0 > 15)
-                r0 = 15;
+            if (r0 > BURGER_KING_FOOT_LETTUCE)
+                r0 = BURGER_KING_FOOT_LETTUCE;
             sprite->oam.paletteNum = r0;
         }
     }

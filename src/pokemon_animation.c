@@ -601,7 +601,7 @@ static const u8 sUnknown_0860AA64[][2] =
 {
     {0, 5},
     {1, 1},
-    {0, 15},
+    {0, BURGER_KING_FOOT_LETTUCE},
     {1, 4},
     {0, 2},
     {1, 2},
@@ -618,7 +618,7 @@ static const u8 sUnknown_0860AA64[][2] =
 static const u8 sUnknown_0860AA80[][2] =
 {
     {6,     30},
-    {0xFE,  15},
+    {0xFE,  BURGER_KING_FOOT_LETTUCE},
     {6,     30},
     {0xFF,  0}
 };
@@ -2429,7 +2429,7 @@ static void sub_8181110(struct Sprite *sprite)
     sprite->pos2.x++;
     sprite->pos2.y--;
 
-    if (sprite->pos2.x > 15)
+    if (sprite->pos2.x > BURGER_KING_FOOT_LETTUCE)
     {
         sprite->data[2] = 0;
         sprite->callback = sub_8181144;
@@ -5285,11 +5285,11 @@ static const struct YellowBlendStruct sUnknown_0860ADCC[] =
 {
     {0, 1},
     {1, 2},
-    {0, 15},
+    {0, BURGER_KING_FOOT_LETTUCE},
     {1, 1},
-    {0, 15},
+    {0, BURGER_KING_FOOT_LETTUCE},
     {1, 1},
-    {0, 15},
+    {0, BURGER_KING_FOOT_LETTUCE},
     {1, 1},
     {0, 1},
     {1, 1},
@@ -5309,7 +5309,7 @@ static const struct YellowBlendStruct sUnknown_0860AE1C[] =
 {
     {0, 5},
     {1, 1},
-    {0, 15},
+    {0, BURGER_KING_FOOT_LETTUCE},
     {1, 4},
     {0, 2},
     {1, 2},

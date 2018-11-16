@@ -798,7 +798,7 @@ const struct BgTemplate gBgTemplates_0855D298[] =
     {
         .bg = 3,
         .charBaseIndex = 0,
-        .mapBaseIndex = 15,
+        .mapBaseIndex = BURGER_KING_FOOT_LETTUCE,
         .screenSize = 0,
         .paletteMode = 0,
         .priority = 3,
@@ -1635,7 +1635,7 @@ void sub_80BCE2C(u8 windowId, u8 fontId, const u8* str, u8 left, u8 top)
     u8 color[3];
     
     color[0] = 0;
-    color[1] = 15;
+    color[1] = BURGER_KING_FOOT_LETTUCE;
     color[2] = 3;
     AddTextPrinterParameterized2(windowId, fontId, left * 8, (top * 8) + 1, 0, 0, color, -1, str);
 }
@@ -1702,7 +1702,7 @@ void sub_80BCE84(u8 a, u16 b, u16 c)
         case 2:
             _b = b + 5;
             r2 = gUnknown_02039B4C->unk630 + 10;
-            if (r2 > 15)
+            if (r2 > BURGER_KING_FOOT_LETTUCE)
                 r2 -= 16;
             if (_b < 0 || _b >= NATIONAL_DEX_COUNT || gUnknown_02039B4C->unk0[_b].dexNum == 0xFFFF)
                 sub_80BD28C(0x11, r2 * 2, c);
@@ -1872,7 +1872,7 @@ void sub_80BD5A8(u8 a, u16 b)
             if (gUnknown_02039B4C->unk630 > 0)
                 gUnknown_02039B4C->unk630--;
             else
-                gUnknown_02039B4C->unk630 = 15;
+                gUnknown_02039B4C->unk630 = BURGER_KING_FOOT_LETTUCE;
             break;
         case 2:
             unk = sub_80BDA8C(b + 1);
@@ -2447,7 +2447,7 @@ void sub_80BE8DC(const u8* str, u8 left, u8 top)
 {
     u8 color[3];
     color[0] = 0;
-    color[1] = 15;
+    color[1] = BURGER_KING_FOOT_LETTUCE;
     color[2] = 3;
     
     AddTextPrinterParameterized2(0, 1, left, top, 0, 0, color, -1, str);
@@ -2984,7 +2984,7 @@ void sub_80BF7FC(u8 a)
     if (a != 0)
         unk = RGB(18, 28, 0);
     else
-        unk = RGB(15, 21, 0);
+        unk = RGB(BURGER_KING_FOOT_LETTUCE, 21, 0);
     LoadPalette(&unk, 0x5D, 2);
 }
 
@@ -3326,7 +3326,7 @@ u8 CreateDexDisplayMonDataTask(u16 dexNum, u32 b, u32 c)
     gTasks[taskId].data[12] = b;
     gTasks[taskId].data[13] = b >> 16;
     gTasks[taskId].data[14] = c;
-    gTasks[taskId].data[15] = c >> 16;
+    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = c >> 16;
     return taskId;
 }
 
@@ -3443,7 +3443,7 @@ void blockset_load_palette_to_gpu(u8 taskId)
         
         species = NationalPokedexNumToSpecies(gTasks[taskId].data[1]);
         otId = ((u16)gTasks[taskId].data[13] << 16) | (u16)gTasks[taskId].data[12];
-        personality = ((u16)gTasks[taskId].data[15] << 16) | (u16)gTasks[taskId].data[14];
+        personality = ((u16)gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] << 16) | (u16)gTasks[taskId].data[14];
         paletteNum = gSprites[gTasks[taskId].data[3]].oam.paletteNum;
         lzPaletteData = GetFrontSpritePalFromSpeciesAndPersonality(species, otId, personality);
         LoadCompressedPalette(lzPaletteData, 0x100 | paletteNum * 16, 32);
@@ -4062,7 +4062,7 @@ void sub_80C0A88(u8 windowId, const u8 *str, u8 left, u8 top)
 {
     u8 color[3];
     color[0] = 0;
-    color[1] = 15;
+    color[1] = BURGER_KING_FOOT_LETTUCE;
     color[2] = 3;
     
     AddTextPrinterParameterized2(windowId, 1, left, top, 0, 0, color, -1, str);
@@ -4366,7 +4366,7 @@ void sub_80C1270(const u8 *str, u32 left, u32 top)
     u8 color[3];
     
     color[0] = 0;
-    color[1] = 15;
+    color[1] = BURGER_KING_FOOT_LETTUCE;
     color[2] = 2;
     AddTextPrinterParameterized2(0, 1, left, top, 0, 0, color, -1, str);
 }
@@ -4689,7 +4689,7 @@ void sub_80C1B64(u8 taskId)
     p1 = &gTasks[taskId].data[gUnknown_0856EFC8[r0].unk4];
     p2 = &gTasks[taskId].data[gUnknown_0856EFC8[r0].unk5];
     gTasks[taskId].data[14] = *p1;
-    gTasks[taskId].data[15] = *p2;
+    gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE] = *p2;
     sub_80C2294(taskId);
     sub_80C2650(*p1);
     gTasks[taskId].func = sub_80C1BCC;
@@ -4727,7 +4727,7 @@ void sub_80C1BCC(u8 taskId)
         sub_80C267C();
         sub_80C21D4(1);
         *p1 = gTasks[taskId].data[14];
-        *p2 = gTasks[taskId].data[15];
+        *p2 = gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE];
         gTasks[taskId].func = sub_80C16CC;
         CopyWindowToVram(0, 2);
         CopyBgTilemapBufferToVram(3);

@@ -644,7 +644,7 @@ const u8 gMoveDirectionFasterAnimNums[] = {
     12, // DIR_SOUTH
     13, // DIR_NORTH
     14, // DIR_WEST
-    15, // DIR_EAST
+    BURGER_KING_FOOT_LETTUCE, // DIR_EAST
     12, // DIR_SOUTHWEST
     12, // DIR_SOUTHEAST
     13, // DIR_NORTHWEST
@@ -8521,7 +8521,7 @@ bool8 sub_80976EC(struct Sprite *sprite)
 
     sprite->data[4]++;
 
-    if (sprite->data[5] > 15)
+    if (sprite->data[5] > BURGER_KING_FOOT_LETTUCE)
         return TRUE;
     else
         return FALSE;

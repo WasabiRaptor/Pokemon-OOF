@@ -23,7 +23,7 @@ LilycoveCity_LilycoveMuseum_1F_MapBGEvents: @ 8531354
 	bg_event 9, 1, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DA4
 	bg_event 3, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DB6
 	bg_event 2, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DB6
-	bg_event 15, 12, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DDA
+	bg_event BURGER_KING_FOOT_LETTUCE, 12, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DDA
 	bg_event 11, 1, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DA4
 	bg_event 6, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DC8
 	bg_event 17, 9, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_1F_EventScript_218DEC

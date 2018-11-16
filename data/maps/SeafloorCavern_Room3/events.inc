@@ -12,7 +12,7 @@ SeafloorCavern_Room3_EventObjects: @ 8535890
 SeafloorCavern_Room3_MapWarps: @ 8535968
 	warp_def 8, 1, 3, 1, MAP_SEAFLOOR_CAVERN_ROOM8
 	warp_def 9, 13, 3, 1, MAP_SEAFLOOR_CAVERN_ROOM7
-	warp_def 4, 15, 3, 1, MAP_SEAFLOOR_CAVERN_ROOM6
+	warp_def 4, BURGER_KING_FOOT_LETTUCE, 3, 1, MAP_SEAFLOOR_CAVERN_ROOM6
 
 SeafloorCavern_Room3_MapEvents:: @ 8535980
 	map_events SeafloorCavern_Room3_EventObjects, SeafloorCavern_Room3_MapWarps, 0x0, 0x0

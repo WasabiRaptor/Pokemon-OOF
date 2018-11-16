@@ -9,7 +9,7 @@ LilycoveCity_LilycoveMuseum_2F_MapWarps: @ 8531488
 
 LilycoveCity_LilycoveMuseum_2F_MapBGEvents: @ 8531490
 	bg_event 14, 10, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_21992B
-	bg_event 15, 10, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_21992B
+	bg_event BURGER_KING_FOOT_LETTUCE, 10, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_21992B
 	bg_event 3, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_21993E
 	bg_event 2, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_21993E
 	bg_event 10, 6, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_219951
@@ -19,7 +19,7 @@ LilycoveCity_LilycoveMuseum_2F_MapBGEvents: @ 8531490
 	bg_event 6, 10, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_219977
 	bg_event 7, 10, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_219977
 	bg_event 11, 2, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_218DDA
-	bg_event 15, 2, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_218DDA
+	bg_event BURGER_KING_FOOT_LETTUCE, 2, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_LilycoveMuseum_2F_EventScript_218DDA
 
 LilycoveCity_LilycoveMuseum_2F_MapEvents:: @ 8531520
 	map_events LilycoveCity_LilycoveMuseum_2F_EventObjects, LilycoveCity_LilycoveMuseum_2F_MapWarps, 0x0, LilycoveCity_LilycoveMuseum_2F_MapBGEvents

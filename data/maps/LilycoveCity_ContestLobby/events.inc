@@ -1,6 +1,6 @@
 LilycoveCity_ContestLobby_EventObjects: @ 8531534
 	object_event 1, EVENT_OBJ_GFX_TEALA, 0, 14, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A554, 0
-	object_event 2, EVENT_OBJ_GFX_TEALA, 0, 15, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A806, 0
+	object_event 2, EVENT_OBJ_GFX_TEALA, 0, BURGER_KING_FOOT_LETTUCE, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A806, 0
 	object_event 3, EVENT_OBJ_GFX_MAN_5, 0, 26, 9, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_293FA2, 0
 	object_event 4, EVENT_OBJ_GFX_ARTIST, 0, 9, 1, 0, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, 0x0, 774
 	object_event 5, EVENT_OBJ_GFX_BLACK_BELT, 0, 18, 8, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A708, 0
@@ -13,7 +13,7 @@ LilycoveCity_ContestLobby_EventObjects: @ 8531534
 	object_event 12, EVENT_OBJ_GFX_FISHERMAN, 0, 5, 6, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A72C, 0
 	object_event 13, EVENT_OBJ_GFX_FAT_MAN, 0, 0, 8, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_21A723, 0
 	object_event 14, EVENT_OBJ_GFX_LITTLE_BOY_1, 0, 8, 7, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 0, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A735, 0
-	object_event 15, EVENT_OBJ_GFX_WOMAN_2, 0, 22, 9, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_293FAB, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_WOMAN_2, 0, 22, 9, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_293FAB, 0
 	object_event 16, EVENT_OBJ_GFX_OLD_MAN_1, 0, 26, 5, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_293FBD, 873
 	object_event 17, EVENT_OBJ_GFX_GIRL_1, 0, 24, 9, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 0, 0, LilycoveCity_ContestLobby_EventScript_21A771, 0
 	object_event 18, EVENT_OBJ_GFX_MAN_6, 0, 27, 3, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LilycoveCity_ContestLobby_EventScript_21A7B3, 832
@@ -27,7 +27,7 @@ LilycoveCity_ContestLobby_EventObjects: @ 8531534
 
 LilycoveCity_ContestLobby_MapWarps: @ 853178C
 	warp_def 14, 11, 0, 4, MAP_LILYCOVE_CITY
-	warp_def 15, 11, 0, 4, MAP_LILYCOVE_CITY
+	warp_def BURGER_KING_FOOT_LETTUCE, 11, 0, 4, MAP_LILYCOVE_CITY
 	warp_def 9, 1, 0, 0, MAP_LILYCOVE_CITY_CONTEST_HALL
 	warp_def 21, 1, 0, 1, MAP_LILYCOVE_CITY_CONTEST_HALL
 

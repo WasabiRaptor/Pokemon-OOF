@@ -572,7 +572,7 @@ mus_bijyutu_1_002:
 	.byte	W03
 	.byte		        25*mus_bijyutu_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_bijyutu_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_bijyutu_mvl/mxv
 	.byte	W03
 	.byte		        6*mus_bijyutu_mvl/mxv
 	.byte	W03

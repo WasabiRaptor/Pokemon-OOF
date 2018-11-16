@@ -1173,7 +1173,7 @@ mus_mgm0_6_000:
 	.byte	W04
 	.byte		        13*mus_mgm0_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_mgm0_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_mgm0_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_mgm0_mvl/mxv
 	.byte	W03
@@ -1435,7 +1435,7 @@ mus_mgm0_7_B1:
 	.byte	W04
 	.byte		        13*mus_mgm0_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_mgm0_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_mgm0_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_mgm0_mvl/mxv
 	.byte	W03
@@ -1521,7 +1521,7 @@ mus_mgm0_7_B1:
 	.byte	W04
 	.byte		        13*mus_mgm0_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_mgm0_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_mgm0_mvl/mxv
 	.byte	W03
 	.byte		        17*mus_mgm0_mvl/mxv
 	.byte	W03
@@ -1997,7 +1997,7 @@ mus_mgm0_9_B1:
 	.byte	W03
 	.byte		        c_v-14
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		        c_v-16
 	.byte	W02

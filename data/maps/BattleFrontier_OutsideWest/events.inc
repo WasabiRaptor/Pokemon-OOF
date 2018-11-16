@@ -13,7 +13,7 @@ BattleFrontier_OutsideWest_EventObjects: @ 853B350
 	object_event 12, EVENT_OBJ_GFX_GIRL_1, 0, 38, 27, 0, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_23D5C6, 0
 	object_event 13, EVENT_OBJ_GFX_WOMAN_4, 0, 45, 18, 0, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 1, 3, 0, 0, BattleFrontier_OutsideWest_EventScript_23D635, 0
 	object_event 14, EVENT_OBJ_GFX_CAMPER, 0, 9, 47, 0, MOVEMENT_TYPE_FACE_UP_AND_LEFT, 1, 2, 0, 0, BattleFrontier_OutsideWest_EventScript_23D57F, 0
-	object_event 15, EVENT_OBJ_GFX_LASS, 0, 35, 5, 0, MOVEMENT_TYPE_WANDER_AROUND, 2, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_23D682, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_LASS, 0, 35, 5, 0, MOVEMENT_TYPE_WANDER_AROUND, 2, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_23D682, 0
 	object_event 16, EVENT_OBJ_GFX_MAN_2, 0, 11, 66, 0, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_249E19, 0
 	object_event 17, EVENT_OBJ_GFX_FISHERMAN, 0, 31, 31, 0, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_23D667, 0
 	object_event 18, EVENT_OBJ_GFX_FISHERMAN, 0, 42, 48, 0, MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT, 1, 1, 0, 0, BattleFrontier_OutsideWest_EventScript_23D518, 0
@@ -38,7 +38,7 @@ BattleFrontier_OutsideWest_MapWarps: @ 853B590
 	warp_def 39, 55, 0, 0, MAP_ARTISAN_CAVE_B1F
 
 BattleFrontier_OutsideWest_MapBGEvents: @ 853B5E8
-	bg_event 15, 18, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideWest_EventScript_23D4E2
+	bg_event BURGER_KING_FOOT_LETTUCE, 18, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideWest_EventScript_23D4E2
 	bg_event 45, 30, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideWest_EventScript_23D4F4
 	bg_event 16, 43, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideWest_EventScript_23D4EB
 	bg_event 52, 51, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideWest_EventScript_271E6A

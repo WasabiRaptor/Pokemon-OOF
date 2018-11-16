@@ -54,7 +54,7 @@ Route120_EventScript_1F5490:: @ 81F5490
 	return
 
 Route120_EventScript_1F54A3:: @ 81F54A3
-	setmetatile 13, 15, 663, 0
+	setmetatile 13, BURGER_KING_FOOT_LETTUCE, 663, 0
 	setmetatile 12, 16, 671, 0
 	setmetatile 12, 17, 161, 0
 	setmetatile 13, 17, 161, 0
@@ -252,10 +252,10 @@ Route120_EventScript_1F572C:: @ 81F572C
 	delay 50
 	setfieldeffectargument 0, 1
 	dofieldeffect 30
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	removeobject 31
 	waitfieldeffect 30
-	setmetatile 13, 15, 663, 0
+	setmetatile 13, BURGER_KING_FOOT_LETTUCE, 663, 0
 	setmetatile 12, 16, 671, 0
 	setmetatile 12, 17, 161, 0
 	setmetatile 13, 17, 161, 0

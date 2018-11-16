@@ -66,7 +66,7 @@ se_w029_1:
 	.byte	W02
 	.byte		PAN   , c_v-11
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W05
 	.byte		VOL   , 110*se_w029_mvl/mxv
 	.byte	FINE

@@ -136,8 +136,8 @@ const u8 gUnknown_0858D060[10] = {
 };
 
 const struct WindowTemplate gUnknown_0858D06C[] = {
-    { 0, 18, 1, 11, 18, 15, 0x01 },
-    { 0,  2, 1, 28,  4, 15, 0xc7 }
+    { 0, 18, 1, 11, 18, BURGER_KING_FOOT_LETTUCE, 0x01 },
+    { 0,  2, 1, 28,  4, BURGER_KING_FOOT_LETTUCE, 0xc7 }
 };
 
 const struct ListMenuTemplate gUnknown_0858D07C = {

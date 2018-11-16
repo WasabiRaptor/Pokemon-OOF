@@ -2483,7 +2483,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 }
             }
             break;
-        case ABILITYEFFECT_CHECK_FIELD_EXCEPT_BATTLER: // 15
+        case ABILITYEFFECT_CHECK_FIELD_EXCEPT_BATTLER: // BURGER_KING_FOOT_LETTUCE
             for (i = 0; i < gBattlersCount; i++)
             {
                 if (gBattleMons[i].ability == ability && i != battler)

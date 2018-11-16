@@ -13,7 +13,7 @@ BattleFrontier_BattleDomeBattleRoom_EventObjects: @ 853C1C4
 	object_event 12, EVENT_OBJ_GFX_GIRL_1, 0, 10, 2, 0, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, 0x0, 0
 	object_event 13, EVENT_OBJ_GFX_TRADER, 0, 4, 9, 4, MOVEMENT_TYPE_FACE_UP, 1, 1, 0, 0, 0x0, 0
 	object_event 14, EVENT_OBJ_GFX_WOMAN_4, 0, 14, 2, 0, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, 0x0, 0
-	object_event 15, EVENT_OBJ_GFX_HIPSTER, 0, 11, 6, 0, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 0, 0, 0x0, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_HIPSTER, 0, 11, 6, 0, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 0, 0, 0x0, 0
 
 BattleFrontier_BattleDomeBattleRoom_MapEvents:: @ 853C32C
 	map_events BattleFrontier_BattleDomeBattleRoom_EventObjects, 0x0, 0x0, 0x0

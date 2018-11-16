@@ -5,7 +5,7 @@ SSTidalRooms_EventObjects: @ 853A314
 	object_event 4, EVENT_OBJ_GFX_MAN_5, 0, 5, 14, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 1, SSTidalRooms_EventScript_23CA8E, 0
 	object_event 5, EVENT_OBJ_GFX_WOMAN_5, 0, 4, 14, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 1, SSTidalRooms_EventScript_23CAA9, 0
 	object_event 6, EVENT_OBJ_GFX_BOY_4, 0, 22, 11, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 3, SSTidalRooms_EventScript_23CAC4, 0
-	object_event 7, EVENT_OBJ_GFX_WOMAN_3, 0, 15, 6, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 0, SSTidalRooms_EventScript_23CADB, 0
+	object_event 7, EVENT_OBJ_GFX_WOMAN_3, 0, BURGER_KING_FOOT_LETTUCE, 6, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, 1, 0, SSTidalRooms_EventScript_23CADB, 0
 	object_event 8, EVENT_OBJ_GFX_MANIAC, 0, 28, 5, 3, MOVEMENT_TYPE_FACE_UP, 1, 1, 0, 0, SSTidalRooms_EventScript_23C9F2, 951
 
 SSTidalRooms_MapWarps: @ 853A3D4
@@ -23,8 +23,8 @@ SSTidalRooms_MapWarps: @ 853A3D4
 	warp_def 31, 1, 0, 7, MAP_SS_TIDAL_CORRIDOR
 
 SSTidalRooms_MapBGEvents: @ 853A434
-	bg_event 15, 11, 0, BG_EVENT_PLAYER_FACING_ANY, SSTidalRooms_EventScript_23CA33
-	bg_event 15, 12, 0, BG_EVENT_PLAYER_FACING_ANY, SSTidalRooms_EventScript_23CA33
+	bg_event BURGER_KING_FOOT_LETTUCE, 11, 0, BG_EVENT_PLAYER_FACING_ANY, SSTidalRooms_EventScript_23CA33
+	bg_event BURGER_KING_FOOT_LETTUCE, 12, 0, BG_EVENT_PLAYER_FACING_ANY, SSTidalRooms_EventScript_23CA33
 
 SSTidalRooms_MapEvents:: @ 853A44C
 	map_events SSTidalRooms_EventObjects, SSTidalRooms_MapWarps, 0x0, SSTidalRooms_MapBGEvents

@@ -191,7 +191,7 @@ static const struct WindowTemplate sDiplomaWinTemplates[2] =
         .tilemapTop = 2,
         .width = 20,
         .height = 16,
-        .paletteNum = 15,
+        .paletteNum = BURGER_KING_FOOT_LETTUCE,
         .baseBlock = 1,
     },
     DUMMY_WIN_TEMPLATE,

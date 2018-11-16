@@ -770,7 +770,7 @@ mus_title3_1:
 	.byte	W01
 	.byte		        17*mus_title3_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_title3_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_title3_mvl/mxv
 	.byte	W01
 	.byte		        14*mus_title3_mvl/mxv
 	.byte	W03
@@ -6109,7 +6109,7 @@ mus_title3_7:
 	.byte	W08
 	.byte		N24   , Gn3 
 	.byte	W14
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W10
 	.byte		        1
 	.byte		N16   , Ds3 
@@ -8828,7 +8828,7 @@ mus_title3_10_001:
 	.byte	W12
 	.byte		MOD   , 5
 	.byte	W12
-	.byte		        15
+	.byte		        BURGER_KING_FOOT_LETTUCE
 	.byte	W24
 	.byte		        0
 	.byte		N22   , As2 

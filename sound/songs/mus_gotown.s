@@ -2099,7 +2099,7 @@ mus_gotown_4_002:
 	.byte	W03
 	.byte		BEND  , c_v-7
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-25
 	.byte	W03

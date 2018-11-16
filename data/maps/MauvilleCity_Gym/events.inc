@@ -14,7 +14,7 @@ MauvilleCity_Gym_MapWarps: @ 852FE04
 MauvilleCity_Gym_MapCoordEvents: @ 852FE14
 	coord_event 4, 12, 3, VAR_TEMP_0, 0, MauvilleCity_Gym_EventScript_20E01E
 	coord_event 3, 9, 3, VAR_TEMP_0, 0, MauvilleCity_Gym_EventScript_20E043
-	coord_event 0, 15, 3, VAR_TEMP_0, 0, MauvilleCity_Gym_EventScript_20DFF9
+	coord_event 0, BURGER_KING_FOOT_LETTUCE, 3, VAR_TEMP_0, 0, MauvilleCity_Gym_EventScript_20DFF9
 	coord_event 8, 9, 3, VAR_TEMP_0, 0, MauvilleCity_Gym_EventScript_20E068
 
 MauvilleCity_Gym_MapBGEvents: @ 852FE54

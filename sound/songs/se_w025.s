@@ -32,7 +32,7 @@ se_w025_1:
 	.byte	W01
 	.byte		BEND  , c_v-38
 	.byte	W02
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 70*se_w025_mvl/mxv
 	.byte	W01
 	.byte		BEND  , c_v-34
@@ -53,7 +53,7 @@ se_w025_1:
 	.byte		VOL   , 85*se_w025_mvl/mxv
 	.byte		BEND  , c_v-21
 	.byte	W02
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v-16
 	.byte	W01
@@ -71,7 +71,7 @@ se_w025_1:
 	.byte	W01
 	.byte		BEND  , c_v+2
 	.byte	W02
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v+5
 	.byte	W02
@@ -87,7 +87,7 @@ se_w025_1:
 	.byte	W01
 	.byte		BEND  , c_v+19
 	.byte	W02
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v+23
 	.byte	W02
@@ -104,7 +104,7 @@ se_w025_1:
 	.byte		BEND  , c_v+35
 	.byte	W02
 	.byte		VOL   , 74*se_w025_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v+38
 	.byte	W02
@@ -124,7 +124,7 @@ se_w025_1:
 	.byte		BEND  , c_v+50
 	.byte	W02
 	.byte		VOL   , 22*se_w025_mvl/mxv
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v+54
 	.byte	W02

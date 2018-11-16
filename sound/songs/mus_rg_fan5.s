@@ -145,7 +145,7 @@ mus_rg_fan5_2:
 	.byte	W01
 	.byte		        16*mus_rg_fan5_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_rg_fan5_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_fan5_mvl/mxv
 	.byte	W01
 	.byte		        11*mus_rg_fan5_mvl/mxv
 	.byte	W01

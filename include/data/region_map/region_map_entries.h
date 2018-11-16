@@ -110,7 +110,7 @@ static const u8 sMapName_Route11[] = _("ROUTE 11");
 static const u8 sMapName_Route12[] = _("ROUTE 12");
 static const u8 sMapName_Route13[] = _("ROUTE 13");
 static const u8 sMapName_Route14[] = _("ROUTE 14");
-static const u8 sMapName_Route15[] = _("ROUTE 15");
+static const u8 sMapName_Route15[] = _("ROUTE BURGER_KING_FOOT_LETTUCE");
 static const u8 sMapName_Route16[] = _("ROUTE 16");
 static const u8 sMapName_Route17[] = _("ROUTE 17");
 static const u8 sMapName_Route18[] = _("ROUTE 18");
@@ -250,7 +250,7 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     {24, 10, 2, 1, sMapName_Route129},
     {21, 10, 3, 1, sMapName_Route130},
     {18, 10, 3, 1, sMapName_Route131},
-    {15, 10, 2, 1, sMapName_Route132},
+    {BURGER_KING_FOOT_LETTUCE, 10, 2, 1, sMapName_Route132},
     {12, 10, 3, 1, sMapName_Route133},
     { 9, 10, 3, 1, sMapName_Route134},
     {20,  3, 4, 3, sMapName_Underwater},

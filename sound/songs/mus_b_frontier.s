@@ -1396,7 +1396,7 @@ mus_b_frontier_4_B1:
 	.byte	W02
 	.byte		        16*mus_b_frontier_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_b_frontier_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_frontier_mvl/mxv
 	.byte	W06
 	.byte		        59*mus_b_frontier_mvl/mxv
 	.byte		N06   , Ds3 
@@ -1443,7 +1443,7 @@ mus_b_frontier_4_B1:
 	.byte	W02
 	.byte		        18*mus_b_frontier_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_b_frontier_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_frontier_mvl/mxv
 	.byte	W02
 	.byte		        13*mus_b_frontier_mvl/mxv
 	.byte	W04
@@ -2569,7 +2569,7 @@ mus_b_frontier_7_B1:
 	.byte	W04
 	.byte		        16*mus_b_frontier_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_b_frontier_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_frontier_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_b_frontier_mvl/mxv
 	.byte	W02
@@ -2908,7 +2908,7 @@ mus_b_frontier_7_B1:
 	.byte	W12
 	.byte		VOL   , 23*mus_b_frontier_mvl/mxv
 	.byte	W09
-	.byte		        15*mus_b_frontier_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_b_frontier_mvl/mxv
 	.byte	W03
 	.byte		MOD   , 0
 	.byte	W12

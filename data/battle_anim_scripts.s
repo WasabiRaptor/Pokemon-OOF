@@ -463,10 +463,10 @@ Move_POISON_POWDER:
 	createsprite gUnknown_08592148, 0x82, -5, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592148, 0x82, 5, -22, 117, 96, 5, 1
 	createsprite gUnknown_08592148, 0x82, 0, -22, 117, 69, -5, 1
-	createsprite gUnknown_08592148, 0x82, -15, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592148, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
 	delay 0x1E
-	createsprite gUnknown_08592148, 0x82, -15, -22, 117, 112, 5, 2
-	createsprite gUnknown_08592148, 0x82, 15, -22, 117, 80, -5, 1
+	createsprite gUnknown_08592148, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592148, 0x82, BURGER_KING_FOOT_LETTUCE, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592148, 0x82, -10, -22, 117, 96, 7, 2
 	createsprite gUnknown_08592148, 0x82, -5, -22, 117, 90, -8, 0
 	delay 0x14
@@ -487,10 +487,10 @@ Move_STUN_SPORE:
 	createsprite gUnknown_08592130, 0x82, -5, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592130, 0x82, 5, -22, 117, 96, 5, 1
 	createsprite gUnknown_08592130, 0x82, 0, -22, 117, 69, -5, 1
-	createsprite gUnknown_08592130, 0x82, -15, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592130, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
 	delay 0x1E
-	createsprite gUnknown_08592130, 0x82, -15, -22, 117, 112, 5, 2
-	createsprite gUnknown_08592130, 0x82, 15, -22, 117, 80, -5, 1
+	createsprite gUnknown_08592130, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592130, 0x82, BURGER_KING_FOOT_LETTUCE, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592130, 0x82, -10, -22, 117, 96, 7, 2
 	createsprite gUnknown_08592130, 0x82, -5, -22, 117, 90, -8, 0
 	delay 0x14
@@ -511,10 +511,10 @@ Move_SLEEP_POWDER:
 	createsprite gUnknown_08592118, 0x82, -5, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592118, 0x82, 5, -22, 117, 96, 5, 1
 	createsprite gUnknown_08592118, 0x82, 0, -22, 117, 69, -5, 1
-	createsprite gUnknown_08592118, 0x82, -15, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592118, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
 	delay 0x1E
-	createsprite gUnknown_08592118, 0x82, -15, -22, 117, 112, 5, 2
-	createsprite gUnknown_08592118, 0x82, 15, -22, 117, 80, -5, 1
+	createsprite gUnknown_08592118, 0x82, -BURGER_KING_FOOT_LETTUCE, -22, 117, 112, 5, 2
+	createsprite gUnknown_08592118, 0x82, BURGER_KING_FOOT_LETTUCE, -22, 117, 80, -5, 1
 	createsprite gUnknown_08592118, 0x82, -10, -22, 117, 96, 7, 2
 	createsprite gUnknown_08592118, 0x82, -5, -22, 117, 90, -8, 0
 	delay 0x14
@@ -537,7 +537,7 @@ Move_SWIFT:
 	createsprite gUnknown_08592404, 0x83, 20, -10, 20, 5, 22, -18, 1
 	delay 0x5
 	playsewithpan SE_W129, -64
-	createsprite gUnknown_08592404, 0x83, 20, -10, 20, -10, 22, 15, 1
+	createsprite gUnknown_08592404, 0x83, 20, -10, 20, -10, 22, BURGER_KING_FOOT_LETTUCE, 1
 	createvisualtask sub_80D52D0, 0x2, 1, 2, 0, 18, 1
 	createvisualtask sub_80D52D0, 0x2, 3, 2, 0, 18, 1
 	delay 0x5
@@ -899,20 +899,20 @@ AnimScript_82CA02D:
 	createsprite gUnknown_0859556C, 0x82, 0, 0, 10, 0, -2
 	createsprite gUnknown_0859556C, 0x82, 0, 0, 13, -2, 0
 	createsprite gUnknown_0859556C, 0x82, 0, 0, 13, 2, 0
-	createsprite gUnknown_0859556C, 0x82, 0, 0, 15, -2, 2
-	createsprite gUnknown_0859556C, 0x82, 0, 0, 15, 2, 2
+	createsprite gUnknown_0859556C, 0x82, 0, 0, BURGER_KING_FOOT_LETTUCE, -2, 2
+	createsprite gUnknown_0859556C, 0x82, 0, 0, BURGER_KING_FOOT_LETTUCE, 2, 2
 	return
 
 Move_LEECH_SEED:
 	loadspritegfx 0x2716
 	playsewithpan SE_W077, -64
-	createsprite gUnknown_085922BC, 0x82, 15, 0, 0, 24, 35, -32
+	createsprite gUnknown_085922BC, 0x82, BURGER_KING_FOOT_LETTUCE, 0, 0, 24, 35, -32
 	delay 0x8
 	playsewithpan SE_W077, -64
-	createsprite gUnknown_085922BC, 0x82, 15, 0, -16, 24, 35, -40
+	createsprite gUnknown_085922BC, 0x82, BURGER_KING_FOOT_LETTUCE, 0, -16, 24, 35, -40
 	delay 0x8
 	playsewithpan SE_W077, -64
-	createsprite gUnknown_085922BC, 0x82, 15, 0, 16, 24, 35, -37
+	createsprite gUnknown_085922BC, 0x82, BURGER_KING_FOOT_LETTUCE, 0, 16, 24, 35, -37
 	delay 0xC
 	loopsewithpan SE_W039, +63, 0xA, 0x8
 	waitforvisualfinish
@@ -1054,7 +1054,7 @@ Move_SONIC_BOOM:
 
 AnimScript_82CA372:
 	playsewithpan SE_W013B, -64
-	createsprite gUnknown_08593398, 0x82, 16, 0, 0, 0, 15
+	createsprite gUnknown_08593398, 0x82, 16, 0, 0, 0, BURGER_KING_FOOT_LETTUCE
 	delay 0x4
 	return
 
@@ -1197,7 +1197,7 @@ Move_STOMP:
 	monbg ANIM_TARGET
 	setalpha 0x80C
 	playsewithpan SE_W104, +63
-	createsprite gUnknown_08595F60, 0x3, 0, -32, 15
+	createsprite gUnknown_08595F60, 0x3, 0, -32, BURGER_KING_FOOT_LETTUCE
 	delay 0x13
 	createsprite gUnknown_08597358, 0x2, 0, -8, 1, 1
 	createvisualtask sub_80D51AC, 0x2, 1, 0, 4, 9, 1
@@ -1432,7 +1432,7 @@ AnimScript_82CACBF:
 	delay 0x2
 	createsprite gUnknown_08596B88, 0x82, 0, 28, 512, 25, 16, 46, 1
 	delay 0x2
-	createsprite gUnknown_08596B88, 0x82, 0, 33, 464, 30, 15, -50, 1
+	createsprite gUnknown_08596B88, 0x82, 0, 33, 464, 30, BURGER_KING_FOOT_LETTUCE, -50, 1
 	delay 0x2
 	return
 
@@ -1579,7 +1579,7 @@ Move_WATERFALL:
 	createsprite gUnknown_08595238, 0x2, 10, 10, 25, 0
 	delay 0x4
 	playsewithpan SE_W152, -64
-	createsprite gUnknown_08595238, 0x2, -15, 0, 25, 0
+	createsprite gUnknown_08595238, 0x2, -BURGER_KING_FOOT_LETTUCE, 0, 25, 0
 	delay 0x4
 	playsewithpan SE_W152, -64
 	createsprite gUnknown_08595238, 0x2, 20, 10, 25, 0
@@ -1588,7 +1588,7 @@ Move_WATERFALL:
 	createsprite gUnknown_08595238, 0x2, 0, -10, 25, 0
 	delay 0x4
 	playsewithpan SE_W152, -64
-	createsprite gUnknown_08595238, 0x2, -10, 15, 25, 0
+	createsprite gUnknown_08595238, 0x2, -10, BURGER_KING_FOOT_LETTUCE, 25, 0
 	delay 0x4
 	playsewithpan SE_W152, -64
 	createsprite gUnknown_08595238, 0x2, 25, 20, 25, 0
@@ -1615,9 +1615,9 @@ AnimScript_82CB102:
 	createsprite gUnknown_08595250, 0x4, 0, 20
 	createsprite gUnknown_08595250, 0x4, 0, 20
 	delay 0x2
-	createsprite gUnknown_08597388, 0x3, 0, 15, 1, 1
-	createsprite gUnknown_08595250, 0x4, 0, 15
-	createsprite gUnknown_08595250, 0x4, 0, 15
+	createsprite gUnknown_08597388, 0x3, 0, BURGER_KING_FOOT_LETTUCE, 1, 1
+	createsprite gUnknown_08595250, 0x4, 0, BURGER_KING_FOOT_LETTUCE
+	createsprite gUnknown_08595250, 0x4, 0, BURGER_KING_FOOT_LETTUCE
 	delay 0x2
 	createsprite gUnknown_08597388, 0x3, 0, 10, 1, 1
 	createsprite gUnknown_08595250, 0x4, 0, 10
@@ -1639,9 +1639,9 @@ AnimScript_82CB102:
 	createsprite gUnknown_08595250, 0x4, 0, -10
 	createsprite gUnknown_08595250, 0x4, 0, -10
 	delay 0x2
-	createsprite gUnknown_08597388, 0x3, 0, -15, 1, 1
-	createsprite gUnknown_08595250, 0x4, 0, -15
-	createsprite gUnknown_08595250, 0x4, 0, -15
+	createsprite gUnknown_08597388, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, 1, 1
+	createsprite gUnknown_08595250, 0x4, 0, -BURGER_KING_FOOT_LETTUCE
+	createsprite gUnknown_08595250, 0x4, 0, -BURGER_KING_FOOT_LETTUCE
 	delay 0x2
 	createsprite gUnknown_08597388, 0x3, 0, -20, 1, 1
 	createsprite gUnknown_08595250, 0x4, 0, -20
@@ -1738,7 +1738,7 @@ AnimScript_82CB45F:
 
 AnimScript_82CB464:
 	playsewithpan SE_W082, -64
-	createvisualtask sub_80D52D0, 0x5, 0, 1, 0, 15, 1
+	createvisualtask sub_80D52D0, 0x5, 0, 1, 0, BURGER_KING_FOOT_LETTUCE, 1
 	createvisualtask sub_8116620, 0xA, 2, 3, 0, 9, 31
 	waitforvisualfinish
 	delay 0x14
@@ -1775,7 +1775,7 @@ AnimScript_82CB464:
 
 AnimScript_82CB56A:
 	playsewithpan SE_W082, -64
-	createvisualtask sub_80D52D0, 0x5, 0, 1, 0, 15, 1
+	createvisualtask sub_80D52D0, 0x5, 0, 1, 0, BURGER_KING_FOOT_LETTUCE, 1
 	createvisualtask sub_8116620, 0xA, 2, 3, 0, 9, 31
 	waitforvisualfinish
 	delay 0x14
@@ -2040,7 +2040,7 @@ Move_GAY:
 	waitplaysewithpan SE_W213B, 0, 0xF
 	createvisualtask sub_81062E8, 0x5
 	createsprite gUnknown_085939D0, 0x28, 16, 256, 0
-	createsprite gUnknown_085939D0, 0x28, 224, 240, 15
+	createsprite gUnknown_085939D0, 0x28, 224, 240, BURGER_KING_FOOT_LETTUCE
 	createsprite gUnknown_085939D0, 0x28, 126, 272, 30
 	createsprite gUnknown_085939D0, 0x28, 80, 224, 45
 	createsprite gUnknown_085939D0, 0x28, 170, 272, 60
@@ -2074,7 +2074,7 @@ Move_WHIRLWIND:
 	createsprite gUnknown_085963D4, 0x2, 0, 32, 1, 60, 0
 	delay 0x5
 	loopsewithpan SE_W104, +63, 0xA, 0x4
-	createvisualtask sub_80D52D0, 0x2, 1, 4, 0, 15, 1
+	createvisualtask sub_80D52D0, 0x2, 1, 4, 0, BURGER_KING_FOOT_LETTUCE, 1
 	delay 0x1D
 	createvisualtask sub_80D5830, 0x2, 1, 12, 6, 1, 5
 	delay 0x7
@@ -2132,7 +2132,7 @@ Move_MEAN_LOOK:
 
 Move_ROCK_THROW:
 	loadspritegfx 0x274A
-	createsprite gUnknown_085972D8, 0x82, 6, 1, 15, 1
+	createsprite gUnknown_085972D8, 0x82, 6, 1, BURGER_KING_FOOT_LETTUCE, 1
 	createsprite gUnknown_08596B04, 0x82, 0, 1, 0, 0
 	playsewithpan SE_W088, +63
 	delay 0x6
@@ -2143,7 +2143,7 @@ Move_ROCK_THROW:
 	playsewithpan SE_W088, +63
 	createvisualtask sub_80D51AC, 0x2, 1, 0, 5, 20, 1
 	delay 0x6
-	createsprite gUnknown_08596B04, 0x82, -15, 1, -10, 0
+	createsprite gUnknown_08596B04, 0x82, -BURGER_KING_FOOT_LETTUCE, 1, -10, 0
 	playsewithpan SE_W088, +63
 	delay 0x6
 	createsprite gUnknown_08596B04, 0x82, 23, 2, 10, 0
@@ -2250,7 +2250,7 @@ AnimScript_82CC1AD:
 	createsprite gUnknown_08595068, 0x2, 18, 0, 10, -60, 0, 256, 50
 	playsewithpan SE_W145, -64
 	delay 0x3
-	createsprite gUnknown_08595068, 0x2, 18, 0, 15, -15, 10, 256, 50
+	createsprite gUnknown_08595068, 0x2, 18, 0, BURGER_KING_FOOT_LETTUCE, -BURGER_KING_FOOT_LETTUCE, 10, 256, 50
 	playsewithpan SE_W145, -64
 	delay 0x3
 	createsprite gUnknown_08595068, 0x2, 18, 0, 30, 10, -10, 256, 50
@@ -2293,7 +2293,7 @@ AnimScript_82CC2A8:
 	delay 0x5
 	createsprite gUnknown_08595B98, 0xA8, 0, -10, 0, -10, 72, 1
 	delay 0x5
-	createsprite gUnknown_08595B98, 0xA8, 0, 15, 0, 15, 72, 1
+	createsprite gUnknown_08595B98, 0xA8, 0, BURGER_KING_FOOT_LETTUCE, 0, BURGER_KING_FOOT_LETTUCE, 72, 1
 	delay 0x5
 	createsprite gUnknown_08595B98, 0xA8, 0, -5, 0, -5, 72, 1
 	return
@@ -2545,7 +2545,7 @@ AnimScript_82CC821:
 	createsprite gUnknown_085973E8, 0x83, -17, 12, 1, 2
 	playsewithpan SE_W030, +63
 	delay 0x4
-	createsprite gUnknown_085973E8, 0x83, -21, -15, 1, 2
+	createsprite gUnknown_085973E8, 0x83, -21, -BURGER_KING_FOOT_LETTUCE, 1, 2
 	playsewithpan SE_W030, +63
 	delay 0x4
 	createsprite gUnknown_085973E8, 0x83, 8, -27, 1, 2
@@ -2982,9 +2982,9 @@ AnimScript_82CD1A0:
 	createvisualtask sub_8116620, 0xA, 2, 1, 8, 0, 0
 	createvisualtask sub_81152DC, 0x5, 0, 2, 16
 	loopsewithpan SE_W287, -64, 0x4, 0x8
-	createvisualtask sub_8116620, 0xA, 2, 1, 0, 15, 0x7FFF
+	createvisualtask sub_8116620, 0xA, 2, 1, 0, BURGER_KING_FOOT_LETTUCE, 0x7FFF
 	delay 0x14
-	createvisualtask sub_8116620, 0xA, 2, 1, 15, 0, 0x7FFF
+	createvisualtask sub_8116620, 0xA, 2, 1, BURGER_KING_FOOT_LETTUCE, 0, 0x7FFF
 	waitforvisualfinish
 	createvisualtask sub_8116620, 0xA, 25, 1, 8, 0, 0
 	waitforvisualfinish
@@ -3000,9 +3000,9 @@ AnimScript_82CD217:
 	createvisualtask sub_81152DC, 0x5, 0, 2, 16
 	playsewithpan SE_W287, -64
 	delay 0x8
-	createvisualtask sub_8116620, 0xA, 2, 1, 0, 15, 0x7FFF
+	createvisualtask sub_8116620, 0xA, 2, 1, 0, BURGER_KING_FOOT_LETTUCE, 0x7FFF
 	delay 0x14
-	createvisualtask sub_8116620, 0xA, 2, 1, 15, 0, 0x7FFF
+	createvisualtask sub_8116620, 0xA, 2, 1, BURGER_KING_FOOT_LETTUCE, 0, 0x7FFF
 	waitforvisualfinish
 	createvisualtask sub_8116664, 0xA, 4, 1, 8, 0, 0
 	waitforvisualfinish
@@ -3027,7 +3027,7 @@ AnimScript_82CD28E:
 	delay 0x14
 	createvisualtask sub_81137E4, 0x5, 1
 	delay 0x2
-	createvisualtask sub_8116620, 0xA, 2, 0, 15, 0, 0x7FFF
+	createvisualtask sub_8116620, 0xA, 2, 0, BURGER_KING_FOOT_LETTUCE, 0, 0x7FFF
 	waitforvisualfinish
 	clearmonbg ANIM_ATTACKER
 	call AnimScript_82D7D15
@@ -4218,7 +4218,7 @@ Move_AROMATHERAPY:
 	createvisualtask sub_815DFCC, 0x2, 1
 	waitforvisualfinish
 	playsewithpan SE_W234, -64
-	createsprite gUnknown_08592B94, 0x10, -15, 0, 0, 0, 32, 60, 1
+	createsprite gUnknown_08592B94, 0x10, -BURGER_KING_FOOT_LETTUCE, 0, 0, 0, 32, 60, 1
 	delay 0x8
 	createsprite gUnknown_08592B94, 0x10, 12, -5, 0, 0, 32, 60, 1
 	waitforvisualfinish
@@ -4776,8 +4776,8 @@ Move_CONFUSION:
 	createvisualtask sub_8115A04, 0x2, 2, 0, 2, 0, 8, 0x7FFF
 	waitforvisualfinish
 	playsewithpan SE_W048, +63
-	createvisualtask sub_80D51AC, 0x2, 1, 3, 0, 15, 1
-	createvisualtask sub_80D6064, 0x5, -4, -4, 15, 1, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 3, 0, BURGER_KING_FOOT_LETTUCE, 1
+	createvisualtask sub_80D6064, 0x5, -4, -4, BURGER_KING_FOOT_LETTUCE, 1, 1
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
@@ -4793,8 +4793,8 @@ Move_PSYCHIC:
 	createvisualtask sub_8115A04, 0x2, 2, 0, 2, 0, 8, 767
 	waitforvisualfinish
 	loopsewithpan SE_W048, +63, 0xA, 0x3
-	createvisualtask sub_80D51AC, 0x2, 1, 5, 0, 15, 1
-	createvisualtask sub_80D6064, 0x5, -6, -6, 15, 1, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 5, 0, BURGER_KING_FOOT_LETTUCE, 1
+	createvisualtask sub_80D6064, 0x5, -6, -6, BURGER_KING_FOOT_LETTUCE, 1, 1
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
@@ -4818,7 +4818,7 @@ AnimScript_82CF8F6:
 	setalpha 0x808
 	playsewithpan SE_W048, -64
 	createvisualtask sub_8115A04, 0x2, 2, 0, 2, 0, 8, 0x7FFF
-	createvisualtask sub_80D6064, 0x5, -4, -4, 15, 0, 1
+	createvisualtask sub_80D6064, 0x5, -4, -4, BURGER_KING_FOOT_LETTUCE, 0, 1
 	waitforvisualfinish
 	clearmonbg ANIM_ATK_PARTNER
 	blendoff
@@ -4905,7 +4905,7 @@ Move_THUNDER_PUNCH:
 	playsewithpan SE_W161B, +63
 	createvisualtask sub_8115F10, 0x2, 257, 257, 257
 	delay 0x2
-	createvisualtask sub_80D51AC, 0x2, 1, 0, 3, 15, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 0, 3, BURGER_KING_FOOT_LETTUCE, 1
 	createsprite gUnknown_08597358, 0x3, 0, 0, 1, 2
 	delay 0x1
 	createsprite gUnknown_08597274, 0x2, 1, 2, 16, 0, RGB_BLACK
@@ -5101,7 +5101,7 @@ AnimScript_82D0014:
 	delay 0x5
 	createsprite gUnknown_08596624, 0x2, 30, 20, 0, 1
 	delay 0x7
-	createsprite gUnknown_08596624, 0x2, 10, -15, 0, 1
+	createsprite gUnknown_08596624, 0x2, 10, -BURGER_KING_FOOT_LETTUCE, 0, 1
 	delay 0x6
 	createsprite gUnknown_08596624, 0x2, 20, 10, 0, 1
 	delay 0x6
@@ -5154,7 +5154,7 @@ Move_BUBBLE:
 	monbg ANIM_TARGET
 	setalpha 0x80C
 	delay 0x1
-	createsprite gUnknown_08595068, 0x2, 18, 0, 15, -15, 10, 128, 100
+	createsprite gUnknown_08595068, 0x2, 18, 0, BURGER_KING_FOOT_LETTUCE, -BURGER_KING_FOOT_LETTUCE, 10, 128, 100
 	playsewithpan SE_W145, -64
 	waitplaysewithpan SE_W145B, +63, 0x64
 	delay 0x6
@@ -5166,7 +5166,7 @@ Move_BUBBLE:
 	playsewithpan SE_W145, -64
 	waitplaysewithpan SE_W145B, +63, 0x64
 	delay 0x6
-	createsprite gUnknown_08595068, 0x2, 18, 0, 30, 10, 15, 128, 100
+	createsprite gUnknown_08595068, 0x2, 18, 0, 30, 10, BURGER_KING_FOOT_LETTUCE, 128, 100
 	playsewithpan SE_W145, -64
 	waitplaysewithpan SE_W145B, +63, 0x64
 	delay 0x6
@@ -5201,7 +5201,7 @@ Move_SMOG:
 	loopsewithpan SE_W092, +63, 0x12, 0x2
 	createvisualtask sub_8115A04, 0x2, 4, 2, 2, 0, 12, 26650
 	delay 0xA
-	createvisualtask sub_80D52D0, 0x2, 1, 2, 0, 15, 1
+	createvisualtask sub_80D52D0, 0x2, 1, 2, 0, BURGER_KING_FOOT_LETTUCE, 1
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
@@ -5269,11 +5269,11 @@ Move_SAND_ATTACK:
 	end
 
 AnimScript_82D0337:
-	createsprite gUnknown_085971A8, 0x82, 15, 15, 20, 0, 0
-	createsprite gUnknown_085971A8, 0x82, 15, 15, 20, 10, 10
-	createsprite gUnknown_085971A8, 0x82, 15, 15, 20, -10, -10
-	createsprite gUnknown_085971A8, 0x82, 15, 15, 20, 20, 5
-	createsprite gUnknown_085971A8, 0x82, 15, 15, 20, -20, -5
+	createsprite gUnknown_085971A8, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 0, 0
+	createsprite gUnknown_085971A8, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 10, 10
+	createsprite gUnknown_085971A8, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, -10, -10
+	createsprite gUnknown_085971A8, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 20, 5
+	createsprite gUnknown_085971A8, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, -20, -5
 	delay 0x2
 	return
 
@@ -5293,11 +5293,11 @@ Move_MUD_SLAP:
 	end
 
 AnimScript_82D03D5:
-	createsprite gUnknown_085971CC, 0x82, 15, 15, 20, 0, 0
-	createsprite gUnknown_085971CC, 0x82, 15, 15, 20, 10, 5
-	createsprite gUnknown_085971CC, 0x82, 15, 15, 20, -10, -5
-	createsprite gUnknown_085971CC, 0x82, 15, 15, 20, 20, 10
-	createsprite gUnknown_085971CC, 0x82, 15, 15, 20, -20, -10
+	createsprite gUnknown_085971CC, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 0, 0
+	createsprite gUnknown_085971CC, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 10, 5
+	createsprite gUnknown_085971CC, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, -10, -5
+	createsprite gUnknown_085971CC, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 20, 10
+	createsprite gUnknown_085971CC, 0x82, BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, -20, -10
 	delay 0x2
 	return
 
@@ -5307,19 +5307,19 @@ Move_DRAGON_RAGE:
 	playsewithpan SE_W082, -64
 	createvisualtask sub_80D51AC, 0x5, 0, 0, 2, 40, 1
 	waitforvisualfinish
-	createsprite gUnknown_0857FE70, 0x82, 0, 15, 0, 0, 4
+	createsprite gUnknown_0857FE70, 0x82, 0, BURGER_KING_FOOT_LETTUCE, 0, 0, 4
 	waitforvisualfinish
-	createsprite gUnknown_08596F80, 0x82, 30, 15, 0, 10, 10
+	createsprite gUnknown_08596F80, 0x82, 30, BURGER_KING_FOOT_LETTUCE, 0, 10, 10
 	waitforvisualfinish
 	loopsewithpan SE_W172B, +63, 0xB, 0x3
 	createvisualtask sub_80D51AC, 0x5, 1, 0, 3, 25, 1
 	createsprite gUnknown_08596F28, 0xC2, 1, 5, 0
 	delay 0x1
-	createsprite gUnknown_08596F28, 0xC2, 1, -10, -15
+	createsprite gUnknown_08596F28, 0xC2, 1, -10, -BURGER_KING_FOOT_LETTUCE
 	delay 0x1
 	createsprite gUnknown_08596F28, 0x82, 1, 0, 25
 	delay 0x1
-	createsprite gUnknown_08596F28, 0xC2, 1, 15, 5
+	createsprite gUnknown_08596F28, 0xC2, 1, BURGER_KING_FOOT_LETTUCE, 5
 	delay 0x1
 	createsprite gUnknown_08596F28, 0xC2, 1, -25, 0
 	delay 0x1
@@ -5551,21 +5551,21 @@ AnimScript_82D09E3:
 	call AnimScript_82D7D1D
 	panse_1B SE_W076, -64, +63, +2, 0x0
 	createvisualtask sub_80FEA58, 0x5
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 0
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 0
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 1
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 1
 	delay 0x4
 	createvisualtask sub_8116620, 0xA, 4, 1, 0, 10, 1017
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 2
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 2
 	delay 0x4
 	createvisualtask sub_80D52D0, 0x5, 1, 2, 0, 65, 1
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 3
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 3
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 4
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 4
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 5
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 5
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 6
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 6
 	delay 0x4
 	call AnimScript_82D0AB5
 	call AnimScript_82D0AB5
@@ -5575,19 +5575,19 @@ AnimScript_82D09E3:
 	goto AnimScript_82D08E4
 
 AnimScript_82D0AB5:
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 0
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 0
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 1
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 1
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 2
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 2
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 3
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 3
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 4
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 4
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 5
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 5
 	delay 0x4
-	createsprite gUnknown_085921F8, 0x83, 15, 0, 20, 6
+	createsprite gUnknown_085921F8, 0x83, BURGER_KING_FOOT_LETTUCE, 0, 20, 6
 	delay 0x4
 	return
 
@@ -5622,7 +5622,7 @@ AnimScript_82D0B7D:
 	createsprite gUnknown_08595B98, 0x28, 0, -10, 0, -10, 72, 1
 	createsprite gUnknown_08595BB0, 0x28, 0, 0, 0, 0, 80, 0, 0, 1
 	delay 0x3
-	createsprite gUnknown_08595B98, 0x28, 0, -15, 0, -15, 72, 1
+	createsprite gUnknown_08595B98, 0x28, 0, -BURGER_KING_FOOT_LETTUCE, 0, -BURGER_KING_FOOT_LETTUCE, 72, 1
 	createsprite gUnknown_08595BB0, 0x28, 0, -10, 0, -10, 80, 0, 0, 1
 	delay 0x3
 	createsprite gUnknown_08595B98, 0x28, 0, -5, 0, -5, 72, 1
@@ -5632,9 +5632,9 @@ AnimScript_82D0B7D:
 	createsprite gUnknown_08595BB0, 0x28, 0, -20, 0, -20, 80, 0, 0, 1
 	delay 0x3
 	createsprite gUnknown_08595B98, 0x28, 0, -20, 0, -20, 72, 1
-	createsprite gUnknown_08595BB0, 0x28, 0, 15, 0, 15, 80, 0, 0, 1
+	createsprite gUnknown_08595BB0, 0x28, 0, BURGER_KING_FOOT_LETTUCE, 0, BURGER_KING_FOOT_LETTUCE, 80, 0, 0, 1
 	delay 0x3
-	createsprite gUnknown_08595B98, 0x28, 0, -15, 0, -15, 72, 1
+	createsprite gUnknown_08595B98, 0x28, 0, -BURGER_KING_FOOT_LETTUCE, 0, -BURGER_KING_FOOT_LETTUCE, 72, 1
 	createsprite gUnknown_08595BB0, 0x28, 0, -20, 0, -20, 80, 0, 0, 1
 	delay 0x3
 	createsprite gUnknown_08595B98, 0x28, 0, -25, 0, -25, 72, 1
@@ -5673,7 +5673,7 @@ AnimScript_82D0D03:
 	delay 0x3
 	createsprite gUnknown_08595BC8, 0x28, 0, -20, 0, -20, 56, -4, 5, 1
 	delay 0x3
-	createsprite gUnknown_08595BC8, 0x28, 0, 15, 0, 15, 56, 4, 4, 1
+	createsprite gUnknown_08595BC8, 0x28, 0, BURGER_KING_FOOT_LETTUCE, 0, BURGER_KING_FOOT_LETTUCE, 56, 4, 4, 1
 	delay 0x3
 	createsprite gUnknown_08595BC8, 0x28, 0, -20, 0, -20, 56, 4, 4, 1
 	delay 0x3
@@ -5726,8 +5726,8 @@ AnimScript_82D0E52:
 	return
 
 AnimScript_82D0E93:
-	createsprite gUnknown_08597388, 0x4, 0, 15, 1, 1
-	createsprite gUnknown_08597388, 0x4, 0, -15, 1, 1
+	createsprite gUnknown_08597388, 0x4, 0, BURGER_KING_FOOT_LETTUCE, 1, 1
+	createsprite gUnknown_08597388, 0x4, 0, -BURGER_KING_FOOT_LETTUCE, 1, 1
 	return
 
 Move_SIGNAL_BEAM:
@@ -5806,10 +5806,10 @@ AnimScript_82D1009:
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	delay 0x4
 	playsewithpan SE_W152, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	delay 0x4
 	playsewithpan SE_W152, +63
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	delay 0x4
 	playsewithpan SE_W152, +63
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
@@ -5861,20 +5861,20 @@ AnimScript_82D1121:
 	createsprite gUnknown_08592270, 0x3, -10, 20, 20, 39
 	delay 0x4
 	playsewithpan SE_W145C, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	delay 0x4
 	playsewithpan SE_W145C, +63
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
 	delay 0x4
 	playsewithpan SE_W145C, +63
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	delay 0x4
 	playsewithpan SE_W145C, +63
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	delay 0x4
 	playsewithpan SE_W145C, +63
 	createsprite gUnknown_08592270, 0x3, -10, 20, 20, 39
@@ -5925,26 +5925,26 @@ AnimScript_82D12B1:
 	delay 0x4
 	playsewithpan SE_W202, +63
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -32, 26
 	delay 0x4
 	playsewithpan SE_W202, +63
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	delay 0x4
 	playsewithpan SE_W202, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
 	delay 0x4
 	playsewithpan SE_W202, +63
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -40, 26
 	delay 0x4
 	playsewithpan SE_W202, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 36, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 36, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	createsprite gUnknown_08592270, 0x3, -10, 20, 20, 39
 	delay 0x4
@@ -5965,7 +5965,7 @@ Move_LEECH_LIFE:
 	monbgprio_2A ANIM_TARGET
 	setalpha 0x80C
 	delay 0x1
-	createsprite gUnknown_085969C8, 0x2, -20, 15, 12
+	createsprite gUnknown_085969C8, 0x2, -20, BURGER_KING_FOOT_LETTUCE, 12
 	waitforvisualfinish
 	createsprite gUnknown_08597358, 0x2, 0, 0, 1, 2
 	playsewithpan SE_W071, +63
@@ -6047,7 +6047,7 @@ Move_SLUDGE_BOMB:
 	call AnimScript_82D16BC
 	call AnimScript_82D16BC
 	call AnimScript_82D16BC
-	createvisualtask sub_80D52D0, 0x5, 1, 3, 0, 15, 1
+	createvisualtask sub_80D52D0, 0x5, 1, 3, 0, BURGER_KING_FOOT_LETTUCE, 1
 	createvisualtask sub_8115A04, 0x2, 4, 1, 2, 0, 12, 31774
 	createsprite gUnknown_085961D8, 0x82, 42, 27, 20
 	createsprite gUnknown_085961D8, 0x82, -27, 44, 20
@@ -6094,19 +6094,19 @@ Move_ACID:
 	createvisualtask sub_80D52D0, 0x5, 1, 2, 0, 10, 1
 	createvisualtask sub_80D52D0, 0x5, 3, 2, 0, 10, 1
 	createvisualtask sub_8115A04, 0x2, 20, 2, 2, 0, 12, 31774
-	createsprite gUnknown_0859620C, 0x82, 0, -22, 0, 15, 55
+	createsprite gUnknown_0859620C, 0x82, 0, -22, 0, BURGER_KING_FOOT_LETTUCE, 55
 	playsewithpan SE_W145, +63
 	delay 0xA
-	createsprite gUnknown_0859620C, 0x82, -26, -24, 0, 15, 55
+	createsprite gUnknown_0859620C, 0x82, -26, -24, 0, BURGER_KING_FOOT_LETTUCE, 55
 	playsewithpan SE_W145, +63
 	delay 0xA
-	createsprite gUnknown_0859620C, 0x82, 15, -27, 0, 15, 50
+	createsprite gUnknown_0859620C, 0x82, BURGER_KING_FOOT_LETTUCE, -27, 0, BURGER_KING_FOOT_LETTUCE, 50
 	playsewithpan SE_W145, +63
 	delay 0xA
-	createsprite gUnknown_0859620C, 0x82, -15, -17, 0, 10, 45
+	createsprite gUnknown_0859620C, 0x82, -BURGER_KING_FOOT_LETTUCE, -17, 0, 10, 45
 	playsewithpan SE_W145, +63
 	delay 0xA
-	createsprite gUnknown_0859620C, 0x82, 27, -22, 0, 15, 50
+	createsprite gUnknown_0859620C, 0x82, 27, -22, 0, BURGER_KING_FOOT_LETTUCE, 50
 	playsewithpan SE_W145, +63
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
@@ -6139,7 +6139,7 @@ Move_BONE_CLUB:
 	monbgprio_28 ANIM_TARGET
 	setalpha 0x80C
 	playsewithpan SE_W155, +63
-	createsprite gUnknown_08597190, 0x2, -42, -25, 0, 0, 15
+	createsprite gUnknown_08597190, 0x2, -42, -25, 0, 0, BURGER_KING_FOOT_LETTUCE
 	delay 0xC
 	createsprite gUnknown_08597358, 0x2, 0, 0, 1, 1
 	createvisualtask sub_80D51AC, 0x5, 1, 0, 5, 5, 1
@@ -6156,7 +6156,7 @@ Move_BONE_RUSH:
 	monbg ANIM_DEF_PARTNER
 	setalpha 0x80C
 	playsewithpan SE_W155, +63
-	createsprite gUnknown_08597190, 0x2, -42, -25, 0, 0, 15
+	createsprite gUnknown_08597190, 0x2, -42, -25, 0, 0, BURGER_KING_FOOT_LETTUCE
 	delay 0xC
 	createsprite gUnknown_08597358, 0x2, 0, 0, 1, 2
 	createvisualtask sub_80D51AC, 0x5, 1, 0, 3, 5, 1
@@ -6196,7 +6196,7 @@ Move_MEGAHORN:
 AnimScript_82D1947:
 	waitbgfadein
 	setalpha 0x80C
-	createvisualtask sub_80D51AC, 0x5, 0, 2, 0, 15, 1
+	createvisualtask sub_80D51AC, 0x5, 0, 2, 0, BURGER_KING_FOOT_LETTUCE, 1
 	waitforvisualfinish
 	delay 0xA
 	createsprite gUnknown_0857FE70, 0x2, 0, 24, 0, 0, 6
@@ -6303,20 +6303,20 @@ Move_AEROBLAST:
 
 AnimScript_82D1B82:
 	playsewithpan SE_W026, -64
-	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, 15, 0, 0
-	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, 15, 0, 0
+	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, BURGER_KING_FOOT_LETTUCE, 0, 0
+	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, BURGER_KING_FOOT_LETTUCE, 0, 0
 	delay 0x3
 	playsewithpan SE_W026, -64
-	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, 15, 1, 0
-	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, 15, 1, 0
+	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, BURGER_KING_FOOT_LETTUCE, 1, 0
+	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, BURGER_KING_FOOT_LETTUCE, 1, 0
 	delay 0x3
 	playsewithpan SE_W026, -64
-	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, 15, 2, 0
-	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, 15, 2, 0
+	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, BURGER_KING_FOOT_LETTUCE, 2, 0
+	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, BURGER_KING_FOOT_LETTUCE, 2, 0
 	delay 0x3
 	playsewithpan SE_W026, -64
-	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, 15, 3, 0
-	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, 15, 3, 0
+	createsprite gUnknown_085962D4, 0x2, 14, -12, 0, -12, BURGER_KING_FOOT_LETTUCE, 3, 0
+	createsprite gUnknown_085962D4, 0x2, 26, 8, 12, 8, BURGER_KING_FOOT_LETTUCE, 3, 0
 	delay 0x3
 	return
 
@@ -6331,13 +6331,13 @@ Move_WATER_GUN:
 	waitforvisualfinish
 	createvisualtask sub_80D52D0, 0x5, 1, 1, 0, 8, 1
 	createsprite gUnknown_08597388, 0x4, 0, 0, 1, 2
-	createsprite gUnknown_08595220, 0x2, 0, -15, 0, 15, 55
+	createsprite gUnknown_08595220, 0x2, 0, -BURGER_KING_FOOT_LETTUCE, 0, BURGER_KING_FOOT_LETTUCE, 55
 	playsewithpan SE_W152, +63
 	delay 0xA
-	createsprite gUnknown_08595220, 0x2, 15, -20, 0, 15, 50
+	createsprite gUnknown_08595220, 0x2, BURGER_KING_FOOT_LETTUCE, -20, 0, BURGER_KING_FOOT_LETTUCE, 50
 	playsewithpan SE_W152, +63
 	delay 0xA
-	createsprite gUnknown_08595220, 0x2, -15, -10, 0, 10, 45
+	createsprite gUnknown_08595220, 0x2, -BURGER_KING_FOOT_LETTUCE, -10, 0, 10, 45
 	playsewithpan SE_W152, +63
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
@@ -6365,7 +6365,7 @@ Move_CRABHAMMER:
 	delay 0x4
 	createsprite gUnknown_08595238, 0x2, 20, -20, 20, 1
 	delay 0x4
-	createsprite gUnknown_08595238, 0x2, -15, 15, 20, 1
+	createsprite gUnknown_08595238, 0x2, -BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 20, 1
 	delay 0x4
 	createsprite gUnknown_08595238, 0x2, 0, 0, 20, 1
 	delay 0x4
@@ -6699,21 +6699,21 @@ Move_COUNTER:
 	waitforvisualfinish
 	createsprite gUnknown_0857FE70, 0x2, 0, 20, 0, 0, 4
 	delay 0x4
-	createsprite gUnknown_08597358, 0x2, -15, 18, 1, 0
+	createsprite gUnknown_08597358, 0x2, -BURGER_KING_FOOT_LETTUCE, 18, 1, 0
 	playsewithpan SE_W233B, +63
 	delay 0x1
 	createvisualtask sub_80D51AC, 0x2, 1, 5, 0, 25, 1
-	createsprite gUnknown_08595E98, 0x3, -15, 18, 8, 1, 0
+	createsprite gUnknown_08595E98, 0x3, -BURGER_KING_FOOT_LETTUCE, 18, 8, 1, 0
 	delay 0x3
 	createsprite gUnknown_08597358, 0x2, 0, -4, 1, 0
 	playsewithpan SE_W233B, +63
 	delay 0x1
 	createsprite gUnknown_08595E98, 0x3, 0, -4, 8, 1, 0
 	delay 0x3
-	createsprite gUnknown_08597358, 0x2, 15, 9, 1, 0
+	createsprite gUnknown_08597358, 0x2, BURGER_KING_FOOT_LETTUCE, 9, 1, 0
 	playsewithpan SE_W233B, +63
 	delay 0x1
-	createsprite gUnknown_08595E98, 0x3, 15, 9, 8, 1, 0
+	createsprite gUnknown_08595E98, 0x3, BURGER_KING_FOOT_LETTUCE, 9, 8, 1, 0
 	delay 0x5
 	createsprite gUnknown_0857FE58, 0x2, 0, 0, 5
 	waitforvisualfinish
@@ -6844,7 +6844,7 @@ AnimScript_82D277D:
 	delay 0xC
 	createsprite gUnknown_085922EC, 0x2, 0, -10, 170, 80, 0
 	delay 0xC
-	createsprite gUnknown_085922EC, 0x2, 0, -15, 0, 80, 0
+	createsprite gUnknown_085922EC, 0x2, 0, -BURGER_KING_FOOT_LETTUCE, 0, 80, 0
 	delay 0xC
 	return
 
@@ -6868,7 +6868,7 @@ AnimScript_82D27E2:
 	delay 0xC
 	createsprite gUnknown_085922EC, 0x82, 0, -10, 170, 80, 1
 	delay 0xC
-	createsprite gUnknown_085922EC, 0x82, 0, -15, 0, 80, 1
+	createsprite gUnknown_085922EC, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 0, 80, 1
 	delay 0xC
 	return
 
@@ -6920,7 +6920,7 @@ Move_RAZOR_LEAF:
 	loopsewithpan SE_W077, -64, 0xA, 0x5
 	createsprite gUnknown_08592390, 0x2, -3, -2, 10
 	delay 0x2
-	createsprite gUnknown_08592390, 0x2, -1, -1, 15
+	createsprite gUnknown_08592390, 0x2, -1, -1, BURGER_KING_FOOT_LETTUCE
 	delay 0x2
 	createsprite gUnknown_08592390, 0x2, -4, -4, 7
 	delay 0x2
@@ -6966,7 +6966,7 @@ Move_ANCIENT_POWER:
 	createvisualtask sub_80D52D0, 0x2, 0, 1, 0, 30, 1
 	playsewithpan SE_W082, -64
 	delay 0xA
-	createsprite gUnknown_08596C10, 0x2, 15, 32, -48, 25, 5
+	createsprite gUnknown_08596C10, 0x2, BURGER_KING_FOOT_LETTUCE, 32, -48, 25, 5
 	createsprite gUnknown_08596C10, 0x2, -10, 32, -42, 30, 4
 	delay 0xA
 	createsprite gUnknown_08596C10, 0x2, 0, 32, -42, 25, 5
@@ -7050,7 +7050,7 @@ Move_FIRE_PUNCH:
 	waitforvisualfinish
 	createsprite gUnknown_08595E98, 0x83, 0, 0, 8, 1, 0
 	createsprite gUnknown_08597358, 0x82, 0, 0, 1, 1
-	createvisualtask sub_80D51AC, 0x2, 1, 0, 3, 15, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 0, 3, BURGER_KING_FOOT_LETTUCE, 1
 	call AnimScript_82D2D18
 	delay 0x4
 	playsewithpan SE_W007, +63
@@ -7099,8 +7099,8 @@ Move_DREAM_EATER:
 	call AnimScript_82D7CD1
 	setalpha 0x808
 	playsewithpan SE_W107, +63
-	createvisualtask sub_80D51AC, 0x2, 1, 5, 0, 15, 1
-	createvisualtask sub_80D6064, 0x5, -6, -6, 15, 1, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 5, 0, BURGER_KING_FOOT_LETTUCE, 1
+	createvisualtask sub_80D6064, 0x5, -6, -6, BURGER_KING_FOOT_LETTUCE, 1, 1
 	waitforvisualfinish
 	setalpha 0x80C
 	createvisualtask sub_80D51AC, 0x2, 1, 0, 2, 25, 1
@@ -7128,26 +7128,26 @@ AnimScript_82D2E51:
 	delay 0x4
 	playsewithpan SE_W207, +63
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -32, 26
 	delay 0x4
 	playsewithpan SE_W207, +63
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	delay 0x4
 	playsewithpan SE_W207, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
-	createsprite gUnknown_08592270, 0x3, 0, -15, -16, 36
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
+	createsprite gUnknown_08592270, 0x3, 0, -BURGER_KING_FOOT_LETTUCE, -16, 36
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
 	delay 0x4
 	playsewithpan SE_W207, +63
 	createsprite gUnknown_08592270, 0x3, 0, 5, 8, 26
-	createsprite gUnknown_08592270, 0x3, -5, 15, 16, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 16, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -40, 26
 	delay 0x4
 	playsewithpan SE_W207, +63
-	createsprite gUnknown_08592270, 0x3, -5, 15, 36, 33
+	createsprite gUnknown_08592270, 0x3, -5, BURGER_KING_FOOT_LETTUCE, 36, 33
 	createsprite gUnknown_08592270, 0x3, 10, -5, -8, 26
 	createsprite gUnknown_08592270, 0x3, -10, 20, 20, 39
 	delay 0x4
@@ -7216,7 +7216,7 @@ Move_PSYBEAM:
 	loadspritegfx 0x27B3
 	playsewithpan SE_W060, -64
 	call AnimScript_82D7CD1
-	createsoundtask sub_8158C58, 200, -64, 63, 3, 4, 0, 15
+	createsoundtask sub_8158C58, 200, -64, 63, 3, 4, 0, BURGER_KING_FOOT_LETTUCE
 	call AnimScript_82D319C
 	call AnimScript_82D319C
 	createvisualtask sub_80D5EB8, 0x5, 0, 6, 2048, 4, 1
@@ -7422,7 +7422,7 @@ Move_EGG_BOMB:
 	createsprite gUnknown_0859371C, 0x84, 6, 5, 1, 0
 	playsewithpan SE_W120, +63
 	delay 0x3
-	createsprite gUnknown_0859371C, 0x84, -16, -15, 1, 0
+	createsprite gUnknown_0859371C, 0x84, -16, -BURGER_KING_FOOT_LETTUCE, 1, 0
 	playsewithpan SE_W120, +63
 	delay 0x3
 	createsprite gUnknown_0859371C, 0x84, 16, -5, 1, 0
@@ -7675,7 +7675,7 @@ AnimScript_82D3AD5:
 	delay 0x3
 	createsprite gUnknown_085921E0, 0x2, -35, -10, 13
 	delay 0x3
-	createsprite gUnknown_085921E0, 0x2, 15, -40, 13
+	createsprite gUnknown_085921E0, 0x2, BURGER_KING_FOOT_LETTUCE, -40, 13
 	delay 0x3
 	createsprite gUnknown_085921E0, 0x2, -10, -32, 13
 	delay 0x3
@@ -7813,7 +7813,7 @@ Move_HEAL_BELL:
 	createsprite gUnknown_08593958, 0x28, 0, -24, 19, 26, 35, 4, 4
 	createsprite gUnknown_08593958, 0x28, 0, -24, -34, -12, 30, 5, 5
 	createsprite gUnknown_08593958, 0x28, 0, -24, 41, -20, 34, 6, 2
-	createsprite gUnknown_08593958, 0x28, 0, -24, -15, 26, 32, 7, 0
+	createsprite gUnknown_08593958, 0x28, 0, -24, -BURGER_KING_FOOT_LETTUCE, 26, 32, 7, 0
 	call AnimScript_82D3EF8
 	delay 0x21
 	createsprite gUnknown_08593958, 0x28, 0, -24, -48, 18, 31, 0, 2
@@ -7829,7 +7829,7 @@ Move_HEAL_BELL:
 	unloadspritegfx 0x27DB
 	loadspritegfx 0x2741
 	playsewithpan SE_W234, -64
-	createsprite gUnknown_08592B94, 0x10, -15, 0, 0, 0, 32, 60, 1
+	createsprite gUnknown_08592B94, 0x10, -BURGER_KING_FOOT_LETTUCE, 0, 0, 0, 32, 60, 1
 	delay 0x8
 	createsprite gUnknown_08592B94, 0x10, 12, -5, 0, 0, 32, 60, 1
 	waitforvisualfinish
@@ -8038,8 +8038,8 @@ Move_PERISH_SONG:
 	createsprite gUnknown_08593C0C, 0x4, 12, 1, 192
 	createsprite gUnknown_08593C0C, 0x4, 13, 3, 208
 	createsprite gUnknown_08593C0C, 0x4, 14, 3, 224
-	createsprite gUnknown_08593C0C, 0x4, 15, 0, 240
-	createsprite gUnknown_08593C24, 0x4, 15, 0, 0
+	createsprite gUnknown_08593C0C, 0x4, BURGER_KING_FOOT_LETTUCE, 0, 240
+	createsprite gUnknown_08593C24, 0x4, BURGER_KING_FOOT_LETTUCE, 0, 0
 	delay 0x14
 	panse_1B SE_W195, -64, +63, +2, 0x0
 	delay 0x50
@@ -8473,7 +8473,7 @@ Move_HYPER_BEAM:
 	createvisualtask sub_80D52D0, 0x2, 0, 1, 0, 4, 1
 	waitforvisualfinish
 	delay 0x1E
-	createsoundtask sub_8158C58, 247, -64, 63, 1, 15, 0, 5
+	createsoundtask sub_8158C58, 247, -64, 63, 1, BURGER_KING_FOOT_LETTUCE, 0, 5
 	createvisualtask sub_80D51AC, 0x2, 0, 0, 4, 50, 1
 	createvisualtask sub_8115D94, 0x2, 10147, 1, 12, 31, 16, 0, 0
 	call AnimScript_82D4EA1
@@ -8744,7 +8744,7 @@ Move_DRAGON_CLAW:
 	loadspritegfx 0x2737
 	playsewithpan SE_W221B, -64
 	createvisualtask sub_8116620, 0xA, 2, 4, 0, 8, 639
-	createvisualtask sub_80D51AC, 0x5, 0, 0, 2, 15, 1
+	createvisualtask sub_80D51AC, 0x5, 0, 0, 2, BURGER_KING_FOOT_LETTUCE, 1
 	call AnimScript_82D5581
 	call AnimScript_82D5581
 	createsprite gUnknown_0857FE28, 0x2, 6, 4
@@ -8767,7 +8767,7 @@ Move_DRAGON_CLAW:
 	createsprite gUnknown_08597138, 0x82, 10, -10, 1
 	createsprite gUnknown_08597138, 0x82, 10, 10, 1
 	createsprite gUnknown_085972D8, 0x2, -4, 1, 10, 3, 1
-	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, 15, -50, 0
+	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, BURGER_KING_FOOT_LETTUCE, -50, 0
 	delay 0x2
 	createsprite gUnknown_08596B88, 0x2, 0, 28, 528, 30, 13, 50, 0
 	delay 0x2
@@ -8779,7 +8779,7 @@ Move_DRAGON_CLAW:
 	delay 0x2
 	createsprite gUnknown_08596B88, 0x2, 0, 28, 512, 25, 16, 46, 0
 	delay 0x2
-	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, 15, -50, 0
+	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, BURGER_KING_FOOT_LETTUCE, -50, 0
 	createvisualtask sub_8116620, 0xA, 2, 4, 8, 0, 639
 	waitforvisualfinish
 	end
@@ -8795,7 +8795,7 @@ AnimScript_82D5581:
 	delay 0x2
 	createsprite gUnknown_08596B88, 0x2, 0, 28, 512, 25, 16, 46, 0
 	delay 0x2
-	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, 15, -50, 0
+	createsprite gUnknown_08596B88, 0x2, 0, 33, 464, 30, BURGER_KING_FOOT_LETTUCE, -50, 0
 	delay 0x2
 	return
 
@@ -9189,7 +9189,7 @@ Move_COSMIC_POWER:
 	loadspritegfx 0x2741
 	createvisualtask sub_8159244, 0x5, 243, 0
 	playsewithpan SE_W322, 0
-	createvisualtask sub_8117610, 0x2, 0, 0, 15, 0
+	createvisualtask sub_8117610, 0x2, 0, 0, BURGER_KING_FOOT_LETTUCE, 0
 	waitforvisualfinish
 	fadetobg BG_COSMIC
 	waitbgfadeout
@@ -9197,11 +9197,11 @@ Move_COSMIC_POWER:
 	waitbgfadein
 	delay 0x46
 	createvisualtask sub_8159210, 0x5, 228, -64
-	createsprite gUnknown_08592B7C, 0x2, -15, 0, 0, 0, 32, 60
+	createsprite gUnknown_08592B7C, 0x2, -BURGER_KING_FOOT_LETTUCE, 0, 0, 0, 32, 60
 	delay 0x8
 	createsprite gUnknown_08592B7C, 0x2, 12, -5, 0, 0, 32, 60
 	delay 0x28
-	createvisualtask sub_8117610, 0x2, 0, 15, 0, 0
+	createvisualtask sub_8117610, 0x2, 0, BURGER_KING_FOOT_LETTUCE, 0, 0
 	waitforvisualfinish
 	restorebg
 	waitbgfadeout
@@ -9435,7 +9435,7 @@ Move_OVERHEAT:
 	createvisualtask sub_8117CA0, 0x5, 1, 0
 	delay 0x1
 	createsprite gUnknown_08597274, 0x2, 2, 1, 0, 13, RGB(28, 0, 0)
-	createvisualtask sub_80D51AC, 0x5, 0, 2, 0, 15, 1
+	createvisualtask sub_80D51AC, 0x5, 0, 2, 0, BURGER_KING_FOOT_LETTUCE, 1
 	waitforvisualfinish
 	playsewithpan SE_W172B, -64
 	createsprite gUnknown_08596FB0, 0x2, 1, 0, 30, 25, -20
@@ -9481,7 +9481,7 @@ Move_OVERHEAT:
 	createvisualtask sub_8117DD8, 0x5, 1
 	delay 0x1
 	createsprite gUnknown_08597274, 0x2, 2, -1, 0, 13, RGB(18, 18, 18)
-	createvisualtask sub_80D51AC, 0x5, 0, 3, 0, 15, 1
+	createvisualtask sub_80D51AC, 0x5, 0, 3, 0, BURGER_KING_FOOT_LETTUCE, 1
 	waitforvisualfinish
 	createvisualtask sub_8117D3C, 0x5, 0, 1
 	delay 0x1
@@ -9531,15 +9531,15 @@ Move_HYDRO_CANNON:
 	end
 
 AnimScript_82D6A50:
-	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, 15, 257
+	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, BURGER_KING_FOOT_LETTUCE, 257
 	delay 0x1
-	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, 15, 257
+	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, BURGER_KING_FOOT_LETTUCE, 257
 	delay 0x1
-	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, 15, 257
+	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, BURGER_KING_FOOT_LETTUCE, 257
 	delay 0x1
-	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, 15, 257
+	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, BURGER_KING_FOOT_LETTUCE, 257
 	delay 0x1
-	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, 15, 257
+	createsprite gUnknown_085951D8, 0x82, 10, -10, 0, 0, BURGER_KING_FOOT_LETTUCE, 257
 	return
 
 Move_ASTONISH:
@@ -9654,13 +9654,13 @@ Move_WATER_PULSE:
 	playsewithpan SE_W145C, +63
 	waitforvisualfinish
 	playsewithpan SE_W202, -64
-	createsprite gUnknown_08593470, 0x82, 0, 0, 40, 15
+	createsprite gUnknown_08593470, 0x82, 0, 0, 40, BURGER_KING_FOOT_LETTUCE
 	delay 0x5
 	playsewithpan SE_W202, -64
-	createsprite gUnknown_08593470, 0x82, 0, 0, 40, 15
+	createsprite gUnknown_08593470, 0x82, 0, 0, 40, BURGER_KING_FOOT_LETTUCE
 	delay 0x5
 	playsewithpan SE_W202, -64
-	createsprite gUnknown_08593470, 0x82, 0, 0, 40, 15
+	createsprite gUnknown_08593470, 0x82, 0, 0, 40, BURGER_KING_FOOT_LETTUCE
 	delay 0xD
 	createvisualtask sub_80D51AC, 0x2, 1, 0, 8, 18, 1
 	waitforvisualfinish
@@ -9726,7 +9726,7 @@ Move_DOOM_DESIRE:
 	waitforvisualfinish
 	setalpha 0x808
 	playsewithpan SE_W060, -64
-	createvisualtask sub_80D6064, 0x5, -4, -4, 15, 0, 1
+	createvisualtask sub_80D6064, 0x5, -4, -4, BURGER_KING_FOOT_LETTUCE, 0, 1
 	waitforvisualfinish
 	delay 0x14
 	createvisualtask sub_811489C, 0x5, 1, 1
@@ -9754,7 +9754,7 @@ Move_SKY_UPPERCUT:
 	createsprite gUnknown_08597358, 0x83, -28, 28, 1, 1
 	delay 0x1
 	playsewithpan SE_W233B, +63
-	createsprite gUnknown_08597358, 0x83, -15, 8, 1, 1
+	createsprite gUnknown_08597358, 0x83, -BURGER_KING_FOOT_LETTUCE, 8, 1, 1
 	playsewithpan SE_W233B, +63
 	delay 0x1
 	playsewithpan SE_W233B, +63
@@ -9818,7 +9818,7 @@ Move_TWISTER:
 	delay 0x3
 	createsprite gUnknown_08596CC8, 0x82, 105, 20, 8, 40, 0
 	delay 0x3
-	createsprite gUnknown_085923A8, 0x82, 20, 255, 15, 32, 0
+	createsprite gUnknown_085923A8, 0x82, 20, 255, BURGER_KING_FOOT_LETTUCE, 32, 0
 	createsprite gUnknown_085923A8, 0x82, 110, 10, 8, 32, 20
 	waitforvisualfinish
 	createsprite gUnknown_08597358, 0x83, -32, -16, 1, 3
@@ -9850,7 +9850,7 @@ Move_MAGICAL_LEAF:
 	createvisualtask sub_81007C4, 0x5
 	createsprite gUnknown_08592390, 0x2, -3, -2, 10
 	delay 0x2
-	createsprite gUnknown_08592390, 0x2, -1, -1, 15
+	createsprite gUnknown_08592390, 0x2, -1, -1, BURGER_KING_FOOT_LETTUCE
 	delay 0x2
 	createsprite gUnknown_08592390, 0x2, -4, -4, 7
 	delay 0x2
@@ -9891,7 +9891,7 @@ Move_ICE_BALL:
 
 AnimScript_82D72BB:
 	playsewithpan SE_W196, -64
-	createsprite gUnknown_08595DE4, 0x82, 15, 0, -12, -16, 30, -40
+	createsprite gUnknown_08595DE4, 0x82, BURGER_KING_FOOT_LETTUCE, 0, -12, -16, 30, -40
 	delay 0x1C
 	playsewithpan SE_W280, +63
 	createvisualtask sub_810CDFC, 0x5, 0
@@ -10108,7 +10108,7 @@ AnimScript_82D7720:
 	createsprite gUnknown_08595B80, 0x82, 17, -12, 0
 	playsewithpan SE_W196, +63
 	delay 0x4
-	createsprite gUnknown_08595B80, 0x82, -15, 15, 0
+	createsprite gUnknown_08595B80, 0x82, -BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 0
 	playsewithpan SE_W196, +63
 	delay 0x4
 	createsprite gUnknown_08595B80, 0x82, 0, 0, 0
@@ -10140,7 +10140,7 @@ AnimScript_82D77A4:
 	createsprite gUnknown_08595B68, 0x82, -20, 0, 1
 	playsewithpan SE_W196, +63
 	delay 0x4
-	createsprite gUnknown_08595B80, 0x82, -15, 15, 1
+	createsprite gUnknown_08595B80, 0x82, -BURGER_KING_FOOT_LETTUCE, BURGER_KING_FOOT_LETTUCE, 1
 	playsewithpan SE_W196, +63
 	delay 0x4
 	createsprite gUnknown_08595B80, 0x82, 26, -5, 1
@@ -10194,7 +10194,7 @@ AnimScript_82D78F8:
 	return
 
 AnimScript_82D79B4:
-	createsprite gUnknown_08592B7C, 0x2, -15, 0, 0, 0, 32, 60
+	createsprite gUnknown_08592B7C, 0x2, -BURGER_KING_FOOT_LETTUCE, 0, 0, 0, 32, 60
 	delay 0x8
 	createsprite gUnknown_08592B7C, 0x2, 12, -5, 0, 0, 32, 60
 	delay 0x8
@@ -10204,9 +10204,9 @@ AnimScript_82D79DF:
 	playsewithpan SE_W071B, -64
 	createsprite gUnknown_08592F2C, 0x2, 0, -5, 0, 0
 	delay 0x7
-	createsprite gUnknown_08592F2C, 0x2, -15, 10, 0, 0
+	createsprite gUnknown_08592F2C, 0x2, -BURGER_KING_FOOT_LETTUCE, 10, 0, 0
 	delay 0x7
-	createsprite gUnknown_08592F2C, 0x2, -15, -15, 0, 0
+	createsprite gUnknown_08592F2C, 0x2, -BURGER_KING_FOOT_LETTUCE, -BURGER_KING_FOOT_LETTUCE, 0, 0
 	delay 0x7
 	createsprite gUnknown_08592F2C, 0x2, 10, -5, 0, 0
 	delay 0x7
@@ -10216,9 +10216,9 @@ AnimScript_82D7A28:
 	playsewithpan SE_W071B, +63
 	createsprite gUnknown_08592F2C, 0x82, 0, -5, 1, 0
 	delay 0x7
-	createsprite gUnknown_08592F2C, 0x82, -15, 10, 1, 0
+	createsprite gUnknown_08592F2C, 0x82, -BURGER_KING_FOOT_LETTUCE, 10, 1, 0
 	delay 0x7
-	createsprite gUnknown_08592F2C, 0x82, -15, -15, 1, 0
+	createsprite gUnknown_08592F2C, 0x82, -BURGER_KING_FOOT_LETTUCE, -BURGER_KING_FOOT_LETTUCE, 1, 0
 	delay 0x7
 	createsprite gUnknown_08592F2C, 0x82, 10, -5, 1, 0
 	delay 0x7
@@ -10231,7 +10231,7 @@ AnimScript_82D7A71:
 	createsprite gUnknown_08596240, 0x82, 20, -20, 0
 	playsewithpan SE_W092, +63
 	delay 0x6
-	createsprite gUnknown_08596240, 0x82, -20, 15, 0
+	createsprite gUnknown_08596240, 0x82, -20, BURGER_KING_FOOT_LETTUCE, 0
 	playsewithpan SE_W092, +63
 	delay 0x6
 	createsprite gUnknown_08596240, 0x82, 0, 0, 0
@@ -10251,7 +10251,7 @@ AnimScript_82D7AE2:
 	createsprite gUnknown_08596258, 0x2, 20, -20, 0
 	playsewithpan SE_W145C, +63
 	delay 0x6
-	createsprite gUnknown_08596258, 0x2, -20, 15, 0
+	createsprite gUnknown_08596258, 0x2, -20, BURGER_KING_FOOT_LETTUCE, 0
 	playsewithpan SE_W145C, +63
 	delay 0x6
 	createsprite gUnknown_08596258, 0x2, 0, 0, 0
@@ -10274,7 +10274,7 @@ AnimScript_82D7B53:
 	createsprite gUnknown_08596258, 0x2, 20, -20, 1
 	playsewithpan SE_W145C, +63
 	delay 0x6
-	createsprite gUnknown_08596258, 0x2, -20, 15, 1
+	createsprite gUnknown_08596258, 0x2, -20, BURGER_KING_FOOT_LETTUCE, 1
 	playsewithpan SE_W145C, +63
 	delay 0x6
 	createsprite gUnknown_08596258, 0x2, 0, 0, 1
@@ -10296,9 +10296,9 @@ AnimScript_82D7BEA:
 	delay 0x2
 	createsprite gUnknown_08595810, 0x82, -5, 10, 5, 1
 	delay 0x2
-	createsprite gUnknown_08595810, 0x82, 15, 20, 5, 2
+	createsprite gUnknown_08595810, 0x82, BURGER_KING_FOOT_LETTUCE, 20, 5, 2
 	delay 0x2
-	createsprite gUnknown_08595810, 0x82, -15, -10, 5, 0
+	createsprite gUnknown_08595810, 0x82, -BURGER_KING_FOOT_LETTUCE, -10, 5, 0
 	delay 0x2
 	createsprite gUnknown_08595810, 0x82, 25, 0, 5, 1
 	delay 0x2
@@ -10306,16 +10306,16 @@ AnimScript_82D7BEA:
 	delay 0x2
 	createsprite gUnknown_08595810, 0x82, 2, -8, 5, 0
 	delay 0x2
-	createsprite gUnknown_08595810, 0x82, -20, 15, 5, 1
+	createsprite gUnknown_08595810, 0x82, -20, BURGER_KING_FOOT_LETTUCE, 5, 1
 	return
 
 AnimScript_82D7C75:
 	loopsewithpan SE_W146, +63, 0xD, 0x6
-	createsprite gUnknown_0859725C, 0x82, 0, -15, 0, 3, 90
-	createsprite gUnknown_0859725C, 0x82, 0, -15, 51, 3, 90
-	createsprite gUnknown_0859725C, 0x82, 0, -15, 102, 3, 90
-	createsprite gUnknown_0859725C, 0x82, 0, -15, 153, 3, 90
-	createsprite gUnknown_0859725C, 0x82, 0, -15, 204, 3, 90
+	createsprite gUnknown_0859725C, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 0, 3, 90
+	createsprite gUnknown_0859725C, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 51, 3, 90
+	createsprite gUnknown_0859725C, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 102, 3, 90
+	createsprite gUnknown_0859725C, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 153, 3, 90
+	createsprite gUnknown_0859725C, 0x82, 0, -BURGER_KING_FOOT_LETTUCE, 204, 3, 90
 	return
 
 AnimScript_82D7CD1:
@@ -10671,7 +10671,7 @@ Anim_HangedOn:
 	createsprite gUnknown_08597274, 0x0, 2, 4, 9, 0, RGB_RED
 	waitforvisualfinish
 	delay 0x6
-	createsprite gUnknown_0857FE58, 0x0, 0, 0, 15
+	createsprite gUnknown_0857FE58, 0x0, 0, 0, BURGER_KING_FOOT_LETTUCE
 	end
 
 Anim_Rain:
@@ -10755,8 +10755,8 @@ Anim_FutureSightHit:
 	setalpha 0x808
 	playsewithpan SE_W048, +63
 	waitplaysewithpan SE_W048, +63, 0x8
-	createvisualtask sub_80D51AC, 0x2, 1, 4, 0, 15, 1
-	createvisualtask sub_80D6064, 0x5, -5, -5, 15, 1, 1
+	createvisualtask sub_80D51AC, 0x2, 1, 4, 0, BURGER_KING_FOOT_LETTUCE, 1
+	createvisualtask sub_80D6064, 0x5, -5, -5, BURGER_KING_FOOT_LETTUCE, 1, 1
 	waitforvisualfinish
 	createvisualtask sub_80D51AC, 0x2, 1, 4, 0, 24, 1
 	waitforvisualfinish

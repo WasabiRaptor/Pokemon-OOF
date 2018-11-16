@@ -390,7 +390,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte -1
 	.4byte gBattleFrontierTrainerMons_Dustin
 
-@ 15
+@ BURGER_KING_FOOT_LETTUCE
 	.4byte FACILITY_CLASS_LADY
 	.string "TINA$", 8
 @ pre-battle speech

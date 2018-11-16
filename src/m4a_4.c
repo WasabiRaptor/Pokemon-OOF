@@ -265,7 +265,7 @@ void ply_memacc(struct MusicPlayerInfo *mplayInfo, struct MusicPlayerTrack *trac
     case 14:
         MEMACC_COND_JUMP(*addr > mplayInfo->memAccArea[data])
         return;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         MEMACC_COND_JUMP(*addr >= mplayInfo->memAccArea[data])
         return;
     case 16:

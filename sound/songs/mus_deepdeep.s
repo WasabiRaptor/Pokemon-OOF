@@ -1275,7 +1275,7 @@ mus_deepdeep_5:
 	.byte	KEYSH , mus_deepdeep_key+0
 	.byte		VOICE , 9
 	.byte		PAN   , c_v-32
-	.byte		VOL   , 15*mus_deepdeep_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_deepdeep_mvl/mxv
 	.byte		N04   , Gn4 , v080
 	.byte	W08
 	.byte		        Gn4 , v052
@@ -2901,7 +2901,7 @@ mus_deepdeep_8:
 	.byte		N12   , Gn7 , v084
 	.byte	W12
 	.byte		PAN   , c_v+63
-	.byte		VOL   , 15*mus_deepdeep_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_deepdeep_mvl/mxv
 	.byte		N04   , Gn6 , v080
 	.byte	W08
 	.byte		        Gn6 , v052

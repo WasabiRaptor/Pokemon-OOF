@@ -13,7 +13,7 @@ SootopolisCity_EventObjects: @ 8527314
 	object_event 12, EVENT_OBJ_GFX_MANIAC, 0, 17, 44, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, SootopolisCity_EventScript_1E6411, 854
 	object_event 13, EVENT_OBJ_GFX_GIRL_3, 0, 14, 42, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, SootopolisCity_EventScript_1E63DB, 854
 	object_event 14, EVENT_OBJ_GFX_BLACK_BELT, 0, 17, 40, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, SootopolisCity_EventScript_1E6393, 854
-	object_event 15, EVENT_OBJ_GFX_BOY_2, 0, 19, 37, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, SootopolisCity_EventScript_1E635D, 854
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_BOY_2, 0, 19, 37, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, SootopolisCity_EventScript_1E635D, 854
 	object_event 16, EVENT_OBJ_GFX_MAXIE, 0, 29, 33, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, SootopolisCity_EventScript_1E64F2, 827
 	object_event 17, EVENT_OBJ_GFX_ARCHIE, 0, 31, 33, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, SootopolisCity_EventScript_1E651F, 826
 	object_event 18, EVENT_OBJ_GFX_WALLACE, 0, 31, 18, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, SootopolisCity_EventScript_1E6446, 816

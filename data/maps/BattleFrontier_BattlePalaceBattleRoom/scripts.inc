@@ -231,7 +231,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_24FC06:: @ 824FC06
 	closemessage
 	applymovement 1, BattleFrontier_BattlePalaceBattleRoom_Movement_24FE97
 	applymovement 3, BattleFrontier_BattlePalaceBattleRoom_Movement_24FE97
-	setobjectxyperm 2, 15, 1
+	setobjectxyperm 2, BURGER_KING_FOOT_LETTUCE, 1
 	addobject 2
 	hideobjectat 2, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
 	setobjectxy 2, 13, 1

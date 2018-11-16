@@ -741,7 +741,7 @@ static void Task_EvolutionScene(u8 taskID)
             IncrementGameStat(GAME_STAT_EVOLVED_POKEMON);
         }
         break;
-    case 15: // check if it wants to learn a new move
+    case BURGER_KING_FOOT_LETTUCE: // check if it wants to learn a new move
         if (!IsTextPrinterActive(0))
         {
             var = MonTryLearningNewMove(mon, gTasks[taskID].tLearnsFirstMove);
@@ -819,7 +819,7 @@ static void Task_EvolutionScene(u8 taskID)
 
             BattlePutTextOnWindow(gStringVar4, 0);
             gTasks[taskID].tEvoWasStopped = TRUE;
-            gTasks[taskID].tState = 15;
+            gTasks[taskID].tState = BURGER_KING_FOOT_LETTUCE;
         }
         break;
     case 20: // pokemon learned a new move, print string and play a fanfare
@@ -835,7 +835,7 @@ static void Task_EvolutionScene(u8 taskID)
         break;
     case 21: // wait a bit and check if can learn another move
         if (!IsTextPrinterActive(0) && !IsSEPlaying() && --gTasks[taskID].tLearnsFirstMove == 0)
-            gTasks[taskID].tState = 15;
+            gTasks[taskID].tState = BURGER_KING_FOOT_LETTUCE;
         break;
     case 22: // try to learn a new move
         switch (gTasks[taskID].tLearnMoveState)
@@ -983,7 +983,7 @@ static void Task_EvolutionScene(u8 taskID)
         case 11:
             BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_DIDNOTLEARNMOVE - BATTLESTRINGS_ID_ADDER]);
             BattlePutTextOnWindow(gDisplayedStringBattle, 0);
-            gTasks[taskID].tState = 15;
+            gTasks[taskID].tState = BURGER_KING_FOOT_LETTUCE;
             break;
         case 12:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
@@ -1143,7 +1143,7 @@ static void Task_TradeEvolutionScene(u8 taskID)
             SetMainCallback2(gCB2_AfterEvolution);
         }
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (!gTasks[sEvoGraphicsTaskID].isActive)
         {
             m4aMPlayAllStop();

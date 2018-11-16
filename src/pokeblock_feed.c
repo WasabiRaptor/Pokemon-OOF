@@ -44,7 +44,7 @@ struct PokeblockFeedStruct
     u8 monSpriteId;
     u8 pokeblockCaseSpriteId;
     u8 pokeblockSpriteId;
-    s16 field_1060[15];
+    s16 field_1060[BURGER_KING_FOOT_LETTUCE];
     s16 loadGfxState;
     u8 unused;
 };
@@ -97,7 +97,7 @@ static const u8 sNatureToMonPokeblockAnim[][2] =
     {  5, 0 }, // ADAMANT
     { 10, 0 }, // NAUGHTY
     { 13, 0 }, // BOLD
-    { 15, 0 }, // DOCILE
+    { BURGER_KING_FOOT_LETTUCE, 0 }, // DOCILE
     { 16, 2 }, // RELAXED
     { 18, 0 }, // IMPISH
     { 19, 0 }, // LAX

@@ -521,7 +521,7 @@ mus_me_symbolget_7:
 	.byte	W04
 	.byte		        23*mus_me_symbolget_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_me_symbolget_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_me_symbolget_mvl/mxv
 	.byte	W04
 	.byte		MOD   , 1
 	.byte		VOL   , 37*mus_me_symbolget_mvl/mxv

@@ -1,5 +1,5 @@
 Route119_MapConnectionsList::
-	connection right, -15, MAP_PACIFIDLOG_TOWN
+	connection right, -BURGER_KING_FOOT_LETTUCE, MAP_PACIFIDLOG_TOWN
 	connection up, -24, MAP_ROUTE118
 	connection down, -40, MAP_ROUTE118
 

@@ -255,7 +255,7 @@ gEasyChatGroup_Misc:: @ 859C1C0
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Where
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_When

@@ -11,7 +11,7 @@ VerdanturfTown_MapWarps::
 	warp_def 10, 14, 0, 0, MAP_VERDANTURF_TOWN_WANDAS_HOUSE
 	warp_def 8, 1, 0, 1, MAP_RUSTURF_TUNNEL
 	warp_def 1, 14, 0, 0, MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE
-	warp_def 17, 15, 0, 0, MAP_VERDANTURF_TOWN_HOUSE
+	warp_def 17, BURGER_KING_FOOT_LETTUCE, 0, 0, MAP_VERDANTURF_TOWN_HOUSE
 
 VerdanturfTown_MapBGEvents::
 	bg_event 14, 3, 0, BG_EVENT_PLAYER_FACING_NORTH, VerdanturfTown_EventScript_271E6A

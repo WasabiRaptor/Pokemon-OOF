@@ -46,7 +46,7 @@ mus_rg_tamamusi_1_B1:
 	.byte		MOD   , 7
 	.byte		VOL   , 21*mus_rg_tamamusi_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_tamamusi_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_tamamusi_mvl/mxv
 	.byte	W06
 	.byte		MOD   , 0
 	.byte		VOL   , 26*mus_rg_tamamusi_mvl/mxv
@@ -131,7 +131,7 @@ mus_rg_tamamusi_1_B1:
 	.byte		VOL   , 25*mus_rg_tamamusi_mvl/mxv
 	.byte		N24   , Gn4 , v088
 	.byte	W06
-	.byte		VOL   , 15*mus_rg_tamamusi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_tamamusi_mvl/mxv
 	.byte	W06
 	.byte		MOD   , 7
 	.byte		VOL   , 26*mus_rg_tamamusi_mvl/mxv
@@ -311,7 +311,7 @@ mus_rg_tamamusi_1_000:
 	.byte		VOL   , 21*mus_rg_tamamusi_mvl/mxv
 	.byte		N24   , Fs3 
 	.byte	W06
-	.byte		VOL   , 15*mus_rg_tamamusi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_tamamusi_mvl/mxv
 	.byte	W06
 	.byte		MOD   , 7
 	.byte		VOL   , 26*mus_rg_tamamusi_mvl/mxv
@@ -320,7 +320,7 @@ mus_rg_tamamusi_1_000:
 	.byte		VOL   , 21*mus_rg_tamamusi_mvl/mxv
 	.byte		N24   , An3 
 	.byte	W06
-	.byte		VOL   , 15*mus_rg_tamamusi_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_tamamusi_mvl/mxv
 	.byte	W06
 	.byte		        26*mus_rg_tamamusi_mvl/mxv
 	.byte	W12

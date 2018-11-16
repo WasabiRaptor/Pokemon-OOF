@@ -207,7 +207,7 @@ mus_rg_demo_2:
 	.byte	W06
 	.byte		N03   , Dn2 , v100
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		N03   
 	.byte	W06
 	.byte		MOD   , 0
@@ -223,7 +223,7 @@ mus_rg_demo_2:
 	.byte	W06
 	.byte		N03   , Dn2 , v100
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		N03   
 	.byte	W06
 	.byte		MOD   , 0
@@ -252,7 +252,7 @@ mus_rg_demo_2:
 	.byte	W06
 	.byte		N06   , Fn2 , v092
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , En2 , v088
 	.byte	W06
 	.byte		MOD   , 0
@@ -268,7 +268,7 @@ mus_rg_demo_2:
 	.byte	W06
 	.byte		N03   , Dn2 , v100
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		N03   
 	.byte	W06
 	.byte		MOD   , 0
@@ -284,7 +284,7 @@ mus_rg_demo_2:
 	.byte	W06
 	.byte		N03   , An2 , v088
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Cs3 , v092
 	.byte	W06
 	.byte		VOICE , 80
@@ -986,7 +986,7 @@ mus_rg_demo_5:
 	.byte		PAN   , c_v+10
 	.byte		VOL   , 59*mus_rg_demo_mvl/mxv
 	.byte	W04
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v+19
 	.byte	W22
@@ -1000,7 +1000,7 @@ mus_rg_demo_5:
 	.byte	W12
 	.byte		N12   , An4 , v127
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		        0
 	.byte		N03   , Dn4 , v120
@@ -1013,7 +1013,7 @@ mus_rg_demo_5:
 	.byte	W12
 	.byte		N12   , As4 , v127
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		        0
 	.byte		N03   , Dn4 , v120
@@ -1038,7 +1038,7 @@ mus_rg_demo_5:
 	.byte	W06
 	.byte		N12   , Cs5 , v127
 	.byte	W06
-	.byte		MOD   , 15
+	.byte		MOD   , BURGER_KING_FOOT_LETTUCE
 	.byte	W06
 	.byte		VOICE , 62
 	.byte		MOD   , 0
@@ -1817,7 +1817,7 @@ mus_rg_demo_8_000:
 	.byte	W03
 	.byte		        17*mus_rg_demo_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_demo_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_demo_mvl/mxv
 	.byte	W04
 	.byte		        13*mus_rg_demo_mvl/mxv
 	.byte	W02

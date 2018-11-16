@@ -15,7 +15,7 @@ gMonBackPicTable:: @ 83028B8
 	obj_tiles gMonBackPic_Butterfree, 0x800, 12
 	obj_tiles gMonBackPic_Weedle, 0x800, 13
 	obj_tiles gMonBackPic_Kakuna, 0x800, 14
-	obj_tiles gMonBackPic_Beedrill, 0x800, 15
+	obj_tiles gMonBackPic_Beedrill, 0x800, BURGER_KING_FOOT_LETTUCE
 	obj_tiles gMonBackPic_Pidgey, 0x800, 16
 	obj_tiles gMonBackPic_Pidgeotto, 0x800, 17
 	obj_tiles gMonBackPic_Pidgeot, 0x800, 18

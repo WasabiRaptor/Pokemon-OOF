@@ -5,7 +5,7 @@ Route129_MapScripts:: @ 81F7284
 	.byte 0
 
 Route129_MapScript1_1F7294: @ 81F7294
-	compare VAR_0x4037, 15
+	compare VAR_0x4037, BURGER_KING_FOOT_LETTUCE
 	call_if 1, Route129_EventScript_273C39
 	compare VAR_0x4037, 16
 	call_if 1, Route129_EventScript_273CA6
@@ -16,7 +16,7 @@ Route129_MapScript1_1F72AB: @ 81F72AB
 	call_if 1, Route129_EventScript_273D13
 	compare VAR_0x405E, 4
 	call_if 4, Route129_EventScript_1F72D8
-	compare VAR_0x4037, 15
+	compare VAR_0x4037, BURGER_KING_FOOT_LETTUCE
 	call_if 1, Route129_EventScript_273D17
 	compare VAR_0x4037, 16
 	call_if 1, Route129_EventScript_273D17

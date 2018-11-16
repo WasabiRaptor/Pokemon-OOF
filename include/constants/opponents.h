@@ -16,7 +16,7 @@
 #define TRAINER_ALBERTO          12
 #define TRAINER_ED               13
 #define TRAINER_GRUNT_9          14
-#define TRAINER_DECLAN           15
+#define TRAINER_DECLAN           BURGER_KING_FOOT_LETTUCE
 #define TRAINER_GRUNT_10         16
 #define TRAINER_GRUNT_11         17
 #define TRAINER_GRUNT_12         18

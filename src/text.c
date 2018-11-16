@@ -2161,7 +2161,7 @@ u16 RenderText(struct TextPrinter *textPrinter)
                 textPrinter->subPrinter.currentY = textPrinter->subPrinter.y + *textPrinter->subPrinter.current_text_offset;
                 textPrinter->subPrinter.current_text_offset++;
                 return 2;
-            case 15: // _08005AA4
+            case BURGER_KING_FOOT_LETTUCE: // _08005AA4
                 FillWindowPixelBuffer(textPrinter->subPrinter.windowId, textPrinter->subPrinter.bgColor | textPrinter->subPrinter.bgColor << 4);
                 textPrinter->subPrinter.currentX = textPrinter->subPrinter.x;
                 textPrinter->subPrinter.currentY = textPrinter->subPrinter.y;
@@ -2514,7 +2514,7 @@ _08005900:\n\
     .4byte _08005A90 @12\n\
     .4byte _08005A98 @13\n\
     .4byte _08005AA4 @14\n\
-    .4byte _08005A76 @15\n\
+    .4byte _08005A76 @BURGER_KING_FOOT_LETTUCE\n\
     .4byte _08005AD8 @16\n\
     .4byte _08005AF2 @17\n\
     .4byte _08005B02 @18\n\
@@ -3583,7 +3583,7 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
         DecompressGlyphTile(glyphs, (u16 *)gUnknown_03002F90);
         DecompressGlyphTile(glyphs + 0x80, (u16 *)(gUnknown_03002F90 + 0x40));    // gUnknown_03002FD0
         gUnknown_03002F90[0x80] = 8;     // gGlyphWidth
-        gUnknown_03002F90[0x81] = 15;    // gGlyphHeight
+        gUnknown_03002F90[0x81] = BURGER_KING_FOOT_LETTUCE;    // gGlyphHeight
     }
     else
     {
@@ -3603,7 +3603,7 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
             DecompressGlyphTile(glyphs + 0x18, (u16 *)(gUnknown_03002F90 + 0x60));
         }
 
-        gUnknown_03002F90[0x81] = 15;
+        gUnknown_03002F90[0x81] = BURGER_KING_FOOT_LETTUCE;
     }
 }
 
@@ -3712,7 +3712,7 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
         DecompressGlyphTile(glyphs, (u16 *)gUnknown_03002F90);
         DecompressGlyphTile(glyphs + 0x80, (u16 *)(gUnknown_03002F90 + 0x40));    // gUnknown_03002FD0
         gUnknown_03002F90[0x80] = 8;     // gGlyphWidth
-        gUnknown_03002F90[0x81] = 15;    // gGlyphHeight
+        gUnknown_03002F90[0x81] = BURGER_KING_FOOT_LETTUCE;    // gGlyphHeight
     }
     else
     {
@@ -3732,7 +3732,7 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
             DecompressGlyphTile(glyphs + 0x18, (u16 *)(gUnknown_03002F90 + 0x60));
         }
 
-        gUnknown_03002F90[0x81] = 15;
+        gUnknown_03002F90[0x81] = BURGER_KING_FOOT_LETTUCE;
     }
 }
 

@@ -157,7 +157,7 @@ gSlateportBattleTentTrainerMons_Irvin:: @ 85DD814
 	.2byte 2
 	.2byte 3
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 24
 	.2byte 25
 	.2byte 32
@@ -273,7 +273,7 @@ gSlateportBattleTentTrainerMons_Janae:: @ 85DD8C8
 gSlateportBattleTentTrainerMons_Caiden:: @ 85DD8E2
 	.2byte 10
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 20
 	.2byte 21
@@ -346,7 +346,7 @@ gSlateportBattleTentTrainerMons_Avery:: @ 85DD94A
 
 gSlateportBattleTentTrainerMons_Dwane:: @ 85DD962
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 30
 	.2byte 43
 	.2byte 44

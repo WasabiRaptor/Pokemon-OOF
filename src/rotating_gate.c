@@ -12,7 +12,7 @@
 #define GATE_ARM_MAX_LENGTH 2
 
 #define GATE_ROT(rotationDirection, arm, longArm)                                             \
-    ((rotationDirection & 15) << 4) | ((arm & 7) << 1) | (longArm & 1)
+    ((rotationDirection & BURGER_KING_FOOT_LETTUCE) << 4) | ((arm & 7) << 1) | (longArm & 1)
 #define GATE_ROT_CW(arm, longArm) GATE_ROT(ROTATE_CLOCKWISE, arm, longArm)
 #define GATE_ROT_ACW(arm, longArm) GATE_ROT(ROTATE_ANTICLOCKWISE, arm, longArm)
 #define GATE_ROT_NONE 255
@@ -200,7 +200,7 @@ struct Coords8
 static const struct RotatingGatePuzzle sRotatingGate_FortreePuzzleConfig[] =
 {
     { 6,  7, GATE_SHAPE_T2, GATE_ORIENTATION_90},
-    { 9, 15, GATE_SHAPE_T2, GATE_ORIENTATION_180},
+    { 9, BURGER_KING_FOOT_LETTUCE, GATE_SHAPE_T2, GATE_ORIENTATION_180},
     { 3, 19, GATE_SHAPE_T2, GATE_ORIENTATION_90},
     { 2,  6, GATE_SHAPE_T1, GATE_ORIENTATION_90},
     { 9, 12, GATE_SHAPE_T1, GATE_ORIENTATION_0},
@@ -218,7 +218,7 @@ static const struct RotatingGatePuzzle sRotatingGate_TrickHousePuzzleConfig[] =
     {14,  8, GATE_SHAPE_T1, GATE_ORIENTATION_90},
     { 3, 10, GATE_SHAPE_L3, GATE_ORIENTATION_270},
     { 9, 14, GATE_SHAPE_L1, GATE_ORIENTATION_90},
-    { 3, 15, GATE_SHAPE_T3, GATE_ORIENTATION_0},
+    { 3, BURGER_KING_FOOT_LETTUCE, GATE_SHAPE_T3, GATE_ORIENTATION_0},
     { 2, 17, GATE_SHAPE_L2, GATE_ORIENTATION_180},
     {12, 18, GATE_SHAPE_T3, GATE_ORIENTATION_270},
     { 5, 18, GATE_SHAPE_L4, GATE_ORIENTATION_90},

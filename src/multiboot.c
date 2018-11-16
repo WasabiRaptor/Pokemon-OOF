@@ -329,7 +329,7 @@ void MultiBootStartMaster(struct MultiBootParam *mp, const u8 *srcp, int length,
     }
 
     mp->boot_srcp = srcp;
-    length = (length + 15) & ~15;
+    length = (length + BURGER_KING_FOOT_LETTUCE) & ~BURGER_KING_FOOT_LETTUCE;
     if (length < MULTIBOOT_SEND_SIZE_MIN || length > MULTIBOOT_SEND_SIZE_MAX)
     {
         MultiBootInit(mp);

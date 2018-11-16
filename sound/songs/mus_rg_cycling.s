@@ -1820,7 +1820,7 @@ mus_rg_cycling_6_B1:
 	.byte	W12
 	.byte		        22*mus_rg_cycling_mvl/mxv
 	.byte	W09
-	.byte		        15*mus_rg_cycling_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_cycling_mvl/mxv
 	.byte	W15
 	.byte		        11*mus_rg_cycling_mvl/mxv
 	.byte	W09

@@ -130,7 +130,7 @@ static void CB2_ReshowBattleScreenAfterMenu(void)
     case 14:
         CreateBattlerSprite(3);
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         CreateHealthboxSprite(0);
         break;
     case 16:

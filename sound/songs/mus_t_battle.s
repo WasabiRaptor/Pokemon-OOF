@@ -820,7 +820,7 @@ mus_t_battle_5:
 	.byte	W01
 	.byte		        13*mus_t_battle_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_t_battle_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_t_battle_mvl/mxv
 	.byte	W01
 	.byte		        16*mus_t_battle_mvl/mxv
 	.byte	W03
@@ -1167,7 +1167,7 @@ mus_t_battle_6:
 	.byte	W03
 	.byte		        14*mus_t_battle_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_t_battle_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_t_battle_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_t_battle_mvl/mxv
 	.byte	W03
@@ -1464,7 +1464,7 @@ mus_t_battle_7:
 	.byte	W03
 	.byte		        14*mus_t_battle_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_t_battle_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_t_battle_mvl/mxv
 	.byte	W02
 	.byte		        18*mus_t_battle_mvl/mxv
 	.byte	W03

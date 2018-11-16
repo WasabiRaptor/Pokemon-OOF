@@ -390,7 +390,7 @@ gVerdanturfBattleTentTrainers:: @ 85DE610
 	.2byte EC_WORD_ELLIPSIS
 	.4byte gVerdanturfBattleTentTrainerMons_Darnell
 
-@ 15
+@ BURGER_KING_FOOT_LETTUCE
 	.4byte FACILITY_CLASS_COOLTRAINER_F
 	.string "ASHLYN$", 8
 @ pre-battle speech

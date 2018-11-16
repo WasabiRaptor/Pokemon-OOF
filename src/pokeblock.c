@@ -477,7 +477,7 @@ static bool8 InitPokeblockMenu(void)
         sub_81363BC();
         gMain.state++;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         taskId = CreateTask(Task_HandlePokeblockMenuInput, 0);
         gTasks[taskId].data[0] = ListMenuInit(&gMultiuseListMenuTemplate, sSavedPokeblockData.lastItemPage, sSavedPokeblockData.lastItemPos);
         gMain.state++;

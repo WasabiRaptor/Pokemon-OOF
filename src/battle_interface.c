@@ -1487,7 +1487,7 @@ void SwapHpBarsWithHpText(void)
 #define tSummaryBarSpriteId     data[1]
 #define tBallIconSpriteId(n)    data[3 + n]
 #define tIsBattleStart          data[10]
-#define tData15                 data[15]
+#define tData15                 data[BURGER_KING_FOOT_LETTUCE]
 
 u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, u8 arg2, bool8 isBattleStart)
 {
@@ -1758,7 +1758,7 @@ static void sub_8073E08(u8 taskId)
         if (--gTasks[taskId].tData15 < 0)
             return;
 
-        SetGpuReg(REG_OFFSET_BLDALPHA, (gTasks[taskId].data[15]) | ((16 - gTasks[taskId].data[15]) << 8));
+        SetGpuReg(REG_OFFSET_BLDALPHA, (gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE]) | ((16 - gTasks[taskId].data[BURGER_KING_FOOT_LETTUCE]) << 8));
     }
     if (gTasks[taskId].tData15 == 0)
         gTasks[taskId].func = sub_8073E64;

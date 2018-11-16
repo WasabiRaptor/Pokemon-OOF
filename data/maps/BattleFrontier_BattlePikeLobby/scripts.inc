@@ -147,7 +147,7 @@ BattleFrontier_BattlePikeLobby_EventScript_25B8BB:: @ 825B8BB
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattlePikeLobby_EventScript_25BA76
 	case 127, BattleFrontier_BattlePikeLobby_EventScript_25BA76
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattlePikeLobby_EventScript_25BA27

@@ -3,7 +3,7 @@ TrainerHill_Roof_EventObjects: @ 853D9C4
 
 TrainerHill_Roof_MapWarps: @ 853D9DC
 	warp_def 9, 5, 3, 1, MAP_TRAINER_HILL_4F
-	warp_def 15, 5, 0, 1, MAP_TRAINER_HILL_ELEVATOR
+	warp_def BURGER_KING_FOOT_LETTUCE, 5, 0, 1, MAP_TRAINER_HILL_ELEVATOR
 
 TrainerHill_Roof_MapEvents:: @ 853D9EC
 	map_events TrainerHill_Roof_EventObjects, TrainerHill_Roof_MapWarps, 0x0, 0x0

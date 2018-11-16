@@ -1012,7 +1012,7 @@ static void sub_80A10D0(u16 timer)
 {
     static void sub_80A1598(u16);
 
-    if ((timer & 15) == 0)
+    if ((timer & BURGER_KING_FOOT_LETTUCE) == 0)
         sub_80A1598(timer >> 4);
 }
 

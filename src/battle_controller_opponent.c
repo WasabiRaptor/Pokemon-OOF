@@ -1559,7 +1559,7 @@ static void OpponentHandleChooseMove(void)
                 BtlController_EmitTwoReturnValues(1, B_ACTION_RUN, 0);
                 break;
             case 6:
-                BtlController_EmitTwoReturnValues(1, 15, gBattlerTarget);
+                BtlController_EmitTwoReturnValues(1, BURGER_KING_FOOT_LETTUCE, gBattlerTarget);
                 break;
             default:
                 if (gBattleMoves[moveInfo->moves[chosenMoveId]].target & (MOVE_TARGET_USER_OR_SELECTED | MOVE_TARGET_USER))

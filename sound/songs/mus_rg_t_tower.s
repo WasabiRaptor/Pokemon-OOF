@@ -1164,7 +1164,7 @@ mus_rg_t_tower_5:
 	.byte		VOL   , 90*mus_rg_t_tower_mvl/mxv
 	.byte	KEYSH , mus_rg_t_tower_key+0
 mus_rg_t_tower_5_B1:
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W96
 	.byte	W96
 	.byte		VOICE , 56

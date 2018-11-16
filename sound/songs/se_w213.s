@@ -22,7 +22,7 @@ se_w213_1:
 	.byte		VOL   , 95*se_w213_mvl/mxv
 	.byte		BENDR , 2
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		N06   , Cn6 , v116
 	.byte	W03
@@ -73,7 +73,7 @@ se_w213_2:
 	.byte		BENDR , 2
 	.byte		VOL   , 43*se_w213_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , Cn5 , v120
 	.byte	W03
 	.byte	W03

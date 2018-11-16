@@ -19,7 +19,7 @@ se_hinsi_1:
 	.byte	KEYSH , se_hinsi_key+0
 se_hinsi_1_B1:
 	.byte	TEMPO , 150*se_hinsi_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		XCMD  , xIECV , 10
 	.byte		        xIECL , 8
 	.byte		VOL   , 100*se_hinsi_mvl/mxv

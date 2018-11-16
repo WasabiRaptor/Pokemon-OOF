@@ -1,5 +1,5 @@
 MtPyre_Exterior_EventObjects: @ 85350DC
-	object_event 1, EVENT_OBJ_GFX_ITEM_BALL, 0, 27, 15, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, MtPyre_Exterior_EventScript_29133E, 1073
+	object_event 1, EVENT_OBJ_GFX_ITEM_BALL, 0, 27, BURGER_KING_FOOT_LETTUCE, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, MtPyre_Exterior_EventScript_29133E, 1073
 	object_event 2, EVENT_OBJ_GFX_ITEM_BALL, 0, 19, 40, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, MtPyre_Exterior_EventScript_29134B, 1074
 
 MtPyre_Exterior_MapWarps: @ 853510C

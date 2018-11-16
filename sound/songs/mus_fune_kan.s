@@ -1886,7 +1886,7 @@ mus_fune_kan_5_B1:
 	.byte	W03
 	.byte		        36*mus_fune_kan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_fune_kan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_fune_kan_mvl/mxv
 	.byte	W03
 	.byte		        80*mus_fune_kan_mvl/mxv
 	.byte		N06   , Dn4 
@@ -1903,7 +1903,7 @@ mus_fune_kan_5_B1:
 	.byte	W03
 	.byte		        36*mus_fune_kan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_fune_kan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_fune_kan_mvl/mxv
 	.byte	W01
 	.byte		N08   , Dn3 
 	.byte	W02
@@ -2351,7 +2351,7 @@ mus_fune_kan_6_B1:
 	.byte	W03
 	.byte		        36*mus_fune_kan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_fune_kan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_fune_kan_mvl/mxv
 	.byte	W03
 	.byte		        80*mus_fune_kan_mvl/mxv
 	.byte		N06   , An3 
@@ -2368,7 +2368,7 @@ mus_fune_kan_6_B1:
 	.byte	W03
 	.byte		        36*mus_fune_kan_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_fune_kan_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_fune_kan_mvl/mxv
 	.byte	W01
 	.byte		N08   , An2 
 	.byte	W02

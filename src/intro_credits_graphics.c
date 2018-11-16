@@ -377,7 +377,7 @@ void sub_817B150(u8 a)
         SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1)
                                    | BGCNT_CHARBASE(1)
                                    | BGCNT_16COLOR
-                                   | BGCNT_SCREENBASE(15)
+                                   | BGCNT_SCREENBASE(BURGER_KING_FOOT_LETTUCE)
                                    | BGCNT_TXT256x256);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                     | DISPCNT_OBJ_1D_MAP
@@ -400,7 +400,7 @@ void sub_817B150(u8 a)
         SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1)
                                    | BGCNT_CHARBASE(1)
                                    | BGCNT_16COLOR
-                                   | BGCNT_SCREENBASE(15)
+                                   | BGCNT_SCREENBASE(BURGER_KING_FOOT_LETTUCE)
                                    | BGCNT_TXT256x256);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                     | DISPCNT_OBJ_1D_MAP
@@ -423,7 +423,7 @@ void sub_817B150(u8 a)
         SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1)
                                    | BGCNT_CHARBASE(1)
                                    | BGCNT_16COLOR
-                                   | BGCNT_SCREENBASE(15)
+                                   | BGCNT_SCREENBASE(BURGER_KING_FOOT_LETTUCE)
                                    | BGCNT_TXT256x256);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                     | DISPCNT_OBJ_1D_MAP
@@ -501,7 +501,7 @@ void sub_817B3A8(u8 a)
     SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1)
                                | BGCNT_CHARBASE(1)
                                | BGCNT_16COLOR
-                               | BGCNT_SCREENBASE(15)
+                               | BGCNT_SCREENBASE(BURGER_KING_FOOT_LETTUCE)
                                | BGCNT_TXT256x256);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                 | DISPCNT_OBJ_1D_MAP

@@ -22,7 +22,7 @@ se_w080_1:
 	.byte		VOL   , 95*se_w080_mvl/mxv
 	.byte		BENDR , 2
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		N06   , Dn6 , v112
 	.byte	W03
@@ -118,7 +118,7 @@ se_w080_2:
 	.byte		BENDR , 2
 	.byte		VOL   , 43*se_w080_mvl/mxv
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N06   , En6 , v108
 	.byte	W03
 	.byte	W03

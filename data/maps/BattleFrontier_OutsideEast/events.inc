@@ -1,6 +1,6 @@
 BattleFrontier_OutsideEast_EventObjects: @ 853BB10
 	object_event 1, EVENT_OBJ_GFX_LITTLE_BOY_1, 0, 20, 17, 0, MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT, 3, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242C67, 0
-	object_event 2, EVENT_OBJ_GFX_MAN_4, 0, 42, 15, 0, MOVEMENT_TYPE_WANDER_AROUND, 1, 3, 0, 0, BattleFrontier_OutsideEast_EventScript_242C70, 0
+	object_event 2, EVENT_OBJ_GFX_MAN_4, 0, 42, BURGER_KING_FOOT_LETTUCE, 0, MOVEMENT_TYPE_WANDER_AROUND, 1, 3, 0, 0, BattleFrontier_OutsideEast_EventScript_242C70, 0
 	object_event 3, EVENT_OBJ_GFX_HIKER, 0, 53, 6, 0, MOVEMENT_TYPE_FACE_DOWN, 2, 0, 0, 0, BattleFrontier_OutsideEast_EventScript_242C79, 0
 	object_event 4, EVENT_OBJ_GFX_HEX_MANIAC, 0, 54, 16, 0, MOVEMENT_TYPE_WANDER_AROUND, 2, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242C82, 0
 	object_event 5, EVENT_OBJ_GFX_BLACK_BELT, 0, 37, 32, 0, MOVEMENT_TYPE_FACE_UP, 0, 0, 0, 0, BattleFrontier_OutsideEast_EventScript_242C8B, 0
@@ -13,7 +13,7 @@ BattleFrontier_OutsideEast_EventObjects: @ 853BB10
 	object_event 12, EVENT_OBJ_GFX_MAN_1, 0, 17, 40, 0, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242CD6, 0
 	object_event 13, EVENT_OBJ_GFX_ZIGZAGOON_2, 0, 40, 56, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242C9F, 0
 	object_event 14, EVENT_OBJ_GFX_SUDOWOODO, 0, 54, 62, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242CEA, 842
-	object_event 15, EVENT_OBJ_GFX_MANIAC, 0, 42, 34, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242D79, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_MANIAC, 0, 42, 34, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242D79, 0
 	object_event 16, EVENT_OBJ_GFX_GIRL_3, 0, 51, 53, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242D82, 0
 	object_event 17, EVENT_OBJ_GFX_PSYCHIC_M, 0, 62, 18, 0, MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT, 2, 6, 0, 0, BattleFrontier_OutsideEast_EventScript_242D8B, 0
 	object_event 18, EVENT_OBJ_GFX_MAN_4, 0, 11, 21, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, BattleFrontier_OutsideEast_EventScript_242D94, 0
@@ -46,7 +46,7 @@ BattleFrontier_OutsideEast_MapBGEvents: @ 853BDF0
 	bg_event 13, 17, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242C43
 	bg_event 43, 56, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242C4C
 	bg_event 36, 34, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242C55
-	bg_event 62, 15, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242C5E
+	bg_event 62, BURGER_KING_FOOT_LETTUCE, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242C5E
 	bg_event 7, 29, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242DD7
 	bg_event 32, 13, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_242DCE
 	bg_event 4, 51, 0, BG_EVENT_PLAYER_FACING_ANY, BattleFrontier_OutsideEast_EventScript_271E73

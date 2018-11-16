@@ -48,7 +48,7 @@ se_op_basyu_1:
 	.byte		        c_v+13
 	.byte	W02
 	.byte	W01
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v+17
 	.byte	W03
@@ -100,7 +100,7 @@ se_op_basyu_1:
 	.byte	W01
 	.byte		VOL   , 92*se_op_basyu_mvl/mxv
 	.byte	W02
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		VOL   , 92*se_op_basyu_mvl/mxv
 	.byte	W01

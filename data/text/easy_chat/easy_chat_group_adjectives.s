@@ -129,7 +129,7 @@ gEasyChatGroup_Adjectives:: @ 859C4D8
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Ticklish
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Twirling

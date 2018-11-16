@@ -39,7 +39,7 @@ mus_ooame_1_000:
 	.byte		        14*mus_ooame_mvl/mxv
 	.byte	W04
 	.byte	PEND
-	.byte		        15*mus_ooame_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_ooame_mvl/mxv
 	.byte	W08
 	.byte		        17*mus_ooame_mvl/mxv
 	.byte	W04
@@ -117,7 +117,7 @@ mus_ooame_1_000:
 	.byte		        14*mus_ooame_mvl/mxv
 	.byte	W04
 mus_ooame_1_001:
-	.byte		VOL   , 15*mus_ooame_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_ooame_mvl/mxv
 	.byte	W08
 	.byte		        17*mus_ooame_mvl/mxv
 	.byte	W04
@@ -569,7 +569,7 @@ mus_ooame_4_000:
 	.byte	W12
 	.byte		VOL   , 19*mus_ooame_mvl/mxv
 	.byte	W12
-	.byte		        15*mus_ooame_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_ooame_mvl/mxv
 	.byte		MOD   , 9
 	.byte	W12
 	.byte		VOL   , 11*mus_ooame_mvl/mxv
@@ -621,7 +621,7 @@ mus_ooame_4_002:
 	.byte	W12
 	.byte		        19*mus_ooame_mvl/mxv
 	.byte	W12
-	.byte		        15*mus_ooame_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_ooame_mvl/mxv
 	.byte	W12
 	.byte		        11*mus_ooame_mvl/mxv
 	.byte	W12

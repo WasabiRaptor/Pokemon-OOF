@@ -287,7 +287,7 @@ mus_runecity_2_000:
 	.byte	W04
 	.byte		        20*mus_runecity_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_runecity_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_runecity_mvl/mxv
 	.byte	W04
 	.byte		MOD   , 0
 	.byte		VOL   , 45*mus_runecity_mvl/mxv

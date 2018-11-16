@@ -215,10 +215,10 @@ void (*const SecretBasePC_SelectedDecorActions[][2])(u8 taskId) = {
 };
 
 const struct WindowTemplate gUnknown_085A6B90[4] = {
-    { 0,  1,  1, 18,  8, 15, 0x0001 },
+    { 0,  1,  1, 18,  8, BURGER_KING_FOOT_LETTUCE, 0x0001 },
     { 0,  1,  1, 13, 18, 13, 0x0091 },
-    { 0, 17,  1, 12,  2, 15, 0x017b },
-    { 0, 16, 13, 13,  6, 15, 0x0193 }
+    { 0, 17,  1, 12,  2, BURGER_KING_FOOT_LETTUCE, 0x017b },
+    { 0, 16, 13, 13,  6, BURGER_KING_FOOT_LETTUCE, 0x0193 }
 };
 
 const u16 gUnknown_085A6BB0[] = INCBIN_U16("graphics/decorations/unk_85a6bb0.gbapal");
@@ -1967,7 +1967,7 @@ void sub_81292E8(struct Sprite *sprite)
 {
     if (sprite->data[7] == 0)
     {
-        if (sprite->data[6] < 15)
+        if (sprite->data[6] < BURGER_KING_FOOT_LETTUCE)
         {
             sprite->invisible = FALSE;
         }
@@ -2636,7 +2636,7 @@ void sub_812A36C(struct Sprite *sprite)
 {
     sprite->data[0] ++;
     sprite->data[0] &= 0x1F;
-    if (sprite->data[0] > 15)
+    if (sprite->data[0] > BURGER_KING_FOOT_LETTUCE)
     {
         sprite->invisible = TRUE;
     }

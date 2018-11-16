@@ -18,7 +18,7 @@
 se_w039_1:
 	.byte	KEYSH , se_w039_key+0
 	.byte	TEMPO , 150*se_w039_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		BENDR , 12
 	.byte		PAN   , c_v+18
 	.byte		VOL   , 48*se_w039_mvl/mxv

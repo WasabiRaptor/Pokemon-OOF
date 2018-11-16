@@ -5877,7 +5877,7 @@ _0812D2CC:
 	strh r0, [r1]
 	lsls r3, r5, 16
 	movs r0, 0x80
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r0
 	lsrs r3, 16
 	movs r0, 0x2
@@ -5934,7 +5934,7 @@ _0812D332:
 	strh r0, [r1]
 	lsls r3, r5, 16
 	movs r0, 0x80
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r0
 	lsrs r3, 16
 	movs r0, 0x2
@@ -6025,7 +6025,7 @@ _0812D3E4:
 	lsls r3, r4, 16
 	asrs r4, r3, 16
 	movs r0, 0x80
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r0
 	lsrs r3, 16
 	movs r0, 0x2
@@ -6075,7 +6075,7 @@ _0812D448:
 	lsls r3, r4, 16
 	asrs r4, r3, 16
 	movs r0, 0x80
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r3, r0
 	lsrs r3, 16
 	movs r0, 0x2

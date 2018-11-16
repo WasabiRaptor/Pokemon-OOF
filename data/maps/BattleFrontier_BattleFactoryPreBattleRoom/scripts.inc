@@ -38,7 +38,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259AF9:: @ 8259AF9
 	setvar VAR_0x8004, 14
 	special sub_81A5E74
 	setorcopyvar VAR_0x8005, VAR_RESULT
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A5E74
 	setorcopyvar VAR_0x8006, VAR_RESULT
 	call BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259E93
@@ -169,7 +169,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259D98:: @ 8259D98
 	setvar VAR_0x8004, 14
 	special sub_81A5E74
 	setorcopyvar VAR_0x8005, VAR_RESULT
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A5E74
 	setorcopyvar VAR_0x8006, VAR_RESULT
 	call BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259E93
@@ -277,7 +277,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259E93:: @ 8259E93
 	call_if 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259FCE
 	compare VAR_0x8005, 14
 	call_if 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259FD7
-	compare VAR_0x8005, 15
+	compare VAR_0x8005, BURGER_KING_FOOT_LETTUCE
 	call_if 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259FE0
 	compare VAR_0x8005, 16
 	call_if 1, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_259FE9

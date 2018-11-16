@@ -1870,7 +1870,7 @@ mus_rg_shiruhu_4_B1:
 	.byte	W01
 	.byte		PAN   , c_v-10
 	.byte	W02
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-21
 	.byte	W03
@@ -1978,7 +1978,7 @@ mus_rg_shiruhu_4_B1:
 	.byte	W12
 	.byte		BEND  , c_v-5
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W04
 	.byte		        c_v-21
 	.byte	W02
@@ -2038,7 +2038,7 @@ mus_rg_shiruhu_4_B1:
 	.byte	W03
 	.byte		        c_v-11
 	.byte	W06
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v-19
 	.byte	W03
@@ -2202,7 +2202,7 @@ mus_rg_shiruhu_4_B1:
 	.byte		        c_v+23
 	.byte	W03
 	.byte		PAN   , c_v+6
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		        c_v+6
 	.byte	W03
@@ -2260,7 +2260,7 @@ mus_rg_shiruhu_4_B1:
 	.byte		MOD   , 0
 	.byte		N03   , Fn1 , v127
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Fs1 
 	.byte	W03
 	.byte		PAN   , c_v+0
@@ -2340,7 +2340,7 @@ mus_rg_shiruhu_4_B1:
 	.byte		MOD   , 0
 	.byte		N03   , Fn1 , v127
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N03   , Gn1 
 	.byte	W03
 	.byte		PAN   , c_v+0
@@ -2441,7 +2441,7 @@ mus_rg_shiruhu_4_B1:
 	.byte		VOL   , 9*mus_rg_shiruhu_mvl/mxv
 	.byte		PAN   , c_v+4
 	.byte	W06
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W12
 	.byte		EOT   
 	.byte		VOL   , 38*mus_rg_shiruhu_mvl/mxv

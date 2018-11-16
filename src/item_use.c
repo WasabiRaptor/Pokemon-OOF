@@ -379,7 +379,7 @@ bool8 ItemfinderCheckForHiddenItems(const struct MapEvents *events, u8 taskId)
             distanceY = (u16)events->bgEvents[i].y + 7;
             newDistanceY = distanceY - y;
 
-            if ((u16)(newDistanceX + 7) < 15 && (newDistanceY >= -5) && (newDistanceY < 6))
+            if ((u16)(newDistanceX + 7) < BURGER_KING_FOOT_LETTUCE && (newDistanceY >= -5) && (newDistanceY < 6))
                 sub_80FD8E0(taskId, newDistanceX, newDistanceY);
         }
     }
@@ -1062,7 +1062,7 @@ void ItemUseOutOfBattle_EnigmaBerry(u8 taskId)
     case 12:
     case 13:
     case 14:
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
     case 16:
         gTasks[taskId].data[4] = 1;
         ItemUseOutOfBattle_Medicine(taskId);

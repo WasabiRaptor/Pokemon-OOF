@@ -454,7 +454,7 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_AQUA_ADMIN, 10},
     {TRAINER_CLASS_AQUA_LEADER, 20},
     {TRAINER_CLASS_AROMA_LADY, 10},
-    {TRAINER_CLASS_RUIN_MANIAC, 15},
+    {TRAINER_CLASS_RUIN_MANIAC, BURGER_KING_FOOT_LETTUCE},
     {TRAINER_CLASS_INTERVIEWER, 12},
     {TRAINER_CLASS_TUBER_1, 1},
     {TRAINER_CLASS_TUBER_2, 1},
@@ -464,14 +464,14 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_LADY, 50},
     {TRAINER_CLASS_BEAUTY, 20},
     {TRAINER_CLASS_RICH_BOY, 50},
-    {TRAINER_CLASS_POKEMANIAC, 15},
+    {TRAINER_CLASS_POKEMANIAC, BURGER_KING_FOOT_LETTUCE},
     {TRAINER_CLASS_SWIMMER_M, 2},
     {TRAINER_CLASS_BLACK_BELT, 8},
     {TRAINER_CLASS_GUITARIST, 8},
     {TRAINER_CLASS_KINDLER, 8},
     {TRAINER_CLASS_CAMPER, 4},
     {TRAINER_CLASS_OLD_COUPLE, 10},
-    {TRAINER_CLASS_BUG_MANIAC, 15},
+    {TRAINER_CLASS_BUG_MANIAC, BURGER_KING_FOOT_LETTUCE},
     {TRAINER_CLASS_PSYCHIC, 6},
     {TRAINER_CLASS_GENTLEMAN, 20},
     {TRAINER_CLASS_ELITE_FOUR, 25},
@@ -493,8 +493,8 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_PICNICKER, 4},
     {TRAINER_CLASS_TWINS, 3},
     {TRAINER_CLASS_SAILOR, 8},
-    {TRAINER_CLASS_COLLECTOR, 15},
-    {TRAINER_CLASS_PKMN_TRAINER_3, 15},
+    {TRAINER_CLASS_COLLECTOR, BURGER_KING_FOOT_LETTUCE},
+    {TRAINER_CLASS_PKMN_TRAINER_3, BURGER_KING_FOOT_LETTUCE},
     {TRAINER_CLASS_PKMN_BREEDER, 10},
     {TRAINER_CLASS_PKMN_RANGER, 12},
     {TRAINER_CLASS_TEAM_MAGMA, 5},
@@ -980,7 +980,7 @@ static void CB2_HandleStartBattle(void)
         {
             if (!(gBattleTypeFlags & BATTLE_TYPE_RECORDED))
                 gBattleTypeFlags |= BATTLE_TYPE_WILD;
-            gBattleCommunication[MULTIUSE_STATE] = 15;
+            gBattleCommunication[MULTIUSE_STATE] = BURGER_KING_FOOT_LETTUCE;
             SetAllPlayersBerryData();
         }
         break;
@@ -1055,7 +1055,7 @@ static void CB2_HandleStartBattle(void)
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_8032768();
         sub_8184E58();
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
@@ -1336,7 +1336,7 @@ static void CB2_HandleStartMultiPartnerBattle(void)
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if ((GetBlockReceivedStatus() & 3) == 3)
         {
             ResetBlockReceivedFlags();
@@ -4374,7 +4374,7 @@ static void HandleTurnActionSelectionState(void)
                     case 9:
                         gChosenActionByBattler[gActiveBattler] = gBattleBufferB[gActiveBattler][1];
                         return;
-                    case 15:
+                    case BURGER_KING_FOOT_LETTUCE:
                         gChosenActionByBattler[gActiveBattler] = B_ACTION_SWITCH;
                         sub_803CDF8();
                         return;

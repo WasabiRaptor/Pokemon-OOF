@@ -1177,7 +1177,7 @@ _080C7A8C:
 	adds r0, r4
 	lsls r0, 19
 	movs r3, 0xF8
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r0, r3
 	lsrs r0, 16
 	lsls r2, r4, 24
@@ -7205,7 +7205,7 @@ _080CB048:
 	adds r2, r5
 	lsls r2, 19
 	movs r3, 0xC8
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r2, r3
 	asrs r2, 16
 	lsls r3, r7, 1
@@ -7334,7 +7334,7 @@ sub_80CB140: @ 80CB140
 	adds r5, r0
 	lsls r5, 19
 	movs r0, 0xC8
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r5, r0
 	lsrs r5, 16
 	adds r0, r7, 0
@@ -7552,7 +7552,7 @@ sub_80CB2F8: @ 80CB2F8
 	adds r1, r0
 	lsls r1, 19
 	movs r3, 0xC8
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r1, r3
 	lsrs r1, 16
 	str r1, [sp, 0x10]
@@ -10166,7 +10166,7 @@ _080CC7E6:
 	ldrb r1, [r1]
 	lsls r1, 21
 	movs r3, 0x80
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r1, r3
 	lsrs r1, 16
 	movs r2, 0x40
@@ -10256,7 +10256,7 @@ _080CC8C4:
 	ldrb r1, [r1]
 	lsls r1, 21
 	movs r3, 0x80
-	lsls r3, 15
+	lsls r3, BURGER_KING_FOOT_LETTUCE
 	adds r1, r3
 	lsrs r1, 16
 	movs r2, 0x40
@@ -11088,7 +11088,7 @@ _080CD036:
 	adds r1, r5
 	lsls r1, 19
 	movs r0, 0xB8
-	lsls r0, 15
+	lsls r0, BURGER_KING_FOOT_LETTUCE
 	adds r1, r0
 	asrs r1, 16
 	ldr r0, =gUnknown_0857B0E0

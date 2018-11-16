@@ -765,7 +765,7 @@ LinkContestRoom1_EventScript_27A755:: @ 827A755
 LinkContestRoom1_EventScript_27A756:: @ 827A756
 	compare VAR_TEMP_8, 1
 	goto_eq LinkContestRoom1_EventScript_27A779
-	applymovement 15, LinkContestRoom1_Movement_27AD11
+	applymovement BURGER_KING_FOOT_LETTUCE, LinkContestRoom1_Movement_27AD11
 	playse SE_PIN
 	delay 14
 	setvar VAR_TEMP_8, 1
@@ -1052,7 +1052,7 @@ LinkContestRoom1_EventScript_27AA6F:: @ 827AA6F
 	turnvobject 7, 2
 	turnvobject 9, 4
 	turnvobject 11, 2
-	turnvobject 15, 2
+	turnvobject BURGER_KING_FOOT_LETTUCE, 2
 	turnvobject 13, 2
 	turnvobject 17, 2
 	turnvobject 19, 2
@@ -1069,7 +1069,7 @@ LinkContestRoom1_EventScript_27AA6F:: @ 827AA6F
 	turnvobject 7, 4
 	turnvobject 9, 4
 	turnvobject 11, 3
-	turnvobject 15, 3
+	turnvobject BURGER_KING_FOOT_LETTUCE, 3
 	turnvobject 13, 3
 	turnvobject 17, 3
 	turnvobject 19, 3

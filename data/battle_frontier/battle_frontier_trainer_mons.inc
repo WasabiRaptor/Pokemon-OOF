@@ -11,7 +11,7 @@ gBattleFrontierTrainerMons_Brady:: @ 85CED2E
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -76,7 +76,7 @@ gBattleFrontierTrainerMons_Conner:: @ 85CEDAC
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -141,7 +141,7 @@ gBattleFrontierTrainerMons_Bradley:: @ 85CEE2A
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -206,7 +206,7 @@ gBattleFrontierTrainerMons_Cybil:: @ 85CEEA8
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -271,7 +271,7 @@ gBattleFrontierTrainerMons_Rodette:: @ 85CEF26
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -336,7 +336,7 @@ gBattleFrontierTrainerMons_Peggy:: @ 85CEFA4
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -1448,7 +1448,7 @@ gBattleFrontierTrainerMons_Carlie:: @ 85CF7C0
 gBattleFrontierTrainerMons_Gordon:: @ 85CF802
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -1501,7 +1501,7 @@ gBattleFrontierTrainerMons_Gordon:: @ 85CF802
 gBattleFrontierTrainerMons_Ayden:: @ 85CF868
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -1554,7 +1554,7 @@ gBattleFrontierTrainerMons_Ayden:: @ 85CF868
 gBattleFrontierTrainerMons_Marco:: @ 85CF8CE
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -2015,7 +2015,7 @@ gBattleFrontierTrainerMons_Rafael:: @ 85CFC2E
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -2181,7 +2181,7 @@ gBattleFrontierTrainerMons_Pamela:: @ 85CFD6E
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -2822,7 +2822,7 @@ gBattleFrontierTrainerMons_Arnie:: @ 85D0228
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -3045,7 +3045,7 @@ gBattleFrontierTrainerMons_Danela:: @ 85D03CE
 	.2byte 10
 	.2byte 13
 	.2byte 14
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 18
@@ -3509,7 +3509,7 @@ gBattleFrontierTrainerMons_Trevin:: @ 85D070E
 	.2byte -1
 
 gBattleFrontierTrainerMons_Patrick:: @ 85D0754
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 67
@@ -3544,7 +3544,7 @@ gBattleFrontierTrainerMons_Patrick:: @ 85D0754
 	.2byte -1
 
 gBattleFrontierTrainerMons_Kaden:: @ 85D0796
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 67
@@ -3579,7 +3579,7 @@ gBattleFrontierTrainerMons_Kaden:: @ 85D0796
 	.2byte -1
 
 gBattleFrontierTrainerMons_Maxwell:: @ 85D07D8
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 67
@@ -3614,7 +3614,7 @@ gBattleFrontierTrainerMons_Maxwell:: @ 85D07D8
 	.2byte -1
 
 gBattleFrontierTrainerMons_Daryl:: @ 85D081A
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 31
 	.2byte 39
@@ -3644,7 +3644,7 @@ gBattleFrontierTrainerMons_Daryl:: @ 85D081A
 	.2byte -1
 
 gBattleFrontierTrainerMons_Kenneth:: @ 85D0852
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 31
 	.2byte 39
@@ -3674,7 +3674,7 @@ gBattleFrontierTrainerMons_Kenneth:: @ 85D0852
 	.2byte -1
 
 gBattleFrontierTrainerMons_Rich:: @ 85D088A
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 31
 	.2byte 39
@@ -3778,7 +3778,7 @@ gBattleFrontierTrainerMons_Nash:: @ 85D091A
 gBattleFrontierTrainerMons_Robby:: @ 85D0946
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -3825,7 +3825,7 @@ gBattleFrontierTrainerMons_Robby:: @ 85D0946
 gBattleFrontierTrainerMons_Reece:: @ 85D09A0
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -3872,7 +3872,7 @@ gBattleFrontierTrainerMons_Reece:: @ 85D09A0
 gBattleFrontierTrainerMons_Kathryn:: @ 85D09FA
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -3919,7 +3919,7 @@ gBattleFrontierTrainerMons_Kathryn:: @ 85D09FA
 gBattleFrontierTrainerMons_Ellen:: @ 85D0A54
 	.2byte 1
 	.2byte 13
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 16
 	.2byte 17
 	.2byte 22
@@ -3964,7 +3964,7 @@ gBattleFrontierTrainerMons_Ellen:: @ 85D0A54
 	.2byte -1
 
 gBattleFrontierTrainerMons_Ramon:: @ 85D0AAE
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 71
@@ -3999,7 +3999,7 @@ gBattleFrontierTrainerMons_Ramon:: @ 85D0AAE
 	.2byte -1
 
 gBattleFrontierTrainerMons_Arthur:: @ 85D0AF0
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 71
@@ -4034,7 +4034,7 @@ gBattleFrontierTrainerMons_Arthur:: @ 85D0AF0
 	.2byte -1
 
 gBattleFrontierTrainerMons_Alondra:: @ 85D0B32
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 71
@@ -4069,7 +4069,7 @@ gBattleFrontierTrainerMons_Alondra:: @ 85D0B32
 	.2byte -1
 
 gBattleFrontierTrainerMons_Adriana:: @ 85D0B74
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 50
 	.2byte 71
@@ -4105,7 +4105,7 @@ gBattleFrontierTrainerMons_Adriana:: @ 85D0B74
 
 gBattleFrontierTrainerMons_Malik:: @ 85D0BB6
 	.2byte 10
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 49
 	.2byte 50
@@ -4137,7 +4137,7 @@ gBattleFrontierTrainerMons_Malik:: @ 85D0BB6
 
 gBattleFrontierTrainerMons_Jill:: @ 85D0BF2
 	.2byte 10
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 22
 	.2byte 49
 	.2byte 50

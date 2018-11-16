@@ -83,7 +83,7 @@ Route124_DivingTreasureHuntersHouse_EventScript_270ADE:: @ 8270ADE
 	case 12, Route124_DivingTreasureHuntersHouse_EventScript_270D94
 	case 13, Route124_DivingTreasureHuntersHouse_EventScript_270DC5
 	case 14, Route124_DivingTreasureHuntersHouse_EventScript_270E01
-	case 15, Route124_DivingTreasureHuntersHouse_EventScript_270E3D
+	case BURGER_KING_FOOT_LETTUCE, Route124_DivingTreasureHuntersHouse_EventScript_270E3D
 	end
 
 Route124_DivingTreasureHuntersHouse_EventScript_270B8F:: @ 8270B8F

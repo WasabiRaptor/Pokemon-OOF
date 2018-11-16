@@ -223,7 +223,7 @@ PetalburgCity_Gym_EventScript_204AAC:: @ 8204AAC
 	clearflag FLAG_0x362
 	setflag FLAG_0x379
 	special InitBirchState
-	warp MAP_PETALBURG_CITY, 255, 15, 8
+	warp MAP_PETALBURG_CITY, 255, BURGER_KING_FOOT_LETTUCE, 8
 	waitstate
 	release
 	end
@@ -501,7 +501,7 @@ PetalburgCity_Gym_EventScript_204F13:: @ 8204F13
 	removeobject 11
 	setvar VAR_0x4057, 4
 	clearflag FLAG_0x33E
-	warp MAP_PETALBURG_CITY, 255, 15, 8
+	warp MAP_PETALBURG_CITY, 255, BURGER_KING_FOOT_LETTUCE, 8
 	waitstate
 	release
 	end

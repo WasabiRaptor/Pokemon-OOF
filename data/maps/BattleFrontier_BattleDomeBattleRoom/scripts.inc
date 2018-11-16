@@ -76,7 +76,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24BD82:: @ 824BD82
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_24C990, 4
 	closemessage
 	applymovement 13, BattleFrontier_BattleDomeBattleRoom_Movement_24C77B
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C789
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C789
 	waitmovement 0
 	setvar VAR_0x8004, 7
 	setvar VAR_0x8005, 0
@@ -400,7 +400,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C211:: @ 824C211
 	closemessage
 	applymovement 2, BattleFrontier_BattleDomeBattleRoom_Movement_24C94B
 	applymovement 1, BattleFrontier_BattleDomeBattleRoom_Movement_24C7F9
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C78E
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C78E
 	playse SE_W227B
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_24C82E
 	waitse
@@ -452,7 +452,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C2B9:: @ 824C2B9
 	compare VAR_RESULT, 0
 	goto_if 5, BattleFrontier_BattleDomeBattleRoom_EventScript_24BF62
 	closemessage
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C82B
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C82B
 	waitmovement 0
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_24D172, 4
 	playfanfare MUS_ME_SYMBOLGET
@@ -491,7 +491,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C373:: @ 824C373
 	compare VAR_RESULT, 2
 	goto_eq BattleFrontier_BattleDomeBattleRoom_EventScript_24BF62
 	closemessage
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C82B
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C82B
 	waitmovement 0
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_24D47F, 4
 	playfanfare MUS_ME_SYMBOLGET
@@ -507,7 +507,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C400:: @ 824C400
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_24D677, 4
 	closemessage
 	applymovement 13, BattleFrontier_BattleDomeBattleRoom_Movement_24C787
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C829
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C829
 	waitmovement 0
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_24C440
 	return
@@ -563,10 +563,10 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C48B:: @ 824C48B
 	compare VAR_RESULT, 0
 	goto_eq BattleFrontier_BattleDomeBattleRoom_EventScript_24C4EF
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_242170
-	setobjectxyperm 15, 13, 9
-	removeobject 15
-	addobject 15
-	applymovement 15, BattleFrontier_BattleDomeBattleRoom_Movement_24C78B
+	setobjectxyperm BURGER_KING_FOOT_LETTUCE, 13, 9
+	removeobject BURGER_KING_FOOT_LETTUCE
+	addobject BURGER_KING_FOOT_LETTUCE
+	applymovement BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattleDomeBattleRoom_Movement_24C78B
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_24C4EF:: @ 824C4EF
 	end
@@ -600,10 +600,10 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C530:: @ 824C530
 	createvobject 5, 6, 8, 0, 3, 1
 	createvobject 12, 9, 11, 0, 3, 1
 	createvobject 46, 11, 13, 0, 3, 1
-	createvobject 66, 13, 15, 0, 3, 1
+	createvobject 66, 13, BURGER_KING_FOOT_LETTUCE, 0, 3, 1
 	createvobject 45, 19, 7, 1, 3, 1
 	createvobject 34, 22, 11, 1, 3, 1
-	createvobject 11, 25, 15, 1, 3, 1
+	createvobject 11, 25, BURGER_KING_FOOT_LETTUCE, 1, 3, 1
 	createvobject 35, 26, 2, 2, 3, 1
 	createvobject 38, 29, 5, 1, 3, 1
 	return
@@ -616,15 +616,15 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C594:: @ 824C594
 	createvobject 12, 9, 11, 0, 3, 1
 	createvobject 47, 10, 12, 0, 3, 1
 	createvobject 46, 11, 13, 0, 3, 1
-	createvobject 66, 13, 15, 0, 3, 1
-	createvobject 48, 15, 2, 1, 3, 1
+	createvobject 66, 13, BURGER_KING_FOOT_LETTUCE, 0, 3, 1
+	createvobject 48, BURGER_KING_FOOT_LETTUCE, 2, 1, 3, 1
 	createvobject 5, 16, 3, 1, 3, 1
 	createvobject 20, 17, 4, 1, 3, 1
 	createvobject 45, 19, 7, 1, 3, 1
 	createvobject 22, 20, 9, 1, 3, 1
 	createvobject 34, 22, 11, 1, 3, 1
 	createvobject 46, 23, 13, 1, 3, 1
-	createvobject 11, 25, 15, 1, 3, 1
+	createvobject 11, 25, BURGER_KING_FOOT_LETTUCE, 1, 3, 1
 	createvobject 35, 26, 2, 2, 3, 1
 	createvobject 40, 28, 5, 2, 3, 1
 	createvobject 38, 29, 5, 1, 3, 1
@@ -635,7 +635,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C594:: @ 824C594
 BattleFrontier_BattleDomeBattleRoom_EventScript_24C652:: @ 824C652
 	createvobject 5, 0, 2, 0, 3, 1
 	createvobject 46, 1, 3, 0, 3, 1
-	createvobject 45, 2, 15, 0, 3, 1
+	createvobject 45, 2, BURGER_KING_FOOT_LETTUCE, 0, 3, 1
 	createvobject 66, 3, 5, 0, 3, 1
 	createvobject 22, 4, 6, 0, 3, 1
 	createvobject 46, 5, 7, 0, 3, 1
@@ -646,9 +646,9 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C652:: @ 824C652
 	createvobject 47, 10, 12, 0, 3, 1
 	createvobject 46, 11, 13, 0, 3, 1
 	createvobject 45, 12, 14, 0, 3, 1
-	createvobject 66, 13, 15, 2, 3, 1
+	createvobject 66, 13, BURGER_KING_FOOT_LETTUCE, 2, 3, 1
 	createvobject 55, 14, 12, 2, 3, 1
-	createvobject 48, 15, 2, 1, 3, 1
+	createvobject 48, BURGER_KING_FOOT_LETTUCE, 2, 1, 3, 1
 	createvobject 5, 16, 3, 1, 3, 1
 	createvobject 20, 17, 4, 1, 3, 1
 	createvobject 24, 18, 6, 1, 3, 1
@@ -658,7 +658,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C652:: @ 824C652
 	createvobject 34, 22, 11, 1, 3, 1
 	createvobject 46, 23, 13, 1, 3, 1
 	createvobject 48, 24, 14, 1, 3, 1
-	createvobject 11, 25, 15, 1, 3, 1
+	createvobject 11, 25, BURGER_KING_FOOT_LETTUCE, 1, 3, 1
 	createvobject 35, 26, 2, 2, 3, 1
 	createvobject 17, 27, 3, 2, 3, 1
 	createvobject 40, 28, 5, 2, 3, 1
@@ -921,7 +921,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C82E:: @ 824C82E
 	turnvobject 9, 4
 	turnvobject 11, 3
 	turnvobject 13, 3
-	turnvobject 15, 3
+	turnvobject BURGER_KING_FOOT_LETTUCE, 3
 	turnvobject 17, 3
 	turnvobject 19, 3
 	turnvobject 21, 4
@@ -937,7 +937,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_24C82E:: @ 824C82E
 	turnvobject 9, 1
 	turnvobject 11, 1
 	turnvobject 13, 1
-	turnvobject 15, 1
+	turnvobject BURGER_KING_FOOT_LETTUCE, 1
 	turnvobject 17, 1
 	turnvobject 19, 1
 	turnvobject 21, 1

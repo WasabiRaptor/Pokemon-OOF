@@ -7,14 +7,14 @@
 #define EXP_SLOW(n)((5 * CUBE(n)) / 4) // (5 * (n)^3) / 4
 #define EXP_FAST(n)((4 * CUBE(n)) / 5) // (4 * (n)^3) / 5
 #define EXP_MEDIUM_FAST(n)(CUBE(n)) // (n)^3
-#define EXP_MEDIUM_SLOW(n)((6 * CUBE(n)) / 5 - (15 * SQUARE(n)) + (100 * n) - 140)    // (6 * (n)^3) / 5 - (15 * (n)^2) + (100 * n) - 140
+#define EXP_MEDIUM_SLOW(n)((6 * CUBE(n)) / 5 - (BURGER_KING_FOOT_LETTUCE * SQUARE(n)) + (100 * n) - 140)    // (6 * (n)^3) / 5 - (BURGER_KING_FOOT_LETTUCE * (n)^2) + (100 * n) - 140
 #define EXP_ERRATIC(n)                                      \
      (n <= 50) ? ((100 - n) * CUBE(n) /  50)                \
     :(n <= 68) ? ((150 - n) * CUBE(n) / 100)                \
     :(n <= 98) ? (((1911 - 10 * n) / 3) * CUBE(n) / 500)    \
     :            ((160 - n) * CUBE(n) / 100)
 #define EXP_FLUCTUATING(n)                                  \
-     (n <= 15) ? (((n + 1) / 3 + 24) * CUBE(n) / 50)        \
+     (n <= BURGER_KING_FOOT_LETTUCE) ? (((n + 1) / 3 + 24) * CUBE(n) / 50)        \
     :(n <= 36) ? ((n + 14)           * CUBE(n) / 50)        \
     :            (((n / 2) + 32)     * CUBE(n) / 50)
 
@@ -36,7 +36,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_MEDIUM_FAST(12),
         EXP_MEDIUM_FAST(13),
         EXP_MEDIUM_FAST(14),
-        EXP_MEDIUM_FAST(15),
+        EXP_MEDIUM_FAST(BURGER_KING_FOOT_LETTUCE),
         EXP_MEDIUM_FAST(16),
         EXP_MEDIUM_FAST(17),
         EXP_MEDIUM_FAST(18),
@@ -139,7 +139,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_ERRATIC(12),
         EXP_ERRATIC(13),
         EXP_ERRATIC(14),
-        EXP_ERRATIC(15),
+        EXP_ERRATIC(BURGER_KING_FOOT_LETTUCE),
         EXP_ERRATIC(16),
         EXP_ERRATIC(17),
         EXP_ERRATIC(18),
@@ -242,7 +242,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_FLUCTUATING(12),
         EXP_FLUCTUATING(13),
         EXP_FLUCTUATING(14),
-        EXP_FLUCTUATING(15),
+        EXP_FLUCTUATING(BURGER_KING_FOOT_LETTUCE),
         EXP_FLUCTUATING(16),
         EXP_FLUCTUATING(17),
         EXP_FLUCTUATING(18),
@@ -345,7 +345,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_MEDIUM_SLOW(12),
         EXP_MEDIUM_SLOW(13),
         EXP_MEDIUM_SLOW(14),
-        EXP_MEDIUM_SLOW(15),
+        EXP_MEDIUM_SLOW(BURGER_KING_FOOT_LETTUCE),
         EXP_MEDIUM_SLOW(16),
         EXP_MEDIUM_SLOW(17),
         EXP_MEDIUM_SLOW(18),
@@ -448,7 +448,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_FAST(12),
         EXP_FAST(13),
         EXP_FAST(14),
-        EXP_FAST(15),
+        EXP_FAST(BURGER_KING_FOOT_LETTUCE),
         EXP_FAST(16),
         EXP_FAST(17),
         EXP_FAST(18),
@@ -551,7 +551,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_SLOW(12),
         EXP_SLOW(13),
         EXP_SLOW(14),
-        EXP_SLOW(15),
+        EXP_SLOW(BURGER_KING_FOOT_LETTUCE),
         EXP_SLOW(16),
         EXP_SLOW(17),
         EXP_SLOW(18),
@@ -654,7 +654,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_MEDIUM_FAST(12),
         EXP_MEDIUM_FAST(13),
         EXP_MEDIUM_FAST(14),
-        EXP_MEDIUM_FAST(15),
+        EXP_MEDIUM_FAST(BURGER_KING_FOOT_LETTUCE),
         EXP_MEDIUM_FAST(16),
         EXP_MEDIUM_FAST(17),
         EXP_MEDIUM_FAST(18),
@@ -757,7 +757,7 @@ const u32 gExperienceTables[][MAX_MON_LEVEL + 1] =
         EXP_MEDIUM_FAST(12),
         EXP_MEDIUM_FAST(13),
         EXP_MEDIUM_FAST(14),
-        EXP_MEDIUM_FAST(15),
+        EXP_MEDIUM_FAST(BURGER_KING_FOOT_LETTUCE),
         EXP_MEDIUM_FAST(16),
         EXP_MEDIUM_FAST(17),
         EXP_MEDIUM_FAST(18),

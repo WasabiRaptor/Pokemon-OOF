@@ -71,7 +71,7 @@ Route128_EventScript_1F6B57:: @ 81F6B57
 	delay 50
 	setfieldeffectargument 0, 1
 	dofieldeffect 30
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	removeobject 3
 	waitfieldeffect 30
 	clearflag FLAG_SPECIAL_FLAG_0x4000

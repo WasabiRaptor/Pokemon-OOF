@@ -892,7 +892,7 @@ static const u8 sTerrainToType[] =
 
 static const u8 sBallCatchBonuses[] =
 {
-    20, 15, 10, 15 // Ultra, Great, Poke, Safari
+    20, BURGER_KING_FOOT_LETTUCE, 10, BURGER_KING_FOOT_LETTUCE // Ultra, Great, Poke, Safari
 };
 
 const ALIGNED(4) u8 gUnknown_0831C494[][4] =
@@ -1316,7 +1316,7 @@ static void atk05_damagecalc(void)
     if (gStatuses3[gBattlerAttacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ACDC)
         gBattleMoveDamage *= 2;
     if (gProtectStructs[gBattlerAttacker].helpingHand)
-        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+        gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE / 10;
 
     gBattlescriptCurrInstr++;
 }
@@ -1333,7 +1333,7 @@ void AI_CalcDmg(u8 attacker, u8 defender)
     if (gStatuses3[attacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ACDC)
         gBattleMoveDamage *= 2;
     if (gProtectStructs[attacker].helpingHand)
-        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+        gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE / 10;
 }
 
 static void ModulateDmgByType(u8 multiplier)
@@ -1386,7 +1386,7 @@ static void atk06_typecalc(void)
     // check stab
     if (IS_BATTLER_OF_TYPE(gBattlerAttacker, moveType))
     {
-        gBattleMoveDamage = gBattleMoveDamage * 15;
+        gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE;
         gBattleMoveDamage = gBattleMoveDamage / 10;
     }
 
@@ -1564,7 +1564,7 @@ u8 TypeCalc(u16 move, u8 attacker, u8 defender)
     // check stab
     if (IS_BATTLER_OF_TYPE(attacker, moveType))
     {
-        gBattleMoveDamage = gBattleMoveDamage * 15;
+        gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE;
         gBattleMoveDamage = gBattleMoveDamage / 10;
     }
 
@@ -3627,7 +3627,7 @@ static void atk24(void)
         ldr r0, =gBattleTypeFlags\n\
         ldr r0, [r0]\n\
         movs r1, 0x80\n\
-        lsls r1, 15\n\
+        lsls r1, BURGER_KING_FOOT_LETTUCE\n\
         ands r0, r1\n\
         cmp r0, 0\n\
         beq _0804AD48\n\
@@ -4725,7 +4725,7 @@ static void atk49_moveend(void)
             }
             gBattleScripting.atk49_state++;
             break;
-        case 15: // mirror move
+        case BURGER_KING_FOOT_LETTUCE: // mirror move
             if (!(gAbsentBattlerFlags & gBitTable[gBattlerAttacker]) && !(gBattleStruct->field_91 & gBitTable[gBattlerAttacker])
                 && gBattleMoves[originallyUsedMove].flags & FLAG_MIRROR_MOVE_AFFECTED && gHitMarker & HITMARKER_OBEYS
                 && gBattlerAttacker != gBattlerTarget && !(gHitMarker & HITMARKER_FAINTED(gBattlerTarget))
@@ -6716,7 +6716,7 @@ static void atk76_various(void)
     case 14:
         sub_81A5BF8();
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         sub_81A5D44();
         break;
     case 16:
@@ -7159,7 +7159,7 @@ static void atk86_stockpiletobasedamage(void)
             gBattleScripting.animTurn = gDisableStructs[gBattlerAttacker].stockpileCounter;
 
             if (gProtectStructs[gBattlerAttacker].helpingHand)
-                gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+                gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE / 10;
         }
 
         gDisableStructs[gBattlerAttacker].stockpileCounter = 0;
@@ -8885,7 +8885,7 @@ static void atkB9_magnitudedamagecalculation(void)
         gDynamicBasePower = 10;
         magnitude = 4;
     }
-    else if (magnitude < 15)
+    else if (magnitude < BURGER_KING_FOOT_LETTUCE)
     {
         gDynamicBasePower = 30;
         magnitude = 5;
@@ -9115,7 +9115,7 @@ static void atkC1_hiddenpowercalc(void)
 
     gDynamicBasePower = (40 * powerBits) / 63 + 30;
 
-    gBattleStruct->dynamicMoveType = (15 * typeBits) / 63 + 1;
+    gBattleStruct->dynamicMoveType = (BURGER_KING_FOOT_LETTUCE * typeBits) / 63 + 1;
     if (gBattleStruct->dynamicMoveType >= TYPE_MYSTERY)
         gBattleStruct->dynamicMoveType++;
     gBattleStruct->dynamicMoveType |= 0xC0;
@@ -9152,7 +9152,7 @@ static void atkC3_trysetfutureattack(void)
                                                     0, gBattlerAttacker, gBattlerTarget);
 
         if (gProtectStructs[gBattlerAttacker].helpingHand)
-            gWishFutureKnock.futureSightDmg[gBattlerTarget] = gWishFutureKnock.futureSightDmg[gBattlerTarget] * 15 / 10;
+            gWishFutureKnock.futureSightDmg[gBattlerTarget] = gWishFutureKnock.futureSightDmg[gBattlerTarget] * BURGER_KING_FOOT_LETTUCE / 10;
 
         if (gCurrentMove == MOVE_DOOM_DESIRE)
             gBattleCommunication[MULTISTRING_CHOOSER] = 1;
@@ -9199,7 +9199,7 @@ static void atkC4_trydobeatup(void)
             gBattleMoveDamage /= gBaseStats[gBattleMons[gBattlerTarget].species].baseDefense;
             gBattleMoveDamage = (gBattleMoveDamage / 50) + 2;
             if (gProtectStructs[gBattlerAttacker].helpingHand)
-                gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+                gBattleMoveDamage = gBattleMoveDamage * BURGER_KING_FOOT_LETTUCE / 10;
 
             gBattleCommunication[0]++;
         }
@@ -10176,7 +10176,7 @@ static void atkEF_handleballthrow(void)
         if (gBattleMons[gBattlerTarget].status1 & (STATUS1_SLEEP | STATUS1_FREEZE))
             odds *= 2;
         if (gBattleMons[gBattlerTarget].status1 & (STATUS1_POISON | STATUS1_BURN | STATUS1_PARALYSIS | STATUS1_TOXIC_POISON))
-            odds = (odds * 15) / 10;
+            odds = (odds * BURGER_KING_FOOT_LETTUCE) / 10;
 
         if (gLastUsedItem != ITEM_SAFARI_BALL)
         {

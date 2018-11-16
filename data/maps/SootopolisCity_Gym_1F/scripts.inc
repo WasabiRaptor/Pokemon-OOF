@@ -33,7 +33,7 @@ SootopolisCity_Gym_1F_EventScript_224EA6:: @ 8224EA6
 	setmetatile 8, 11, 519, 0
 
 SootopolisCity_Gym_1F_EventScript_224EB8:: @ 8224EB8
-	setmetatile 8, 15, 519, 0
+	setmetatile 8, BURGER_KING_FOOT_LETTUCE, 519, 0
 	setmetatile 8, 16, 519, 0
 
 SootopolisCity_Gym_1F_EventScript_224ECA:: @ 8224ECA

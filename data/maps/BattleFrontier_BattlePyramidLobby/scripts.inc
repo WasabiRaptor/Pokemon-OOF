@@ -151,7 +151,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_250904:: @ 8250904
 	switch VAR_RESULT
 	case 2, BattleFrontier_BattlePyramidLobby_EventScript_250AC4
 	case 127, BattleFrontier_BattlePyramidLobby_EventScript_250AC4
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq BattleFrontier_BattlePyramidLobby_EventScript_250A75
@@ -335,7 +335,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_250BA4:: @ 8250BA4
 	case 12, BattleFrontier_BattlePyramidLobby_EventScript_250CFA
 	case 13, BattleFrontier_BattlePyramidLobby_EventScript_250D03
 	case 14, BattleFrontier_BattlePyramidLobby_EventScript_250D0C
-	case 15, BattleFrontier_BattlePyramidLobby_EventScript_250D15
+	case BURGER_KING_FOOT_LETTUCE, BattleFrontier_BattlePyramidLobby_EventScript_250D15
 	case 16, BattleFrontier_BattlePyramidLobby_EventScript_250D1E
 	case 17, BattleFrontier_BattlePyramidLobby_EventScript_250D27
 	case 18, BattleFrontier_BattlePyramidLobby_EventScript_250D30
@@ -562,7 +562,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_250E95:: @ 8250E95
 BattleFrontier_BattlePyramidLobby_EventScript_250EA4:: @ 8250EA4
 	message BattleFrontier_BattlePyramidLobby_Text_2526D9
 	waitmessage
-	multichoice 15, 2, 101, 0
+	multichoice BURGER_KING_FOOT_LETTUCE, 2, 101, 0
 	switch VAR_RESULT
 	case 0, BattleFrontier_BattlePyramidLobby_EventScript_250EF7
 	case 1, BattleFrontier_BattlePyramidLobby_EventScript_250F05

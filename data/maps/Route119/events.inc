@@ -13,7 +13,7 @@ Route119_EventObjects::
 	object_event 12, EVENT_OBJ_GFX_LITTLE_BOY_1, 0, 28, 14, 3, MOVEMENT_TYPE_TREE_DISGUISE, 0, 0, 1, 1, Route119_EventScript_1F4902, 0
 	object_event 13, EVENT_OBJ_GFX_LITTLE_BOY_1, 0, 19, 49, 3, MOVEMENT_TYPE_MOUNTAIN_DISGUISE, 0, 0, 1, 3, Route119_EventScript_1F4919, 0
 	object_event 14, EVENT_OBJ_GFX_MAN_6, 0, 10, 50, 4, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 1, 3, Route119_EventScript_1F48D4, 0
-	object_event 15, EVENT_OBJ_GFX_MAN_6, 0, 8, 63, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 5, Route119_EventScript_1F48EB, 0
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_MAN_6, 0, 8, 63, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 1, 5, Route119_EventScript_1F48EB, 0
 	object_event 16, EVENT_OBJ_GFX_HIPSTER, 0, 25, 32, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 0, 0, 0x0, 851
 	object_event 17, EVENT_OBJ_GFX_ITEM_BALL, 0, 12, 121, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route119_EventScript_290EE0, 1024
 	object_event 18, EVENT_OBJ_GFX_ITEM_BALL, 0, 4, 96, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route119_EventScript_290EED, 1025
@@ -34,11 +34,11 @@ Route119_EventObjects::
 	object_event 33, EVENT_OBJ_GFX_BOY_2, 0, 35, 93, 4, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, Route119_EventScript_1F49DA, 0
 	object_event 34, EVENT_OBJ_GFX_LITTLE_BOY_1, 0, 29, 6, 3, MOVEMENT_TYPE_TREE_DISGUISE, 1, 1, 1, 3, Route119_EventScript_1F4930, 0
 	object_event 35, EVENT_OBJ_GFX_KECLEON_1, 0, 31, 6, 3, MOVEMENT_TYPE_INVISIBLE, 1, 1, 0, 0, Route119_EventScript_27231C, 989
-	object_event 36, EVENT_OBJ_GFX_KECLEON_1, 0, 25, 15, 3, MOVEMENT_TYPE_INVISIBLE, 1, 1, 0, 0, Route119_EventScript_272329, 990
+	object_event 36, EVENT_OBJ_GFX_KECLEON_1, 0, 25, BURGER_KING_FOOT_LETTUCE, 3, MOVEMENT_TYPE_INVISIBLE, 1, 1, 0, 0, Route119_EventScript_272329, 990
 	object_event 37, EVENT_OBJ_GFX_FISHERMAN, 0, 13, 104, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 1, 0, Route119_EventScript_1F4947, 0
 	object_event 38, EVENT_OBJ_GFX_WOMAN_3, 0, 8, 68, 3, MOVEMENT_TYPE_FACE_UP, 1, 1, 1, 5, Route119_EventScript_1F498C, 0
 	object_event 39, EVENT_OBJ_GFX_MAN_6, 0, 16, 52, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, 1, 3, Route119_EventScript_1F4975, 0
-	object_event 40, EVENT_OBJ_GFX_MAN_6, 0, 32, 15, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 1, 4, Route119_EventScript_1F495E, 0
+	object_event 40, EVENT_OBJ_GFX_MAN_6, 0, 32, BURGER_KING_FOOT_LETTUCE, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, 1, 4, Route119_EventScript_1F495E, 0
 	object_event 41, EVENT_OBJ_GFX_ITEM_BALL, 0, 19, 5, 4, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, Route119_EventScript_291399, 1134
 	object_event 42, EVENT_OBJ_GFX_ITEM_BALL, 0, 24, 42, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, Route119_EventScript_290F3B, 1147
 	object_event 43, EVENT_OBJ_GFX_SCOTT, 0, 28, 25, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 786
@@ -54,7 +54,7 @@ Route119_MapCoordEvents::
 	coord_weather_event 30, 13, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
 	coord_weather_event 31, 13, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
 	coord_weather_event 32, 13, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
-	coord_weather_event 15, 133, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
+	coord_weather_event BURGER_KING_FOOT_LETTUCE, 133, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
 	coord_weather_event 16, 132, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
 	coord_weather_event 17, 131, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
 	coord_weather_event 18, 130, 3, COORD_EVENT_WEATHER_ROUTE119_CYCLE
@@ -77,7 +77,7 @@ Route119_MapBGEvents::
 	bg_event 27, 19, 0, BG_EVENT_PLAYER_FACING_ANY, Route119_EventScript_1F4774
 	bg_secret_base_event 5, 2, 0, SECRET_BASE_SHRUB1_1
 	bg_secret_base_event 4, 89, 0, SECRET_BASE_SHRUB1_2
-	bg_secret_base_event 5, 15, 0, SECRET_BASE_SHRUB2_1
+	bg_secret_base_event 5, BURGER_KING_FOOT_LETTUCE, 0, SECRET_BASE_SHRUB2_1
 	bg_secret_base_event 7, 101, 3, SECRET_BASE_SHRUB2_2
 	bg_secret_base_event 34, 24, 3, SECRET_BASE_SHRUB3_1
 	bg_secret_base_event 31, 73, 3, SECRET_BASE_SHRUB4_1
@@ -88,7 +88,7 @@ Route119_MapBGEvents::
 	bg_secret_base_event 26, 81, 0, SECRET_BASE_RED_CAVE3_3
 	bg_secret_base_event 19, 76, 0, SECRET_BASE_TREE2_3
 	bg_secret_base_event 18, 76, 0, SECRET_BASE_TREE4_3
-	bg_secret_base_event 4, 15, 0, SECRET_BASE_SHRUB3_3
+	bg_secret_base_event 4, BURGER_KING_FOOT_LETTUCE, 0, SECRET_BASE_SHRUB3_3
 	bg_secret_base_event 6, 2, 0, SECRET_BASE_SHRUB4_3
 	bg_hidden_item_event 26, 120, 3, ITEM_FULL_HEAL, 68
 	bg_hidden_item_event 20, 29, 3, ITEM_MAX_ETHER, 87

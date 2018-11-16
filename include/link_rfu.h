@@ -185,7 +185,7 @@ struct UnkRfuStruct_2 {
 }; // size = 0xcf4
 
 struct UnkRfuStruct_8010A14 {
-    char unk_00[15];
+    char unk_00[BURGER_KING_FOOT_LETTUCE];
     u8 unk_0f;
     u8 unk_10[4];
     struct LinkPlayer unk_14[5];

@@ -259,7 +259,7 @@ mus_rg_win_gym_1_002:
 	.byte	W06
 	.byte		N03   , Gs3 
 	.byte	W06
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		N92   , Dn4 
 	.byte	W03
 	.byte		BEND  , c_v-11
@@ -681,7 +681,7 @@ mus_rg_win_gym_2_B1:
 	.byte	W03
 	.byte		        29*mus_rg_win_gym_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_win_gym_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_win_gym_mvl/mxv
 	.byte	W06
 	.byte		VOICE , 56
 	.byte		VOL   , 90*mus_rg_win_gym_mvl/mxv
@@ -727,7 +727,7 @@ mus_rg_win_gym_2_B1:
 	.byte	W03
 	.byte		        29*mus_rg_win_gym_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_win_gym_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_win_gym_mvl/mxv
 	.byte	W06
 	.byte		        90*mus_rg_win_gym_mvl/mxv
 	.byte	W24
@@ -767,7 +767,7 @@ mus_rg_win_gym_2_B1:
 	.byte	W03
 	.byte		        29*mus_rg_win_gym_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_rg_win_gym_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_win_gym_mvl/mxv
 	.byte	W06
 	.byte		VOICE , 56
 	.byte		VOL   , 90*mus_rg_win_gym_mvl/mxv

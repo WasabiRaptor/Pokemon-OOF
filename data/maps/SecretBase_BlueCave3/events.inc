@@ -13,10 +13,10 @@ SecretBase_BlueCave3_EventObjects: @ 8538E1C
 	object_event 12, 250, 0, 1, 3, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 184
 	object_event 13, 251, 0, 1, 4, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 185
 	object_event 14, 252, 0, 1, 5, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 186
-	object_event 15, 253, 0, 1, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 187
+	object_event BURGER_KING_FOOT_LETTUCE, 253, 0, 1, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, 0x0, 187
 
 SecretBase_BlueCave3_MapWarps: @ 8538F84
-	warp_def 4, 15, 0, 126, MAP_NONE
+	warp_def 4, BURGER_KING_FOOT_LETTUCE, 0, 126, MAP_NONE
 
 SecretBase_BlueCave3_MapEvents:: @ 8538F8C
 	map_events SecretBase_BlueCave3_EventObjects, SecretBase_BlueCave3_MapWarps, 0x0, 0x0

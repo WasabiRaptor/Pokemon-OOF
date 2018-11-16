@@ -136,7 +136,7 @@ gEasyChatGroup_TrendySaying:: @ 859CC80
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Cancel
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_New

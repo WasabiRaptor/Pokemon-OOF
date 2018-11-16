@@ -10,6 +10,6 @@ AbandonedShip_Rooms2_B1F: @ 8484534
 	.byte WEATHER_SHADE
 	.byte MAP_TYPE_UNDERGROUND
 	.2byte 0
-	.byte 15
+	.byte BURGER_KING_FOOT_LETTUCE
 	.byte MAP_BATTLE_SCENE_NORMAL
 

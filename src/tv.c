@@ -192,7 +192,7 @@ static const struct {
     {
         SPECIES_NUZLEAF,
         {MOVE_HARDEN, MOVE_GROWTH, MOVE_NATURE_POWER, MOVE_LEECH_SEED},
-        15, 0x1D // Route 114
+        BURGER_KING_FOOT_LETTUCE, 0x1D // Route 114
     },
     {
         SPECIES_SEEDOT,
@@ -2714,7 +2714,7 @@ static void sub_80EEEB8(void)
     u8 i;
     u8 j;
 
-    for (i = 0; i < 15; i ++)
+    for (i = 0; i < BURGER_KING_FOOT_LETTUCE; i ++)
     {
         if (gSaveBlock1Ptr->pokeNews[i].kind == POKENEWS_NONE)
         {
@@ -5289,7 +5289,7 @@ static void DoTVShowTheNameRaterShow(void)
             TV_GetNicknameSubstring(2, 0, 3, 0, 0, show);
             sTVShowState = 18;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             TV_GetNicknameSubstring(0, 0, 2, 1, 0, show);
             StringCopy(gStringVar2, gSpeciesNames[show->nameRaterShow.species]);
             TV_GetNicknameSubstring(2, 0, 3, 2, show->nameRaterShow.species, show);
@@ -5818,7 +5818,7 @@ static void DoTVShowPokemonContestLiveUpdates(void)
             switch (show->contestLiveUpdates.category)
             {
                 case 0:
-                    sTVShowState = 15;
+                    sTVShowState = BURGER_KING_FOOT_LETTUCE;
                     break;
                 case 1:
                     sTVShowState = 16;
@@ -5834,7 +5834,7 @@ static void DoTVShowPokemonContestLiveUpdates(void)
                     break;
             }
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             StringCopy(gStringVar2, gSpeciesNames[show->contestLiveUpdates.species]);
             sTVShowState = 23;
             break;
@@ -7071,7 +7071,7 @@ static void DoTVShowSpotTheCuties(void)
                     break;
                 case 13:
                 case 14:
-                case 15:
+                case BURGER_KING_FOOT_LETTUCE:
                 case 16:
                     sTVShowState = 9;
                     break;
@@ -7106,9 +7106,9 @@ static void DoTVShowSpotTheCuties(void)
         case 13:
         case 14:
             TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
-            sTVShowState = 15;
+            sTVShowState = BURGER_KING_FOOT_LETTUCE;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             TVShowDone();
     }
     ShowFieldMessage(sTVCutiesTextGroup[state]);
@@ -7182,12 +7182,12 @@ static void DoTVShowPokemonNewsBattleFrontier(void)
         case 3:
             TVShowConvertInternationalString(gStringVar1, show->frontier.playerName, show->frontier.language);
             TV_PrintIntToStringVar(1, show->frontier.winStreak);
-            sTVShowState = 15;
+            sTVShowState = BURGER_KING_FOOT_LETTUCE;
             break;
         case 4:
             TVShowConvertInternationalString(gStringVar1, show->frontier.playerName, show->frontier.language);
             TV_PrintIntToStringVar(1, show->frontier.winStreak);
-            sTVShowState = 15;
+            sTVShowState = BURGER_KING_FOOT_LETTUCE;
             break;
         case 5:
             TVShowConvertInternationalString(gStringVar1, show->frontier.playerName, show->frontier.language);
@@ -7240,7 +7240,7 @@ static void DoTVShowPokemonNewsBattleFrontier(void)
             StringCopy(gStringVar3, gSpeciesNames[show->frontier.species3]);
             sTVShowState = 18;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             StringCopy(gStringVar1, gSpeciesNames[show->frontier.species1]);
             StringCopy(gStringVar2, gSpeciesNames[show->frontier.species2]);
             sTVShowState = 18;
@@ -7517,7 +7517,7 @@ static void DoTVShowSecretBaseSecrets(void)
         case 14:
             sTVShowState = show->secretBaseSecrets.savedState;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             sTVShowState = show->secretBaseSecrets.savedState;
             break;
         case 16:

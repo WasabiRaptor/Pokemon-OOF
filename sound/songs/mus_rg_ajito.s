@@ -3803,7 +3803,7 @@ mus_rg_ajito_7:
 	.byte		PAN   , c_v+18
 	.byte		VOL   , 8*mus_rg_ajito_mvl/mxv
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W92
 	.byte	W01
 mus_rg_ajito_7_B1:
@@ -3826,7 +3826,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , As3 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3842,7 +3842,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Cs4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3858,7 +3858,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Gn3 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3874,7 +3874,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N15   , As3 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3892,7 +3892,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N15   , Ds3 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3910,7 +3910,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Gs3 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3928,7 +3928,7 @@ mus_rg_ajito_7_B1:
 	.byte		N03   , Fn3 , v096
 	.byte	W03
 	.byte		MOD   , 0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Fs3 , v127
 	.byte	W12
 	.byte		MOD   , 7
@@ -3945,7 +3945,7 @@ mus_rg_ajito_7_B1:
 	.byte	W12
 	.byte		VOL   , 11*mus_rg_ajito_mvl/mxv
 	.byte		MOD   , 0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N15   , En4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3963,7 +3963,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , As4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3979,7 +3979,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Cs5 
 	.byte	W12
 	.byte		MOD   , 7
@@ -3995,7 +3995,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Gn4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -4011,7 +4011,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N15   , As4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -4029,7 +4029,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N15   , Ds4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -4047,7 +4047,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Gs4 
 	.byte	W12
 	.byte		MOD   , 7
@@ -4065,7 +4065,7 @@ mus_rg_ajito_7_B1:
 	.byte		N03   , Fn4 , v096
 	.byte	W03
 	.byte		MOD   , 0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N18   , Fs4 , v127
 	.byte	W12
 	.byte		MOD   , 7
@@ -4081,7 +4081,7 @@ mus_rg_ajito_7_B1:
 	.byte		MOD   , 7
 	.byte	W12
 	.byte		        0
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W96
 	.byte	W96
 	.byte	W96

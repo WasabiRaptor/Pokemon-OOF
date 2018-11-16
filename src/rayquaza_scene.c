@@ -2408,13 +2408,13 @@ static void Task_HandleRayCharges(u8 taskId)
 static void sub_81D8AD8(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
-    if ((data[15] & 3) == 0)
+    if ((data[BURGER_KING_FOOT_LETTUCE] & 3) == 0)
     {
         ChangeBgX(1, (Random() % 8 - 4) << 8, 0);
         ChangeBgY(1, (Random() % 8 - 4) << 8, 0);
     }
 
-    data[15]++;
+    data[BURGER_KING_FOOT_LETTUCE]++;
 }
 
 static void sub_81D8B2C(u8 taskId)
@@ -2724,7 +2724,7 @@ static void sub_81D9420(struct Sprite *sprite)
     case 1:
     case 3:
         gSprites[sprite->data[0]].pos2.y = -2;
-        if ((sprite->animDelayCounter & 15) == 0)
+        if ((sprite->animDelayCounter & BURGER_KING_FOOT_LETTUCE) == 0)
         {
             sprite->pos1.y++;
             gSprites[sprite->data[0]].pos1.y++;

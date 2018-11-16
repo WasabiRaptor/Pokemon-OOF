@@ -19,7 +19,7 @@ mus_battle20_1:
 	.byte	KEYSH , mus_battle20_key+0
 	.byte	TEMPO , 198*mus_battle20_tbs/2
 	.byte		VOICE , 1
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 80*mus_battle20_mvl/mxv
 	.byte		N06   , Cn5 , v076
 	.byte	W06
@@ -516,7 +516,7 @@ mus_battle20_1_000:
 	 .word	mus_battle20_1_000
 	.byte		VOICE , 17
 	.byte		VOL   , 80*mus_battle20_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N12   , Gn3 , v088
 	.byte	W36
 	.byte		        Gs3 

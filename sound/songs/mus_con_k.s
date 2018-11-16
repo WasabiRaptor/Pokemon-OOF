@@ -357,7 +357,7 @@ mus_con_k_4_B1:
 	.byte	W03
 	.byte		        16*mus_con_k_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_con_k_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_con_k_mvl/mxv
 	.byte	W03
 	.byte		        49*mus_con_k_mvl/mxv
 	.byte		MOD   , 0
@@ -403,7 +403,7 @@ mus_con_k_4_B1:
 	.byte	W03
 	.byte		        16*mus_con_k_mvl/mxv
 	.byte	W01
-	.byte		        15*mus_con_k_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_con_k_mvl/mxv
 	.byte	W03
 	.byte		MOD   , 0
 	.byte		VOL   , 49*mus_con_k_mvl/mxv

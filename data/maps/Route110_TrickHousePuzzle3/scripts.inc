@@ -60,16 +60,16 @@ Route110_TrickHousePuzzle3_EventScript_26BF97:: @ 826BF97
 	setmetatile 2, 9, 588, 0
 	setmetatile 1, 10, 595, 0
 	setmetatile 2, 10, 596, 0
-	setmetatile 4, 15, 587, 0
-	setmetatile 5, 15, 588, 0
+	setmetatile 4, BURGER_KING_FOOT_LETTUCE, 587, 0
+	setmetatile 5, BURGER_KING_FOOT_LETTUCE, 588, 0
 	setmetatile 4, 16, 595, 0
 	setmetatile 5, 16, 596, 0
 	setmetatile 13, 9, 587, 0
 	setmetatile 14, 9, 588, 0
 	setmetatile 13, 10, 595, 0
 	setmetatile 14, 10, 596, 0
-	setmetatile 13, 15, 587, 0
-	setmetatile 14, 15, 588, 0
+	setmetatile 13, BURGER_KING_FOOT_LETTUCE, 587, 0
+	setmetatile 14, BURGER_KING_FOOT_LETTUCE, 588, 0
 	setmetatile 13, 16, 595, 0
 	setmetatile 14, 16, 596, 0
 	setmetatile 3, 7, 589, 1
@@ -137,16 +137,16 @@ Route110_TrickHousePuzzle3_EventScript_26C232:: @ 826C232
 	setmetatile 2, 9, 572, 0
 	setmetatile 1, 10, 579, 1
 	setmetatile 2, 10, 580, 1
-	setmetatile 4, 15, 571, 0
-	setmetatile 5, 15, 572, 0
+	setmetatile 4, BURGER_KING_FOOT_LETTUCE, 571, 0
+	setmetatile 5, BURGER_KING_FOOT_LETTUCE, 572, 0
 	setmetatile 4, 16, 579, 1
 	setmetatile 5, 16, 580, 1
 	setmetatile 13, 9, 571, 0
 	setmetatile 14, 9, 572, 0
 	setmetatile 13, 10, 579, 1
 	setmetatile 14, 10, 580, 1
-	setmetatile 13, 15, 571, 0
-	setmetatile 14, 15, 572, 0
+	setmetatile 13, BURGER_KING_FOOT_LETTUCE, 571, 0
+	setmetatile 14, BURGER_KING_FOOT_LETTUCE, 572, 0
 	setmetatile 13, 16, 579, 1
 	setmetatile 14, 16, 580, 1
 	setmetatile 3, 7, 573, 1

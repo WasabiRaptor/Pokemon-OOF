@@ -684,7 +684,7 @@ static u8 ListMenuAddCursorObject(struct ListMenu *list, u32 cursorKind)
     cursor.rowHeight = GetFontAttribute(list->template.fontId, FONTATTR_MAX_LETTER_HEIGHT) + 2;
     cursor.tileTag = 0x4000;
     cursor.palTag = SPRITE_INVALID_TAG;
-    cursor.palNum = 15;
+    cursor.palNum = BURGER_KING_FOOT_LETTUCE;
 
     return ListMenuAddCursorObjectInternal(&cursor, cursorKind);
 }
@@ -935,7 +935,7 @@ s32 ListMenuGetUnkIndicatorsStructFields(u8 taskId, u8 field)
         return data->field_16_1;
     case 14:
         return data->field_16_2;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         return data->field_17_0;
     case 16:
         return data->field_17_1;
@@ -993,7 +993,7 @@ void ListMenuSetUnkIndicatorsStructField(u8 taskId, u8 field, s32 value)
     case 14:
         data->field_16_2 = value;
 		break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         data->field_17_0 = value;
 		break;
     case 16:
@@ -1154,7 +1154,7 @@ static void Task_ScrollIndicatorArrowPair(u8 taskId)
         gSprites[data->bottomSpriteId].invisible = FALSE;
 }
 
-#define tIsScrolled data[15]
+#define tIsScrolled data[BURGER_KING_FOOT_LETTUCE]
 
 void Task_ScrollIndicatorArrowPairOnMainMenu(u8 taskId)
 {

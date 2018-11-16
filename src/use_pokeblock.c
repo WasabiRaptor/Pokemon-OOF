@@ -223,7 +223,7 @@ void sub_8166380(void)
             sub_8167BA0(0, 1);
             gUnknown_0203BC90->field_50++;
             break;
-        case 15:
+        case BURGER_KING_FOOT_LETTUCE:
             sub_816636C(sub_8166564);
             break;
     }

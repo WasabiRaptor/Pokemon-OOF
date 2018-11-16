@@ -387,10 +387,10 @@ gSpriteAffineAnim_858994C:: @ 858994C
 
 	.align 2
 gSpriteAffineAnim_858995C:: @ 858995C
-	obj_rot_scal_anim_frame 0x3, 0x3, 0, 15
-	obj_rot_scal_anim_frame 0xFFFD, 0xFFFD, 0, 15
-	obj_rot_scal_anim_frame 0x3, 0x3, 0, 15
-	obj_rot_scal_anim_frame 0xFFFD, 0xFFFD, 0, 15
+	obj_rot_scal_anim_frame 0x3, 0x3, 0, BURGER_KING_FOOT_LETTUCE
+	obj_rot_scal_anim_frame 0xFFFD, 0xFFFD, 0, BURGER_KING_FOOT_LETTUCE
+	obj_rot_scal_anim_frame 0x3, 0x3, 0, BURGER_KING_FOOT_LETTUCE
+	obj_rot_scal_anim_frame 0xFFFD, 0xFFFD, 0, BURGER_KING_FOOT_LETTUCE
 	obj_rot_scal_anim_end
 
 	.align 2

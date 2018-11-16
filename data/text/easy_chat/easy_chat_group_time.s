@@ -212,7 +212,7 @@ gEasyChatGroup_Time:: @ 859BE98
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Time
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Finish

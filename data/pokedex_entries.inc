@@ -37,7 +37,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "BIRD$", 12
 	pokedex_entry  11,  300,  gPidgeottoPokedexText, 331,  10,  256,  0
 	.string "BIRD$", 12
-	pokedex_entry  15,  395,	gPidgeotPokedexText, 269,   0,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  395,	gPidgeotPokedexText, 269,   0,  256,  0
 	.string "MOUSE$", 12
 	pokedex_entry   3,   35,	gRattataPokedexText, 481,  21,  256,  0
 	.string "MOUSE$", 12
@@ -61,13 +61,13 @@ gPokedexEntries:: @ 856B5B0
 	.string "POISON PIN$", 12
 	pokedex_entry   4,   70,   gNidoranFPokedexText, 488,  21,  256,  0
 	.string "POISON PIN$", 12
-	pokedex_entry   8,  200,   gNidorinaPokedexText, 381,  15,  256,  0
+	pokedex_entry   8,  200,   gNidorinaPokedexText, 381,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "DRILL$", 12
 	pokedex_entry  13,  600,  gNidoqueenPokedexText, 293,   4,  256,  0
 	.string "POISON PIN$", 12
 	pokedex_entry   5,   90,   gNidoranMPokedexText, 511,  20,  256,  0
 	.string "POISON PIN$", 12
-	pokedex_entry   9,  195,   gNidorinoPokedexText, 408,  15,  256,  0
+	pokedex_entry   9,  195,   gNidorinoPokedexText, 408,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "DRILL$", 12
 	pokedex_entry  14,  620,   gNidokingPokedexText, 256,   0,  256,  0
 	.string "FAIRY$", 12
@@ -99,7 +99,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "INSECT$", 12
 	pokedex_entry  10,  300,	gVenonatPokedexText, 360,   0,  256, -1
 	.string "POISON MOTH$", 12
-	pokedex_entry  15,  125,   gVenomothPokedexText, 285,   2,  256,  1
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  125,   gVenomothPokedexText, 285,   2,  256,  1
 	.string "MOLE$", 12
 	pokedex_entry   2,	8,	gDiglettPokedexText, 833,  25,  256,  0
 	.string "MOLE$", 12
@@ -109,7 +109,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "CLASSY CAT$", 12
 	pokedex_entry  10,  320,	gPersianPokedexText, 320,  10,  256,  0
 	.string "DUCK$", 12
-	pokedex_entry   8,  196,	gPsyduckPokedexText, 369,  15,  256,  0
+	pokedex_entry   8,  196,	gPsyduckPokedexText, 369,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "DUCK$", 12
 	pokedex_entry  17,  766,	gGolduckPokedexText, 256,   1,  273,  1
 	.string "PIG MONKEY$", 12
@@ -131,11 +131,11 @@ gPokedexEntries:: @ 856B5B0
 	.string "PSI$", 12
 	pokedex_entry  13,  565,	gKadabraPokedexText, 256,   3,  256,  0
 	.string "PSI$", 12
-	pokedex_entry  15,  480,   gAlakazamPokedexText, 256,   3,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  480,   gAlakazamPokedexText, 256,   3,  256,  0
 	.string "SUPERPOWER$", 12
 	pokedex_entry   8,  195,	 gMachopPokedexText, 342,  14,  256,  0
 	.string "SUPERPOWER$", 12
-	pokedex_entry  15,  705,	gMachokePokedexText, 323,   9,  257,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  705,	gMachokePokedexText, 323,   9,  257,  0
 	.string "SUPERPOWER$", 12
 	pokedex_entry  16, 1300,	gMachampPokedexText, 280,   1,  269, -1
 	.string "FLOWER$", 12
@@ -183,13 +183,13 @@ gPokedexEntries:: @ 856B5B0
 	.string "BIVALVE$", 12
 	pokedex_entry   3,   40,   gShellderPokedexText, 675,  24,  256,  0
 	.string "BIVALVE$", 12
-	pokedex_entry  15, 1325,   gCloysterPokedexText, 256,   0,  269,  1
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE, 1325,   gCloysterPokedexText, 256,   0,  269,  1
 	.string "GAS$", 12
 	pokedex_entry  13,	1,	 gGastlyPokedexText, 256,   0,  256,  0
 	.string "GAS$", 12
 	pokedex_entry  16,	1,	gHaunterPokedexText, 256,   2,  293,  2
 	.string "SHADOW$", 12
-	pokedex_entry  15,  405,	 gGengarPokedexText, 256,   2,  302,  2
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  405,	 gGengarPokedexText, 256,   2,  302,  2
 	.string "ROCK SNAKE$", 12
 	pokedex_entry  88, 2100,	   gOnixPokedexText, 256,   1,  515, 14
 	.string "HYPNOSIS$", 12
@@ -213,7 +213,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "BONE KEEPER$", 12
 	pokedex_entry  10,  450,	gMarowakPokedexText, 293,  12,  256,  0
 	.string "KICKING$", 12
-	pokedex_entry  15,  498,  gHitmonleePokedexText, 256,   3,  259,  1
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  498,  gHitmonleePokedexText, 256,   3,  259,  1
 	.string "PUNCHING$", 12
 	pokedex_entry  14,  502, gHitmonchanPokedexText, 256,   2,  277,  2
 	.string "LICKING$", 12
@@ -247,7 +247,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "BARRIER$", 12
 	pokedex_entry  13,  545,	 gMrmimePokedexText, 258,   6,  256,  0
 	.string "MANTIS$", 12
-	pokedex_entry  15,  560,	gScytherPokedexText, 256,   1,  293,  2
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  560,	gScytherPokedexText, 256,   1,  293,  2
 	.string "HUMAN SHAPE$", 12
 	pokedex_entry  14,  406,	   gJynxPokedexText, 256,   3,  300,  1
 	.string "ELECTRIC$", 12
@@ -255,7 +255,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "SPITFIRE$", 12
 	pokedex_entry  13,  445,	 gMagmarPokedexText, 277,   5,  256,  0
 	.string "STAG BEETLE$", 12
-	pokedex_entry  15,  550,	 gPinsirPokedexText, 256,   2,  257,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  550,	 gPinsirPokedexText, 256,   2,  257,  0
 	.string "WILD BULL$", 12
 	pokedex_entry  14,  884,	 gTaurosPokedexText, 256,   0,  256,  0
 	.string "FISH$", 12
@@ -275,7 +275,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "FLAME$", 12
 	pokedex_entry   9,  250,	gGlazeonPokedexText, 306,  12,  256,  0
 	.string "VIRTUAL$", 12
-	pokedex_entry   8,  365,	gPorygonPokedexText, 328,  15,  256,  0
+	pokedex_entry   8,  365,	gPorygonPokedexText, 328,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "SPIRAL$", 12
 	pokedex_entry   4,   75,	gOmanytePokedexText, 521,  22,  256,  0
 	.string "SPIRAL$", 12
@@ -351,17 +351,17 @@ gPokedexEntries:: @ 856B5B0
 	.string "BALLOON$", 12
 	pokedex_entry   3,   10,  gIgglybuffPokedexText, 457,  -1,  256,  0
 	.string "SPIKE BALL$", 12
-	pokedex_entry   3,   15,	 gTogepiPokedexText, 507,  23,  256,  0
+	pokedex_entry   3,   BURGER_KING_FOOT_LETTUCE,	 gTogepiPokedexText, 507,  23,  256,  0
 	.string "HAPPINESS$", 12
 	pokedex_entry   6,   32,	gTogeticPokedexText, 424,  17,  256,  0
 	.string "TINY BIRD$", 12
 	pokedex_entry   2,   20,	   gNatuPokedexText, 610,  25,  256,  0
 	.string "MYSTIC$", 12
-	pokedex_entry  15,  150,	   gXatuPokedexText, 256,   6,  318,  4
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  150,	   gXatuPokedexText, 256,   6,  318,  4
 	.string "WOOL$", 12
 	pokedex_entry   6,   78,	 gMareepPokedexText, 379,  18,  256,  0
 	.string "WOOL$", 12
-	pokedex_entry   8,  133,	gFlaaffyPokedexText, 372,  15,  256,  0
+	pokedex_entry   8,  133,	gFlaaffyPokedexText, 372,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "LIGHT$", 12
 	pokedex_entry  14,  615,   gAmpharosPokedexText, 256,   4,  256,  0
 	.string "FLOWER$", 12
@@ -385,7 +385,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "SEED$", 12
 	pokedex_entry   3,   18,	gSunkernPokedexText, 541,   0,  256,  0
 	.string "SUN$", 12
-	pokedex_entry   8,   85,   gSunfloraPokedexText, 444,  15,  256,  0
+	pokedex_entry   8,   85,   gSunfloraPokedexText, 444,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "CLEAR WING$", 12
 	pokedex_entry  12,  380,	  gYanmaPokedexText, 274,  -1,  256,  0
 	.string "WATER FISH$", 12
@@ -407,13 +407,13 @@ gPokedexEntries:: @ 856B5B0
 	.string "PATIENT$", 12
 	pokedex_entry  13,  285,  gWobbuffetPokedexText, 274,   4,  256,  0
 	.string "LONG NECK$", 12
-	pokedex_entry  15,  415,  gGirafarigPokedexText, 281,   1,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  415,  gGirafarigPokedexText, 281,   1,  256,  0
 	.string "BAGWORM$", 12
 	pokedex_entry   6,   72,	 gPinecoPokedexText, 445,   2,  256,  0
 	.string "BAGWORM$", 12
 	pokedex_entry  12, 1258, gForretressPokedexText, 293,   5,  256,  0
 	.string "LAND SNAKE$", 12
-	pokedex_entry  15,  140,  gDunsparcePokedexText, 316,  17,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  140,  gDunsparcePokedexText, 316,  17,  256,  0
 	.string "FLYSCORPION$", 12
 	pokedex_entry  11,  648,	 gGligarPokedexText, 350,  -1,  256,  0
 	.string "IRON SNAKE$", 12
@@ -429,7 +429,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "MOLD$", 12
 	pokedex_entry   6,  205,	gShucklePokedexText, 485,  18,  256,  0
 	.string "SINGLE HORN$", 12
-	pokedex_entry  15,  540,  gHeracrossPokedexText, 256,   0,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  540,  gHeracrossPokedexText, 256,   0,  256,  0
 	.string "SHARP CLAW$", 12
 	pokedex_entry   9,  280,	gSneaselPokedexText, 413,  -3,  256,  0
 	.string "LITTLE BEAR$", 12
@@ -437,15 +437,15 @@ gPokedexEntries:: @ 856B5B0
 	.string "HIBERNATOR$", 12
 	pokedex_entry  18, 1258,   gUrsaringPokedexText, 256,   0,  256,  0
 	.string "LAVA$", 12
-	pokedex_entry   7,  350,	 gSlugmaPokedexText, 329,  15,  256,  0
+	pokedex_entry   7,  350,	 gSlugmaPokedexText, 329,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "LAVA$", 12
-	pokedex_entry   8,  550,   gMagcargoPokedexText, 332,  15,  256,  0
+	pokedex_entry   8,  550,   gMagcargoPokedexText, 332,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "PIG$", 12
 	pokedex_entry   4,   65,	 gSwinubPokedexText, 324,  20,  256,  0
 	.string "SWINE$", 12
 	pokedex_entry  11,  558,  gPiloswinePokedexText, 306,  10,  256,  0
 	.string "CORAL$", 12
-	pokedex_entry   6,   50,	gCorsolaPokedexText, 410,  15,  256,  0
+	pokedex_entry   6,   50,	gCorsolaPokedexText, 410,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "JET$", 12
 	pokedex_entry   6,  120,   gRemoraidPokedexText, 316,   4,  256,  0
 	.string "JET$", 12
@@ -485,7 +485,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "MILK COW$", 12
 	pokedex_entry  12,  755,	gMiltankPokedexText, 280,   5,  256,  0
 	.string "HAPPINESS$", 12
-	pokedex_entry  15,  468,	gBlisseyPokedexText, 256,   4,  310,  3
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  468,	gBlisseyPokedexText, 256,   4,  310,  3
 	.string "THUNDER$", 12
 	pokedex_entry  19, 1780,	 gRaikouPokedexText, 256,   0,  345,  7
 	.string "VOLCANO$", 12
@@ -521,7 +521,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "MUD FISH$", 12
 	pokedex_entry   7,  280,  gMarshtompPokedexText, 340,   7,  256,  0
 	.string "MUD FISH$", 12
-	pokedex_entry  15,  819,   gSwampertPokedexText, 256,   0,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  819,   gSwampertPokedexText, 256,   0,  256,  0
 	.string "BITE$", 12
 	pokedex_entry   5,  136,  gPoochyenaPokedexText, 481,  19,  256,  0
 	.string "BITE$", 12
@@ -545,7 +545,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "JOLLY$", 12
 	pokedex_entry  12,  325,	 gLombrePokedexText, 277,   9,  256,  0
 	.string "CAREFREE$", 12
-	pokedex_entry  15,  550,   gLudicoloPokedexText, 256,   0,  268, -1
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  550,   gLudicoloPokedexText, 256,   0,  268, -1
 	.string "ACORN$", 12
 	pokedex_entry   5,   40,	 gSeedotPokedexText, 472,  20,  256,  0
 	.string "WILY$", 12
@@ -555,7 +555,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "TINYSWALLOW$", 12
 	pokedex_entry   3,   23,	gTaillowPokedexText, 465,  21,  256,  0
 	.string "SWALLOW$", 12
-	pokedex_entry   7,  198,	gSwellowPokedexText, 428,  15,  256,  0
+	pokedex_entry   7,  198,	gSwellowPokedexText, 428,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "SEAGULL$", 12
 	pokedex_entry   6,   95,	gWingullPokedexText, 295,  -2,  256,  0
 	.string "WATER BIRD$", 12
@@ -591,7 +591,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "BIG VOICE$", 12
 	pokedex_entry  10,  405,	gLoudredPokedexText, 356,  10,  256,  0
 	.string "LOUD NOISE$", 12
-	pokedex_entry  15,  840,	gExploudPokedexText, 284,   1,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  840,	gExploudPokedexText, 284,   1,  256,  0
 	.string "GUTS$", 12
 	pokedex_entry  10,  864,   gMakuhitaPokedexText, 256,  10,  256,  0
 	.string "ARM THRUST$", 12
@@ -619,9 +619,9 @@ gPokedexEntries:: @ 856B5B0
 	.string "MEDITATE$", 12
 	pokedex_entry  13,  315,   gMedichamPokedexText, 298,   5,  256,  0
 	.string "LIGHTNING$", 12
-	pokedex_entry   6,  152,  gElectrikePokedexText, 290,  15,  256,  0
+	pokedex_entry   6,  152,  gElectrikePokedexText, 290,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "DISCHARGE$", 12
-	pokedex_entry  15,  402,  gManectricPokedexText, 256,   3,  257,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  402,  gManectricPokedexText, 256,   3,  257,  0
 	.string "CHEERING$", 12
 	pokedex_entry   4,   42,	 gPluslePokedexText, 515,  -9,  256,  0
 	.string "CHEERING$", 12
@@ -689,15 +689,15 @@ gPokedexEntries:: @ 856B5B0
 	.string "CLAY DOLL$", 12
 	pokedex_entry   5,  215,	 gBaltoyPokedexText, 457,  21,  256,  0
 	.string "CLAY DOLL$", 12
-	pokedex_entry  15, 1080,	gClaydolPokedexText, 256,   3,  280,  1
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE, 1080,	gClaydolPokedexText, 256,   3,  280,  1
 	.string "SEA LILY$", 12
 	pokedex_entry  10,  238,	 gLileepPokedexText, 305,   8,  256,  0
 	.string "BARNACLE$", 12
-	pokedex_entry  15,  604,	gCradilyPokedexText, 267,   0,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  604,	gCradilyPokedexText, 267,   0,  256,  0
 	.string "OLD SHRIMP$", 12
 	pokedex_entry   7,  125,	gAnorithPokedexText, 296,   4,  256,  0
 	.string "PLATE$", 12
-	pokedex_entry  15,  682,	gArmaldoPokedexText, 312,   3,  271,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE,  682,	gArmaldoPokedexText, 312,   3,  271,  0
 	.string "FISH$", 12
 	pokedex_entry   6,   74,	 gFeebasPokedexText, 423,  -4,  256,  0
 	.string "TENDER$", 12
@@ -723,9 +723,9 @@ gPokedexEntries:: @ 856B5B0
 	.string "BRIGHT$", 12
 	pokedex_entry   6,  140,	 gWynautPokedexText, 484,  19,  256,  0
 	.string "SNOW HAT$", 12
-	pokedex_entry   7,  168,	gSnoruntPokedexText, 380,  15,  256,  0
+	pokedex_entry   7,  168,	gSnoruntPokedexText, 380,  BURGER_KING_FOOT_LETTUCE,  256,  0
 	.string "FACE$", 12
-	pokedex_entry  15, 2565,	 gGlaliePokedexText, 256,   3,  344,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE, 2565,	 gGlaliePokedexText, 256,   3,  344,  0
 	.string "CLAP$", 12
 	pokedex_entry   8,  395,	 gSphealPokedexText, 315,  16,  256,  0
 	.string "BALL ROLL$", 12
@@ -747,7 +747,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "ENDURANCE$", 12
 	pokedex_entry  11, 1105,	gShelgonPokedexText, 311,  12,  256,  0
 	.string "DRAGON$", 12
-	pokedex_entry  15, 1026,  gSalamencePokedexText, 256,   0,  256,  0
+	pokedex_entry  BURGER_KING_FOOT_LETTUCE, 1026,  gSalamencePokedexText, 256,   0,  256,  0
 	.string "IRON BALL$", 12
 	pokedex_entry   6,  952,	 gBeldumPokedexText, 414,  -1,  256,  0
 	.string "IRON CLAW$", 12

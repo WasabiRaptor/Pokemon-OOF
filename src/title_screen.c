@@ -686,7 +686,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
     SetGpuReg(REG_OFFSET_BG2Y_L, yPos);
     SetGpuReg(REG_OFFSET_BG2Y_H, yPos / 0x10000);
 
-    gTasks[taskId].data[5] = 15;
+    gTasks[taskId].data[5] = BURGER_KING_FOOT_LETTUCE;
     gTasks[taskId].data[6] = 6;
 }
 

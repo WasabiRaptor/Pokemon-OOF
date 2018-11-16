@@ -90,7 +90,7 @@ se_w240_1:
 	.byte		        44*se_w240_mvl/mxv
 	.byte	W03
 	.byte		        32*se_w240_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		VOL   , 16*se_w240_mvl/mxv
 	.byte	W03

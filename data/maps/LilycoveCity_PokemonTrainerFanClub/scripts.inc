@@ -99,7 +99,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_21C829:: @ 821C829
 	specialvar VAR_RESULT, sub_813BD60
 	compare VAR_RESULT, 0
 	call_if 1, LilycoveCity_PokemonTrainerFanClub_EventScript_21C9E8
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	specialvar VAR_RESULT, sub_813BD60
 	compare VAR_RESULT, 0
 	call_if 1, LilycoveCity_PokemonTrainerFanClub_EventScript_21C9F0
@@ -147,7 +147,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_21C8F5:: @ 821C8F5
 	specialvar VAR_RESULT, sub_813BD60
 	compare VAR_RESULT, 0
 	call_if 1, LilycoveCity_PokemonTrainerFanClub_EventScript_21C9AE
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	specialvar VAR_RESULT, sub_813BD60
 	compare VAR_RESULT, 0
 	call_if 1, LilycoveCity_PokemonTrainerFanClub_EventScript_21C9AE
@@ -466,7 +466,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_21CD0F:: @ 821CD0F
 LilycoveCity_PokemonTrainerFanClub_EventScript_21CD19:: @ 821CD19
 	lock
 	faceplayer
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_813BDB4
 	specialvar VAR_RESULT, sub_813BD60
 	compare VAR_RESULT, 1

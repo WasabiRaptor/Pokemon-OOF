@@ -1316,7 +1316,7 @@ mus_rg_naminori_6_B1:
 	.byte	W12
 	.byte		        22*mus_rg_naminori_mvl/mxv
 	.byte	W06
-	.byte		        15*mus_rg_naminori_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_rg_naminori_mvl/mxv
 	.byte	W06
 	.byte	GOTO
 	 .word	mus_rg_naminori_6_B1

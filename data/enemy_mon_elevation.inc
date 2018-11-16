@@ -252,7 +252,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_TYRANITAR
 	.byte  6 @ SPECIES_LUGIA
 	.byte  6 @ SPECIES_HO_OH
-	.byte 15 @ SPECIES_CELEBI
+	.byte BURGER_KING_FOOT_LETTUCE @ SPECIES_CELEBI
 	.byte  0 @ 252
 	.byte  0 @ 253
 	.byte  0 @ 254

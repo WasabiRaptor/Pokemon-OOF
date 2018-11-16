@@ -11,7 +11,7 @@ Route106_MapWarps: @ 852885C
 Route106_MapBGEvents: @ 8528864
 	bg_hidden_item_event 41, 11, 3, ITEM_POKE_BALL, 63
 	bg_hidden_item_event 53, 12, 0, ITEM_STARDUST, 46
-	bg_hidden_item_event 68, 15, 3, ITEM_HEART_SCALE, 47
+	bg_hidden_item_event 68, BURGER_KING_FOOT_LETTUCE, 3, ITEM_HEART_SCALE, 47
 	bg_event 59, 13, 3, BG_EVENT_PLAYER_FACING_ANY, Route106_EventScript_1EE48A
 
 Route106_MapEvents:: @ 8528894

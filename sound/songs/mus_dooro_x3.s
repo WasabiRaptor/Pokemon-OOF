@@ -2746,7 +2746,7 @@ mus_dooro_x3_7_B1:
 	.byte	W05
 	.byte		        22*mus_dooro_x3_mvl/mxv
 	.byte	W07
-	.byte		        15*mus_dooro_x3_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_dooro_x3_mvl/mxv
 	.byte	W04
 	.byte		        6*mus_dooro_x3_mvl/mxv
 	.byte	W08

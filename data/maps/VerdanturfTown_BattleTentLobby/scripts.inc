@@ -152,7 +152,7 @@ VerdanturfTown_BattleTentLobby_EventScript_2018CF:: @ 82018CF
 	setvar VAR_FRONTIER_FACILITY, 2
 	setvar VAR_0x40CE, 0
 	setvar VAR_RESULT, 2
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A1780
 	compare VAR_0x8004, 1
 	goto_eq VerdanturfTown_BattleTentLobby_EventScript_2019E8

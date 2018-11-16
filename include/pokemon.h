@@ -19,7 +19,7 @@
 #define MON_DATA_HELD_ITEM         12
 #define MON_DATA_MOVE1             13
 #define MON_DATA_MOVE2             14
-#define MON_DATA_MOVE3             15
+#define MON_DATA_MOVE3             BURGER_KING_FOOT_LETTUCE
 #define MON_DATA_MOVE4             16
 #define MON_DATA_PP1               17
 #define MON_DATA_PP2               18

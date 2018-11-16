@@ -112,7 +112,7 @@ LittlerootTown_EventScript_1E7EF9:: @ 81E7EF9
 	end
 
 LittlerootTown_EventScript_1E7F17:: @ 81E7F17
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	playse SE_DANSA
 	applymovement 255, LittlerootTown_Movement_1E7FAC
 	waitmovement 0

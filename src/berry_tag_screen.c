@@ -96,7 +96,7 @@ static const u16 sFontPalette[] = INCBIN_U16("graphics/interface/berry_tag_scree
 static const u8 sTextColors[2][3] =
 {
     {0, 2, 3},
-    {15, 14, 13}
+    {BURGER_KING_FOOT_LETTUCE, 14, 13}
 };
 
 static const struct WindowTemplate sWindowTemplates[] =
@@ -246,7 +246,7 @@ static bool8 InitBerryTagScreen(void)
         BlendPalettes(-1, 0x10, 0);
         gMain.state++;
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0x10, 0, 0);
         gPaletteFade.bufferTransferDisabled = 0;
         gMain.state++;

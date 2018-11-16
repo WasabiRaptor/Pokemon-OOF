@@ -274,7 +274,7 @@ mus_kazanbai_2_004:
 	.byte	W03
 	.byte		        17*mus_kazanbai_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W03
@@ -391,7 +391,7 @@ mus_kazanbai_2_004:
 	.byte	W03
 	.byte		        17*mus_kazanbai_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W03
@@ -704,7 +704,7 @@ mus_kazanbai_2_004:
 	.byte	W03
 	.byte		        17*mus_kazanbai_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W02
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W03
@@ -1548,7 +1548,7 @@ mus_kazanbai_4:
 	.byte		LFOS  , 44
 	.byte		BENDR , 12
 	.byte		VOL   , 82*mus_kazanbai_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W12
 mus_kazanbai_4_B1:
 	.byte	W72
@@ -3653,9 +3653,9 @@ mus_kazanbai_9_004:
 	.byte	W04
 	.byte		        18*mus_kazanbai_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W04
@@ -3777,9 +3777,9 @@ mus_kazanbai_9_008:
 	.byte	W04
 	.byte		        18*mus_kazanbai_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W04
@@ -3880,9 +3880,9 @@ mus_kazanbai_9_008:
 	.byte	W04
 	.byte		        18*mus_kazanbai_mvl/mxv
 	.byte	W02
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte	W03
 	.byte		        11*mus_kazanbai_mvl/mxv
 	.byte	W04
@@ -3968,7 +3968,7 @@ mus_kazanbai_9_008:
 	.byte	W03
 	.byte		        17*mus_kazanbai_mvl/mxv
 	.byte	W04
-	.byte		        15*mus_kazanbai_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_kazanbai_mvl/mxv
 	.byte		MOD   , 0
 	.byte	W05
 	.byte		VOL   , 13*mus_kazanbai_mvl/mxv

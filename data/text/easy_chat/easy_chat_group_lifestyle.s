@@ -300,7 +300,7 @@ gEasyChatGroup_Lifestyle:: @ 859B744
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Life
-	.4byte 15 @ alphabetical order
+	.4byte BURGER_KING_FOOT_LETTUCE @ alphabetical order
 	.4byte TRUE @ enabled
 
 	.4byte gEasyChatWord_Radio

@@ -1276,7 +1276,7 @@
 	.endm
 	
 	.macro various15 bank
-	various \bank, 15
+	various \bank, BURGER_KING_FOOT_LETTUCE
 	.endm
 	
 	.macro various16 bank

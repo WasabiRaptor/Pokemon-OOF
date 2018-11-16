@@ -48,7 +48,7 @@ FortreeCity_DecorationShop_PokemartDecor_218064: @ 8218064
 	.2byte 10
 	.2byte 11
 	.2byte 12
-	.2byte 15
+	.2byte BURGER_KING_FOOT_LETTUCE
 	.2byte 14
 	.2byte 16
 	.2byte 17

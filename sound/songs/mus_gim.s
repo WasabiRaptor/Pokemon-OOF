@@ -1164,7 +1164,7 @@ mus_gim_5:
 	.byte		VOL   , 80*mus_gim_mvl/mxv
 	.byte	KEYSH , mus_gim_key+0
 mus_gim_5_B1:
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W96
 	.byte	W96
 	.byte		VOICE , 56

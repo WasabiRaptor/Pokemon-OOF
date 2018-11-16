@@ -22,7 +22,7 @@ se_rg_excellent_1:
 	.byte		VOL   , 110*se_rg_excellent_mvl/mxv
 	.byte		BENDR , 2
 	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		N02   , Dn6 , v112
 	.byte	W02
@@ -50,7 +50,7 @@ se_rg_excellent_1:
 	.byte	W01
 	.byte		        Dn4 , v088
 	.byte	W02
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		N02   , Dn6 
 	.byte	W02
@@ -86,7 +86,7 @@ se_rg_excellent_2:
 	.byte		VOICE , 53
 	.byte		BENDR , 2
 	.byte		VOL   , 43*se_rg_excellent_mvl/mxv
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N02   , An6 , v112
 	.byte	W02
 	.byte		        Fs6 

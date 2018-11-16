@@ -51,7 +51,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     339,  // Barboach
     153,  // Bayleef
     267,  // Beautifly
-     15,  // Beedrill
+     BURGER_KING_FOOT_LETTUCE,  // Beedrill
     374,  // Beldum
     182,  // Bellossom
      69,  // Bellsprout
@@ -613,7 +613,7 @@ const u16 gPokedexOrder_Weight[] =
     134,  // Vaporeon
      28,  // Sandslash
      47,  // Parasect
-     15,  // Beedrill
+     BURGER_KING_FOOT_LETTUCE,  // Beedrill
      89,  // Muk
      17,  // Pidgeotto
      88,  // Grimer
@@ -1008,7 +1008,7 @@ const u16 gPokedexOrder_Height[] =
     345,  // Lileep
      61,  // Poliwhirl
     134,  // Vaporeon
-     15,  // Beedrill
+     BURGER_KING_FOOT_LETTUCE,  // Beedrill
     105,  // Marowak
      70,  // Weepinbell
     369,  // Relicanth

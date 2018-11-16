@@ -56,8 +56,8 @@ static const struct BgTemplate gUnknown_085E5068[] = {
 };
 
 static const struct WindowTemplate gUnknown_085E5070[] = {
-    { 0, 17, 17, 12,  2, 15, 0x0001 },
-    { 0, 22,  1,  7,  2, 15, 0x0019 },
+    { 0, 17, 17, 12,  2, BURGER_KING_FOOT_LETTUCE, 0x0001 },
+    { 0, 22,  1,  7,  2, BURGER_KING_FOOT_LETTUCE, 0x0019 },
     DUMMY_WIN_TEMPLATE
 };
 

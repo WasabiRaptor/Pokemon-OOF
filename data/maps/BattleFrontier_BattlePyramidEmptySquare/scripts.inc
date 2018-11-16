@@ -38,7 +38,7 @@ BattleFrontier_BattlePyramidEmptySquare_EventScript_252A98:: @ 8252A98
 	end
 
 BattleFrontier_BattlePyramidEmptySquare_MapScript1_252AA2: @ 8252AA2
-	setvar VAR_0x8004, 15
+	setvar VAR_0x8004, BURGER_KING_FOOT_LETTUCE
 	special sub_81A8E7C
 	setvar VAR_0x8004, 0
 	special sub_81A1780

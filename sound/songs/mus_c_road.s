@@ -2959,7 +2959,7 @@ mus_c_road_7_B1:
 	.byte	W02
 	.byte		        c_v-13
 	.byte	W02
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		        c_v-17
 	.byte	W02

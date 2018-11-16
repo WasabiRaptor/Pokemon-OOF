@@ -75,7 +75,7 @@ BattleFrontier_BattleTowerBattleRoom2_EventScript_248FB4:: @ 8248FB4
 	setvar VAR_0x8004, 7
 	setvar VAR_0x8005, 0
 	special sub_8161F74
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	applymovement 1, BattleFrontier_BattleTowerBattleRoom2_Movement_249545
 	waitmovement 0
 	msgbox 0x2021fc4, 4
@@ -93,7 +93,7 @@ BattleFrontier_BattleTowerBattleRoom2_EventScript_249026:: @ 8249026
 	setvar VAR_0x8004, 7
 	setvar VAR_0x8005, 0
 	special sub_8161F74
-	delay 15
+	delay BURGER_KING_FOOT_LETTUCE
 	applymovement 1, BattleFrontier_BattleTowerBattleRoom2_Movement_249545
 	waitmovement 0
 	messageautoscroll 0x2021fc4

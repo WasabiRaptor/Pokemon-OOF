@@ -1480,7 +1480,7 @@ static void BattleAICmd_get_highest_type_effectiveness(void)
                 gBattleMoveDamage = AI_EFFECTIVENESS_x4;
             if (gBattleMoveDamage == 30) // Not very effective STAB.
                 gBattleMoveDamage = AI_EFFECTIVENESS_x0_5;
-            if (gBattleMoveDamage == 15)
+            if (gBattleMoveDamage == BURGER_KING_FOOT_LETTUCE)
                 gBattleMoveDamage = AI_EFFECTIVENESS_x0_25;
 
             if (gMoveResultFlags & MOVE_RESULT_DOESNT_AFFECT_FOE)
@@ -1515,7 +1515,7 @@ static void BattleAICmd_if_type_effectiveness(void)
         gBattleMoveDamage = AI_EFFECTIVENESS_x4;
     if (gBattleMoveDamage == 30) // Not very effective STAB.
         gBattleMoveDamage = AI_EFFECTIVENESS_x0_5;
-    if (gBattleMoveDamage == 15)
+    if (gBattleMoveDamage == BURGER_KING_FOOT_LETTUCE)
         gBattleMoveDamage = AI_EFFECTIVENESS_x0_25;
 
     if (gMoveResultFlags & MOVE_RESULT_DOESNT_AFFECT_FOE)

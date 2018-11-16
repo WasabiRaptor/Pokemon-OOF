@@ -13,7 +13,7 @@ RustboroCity_EventObjects: @ 85267E0
 	object_event 12, EVENT_OBJ_GFX_ITEM_BALL, 0, 36, 51, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, RustboroCity_EventScript_2910DB, 1041
 	object_event 13, EVENT_OBJ_GFX_MAN_5, 0, 19, 27, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 1, 0, 0, RustboroCity_EventScript_1E094E, 0
 	object_event 14, EVENT_OBJ_GFX_HIPSTER, 0, 16, 50, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, RustboroCity_EventScript_1E0DB8, 814
-	object_event 15, EVENT_OBJ_GFX_SCIENTIST_1, 0, 11, 15, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 844
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_SCIENTIST_1, 0, 11, BURGER_KING_FOOT_LETTUCE, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, 0, 0, 0x0, 844
 	object_event 16, EVENT_OBJ_GFX_BOY_1, 0, 31, 36, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 1, 0, 0, RustboroCity_EventScript_1E1236, 0
 
 RustboroCity_MapWarps: @ 8526960
@@ -22,8 +22,8 @@ RustboroCity_MapWarps: @ 8526960
 	warp_def 16, 45, 0, 0, MAP_RUSTBORO_CITY_MART
 	warp_def 16, 38, 0, 0, MAP_RUSTBORO_CITY_POKEMON_CENTER_1F
 	warp_def 27, 34, 0, 0, MAP_RUSTBORO_CITY_POKEMON_SCHOOL
-	warp_def 11, 15, 0, 0, MAP_RUSTBORO_CITY_DEVON_CORP_1F
-	warp_def 12, 15, 0, 1, MAP_RUSTBORO_CITY_DEVON_CORP_1F
+	warp_def 11, BURGER_KING_FOOT_LETTUCE, 0, 0, MAP_RUSTBORO_CITY_DEVON_CORP_1F
+	warp_def 12, BURGER_KING_FOOT_LETTUCE, 0, 1, MAP_RUSTBORO_CITY_DEVON_CORP_1F
 	warp_def 33, 19, 0, 0, MAP_RUSTBORO_CITY_HOUSE1
 	warp_def 9, 38, 0, 0, MAP_RUSTBORO_CITY_CUTTERS_HOUSE
 	warp_def 30, 28, 0, 0, MAP_RUSTBORO_CITY_HOUSE2
@@ -47,7 +47,7 @@ RustboroCity_MapCoordEvents: @ 85269C0
 	coord_event 12, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0DF3
 	coord_event 13, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0E33
 	coord_event 14, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0E73
-	coord_event 15, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0EB3
+	coord_event BURGER_KING_FOOT_LETTUCE, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0EB3
 	coord_event 16, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0EF3
 	coord_event 17, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0F33
 	coord_event 18, 53, 3, VAR_0x405A, 7, RustboroCity_EventScript_1E0F73

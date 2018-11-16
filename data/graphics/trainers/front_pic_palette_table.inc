@@ -15,7 +15,7 @@ gTrainerFrontPicPaletteTable:: @ 830593C
 	obj_pal gTrainerPalette_AquaAdminF, 12
 	obj_pal gTrainerPalette_AquaLeaderArchie, 13
 	obj_pal gTrainerPalette_HexManiac, 14
-	obj_pal gTrainerPalette_AromaLady, 15
+	obj_pal gTrainerPalette_AromaLady, BURGER_KING_FOOT_LETTUCE
 	obj_pal gTrainerPalette_RuinManiac, 16
 	obj_pal gTrainerPalette_Interviewer, 17
 	obj_pal gTrainerPalette_TuberF, 18

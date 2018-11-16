@@ -18,7 +18,7 @@
 ph_kit_blend_1:
 	.byte	KEYSH , ph_kit_blend_key+0
 	.byte	TEMPO , 120*ph_kit_blend_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 127*ph_kit_blend_mvl/mxv
 	.byte		N54   , Cn3 , v127
 	.byte	W54

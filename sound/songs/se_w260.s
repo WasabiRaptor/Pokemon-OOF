@@ -47,7 +47,7 @@ se_w260_1:
 	.byte	W01
 	.byte		VOL   , 22*se_w260_mvl/mxv
 	.byte		PAN   , c_v-12
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte	FINE
 

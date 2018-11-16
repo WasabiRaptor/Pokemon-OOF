@@ -339,7 +339,7 @@ mus_rg_vs_deo_1_B1:
 	.byte	W03
 	.byte		        c_v-13
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W03
 	.byte		VOL   , 54*mus_rg_vs_deo_mvl/mxv
 	.byte		PAN   , c_v-24
@@ -397,7 +397,7 @@ mus_rg_vs_deo_1_B1:
 	.byte	W03
 	.byte		        c_v-61
 	.byte	W03
-	.byte		VOL   , 15*mus_rg_vs_deo_mvl/mxv
+	.byte		VOL   , BURGER_KING_FOOT_LETTUCE*mus_rg_vs_deo_mvl/mxv
 	.byte		BEND  , c_v-62
 	.byte	W03
 	.byte		        c_v-64
@@ -571,7 +571,7 @@ mus_rg_vs_deo_1_B1:
 	.byte	W02
 	.byte		PAN   , c_v+39
 	.byte	W01
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		PAN   , c_v+37
 	.byte	W01
@@ -684,7 +684,7 @@ mus_rg_vs_deo_1_B1:
 	.byte	W02
 	.byte		PAN   , c_v-9
 	.byte	W01
-	.byte		BEND  , c_v-15
+	.byte		BEND  , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W02
 	.byte		PAN   , c_v-11
 	.byte	W01
@@ -5265,7 +5265,7 @@ mus_rg_vs_deo_8_B1:
 	.byte	W96
 	.byte	W96
 	.byte		VOL   , 80*mus_rg_vs_deo_mvl/mxv
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N48   , Fn3 , v116
 	.byte	W24
 	.byte		VOL   , 70*mus_rg_vs_deo_mvl/mxv

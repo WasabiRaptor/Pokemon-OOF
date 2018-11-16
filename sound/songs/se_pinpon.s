@@ -18,7 +18,7 @@
 se_pinpon_1:
 	.byte	KEYSH , se_pinpon_key+0
 	.byte	TEMPO , 150*se_pinpon_tbs/2
-	.byte		VOICE , 15
+	.byte		VOICE , BURGER_KING_FOOT_LETTUCE
 	.byte		BENDR , 2
 	.byte		VOL   , 90*se_pinpon_mvl/mxv
 	.byte		BEND  , c_v+1
@@ -31,7 +31,7 @@ se_pinpon_1:
 	.byte	W03
 	.byte	W03
 	.byte	W03
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N36   , Bn3 
 	.byte	W03
 	.byte	W03
@@ -64,7 +64,7 @@ se_pinpon_2:
 	.byte	W03
 	.byte	W03
 	.byte	W03
-	.byte		BEND  , c_v+15
+	.byte		BEND  , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		N36   , Bn3 
 	.byte	W03
 	.byte	W03

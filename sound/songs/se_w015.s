@@ -43,7 +43,7 @@ se_w015_1:
 	.byte		BEND  , c_v+0
 	.byte		N09   , Cn5 , v092
 	.byte	W03
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v-32
 	.byte	W03
 	.byte		PAN   , c_v+0
@@ -61,10 +61,10 @@ se_w015_1:
 	.byte		PAN   , c_v-5
 	.byte		BEND  , c_v+30
 	.byte	W03
-	.byte		PAN   , c_v+15
+	.byte		PAN   , c_v+BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v+39
 	.byte	W03
-	.byte		PAN   , c_v-15
+	.byte		PAN   , c_v-BURGER_KING_FOOT_LETTUCE
 	.byte		BEND  , c_v+54
 	.byte	W03
 	.byte		PAN   , c_v+0

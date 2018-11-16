@@ -13,7 +13,7 @@ Route111_EventObjects::
 	object_event 12, EVENT_OBJ_GFX_PICNICKER, 0, 32, 66, 3, MOVEMENT_TYPE_ROTATE_CLOCKWISE, 0, 0, 1, 3, Route111_EventScript_1F1249, 0
 	object_event 13, EVENT_OBJ_GFX_CAMERAMAN, 0, 14, 86, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, Route111_EventScript_28CDF6, 796
 	object_event 14, EVENT_OBJ_GFX_REPORTER_F, 0, 13, 86, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, Route111_EventScript_28CDD6, 796
-	object_event 15, EVENT_OBJ_GFX_BREAKABLE_ROCK, 0, 18, 101, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route111_EventScript_2907A6, 17
+	object_event BURGER_KING_FOOT_LETTUCE, EVENT_OBJ_GFX_BREAKABLE_ROCK, 0, 18, 101, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route111_EventScript_2907A6, 17
 	object_event 16, EVENT_OBJ_GFX_BREAKABLE_ROCK, 0, 19, 100, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route111_EventScript_2907A6, 18
 	object_event 17, EVENT_OBJ_GFX_GIRL_1, 0, 23, 8, 3, MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT, 1, 0, 0, 0, Route111_EventScript_1F0EB9, 0
 	object_event 18, EVENT_OBJ_GFX_ITEM_BALL, 0, 33, 104, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, Route111_EventScript_290D9B, 1008
@@ -83,7 +83,7 @@ Route111_MapCoordEvents::
 	coord_event 14, 62, 3, 0, 0, Route111_EventScript_1F0FBD
 	coord_event 17, 38, 3, 0, 0, Route111_EventScript_1F0FBD
 	coord_event 16, 39, 3, 0, 0, Route111_EventScript_1F0FBD
-	coord_event 15, 40, 3, 0, 0, Route111_EventScript_1F0FBD
+	coord_event BURGER_KING_FOOT_LETTUCE, 40, 3, 0, 0, Route111_EventScript_1F0FBD
 	coord_event 14, 41, 3, 0, 0, Route111_EventScript_1F0FBD
 	coord_event 13, 42, 3, 0, 0, Route111_EventScript_1F0FBD
 	coord_event 12, 43, 3, 0, 0, Route111_EventScript_1F0FBD

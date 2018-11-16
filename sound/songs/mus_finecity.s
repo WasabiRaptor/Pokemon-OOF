@@ -1680,7 +1680,7 @@ mus_finecity_4_B1:
 	.byte	W07
 	.byte		        16*mus_finecity_mvl/mxv
 	.byte	W05
-	.byte		        15*mus_finecity_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_finecity_mvl/mxv
 	.byte	W07
 	.byte		        13*mus_finecity_mvl/mxv
 	.byte	W05

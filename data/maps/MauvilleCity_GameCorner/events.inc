@@ -30,11 +30,11 @@ MauvilleCity_GameCorner_MapBGEvents: @ 8530058
 	bg_event 8, 7, 0, BG_EVENT_PLAYER_FACING_WEST, MauvilleCity_GameCorner_EventScript_210416
 	bg_event 8, 9, 0, BG_EVENT_PLAYER_FACING_WEST, MauvilleCity_GameCorner_EventScript_210436
 	bg_event 14, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
-	bg_event 15, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
+	bg_event BURGER_KING_FOOT_LETTUCE, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
 	bg_event 14, 7, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
-	bg_event 15, 7, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
+	bg_event BURGER_KING_FOOT_LETTUCE, 7, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
 	bg_event 14, 8, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
-	bg_event 15, 8, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
+	bg_event BURGER_KING_FOOT_LETTUCE, 8, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5AB1
 	bg_event 18, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5ADF
 	bg_event 19, 6, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5ADF
 	bg_event 18, 7, 0, BG_EVENT_PLAYER_FACING_ANY, MauvilleCity_GameCorner_EventScript_2A5ADF

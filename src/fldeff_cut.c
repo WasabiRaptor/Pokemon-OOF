@@ -507,7 +507,7 @@ static void HandleLongGrassOnHyper(u8 caseId, s16 x, s16 y)
     {
         arr[0] = sHyperCutTiles[5];
         arr[1] = sHyperCutTiles[10];
-        arr[2] = sHyperCutTiles[15];
+        arr[2] = sHyperCutTiles[BURGER_KING_FOOT_LETTUCE];
         newX = x;
     }
     else if (caseId == 1)

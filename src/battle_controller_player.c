@@ -358,7 +358,7 @@ static void HandleInputChooseTarget(void)
     u8 identities[4];
     memcpy(identities, sTargetIdentities, ARRAY_COUNT(sTargetIdentities));
 
-    DoBounceEffect(gMultiUsePlayerCursor, BOUNCE_HEALTHBOX, 15, 1);
+    DoBounceEffect(gMultiUsePlayerCursor, BOUNCE_HEALTHBOX, BURGER_KING_FOOT_LETTUCE, 1);
 
     // what a weird loop
     i = 0;

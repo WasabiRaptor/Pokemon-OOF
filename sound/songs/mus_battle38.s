@@ -19,7 +19,7 @@ mus_battle38_1:
 	.byte	KEYSH , mus_battle38_key+0
 	.byte	TEMPO , 214*mus_battle38_tbs/2
 	.byte		VOICE , 60
-	.byte		LFOS  , 15
+	.byte		LFOS  , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 80*mus_battle38_mvl/mxv
 	.byte		PAN   , c_v+10
 	.byte		N12   , An3 , v108
@@ -314,7 +314,7 @@ mus_battle38_1_B1:
 mus_battle38_2:
 	.byte	KEYSH , mus_battle38_key+0
 	.byte		VOICE , 48
-	.byte		LFOS  , 15
+	.byte		LFOS  , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 80*mus_battle38_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N12   , Dn4 , v108
@@ -512,7 +512,7 @@ mus_battle38_2_B1:
 	.byte	W09
 	.byte		        25*mus_battle38_mvl/mxv
 	.byte	W09
-	.byte		        15*mus_battle38_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*mus_battle38_mvl/mxv
 	.byte	W09
 	.byte		        7*mus_battle38_mvl/mxv
 	.byte	W09
@@ -1086,7 +1086,7 @@ mus_battle38_4:
 	.byte		VOICE , 80
 	.byte		XCMD  , xIECV , 10
 	.byte		        xIECL , 8
-	.byte		LFOS  , 15
+	.byte		LFOS  , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 80*mus_battle38_mvl/mxv
 	.byte		PAN   , c_v-48
 	.byte		N12   , Dn3 , v060
@@ -1448,7 +1448,7 @@ mus_battle38_5:
 	.byte		VOICE , 82
 	.byte		XCMD  , xIECV , 10
 	.byte		        xIECL , 8
-	.byte		LFOS  , 15
+	.byte		LFOS  , BURGER_KING_FOOT_LETTUCE
 	.byte		VOL   , 80*mus_battle38_mvl/mxv
 	.byte		PAN   , c_v+48
 	.byte		BEND  , c_v+0

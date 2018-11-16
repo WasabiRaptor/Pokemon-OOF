@@ -13,7 +13,7 @@ TrainerHill_Elevator_EventScript_269360:: @ 8269360
 	applymovement 255, TrainerHill_Elevator_Movement_2693EB
 	waitmovement 0
 	releaseall
-	warp MAP_TRAINER_HILL_ROOF, 255, 15, 5
+	warp MAP_TRAINER_HILL_ROOF, 255, BURGER_KING_FOOT_LETTUCE, 5
 	waitstate
 	end
 

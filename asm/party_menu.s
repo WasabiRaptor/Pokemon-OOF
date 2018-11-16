@@ -12791,7 +12791,7 @@ ItemIdToBattleMoveId: @ 81B6CFC
 	ldr r1, =0xfedf0000
 	adds r0, r1
 	ldr r1, =gUnknown_08616040
-	lsrs r0, 15
+	lsrs r0, BURGER_KING_FOOT_LETTUCE
 	adds r0, r1
 	ldrh r0, [r0]
 	bx lr

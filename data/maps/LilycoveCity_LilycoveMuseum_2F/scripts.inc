@@ -46,7 +46,7 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_2197A3:: @ 82197A3
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_2197BB:: @ 82197BB
 	setmetatile 14, 10, 608, 1
-	setmetatile 15, 10, 609, 1
+	setmetatile BURGER_KING_FOOT_LETTUCE, 10, 609, 1
 	goto LilycoveCity_LilycoveMuseum_2F_EventScript_219772
 	end
 

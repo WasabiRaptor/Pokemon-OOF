@@ -46,7 +46,7 @@ se_exp_1:
 	.byte	W02
 	.byte		        c_v+38
 	.byte	W01
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		VOL   , 50*se_exp_mvl/mxv
 	.byte		BEND  , c_v+1
@@ -105,7 +105,7 @@ se_exp_1:
 	.byte		VOL   , 56*se_exp_mvl/mxv
 	.byte		BEND  , c_v+16
 	.byte	W01
-	.byte		        c_v+15
+	.byte		        c_v+BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		        c_v+14
 	.byte	W01

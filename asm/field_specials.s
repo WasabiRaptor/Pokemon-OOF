@@ -3976,7 +3976,7 @@ _08139CCA:
 	movs r1, 0x3
 	bl __modsi3
 	lsls r0, 16
-	asrs r0, 15
+	asrs r0, BURGER_KING_FOOT_LETTUCE
 	add r0, r9
 	add r0, r10
 	ldrh r0, [r0]
@@ -4020,7 +4020,7 @@ _08139D26:
 	movs r1, 0x3
 	bl __modsi3
 	lsls r0, 16
-	asrs r0, 15
+	asrs r0, BURGER_KING_FOOT_LETTUCE
 	add r0, r9
 	add r0, r10
 	ldrh r0, [r0]

@@ -136,7 +136,7 @@ LilycoveCity_ContestHall_EventScript_21B5AF:: @ 821B5AF
 	faceplayer
 	msgbox LilycoveCity_ContestHall_Text_21BE77, 4
 	closemessage
-	applymovement 15, LilycoveCity_ContestHall_Movement_2725A2
+	applymovement BURGER_KING_FOOT_LETTUCE, LilycoveCity_ContestHall_Movement_2725A2
 	waitmovement 0
 	release
 	end

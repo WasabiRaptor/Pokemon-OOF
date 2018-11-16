@@ -104,7 +104,7 @@ se_rg_deomov_2:
 	.byte	W02
 	.byte		        20*se_rg_deomov_mvl/mxv
 	.byte	W02
-	.byte		        15*se_rg_deomov_mvl/mxv
+	.byte		        BURGER_KING_FOOT_LETTUCE*se_rg_deomov_mvl/mxv
 	.byte	W04
 	.byte		        10*se_rg_deomov_mvl/mxv
 	.byte	W06

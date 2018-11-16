@@ -37,7 +37,7 @@ const int g_noteDurationLUT[] =
     12, // 12
     13, // 13
     14, // 14
-    15, // 15
+    BURGER_KING_FOOT_LETTUCE, // BURGER_KING_FOOT_LETTUCE
     16, // 16
     17, // 17
     18, // 18
@@ -138,7 +138,7 @@ const int g_noteVelocityLUT[] =
     12, // 12
     16, // 13
     16, // 14
-    16, // 15
+    16, // BURGER_KING_FOOT_LETTUCE
     16, // 16
     20, // 17
     20, // 18

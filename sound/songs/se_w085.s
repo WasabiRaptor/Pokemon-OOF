@@ -47,7 +47,7 @@ se_w085_1:
 	.byte	W03
 	.byte		PAN   , c_v-8
 	.byte	W03
-	.byte		        c_v-15
+	.byte		        c_v-BURGER_KING_FOOT_LETTUCE
 	.byte	W01
 	.byte		BEND  , c_v-13
 	.byte	W02

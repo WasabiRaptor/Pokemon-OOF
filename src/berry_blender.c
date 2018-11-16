@@ -1268,7 +1268,7 @@ static void sub_8080018(void)
         }
         sub_8082CB4(&sBerryBlenderData->bgAffineSrc);
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (sub_8083380())
         {
             sBerryBlenderData->framesToWait = 0;
@@ -1554,7 +1554,7 @@ static void sub_80808D4(void)
         }
         sub_8082CB4(&sBerryBlenderData->bgAffineSrc);
         break;
-    case 15:
+    case BURGER_KING_FOOT_LETTUCE:
         if (sub_8083380())
         {
             sBerryBlenderData->mainState++;
